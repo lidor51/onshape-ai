@@ -1,0 +1,1555 @@
+{
+  "schema": "subsystem-ab-api-v3-preparation/1",
+  "status": "BLOCKED_NATIVE_PILOT_AND_FROZEN_V3_REQUIRED",
+  "mode": "OFFLINE_PREPARATION",
+  "credentialsLoaded": false,
+  "authenticatedRequestsThisInvocation": 0,
+  "fullModelUploadAllowed": false,
+  "newDocumentAllowed": false,
+  "frozenV3ReadThisInvocation": false,
+  "spent": 23,
+  "limit": 140,
+  "remaining": 117,
+  "successfulRequests": 23,
+  "attempts": [
+    {
+      "sequence": 1,
+      "key": "create-document",
+      "phase": "pilotAndOwnership",
+      "operation": "createDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 2,
+      "key": "public-visibility-1",
+      "phase": "pilotAndOwnership",
+      "operation": "getDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 3,
+      "key": "owned-elements",
+      "phase": "pilotAndOwnership",
+      "operation": "getElementsInDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 4,
+      "key": "pilot-native-specs",
+      "phase": "nativePilot",
+      "operation": "getFeatureSpecs",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 5,
+      "key": "pilot-source-studio",
+      "phase": "nativePilot",
+      "operation": "createFeatureStudio",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 6,
+      "key": "pilot-source-initial",
+      "phase": "nativePilot",
+      "operation": "getFeatureStudioContents",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 7,
+      "key": "pilot-source-upload",
+      "phase": "nativePilot",
+      "operation": "updateFeatureStudioContents",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 8,
+      "key": "pilot-source-specs",
+      "phase": "nativePilot",
+      "operation": "getFeatureStudioSpecs",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 9,
+      "key": "pilot-source-feature",
+      "phase": "nativePilot",
+      "operation": "addPartStudioFeature",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 10,
+      "key": "pilot-parts",
+      "phase": "nativePilot",
+      "operation": "getPartsWMVE",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 11,
+      "key": "pilot-native-base",
+      "phase": "nativePilot",
+      "operation": "getFeatures",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 12,
+      "key": "pilot-instances",
+      "phase": "nativePilot",
+      "operation": "insertTransformedInstances",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 13,
+      "key": "pilot-instance-readback",
+      "phase": "nativePilot",
+      "operation": "getAssemblyDefinition",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 14,
+      "key": "pilot-ground",
+      "phase": "nativePilot",
+      "operation": "addFeature",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 15,
+      "key": "pilot-ground-diagnostic",
+      "phase": "nativePilot",
+      "operation": "getAssemblyDefinition",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 16,
+      "key": "pilot-independent-revolute",
+      "phase": "nativePilot",
+      "operation": "addFeature",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 17,
+      "key": "pilot-mate-values-before",
+      "phase": "nativePilot",
+      "operation": "getMateValues",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 18,
+      "key": "pilot-motion-upper-limit-command",
+      "phase": "nativePilot",
+      "operation": "updateMateValues",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 19,
+      "key": "pilot-reopened-motion-readback",
+      "phase": "nativePilot",
+      "operation": "getAssemblyDefinition",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 20,
+      "key": "pilot-repair-visibility",
+      "phase": "nativePilotRepair",
+      "operation": "getDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 21,
+      "key": "pilot-repair-ground-controller",
+      "phase": "nativePilotRepair",
+      "operation": "getFeatures",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 22,
+      "key": "pilot-repair-ground-update",
+      "phase": "nativePilotRepair",
+      "operation": "updateFeature",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    },
+    {
+      "sequence": 23,
+      "key": "pilot-repair-ground-readback",
+      "phase": "nativePilotRepair",
+      "operation": "getAssemblyDefinition",
+      "status": "SUCCESS",
+      "httpStatus": 200
+    }
+  ],
+  "originalFreezeAnchor": {
+    "origin": "https://cad.onshape.com",
+    "packetHash": "8a90d25fd25cb4068def905f53d83f0319d75a6226c016d69f5cbb93514a2f60"
+  },
+  "owned": {
+    "origin": "https://cad.onshape.com",
+    "did": "c88349fc8bd39b3e6d811b19",
+    "wid": "2cb07fb6d6b08930d5b0cf8f"
+  },
+  "pilot": {
+    "parts": 2,
+    "instances": 2,
+    "ground": {
+      "status": "FAIL",
+      "featureId": "MHVWwSC5EjXoRtyJV",
+      "nativeStatus": "ERROR"
+    },
+    "repair": {
+      "attempts": 4,
+      "closed": true,
+      "resolvedGroundEndpoints": 1
+    },
+    "revolute": {
+      "status": "PASS",
+      "featureId": "MnOxhkG9xBvNei93d"
+    },
+    "motion": {
+      "status": "UNVERIFIED",
+      "jsonType": "Revolute",
+      "beforeRadians": 0,
+      "requestedRadians": 1.5707963267948966,
+      "returnedRadians": 0,
+      "configuredLowerDegrees": -30,
+      "configuredUpperDegrees": 60,
+      "reopenedChangedOccurrences": 0,
+      "reopenedFixedOccurrences": 0
+    },
+    "limits": "UNVERIFIED",
+    "relations": "UNVERIFIED",
+    "movingCarrier": "UNVERIFIED",
+    "sourceConnectorTrackingAfterRevision": "UNVERIFIED"
+  },
+  "evidence": [
+    {
+      "key": "pilot-native-specs",
+      "sequence": 4,
+      "operation": "getFeatureSpecs",
+      "resultSha256": "8f986487b6d2de8034a08e0e0b0d7e74c72f391489f047e18772877735ea093a"
+    },
+    {
+      "key": "pilot-source-specs",
+      "sequence": 8,
+      "operation": "getFeatureStudioSpecs",
+      "resultSha256": "4c0506c828b8dc66d790373727a06517c9153de5c67870ff5598aaf20f0f4893"
+    },
+    {
+      "key": "pilot-parts",
+      "sequence": 10,
+      "operation": "getPartsWMVE",
+      "resultSha256": "f3285c4eeea314b101b2801425290cdc626da097b1152dc886d75088f8edcf3b"
+    },
+    {
+      "key": "pilot-instance-readback",
+      "sequence": 13,
+      "operation": "getAssemblyDefinition",
+      "resultSha256": "9bcc75d6042f5149f9ec98abac651e75e0949c0d8d4fd51adf796dff9aa46ac6"
+    },
+    {
+      "key": "pilot-ground",
+      "sequence": 14,
+      "operation": "addFeature",
+      "resultSha256": "05440bfa6e130f27e1c1c928833611ac4c31c4d93a9e713a6e9754ff32079873"
+    },
+    {
+      "key": "pilot-ground-diagnostic",
+      "sequence": 15,
+      "operation": "getAssemblyDefinition",
+      "resultSha256": "a6906fa26be48bc53227943178fc582ecc666c736a54475b689fb26528ce98dd"
+    },
+    {
+      "key": "pilot-independent-revolute",
+      "sequence": 16,
+      "operation": "addFeature",
+      "resultSha256": "58ac0359aac680ca3d177fa218290140910c2321ed967fc4f2d20493e6f4444c"
+    },
+    {
+      "key": "pilot-mate-values-before",
+      "sequence": 17,
+      "operation": "getMateValues",
+      "resultSha256": "0d5866afe15195d584d05ef1fdc076b6ed66375240cc4b2269c7a92047d4e62c"
+    },
+    {
+      "key": "pilot-motion-upper-limit-command",
+      "sequence": 18,
+      "operation": "updateMateValues",
+      "resultSha256": "0d5866afe15195d584d05ef1fdc076b6ed66375240cc4b2269c7a92047d4e62c"
+    },
+    {
+      "key": "pilot-reopened-motion-readback",
+      "sequence": 19,
+      "operation": "getAssemblyDefinition",
+      "resultSha256": "69d20f3605b12661d8f059f4c437a49311e2e84fa0a582287ec19934332c93b6"
+    },
+    {
+      "key": "pilot-repair-visibility",
+      "sequence": 20,
+      "operation": "getDocument",
+      "resultSha256": "55d96bb9f0e659ef0dd1f8f3975868d0c1b88169656b8423a2cf43e4475a02ea"
+    },
+    {
+      "key": "pilot-repair-ground-controller",
+      "sequence": 21,
+      "operation": "getFeatures",
+      "resultSha256": "f616ce48f45c14b594d769b038a0303b451481437a4e19859ed817e63b4250ee"
+    },
+    {
+      "key": "pilot-repair-ground-update",
+      "sequence": 22,
+      "operation": "updateFeature",
+      "resultSha256": "7a5a230b727fa2af95d4dc9014c769d6013ed9013608784b3355fcd52570a92b"
+    },
+    {
+      "key": "pilot-repair-ground-readback",
+      "sequence": 23,
+      "operation": "getAssemblyDefinition",
+      "resultSha256": "3f41e0235a99818cc0da9953cd49bc2ddca60d53cc6f48991db20522b1227cd6"
+    }
+  ],
+  "conditionalV3Route": {
+    "status": "CONDITIONAL_FIT",
+    "metricKind": "PLAN_NOT_LIVE_PROOF",
+    "limit": 140,
+    "spent": 23,
+    "counts": {
+      "instances": 48,
+      "revolutes": 12,
+      "relations": 5,
+      "cotsImportGroups": 1,
+      "rigidGroups": 13,
+      "motionScenarios": 8
+    },
+    "fastenedMode": "nativeGroups",
+    "rows": [
+      {
+        "phase": "ownedVisibility",
+        "operation": "getDocument",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "boundedNativePilot",
+        "operation": null,
+        "count": 6,
+        "kind": "RESERVE"
+      },
+      {
+        "phase": "productionElements",
+        "operation": "createPartStudio",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "productionElements",
+        "operation": "createAssembly",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "createFeatureStudio",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "updateFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioSpecs",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "createVersion",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioSpecs",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "addPartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "createTranslation",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "cotsOwnedDatums",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "cotsOwnedDatums",
+        "operation": "addPartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "nativeSnapshot",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "bulkInsert",
+        "operation": "insertTransformedInstances",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "bulkInsert",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "ground",
+        "operation": "addFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "fastened",
+        "operation": "addFeature",
+        "count": 13,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revolutes",
+        "operation": "addFeature",
+        "count": 12,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "relations",
+        "operation": "addFeature",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "sourceGeometryAndDatums",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineHealth",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineHealth",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "getMateValues",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "updateMateValues",
+        "count": 8,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "getAssemblyDefinition",
+        "count": 8,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalHealth",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalHealth",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "recovery",
+        "operation": null,
+        "count": 5,
+        "kind": "RESERVE"
+      }
+    ],
+    "predictedRemainingAttempts": 114,
+    "projectedTotal": 137,
+    "headroom": 3,
+    "assumptions": [
+      "Counts are planning inputs until a new parent-frozen v3 contract is bound.",
+      "One documented insertTransformedInstances request includes every actual part instance.",
+      "Native groups require contract acceptance and live proof; they never include both sides of a revolute.",
+      "Each authentic import preserves every source solid, including both WCP X44 bodies, with owned source datums.",
+      "The geometry evaluator returns all source IDs, volumes, boxes and connector frames in one call per source Part Studio.",
+      "Each motion command response must include all observed mate values; each reopen validates actual occurrence transforms.",
+      "At most two polls per translation. Exhaustion or any unknown POST outcome stops; no resubmission.",
+      "No rename pass, quota query, new document, per-connector REST pass or unconditional retry is included."
+    ]
+  },
+  "individualMateRoute": {
+    "status": "BLOCKED",
+    "metricKind": "PLAN_NOT_LIVE_PROOF",
+    "limit": 140,
+    "spent": 23,
+    "counts": {
+      "instances": 48,
+      "revolutes": 12,
+      "relations": 5,
+      "cotsImportGroups": 1,
+      "rigidGroups": 13,
+      "motionScenarios": 8
+    },
+    "fastenedMode": "individual",
+    "rows": [
+      {
+        "phase": "ownedVisibility",
+        "operation": "getDocument",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "boundedNativePilot",
+        "operation": null,
+        "count": 6,
+        "kind": "RESERVE"
+      },
+      {
+        "phase": "productionElements",
+        "operation": "createPartStudio",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "productionElements",
+        "operation": "createAssembly",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "createFeatureStudio",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "updateFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioSpecs",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "createVersion",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioSpecs",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "addPartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "createTranslation",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "cotsOwnedDatums",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "cotsOwnedDatums",
+        "operation": "addPartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "nativeSnapshot",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "bulkInsert",
+        "operation": "insertTransformedInstances",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "bulkInsert",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "ground",
+        "operation": "addFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "fastened",
+        "operation": "addFeature",
+        "count": 35,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revolutes",
+        "operation": "addFeature",
+        "count": 12,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "relations",
+        "operation": "addFeature",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "sourceGeometryAndDatums",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineHealth",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineHealth",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "getMateValues",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "updateMateValues",
+        "count": 8,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "getAssemblyDefinition",
+        "count": 8,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "evalFeatureScript",
+        "count": 2,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalHealth",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalHealth",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "recovery",
+        "operation": null,
+        "count": 5,
+        "kind": "RESERVE"
+      }
+    ],
+    "predictedRemainingAttempts": 136,
+    "projectedTotal": 159,
+    "headroom": -19,
+    "assumptions": [
+      "Counts are planning inputs until a new parent-frozen v3 contract is bound.",
+      "One documented insertTransformedInstances request includes every actual part instance.",
+      "Native groups require contract acceptance and live proof; they never include both sides of a revolute.",
+      "Each authentic import preserves every source solid, including both WCP X44 bodies, with owned source datums.",
+      "The geometry evaluator returns all source IDs, volumes, boxes and connector frames in one call per source Part Studio.",
+      "Each motion command response must include all observed mate values; each reopen validates actual occurrence transforms.",
+      "At most two polls per translation. Exhaustion or any unknown POST outcome stops; no resubmission.",
+      "No rename pass, quota query, new document, per-connector REST pass or unconditional retry is included."
+    ]
+  },
+  "separateImportRoute": {
+    "status": "BLOCKED",
+    "metricKind": "PLAN_NOT_LIVE_PROOF",
+    "limit": 140,
+    "spent": 23,
+    "counts": {
+      "instances": 48,
+      "revolutes": 12,
+      "relations": 5,
+      "cotsImportGroups": 5,
+      "rigidGroups": 13,
+      "motionScenarios": 8
+    },
+    "fastenedMode": "individual",
+    "rows": [
+      {
+        "phase": "ownedVisibility",
+        "operation": "getDocument",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "boundedNativePilot",
+        "operation": null,
+        "count": 6,
+        "kind": "RESERVE"
+      },
+      {
+        "phase": "productionElements",
+        "operation": "createPartStudio",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "productionElements",
+        "operation": "createAssembly",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "createFeatureStudio",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "updateFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioContents",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioSpecs",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "createVersion",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getFeatureStudioSpecs",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "addPartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "parametricSource",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "createTranslation",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "getTranslation",
+        "count": 10,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "authenticCots",
+        "operation": "getPartsWMVE",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "cotsOwnedDatums",
+        "operation": "getPartStudioFeatures",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "cotsOwnedDatums",
+        "operation": "addPartStudioFeature",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "nativeSnapshot",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "bulkInsert",
+        "operation": "insertTransformedInstances",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "bulkInsert",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "ground",
+        "operation": "addFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "fastened",
+        "operation": "addFeature",
+        "count": 35,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revolutes",
+        "operation": "addFeature",
+        "count": 12,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "relations",
+        "operation": "addFeature",
+        "count": 5,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "sourceGeometryAndDatums",
+        "operation": "evalFeatureScript",
+        "count": 6,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineHealth",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineHealth",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "getMateValues",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "updateMateValues",
+        "count": 8,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "motion",
+        "operation": "getAssemblyDefinition",
+        "count": 8,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "baselineExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getPartStudioFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getPartsWMVE",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "evalFeatureScript",
+        "count": 6,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "widthRevision",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "revisionExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "evalFeatureScript",
+        "count": 6,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverProbe",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "updatePartStudioFeature",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "evalFeatureScript",
+        "count": 6,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "receiverRestore",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalHealth",
+        "operation": "getFeatures",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalHealth",
+        "operation": "getAssemblyDefinition",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "createAssemblyExportStep",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "getTranslation",
+        "count": 2,
+        "kind": "POLL_SLOT"
+      },
+      {
+        "phase": "finalExport",
+        "operation": "downloadExternalData",
+        "count": 1,
+        "kind": "REQUEST"
+      },
+      {
+        "phase": "recovery",
+        "operation": null,
+        "count": 5,
+        "kind": "RESERVE"
+      }
+    ],
+    "predictedRemainingAttempts": 176,
+    "projectedTotal": 199,
+    "headroom": -59,
+    "assumptions": [
+      "Counts are planning inputs until a new parent-frozen v3 contract is bound.",
+      "One documented insertTransformedInstances request includes every actual part instance.",
+      "Native groups require contract acceptance and live proof; they never include both sides of a revolute.",
+      "Each authentic import preserves every source solid, including both WCP X44 bodies, with owned source datums.",
+      "The geometry evaluator returns all source IDs, volumes, boxes and connector frames in one call per source Part Studio.",
+      "Each motion command response must include all observed mate values; each reopen validates actual occurrence transforms.",
+      "At most two polls per translation. Exhaustion or any unknown POST outcome stops; no resubmission.",
+      "No rename pass, quota query, new document, per-connector REST pass or unconditional retry is included."
+    ]
+  },
+  "countStatus": "FORECAST_ONLY_NOT_FROZEN_V3_COUNTS",
+  "nativeRecipe": {
+    "status": "PARTIALLY_OBSERVED_NOT_EXECUTION_ADMITTED",
+    "bulkInsert": {
+      "operation": "insertTransformedInstances",
+      "requests": 1,
+      "body": "transformGroups[{instances:[{documentId,elementId,partId,includePartTypes:[PARTS],isAssembly:false,isWholePartStudio:false}],transform:rowMajorSI}]",
+      "evidenceKey": "pilot-instances",
+      "bindingRule": "Match actual source part ID and occurrence transform; never response ordering."
+    },
+    "sourceConnectors": {
+      "queryType": "BTMPartStudioMateConnectorQuery-1324",
+      "featureId": "observed full feature ID",
+      "path": [
+        "observed instance ID"
+      ],
+      "evidenceKey": "pilot-instance-readback",
+      "trackingAfterRevision": "UNVERIFIED"
+    },
+    "revolute": {
+      "featureType": "mate",
+      "btType": "BTMMate-64",
+      "typeParameter": "mateType",
+      "queryParameter": "mateConnectorsQuery",
+      "limits": [
+        "limitsEnabled",
+        "limitAxialZMin",
+        "limitAxialZMax"
+      ],
+      "nativeStatus": "PASS"
+    },
+    "motion": {
+      "jsonType": "Revolute",
+      "coordinate": "rotationZ",
+      "units": "radians",
+      "evidenceKey": "pilot-mate-values-before",
+      "movementProven": false,
+      "configuredLimitEnforcementProven": false
+    },
+    "rigidGroups": {
+      "featureType": "mateGroup",
+      "btType": "BTMMateGroup-65",
+      "queryParameter": "occurrencesQuery",
+      "status": "PUBLISHED_SCHEMA_AND_OBSERVED_SPEC_ONLY_NO_LIVE_FEATURE"
+    },
+    "relations": {
+      "featureType": "mateRelation",
+      "btType": "BTMMateRelation-1412",
+      "observedParameters": [
+        "relationType",
+        "matesQuery",
+        "relationRatio",
+        "relationLength",
+        "reverseDirection"
+      ],
+      "queryBinding": "Two native mate references in the single ordered matesQuery parameter.",
+      "carrier": "No carrier parameter was observed. Prove carrier-relative behavior from reopened occurrence frames.",
+      "status": "OBSERVED_SPEC_ONLY_NO_LIVE_RELATION"
+    }
+  },
+  "gates": [
+    {
+      "code": "PARENT_FROZEN_V3",
+      "status": "BLOCKED",
+      "detail": "Await next parent handoff; do not inspect or relabel an old packet."
+    },
+    {
+      "code": "FREEZE_MIGRATION",
+      "status": "PENDING",
+      "detail": "Append an explicit migration record later. Preserve original binding and every historical receipt."
+    },
+    {
+      "code": "NATIVE_GROUND",
+      "status": "FAIL",
+      "detail": "HTTP 200 did not mean feature regeneration succeeded."
+    },
+    {
+      "code": "MOVEMENT_AND_LIMITS",
+      "status": "UNVERIFIED",
+      "detail": "Requested pi/2, returned 0; reopening showed no motion."
+    },
+    {
+      "code": "RELATION_DIRECTION_AND_CARRIER",
+      "status": "UNVERIFIED",
+      "detail": "Only parameter schema observed; no relation or moving-carrier live proof."
+    },
+    {
+      "code": "RIGID_GROUPS_AND_PRESERVED_BUNDLE",
+      "status": "CONDITIONAL",
+      "detail": "137-call route requires contract acceptance and owned-pilot verification."
+    },
+    {
+      "code": "SOURCE_GEOMETRY_AND_REVISION",
+      "status": "UNVERIFIED",
+      "detail": "Executable readback validators exist; no v3 source or evaluator supplied yet."
+    },
+    {
+      "code": "NATIVE_NAMES",
+      "status": "UNVERIFIED",
+      "detail": "Capture actual names plus stable role IDs; no guessed naming endpoint or rename pass."
+    },
+    {
+      "code": "HUMAN_AND_PHYSICAL",
+      "status": "UNVERIFIED",
+      "detail": "No human usability, acquisition, endurance or manufacturing release claim."
+    }
+  ],
+  "requiredSharedSource": {
+    "bindingSchema": "subsystem-ab-api-v3-binding/1",
+    "sourceGeometrySchema": "subsystem-ab-api-source-geometry/1",
+    "connectorCount": "2 * (nativeInstanceCount - 1) + 1; 95 logical connector keys at 48 instances.",
+    "variants": [
+      "baseline",
+      "revision",
+      "receiverControlProbe"
+    ],
+    "controls": [
+      "mouthWidth",
+      "receiverHeight"
+    ],
+    "generated": "All body-owned datums emitted parametrically with stable role-based feature suffixes in the source feature.",
+    "authentic": "One frozen source-preserving COTS bundle for the 137-call route; retain originals, hashes and every source-body mapping.",
+    "wcp": "Authentic X44 solids are housing and rear cover, fastened together. Preserve both; never rotate the rear cover as a shaft. Bind a separate output shaft with explicit generated/authentic provenance, housing-to-shaft REVOLUTE, and downstream output hardware.",
+    "cotsDatums": "One frozen native datum feature in each imported Part Studio, owning connectors on the actual imported solids.",
+    "evaluation": "Frozen evaluator returns typed maps/arrays of all actual part IDs, volumes in mm^3 and source-coordinate bounds in mm; no per-part REST loop.",
+    "geometryAndFrames": "Expected geometry, source-to-bundle transforms, per-instance world transforms and full connector frames for all variants.",
+    "references": "No coral reference or rigid motor envelope may replace required native sources."
+  },
+  "executionHold": "run.mjs only plans or checks a local binding contract. Production execution requires the next parent handoff and proven native gates."
+}

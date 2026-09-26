@@ -1,0 +1,101 @@
+{
+  "startedAt": "2026-09-11T16:00:24.112Z",
+  "status": "PUBLIC_MANAGED_WORKSPACE_IDENTIFIED_NOTES_ABSENT",
+  "mode": "READ_ONLY_MANAGED_DOCUMENT_DISCOVERY",
+  "explicitCurrentKeyAuthorization": true,
+  "keyRotationAttested": false,
+  "explicitNewPublicManagedScope": true,
+  "requestCap": 8,
+  "chargedInsideOfficialPlanningReserve": 100,
+  "parentReportedQuota": {
+    "used": 273,
+    "limit": 2500,
+    "remaining": 2227
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents?q=FeatureScript+MCP+Workspace&limit=100&offset=0",
+      "startedAt": "2026-09-11T16:00:24.115Z",
+      "status": 400,
+      "failure": "DOCUMENT_REQUEST_FAILED",
+      "completedAt": "2026-09-11T16:00:24.600Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents?q=FeatureScript+MCP+Workspace&filter=0&limit=20&offset=0",
+      "startedAt": "2026-09-11T16:02:22.819Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:02:24.211Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents?q=FeatureScript+MCP+Notes&filter=0&limit=20&offset=0",
+      "startedAt": "2026-09-11T16:02:24.213Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:02:24.909Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents?q=FeatureScript+MCP+Workspace&filter=0&limit=20&offset=0",
+      "startedAt": "2026-09-11T16:03:17.701Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:03:19.278Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents/f92dc90f7c052de045dd2c4f",
+      "startedAt": "2026-09-11T16:03:19.279Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:03:19.609Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents?q=FeatureScript+MCP+Workspace&filter=0&limit=20&offset=0",
+      "startedAt": "2026-09-11T16:04:15.734Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:04:16.838Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents/f92dc90f7c052de045dd2c4f",
+      "startedAt": "2026-09-11T16:04:16.840Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:04:16.935Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents?q=FeatureScript+MCP+Notes&filter=0&limit=20&offset=0",
+      "startedAt": "2026-09-11T16:04:16.952Z",
+      "status": 200,
+      "completedAt": "2026-09-11T16:04:17.800Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "f92dc90f7c052de045dd2c4f",
+      "name": "FeatureScript MCP Workspace",
+      "isPublic": true,
+      "defaultWorkspaceId": "f635457a22317d08c72c7d93"
+    }
+  ],
+  "retries": 3,
+  "officialToolInvocations": 0,
+  "modelWrites": 0,
+  "rawResponsesSaved": false,
+  "resumedAt": "2026-09-11T16:04:15.730Z",
+  "absentManagedNames": [
+    "FeatureScript MCP Notes"
+  ],
+  "matchedCandidates": [
+    {
+      "id": "f92dc90f7c052de045dd2c4f",
+      "name": "FeatureScript MCP Workspace"
+    }
+  ],
+  "provenanceBasis": "Exact service-managed names authorized by user; unique search matches and direct metadata agree",
+  "serviceConfiguredTargetIndependentlyConfirmed": false,
+  "completedAt": "2026-09-11T16:04:17.801Z",
+  "elapsedMs": 6571,
+  "requestCount": 8
+}

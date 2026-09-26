@@ -1,0 +1,35 @@
+--- a/crates/onshape-client-io/src/lib.rs
++++ b/crates/onshape-client-io/src/lib.rs
+@@ -155,6 +155,9 @@
+         let http =
+             Client::builder()
+                 .timeout(timeout)
++                .redirect(reqwest::redirect::Policy::none())
++                .retry(reqwest::retry::never())
++                .no_proxy()
+                 .build()
+                 .map_err(|e| ClientError::RequestBuild {
+                     message: format!("failed to build HTTP client: {e}"),
+@@ -185,7 +188,22 @@
+     pub async fn execute(&self, request: &ApiRequest) -> Result<ApiResponse, ClientError> {
+         let url = format!("{}{}", self.base_url, request.path);
++        let destination = reqwest::Url::parse(&url).map_err(|_| ClientError::RequestBuild {
++            message: "trial destination is not a valid URL".to_string(),
++        })?;
++        if destination.scheme() != "https"
++            || destination.host_str() != Some("cad.onshape.com")
++            || destination.port().is_some()
++            || !destination.username().is_empty()
++            || destination.password().is_some()
++            || destination.fragment().is_some()
++            || !destination.path().starts_with("/api/v16/")
++        {
++            return Err(ClientError::RequestBuild {
++                message: "trial destination is outside the exact Onshape allowlist".to_string(),
++            });
++        }
+ 
+         let auth_header = match &self.auth {
+             ClientAuthConfig::Basic { credentials } => {
+                 basic_authorization_header_value(credentials)
+             }

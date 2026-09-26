@@ -1,0 +1,1824 @@
+{
+  "schema": "coral-cots-source-bindings/v1",
+  "date": "2026-09-18T10:01:57.499882+00:00",
+  "requests": [
+    {
+      "attempt": 1,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-1010.step",
+      "requestedAt": "2026-09-18T09:49:24.327Z",
+      "status": "saved",
+      "chargedBytes": 2285843,
+      "receivedBytes": 2285843,
+      "savedPath": "designs/coral-intake-v1/cots/originals/wcp-1010.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "2285843",
+      "sha256": "f8f26ea01566c74727766733b896cbbd881d0887b35d527b060e31fd0730a486"
+    },
+    {
+      "attempt": 2,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0121.step",
+      "requestedAt": "2026-09-18T09:49:46.431Z",
+      "status": "saved",
+      "chargedBytes": 3025925,
+      "receivedBytes": 3025925,
+      "savedPath": "designs/coral-intake-v1/cots/originals/wcp-0121.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "3025925",
+      "sha256": "06509b998bc9676cf54a057e944e46c643428a1b8b9c6e78d172f932bbad2cf6"
+    },
+    {
+      "attempt": 3,
+      "url": "https://s3.amazonaws.com/docusync-files/60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd/am-3945%203IN%20500Hex%20Compliant%20Wheel%20REV%203.STEP",
+      "requestedAt": "2026-09-18T09:50:18.503Z",
+      "status": "saved",
+      "chargedBytes": 1469325,
+      "receivedBytes": 1469325,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-3945-rev3.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "1469325",
+      "sha256": "60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd"
+    },
+    {
+      "attempt": 4,
+      "url": "https://s3.amazonaws.com/docusync-files/a56021085d4af867ea64f810f0646524ea081a9128de5a162f001f3717f3846f/am-3945%203IN%20500Hex%20Compliant%20Wheel%20REV3.PDF",
+      "requestedAt": "2026-09-18T09:52:03.648Z",
+      "status": "saved",
+      "chargedBytes": 79704,
+      "receivedBytes": 79704,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-3945-rev3.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "contentLength": "79704",
+      "sha256": "a56021085d4af867ea64f810f0646524ea081a9128de5a162f001f3717f3846f"
+    },
+    {
+      "attempt": 5,
+      "url": "https://www.andymark.com/search?q=5+inch+compliant+star&type=product",
+      "requestedAt": "2026-09-18T09:52:32.795Z",
+      "status": "redirect",
+      "chargedBytes": 0,
+      "receivedBytes": 0,
+      "savedPath": null,
+      "httpStatus": 301,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": null,
+      "redirect": "https://andymark.com/search?q=5+inch+compliant+star&type=product"
+    },
+    {
+      "attempt": 6,
+      "url": "https://andymark.com/search?q=5+inch+compliant+star&type=product",
+      "requestedAt": "2026-09-18T09:52:33.034Z",
+      "status": "saved",
+      "chargedBytes": 848347,
+      "receivedBytes": 848347,
+      "savedPath": "designs/coral-intake-v1/cots/originals/star-search.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": null,
+      "sha256": "e77a734b75c756c1ec162824f2f040620c0c159c0ef5c29b238a1f9943ae0eb1"
+    },
+    {
+      "attempt": 7,
+      "url": "https://andymark.com/products/compliant-stars",
+      "requestedAt": "2026-09-18T09:53:06.986Z",
+      "status": "saved",
+      "chargedBytes": 1015008,
+      "receivedBytes": 1015008,
+      "savedPath": "designs/coral-intake-v1/cots/originals/compliant-stars.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": null,
+      "sha256": "a5cf0d680dd5c550930eb33bdec80641fd850cad0d67fdcac01c396fd7b8ed99"
+    },
+    {
+      "attempt": 8,
+      "url": "https://s3.amazonaws.com/docusync-files/d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.STEP",
+      "requestedAt": "2026-09-18T09:53:27.385Z",
+      "status": "saved",
+      "chargedBytes": 4544081,
+      "receivedBytes": 4544081,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-5123.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "4544081",
+      "sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869"
+    },
+    {
+      "attempt": 9,
+      "url": "https://s3.amazonaws.com/docusync-files/8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.pdf",
+      "requestedAt": "2026-09-18T09:53:36.760Z",
+      "status": "saved",
+      "chargedBytes": 84283,
+      "receivedBytes": 84283,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-5123.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "contentLength": "84283",
+      "sha256": "8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5"
+    }
+  ],
+  "limits": {
+    "attempts": 12,
+    "fileBytes": 26214400,
+    "totalBytes": 104857600
+  },
+  "scope": "Public vendor acquisition only; no authenticated service, browser, cookies, secrets, purchases, installs or agents",
+  "oldLedger": {
+    "pathrepoRelative": "trials/subsystem-ab/cots/public-fetch-log.json",
+    "sha256": "c68c34424d26e7af81c228d6f98d8a67765d713a49c6fbea4a52d8ce6d7d0875",
+    "limit": 39,
+    "requests": 39,
+    "unchanged": true
+  },
+  "products": {
+    "spline_pinion": {
+      "sku": "WCP-1010",
+      "url": "https://wcproducts.info/files/frc/cad/WCP-1010.step",
+      "pathrepoRelative": "designs/coral-intake-v1/cots/originals/wcp-1010.step",
+      "sha256": "f8f26ea01566c74727766733b896cbbd881d0887b35d527b060e31fd0730a486",
+      "bytes": 2285843,
+      "receiptAttempt": 1,
+      "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 1,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_VERIFIED_GEOMETRY_DATUMS_VERIFIED_FIT_NOT_APPROVED",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.wcp-1010.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -8.70240299150794,
+        -8.702402991507936,
+        -9.525000100000002,
+        8.702402991507936,
+        8.70240299150794,
+        9.525000100000002
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 2167.706131596158,
+          "bounds_mm": [
+            -8.70240299150794,
+            -8.702402991507936,
+            -9.525000100000002,
+            8.702402991507936,
+            8.70240299150794,
+            9.525000100000002
+          ]
+        }
+      ],
+      "discrepancies": [],
+      "catalog": {
+        "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/r6keevskv0nht9ojo0cmcnedko/1789205485000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=2097028417&single=true&output=csv",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-kraken-cad-fresh.csv",
+        "sha256": "08dc7c2da81811a9bfc9285cf0fa7b5ffee5e195e1d55e7c3b94128bc4ed14be",
+        "bytes": 13392,
+        "receiptAttempt": 16,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+        "csvLine": 34,
+        "description": "12t Steel Spur Gear (20 DP, 8mm SplineXS Bore)",
+        "row": {
+          "P/N": "WCP-1010",
+          "Description": "12t Steel Spur Gear (20 DP, 8mm SplineXS Bore)",
+          "Material": "4140 Steel",
+          "CAD": "https://wcproducts.info/files/frc/cad/WCP-1010.step",
+          "Onshape": "https://cad.onshape.com/documents/c7ba0021d1579d4c9bbed2c6/w/dd9fd3a769bed01d59e5ac99/e/e19e97076e33dc1249c0fd3f",
+          "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Steel%20SplineXS%20Pinions.pdf",
+          "Weight": "0.047 lbs",
+          "LIVE": "TRUE",
+          "DATA": "",
+          "LINK NAMES": ""
+        }
+      },
+      "drawing": {
+        "url": "https://wcproducts.info/files/frc/drawings/Web-Steel%20SplineXS%20Pinions.pdf",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-1016.pdf",
+        "sha256": "5b0b0c8429752aa2085165f2c520cc4a902cb25a4d9c1c47190788ac196d1311",
+        "bytes": 60458,
+        "receiptAttempt": 30,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json"
+      },
+      "axis": {
+        "originMm": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "faceIndices": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26
+        ]
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            0,
+            0,
+            0
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            0,
+            0,
+            0
+          ]
+        },
+        "originInSourceMm": [
+          0,
+          0,
+          0
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "datums": {
+        "origin": "Gear tooth midplane",
+        "endPlanes": [
+          {
+            "sourceZmm": -9.525000100000002,
+            "faceIndices": [
+              1,
+              249,
+              250,
+              251,
+              252
+            ]
+          },
+          {
+            "sourceZmm": 9.525000100000002,
+            "faceIndices": [
+              2,
+              150
+            ]
+          }
+        ],
+        "overallWidthMm": 19.050000200000003,
+        "toothCountFromTipFaces": 12,
+        "tipCircleDiameterMm": 17.78,
+        "toothFaceWidthMm": 19.05,
+        "diametralPitchPerInch": 20,
+        "pitchDiameterMmFromCatalog": 15.239999999999998,
+        "boreProfile": "Original vendor SplineXS; not approximated by an 8 mm circle",
+        "motorSplineClockingVerified": false
+      }
+    },
+    "hex_output_gear": {
+      "sku": "WCP-0121",
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0121.step",
+      "pathrepoRelative": "designs/coral-intake-v1/cots/originals/wcp-0121.step",
+      "sha256": "06509b998bc9676cf54a057e944e46c643428a1b8b9c6e78d172f932bbad2cf6",
+      "bytes": 3025925,
+      "receiptAttempt": 2,
+      "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 1,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_VERIFIED_GEOMETRY_DATUMS_VERIFIED_FIT_NOT_APPROVED",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.wcp-0121.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -39.34212958443025,
+        -39.34212958443025,
+        -6.324600000000005,
+        39.34212958443025,
+        39.34212958443025,
+        6.324599999999999
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 19358.502488121798,
+          "bounds_mm": [
+            -39.34212958443025,
+            -39.34212958443025,
+            -6.324600000000005,
+            39.34212958443025,
+            39.34212958443025,
+            6.324599999999999
+          ]
+        }
+      ],
+      "discrepancies": [],
+      "catalog": {
+        "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=257109817&single=true&output=csv",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-gear-cad.csv",
+        "sha256": "a78c913441ddac5dd989edc2d8eea85c90d88be73550bbea2d4869d174d5ed49",
+        "bytes": 7834,
+        "receiptAttempt": 20,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+        "csvLine": 12,
+        "description": "60t Pocketed Aluminum Spur Gear (20 DP, 1/2\" Hex Bore)",
+        "row": {
+          "P/N": "WCP-0121",
+          "Description": "60t Pocketed Aluminum Spur Gear (20 DP, 1/2\" Hex Bore)",
+          "Material": "7075-T6 Aluminum",
+          "CAD": "https://wcproducts.info/files/frc/cad/WCP-0121.step",
+          "Onshape": "https://cad.onshape.com/documents/c66b2b646150ce419560e178/w/debab5fd83fde701314c579f/e/fc838797021255c56273a944",
+          "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Pocketed%20Gears.PDF",
+          "Weight": "0.106 lbs",
+          "LIVE": "TRUE",
+          "DATA": "",
+          "LINK NAMES": ""
+        }
+      },
+      "drawing": {
+        "url": "https://wcproducts.info/files/frc/drawings/Web-Pocketed%20Gears.PDF",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0137.pdf",
+        "sha256": "8d4f1461527db96d2c339591afd12ae3fbc165c2d870428bf8502799368bede9",
+        "bytes": 118833,
+        "receiptAttempt": 32,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json"
+      },
+      "axis": {
+        "originMm": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "faceIndices": [
+          71,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131
+        ]
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              0.8660254037844387,
+              0.49999999999999994,
+              0
+            ],
+            [
+              -0.49999999999999994,
+              0.8660254037844387,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            -0.0,
+            -0.0,
+            0
+          ],
+          "matrix4x4": [
+            [
+              0.8660254037844387,
+              0.49999999999999994,
+              0,
+              -0.0
+            ],
+            [
+              -0.49999999999999994,
+              0.8660254037844387,
+              0,
+              -0.0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              0.8660254037844387,
+              -0.49999999999999994,
+              0
+            ],
+            [
+              0.49999999999999994,
+              0.8660254037844387,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            0,
+            0,
+            0
+          ]
+        },
+        "originInSourceMm": [
+          0,
+          0,
+          0
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "datums": {
+        "origin": "Gear tooth midplane",
+        "endPlanes": [
+          {
+            "sourceZmm": -6.324600000000005,
+            "faceIndices": [
+              70
+            ]
+          },
+          {
+            "sourceZmm": 6.324599999999999,
+            "faceIndices": [
+              139
+            ]
+          }
+        ],
+        "overallWidthMm": 12.649200000000004,
+        "toothCountFromTipFaces": 60,
+        "tipCircleDiameterMm": 78.74,
+        "toothFaceWidthMm": 9.524999999999999,
+        "diametralPitchPerInch": 20,
+        "pitchDiameterMmFromCatalog": 76.19999999999999,
+        "hex": {
+          "cadAcrossFlatsMm": 12.7762,
+          "nominalShaftAcrossFlatsMm": 12.7,
+          "faceIndices": [
+            132,
+            133,
+            134,
+            135,
+            136,
+            137
+          ],
+          "axialEngagementEnvelopeMm": 12.649200000000004,
+          "shaftFitApproved": false
+        },
+        "clocking": "Source hex corner +30 degrees maps to attachment +X"
+      }
+    },
+    "x44": {
+      "sku": "WCP-0941",
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0941.STEP",
+      "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "bytes": 12537342,
+      "receiptAttempt": 21,
+      "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 2,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_VERIFIED_GEOMETRY_DATUMS_VERIFIED_FIT_NOT_APPROVED",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.wcp-0941.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -22.000000100000005,
+        -25.400000100000014,
+        -74.61250010000572,
+        22.000000100000005,
+        22.0000001,
+        37.357050099999995
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 112107.30835411993,
+          "bounds_mm": [
+            -22.000000100000005,
+            -25.400000100000014,
+            -74.61250010000572,
+            22.000000100000005,
+            22.0000001,
+            37.357050099999995
+          ]
+        },
+        {
+          "index": 1,
+          "valid": true,
+          "volume_mm3": 2515.771152335832,
+          "bounds_mm": [
+            -21.70064380615926,
+            -25.179381151360936,
+            -74.61250010000002,
+            21.700643806159235,
+            -1.4717827362660396,
+            -53.276499899999976
+          ]
+        }
+      ],
+      "discrepancies": [],
+      "catalog": {
+        "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/r6keevskv0nht9ojo0cmcnedko/1789205485000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=2097028417&single=true&output=csv",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-kraken-cad-fresh.csv",
+        "sha256": "08dc7c2da81811a9bfc9285cf0fa7b5ffee5e195e1d55e7c3b94128bc4ed14be",
+        "bytes": 13392,
+        "receiptAttempt": 16,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+        "csvLine": 3,
+        "description": "Kraken X44 Powered by TalonFX",
+        "row": {
+          "P/N": "WCP-0941",
+          "Description": "Kraken X44 Powered by TalonFX",
+          "Material": "-",
+          "CAD": "https://wcproducts.info/files/frc/cad/WCP-0941.STEP",
+          "Onshape": "https://cad.onshape.com/documents/b010b64fda684aacd8a86186/w/1074b21917b9d25806d6ac00/e/ac5a620f69925504a4ed5e95",
+          "Drawings": "https://wcproducts.info/files/frc/drawings/Web-WCP-0941.pdf",
+          "Weight": "0.750 lbs",
+          "LIVE": "TRUE",
+          "DATA": "Description",
+          "LINK NAMES": ""
+        }
+      },
+      "drawing": {
+        "url": "https://wcproducts.info/files/frc/drawings/Web-WCP-0941.pdf",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0941.pdf",
+        "sha256": "74f024476beb50c192b75fe0d9d3d743b5de87038c5d4c657bb7ff87055d26db",
+        "bytes": 69571,
+        "receiptAttempt": 29,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json"
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            0,
+            0,
+            0
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            0,
+            0,
+            0
+          ]
+        },
+        "originInSourceMm": [
+          0,
+          0,
+          0
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "axis": {
+        "originMm": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "evidence": "Hash-matched cached geometry and face-index derivation"
+      },
+      "datums": {
+        "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+        "units": "mm",
+        "source_sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+        "source_coordinate_system": "Unchanged STEP root coordinates",
+        "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+        "source_to_attachment": {
+          "convention": "attachment_point = rotation * source_point + translation_mm",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translation_mm": [
+            0,
+            0,
+            0
+          ]
+        },
+        "shaft_axis": {
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ]
+        },
+        "assembly_fit_validated": false,
+        "operating_clearance_validated": false,
+        "mounting_plane": {
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "face_indices": [
+            119
+          ]
+        },
+        "rotation_description": "Identity; source +Z points out of the motor, source +X passes through a mounting hole.",
+        "pilot_diameter_mm": 19.05,
+        "pilot_cylindrical_height_mm": 4.5125,
+        "pilot_face_indices": [
+          103,
+          120
+        ],
+        "bolt_circle_diameter_mm": 34.925,
+        "mounting_holes": [
+          {
+            "angle_deg": 0,
+            "center_mm": [
+              17.4625,
+              0,
+              0
+            ],
+            "face_indices": [
+              11,
+              1833
+            ]
+          },
+          {
+            "angle_deg": 30,
+            "center_mm": [
+              15.12296861,
+              8.73125,
+              0
+            ],
+            "face_indices": [
+              13,
+              1829
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "center_mm": [
+              8.73125,
+              15.12296861,
+              0
+            ],
+            "face_indices": [
+              21,
+              1813
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "center_mm": [
+              0,
+              17.4625,
+              0
+            ],
+            "face_indices": [
+              20,
+              1815
+            ]
+          },
+          {
+            "angle_deg": 120,
+            "center_mm": [
+              -8.73125,
+              15.12296861,
+              0
+            ],
+            "face_indices": [
+              18,
+              1819
+            ]
+          },
+          {
+            "angle_deg": 150,
+            "center_mm": [
+              -15.12296861,
+              8.73125,
+              0
+            ],
+            "face_indices": [
+              19,
+              1817
+            ]
+          },
+          {
+            "angle_deg": 180,
+            "center_mm": [
+              -17.4625,
+              0,
+              0
+            ],
+            "face_indices": [
+              17,
+              1821
+            ]
+          },
+          {
+            "angle_deg": 210,
+            "center_mm": [
+              -15.12296861,
+              -8.73125,
+              0
+            ],
+            "face_indices": [
+              12,
+              1831
+            ]
+          },
+          {
+            "angle_deg": 240,
+            "center_mm": [
+              -8.73125,
+              -15.12296861,
+              0
+            ],
+            "face_indices": [
+              16,
+              1823
+            ]
+          },
+          {
+            "angle_deg": 300,
+            "center_mm": [
+              8.73125,
+              -15.12296861,
+              0
+            ],
+            "face_indices": [
+              15,
+              1825
+            ]
+          },
+          {
+            "angle_deg": 330,
+            "center_mm": [
+              15.12296861,
+              -8.73125,
+              0
+            ],
+            "face_indices": [
+              14,
+              1827
+            ]
+          }
+        ],
+        "missing_hole_angle_deg": 270,
+        "angle_convention": "Right-hand about source +Z, 0 degrees = source +X",
+        "modeled_hole_diameter_mm": 4.0386,
+        "modeled_blind_bottom_z_mm": -6.35,
+        "mounting_thread_from_drawing": "#10-32 UNF",
+        "mounting_thread_depth_from_drawing_mm": 6.35,
+        "shaft_end_thread_from_drawing": "#10-32 UNF",
+        "shaft_end_thread_depth_from_drawing_mm": 9.525,
+        "spline_shoulder_z_mm": 5.55625,
+        "shaft_tip_z_mm": 37.35705,
+        "shaft_extension_from_shoulder_mm": 31.8008,
+        "shaft_extension_from_mount_mm": 37.35705,
+        "shaft_evidence_face_indices": [
+          468,
+          470,
+          472
+        ],
+        "caution": "Thread dimensions come from the original drawing, not inferred from tap-drill cylinders. Usable screw engagement and spline interference are unvalidated."
+      }
+    },
+    "hex_bearing": {
+      "sku": "WCP-0783",
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+      "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "bytes": 95572,
+      "receiptAttempt": 22,
+      "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 1,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_VERIFIED_GEOMETRY_DATUMS_VERIFIED_FIT_NOT_APPROVED",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.wcp-0783.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -15.557500099999997,
+        0.0,
+        -15.557500099999997,
+        15.557500099999997,
+        7.937500000000001,
+        15.557500099999997
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 3985.8595418071227,
+          "bounds_mm": [
+            -15.557500099999997,
+            0.0,
+            -15.557500099999997,
+            15.557500099999997,
+            7.937500000000001,
+            15.557500099999997
+          ]
+        }
+      ],
+      "discrepancies": [],
+      "catalog": {
+        "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=1959540314&single=true&output=csv",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-bearing-cad.csv",
+        "sha256": "4bf3ec55b878e2aca8896308050fcbb8bd71a80b54e11012133115403e220cda",
+        "bytes": 7425,
+        "receiptAttempt": 18,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+        "csvLine": 10,
+        "description": "0.500\" Hex ID x 1.125\" OD x 0.313\" WD (Flanged Bearing)",
+        "row": {
+          "P/N": "WCP-0783",
+          "Description": "0.500\" Hex ID x 1.125\" OD x 0.313\" WD (Flanged Bearing)",
+          "Material": "-",
+          "CAD": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+          "Onshape": "https://cad.onshape.com/documents/c1f95feab8b05f8a109a1d0d/w/26d8a345656ac5ccdc822964/e/16929312ff4a72805c6398f8",
+          "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+          "Weight": "0.052 lbs",
+          "LIVE": "TRUE",
+          "DATA": "",
+          "LINK NAMES": ""
+        }
+      },
+      "drawing": {
+        "url": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0783.pdf",
+        "sha256": "7d5fe4274dd72b261391705406227bfe7290180bfc3513973fcb8feb65cf7f39",
+        "bytes": 49832,
+        "receiptAttempt": 31,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json"
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "translationMm": [
+            -0.0,
+            -0.0,
+            -6.35
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              -0.0
+            ],
+            [
+              0,
+              0,
+              -1,
+              -0.0
+            ],
+            [
+              0,
+              1,
+              0,
+              -6.35
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "translationMm": [
+            -0.0,
+            6.35,
+            -0.0
+          ]
+        },
+        "originInSourceMm": [
+          -0.0,
+          6.35,
+          -0.0
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "axis": {
+        "originMm": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "evidence": "Hash-matched cached geometry and face-index derivation"
+      },
+      "datums": {
+        "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+        "units": "mm",
+        "source_sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+        "source_coordinate_system": "Unchanged STEP root coordinates",
+        "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+        "source_to_attachment": {
+          "convention": "attachment_point = rotation * source_point + translation_mm",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "translation_mm": [
+            0,
+            0,
+            -6.35
+          ]
+        },
+        "shaft_axis": {
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ]
+        },
+        "assembly_fit_validated": false,
+        "operating_clearance_validated": false,
+        "mounting_plane": {
+          "origin": [
+            0,
+            6.35,
+            0
+          ],
+          "normal": [
+            0,
+            -1,
+            0
+          ],
+          "face_indices": [
+            12
+          ]
+        },
+        "rotation_description": "+90 degrees about source X maps source +Y to attachment +Z; origin is flange underside.",
+        "bore_across_flats_mm": 12.72,
+        "bore_face_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "hex_corner_direction": [
+          1,
+          0,
+          0
+        ],
+        "body_od_mm": 28.5496,
+        "body_od_face_indices": [
+          5,
+          24
+        ],
+        "flange_od_mm": 31.115,
+        "flange_face_indices": [
+          2,
+          10
+        ],
+        "overall_width_mm": 7.9375,
+        "flange_thickness_mm": 1.5875,
+        "journal_depth_to_seat_mm": 6.35,
+        "caution": "CAD bore 12.72 mm and journal OD 28.5496 mm differ from nominal 0.500-inch hex / 1.125-inch OD. Preserve geometry; bearing fit class and press-fit allowance are not established."
+      }
+    },
+    "indexer_wheel": {
+      "sku": "am-3945_green",
+      "url": "https://s3.amazonaws.com/docusync-files/60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd/am-3945%203IN%20500Hex%20Compliant%20Wheel%20REV%203.STEP",
+      "pathrepoRelative": "designs/coral-intake-v1/cots/originals/am-3945-rev3.step",
+      "sha256": "60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd",
+      "bytes": 1469325,
+      "receiptAttempt": 3,
+      "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json",
+      "sourceunits": [
+        "millimetre"
+      ],
+      "importUnits": "mm",
+      "importsolids": 2,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_AND_DATUMS_VERIFIED_CAD_DRAWING_BORE_DISCREPANCY",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.am-3945-rev3.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -97.35219349223985,
+        -34.1236298629308,
+        15.86508754216414,
+        -21.152193292239858,
+        42.07637033706921,
+        41.26508774216417
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 54088.918633263005,
+          "bounds_mm": [
+            -97.35219349223985,
+            -34.1236298629308,
+            15.86508754216414,
+            -21.152193292239858,
+            42.07637033706921,
+            41.26508774216417
+          ]
+        },
+        {
+          "index": 1,
+          "valid": true,
+          "volume_mm3": 4431.741910757706,
+          "bounds_mm": [
+            -69.25219349223985,
+            -6.023629862930798,
+            15.865087542164149,
+            -49.25219329223986,
+            13.976370337069206,
+            41.26508774216415
+          ]
+        }
+      ],
+      "discrepancies": [
+        {
+          "field": "hex bore across flats",
+          "cadMm": 12.7,
+          "drawingRangeMm": [
+            12.725399999999999,
+            12.8524
+          ],
+          "resolution": "Preserve CAD, use drawing for hardware fit; no fit approval"
+        }
+      ],
+      "catalog": {
+        "url": "https://andymark.com/products/compliant-wheels?variant=44493390807212",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wheel.html",
+        "sha256": "5f3b85d7d7d281b716098b54164662d4b119d7a7d9133743166a14ac01dc8271",
+        "bytes": 1513844,
+        "receiptAttempt": 8,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json"
+      },
+      "drawing": {
+        "url": "https://s3.amazonaws.com/docusync-files/a56021085d4af867ea64f810f0646524ea081a9128de5a162f001f3717f3846f/am-3945%203IN%20500Hex%20Compliant%20Wheel%20REV3.PDF",
+        "pathrepoRelative": "designs/coral-intake-v1/cots/originals/am-3945-rev3.pdf",
+        "sha256": "a56021085d4af867ea64f810f0646524ea081a9128de5a162f001f3717f3846f",
+        "bytes": 79704,
+        "receiptAttempt": 4,
+        "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json"
+      },
+      "variant": {
+        "sku": "am-3945_green",
+        "title": "1/2 in Hex / 3 inch / 35A",
+        "manufacturerVariantId": 44493391593644,
+        "durometerShoreA": 35,
+        "evidence": "Explicit manufacturer variant SKU/title; never CAD appearance",
+        "stepScope": "Manufacturer publishes one family geometry, not a durometer-specific STEP"
+      },
+      "axis": {
+        "originMm": [
+          -59.25219339223986,
+          3.9763702370692044,
+          28.565087642164148
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "faceIndices": [
+          19
+        ]
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            59.25219339223986,
+            -3.9763702370692044,
+            -28.565087642164148
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              59.25219339223986
+            ],
+            [
+              0,
+              1,
+              0,
+              -3.9763702370692044
+            ],
+            [
+              0,
+              0,
+              1,
+              -28.565087642164148
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            -59.25219339223986,
+            3.9763702370692044,
+            28.565087642164148
+          ]
+        },
+        "originInSourceMm": [
+          -59.25219339223986,
+          3.9763702370692044,
+          28.565087642164148
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "datums": {
+        "origin": "Bore axial midplane",
+        "endPlanes": [
+          {
+            "sourceZmm": 15.865087642164148,
+            "faceIndices": [
+              18,
+              223
+            ]
+          },
+          {
+            "sourceZmm": 41.26508764216415,
+            "faceIndices": [
+              17,
+              222
+            ]
+          }
+        ],
+        "overallWidthMm": 25.4,
+        "hex": {
+          "cadAcrossFlatsMm": 12.7,
+          "nominalShaftAcrossFlatsMm": 12.7,
+          "faceIndices": [
+            225,
+            226,
+            227,
+            228,
+            229,
+            230
+          ],
+          "axialEngagementEnvelopeMm": 25.4,
+          "shaftFitApproved": false,
+          "drawingAcrossFlatsLimitsMm": [
+            12.725399999999999,
+            12.8524
+          ]
+        },
+        "clocking": "Source and attachment +X point to a hex corner",
+        "nominalDiameterMmFromDrawing": 76.2,
+        "profile": "Unmodified original vendor profile, including all solids; no custom tyre approximation",
+        "outerCylinderDiameterMm": 76.19999999999999
+      }
+    },
+    "intake_star": {
+      "sku": "am-5123_green",
+      "url": "https://s3.amazonaws.com/docusync-files/d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.STEP",
+      "pathrepoRelative": "designs/coral-intake-v1/cots/originals/am-5123.step",
+      "sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869",
+      "bytes": 4544081,
+      "receiptAttempt": 8,
+      "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 3,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_AND_DATUMS_VERIFIED_CAD_DRAWING_BORE_DISCREPANCY",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.am-5123.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -67.88961229202417,
+        -66.91563658776884,
+        -3.090161460673357,
+        59.28773116764653,
+        60.261706871901865,
+        9.609838539326649
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 2215.8709553788576,
+          "bounds_mm": [
+            -14.300940562188819,
+            -13.32696485793349,
+            -3.090161460673354,
+            5.699059437811181,
+            6.67303514206651,
+            9.609838539326645
+          ]
+        },
+        {
+          "index": 1,
+          "valid": true,
+          "volume_mm3": 13.80362796870875,
+          "bounds_mm": [
+            -7.060521377688949,
+            9.710337681375247,
+            8.277459516459245,
+            -1.5192067258751525,
+            16.36330975025157,
+            9.039459516459244
+          ]
+        },
+        {
+          "index": 2,
+          "valid": true,
+          "volume_mm3": 31747.090645673656,
+          "bounds_mm": [
+            -67.88961229202417,
+            -66.91563658776884,
+            -3.090161460673357,
+            59.28773116764653,
+            60.261706871901865,
+            9.609838539326649
+          ]
+        }
+      ],
+      "discrepancies": [
+        {
+          "field": "hex bore across flats",
+          "cadMm": 12.700000000000001,
+          "drawingRangeMm": [
+            12.827,
+            13.081
+          ],
+          "resolution": "Preserve CAD, use drawing for hardware fit; no fit approval"
+        }
+      ],
+      "catalog": {
+        "url": "https://andymark.com/products/compliant-stars",
+        "pathrepoRelative": "designs/coral-intake-v1/cots/originals/compliant-stars.html",
+        "sha256": "a5cf0d680dd5c550930eb33bdec80641fd850cad0d67fdcac01c396fd7b8ed99",
+        "bytes": 1015008,
+        "receiptAttempt": 7,
+        "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json"
+      },
+      "drawing": {
+        "url": "https://s3.amazonaws.com/docusync-files/8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.pdf",
+        "pathrepoRelative": "designs/coral-intake-v1/cots/originals/am-5123.pdf",
+        "sha256": "8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5",
+        "bytes": 84283,
+        "receiptAttempt": 9,
+        "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json"
+      },
+      "variant": {
+        "sku": "am-5123_green",
+        "title": "1/2 in Hex / 35A / 5 in.",
+        "manufacturerVariantId": 44493450477740,
+        "durometerShoreA": 35,
+        "evidence": "Explicit manufacturer variant SKU/title; never CAD appearance",
+        "stepScope": "Manufacturer publishes one family geometry, not a durometer-specific STEP"
+      },
+      "axis": {
+        "originMm": [
+          -4.300940562188819,
+          -3.3269648579334894,
+          3.259838539326646
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "faceIndices": [
+          0
+        ]
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            4.300940562188819,
+            3.3269648579334894,
+            -3.259838539326646
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              4.300940562188819
+            ],
+            [
+              0,
+              1,
+              0,
+              3.3269648579334894
+            ],
+            [
+              0,
+              0,
+              1,
+              -3.259838539326646
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            -4.300940562188819,
+            -3.3269648579334894,
+            3.259838539326646
+          ]
+        },
+        "originInSourceMm": [
+          -4.300940562188819,
+          -3.3269648579334894,
+          3.259838539326646
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "datums": {
+        "origin": "Bore axial midplane",
+        "endPlanes": [
+          {
+            "sourceZmm": -3.090161460673354,
+            "faceIndices": [
+              2,
+              1212
+            ]
+          },
+          {
+            "sourceZmm": 9.609838539326645,
+            "faceIndices": [
+              1,
+              256
+            ]
+          }
+        ],
+        "overallWidthMm": 12.7,
+        "hex": {
+          "cadAcrossFlatsMm": 12.700000000000001,
+          "nominalShaftAcrossFlatsMm": 12.7,
+          "faceIndices": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "axialEngagementEnvelopeMm": 12.7,
+          "shaftFitApproved": false,
+          "drawingAcrossFlatsLimitsMm": [
+            12.827,
+            13.081
+          ]
+        },
+        "clocking": "Source and attachment +X point to a hex corner",
+        "nominalDiameterMmFromDrawing": 127,
+        "profile": "Unmodified original vendor profile, including all solids; no custom tyre approximation",
+        "spokeBodyWidthMm": 10.16,
+        "spokeBodyPlaneIndices": [
+          172,
+          174
+        ],
+        "spokeCountFromDrawing": 8,
+        "spokeSpacingDegreesFromDrawing": 45,
+        "sourceXYEnvelopeMm": [
+          127.1773434596707,
+          127.17734345967071
+        ],
+        "rotationalSweptEnvelopeVerified": false,
+        "includedSolids": "Core spacer, small separate marking solid, star body; retain all three",
+        "catalogWidthInterpretation": "0.40 inch is spoke thickness; drawing hub width is 0.50 inch",
+        "profileDifference": "CAD XY envelope is 127.17734346 mm; drawing diameter is nominal 127 mm. No scaling applied."
+      }
+    }
+  },
+  "gearPairContract": {
+    "pinionSku": "WCP-1010",
+    "gearSku": "WCP-0121",
+    "ratio": 5,
+    "nominalCenterDistanceMm": 45.72,
+    "basis": "Manufacturer 12/60 tooth counts and 20DP; nominal pitch-circle calculation only",
+    "backlashPressureAngleClockingAndLoadedMeshVerified": false
+  },
+  "limitations": [
+    "Verified source geometry/datums are not manufacturing or assembly-fit approval.",
+    "Both AndyMark STEP bores are nominal 12.7 mm; their drawings specify larger bore limits.",
+    "Unit-aware import converts INCH source representations to millimetres; no CAD resizing or master re-export.",
+    "Source coordinates are retained in masters; apply attachment transforms only to assembly instances.",
+    "No placement in parent assembly or replacement of parent custom roller tyres was performed (outside owned scope)."
+  ]
+}

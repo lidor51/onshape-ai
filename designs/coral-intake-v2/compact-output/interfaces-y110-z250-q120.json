@@ -1,0 +1,2354 @@
+{
+  "schema": "compact-interface-check/1",
+  "pivot_yz": [
+    110,
+    250.0
+  ],
+  "stow_deg": -120.0,
+  "status": "FAIL",
+  "physical_instances": 486,
+  "motor_count": 4,
+  "tested_angles_deg": [
+    -120.0,
+    -60.0,
+    0.0,
+    -10.0,
+    -20.0,
+    -30.0,
+    -40.0,
+    -50.0,
+    -70.0,
+    -80.0,
+    -90.0,
+    -100.0,
+    -110.0
+  ],
+  "float_endpoints_deg": [
+    0,
+    -8
+  ],
+  "exact_calls": 247,
+  "hard_interferences": [
+    {
+      "moving": "v2_bearing_pivot_-1_keeper",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -231.1375,
+        97.5,
+        245.5
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_1_keeper",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        230.1375,
+        97.5,
+        245.5
+      ]
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -225.0,
+        91.0,
+        247.0
+      ]
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        225.0,
+        91.0,
+        247.0
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_0_screw",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -227.1375,
+        72.0,
+        247.875
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_0_washer",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -232.3875,
+        69.5,
+        246.25
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_1_nut",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -219.5,
+        148.0,
+        247.25
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_1_screw",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -227.1375,
+        148.0,
+        247.875
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_1_washer",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        -232.3875,
+        145.5,
+        246.25
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_0_screw",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        227.1375,
+        72.0,
+        247.875
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_0_washer",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        231.8875,
+        69.5,
+        246.25
+      ]
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_nut",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "interior_witness_mm": [
+        219.5,
+        148.0,
+        247.25
+      ]
+    }
+  ],
+  "unqualified_contacts": [],
+  "pending": [
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "pickup_pickup_drive_60T",
+      "fixed": "v1_post_bolt_R1_250",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_upper",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_shaft",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_pulley",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_spacer_3",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_spacer_4",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_washer",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_screw",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_L2_upper",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_L2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_R2_upper",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_R2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_upper",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_shaft",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_pulley",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_spacer_3",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_spacer_4",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_washer",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_screw",
+      "angle_deg": -120.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "pickup_pickup_drive_60T",
+      "fixed": "v1_post_bolt_R1_250",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_upper",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_shaft",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_pulley",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_spacer_3",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_spacer_4",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_washer",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_screw",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_L2_upper",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_L2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_R2_upper",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_R2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_upper",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_shaft",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_pulley",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R2_pulley",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_spacer_3",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_spacer_4",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_washer",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_screw",
+      "angle_deg": -120.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -60.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -60.0,
+      "float_deg": -8,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_0_nut",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_0_nut",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0,
+      "reason": "No interior witness found; distance/Boolean clearance NOT established"
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_screw",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_washer",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": 0.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_bearing_pivot_-1_bolt_0_nut",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_0_nut",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_screw",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_washer",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": 0.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_screw",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_washer",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -10.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_screw",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_bearing_pivot_1_bolt_1_washer",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -10.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -20.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_plate_L_247",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_plate_R_247",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -20.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -30.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_1_body_2",
+      "fixed": "v1_indexer_belt_L",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_5_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_belt_R",
+      "angle_deg": -30.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -40.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -40.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -50.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_plate_L_114",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_mount",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_X44",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_1",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_motor_screw_2",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_12T",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_spacer",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_plate_R_114",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_mount",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_X44",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_12T",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_spacer",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -50.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -70.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -70.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_main_cheek_-1",
+      "fixed": "v1_indexer_drive_L_pinion_retention",
+      "angle_deg": -70.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_main_cheek_1",
+      "fixed": "v1_indexer_drive_R_pinion_retention",
+      "angle_deg": -70.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_shaft",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_spacer_4",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_washer",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_screw",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_shaft",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_spacer_4",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_washer",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_screw",
+      "angle_deg": -110.0,
+      "float_deg": 0
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_indexer_L1_shaft",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_spacer_4",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_washer",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_0_body_2",
+      "fixed": "v1_dc_indexer_L1_end_1_screw",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_indexer_R1_shaft",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_spacer_4",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_washer",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    },
+    {
+      "moving": "v2_star_rear_6_body_2",
+      "fixed": "v1_dc_indexer_R1_end_1_screw",
+      "angle_deg": -110.0,
+      "float_deg": -8
+    }
+  ],
+  "elapsed_s": 87.04699999990407,
+  "full_assembly_clearance": false,
+  "release_ready": false,
+  "scope": "Moving-to-retained-fixed AABB candidates, bounded solid-interior witness checks, no distance/Boolean clearance. Moving self-collision, new mounts, field and continuous motion not certified."
+}

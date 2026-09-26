@@ -1,0 +1,194 @@
+{
+  "status": "BLOCKED",
+  "mode": "OFFLINE",
+  "credentialsLoaded": false,
+  "authenticatedRequestsThisInvocation": 0,
+  "packetVersion": "concept-a-local-v1",
+  "freezeSha256": "44535e9050267020e37f4cb738be78f55e46673e342d3f323a1faee39f982851",
+  "packetAdmission": "BLOCKED",
+  "nativeCounts": {
+    "instances": 45,
+    "mates": 44,
+    "revolute": 9,
+    "relations": 5,
+    "cotsImports": 5
+  },
+  "currentConnectorRoute": {
+    "status": "BLOCKED",
+    "limit": 140,
+    "spent": 0,
+    "predictedRemainingAttempts": 234,
+    "projectedTotal": 234,
+    "headroom": -94,
+    "phases": {
+      "pilotAndOwnership": 4,
+      "sourceUploadVersionInstantiation": 10,
+      "assemblyReadiness": 2,
+      "cotsImportPollInspect": 20,
+      "batchInstancesAndReadback": 2,
+      "ground": 1,
+      "connectorFeatures": 88,
+      "nativeMates": 44,
+      "nativeRelations": 5,
+      "baselineHealth": 2,
+      "motionLimitsAndIndependence": 15,
+      "widthRevisionAndSourceReadback": 4,
+      "revisionConnectorUpdates": 14,
+      "receiverControlProbeAndRestore": 8,
+      "baselineRevisionExports": 8,
+      "finalIdentityAndHealth": 2,
+      "recoveryReserve": 5
+    },
+    "remainingPhases": {
+      "pilotAndOwnership": 4,
+      "sourceUploadVersionInstantiation": 10,
+      "assemblyReadiness": 2,
+      "cotsImportPollInspect": 20,
+      "batchInstancesAndReadback": 2,
+      "ground": 1,
+      "connectorFeatures": 88,
+      "nativeMates": 44,
+      "nativeRelations": 5,
+      "baselineHealth": 2,
+      "motionLimitsAndIndependence": 15,
+      "widthRevisionAndSourceReadback": 4,
+      "revisionConnectorUpdates": 14,
+      "receiverControlProbeAndRestore": 8,
+      "baselineRevisionExports": 8,
+      "finalIdentityAndHealth": 2,
+      "recoveryReserve": 5
+    },
+    "metricKind": "PREDICTION_NOT_OBSERVED_API_METRIC",
+    "assumptions": [
+      "One documented batch insertion; response ordering and role binding must be checked.",
+      "At most two translation polls per import/export; no automatic retry.",
+      "Native grounding, role-name handling, limits, relation direction and motion-value codecs require an owned pilot.",
+      "Parametric connector estimate is valid only if the frozen source creates all custom and COTS mate datums.",
+      "No separate 45-call naming pass, no mate batching, and no static STEP assembly substitution are assumed."
+    ]
+  },
+  "conditionalParametricRoute": {
+    "status": "CONDITIONAL_FIT",
+    "limit": 140,
+    "spent": 0,
+    "predictedRemainingAttempts": 132,
+    "projectedTotal": 132,
+    "headroom": 8,
+    "phases": {
+      "pilotAndOwnership": 4,
+      "sourceUploadVersionInstantiation": 10,
+      "assemblyReadiness": 2,
+      "cotsImportPollInspect": 20,
+      "batchInstancesAndReadback": 2,
+      "ground": 1,
+      "connectorFeatures": 0,
+      "nativeMates": 44,
+      "nativeRelations": 5,
+      "baselineHealth": 2,
+      "motionLimitsAndIndependence": 15,
+      "widthRevisionAndSourceReadback": 4,
+      "revisionConnectorUpdates": 0,
+      "receiverControlProbeAndRestore": 8,
+      "baselineRevisionExports": 8,
+      "finalIdentityAndHealth": 2,
+      "recoveryReserve": 5
+    },
+    "remainingPhases": {
+      "pilotAndOwnership": 4,
+      "sourceUploadVersionInstantiation": 10,
+      "assemblyReadiness": 2,
+      "cotsImportPollInspect": 20,
+      "batchInstancesAndReadback": 2,
+      "ground": 1,
+      "connectorFeatures": 0,
+      "nativeMates": 44,
+      "nativeRelations": 5,
+      "baselineHealth": 2,
+      "motionLimitsAndIndependence": 15,
+      "widthRevisionAndSourceReadback": 4,
+      "revisionConnectorUpdates": 0,
+      "receiverControlProbeAndRestore": 8,
+      "baselineRevisionExports": 8,
+      "finalIdentityAndHealth": 2,
+      "recoveryReserve": 5
+    },
+    "metricKind": "PREDICTION_NOT_OBSERVED_API_METRIC",
+    "assumptions": [
+      "One documented batch insertion; response ordering and role binding must be checked.",
+      "At most two translation polls per import/export; no automatic retry.",
+      "Native grounding, role-name handling, limits, relation direction and motion-value codecs require an owned pilot.",
+      "Parametric connector estimate is valid only if the frozen source creates all custom and COTS mate datums.",
+      "No separate 45-call naming pass, no mate batching, and no static STEP assembly substitution are assumed."
+    ]
+  },
+  "gaps": [
+    {
+      "code": "PARENT_V2_ADMISSION",
+      "status": "BLOCKED",
+      "detail": "v1 is diagnostic only: collisions and authentic COTS bindings are unresolved. Do not relabel it."
+    },
+    {
+      "code": "SOURCE_PARAMETRIC_MATE_DATUMS",
+      "status": "BLOCKED",
+      "detail": "v1 source has no generated mate connectors. Separate 88-connector construction exceeds 140. Authentic COTS need their own validated datums too."
+    },
+    {
+      "code": "COTS_MULTIBODY_IMPORT",
+      "status": "UNVERIFIED",
+      "detail": "Current binding requires one actual solid per vendor role. Multi-body vendor imports stop for an explicit native binding and budget revision; no silent body selection or static assembly substitution."
+    },
+    {
+      "code": "NATIVE_GROUND",
+      "status": "UNVERIFIED",
+      "detail": "v17 modify has no documented fixed setter. Verify a native fastened-to-assembly-origin recipe, not a static transform."
+    },
+    {
+      "code": "NATIVE_LIMITS_AND_RELATIONS",
+      "status": "UNVERIFIED",
+      "detail": "Generic v17 BTM types do not specify all limits or gear/belt parameters. Verify direction, ratio and moving-carrier behavior in an owned pilot."
+    },
+    {
+      "code": "NATIVE_MOTION_CODEC",
+      "status": "BLOCKED",
+      "detail": "v17 publishes the base mate-value type with jsonType, but not concrete rotational value fields. No guessed motion sender is implemented."
+    },
+    {
+      "code": "INSTANCE_NAMES",
+      "status": "UNVERIFIED",
+      "detail": "Roles are mapped to observed native names. A distinct-role rename API is not documented by the inspected endpoints; no 45-call rename pass is hidden in the estimate."
+    },
+    {
+      "code": "REVISION_MEASUREMENT",
+      "status": "UNVERIFIED",
+      "detail": "Source expressions and retained part/mate IDs can be inspected; actual receiver world pose, geometry measurements and independent receiver-control execution still need a validated native check."
+    },
+    {
+      "code": "HUMAN_AND_PHYSICAL",
+      "status": "UNVERIFIED",
+      "detail": "No human editability, continuous motion, acquisition, endurance or manufacturing release is claimed."
+    }
+  ],
+  "parentAction": "Provide a new frozen admitted packet and authentic local COTS bindings; route native connector/ground/limits/relation/motion recipe work back to this API arm. Do not ask the external user to waive gates.",
+  "requiredHandoffFields": [
+    "schema=subsystem-ab-api-parent-handoff/1",
+    "admitted",
+    "packetVersion",
+    "freezeSha256",
+    "origin",
+    "newPublicDocumentAuthorized",
+    "apiLedgerSoleOwner",
+    "currentKeyAcknowledgement=CURRENT_KEY_AUTHORIZED_NOT_ROTATION_CLAIM",
+    "allowance.used",
+    "allowance.limit",
+    "allowance.observedAt",
+    "allowance.cycleEnd",
+    "cotsBindingsFile",
+    "cotsBindingsSha256"
+  ],
+  "entrypoints": [
+    "plan [--write-plan]",
+    "pilot --live --ack-current-key --confirm-one-public-document --packet=... --handoff=...",
+    "source|assemble|revise|export --live --ack-current-key --confirm-one-public-document --packet=... --handoff=... --recipe=...",
+    "Existing ledger attempts also require --resume-owned; export also requires --variant=baseline|revision."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": "UNVERIFIED_BUILD",
+  "opaqueReducerRemoved": true,
+  "loadBasis": {
+    "outputTorqueNm": 22.5,
+    "source": "Parent referenced deployment sizing calculation, rounded 22.5 N m input; not independently rerun here",
+    "impactLoadRating": false,
+    "motorStallOrJamLoadRated": false,
+    "stageEfficiencyAssumed": 0.9
+  },
+  "stages": [
+    {
+      "teeth": [
+        16,
+        128
+      ],
+      "ratio": 8,
+      "moduleMm": 1.27,
+      "pressureAngleDeg": 14.5,
+      "centerDistanceMm": 91.44,
+      "planeXmm": -318
+    },
+    {
+      "teeth": [
+        16,
+        96
+      ],
+      "ratio": 6,
+      "moduleMm": 1.27,
+      "pressureAngleDeg": 14.5,
+      "centerDistanceMm": 71.12,
+      "planeXmm": -281
+    }
+  ],
+  "totalReduction": 48,
+  "inputTorqueNmAtAssumedEfficiency": 0.5787037037037037,
+  "compoundTorqueNm": 4.166666666666666,
+  "finalMeshTangentialN": 369.09448818897636,
+  "firstMeshTangentialN": 51.26312335958004,
+  "finalMeshRadialN": 95.45432493450674,
+  "shaftScreen": {
+    "bearingSpanMm": 26,
+    "finalPinionOverhangMm": 26,
+    "inboardTangentialReactionUpperScreenN": 789.4520997375328,
+    "overhangMomentNm": 9.596456692913385,
+    "inscribedCircleDiameterMm": 12.7,
+    "bendingMPa": 47.71993577668139,
+    "torsionMPa": 10.359712553228267,
+    "vonMisesMPa": 50.98198900677711,
+    "status": "SCREEN_ONLY_NO_MATERIAL_FATIGUE_OR_BEARING_RATING"
+  },
+  "budget": {
+    "range": [
+      25,
+      45
+    ],
+    "nativeInstancesExcludingCoral": 48,
+    "mechanismInstancesExcludingAllReferences": 45,
+    "uniqueNeutralParts": 28,
+    "status": "FAIL_CONSERVATIVE_NATIVE_INSTANCE_LIMIT",
+    "scope": "Do not hide support/bearing instances or redefine the v1 native-instance budget. Rigid module physical item counts exceed instance counts; not a complete fabrication BOM."
+  },
+  "nonBendBuildRoute": [
+    "Router-cut flat cheeks with bearing and motor pilot bores; manual lathe turned spacers",
+    "Existing flat tower joined to cheek bridge with bolts, no precision sheet bending",
+    "Hex shaft with separate gear hubs; source exact 16t tooth/spline geometry or generate and validate a manufacturable profile",
+    "Cut 128t output from selected gear stock only after tooth/root strength and shop process approval"
+  ],
+  "unresolved": [
+    "16t 14.5-degree involute undercut/profile and mating tooth manufacture are not defined by addendum disks",
+    "Gear and shaft materials, hub retention, cheek/spacer joining, axial retention, bearing ratings and tolerances are unselected",
+    "No powered-off brake, hard-stop load path, jam/impact rating or physical transfer proof",
+    "Full native instance count exceeds 45; no removal or masking of modeled parts to claim budget PASS"
+  ]
+}

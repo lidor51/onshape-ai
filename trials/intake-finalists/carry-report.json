@@ -1,0 +1,4397 @@
+{
+  "candidateId": "B",
+  "result": "FAIL",
+  "geometryReady": false,
+  "parameters": {
+    "units": "mm",
+    "coralLength": 301.625,
+    "coralOD": 114.3,
+    "coralBore": 101.6,
+    "pivotY": 100,
+    "pivotZ": 140,
+    "acquireY": -320,
+    "acquireZ": 57.15,
+    "handoffDegrees": -160,
+    "stowDegrees": -155,
+    "rollerRadius": 25,
+    "plateAcross": 255,
+    "plateThickness": 6,
+    "ribbonWidth": 10,
+    "shaftHalfLength": 270,
+    "keeperStroke": 125,
+    "jawOpen": 300,
+    "jawClosed": 120,
+    "receiverSupportAcross": 300,
+    "samplesPerRotation": 361,
+    "chassisWidth": 700,
+    "chassisLength": 760,
+    "heightLimit": 1066.8,
+    "extensionLimit": 457.2,
+    "requiredExtensionMargin": 5,
+    "requiredClearance": 0.25
+  },
+  "scope": "Rigid-body polygon/circle extrusion clearance with Lipschitz intersample bounds; not physical success.",
+  "inspectedPoses": 2052,
+  "exactPairTests": 52363,
+  "rotationSamplesEach": 361,
+  "maximumRotationStepDegrees": 0.4444444444444444,
+  "conservativeMethod": "Actual concave plate polygons and exact circular outer envelopes. Exact rotational extrema for floor/extension. General pairs use half-step travel, exact swept axial separation, and planar separation minus rotational travel (axial slides leave the planar profiles invariant). Exact relative circles for roller contacts and monotonic axial pad contact. Only named joints excluded; all full shafts checked. Phase minima independently populated.",
+  "polygonOverlapMeaning": "-0.001 mm means certified polygon overlap, not a computed penetration depth.",
+  "assemblyBodyMeshes": 45,
+  "referenceMeshes": 10,
+  "coralMeshes": 1,
+  "handoffCenterMm": [
+    0,
+    466.3345318555498,
+    361.5019938288934
+  ],
+  "stowCenterMm": [
+    0,
+    445.635347570176,
+    392.5872700870802
+  ],
+  "degreesOfFreedom": {
+    "independentInputs": 4,
+    "positioning": 3,
+    "continuousRollerDrives": 1,
+    "lockedRollerAxes": 1
+  },
+  "structure": {
+    "status": "PASS",
+    "attachedBodyCount": 45,
+    "totalBodyCount": 45,
+    "unattachedBodies": [],
+    "criterion": "Named mechanical joints must form an actual touching geometry path to a chassis-supported tower; proximity is not fastener or bearing validation."
+  },
+  "finiteContact": [
+    {
+      "part": "Front carrier-locked drum 1",
+      "axialIntervalMm": [
+        -98,
+        98
+      ],
+      "coralOverlapMm": 196,
+      "radialContactGapMm": 2.1316282072803006e-14,
+      "mode": "locked relative to carrier"
+    },
+    {
+      "part": "Rear driven drum 1",
+      "axialIntervalMm": [
+        -98,
+        98
+      ],
+      "coralOverlapMm": 196,
+      "radialContactGapMm": -7.105427357601002e-15,
+      "mode": "powered"
+    }
+  ],
+  "retention": {
+    "carrier": "Two lower finger sectors, split axial upper keepers, opposed central rollers and axial end discs form a geometric cage when closed.",
+    "lowerOpeningChordUpperBoundMm": 73.8134632581386,
+    "coralDiameterMm": 114.3,
+    "keeperArcDegrees": [
+      43,
+      96
+    ],
+    "keeperToLockedRollerGapUpperBoundMm": 86.25306709005054,
+    "endDiscRadiusMm": 52,
+    "boreRadiusMm": 50.8,
+    "receiver": "Two axially inserted C-cages with tangent pads and retained end stops; 336-degree wrap and a narrow opening provide geometric restraint without assuming pad friction. Close before split-keeper withdrawal, then return carrier. Thin 1 mm radial cage section is not load-qualified.",
+    "receiverFingerSlotSideMarginMm": 7,
+    "receiverClosedVerticalOpeningUpperBoundMm": 24.74149120731336,
+    "springAndActuation": "Separate axial pinbars and rails on both sides, synchronized within each pair. Receiver U-rails have modeled stem slots. Keeper rail bearing bores and intentional pin/rail sliding joints are contact allowances, not detailed bearings. Keeper spring, stops, release actuator, pad force and transmissions remain unsized."
+  },
+  "pickupEnvelope": {
+    "validatedInitialYawDegrees": 0,
+    "validatedInitialAxialOffsetMm": 0,
+    "axialGuideFreeHalfGapMm": 9.1875,
+    "assumption": "Centered crosswise insertion only. Any clearance-derived yaw/offset fit is not a guaranteed capture or self-centering envelope."
+  },
+  "pickupScreen": {
+    "method": "Exact support extent of the full yawed finite cylinder against axial guide planes and opposed tangent half-spaces. A failed sufficient-condition screen is not a measured pickup failure.",
+    "certifiedYawDegrees": 0,
+    "certifiedAxialHalfRangeMm": 9.1875,
+    "guaranteedAcquisition": false,
+    "cases": [
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -13.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -8.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -3.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": 1.554687395181304,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -3.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -8.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -13.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -10.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -5.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -0.21956360399002506,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": 4.780436396009975,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -0.21956360399002506,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -5.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -10.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -7.715135336365307,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -2.7151353363653072,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": 2.2848646636346928,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": 7.284864663634693,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": 2.2848646636346928,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -2.7151353363653072,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -7.715135336365307,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": -5.8125,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": -0.8125,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": 4.1875,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": true
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": 9.1875,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": true
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": 4.1875,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": true
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": -0.8125,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "axialMarginMm": -5.8125,
+        "conservativeOpposedTangentSlabMarginMm": 0,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -7.715135336365307,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -2.7151353363653072,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": 2.2848646636346928,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": 7.284864663634693,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": 2.2848646636346928,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -2.7151353363653072,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "axialMarginMm": -7.715135336365307,
+        "conservativeOpposedTangentSlabMarginMm": -5.1302622189686815,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -10.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -5.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -0.21956360399002506,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": 4.780436396009975,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -0.21956360399002506,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -5.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "axialMarginMm": -10.219563603990025,
+        "conservativeOpposedTangentSlabMarginMm": -12.68635741047914,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -13.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -8.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -3.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": 1.554687395181304,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -3.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -8.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "axialMarginMm": -13.445312604818696,
+        "conservativeOpposedTangentSlabMarginMm": -24.85772026046751,
+        "certifiedRigidSlotFit": false
+      }
+    ]
+  },
+  "parameterScreen": {
+    "handoffAnglesDegrees": [
+      -140,
+      -145,
+      -150,
+      -155,
+      -160
+    ],
+    "method": "Earlier local recipe: 181 points per transfer/handoff/stow phase, all receiver parts versus coral and carrier; not a continuous certificate or an optimization.",
+    "conclusion": "Historical baseline only: no screened angle passed the earlier receiver and local-z keeper. Current geometry is judged by the live gates, not this obsolete screen.",
+    "originalPivotZ80": "The supplied upper dogleg vertex reaches below -40 mm at -155 degrees. Pivot Z was raised to 140 mm without moving the acquired coral."
+  },
+  "gates": [
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 17.1093769982117,
+      "lowerBoundMm": 17.108574849536467,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 71.95655875008919,
+      "lowerBoundMm": 71.95640918135666,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 175.96797814800323,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Front intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 250.6714185733669,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 1,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998934,
+      "lowerBoundMm": 0.9999999999998934,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.67875,
+        "angleDegrees": -114.22222222222224,
+        "owner": "receiver",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": -0.37186558994114316,
+      "requiredMm": 0.25,
+      "evidence": "continuous margin not certified",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.stow",
+      "status": "PASS",
+      "sampledMarginMm": 10,
+      "lowerBoundMm": 10,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.stow",
+      "status": "PASS",
+      "sampledMarginMm": 199.1875,
+      "lowerBoundMm": 199.1875,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 17.109376998211644,
+      "lowerBoundMm": 17.108574849536524,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 47.51028757214843,
+      "lowerBoundMm": 45.41553787644529,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 43.622500683626086,
+      "lowerBoundMm": 41.52775098792296,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 1,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 71.95655875008919,
+      "lowerBoundMm": 71.95640918135672,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 175.96797814800323,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 250.6714185733669,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 1,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998934,
+      "lowerBoundMm": 0.9999999999998934,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.67875,
+        "angleDegrees": -114.22222222222224,
+        "owner": "receiver",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": -0.37186558994114316,
+      "requiredMm": 0.25,
+      "evidence": "continuous margin not certified",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.stow",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.stow",
+      "status": "PASS",
+      "sampledMarginMm": 197.214652429824,
+      "lowerBoundMm": 197.214652429824,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "structure.connectedBodies",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "phase": "assembly",
+        "unattachedBodies": []
+      }
+    }
+  ],
+  "phaseGates": [
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 26.9874073983421,
+      "lowerBoundMm": 26.9874073983421,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 80.05000000000001,
+      "lowerBoundMm": 80.05000000000001,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 177.85,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Front intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 262.85722257474134,
+      "lowerBoundMm": 262.85722257474134,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Front thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 1,
+      "lowerBoundMm": 1,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998486,
+      "lowerBoundMm": 0.9999999999998486,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Receiver slide guide negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.8500000000000156,
+      "lowerBoundMm": 3.8500000000000156,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": 2.1316282072803006e-14,
+      "lowerBoundMm": 2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Front carrier-locked drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 17.1093769982117,
+      "lowerBoundMm": 17.108574849536467,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 71.95655875008919,
+      "lowerBoundMm": 71.95640918135666,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 175.96797814800323,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Front intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 250.6714185733669,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 1,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 9.000000000000014,
+      "lowerBoundMm": 9.000000000000014,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Axial retention disc negative-x",
+        "obstacle": "Lower finger mounting tie negative-x 1",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998486,
+      "lowerBoundMm": 0.9999999999998486,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Receiver slide guide negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.8500000000000156,
+      "lowerBoundMm": 3.8500000000000156,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": 2.1316282072803006e-14,
+      "lowerBoundMm": 2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Front carrier-locked drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 467.2,
+      "lowerBoundMm": 467.2,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 656.3875,
+      "lowerBoundMm": 656.3875,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 243.09388791234124,
+      "lowerBoundMm": 243.09388791234124,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.55344042536368,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 9.000000000000057,
+      "lowerBoundMm": 9.000000000000057,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Axial retention disc negative-x",
+        "obstacle": "Lower finger mounting tie negative-x 1",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -0.001,
+      "lowerBoundMm": -0.001,
+      "requiredMm": 0.25,
+      "evidence": "sampled overlap",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.044,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Pivot mount negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 462.2,
+      "lowerBoundMm": 462.2,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Keeper sliding pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 656.3875,
+      "lowerBoundMm": 656.3875,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 243.09388791234124,
+      "lowerBoundMm": 243.09388791234124,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.55344042536368,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 1.0000000000000382,
+      "lowerBoundMm": 1.0000000000000382,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.36333333333333334,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": 1.5000000000000382,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 1,
+        "angleDegrees": 0,
+        "owner": "receiver",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 17.109376998211758,
+      "lowerBoundMm": 17.10857484953658,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.96875,
+        "angleDegrees": -11.111111111111105,
+        "owner": "receiver",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 656.3875,
+      "lowerBoundMm": 656.3875,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 243.09388791234124,
+      "lowerBoundMm": 243.09388791234124,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.55344042536368,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998934,
+      "lowerBoundMm": 0.9999999999998934,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.67875,
+        "angleDegrees": -114.22222222222224,
+        "owner": "receiver",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": -0.37186558994114316,
+      "requiredMm": 0.25,
+      "evidence": "continuous margin not certified",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 467.2,
+      "lowerBoundMm": 467.2,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "front.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 656.3875,
+      "lowerBoundMm": 656.3875,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 243.09388791234124,
+      "lowerBoundMm": 242.81158463454173,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.27113714756416,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 9.000000000000057,
+      "lowerBoundMm": 9.000000000000057,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Axial retention disc negative-x",
+        "obstacle": "Lower finger mounting tie negative-x 1",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998486,
+      "lowerBoundMm": 0.9999999999998486,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Receiver slide guide negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.8500000000000583,
+      "lowerBoundMm": 3.8500000000000583,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.stow",
+      "status": "PASS",
+      "sampledMarginMm": 10,
+      "lowerBoundMm": 10,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.stow",
+      "status": "PASS",
+      "sampledMarginMm": 199.1875,
+      "lowerBoundMm": 199.1875,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 26.9874073983421,
+      "lowerBoundMm": 26.9874073983421,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 47.51028757214843,
+      "lowerBoundMm": 47.51028757214843,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 45,
+      "lowerBoundMm": 45,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Rear thin chassis rail"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 80.05000000000001,
+      "lowerBoundMm": 80.05000000000001,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 177.85,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 262.85722257474134,
+      "lowerBoundMm": 262.85722257474134,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left thin chassis rail"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 1,
+      "lowerBoundMm": 1,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998486,
+      "lowerBoundMm": 0.9999999999998486,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Receiver slide guide negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.8500000000000156,
+      "lowerBoundMm": 3.8500000000000156,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": 2.1316282072803006e-14,
+      "lowerBoundMm": 2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Front carrier-locked drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 17.109376998211644,
+      "lowerBoundMm": 17.108574849536524,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 47.51028757214843,
+      "lowerBoundMm": 45.41553787644529,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 43.622500683626086,
+      "lowerBoundMm": 41.52775098792296,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 1,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 71.95655875008919,
+      "lowerBoundMm": 71.95640918135672,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0.06944444444444445,
+        "angleDegrees": -11.111111111111112,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 175.96797814800323,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 250.6714185733669,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 1,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 9.000000000000014,
+      "lowerBoundMm": 9.000000000000014,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Axial retention disc negative-x",
+        "obstacle": "Lower finger mounting tie negative-x 1",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998486,
+      "lowerBoundMm": 0.9999999999998486,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Receiver slide guide negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.8500000000000156,
+      "lowerBoundMm": 3.8500000000000156,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": 2.1316282072803006e-14,
+      "lowerBoundMm": 2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "transfer:0-1",
+        "progress": 0,
+        "angleDegrees": 0,
+        "owner": "carrier",
+        "part": "Front carrier-locked drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 497.2,
+      "lowerBoundMm": 497.2,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar positive-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 70,
+      "lowerBoundMm": 70,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Front intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 43.622500683626086,
+      "lowerBoundMm": 43.622500683626086,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 633.7154681444503,
+      "lowerBoundMm": 633.7154681444503,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 248.15736083805044,
+      "lowerBoundMm": 248.15736083805044,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Right intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.55344042536368,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 9.000000000000057,
+      "lowerBoundMm": 9.000000000000057,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Axial retention disc negative-x",
+        "obstacle": "Lower finger mounting tie negative-x 1",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -0.001,
+      "lowerBoundMm": -0.001,
+      "requiredMm": 0.25,
+      "evidence": "sampled overlap",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.044,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0-0.3",
+        "progress": 0.224,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Pivot mount negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 492.2,
+      "lowerBoundMm": 492.2,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Keeper sliding pinbar positive-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 70,
+      "lowerBoundMm": 70,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Front intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 43.622500683626086,
+      "lowerBoundMm": 43.622500683626086,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 633.7154681444503,
+      "lowerBoundMm": 633.7154681444503,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 248.15736083805044,
+      "lowerBoundMm": 248.15736083805044,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral",
+        "obstacle": "Right intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.55344042536368,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 1.0000000000000382,
+      "lowerBoundMm": 1.0000000000000382,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.36333333333333334,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": 1.5000000000000382,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.3-0.55",
+        "progress": 0.3,
+        "angleDegrees": -160,
+        "owner": "both",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 0.27605948473961917,
+      "lowerBoundMm": 0.27605948473961917,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 1,
+        "angleDegrees": 0,
+        "owner": "receiver",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 17.109376998211758,
+      "lowerBoundMm": 17.108574849536524,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.96875,
+        "angleDegrees": -11.111111111111105,
+        "owner": "receiver",
+        "part": "Dogleg ribbon cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 47.51028757214843,
+      "lowerBoundMm": 45.41553787644529,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 1,
+        "angleDegrees": 0,
+        "owner": "receiver",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Left intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 43.622500683626086,
+      "lowerBoundMm": 41.52775098792296,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 633.7154681444503,
+      "lowerBoundMm": 633.7154681444503,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 248.15736083805044,
+      "lowerBoundMm": 248.15736083805044,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral",
+        "obstacle": "Right intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.55344042536368,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998934,
+      "lowerBoundMm": 0.9999999999998934,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.67875,
+        "angleDegrees": -114.22222222222224,
+        "owner": "receiver",
+        "part": "Retention disc mounting link negative-x",
+        "obstacle": "Keeper sliding pinbar negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": -0.37186558994114316,
+      "requiredMm": 0.25,
+      "evidence": "continuous margin not certified",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.8499999999999801,
+      "lowerBoundMm": 0.8499999999999801,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiverPad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Receiver contact pad negative-x -1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 497.2,
+      "lowerBoundMm": 497.2,
+      "requiredMm": 5,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar positive-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 70,
+      "lowerBoundMm": 70,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Fixed transverse pivot shaft",
+        "obstacle": "Front intact bumper"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 43.622500683626086,
+      "lowerBoundMm": 43.308288229270616,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Dogleg ribbon cheek negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.hardware.mountAttachment",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Pivot mount negative-x",
+        "obstacle": "Pivot mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 304.3519938288934,
+      "lowerBoundMm": 304.3519938288934,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 633.7154681444503,
+      "lowerBoundMm": 633.7154681444503,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 248.15736083805044,
+      "lowerBoundMm": 247.87505756025092,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Right intact bumper"
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 252.55344042536368,
+      "lowerBoundMm": 252.27113714756416,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Nominal hollow coral",
+        "obstacle": "Receiver mounting chassis crossmember"
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 9.000000000000057,
+      "lowerBoundMm": 9.000000000000057,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Axial retention disc negative-x",
+        "obstacle": "Lower finger mounting tie negative-x 1",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.9999999999998486,
+      "lowerBoundMm": 0.9999999999998486,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Receiver finger stem negative-x",
+        "obstacle": "Receiver slide guide negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.8500000000000583,
+      "lowerBoundMm": 3.8500000000000583,
+      "requiredMm": 0.25,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller",
+      "status": "PASS",
+      "sampledMarginMm": -9.237055564881302e-14,
+      "lowerBoundMm": -9.237055564881302e-14,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 0,
+        "angleDegrees": -160,
+        "owner": "carrier",
+        "part": "Rear driven drum 1",
+        "obstacle": "Nominal hollow coral",
+        "deliberateContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.stow",
+      "status": "PASS",
+      "sampledMarginMm": 40,
+      "lowerBoundMm": 40,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Receiver axial pinbar negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.stow",
+      "status": "PASS",
+      "sampledMarginMm": 197.214652429824,
+      "lowerBoundMm": 197.214652429824,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "stow:0-1",
+        "progress": 1,
+        "angleDegrees": -155,
+        "owner": "carrier",
+        "part": "Nominal hollow coral"
+      }
+    },
+    {
+      "criterion": "structure.connectedBodies",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "evidence": "certified bound",
+      "witness": {
+        "phase": "assembly",
+        "unattachedBodies": []
+      }
+    }
+  ],
+  "failures": [
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": -0.37186558994114316,
+      "requiredMm": 0.25,
+      "evidence": "continuous margin not certified",
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 1.5000000000000382,
+      "lowerBoundMm": -0.37186558994114316,
+      "requiredMm": 0.25,
+      "evidence": "continuous margin not certified",
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "handoff:0.55-1",
+        "progress": 0.55,
+        "angleDegrees": -160,
+        "owner": "receiver",
+        "part": "Lower finger mounting tie negative-x 1",
+        "obstacle": "Receiver axial cage negative-x",
+        "deliberateContact": false
+      }
+    }
+  ],
+  "intentionalJoints": [
+    [
+      "Fixed transverse pivot shaft",
+      "Pivot mount negative-x"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Fixed transverse pivot shaft"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Pivot mount negative-x"
+    ],
+    [
+      "Axial retention disc negative-x",
+      "Retention disc mounting pin negative-x"
+    ],
+    [
+      "Axial retention disc negative-x",
+      "Retention disc mounting link negative-x"
+    ],
+    [
+      "Axial retention disc negative-x",
+      "Dogleg ribbon cheek negative-x"
+    ],
+    [
+      "Retention disc mounting link negative-x",
+      "Retention disc mounting pin negative-x"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Retention disc mounting pin negative-x"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Retention disc mounting link negative-x"
+    ],
+    [
+      "Keeper slide rail negative-x",
+      "Retention disc mounting link negative-x"
+    ],
+    [
+      "Keeper sliding pinbar negative-x",
+      "Sliding upper keeper negative-x"
+    ],
+    [
+      "Keeper slide rail negative-x",
+      "Keeper sliding pinbar negative-x"
+    ],
+    [
+      "Lower finger mounting tie negative-x 1",
+      "Lower retention finger negative-x 1"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Lower finger mounting tie negative-x 1"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Lower retention finger negative-x 1"
+    ],
+    [
+      "Lower finger mounting tie negative-x 2",
+      "Lower retention finger negative-x 2"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Lower finger mounting tie negative-x 2"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Lower retention finger negative-x 2"
+    ],
+    [
+      "Fixed transverse pivot shaft",
+      "Pivot mount positive-x"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Fixed transverse pivot shaft"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Pivot mount positive-x"
+    ],
+    [
+      "Axial retention disc positive-x",
+      "Retention disc mounting pin positive-x"
+    ],
+    [
+      "Axial retention disc positive-x",
+      "Retention disc mounting link positive-x"
+    ],
+    [
+      "Axial retention disc positive-x",
+      "Dogleg ribbon cheek positive-x"
+    ],
+    [
+      "Retention disc mounting link positive-x",
+      "Retention disc mounting pin positive-x"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Retention disc mounting pin positive-x"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Retention disc mounting link positive-x"
+    ],
+    [
+      "Keeper slide rail positive-x",
+      "Retention disc mounting link positive-x"
+    ],
+    [
+      "Keeper sliding pinbar positive-x",
+      "Sliding upper keeper positive-x"
+    ],
+    [
+      "Keeper slide rail positive-x",
+      "Keeper sliding pinbar positive-x"
+    ],
+    [
+      "Lower finger mounting tie positive-x 1",
+      "Lower retention finger positive-x 1"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Lower finger mounting tie positive-x 1"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Lower retention finger positive-x 1"
+    ],
+    [
+      "Lower finger mounting tie positive-x 2",
+      "Lower retention finger positive-x 2"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Lower finger mounting tie positive-x 2"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Lower retention finger positive-x 2"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Front carrier-locked roller shaft"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Front carrier-locked roller shaft"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Dogleg ribbon cheek positive-x"
+    ],
+    [
+      "Front carrier-locked drum 1",
+      "Front carrier-locked roller shaft"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Rear driven roller shaft"
+    ],
+    [
+      "Dogleg ribbon cheek positive-x",
+      "Rear driven roller shaft"
+    ],
+    [
+      "Dogleg ribbon cheek negative-x",
+      "Dogleg ribbon cheek positive-x"
+    ],
+    [
+      "Rear driven drum 1",
+      "Rear driven roller shaft"
+    ],
+    [
+      "Receiver axial cage negative-x",
+      "Receiver contact pad negative-x -1"
+    ],
+    [
+      "Receiver axial cage negative-x",
+      "Receiver contact pad negative-x 1"
+    ],
+    [
+      "Receiver axial cage negative-x",
+      "Receiver finger stem negative-x"
+    ],
+    [
+      "Receiver axial pinbar negative-x",
+      "Receiver finger stem negative-x"
+    ],
+    [
+      "Receiver axial pinbar negative-x",
+      "Receiver axial stop negative-x"
+    ],
+    [
+      "Receiver axial pinbar negative-x",
+      "Receiver slide guide negative-x"
+    ],
+    [
+      "Receiver chassis post negative-x",
+      "Receiver slide guide negative-x"
+    ],
+    [
+      "Receiver axial cage positive-x",
+      "Receiver contact pad positive-x -1"
+    ],
+    [
+      "Receiver axial cage positive-x",
+      "Receiver contact pad positive-x 1"
+    ],
+    [
+      "Receiver axial cage positive-x",
+      "Receiver finger stem positive-x"
+    ],
+    [
+      "Receiver axial pinbar positive-x",
+      "Receiver finger stem positive-x"
+    ],
+    [
+      "Receiver axial pinbar positive-x",
+      "Receiver axial stop positive-x"
+    ],
+    [
+      "Receiver axial pinbar positive-x",
+      "Receiver slide guide positive-x"
+    ],
+    [
+      "Receiver chassis post positive-x",
+      "Receiver slide guide positive-x"
+    ]
+  ],
+  "limitations": [
+    "Analytic rigid geometry only; not traction, self-centering, load, reliability or rule certification.",
+    "Acquire begins with a centered, crosswise coral already between contacts. No guaranteed pickup or yaw correction.",
+    "Handoff receiver is a new proposed interface, not measured team or vendor CAD.",
+    "Central contact drums preserve both full roller shafts; non-contacting outboard rubber bands were removed for axial receiver access.",
+    "Stow is the loaded-carrier branch from transfer, not a teleport after a completed receiver handoff.",
+    "Motors, transmissions, sensors, fasteners, wiring and tolerance stack remain undesigned.",
+    "A failed collision or continuous-clearance gate means NOT GEOMETRY-READY."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "12",
+  "title": "Through-bumper cutout",
+  "family": "Direct low belt feed with passive centering and end-grip handoff",
+  "summary": "UNTESTED geometry comparison: a real 350 mm split-bumper gap feeds a supported low tray and end gripper. Not a 2025 competition recommendation.",
+  "advantage": "A shallow feed avoids a lift arm; one motor, two belt drums and passive guides may simplify the 95 mm handoff.",
+  "risk": "Known R401/R402/R405 violation; Q152 rejects the notch exception. Traction, skew, floor pickup, retention and jaw transfer remain untested.",
+  "firstTest": "Rules gate FIRST: reject for 2025 under R401/R402/R405 and Q152. Paper-check support and jaw access only; do not proceed to a powered competition prototype.",
+  "complexity": "low",
+  "inspiration": "User-requested actual bumper cutout, instead of an over-bumper route; original geometry comparison, not a team replica or rules-compliant alternative.",
+  "bumperOpening": {
+    "widthMm": 350,
+    "recessDepthMm": 340
+  },
+  "notice": "2025 NON-COMPLIANT: open bumper gap violates R401/R402/R405; geometry comparison only.",
+  "side": {
+    "guides": [
+      {
+        "points": [[-420, 0], [-350, 4.014], [-85, 19.2125], [0, 24.0864], [240, 37.85], [320, 42.4379], [320, 36.4379], [-315.37, 0], [-420, 0]],
+        "label": "Shallow support tray"
+      },
+      {
+        "points": [[-348.57, 116.355], [241.43, 150.191], [238.57, 200.109], [-351.43, 166.273], [-348.57, 116.355]],
+        "label": "Compliant top feed belt"
+      }
+    ],
+    "rollers": [
+      { "center": [-350, 141.314], "radius": 25, "label": "Front belt drum" },
+      { "center": [240, 175.15], "radius": 25, "label": "Rear drive drum" }
+    ],
+    "links": [],
+    "pivot": null,
+    "ghost": [],
+    "path": [[-435, 57.15], [-420, 57.15], [-350, 61.164], [-210, 69.1932], [-85, 76.3625], [0, 81.2364], [120, 88.1182], [240, 95]],
+    "receiver": { "center": [240, 95], "label": "End-grip handoff" },
+    "labels": [
+      { "at": [-400, 380], "text": "57.15 -> 95 mm center" },
+      { "at": [-400, 430], "text": "Tray rises 0 -> 37.85 mm" },
+      { "at": [-400, 480], "text": "340 mm internal recess" }
+    ]
+  },
+  "plan": {
+    "guides": [
+      {
+        "points": [[-250, -420], [250, -420], [165, -95], [165, 185], [110, 205], [110, 320], [-110, 320], [-110, 205], [-165, 185], [-165, -95], [-250, -420]],
+        "label": "Tray with end-jaw access"
+      },
+      {
+        "points": [[-250, -420], [-165, -95], [-165, 185], [-173, 185], [-173, -95], [-258, -420], [-250, -420]],
+        "label": "Left centering guide"
+      },
+      {
+        "points": [[250, -420], [165, -95], [165, 185], [173, 185], [173, -95], [258, -420], [250, -420]],
+        "label": "Right centering guide"
+      },
+      {
+        "points": [[-110, -375], [110, -375], [110, 265], [-110, 265], [-110, -375]],
+        "label": "220 mm upper belt footprint"
+      },
+      {
+        "points": [[-110, -375], [110, -375], [110, -325], [-110, -325], [-110, -375]],
+        "label": "Front transverse drum band"
+      },
+      {
+        "points": [[-110, 215], [110, 215], [110, 265], [-110, 265], [-110, 215]],
+        "label": "Rear transverse drum band"
+      },
+      {
+        "points": [[-166, 210], [-156, 210], [-156, 270], [-166, 270], [-166, 210]],
+        "label": "Open left end jaw"
+      },
+      {
+        "points": [[156, 210], [166, 210], [166, 270], [156, 270], [156, 210]],
+        "label": "Open right end jaw"
+      }
+    ],
+    "rollers": [],
+    "movingOutline": [],
+    "path": [[-15, -435], [-12, -420], [-8, -350], [-4, -210], [0, -85], [0, 0], [0, 120], [0, 240]],
+    "receiver": { "center": [0, 240], "label": "Crosswise end-grip handoff" },
+    "coralYawDeg": 90,
+    "labels": [
+      { "at": [-310, 440], "text": "500 mouth / 350 mm gap" },
+      { "at": [-310, 500], "text": "Recess: 350 x 340 mm" },
+      { "at": [-310, 560], "text": "301.625 x 114.3 mm coral" }
+    ]
+  },
+  "mouthWidthMm": 500,
+  "states": "Stage 2 only; all geometry, pickup, centering, grip and physical performance are UNTESTED. This option alone expressly overrides BRIEF.md's intact-bumper constraint: remove the real front bumper at x=-175..175, y=-85..0, through its full nominal z=45..165 section, retaining the flanking bumpers. The removed nominal segment is dashed reference only, never a working bumper or over-bumper path. Separately recess the central chassis at x=-175..175, y=0..340; there is no front frame member crossing the coral. The rear frame begins at y=340. This is a known 2025 R401/R402/R405 conflict, confirmed by Q152, not unknown legality and not an internal recess mislabeled as a bumper gap. It is ineligible as a 2025 competition recommendation. The first cheap test is the rules gate, which this geometry fails; no powered competition prototype is justified. Remaining paper checks and any future separately authorized non-competition bench tests cannot cure that rule conflict. Coordinates are approximate mm. Nominal coral is 301.625 mm long and 114.3 mm OD, offered crosswise at x=0, y=240, z=95. The 500 mm usable mouth narrows to 330 mm between guides within the separate 350 mm bumper opening. A centered crosswise coral has 24.1875 mm nominal clearance per bumper end, reduced to 14.1875 mm per inner guide; these are static dimensions, not demonstrated capture tolerance. Pickup: drive forward to bring coral onto the shallow tray and into the rearward-running lower surface of one compliant upper belt. Two 50 mm diameter transverse drums drive a 220 mm wide belt; one motor, no lift linkage, powered yaw stage or roller ladder. Passive guides propose centering a near-crosswise entry; arbitrary-yaw capture is not established. The tray top rises from floor at y=-420 to 37.85 mm at the receiver and 42.4379 mm at y=320. The path follows that support plus the nominal 57.15 mm radius, with shallow-slope tangency rounded by less than 0.1 mm; it passes through the missing bumper band at about z=76..81, never over the nominal bumper. Flat router-cut side plates support a straight inclined tray with a tapered printed entry lip; no precision bends. The belt's roughly 2 mm nominal interference is only a compliance hypothesis, not proven traction or preload. Hold: stop the belt with one coral supported on the tray; backdrive, braking and rollback remain unknown. Offer: confirm receiver-ready, close the two end jaws, confirm capture, then release the feed. Whole-robot occupancy must inhibit a second coral; sensing is not implemented. At the receiver the central 220 mm belt and narrowed tray leave 40.8125 mm of each coral end exposed. Open jaw faces at x=+/-156 have 5.1875 mm nominal end clearance; approach from above the exposed ends, then close inward. No crossbar or placeholder frame occupies the piece. The receiver's circular side envelope spans y=182.85..297.15, inside the 340 mm recess with 42.85 mm nominal rear clearance. Jaw fingers, their supporting structure, drive mounts and all loads require later design. This fixed deployed sketch has no demonstrated stow, floor compliance, jam reversal, finite-piece sweep or safe retention; physical unknowns remain separate from the already-known bumper rule violation."
+}

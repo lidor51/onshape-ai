@@ -1,0 +1,16 @@
+{
+  "status": "RECEIVED_STEP",
+  "rawFile": "baseline-export.bin",
+  "archiveFile": null,
+  "bytes": 64379,
+  "sha256": "d8c63d218cb6dcece6061d0dce1d680f5ba9cc3ea3e02ef5c2fb032701756f5e",
+  "parts": [
+    {
+      "member": "baseline.step",
+      "file": "baseline.step",
+      "bytes": 64379,
+      "sha256": "d8c63d218cb6dcece6061d0dce1d680f5ba9cc3ea3e02ef5c2fb032701756f5e",
+      "manifoldSolidBrepCount": 9
+    }
+  ]
+}

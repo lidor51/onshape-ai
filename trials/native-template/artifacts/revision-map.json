@@ -1,0 +1,210 @@
+{
+  "part": {
+    "semanticId": "leftPlate",
+    "sourceFeature": "plate-extrude",
+    "serverPartId": null,
+    "resolver": "exactly one solid from bodydetails, validate bounds/holes/volume, rebind at every microversion"
+  },
+  "controls": [
+    {
+      "featureId": "var-innerWidth",
+      "name": "innerWidth",
+      "dialog": "Control: innerWidth",
+      "aiOwned": true
+    },
+    {
+      "featureId": "var-rollerGap",
+      "name": "rollerGap",
+      "dialog": "Control: rollerGap",
+      "aiOwned": true
+    },
+    {
+      "featureId": "var-plateThickness",
+      "name": "plateThickness",
+      "dialog": "Control: plateThickness",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-plateLength",
+      "name": "plateLength",
+      "dialog": "Control: plateLength",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-plateHeight",
+      "name": "plateHeight",
+      "dialog": "Control: plateHeight",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-plateBottomZ",
+      "name": "plateBottomZ",
+      "dialog": "Control: plateBottomZ",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-rollerDiameter",
+      "name": "rollerDiameter",
+      "dialog": "Control: rollerDiameter",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-frontRollerY",
+      "name": "frontRollerY",
+      "dialog": "Control: frontRollerY",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-rollerZ",
+      "name": "rollerZ",
+      "dialog": "Control: rollerZ",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-shaftHoleDiameter",
+      "name": "shaftHoleDiameter",
+      "dialog": "Control: shaftHoleDiameter",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-mountHoleDiameter",
+      "name": "mountHoleDiameter",
+      "dialog": "Control: mountHoleDiameter",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-pivotHoleDiameter",
+      "name": "pivotHoleDiameter",
+      "dialog": "Control: pivotHoleDiameter",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-pivotY",
+      "name": "pivotY",
+      "dialog": "Control: pivotY",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-pivotZ",
+      "name": "pivotZ",
+      "dialog": "Control: pivotZ",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-mount1Y",
+      "name": "mount1Y",
+      "dialog": "Control: mount1Y",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-mount1Z",
+      "name": "mount1Z",
+      "dialog": "Control: mount1Z",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-mount2Y",
+      "name": "mount2Y",
+      "dialog": "Control: mount2Y",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-mount2Z",
+      "name": "mount2Z",
+      "dialog": "Control: mount2Z",
+      "aiOwned": false
+    },
+    {
+      "featureId": "var-rearRollerY",
+      "name": "rearRollerY",
+      "dialog": "Control: rearRollerY",
+      "aiOwned": false
+    }
+  ],
+  "constraints": [
+    {
+      "featureId": "plate-profile",
+      "count": 12,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "#plateBottomZ",
+        "#plateLength",
+        "#plateHeight"
+      ]
+    },
+    {
+      "featureId": "hole-sketch-0",
+      "count": 3,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "#frontRollerY",
+        "#rollerZ",
+        "#shaftHoleDiameter"
+      ]
+    },
+    {
+      "featureId": "hole-sketch-1",
+      "count": 3,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "#rearRollerY",
+        "#rollerZ",
+        "#shaftHoleDiameter"
+      ]
+    },
+    {
+      "featureId": "hole-sketch-2",
+      "count": 3,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "#mount1Y",
+        "#mount1Z",
+        "#mountHoleDiameter"
+      ]
+    },
+    {
+      "featureId": "hole-sketch-3",
+      "count": 3,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "#mount2Y",
+        "#mount2Z",
+        "#mountHoleDiameter"
+      ]
+    },
+    {
+      "featureId": "hole-sketch-4",
+      "count": 3,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "#pivotY",
+        "#pivotZ",
+        "#pivotHoleDiameter"
+      ]
+    },
+    {
+      "featureId": "editor-hole-sketch",
+      "count": 3,
+      "intendedRemainingDOF": 0,
+      "actualSolverDOF": null,
+      "status": "UNVERIFIED",
+      "expressions": [
+        "200 mm",
+        "40 mm",
+        "4 mm"
+      ]
+    }
+  ]
+}

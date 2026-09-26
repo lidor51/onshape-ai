@@ -1,0 +1,163 @@
+{
+  "dependencies": {
+    "Pillow": "11.3.0",
+    "cadquery": "2.6.1",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "casadi": "3.7.2",
+    "ezdxf": "1.4.3",
+    "matplotlib": "3.10.9",
+    "pypdf": "6.0.0",
+    "pypdfium2": "4.30.0",
+    "pytest": "8.4.2",
+    "reportlab": "4.4.3"
+  },
+  "dxf": {
+    "checks": [
+      "units",
+      "closed loops",
+      "no duplicate/annotation entities",
+      "hole centers",
+      "hole diameters",
+      "thickness",
+      "world bounds",
+      "volume",
+      "valid BRep"
+    ],
+    "hole_count": 6,
+    "reconstructed_solid_count": 1,
+    "status": "PASS",
+    "volume_mm3": 380215.3328356058
+  },
+  "engineering_approval": "UNVERIFIED",
+  "evidence": "ONSHAPE_NATIVE_SNAPSHOT_LOCAL_PACKAGE",
+  "intent": {
+    "approval": null,
+    "date": "2026-09-11",
+    "description": "Synthetic intake left side plate",
+    "finish": "Bare; remove burrs and break sharp edges 0.2 mm maximum",
+    "hole_coordinate_tolerance_mm": 0.1,
+    "hole_diameter_tolerance_mm": 0.05,
+    "material": "6061-T6 aluminum",
+    "outer_tolerance_mm": 0.2,
+    "part_number": "TEST-INTAKE-LP",
+    "quantity": 1,
+    "release_status": "TEST_ONLY",
+    "test_assumptions_acknowledged": true,
+    "thickness_source": "measured_state",
+    "thickness_tolerance_mm": 0.13
+  },
+  "intent_sha256": "e990f27112bffc064e4895c06addaa717ee6055a60a9e47cecfa8d7bb1e0a03a",
+  "intent_status": "TEST_ONLY",
+  "manufacture_ready": false,
+  "measurements": {
+    "height": 150.00000000000003,
+    "holes": [
+      {
+        "diameter": 12.9,
+        "key": "H1",
+        "u": 30.0,
+        "v": 117.3
+      },
+      {
+        "diameter": 12.9,
+        "key": "H2",
+        "u": 70.0,
+        "v": 52.3
+      },
+      {
+        "diameter": 6.6,
+        "key": "H3",
+        "u": 140.0,
+        "v": 122.3
+      },
+      {
+        "diameter": 4.0,
+        "key": "H4",
+        "u": 200.0,
+        "v": 27.3
+      },
+      {
+        "diameter": 12.9,
+        "key": "H5",
+        "u": 241.2,
+        "v": 52.3
+      },
+      {
+        "diameter": 6.6,
+        "key": "H6",
+        "u": 300.0,
+        "v": 122.3
+      }
+    ],
+    "outer": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        320.0,
+        0.0
+      ],
+      [
+        320.0,
+        150.00000000000003
+      ],
+      [
+        0.0,
+        150.00000000000003
+      ]
+    ],
+    "solid_count": 1,
+    "step_declared_units": [
+      "metre"
+    ],
+    "step_import_length_unit": "mm",
+    "thickness": 8.000000200000045,
+    "transform": "u=Y; v=Z-12.7; normal=+X",
+    "units": "mm",
+    "volume": 380215.3233302204,
+    "width": 320.0,
+    "world_bounds": [
+      -188.0000001,
+      0.0,
+      12.7,
+      -179.99999989999995,
+      320.0,
+      162.70000000000002
+    ]
+  },
+  "outputs": {
+    "drawing.pdf": "80034e2579373370aff9c753738e629185305c07d9324e8a3d0c2e6257d7f018",
+    "drawing.png": "919c15d13582b2b7d7a148a4fef7818e2f7050f573b07c907f67068fc15de794",
+    "layout.json": "c5fd85c2fc6df985d17d85352c41868b568a177a7a5cc3aff0931a57e158f123",
+    "plate.step": "90d1d2a2fcbb4992ea441d64e1c9d3b1fae699d68cfa848710acf52a5fec6eb4",
+    "profile.dxf": "d86b51417318d606699b514ee3d533480be815d033836f61bcc60c1f6e52bd75"
+  },
+  "package_correctness": "PASS",
+  "pdf": {
+    "fonts_embedded": true,
+    "page_mm": [
+      420,
+      297
+    ],
+    "render_dpi": 150,
+    "scale": "1:2",
+    "status": "PASS",
+    "text_overlap": false,
+    "vector_geometry_matches_step": true,
+    "visual_human_review": "UNVERIFIED"
+  },
+  "revision": "B",
+  "schema": 1,
+  "source_manifest_sha256": "1ae0f5816533f913a35b15d50839f6f19d3a646967783018ca6cedecca4f3703",
+  "source_state": {
+    "configuration": "default",
+    "document": "5e6ece69c8ad75145815b3de",
+    "element": "852d2fd01bfa34525231d27a",
+    "kind": "ONSHAPE",
+    "microversion": "a149b086f0300248d5f988fc",
+    "part": "JID",
+    "version": "a515ca607194bd42b4056dfa"
+  },
+  "source_step_sha256": "90d1d2a2fcbb4992ea441d64e1c9d3b1fae699d68cfa848710acf52a5fec6eb4"
+}

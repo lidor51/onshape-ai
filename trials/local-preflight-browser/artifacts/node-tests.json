@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "exitCode": 0,
+  "command": "node --test --test-reporter=tap gate.test.mjs generate.test.mjs admission.test.mjs preflight.test.mjs",
+  "nodeVersion": "v24.15.0",
+  "scope": "Node parameter/source contracts, policy admission, stub gate and artifact tamper checks ONLY",
+  "sourcePrepared": "PREPARED_NOT_SOLID_VALIDATED",
+  "wallTimeMs": 504.9988,
+  "networkRequestsByRunner": 0,
+  "directOnshapeApiCalls": 0,
+  "pythonExecuted": false,
+  "browserInvocations": 0,
+  "geometry": {
+    "status": "NOT_RUN",
+    "previousRecordedStatus": "PASS",
+    "reason": "Node-only verification never overwrites kernel reports; run preflight.mjs and audit.mjs to validate current geometry and hashes"
+  }
+}

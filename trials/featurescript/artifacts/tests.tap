@@ -1,0 +1,142 @@
+TAP version 13
+# Subtest: stored baseline and revision are analytic contracts for the same current source
+ok 1 - stored baseline and revision are analytic contracts for the same current source
+  ---
+  duration_ms: 24.8225
+  type: 'test'
+  ...
+# Subtest: implemented API contracts are grounded in the pinned public schema, not live verification
+ok 2 - implemented API contracts are grounded in the pinned public schema, not live verification
+  ---
+  duration_ms: 7.739
+  type: 'test'
+  ...
+# Subtest: HMAC contract matches official lowercase fields and final newline
+ok 3 - HMAC contract matches official lowercase fields and final newline
+  ---
+  duration_ms: 3.0964
+  type: 'test'
+  ...
+# Subtest: credential destination guard rejects spoofed hosts, ports, userinfo, and HTTP
+ok 4 - credential destination guard rejects spoofed hosts, ports, userinfo, and HTTP
+  ---
+  duration_ms: 0.8265
+  type: 'test'
+  ...
+# Subtest: synthetic transport only: private creation, same-run scope, and no delete or duplicate document
+ok 5 - synthetic transport only: private creation, same-run scope, and no delete or duplicate document
+  ---
+  duration_ms: 70.5786
+  type: 'test'
+  ...
+# Subtest: synthetic transport only: redirects never forward credentials or auto-retry
+ok 6 - synthetic transport only: redirects never forward credentials or auto-retry
+  ---
+  duration_ms: 4.0865
+  type: 'test'
+  ...
+# Subtest: synthetic transport only: refusal or ambiguous privacy never falls back to public
+ok 7 - synthetic transport only: refusal or ambiguous privacy never falls back to public
+  ---
+  duration_ms: 3.5704
+  type: 'test'
+  ...
+# Subtest: sanitizer removes credentials and signed authorization from diagnostics
+ok 8 - sanitizer removes credentials and signed authorization from diagnostics
+  ---
+  duration_ms: 0.6138
+  type: 'test'
+  ...
+# Subtest: offline mode never invokes credential loader or transport
+ok 9 - offline mode never invokes credential loader or transport
+  ---
+  duration_ms: 1.5513
+  type: 'test'
+  ...
+# Subtest: explicit flags required; existing document, public, delete, and arbitrary host flags rejected
+ok 10 - explicit flags required; existing document, public, delete, and arbitrary host flags rejected
+  ---
+  duration_ms: 3.8953
+  type: 'test'
+  ...
+# Subtest: revision modifies only expressions on the same server-returned feature
+ok 11 - revision modifies only expressions on the same server-returned feature
+  ---
+  duration_ms: 5.7289
+  type: 'test'
+  ...
+# Subtest: lexical workflow contract separates compilation from parameter-only revision
+ok 12 - lexical workflow contract separates compilation from parameter-only revision
+  ---
+  duration_ms: 6.1351
+  type: 'test'
+  ...
+# Subtest: synthetic workflow only: missing exported feature stops before version or insertion
+ok 13 - synthetic workflow only: missing exported feature stops before version or insertion
+  ---
+  duration_ms: 3.9983
+  type: 'test'
+  ...
+# Subtest: analytic contract only: baseline dimensions and plate hole pattern
+ok 14 - analytic contract only: baseline dimensions and plate hole pattern
+  ---
+  duration_ms: 6.6864
+  type: 'test'
+  ...
+# Subtest: analytic contract only: revision changes width and surface gap
+ok 15 - analytic contract only: revision changes width and surface gap
+  ---
+  duration_ms: 2.3325
+  type: 'test'
+  ...
+# Subtest: lexical only, not a FeatureScript compiler: saved feature has UI and scoped operations
+ok 16 - lexical only, not a FeatureScript compiler: saved feature has UI and scoped operations
+  ---
+  duration_ms: 2.7242
+  type: 'test'
+  ...
+# Subtest: lexical only: fixed length constants match the normative benchmark
+ok 17 - lexical only: fixed length constants match the normative benchmark
+  ---
+  duration_ms: 0.5691
+  type: 'test'
+  ...
+# Subtest: request contract only: revision preserves custom feature identity and namespace
+ok 18 - request contract only: revision preserves custom feature identity and namespace
+  ---
+  duration_ms: 1.8671
+  type: 'test'
+  ...
+# Subtest: synthetic validation contract only: both variants and wrong gap rejection
+ok 19 - synthetic validation contract only: both variants and wrong gap rejection
+  ---
+  duration_ms: 12.8361
+  type: 'test'
+  ...
+# Subtest: synthetic validation contract only: missing plate hole and blind bore are rejected
+ok 20 - synthetic validation contract only: missing plate hole and blind bore are rejected
+  ---
+  duration_ms: 2.7372
+  type: 'test'
+  ...
+# Subtest: lexical measurement contract only: read-only lambda, scoped IDs, tight boxes and analytic faces
+ok 21 - lexical measurement contract only: read-only lambda, scoped IDs, tight boxes and analytic faces
+  ---
+  duration_ms: 1.0154
+  type: 'test'
+  ...
+# Subtest: response gates do not confuse an HTTP response with successful compilation or regeneration
+ok 22 - response gates do not confuse an HTTP response with successful compilation or regeneration
+  ---
+  duration_ms: 2.0216
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 367.4661

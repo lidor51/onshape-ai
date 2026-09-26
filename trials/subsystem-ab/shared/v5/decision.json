@@ -1,0 +1,527 @@
+{
+  "status": "FINITE_LAYOUT_NO_FIT",
+  "candidate": "V5 five staggered 127 mm upper rollers, planar guide, horizontal-axis entry",
+  "localCADDemoPass": false,
+  "frozen": false,
+  "manufacturingRelease": false,
+  "physicalPerformancePass": false,
+  "candidateGeometryRepairs": 1,
+  "limitGeometryRepairCyclesPerFile": 3,
+  "reason": "Crosswise-only contact core passes, but 0/30/60/75 degree entries collide with fixed hard tubes. Retention closure also fails. Stop before mounts/transmission detail.",
+  "scopeOfNoFit": "This tested candidate and its stated horizontal-on-guide trajectory. Not a proof that Concept A, tilted coral acquisition, or every other layout is impossible.",
+  "variants": [
+    {
+      "name": "baseline",
+      "contactCore": true,
+      "closedVolumes": true,
+      "deploymentUnexpected": 0,
+      "centeredCrosswiseUnexpected": 0,
+      "yawRouteUnexpected": 0,
+      "receiverEndpointTabUnexpected": 0,
+      "testedEntryYawDeg": [
+        {
+          "yaw": 0,
+          "unexpectedPairSamples": 343
+        },
+        {
+          "yaw": 30,
+          "unexpectedPairSamples": 284
+        },
+        {
+          "yaw": 60,
+          "unexpectedPairSamples": 172
+        },
+        {
+          "yaw": 75,
+          "unexpectedPairSamples": 99
+        },
+        {
+          "yaw": 90,
+          "unexpectedPairSamples": 0
+        }
+      ],
+      "modeledOccurrences": 42,
+      "customOccurrences": 33,
+      "mainPoseSamples": 640,
+      "pairVisits": 551040,
+      "fullBrepBooleans": 3583
+    },
+    {
+      "name": "revision",
+      "contactCore": true,
+      "closedVolumes": true,
+      "deploymentUnexpected": 0,
+      "centeredCrosswiseUnexpected": 0,
+      "yawRouteUnexpected": 0,
+      "receiverEndpointTabUnexpected": 0,
+      "testedEntryYawDeg": [
+        {
+          "yaw": 0,
+          "unexpectedPairSamples": 344
+        },
+        {
+          "yaw": 30,
+          "unexpectedPairSamples": 286
+        },
+        {
+          "yaw": 60,
+          "unexpectedPairSamples": 175
+        },
+        {
+          "yaw": 75,
+          "unexpectedPairSamples": 100
+        },
+        {
+          "yaw": 90,
+          "unexpectedPairSamples": 0
+        }
+      ],
+      "modeledOccurrences": 42,
+      "customOccurrences": 33,
+      "mainPoseSamples": 640,
+      "pairVisits": 551040,
+      "fullBrepBooleans": 3587
+    }
+  ],
+  "fullWidthTopBankBound": {
+    "assumedCompressionMm": 8,
+    "equation": "pitch_max = 2*sqrt((r+R)^2-(r+R-c)^2); pitch_min = 2*R",
+    "maximumPitchMm": 86.40370362432387,
+    "minimumNonintersectingPitchMm": 127,
+    "unsatisfiedPitchIntervalMm": [
+      127,
+      86.40370362432387
+    ],
+    "maximumDiameterAtThisCompressionMm": 76.47809520809993,
+    "conditions": "Consecutive full-width identical upper rollers over one flat guide; crosswise cylinder; normal indentation at most c. Axial staggering avoids roller/roller overlap but does not solve skew acquisition."
+  },
+  "inclinedGuideYawBound": {
+    "slope": 0.75,
+    "equation": "H(alpha) = m*L/2*abs(cos(alpha)) + r*sqrt(1+m^2*sin(alpha)^2)",
+    "conditions": "Exact support function of a horizontal finite cylinder over an unbounded plane at slope m; finite-guide samples use the clipped support calculation.",
+    "offsets": [
+      {
+        "yawDeg": 0,
+        "centerOffsetAbovePlaneMm": 170.259375,
+        "riseRelativeToCrosswiseMm": 98.821875
+      },
+      {
+        "yawDeg": 30,
+        "centerOffsetAbovePlaneMm": 158.99181891179262,
+        "riseRelativeToCrosswiseMm": 87.55431891179262
+      },
+      {
+        "yawDeg": 60,
+        "centerOffsetAbovePlaneMm": 124.70171920122307,
+        "riseRelativeToCrosswiseMm": 53.26421920122307
+      },
+      {
+        "yawDeg": 75,
+        "centerOffsetAbovePlaneMm": 99.8457308392548,
+        "riseRelativeToCrosswiseMm": 28.4082308392548
+      },
+      {
+        "yawDeg": 90,
+        "centerOffsetAbovePlaneMm": 71.4375,
+        "riseRelativeToCrosswiseMm": 0
+      }
+    ],
+    "fixedTubeWitnesses": [
+      {
+        "yaw": 0,
+        "sampleIndex": 8,
+        "coralCenterMm": [
+          0,
+          -376.258064516129,
+          150.56582661290324
+        ],
+        "fixedTube": "pickup_2_tube",
+        "hardIntersectionMm3": 704.9865745814169,
+        "frontFloatCannotRepairFixedTubeCollision": true
+      },
+      {
+        "yaw": 30,
+        "sampleIndex": 10,
+        "coralCenterMm": [
+          0,
+          -362.3225806451613,
+          149.74988342792165
+        ],
+        "fixedTube": "pickup_2_tube",
+        "hardIntersectionMm3": 1691.9397668351526,
+        "frontFloatCannotRepairFixedTubeCollision": true
+      },
+      {
+        "yaw": 60,
+        "sampleIndex": 16,
+        "coralCenterMm": [
+          0,
+          -320.51612903225805,
+          146.81462242702952
+        ],
+        "fixedTube": "pickup_2_tube",
+        "hardIntersectionMm3": 13.871814953635937,
+        "frontFloatCannotRepairFixedTubeCollision": true
+      },
+      {
+        "yaw": 75,
+        "sampleIndex": 22,
+        "coralCenterMm": [
+          0,
+          -278.7096774193549,
+          153.31347277473864
+        ],
+        "fixedTube": "pickup_2_tube",
+        "hardIntersectionMm3": 203.80000790042595,
+        "frontFloatCannotRepairFixedTubeCollision": true
+      }
+    ]
+  },
+  "retention": {
+    "samples": 63,
+    "pairVisits": 2583,
+    "cacheHits": 0,
+    "broadphaseRejections": 2472,
+    "fullBrepBooleans": 111,
+    "intentionalCompliantContacts": 0,
+    "unexpectedCount": 48,
+    "witnesses": [
+      {
+        "sample": "tab-close:13.064516129032258",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 0.032222175475034816
+      },
+      {
+        "sample": "tab-close:14.516129032258064",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 4.398027269872876
+      },
+      {
+        "sample": "tab-close:15.96774193548387",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 19.01663429871866
+      },
+      {
+        "sample": "tab-close:17.419354838709676",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 45.23461146202211
+      },
+      {
+        "sample": "tab-close:18.870967741935484",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 83.18358857864676
+      },
+      {
+        "sample": "tab-close:20.322580645161292",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 131.08773432529455
+      },
+      {
+        "sample": "tab-close:21.774193548387096",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 183.06035885410148
+      },
+      {
+        "sample": "tab-close:23.225806451612904",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 236.3284739925964
+      },
+      {
+        "sample": "tab-close:24.677419354838708",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 289.61051076948274
+      },
+      {
+        "sample": "tab-close:26.129032258064516",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 342.1342400769024
+      },
+      {
+        "sample": "tab-close:27.580645161290324",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 392.91050567793087
+      },
+      {
+        "sample": "tab-close:29.032258064516128",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 441.02287676395946
+      },
+      {
+        "sample": "tab-close:30.483870967741936",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 485.82601958610906
+      },
+      {
+        "sample": "tab-close:31.93548387096774",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 526.8804989838418
+      },
+      {
+        "sample": "tab-close:33.38709677419355",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 564.2596078884234
+      },
+      {
+        "sample": "tab-close:34.83870967741935",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 598.4042733236503
+      },
+      {
+        "sample": "tab-close:36.29032258064516",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 629.127019005551
+      },
+      {
+        "sample": "tab-close:37.74193548387097",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 654.4287761010005
+      },
+      {
+        "sample": "tab-close:39.193548387096776",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 673.3499113862827
+      },
+      {
+        "sample": "tab-close:40.645161290322584",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 685.4860343429166
+      },
+      {
+        "sample": "tab-close:42.096774193548384",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 690.9228030391873
+      },
+      {
+        "sample": "tab-close:43.54838709677419",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 691.735740386454
+      },
+      {
+        "sample": "tab-close:45.0",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 689.355510410734
+      },
+      {
+        "sample": "tab-close:46.45161290322581",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 684.2963060702278
+      },
+      {
+        "sample": "tab-close:47.903225806451616",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 676.9086746979751
+      },
+      {
+        "sample": "tab-close:49.354838709677416",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 667.4302807231928
+      },
+      {
+        "sample": "tab-close:50.806451612903224",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 656.0036159166132
+      },
+      {
+        "sample": "tab-close:52.25806451612903",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 642.6905684545383
+      },
+      {
+        "sample": "tab-close:53.70967741935484",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 627.4799758707617
+      },
+      {
+        "sample": "tab-close:55.16129032258065",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 610.3421702658644
+      }
+    ]
+  },
+  "feasibleCore": {
+    "pickupAxes": 5,
+    "orienterAxes": 6,
+    "orienterStationsPerSide": 3,
+    "acceptedGeometricEntry": "Only tested centered yaw=90 degrees. No nonzero orientation or lateral tolerance certified.",
+    "contactCaptureY": -432,
+    "guideHeightMm": 180,
+    "maximumRequiredFrontFloatMm": 16.749690287736883,
+    "floatLimitsMm": {
+      "baseline": [
+        0,
+        30
+      ],
+      "revision": [
+        0,
+        24
+      ]
+    },
+    "preload": "7 mm target at floating front; up to 8 mm assumed rubber indentation at other contacts. Neither force nor spring/friction performance validated.",
+    "yaw": "Collision-constrained search route only; independent drive convergence and continuous driven control through the orienter are unverified.",
+    "receiver": "Two underside fingers clear their slots on sampled approach/lift; tab was held closed during that probe. Tab closure fails separately."
+  },
+  "intentionallyNotBuilt": [
+    "Bolted machined endblocks, chassis tower mounts, actual bearing supports and load-path face connectivity",
+    "Full physical hardware BOM and grouped supported assembly",
+    "Closed transmission, four-motor implementation, vendor placements and planned multistage deployment",
+    "FeatureScript/native UI dimensions, owned mate connectors and frozen frames"
+  ],
+  "physicalUnverified": [
+    "spring coefficient",
+    "friction",
+    "rubber compression/traction",
+    "coral pitch/yaw convergence",
+    "anti-bounce flexibility",
+    "structural loads",
+    "thermal/duty limits",
+    "powered-off retention",
+    "full 2025 legal inspection"
+  ],
+  "originalCots": {
+    "files": 4,
+    "unchangedHashCheck": "decision.test.mjs",
+    "placedOccurrences": 0,
+    "vendorBodiesReexported": 0
+  },
+  "execution": {
+    "mainRun": {
+      "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+      "entry": "geometry.py",
+      "started": "2026-09-13T10:16:56.632Z",
+      "seconds": 511.808,
+      "limitSeconds": 600,
+      "timedOut": false,
+      "signal": null,
+      "exitCode": 0,
+      "networkAllowed": false,
+      "installs": 0
+    },
+    "boundaryRun": {
+      "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+      "entry": "geometry.py",
+      "arguments": [
+        "--boundary"
+      ],
+      "started": "2026-09-13T10:27:58.639Z",
+      "seconds": 5.85,
+      "limitSeconds": 600,
+      "timedOut": false,
+      "signal": null,
+      "exitCode": 1,
+      "networkAllowed": false,
+      "installs": 0
+    },
+    "apiCalls": 0,
+    "downloads": 0,
+    "installs": 0,
+    "otherAgents": 0,
+    "rootEdits": 0,
+    "v4Edits": 0
+  },
+  "evidence": {
+    "layout.mjs": "59556611ab323d8786d113b22d2fbf4882cfaa3b205cc01c11bc858b3efcf97b",
+    "layout.test.mjs": "80bf66f1102badf56dbeec786888b2232e6253f913b989cf9db2cf36059edff1",
+    "coarse.mjs": "3559b805ad6c4511d0ae2c070e2d5b54213066a162fe8c8a7fc5c2fbd30da3c9",
+    "coarse.test.mjs": "a07387e0f3b3c13b35625932a63658f30dc499d52957abcb69e850d4933f0cee",
+    "geometry.py": "bc02eba5e9ee718bb93f3da4380d6f5813934848a8eabfbd583ae88807893a9d",
+    "run.mjs": "9adfc76e41b6a4787afbae36dd6f111c0cb7cc4a65ee89da22a38eb34ae8afc0",
+    "contact-report.json": "9ebbc5b7745226057c3ec00c185de74741822465e0d48d8a91e3d41652446f16",
+    "baseline-layout.json": "203ae0a9a5f20f489bcaf3d1aad3ca25f0ac526638ad4d4e7324f185a02823cf",
+    "revision-layout.json": "c626dd3643a435de1c13ab8c0b65ad1be6dbc04df5b6715354be453a4a93af56",
+    "baseline-brep.json": "9673d6c5468ee6eb84b8624b823d688e3ddeba4d99dc3da2df190ca246922e8b",
+    "revision-brep.json": "befb738b480a19dad3baaf1bcdf2afbf5d1f4783c5f4192e3a98eacf2f7088f9",
+    "boundary-report.json": "d8b8082f5b395ff245023669fcd229c99fd0983bc3c7e33faa197ce5efeb6542",
+    "geometry-summary.json": "6387cc14e97b31f92cdc24f8a6dc1da4ab4458a30f0570a6ef6d94a31d8de7c8",
+    "original-cots-manifest.json": "732a5e073b5025f6ea99dada953bd80811ca9c28a6788aeea777daffca96c6b2"
+  }
+}

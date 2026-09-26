@@ -1,0 +1,471 @@
+{
+  "schema": "compact-transport/1",
+  "status": "BLOCKED_UNDER_ROW_CHANNEL",
+  "source_sha256": {
+    "pickup.py": "221046dd031478de13c283ee6924958ae6fca61972f6654f6d3b0148a6a65d6c",
+    "compact_system.py": "9189e387d3b3e856dadaf19ef79fcdcd62080eab6cc3fc6a37c91b26f2bcd4e4",
+    "system.py": "891715409faed4dac631a40176a836c8a3e65d58f03110ad73b9270dafb3a6b1",
+    "entry_contact.py": "9992b63baf8d47c1576c38d6424a3e1f4fa95b7e7cd891172b4bc5a72e506da0",
+    "../coral-intake-v1/model.py": "bea6509771aff7e8827d22eef2d4d40dc6a0fdcab5c1703f2f9ac059ec81dc80",
+    "../coral-intake-v1/params.json": "c8fafac063515884c789cec070297eb0e13f6ff462199a1bf5c5bd31bbae1910"
+  },
+  "coral_mm": {
+    "od": 114.3,
+    "bore": 101.6,
+    "length": 301.625,
+    "final_center": [
+      0,
+      385,
+      191
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "deployed_centers_yz_mm": {
+    "middle": [
+      -136,
+      262
+    ],
+    "front": [
+      -261,
+      170.3484861008832
+    ],
+    "rear": [
+      -9,
+      289.7668867538296
+    ],
+    "kick": [
+      -140,
+      34
+    ]
+  },
+  "analytic_model": "Crosswise external-cylinder configuration space, hard shaft inscribed circle and nominal undeformed bumper keepout rectangle. A negative hard margin rules out the local under-row channel without compressing the bumper; it is not a rigid-metal bumper claim or proof against every 3D detour. Hollow bore is not an initially threaded shaft path. Stars use a 63.7 mm radial envelope, not a solid CAD contact model.",
+  "bumper_checks": [
+    {
+      "row": "middle",
+      "center_yz_mm": [
+        -136,
+        262
+      ],
+      "axis_to_bumper_mm": 109.59014554237986,
+      "hard_gap_upper_bound_mm": 103.24014554237986,
+      "hard_od_margin_upper_bound_mm": -11.059854457620133,
+      "unloaded_star_gap_mm": 45.890145542379855,
+      "required_star_radial_deflection_mm": 68.40985445762014
+    },
+    {
+      "row": "rear",
+      "center_yz_mm": [
+        -9,
+        289.7668867538296
+      ],
+      "axis_to_bumper_mm": 124.76688675382962,
+      "hard_gap_upper_bound_mm": 118.41688675382963,
+      "hard_od_margin_upper_bound_mm": 4.1168867538296325,
+      "unloaded_star_gap_mm": 61.06688675382962,
+      "required_star_radial_deflection_mm": 53.233113246170376
+    }
+  ],
+  "zero_deflection_local_correction": {
+    "allowed_radial_deflection_mm": 0,
+    "front_to_middle_angle_deg": 69.18610488628451,
+    "centers_yz_mm": {
+      "front": [
+        -261,
+        170.3484861008832
+      ],
+      "middle": [
+        -205.9232824419327,
+        315.2331132461704
+      ],
+      "rear": [
+        -78.92328244193271,
+        343
+      ],
+      "kick": [
+        -140,
+        34
+      ]
+    },
+    "bumper_checks": [
+      {
+        "row": "middle",
+        "center_yz_mm": [
+          -205.9232824419327,
+          315.2331132461704
+        ],
+        "axis_to_bumper_mm": 192.8533861568629,
+        "hard_gap_upper_bound_mm": 186.50338615686292,
+        "hard_od_margin_upper_bound_mm": 72.20338615686292,
+        "unloaded_star_gap_mm": 129.1533861568629,
+        "required_star_radial_deflection_mm": 0
+      },
+      {
+        "row": "rear",
+        "center_yz_mm": [
+          -78.92328244193271,
+          343
+        ],
+        "axis_to_bumper_mm": 178,
+        "hard_gap_upper_bound_mm": 171.65,
+        "hard_od_margin_upper_bound_mm": 57.35000000000001,
+        "unloaded_star_gap_mm": 114.3,
+        "required_star_radial_deflection_mm": 0
+      }
+    ],
+    "scope": "Minimum angle only within this fixed-front/fixed-127-mm-rear-dy family. Both upper belt centers retained. Flat cheek/arm hole relocation, not a full transport fix; no approved deflection or manufacturing allowance.",
+    "qualified": false
+  },
+  "ten_mm_deflection_sensitivity_only": {
+    "allowed_radial_deflection_mm": 10,
+    "front_to_middle_angle_deg": 60.484610511838156,
+    "centers_yz_mm": {
+      "front": [
+        -261,
+        170.3484861008832
+      ],
+      "middle": [
+        -184.6381157914705,
+        305.2331132461704
+      ],
+      "rear": [
+        -57.63811579147051,
+        333
+      ],
+      "kick": [
+        -140,
+        34
+      ]
+    },
+    "bumper_checks": [
+      {
+        "row": "middle",
+        "center_yz_mm": [
+          -184.6381157914705,
+          305.2331132461704
+        ],
+        "axis_to_bumper_mm": 172.0263938155646,
+        "hard_gap_upper_bound_mm": 165.6763938155646,
+        "hard_od_margin_upper_bound_mm": 51.37639381556461,
+        "unloaded_star_gap_mm": 108.3263938155646,
+        "required_star_radial_deflection_mm": 5.973606184435397
+      },
+      {
+        "row": "rear",
+        "center_yz_mm": [
+          -57.63811579147051,
+          333
+        ],
+        "axis_to_bumper_mm": 168,
+        "hard_gap_upper_bound_mm": 161.65,
+        "hard_od_margin_upper_bound_mm": 47.35000000000001,
+        "unloaded_star_gap_mm": 104.3,
+        "required_star_radial_deflection_mm": 10
+      }
+    ],
+    "scope": "Minimum angle only within this fixed-front/fixed-127-mm-rear-dy family. Both upper belt centers retained. Flat cheek/arm hole relocation, not a full transport fix; no approved deflection or manufacturing allowance.",
+    "qualified": false
+  },
+  "deployment": "Single pivot retained. Pivot/stow changes alone do not alter the fold=0 pickup or fixed indexer coordinates.",
+  "full_transport_qualified": false,
+  "units": "mm",
+  "geometry_model": "Analytic finite outer cylinders/circles; cached source bounds only; no STEP imports or invented coral trajectory.",
+  "deployed_pose": {
+    "fold_deg": 0,
+    "float_deg": 0,
+    "independent_of_pivot_z_at_zero_fold": true
+  },
+  "coral": {
+    "od": 114.3,
+    "bore": 101.6,
+    "length": 301.625,
+    "final_center": [
+      0,
+      385,
+      191
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "roller_centers_yz_mm": {
+    "middle": [
+      -136,
+      262
+    ],
+    "front": [
+      -261,
+      170.3484861008832
+    ],
+    "rear": [
+      -9,
+      289.7668867538296
+    ],
+    "kick": [
+      -140,
+      34
+    ]
+  },
+  "upper_circle_radius_mm": 63.7,
+  "upper_radius_basis": "63.7 mm conservative envelope already used by system.py, not a solid disk or measured loaded shape.",
+  "sideways_crest": {
+    "center_y_mm": -9,
+    "minimum_coral_center_z_mm": 222.15,
+    "maximum_effective_roller_radius_mm": 10.466886753829627,
+    "roller_radius_mm": 63.7,
+    "nominal_radial_overlap_mm": 53.233113246170376,
+    "rigid_circle_underpass_possible": false,
+    "scope": "Sideways horizontal pipe centered in X, below rear roller, directly above bumper. Circular roller model, not a compliant-star compression limit."
+  },
+  "lengthwise": {
+    "center_z_mm": 191,
+    "stations": [
+      {
+        "center_xy_mm": [
+          172.5,
+          74
+        ],
+        "inner_gap_mm": 268.8,
+        "reaches_centered_lengthwise_pipe": false,
+        "earliest_center_y_mm": null
+      },
+      {
+        "center_xy_mm": [
+          110,
+          182
+        ],
+        "inner_gap_mm": 143.8,
+        "reaches_centered_lengthwise_pipe": false,
+        "earliest_center_y_mm": null
+      },
+      {
+        "center_xy_mm": [
+          92.25,
+          288
+        ],
+        "inner_gap_mm": 108.3,
+        "reaches_centered_lengthwise_pipe": true,
+        "earliest_center_y_mm": 122.36859315772585
+      }
+    ],
+    "last_upper_contact_center_y_mm": 190.03826839117156,
+    "earliest_tray_overlap_center_y_mm": 79.1875,
+    "optimistic_powered_overlap_mm": 67.6696752334457,
+    "bumper_to_tray_step_down_mm": 31.150000000000006,
+    "third_bank_diametral_interference_mm": 6,
+    "scope": "Optimistic outer-cylinder contact bounds at final tray height, not a path from floor/crest. Wheel Z/thickness, phase, bore entry, support stability and intervening collision not resolved. First two bank gaps alone do not prove a powered gap."
+  },
+  "flat_lengthwise_crest": {
+    "shaft_to_bumper_front_longitudinal_separation_mm": 51,
+    "pipe_length_mm": 301.625,
+    "flat_pipe_spans_shaft_and_bumper": true,
+    "flat_vertical_aperture_upper_bound_mm": 90.65,
+    "flat_od_margin_upper_bound_mm": -23.64999999999999,
+    "scope": "Horizontal lengthwise pipe crossing beneath the middle shaft and above the undeformed bumper. Pitch/yaw changes or over-row routing are not constructed or qualified. A transverse shaft cannot pass through an annular pipe sidewall just because its center is inside the bore."
+  },
+  "correction_downstream_regression": {
+    "rear_surface_above_tray_pipe_top_mm": 31.15000000000002,
+    "corrected_lengthwise_contact_bounds": {
+      "center_z_mm": 191,
+      "stations": [
+        {
+          "center_xy_mm": [
+            172.5,
+            74
+          ],
+          "inner_gap_mm": 268.8,
+          "reaches_centered_lengthwise_pipe": false,
+          "earliest_center_y_mm": null
+        },
+        {
+          "center_xy_mm": [
+            110,
+            182
+          ],
+          "inner_gap_mm": 143.8,
+          "reaches_centered_lengthwise_pipe": false,
+          "earliest_center_y_mm": null
+        },
+        {
+          "center_xy_mm": [
+            92.25,
+            288
+          ],
+          "inner_gap_mm": 108.3,
+          "reaches_centered_lengthwise_pipe": true,
+          "earliest_center_y_mm": 122.36859315772585
+        }
+      ],
+      "last_upper_contact_center_y_mm": null,
+      "earliest_tray_overlap_center_y_mm": 79.1875,
+      "optimistic_powered_overlap_mm": null,
+      "bumper_to_tray_step_down_mm": 31.150000000000006,
+      "third_bank_diametral_interference_mm": 6,
+      "scope": "Optimistic outer-cylinder contact bounds at final tray height, not a path from floor/crest. Wheel Z/thickness, phase, bore entry, support stability and intervening collision not resolved. First two bank gaps alone do not prove a powered gap."
+    },
+    "full_transport_fix": false,
+    "controlling_conflict": "While rear Y is above bumper, undeformed sideways clearance requires rear Z >= 343; tray-height upper contact requires rear Z <= 311.85. Moving holes alone in this family cannot satisfy both. A supported powered height transition or different rear-row longitudinal placement must be designed and checked, not animated."
+  },
+  "receiver_static_pose": {
+    "center_xyz_mm": [
+      0,
+      385,
+      191
+    ],
+    "pipe_y_ends_mm": [
+      234.1875,
+      535.8125
+    ],
+    "stop_end_gap_mm": 2.1875,
+    "tray_side_margin_mm": 22.85,
+    "scope": "Tray/stop endpoint only. Receiver is a keepout reference, not a modeled accepting/retaining mechanism. No handoff, cup motion or arrival trajectory inferred."
+  },
+  "near_wall": {
+    "wall_model": "Plane normal to Y, outside robot front, spanning the leading cheek X/Z envelope. Not a side-wall/corner or short-obstacle claim.",
+    "closest_wall_y_from_known_cheek_mm": -353,
+    "sideways_floor_center_yz_mm": [
+      -295.85,
+      57.15
+    ],
+    "sideways_front_outer_circle_overlap_mm": 2.408369837578448,
+    "cached_phase_contact_requires_wall_penetration_mm": 7.7000000000000455,
+    "cached_phase_previous_no_contact_sample_margin_mm": 3.7000000000000455,
+    "lengthwise_floor_wall_y_max_from_bumper_mm": -386.625,
+    "extra_standoff_for_flat_lengthwise_piece_mm": 33.625,
+    "scope": "Known leading cheek and bumper constraints only. Cached source-phase samples are not continuous/all-phase proof. Positive outer-circle overlap allows possible rotating-lobe contact, not traction/lift/extraction."
+  },
+  "cached_star_body_mapping": [
+    {
+      "source_body_index": 0,
+      "definition": "am5123_body_0",
+      "role": "hard_hub",
+      "volume_mm3": 2215.8709553788576,
+      "bounds_mm": [
+        -10,
+        -10,
+        -6.349999999999999,
+        10,
+        10,
+        6.3500000000000005
+      ],
+      "v1_mapping": "vendor_intake_star_solid_0"
+    },
+    {
+      "source_body_index": 1,
+      "definition": "am5123_body_1",
+      "role": "hard_marking_unqualified",
+      "volume_mm3": 13.80362796870875,
+      "bounds_mm": [
+        -2.7595808155001302,
+        13.037302539308737,
+        5.0176209771326,
+        2.7817338363136663,
+        19.69027460818506,
+        5.779620977132598
+      ],
+      "v1_mapping": "vendor_intake_star_solid_1"
+    },
+    {
+      "source_body_index": 2,
+      "definition": "am5123_body_2",
+      "role": "outer_elastomer",
+      "volume_mm3": 31747.090645673663,
+      "bounds_mm": [
+        -63.58867172983535,
+        -63.588671729835355,
+        -6.350000000000003,
+        63.58867172983535,
+        63.588671729835355,
+        6.350000000000002
+      ],
+      "v1_mapping": "vendor_intake_star_solid_2"
+    }
+  ],
+  "entry_evidence": {
+    "source_current": true,
+    "scope": "Centered horizontal pipe, four yaw angles, fixed unloaded star phase. Stops at first soft contact. Not traction, compression, complete feed, offset/pitch or floating motion verification.",
+    "rows": [
+      {
+        "yaw_deg": 0,
+        "contact": {
+          "part": "star_front_5_body_2",
+          "center_y_mm": -409.8125,
+          "unloaded_overlap_mm3": 198.30692886949907
+        },
+        "hard_obstruction_before_contact": null,
+        "status": "GEOMETRIC_CONTACT_WITNESS"
+      },
+      {
+        "yaw_deg": 30,
+        "contact": {
+          "part": "star_front_7_body_2",
+          "center_y_mm": -394.18245620824064,
+          "unloaded_overlap_mm3": 11.0678946870197
+        },
+        "hard_obstruction_before_contact": null,
+        "status": "GEOMETRIC_CONTACT_WITNESS"
+      },
+      {
+        "yaw_deg": 60,
+        "contact": {
+          "part": "star_front_8_body_2",
+          "center_y_mm": -359.8996018262807,
+          "unloaded_overlap_mm3": 1.7714782159671671
+        },
+        "hard_obstruction_before_contact": null,
+        "status": "GEOMETRIC_CONTACT_WITNESS"
+      },
+      {
+        "yaw_deg": 90,
+        "contact": {
+          "part": "star_front_1_body_2",
+          "center_y_mm": -288.15,
+          "unloaded_overlap_mm3": 4.009720230184417
+        },
+        "hard_obstruction_before_contact": null,
+        "status": "GEOMETRIC_CONTACT_WITNESS"
+      }
+    ]
+  },
+  "sources": {
+    "pickup.py": {
+      "sha256": "221046dd031478de13c283ee6924958ae6fca61972f6654f6d3b0148a6a65d6c",
+      "bytes": 65860
+    },
+    "pickup-report.json": {
+      "sha256": "2423ebd8e39a50fcbe452d2365ee0d694ff8674640e89ccdd3eab0d1582ddb49",
+      "bytes": 181061
+    },
+    "entry_contact.py": {
+      "sha256": "9992b63baf8d47c1576c38d6424a3e1f4fa95b7e7cd891172b4bc5a72e506da0",
+      "bytes": 3320
+    },
+    "entry-contact.json": {
+      "sha256": "5feb7b49d07385497dc3d17064be1b55af28778a77c37956d17d44253c5cb4e2",
+      "bytes": 1627
+    },
+    "compact_system.py": {
+      "sha256": "9189e387d3b3e856dadaf19ef79fcdcd62080eab6cc3fc6a37c91b26f2bcd4e4",
+      "bytes": 8350
+    },
+    "system.py": {
+      "sha256": "891715409faed4dac631a40176a836c8a3e65d58f03110ad73b9270dafb3a6b1",
+      "bytes": 50222
+    },
+    "../coral-intake-v1/model.py": {
+      "sha256": "bea6509771aff7e8827d22eef2d4d40dc6a0fdcab5c1703f2f9ac059ec81dc80",
+      "bytes": 44945
+    },
+    "../coral-intake-v1/params.json": {
+      "sha256": "c8fafac063515884c789cec070297eb0e13f6ff462199a1bf5c5bd31bbae1910",
+      "bytes": 3601
+    }
+  },
+  "continuous_supported_powered_path_proven": false,
+  "release_ready": false
+}

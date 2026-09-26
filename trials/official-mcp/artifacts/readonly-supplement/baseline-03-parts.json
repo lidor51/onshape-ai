@@ -1,0 +1,302 @@
+[ {
+  "name" : "leftPlate",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "JHD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"&1d0$eJx9UMtugzAQ/JntESskQODIw02tJhBspConZLCbWCFAwWmTv68JUi+VctvdmZ3Z2ZfIhfwqh/vOZfYShBr5pVLHK9eqaxOueWjvlv+R4t5LZq8go2RD0nBbJniP0wSn8YEF0A3qqFrejKETL4wwB9lqpe/TVsQB/zXMAZxsMKvgpEbdDfPQh5jisCBZaoCul8PDkohoCUSENrNtFCAXeciD1/zWx37ub889yb91uWjkp943XEsjV5/Hs9T16UcNMuvNXV9T0IeFAPaOi/itxGlBigOTMFPn04hgAXJgkLXm7bGRk+gUhDrUpR5dU59yWtGaCmbZLnLB5D09Y6xAd/0T3IOq07q7UCf2zE+iLDnMrLgyea0aWQJZEq1RAPKmh6uQXY/nglbmvewD74tyWvsFdPiXiA==\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 0,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "rightPlate",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "JgD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"&1d1$eJx9UE1zgjAQ/TPbIxlRQDzykdpMFSVhpuOJCSTVjEgoxFb/fYPM9NIZb7v73u57b19iH/Kr7O9bn7lzEGrgl0odr9wo3abc8Mjdzv8jxb2TzF3AjpI1yaJNmeI9zlKcJQe2At2ro2p5M0ReMrOHOcjWKHMft2IO+K9hHuB0jVkFJzUY3U/DEBKKo4LsMgvoTvYPSSLiORARucx1EUc+ClAAr/mtS8I83Jw7kn+bcmaVT2bfcCPtvfo8nKWpTz+ql7vOGvsakz40BLB3XCRvJc4KUhyYhIk6eSOCrZAHvawNb4+NbOSnGZNQj/o0oEsaUk4rWlPBHNdHPjxknzAWYHT3BA+g0sboC/WSwD4l3qWHiZVUNrBTI0cgR6IlWoG8mf4qpO7wVNDK/pd94H1Rjmu/WRGYIw==\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 1,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "frontRoller",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "J5D",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.b.7.6.6$FQxpC8Q8LkpIQvt_0frontRolleroutsidesketchwireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdS7$circle1R4C6S4$BODYR6R7R8CbA1S-c.-d.-e.7.9$extrudeopExtrudeRbSa$SWEPT_BODY\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 2,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "rearRoller",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "RCBD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.a.7.6.6$FQxpC8Q8LkpIQvt_0rearRolleroutsidesketchwireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdS7$circle1R4C6S4$BODYR6R7R8CbA1S-c.-d.-e.7.9$extrudeopExtrudeRbSa$SWEPT_BODY\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 3,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "frontShaft",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "RLBD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.a.7.6.6$FQxpC8Q8LkpIQvt_0frontShaftoutsidesketchwireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdS7$circle1R4C6S4$BODYR6R7R8CbA1S-c.-d.-e.7.9$extrudeopExtrudeRbSa$SWEPT_BODY\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 4,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "rearShaft",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "RPBD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.9.7.6.6$FQxpC8Q8LkpIQvt_0rearShaftoutsidesketchwireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdS7$circle1R4C6S4$BODYR6R7R8CbA1S-c.-d.-e.7.9$extrudeopExtrudeRbSa$SWEPT_BODY\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 5,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "frontCrossmember",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "RTBD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"&1ce$eJx9UMFygjAQ/Znt0YxRQDxCSC1TBUmY6XhiAkTNKISG2Na/L8hML53xtrvvvd197yV0IbtJc9+5HC+gVr1oSnW6Cat0GwkrArxb/Efyeyc5XkLK4k2cBNsionuaRDQhB74GbdRJteLaBw6ZD4sFyNYqex9VoQD613AHaLShvISz6q0209AHwmiQx2kyALqT5nEyrsMFxHWAOcYIz5GHPHjNfjriZ/720sXZly3mR6NbS4zu+0Y2pTT9Rdrq/K2MTLvhsc/R6eNGDfyd5uStoEke5wcuYaJOv8U1XyMHjKysaE9XeZVHOzphDnOZx1bMZ4KVrGI1n2EHuTAYPj9jLMHq7gnuQamt1Q1ziDeEEqbRYWKRcjA8q9CsRiu0Bvljza2WuqNTwcohXP5B93kxan4BqBKXcA==\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 6,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "rearCrossmember",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "RXBD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"&1cc$eJx9UMFygjAQ/ZntUUYUEI8QUpupgiTMdDwxgUTNKISG2Na/L8hML53xtrvvvd197yX2Ib9Jc9/5zF2AUD1vKnW6cat0m3DLI3e3+I8U904ydwkZJRuSRtsywXucJjhFB7YGbdRJtfzaRx6aD4s5yNYqex9VMQf81zAPcLLBrIKz6q020zAERHFUkCwdAN1J8zhJRLwAIiKXua5zdAIngNf8p0NhHm4vHcm/bDk3khtkdN83sqmk6S/S1udvZWTWDW99jj4fFwSwd1ygtxKnBSkOTMJEnT4jgq0dD4ysLW9PV3mVRzv6oB71aUBXNKScVrSmgs1cz/FhsHt+xliC1d0TPIBKW6sb6qFgiCTOksPEQtVgd1Y7M+GsnDXIH2tuQuoOTwWthmjZB94X5aj5Ba1hlvY=\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 7,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+}, {
+  "name" : "coralReference",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "d0a579bf1b84bc1e68e06e90",
+  "partId" : "RbBD",
+  "bodyType" : "solid",
+  "microversionId" : "dd5d804ab7aa470518d44acc",
+  "customProperties" : {
+    "57f3fb8efa3416c06701d61e" : "true"
+  },
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"%B5$QueryM5S12$disambiguationDataA1M2S12$disambiguationTypeS13$ORIGINAL_DEPENDENCYS9$originalsA1C0M5Sa$entityTypeBa$EntityTypeS4$EDGESb$historyTypeS8$CREATIONSb$operationIdB2$IdA1S11.e.7.6.6$FQxpC8Q8LkpIQvt_0coralReferenceoutsidesketchwireOpS9$queryTypeSd$SKETCH_ENTITYSe$sketchEntityIdS7$circle1R4C6S4$BODYR6R7R8CbA1S-c.-d.-e.7.9$extrudeopExtrudeRbSa$SWEPT_BODY\",id);",
+  "partIdentity" : null,
+  "meshState" : "NO_MESH",
+  "isHidden" : false,
+  "configurationId" : "",
+  "thumbnailConfigurationId" : "",
+  "propertySourceTypes" : {
+    "57f3fb8efa3416c06701d61e" : 2,
+    "57f3fb8efa3416c06701d60d" : 2
+  },
+  "metadataMicroversion" : "b0c53bd8deca1c2484865d9f",
+  "defaultColorHash" : "FQxpC8Q8LkpIQvt_0_0",
+  "ordinal" : 8,
+  "isMesh" : false,
+  "appearance" : {
+    "color" : {
+      "green" : 207,
+      "blue" : 237,
+      "red" : 157
+    },
+    "isGenerated" : true,
+    "opacity" : 255
+  }
+} ]

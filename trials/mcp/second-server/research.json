@@ -1,0 +1,274 @@
+{
+  "project": "ReshefElisha/jarvis-onshape-mcp",
+  "revision": "b0e725852280ebcfda5d46a4f2ed2d0b720beace",
+  "official": false,
+  "license": "MIT",
+  "fetchedAt": "2026-09-11T12:12:27.134Z",
+  "fetches": [
+    {
+      "url": "https://api.github.com/repos/ReshefElisha/jarvis-onshape-mcp/git/trees/b0e725852280ebcfda5d46a4f2ed2d0b720beace?recursive=1",
+      "status": 200,
+      "sha256": "84c5ec512769848ca4dab52558220a49c398dab6c740b0afac47f2800734250e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/LICENSE",
+      "status": 200,
+      "sha256": "41c5d1f08e7172f8efdc84c9831b9680d370d9da2b42db6490255691bcd5b810"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/NOTICE",
+      "status": 200,
+      "sha256": "63e00d3895ee5d0f23e88c2af41ae50754c1ceccce7a9315896ef0d456763f80"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/README.md",
+      "status": 200,
+      "sha256": "423547a9be905a092464e1a930e4e1ddd503be9b1d3361185538d0929b763be7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/__init__.py",
+      "status": 200,
+      "sha256": "f9de2165dbafffc47ef025d1eef6300259c752e0b40313f0bd5cb8a8ec4d95d3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/analysis/__init__.py",
+      "status": 200,
+      "sha256": "17d3ec7ecef70a2af97bdef8c376e5e046ae43dcfde01fa4ae17a54a5d0ad5aa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/analysis/face_cs.py",
+      "status": 200,
+      "sha256": "f6e690136bdc102cd019f17cfbdae602925fc97ab8ae8dacf06a769f8fab4c5d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/analysis/interference.py",
+      "status": 200,
+      "sha256": "0d9b337bb72b71a4082832af3c9d2bb87d79f1eaa5a185d5b9d3476dcbdb7d10"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/analysis/positioning.py",
+      "status": 200,
+      "sha256": "99d38419c47fa8ccea74665fbc776d5b02ffb8383b88274d9de5509f170582c1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/__init__.py",
+      "status": 200,
+      "sha256": "3463313a272ee122e74ac71567e1ff27c2bf0a91e31e6195f485c5a1705a3ab8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/assemblies.py",
+      "status": 200,
+      "sha256": "8bb91b472fef20e586491286856816d6447319f4bfbb8948d8b1bc3b02b50a29"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/client.py",
+      "status": 200,
+      "sha256": "55912f6d043d47117874fa79a5feb9cd86e7dcc6e47ffbaa31c355495b1c5ca4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/custom_features.py",
+      "status": 200,
+      "sha256": "9dabf18b5dfafc444d68166739fe8984756761340b4aa44b86454536141e9f6c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/describe.py",
+      "status": 200,
+      "sha256": "15eba3043dd97550eb51e05868d6dc7c4d707492ff30426bfd81747c94eb78e2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/documents.py",
+      "status": 200,
+      "sha256": "d6f6b0cabf41826020742d84e8ff73463575ac4821b04cc0f7a0c52c59b72778"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/drawing_ocr.py",
+      "status": 200,
+      "sha256": "eed04a2fc00575945ab36abc7f3c29f5ac819844a1b9ba77e825b78f442d64cc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/drawing_section.py",
+      "status": 200,
+      "sha256": "bda868ce58c18e86fc3a6b1489c94a3dc5b09fb6fd8d53f89f002928545364a6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/entities.py",
+      "status": 200,
+      "sha256": "a133226b8031bc5c7cf042785572a4615bec103c94992b133f8cfd488e3c0545"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/export.py",
+      "status": 200,
+      "sha256": "17747d0ae8e95d7c707865675e5a3cddccb03012c20f4708c6d4decb04509c74"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/feature_apply.py",
+      "status": 200,
+      "sha256": "008b5da7f1e522a2cfeb595a13fc2911a67a7346529863cbb7505a55d113f477"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/featurescript.py",
+      "status": 200,
+      "sha256": "20c6d95c47bebedb623334037c6562b44bec512e370f4c28ef14d2dbda5a7a4a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/fs_notices.py",
+      "status": 200,
+      "sha256": "2a51335d12661abbaecd242b0ed5941d47ca69d3350930ca28a2525fa60ae827"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/geometry_diff.py",
+      "status": 200,
+      "sha256": "aab6f679e19eedc2de7da30ccebcbb9e81b3c5c2dd4d645a312030a07852f814"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/measurements.py",
+      "status": 200,
+      "sha256": "0ca8a4f7729b4bce53de3118006a22f4e11307b02bc82dda6261342273da3dda"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/partstudio.py",
+      "status": 200,
+      "sha256": "690917e270662cdee4c4c742ad500d77490a552f89e4577a63fb0398e9b7e442"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/rendering.py",
+      "status": 200,
+      "sha256": "8ce4e819fef9663899053e8530280f94ab7e2dc288be9ae8261b15ad92986f27"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/sketch_edit.py",
+      "status": 200,
+      "sha256": "b5f7cbfc9c6b87570b21a2389313850389f6a8626abfd8d39f8c42f61c28474a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/sketch_inspect.py",
+      "status": 200,
+      "sha256": "2a589aa94b22a41157394fd758b46d991ecd55416ed076a73cfb746d054f2e5c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/sketch_render.py",
+      "status": 200,
+      "sha256": "dcd39bf7db814fd6fda6d09b989c75581ff0e354d860290c126189dee9d37340"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/variables.py",
+      "status": 200,
+      "sha256": "becb3c2708fa788716894336f111fa2d384051c67d6447d8fe4c3eee927b18e6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/__init__.py",
+      "status": 200,
+      "sha256": "519a8cbee5a37e0f81a9ec51a211c1811acb0aabd44c2ab25ef8eb0d8de369c8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/_units.py",
+      "status": 200,
+      "sha256": "8c53560712d5fd77134e42b7644531c397c6eec7b221acaa726998f00c2b67c1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/boolean.py",
+      "status": 200,
+      "sha256": "860ef973a031c85fd08accdc5fba6fd6ddc132ea884533e21d09870477b94f2e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/chamfer.py",
+      "status": 200,
+      "sha256": "a518f862f6cf3c07cdfdc6e5ce6c80941065d848eaf277c3ab4287cb7a5f3014"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/extrude.py",
+      "status": 200,
+      "sha256": "92eb6065596af44d721d18b5d8ef51b7f2a609158bd320776c37a5043bbb4266"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/fillet.py",
+      "status": 200,
+      "sha256": "dec582533d3920594587d989e3b203446a9722e34837828115aab410d359ffb8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/mate.py",
+      "status": 200,
+      "sha256": "014147d42e14177d8ffda7a3a82059744b649c763f6b6554bb4d4fa64887880d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/offset_plane.py",
+      "status": 200,
+      "sha256": "e53c68a7e1c07a392842078b0dd0eb56a2b6086e94d64eb1d150fc143fc26a69"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/pattern.py",
+      "status": 200,
+      "sha256": "b87b2a804aa8982e3300ab7a1b3bc971135dd7aae4c9ff168b99e690b0fc03ce"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/revolve.py",
+      "status": 200,
+      "sha256": "f9c0b9d27e17d335a393daf66f4da2ad8b06bedd0534a4ef4bb0c036951bc6d3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/shell.py",
+      "status": 200,
+      "sha256": "10349e4f21f56e7f0be191551eb594ea882f751bfe76ba7cb8bceb8b1e6f65c4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/sketch.py",
+      "status": 200,
+      "sha256": "c87a1cfa712c128065fe469af5b8b89e9a2a8388a41d24b340eff6b982467735"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/sketch_constraints.py",
+      "status": 200,
+      "sha256": "6fca2278b5e0a81d3323f7c73e700a86a87bd59db20fb64110e995187a672706"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/builders/thicken.py",
+      "status": 200,
+      "sha256": "f501036646b32585bb813a3d3aed1d4b4fd7223c97e4b7ab4d5466099ba9d59f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/server.py",
+      "status": 200,
+      "sha256": "c7af129d534d70b14921d72970dd4566f03aacc8ff0e935b81c8c76001f953d1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/tools/__init__.py",
+      "status": 200,
+      "sha256": "c4d8506fa4602590e685bc79d05e4f1326f16b8f63a75efbb1b8d089cf89857b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/pyproject.toml",
+      "status": 200,
+      "sha256": "073875f79c63bd9056dfd3b27149de7eecbc31c4be5430b8325d99eb53e6817f"
+    }
+  ],
+  "officialSearches": [
+    {
+      "query": "org:onshape MCP",
+      "url": "https://api.github.com/search/repositories?q=org%3Aonshape%20MCP",
+      "status": 200,
+      "totalCount": 0,
+      "results": []
+    },
+    {
+      "query": "org:onshape-public MCP",
+      "url": "https://api.github.com/search/repositories?q=org%3Aonshape-public%20MCP",
+      "status": 200,
+      "totalCount": 0,
+      "results": []
+    },
+    {
+      "query": "org:PTCInc Onshape MCP",
+      "url": "https://api.github.com/search/repositories?q=org%3APTCInc%20Onshape%20MCP",
+      "status": 200,
+      "totalCount": 0,
+      "results": []
+    },
+    {
+      "query": "org:ptc-iot-sharing Onshape MCP",
+      "url": "https://api.github.com/search/repositories?q=org%3Aptc-iot-sharing%20Onshape%20MCP",
+      "status": 200,
+      "totalCount": 0,
+      "results": []
+    }
+  ]
+}

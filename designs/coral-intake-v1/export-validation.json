@@ -1,0 +1,1460 @@
+[
+  {
+    "definition": "pickup_sideplate",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 299027.6412478869,
+    "hole_checks": [
+      {
+        "center": [
+          -140,
+          34
+        ],
+        "diameter": 32,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -136,
+          262
+        ],
+        "diameter": 32,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -9,
+          287
+        ],
+        "diameter": 32,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          110,
+          210
+        ],
+        "diameter": 32,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -160,
+          14
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -160,
+          54
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -120,
+          14
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -120,
+          54
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -156,
+          242
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -156,
+          282
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -116,
+          242
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -116,
+          282
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -29,
+          267
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -29,
+          307
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          11,
+          267
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          11,
+          307
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          90,
+          190
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          90,
+          230
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          130,
+          190
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          130,
+          230
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -310,
+          44
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -330,
+          211
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 9.493669494986534e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "axle_cassette",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 15767.337461318246,
+    "hole_checks": [
+      {
+        "center": [
+          0,
+          0
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -20,
+          -20
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -20,
+          20
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          20,
+          -20
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          20,
+          20
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.3096723705530167e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "floating_arm",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 65206.30747537567,
+    "hole_checks": [
+      {
+        "center": [
+          0,
+          0
+        ],
+        "diameter": 30.1,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -125,
+          -101
+        ],
+        "diameter": 32,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -145,
+          -121
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -145,
+          -81
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -105,
+          -121
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -105,
+          -81
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.334127202630043e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "floating_pivot_journal",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 5026.548245743669,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.1004885891452432e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "floating_pivot_bushing",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 1504.1474386489888,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 3.296918293926865e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "vendor_hex_bearing",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 3985.8595418071236,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "hardware_M5x16",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 654.362333816218,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "stop_mount_0",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 16128.713915698976,
+    "hole_checks": [
+      {
+        "center": [
+          -220.29966492426774,
+          251.11117574500446
+        ],
+        "diameter": 8.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 5.220499588176608e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "hardware_M8x40",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 3319.7131030666997,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "stop_mount_1",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 16128.713915698976,
+    "hole_checks": [
+      {
+        "center": [
+          -175.22706321137127,
+          186.59285503474433
+        ],
+        "diameter": 8.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 7.161361281760037e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "pickup_crossmember",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 67680.0,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 0.0,
+      "pass": true
+    }
+  },
+  {
+    "definition": "tube_end_plug",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 2829.426916772028,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 5.9117155615240335e-12,
+      "pass": true
+    }
+  },
+  {
+    "definition": "hardware_M5x20",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 732.9021501559629,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "pickup_hex_shaft_560",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 77861.27791711899,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 6.155460141599178e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_core_kick",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 49762.82763286232,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.1059455573558807e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_hub_kick",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 2756.3146112469885,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.7921487344428897e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "hex_collar",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 2483.9979196871027,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.800799509510398e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "hardware_M5x12",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 575.8225174764731,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "compliant_sleeve_kick",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 572555.2611167397,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.2456439435482025e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_core_front",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 85953.97500221658,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.949956640601158e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_hub_front",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 14015.782681712804,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 7.09405867382884e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "compliant_sleeve_front",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 4107977.969760549,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 9.033828973770142e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_core_middle",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 85953.97500221658,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.949956640601158e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_hub_middle",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 14015.782681712804,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 7.09405867382884e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "compliant_sleeve_middle",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 4107977.969760549,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 9.033828973770142e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_core_rear",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 85953.97500221658,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.949956640601158e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "roller_hub_rear",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 14015.782681712804,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 7.09405867382884e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "compliant_sleeve_rear",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 4107977.969760549,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 9.033828973770142e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "round_belt_hex_pulley",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 14109.357453784693,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.510205376893282e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "upper_pickup_belt",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 19367.461861235337,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.1248630471527576e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "pickup_drive_mount",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 43021.50437463817,
+    "hole_checks": [
+      {
+        "center": [
+          36.72,
+          287
+        ],
+        "diameter": 19.1,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -9,
+          287
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          19.2575,
+          287
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          54.1825,
+          287
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -36,
+          259
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          18,
+          259
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 6.548361852765083e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "vendor_x44",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 114622.94882400305,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "hardware_M4.826x12",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 527.160252590373,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "frame_pivot_cheek",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 162158.43699463157,
+    "hole_checks": [
+      {
+        "center": [
+          110,
+          210
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          12.5,
+          45
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          12.5,
+          60
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.293381839990616e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "fold_pivot_stub",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 10255.559026945197,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 8.349161362275481e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "hardware_M5x35",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 1027.426461430006,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "fold_drive_mount",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 41924.22437463818,
+    "hole_checks": [
+      {
+        "center": [
+          110,
+          255.72
+        ],
+        "diameter": 19.1,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          110,
+          210
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          92.5375,
+          255.72
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          127.4625,
+          255.72
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          83,
+          182
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          137,
+          182
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.6007106751203537e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_bank_plate_L",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 310003.51005052123,
+    "hole_checks": [
+      {
+        "center": [
+          -172.5,
+          74
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -110,
+          182
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -92.25,
+          288
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -265,
+          74
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -265,
+          300
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.5308614820241928e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_post",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 25631.999999999993,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 7.275957614183426e-12,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_hex_shaft",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 27017.307512112253,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.1609594114124775e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_wheel_core",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 25202.523783062774,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.2150849215686321e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_custom_tyre",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 87026.81004386174,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.9208528101444244e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_belt_L",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 16226.813053807371,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 6.068148650228977e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_drive_L_mount",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 43021.50437463818,
+    "hole_checks": [
+      {
+        "center": [
+          -218.22,
+          74
+        ],
+        "diameter": 19.1,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -172.5,
+          74
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -235.6825,
+          74
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -200.7575,
+          74
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -199.5,
+          46
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -145.5,
+          46
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.6193447411060333e-10,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_bank_plate_R",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 310003.5100505213,
+    "hole_checks": [
+      {
+        "center": [
+          172.5,
+          74
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          110,
+          182
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          92.25,
+          288
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          265,
+          74
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          265,
+          300
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.3737007975578308e-08,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_belt_R",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 16226.813053807371,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 9.586074156686664e-09,
+      "pass": true
+    }
+  },
+  {
+    "definition": "indexer_drive_R_mount",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 43021.50437463817,
+    "hole_checks": [
+      {
+        "center": [
+          218.22,
+          74
+        ],
+        "diameter": 19.1,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          172.5,
+          74
+        ],
+        "diameter": 28.57,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          200.7575,
+          74
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          235.6825,
+          74
+        ],
+        "diameter": 5.2,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          145.5,
+          46
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          199.5,
+          46
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 6.548361852765083e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "detachable_tray",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 148034.90046668675,
+    "hole_checks": [
+      {
+        "center": [
+          -65,
+          245
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -65,
+          525
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          65,
+          245
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          65,
+          525
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 5.820766091346741e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "dock_crossbar",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 76319.99999999994,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 5.820766091346741e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "tray_spacer",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 1037.2262670137975,
+    "hole_checks": [],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 2.2737367544323206e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "hardware_M5x30",
+    "valid_closed_positive_solids": true,
+    "solids": 2,
+    "volume_mm3": 929.2516910053248,
+    "hole_checks": [],
+    "holes_pass": true
+  },
+  {
+    "definition": "coral_stop",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 38114.900466686726,
+    "hole_checks": [
+      {
+        "center": [
+          -65,
+          8
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          65,
+          8
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 1.4551915228366852e-11,
+      "pass": true
+    }
+  },
+  {
+    "definition": "sensor_adapter",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 5099.774683445188,
+    "hole_checks": [
+      {
+        "center": [
+          -10,
+          -7.5
+        ],
+        "diameter": 3.4,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          10,
+          -7.5
+        ],
+        "diameter": 3.4,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          -10,
+          7.5
+        ],
+        "diameter": 3.4,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          10,
+          7.5
+        ],
+        "diameter": 3.4,
+        "blocked_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "center": [
+          0,
+          -20
+        ],
+        "diameter": 5.5,
+        "blocked_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "holes_pass": true,
+    "step_reimport": {
+      "valid": true,
+      "solids": 1,
+      "volume_delta_mm3": 3.637978807091713e-12,
+      "pass": true
+    }
+  },
+  {
+    "definition": "sensor_reference_envelope",
+    "valid_closed_positive_solids": true,
+    "solids": 1,
+    "volume_mm3": 11520.0,
+    "hole_checks": [],
+    "holes_pass": true
+  }
+]

@@ -1,0 +1,1241 @@
+{
+  "status": "FAIL",
+  "sourceHashes": {
+    "build.py": "f9258aa793ad2d3e8660637f268248ce05c37fa6a441edbc17147e986c8461c1",
+    "layout.py": "b3473b7b86c8b128fa5a730ea0d1e2c6e4588d7dbcf4037e58364d8c6b37a035",
+    "probe.py": "568df2529e6b25825ccbeea02cf8c182bddcb81036ebeb0692a7cd85ae18f978",
+    "validate.py": "1f941ed1ff9237d18f5c5b97577afa15c9c760654ef399fa90ee1c25e2b2a252"
+  },
+  "scope": "Deployment solids at four angles; nominal upper gaps at float limits; thirteen exact floor-to-incline inlet poses with required float solved geometrically, not a spring or friction simulation",
+  "mountHubTrunnionStatus": "PASS",
+  "gearMeshStatus": "PASS",
+  "gearMesh": [
+    {
+      "angleDeg": 0,
+      "intersectionMm3": 0.0
+    },
+    {
+      "angleDeg": -2.1774193548387095,
+      "intersectionMm3": 0.0
+    },
+    {
+      "angleDeg": -67.5,
+      "intersectionMm3": 0.0
+    },
+    {
+      "angleDeg": -135,
+      "intersectionMm3": 0.0
+    }
+  ],
+  "samples": [
+    {
+      "angleDeg": 0,
+      "pairCount": 1540,
+      "broadPhaseCandidates": 84,
+      "exactBooleanChecks": 84,
+      "invariantPairCacheHits": 0,
+      "unexpected": [],
+      "declaredContact": [
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897506,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_135_screw"
+          ],
+          "intersectionMm3": 69.1150383789751,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_225_screw"
+          ],
+          "intersectionMm3": 69.11503837897513,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897521,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897506,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_135_screw"
+          ],
+          "intersectionMm3": 69.1150383789751,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_225_screw"
+          ],
+          "intersectionMm3": 69.11503837897516,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897521,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_1"
+          ],
+          "intersectionMm3": 1.013296252039235,
+          "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_0"
+          ],
+          "intersectionMm3": 18.72507250468644,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_120"
+          ],
+          "intersectionMm3": 18.725072504686537,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_240"
+          ],
+          "intersectionMm3": 18.725072504686523,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -2.1774193548387095,
+      "pairCount": 1540,
+      "broadPhaseCandidates": 84,
+      "exactBooleanChecks": 84,
+      "invariantPairCacheHits": 0,
+      "unexpected": [
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_pinion_0"
+          ],
+          "intersectionMm3": 36.097366328726224
+        }
+      ],
+      "declaredContact": [
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_45_screw"
+          ],
+          "intersectionMm3": 69.1150383789753,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_135_screw"
+          ],
+          "intersectionMm3": 69.11503837897516,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_225_screw"
+          ],
+          "intersectionMm3": 69.1150383789753,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897536,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897527,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_135_screw"
+          ],
+          "intersectionMm3": 69.11503837897516,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_225_screw"
+          ],
+          "intersectionMm3": 69.11503837897533,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897538,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_1"
+          ],
+          "intersectionMm3": 1.013296252039235,
+          "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_0"
+          ],
+          "intersectionMm3": 18.72507250468644,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_120"
+          ],
+          "intersectionMm3": 18.725072504686537,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_240"
+          ],
+          "intersectionMm3": 18.725072504686523,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "angleDeg": -67.5,
+      "pairCount": 1540,
+      "broadPhaseCandidates": 65,
+      "exactBooleanChecks": 65,
+      "invariantPairCacheHits": 0,
+      "unexpected": [
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_pinion_0"
+          ],
+          "intersectionMm3": 56.03799808067278
+        }
+      ],
+      "declaredContact": [
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897543,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_135_screw"
+          ],
+          "intersectionMm3": 69.11503837897544,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_225_screw"
+          ],
+          "intersectionMm3": 69.11503837897568,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897538,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897543,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_135_screw"
+          ],
+          "intersectionMm3": 69.11503837897544,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_225_screw"
+          ],
+          "intersectionMm3": 69.11503837897574,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897536,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_1"
+          ],
+          "intersectionMm3": 1.013296252039235,
+          "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_0"
+          ],
+          "intersectionMm3": 18.72507250468644,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_120"
+          ],
+          "intersectionMm3": 18.725072504686537,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_240"
+          ],
+          "intersectionMm3": 18.725072504686523,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "angleDeg": -135,
+      "pairCount": 1540,
+      "broadPhaseCandidates": 65,
+      "exactBooleanChecks": 65,
+      "invariantPairCacheHits": 0,
+      "unexpected": [
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_pinion_0"
+          ],
+          "intersectionMm3": 14.75628073221548
+        }
+      ],
+      "declaredContact": [
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897584,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_135_screw"
+          ],
+          "intersectionMm3": 69.11503837897591,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_225_screw"
+          ],
+          "intersectionMm3": 69.11503837897598,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_-1",
+            "pickup_hub_joint_-1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897565,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_45_screw"
+          ],
+          "intersectionMm3": 69.11503837897558,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_135_screw"
+          ],
+          "intersectionMm3": 69.11503837897568,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_225_screw"
+          ],
+          "intersectionMm3": 69.1150383789757,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "pickup_hub_1",
+            "pickup_hub_joint_1_315_screw"
+          ],
+          "intersectionMm3": 69.11503837897548,
+          "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_1"
+          ],
+          "intersectionMm3": 1.013296252039235,
+          "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_0"
+          ],
+          "intersectionMm3": 18.72507250468644,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_120"
+          ],
+          "intersectionMm3": 18.725072504686537,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        },
+        {
+          "pair": [
+            "deploy_motor_0",
+            "deploy_motor_screw_240"
+          ],
+          "intersectionMm3": 18.725072504686523,
+          "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+        }
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "contactGaps": [
+    {
+      "station": 0,
+      "topFloatMm": 0,
+      "part": "pickup_top_entry_rubber",
+      "gapMm": 0.0
+    },
+    {
+      "station": 1,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_0",
+      "gapMm": 0.0
+    },
+    {
+      "station": 2,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_0",
+      "gapMm": 2.842170943040401e-14
+    },
+    {
+      "station": 3,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_1",
+      "gapMm": 0.0
+    },
+    {
+      "station": 4,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_1",
+      "gapMm": 0.0
+    },
+    {
+      "station": 5,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_2",
+      "gapMm": 0.0
+    },
+    {
+      "station": 6,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_2",
+      "gapMm": 0.0
+    },
+    {
+      "station": 7,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_3",
+      "gapMm": 1.4210854715202004e-14
+    },
+    {
+      "station": 8,
+      "topFloatMm": 0,
+      "part": "pickup_upper_guide_3",
+      "gapMm": 0.0
+    },
+    {
+      "station": 0,
+      "topFloatMm": 12,
+      "part": "pickup_top_entry_rubber",
+      "gapMm": 5.008452057935309
+    },
+    {
+      "station": 1,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_0",
+      "gapMm": 12.000000000000009
+    },
+    {
+      "station": 2,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_0",
+      "gapMm": 12.000000000000028
+    },
+    {
+      "station": 3,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_1",
+      "gapMm": 11.999999999999988
+    },
+    {
+      "station": 4,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_1",
+      "gapMm": 11.999999999999988
+    },
+    {
+      "station": 5,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_2",
+      "gapMm": 12.000000000000027
+    },
+    {
+      "station": 6,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_2",
+      "gapMm": 11.999999999999988
+    },
+    {
+      "station": 7,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_3",
+      "gapMm": 11.999999999999988
+    },
+    {
+      "station": 8,
+      "topFloatMm": 12,
+      "part": "pickup_upper_guide_3",
+      "gapMm": 11.999999999999995
+    }
+  ],
+  "inletSamples": [
+    {
+      "centerMm": [
+        0,
+        -316.81796664843455,
+        57.15000000000002
+      ],
+      "requiredFloatMm": 0.0,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -316.3406243458099,
+        61.14592187716829
+      ],
+      "requiredFloatMm": 2.200560675829024,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -315.65556533506646,
+        65.11151659601016
+      ],
+      "requiredFloatMm": 4.0714230247636465,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -314.76465360675707,
+        69.0359940917627
+      ],
+      "requiredFloatMm": 5.591430273277126,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -313.6703132601476,
+        72.90867617632499
+      ],
+      "requiredFloatMm": 6.739875492079818,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -312.37552190743736,
+        76.71902559275046
+      ],
+      "requiredFloatMm": 7.496338783167559,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -310.8838025719156,
+        80.45667468627673
+      ],
+      "requiredFloatMm": 7.840458948386029,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -309.19921410209804,
+        84.11145361388165
+      ],
+      "requiredFloatMm": 7.75161779518119,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -307.32634012792585,
+        87.67341801560937
+      ],
+      "requiredFloatMm": 7.208503212915801,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -305.27027658907696,
+        91.13287607237538
+      ],
+      "requiredFloatMm": 6.188497747666474,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -303.0366178693232,
+        94.48041487662772
+      ],
+      "requiredFloatMm": 4.6668067938153825,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -300.6314415746614,
+        97.70692604411254
+      ],
+      "requiredFloatMm": 2.615183267865369,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "centerMm": [
+        0,
+        -298.06129199663565,
+        100.80363049705619
+      ],
+      "requiredFloatMm": 0.0,
+      "lowerRubberGapMm": 0.0,
+      "upperRubberGapMm": 0.0,
+      "rigidCoreIntersectionMm3": {
+        "pickup_roll_0_tube": 0.0,
+        "pickup_top_entry_tube": 0.0
+      },
+      "status": "PASS"
+    }
+  ],
+  "boundsMm": {
+    "pickup_trunnion_-1": [
+      -297.0000001,
+      127.4999999,
+      422.4999999,
+      -240.9999999,
+      152.5000001,
+      447.5000001
+    ],
+    "pickup_trunnion_1": [
+      240.9999999,
+      127.4999999,
+      422.4999999,
+      297.0000001,
+      152.5000001,
+      447.5000001
+    ],
+    "tower_-1": [
+      -296.0000001,
+      104.9999999,
+      119.9999999,
+      -287.9999999,
+      175.0000001,
+      463.0000001
+    ],
+    "pivot_bush_-1": [
+      -296.0000001,
+      122.9999999,
+      417.9999999,
+      -287.9999999,
+      157.0000001,
+      452.0000001
+    ],
+    "pickup_hub_-1": [
+      -247.0000001,
+      114.9999999,
+      409.9999999,
+      -238.9999999,
+      165.0000001,
+      460.0000001
+    ],
+    "pickup_hub_joint_-1_45_screw": [
+      -260.60000010000005,
+      149.49568891432423,
+      444.4956889143242,
+      -238.5999999,
+      159.49568911432422,
+      454.49568911432425
+    ],
+    "pickup_hub_joint_-1_45_washer": [
+      -254.6000001,
+      148.49568891432423,
+      443.4956889143242,
+      -252.99999989999998,
+      160.49568911432422,
+      455.49568911432425
+    ],
+    "pickup_hub_joint_-1_135_screw": [
+      -260.60000010000005,
+      120.50431088567578,
+      444.4956889143242,
+      -238.5999999,
+      130.50431108567577,
+      454.49568911432425
+    ],
+    "pickup_hub_joint_-1_135_washer": [
+      -254.6000001,
+      119.50431088567578,
+      443.4956889143242,
+      -252.99999989999998,
+      131.50431108567577,
+      455.49568911432425
+    ],
+    "pickup_hub_joint_-1_225_screw": [
+      -260.60000010000005,
+      120.50431088567578,
+      415.50431088567575,
+      -238.5999999,
+      130.50431108567577,
+      425.5043110856758
+    ],
+    "pickup_hub_joint_-1_225_washer": [
+      -254.6000001,
+      119.50431088567578,
+      414.50431088567575,
+      -252.99999989999998,
+      131.50431108567577,
+      426.5043110856758
+    ],
+    "pickup_hub_joint_-1_315_screw": [
+      -260.60000010000005,
+      149.49568891432423,
+      415.50431088567575,
+      -238.5999999,
+      159.49568911432422,
+      425.5043110856758
+    ],
+    "pickup_hub_joint_-1_315_washer": [
+      -254.6000001,
+      148.49568891432423,
+      414.50431088567575,
+      -252.99999989999998,
+      160.49568911432422,
+      426.5043110856758
+    ],
+    "tower_joint_-1_125_135_screw": [
+      -333.60000010000005,
+      119.9999999,
+      129.9999999,
+      -277.5999999,
+      130.0000001,
+      140.0000001
+    ],
+    "tower_joint_-1_125_135_nut": [
+      -286.10000010000005,
+      119.22649720810375,
+      129.9999999,
+      -281.0999999,
+      130.77350279189625,
+      140.0000001
+    ],
+    "tower_joint_-1_125_135_washer": [
+      -327.60000010000005,
+      118.9999999,
+      128.9999999,
+      -325.9999999,
+      131.0000001,
+      141.0000001
+    ],
+    "tower_joint_-1_125_160_screw": [
+      -333.60000010000005,
+      119.9999999,
+      154.9999999,
+      -277.5999999,
+      130.0000001,
+      165.0000001
+    ],
+    "tower_joint_-1_125_160_nut": [
+      -286.10000010000005,
+      119.22649720810375,
+      154.9999999,
+      -281.0999999,
+      130.77350279189625,
+      165.0000001
+    ],
+    "tower_joint_-1_125_160_washer": [
+      -327.60000010000005,
+      118.9999999,
+      153.9999999,
+      -325.9999999,
+      131.0000001,
+      166.0000001
+    ],
+    "tower_joint_-1_165_135_screw": [
+      -333.60000010000005,
+      159.9999999,
+      129.9999999,
+      -277.5999999,
+      170.0000001,
+      140.0000001
+    ],
+    "tower_joint_-1_165_135_nut": [
+      -286.10000010000005,
+      159.22649720810372,
+      129.9999999,
+      -281.0999999,
+      170.77350279189628,
+      140.0000001
+    ],
+    "tower_joint_-1_165_135_washer": [
+      -327.60000010000005,
+      158.9999999,
+      128.9999999,
+      -325.9999999,
+      171.0000001,
+      141.0000001
+    ],
+    "tower_joint_-1_165_160_screw": [
+      -333.60000010000005,
+      159.9999999,
+      154.9999999,
+      -277.5999999,
+      170.0000001,
+      165.0000001
+    ],
+    "tower_joint_-1_165_160_nut": [
+      -286.10000010000005,
+      159.22649720810372,
+      154.9999999,
+      -281.0999999,
+      170.77350279189628,
+      165.0000001
+    ],
+    "tower_joint_-1_165_160_washer": [
+      -327.60000010000005,
+      158.9999999,
+      153.9999999,
+      -325.9999999,
+      171.0000001,
+      166.0000001
+    ],
+    "tower_1": [
+      287.9999999,
+      104.9999999,
+      119.9999999,
+      296.0000001,
+      175.0000001,
+      463.0000001
+    ],
+    "pivot_bush_1": [
+      287.9999999,
+      122.9999999,
+      417.9999999,
+      296.0000001,
+      157.0000001,
+      452.0000001
+    ],
+    "pickup_hub_1": [
+      238.9999999,
+      114.9999999,
+      409.9999999,
+      247.0000001,
+      165.0000001,
+      460.0000001
+    ],
+    "pickup_hub_joint_1_45_screw": [
+      238.5999999,
+      149.49568891432423,
+      444.4956889143242,
+      260.60000010000005,
+      159.49568911432422,
+      454.49568911432425
+    ],
+    "pickup_hub_joint_1_45_washer": [
+      252.99999989999998,
+      148.49568891432423,
+      443.4956889143242,
+      254.6000001,
+      160.49568911432422,
+      455.49568911432425
+    ],
+    "pickup_hub_joint_1_135_screw": [
+      238.5999999,
+      120.50431088567578,
+      444.4956889143242,
+      260.60000010000005,
+      130.50431108567577,
+      454.49568911432425
+    ],
+    "pickup_hub_joint_1_135_washer": [
+      252.99999989999998,
+      119.50431088567578,
+      443.4956889143242,
+      254.6000001,
+      131.50431108567577,
+      455.49568911432425
+    ],
+    "pickup_hub_joint_1_225_screw": [
+      238.5999999,
+      120.50431088567578,
+      415.50431088567575,
+      260.60000010000005,
+      130.50431108567577,
+      425.5043110856758
+    ],
+    "pickup_hub_joint_1_225_washer": [
+      252.99999989999998,
+      119.50431088567578,
+      414.50431088567575,
+      254.6000001,
+      131.50431108567577,
+      426.5043110856758
+    ],
+    "pickup_hub_joint_1_315_screw": [
+      238.5999999,
+      149.49568891432423,
+      415.50431088567575,
+      260.60000010000005,
+      159.49568911432422,
+      425.5043110856758
+    ],
+    "pickup_hub_joint_1_315_washer": [
+      252.99999989999998,
+      148.49568891432423,
+      414.50431088567575,
+      254.6000001,
+      160.49568911432422,
+      426.5043110856758
+    ],
+    "tower_joint_1_125_135_screw": [
+      277.5999999,
+      119.9999999,
+      129.9999999,
+      333.60000010000005,
+      130.0000001,
+      140.0000001
+    ],
+    "tower_joint_1_125_135_nut": [
+      281.0999999,
+      119.22649720810375,
+      129.9999999,
+      286.10000010000005,
+      130.77350279189625,
+      140.0000001
+    ],
+    "tower_joint_1_125_135_washer": [
+      325.9999999,
+      118.9999999,
+      128.9999999,
+      327.60000010000005,
+      131.0000001,
+      141.0000001
+    ],
+    "tower_joint_1_125_160_screw": [
+      277.5999999,
+      119.9999999,
+      154.9999999,
+      333.60000010000005,
+      130.0000001,
+      165.0000001
+    ],
+    "tower_joint_1_125_160_nut": [
+      281.0999999,
+      119.22649720810375,
+      154.9999999,
+      286.10000010000005,
+      130.77350279189625,
+      165.0000001
+    ],
+    "tower_joint_1_125_160_washer": [
+      325.9999999,
+      118.9999999,
+      153.9999999,
+      327.60000010000005,
+      131.0000001,
+      166.0000001
+    ],
+    "tower_joint_1_165_135_screw": [
+      277.5999999,
+      159.9999999,
+      129.9999999,
+      333.60000010000005,
+      170.0000001,
+      140.0000001
+    ],
+    "tower_joint_1_165_135_nut": [
+      281.0999999,
+      159.22649720810372,
+      129.9999999,
+      286.10000010000005,
+      170.77350279189628,
+      140.0000001
+    ],
+    "tower_joint_1_165_135_washer": [
+      325.9999999,
+      158.9999999,
+      128.9999999,
+      327.60000010000005,
+      171.0000001,
+      141.0000001
+    ],
+    "tower_joint_1_165_160_screw": [
+      277.5999999,
+      159.9999999,
+      154.9999999,
+      333.60000010000005,
+      170.0000001,
+      165.0000001
+    ],
+    "tower_joint_1_165_160_nut": [
+      281.0999999,
+      159.22649720810372,
+      154.9999999,
+      286.10000010000005,
+      170.77350279189628,
+      165.0000001
+    ],
+    "tower_joint_1_165_160_washer": [
+      325.9999999,
+      158.9999999,
+      153.9999999,
+      327.60000010000005,
+      171.0000001,
+      166.0000001
+    ],
+    "deploy_motor_0": [
+      -336.66334722012266,
+      73.94352073857885,
+      411.0414815974461,
+      -224.64210277990324,
+      124.17039236512667,
+      461.6713830157727
+    ],
+    "deploy_motor_1": [
+      -336.6134200742964,
+      90.3681345052388,
+      411.8050785325988,
+      -315.03745492570397,
+      123.89202489455349,
+      453.7376610286429
+    ],
+    "deploy_motor_mount": [
+      -262.0000001,
+      55.647186978897956,
+      391.2871869788979,
+      -255.9999999,
+      124.75841571931362,
+      478.7128130211021
+    ],
+    "deploy_motor_screw_0": [
+      -265.5250001,
+      104.1912499,
+      446.2229685135858,
+      -251.3999999,
+      111.9912501,
+      454.0229687135858
+    ],
+    "deploy_motor_screw_120": [
+      -265.5250001,
+      77.99749990000001,
+      431.0999999,
+      -251.3999999,
+      85.79750010000001,
+      438.9000001
+    ],
+    "deploy_motor_screw_240": [
+      -265.5250001,
+      104.19124989999999,
+      415.9770312864142,
+      -251.3999999,
+      111.99125009999999,
+      423.7770314864142
+    ],
+    "deploy_motor_pinion_0": [
+      -240.52500010000347,
+      88.06494019329885,
+      423.7049401933473,
+      -221.47499989999983,
+      110.65505980664307,
+      446.29505980669154
+    ],
+    "deploy_motor_gear_0": [
+      -237.57225010000002,
+      108.2499999,
+      403.2499999,
+      -224.42774989999998,
+      171.7500001,
+      466.7500001
+    ]
+  }
+}

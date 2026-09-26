@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "revision": "A",
+  "step_sha256": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674",
+  "state": {
+    "kind": "LOCAL_SYNTHETIC",
+    "immutable_id": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674",
+    "configuration": "default",
+    "part": "synthetic-left-plate"
+  },
+  "measurement_state": {
+    "kind": "LOCAL_SYNTHETIC",
+    "immutable_id": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674",
+    "configuration": "default",
+    "part": "synthetic-left-plate"
+  },
+  "export_state": {
+    "kind": "LOCAL_SYNTHETIC",
+    "immutable_id": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674",
+    "configuration": "default",
+    "part": "synthetic-left-plate"
+  },
+  "measurement_origin": "LOCAL_OPEN_CASCADE_NOT_ONSHAPE",
+  "measurements": {
+    "units": "mm",
+    "solid_count": 1,
+    "thickness": 6.349999999999994,
+    "width": 320.0,
+    "height": 150.0,
+    "volume": 301875.70934676327,
+    "world_bounds": [
+      -176.35,
+      0.0,
+      12.7,
+      -170.0,
+      320.0,
+      162.7
+    ],
+    "outer": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        320.0,
+        0.0
+      ],
+      [
+        320.0,
+        150.0
+      ],
+      [
+        0.0,
+        150.0
+      ]
+    ],
+    "holes": [
+      {
+        "u": 25.0,
+        "v": 117.3,
+        "diameter": 12.9,
+        "key": "H1"
+      },
+      {
+        "u": 70.0,
+        "v": 52.3,
+        "diameter": 12.9,
+        "key": "H2"
+      },
+      {
+        "u": 140.0,
+        "v": 122.3,
+        "diameter": 6.6,
+        "key": "H3"
+      },
+      {
+        "u": 246.2,
+        "v": 52.3,
+        "diameter": 12.9,
+        "key": "H4"
+      },
+      {
+        "u": 300.0,
+        "v": 122.3,
+        "diameter": 6.6,
+        "key": "H5"
+      }
+    ],
+    "transform": "u=Y; v=Z-12.7; normal=+X"
+  }
+}

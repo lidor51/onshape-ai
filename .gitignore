@@ -1,3 +1,21 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+.cache/
+.playwright-mcp/
+artifacts/live/
+designs/coral-intake-v2/coaxial-output/
+designs/coral-intake-v2/powertrain-output/
+designs/coral-intake-v2/starting-frame-output/
+designs/coral-intake-v2/inboard-frame-output/
+designs/coral-intake-v2/final-frame-output/
+*.log
+trials/**/runs/
+trials/**/runtime/
+trials/**/vendor/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

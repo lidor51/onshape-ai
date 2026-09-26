@@ -1,0 +1,136 @@
+{
+  "startedAt": "2026-09-11T12:54:34.006Z",
+  "endpoint": "https://fs-mcp.labs.onshape.app/mcp",
+  "protocolVersionRequested": "2025-06-18",
+  "mode": "credential-free-discovery",
+  "status": "BLOCKED",
+  "requests": [
+    {
+      "method": "POST",
+      "url": "https://fs-mcp.labs.onshape.app/mcp",
+      "purpose": "initialize",
+      "startedAt": "2026-09-11T12:54:34.010Z",
+      "status": 401,
+      "headers": {
+        "contentType": "application/json",
+        "authentication": {
+          "present": true,
+          "scheme": "bearer",
+          "resourceMetadata": "https://fs-mcp.labs.onshape.app/.well-known/oauth-protected-resource/mcp",
+          "resourceMetadataRejected": false,
+          "error": "invalid_token"
+        },
+        "sessionHeaderPresent": false,
+        "setCookiePresent": false,
+        "redirectPresent": false
+      },
+      "body": {
+        "jsonRpc": false,
+        "resultPresent": false,
+        "errorPresent": true,
+        "oauthError": "invalid_token",
+        "bytesRead": 301,
+        "nonProtocolBodyDiscarded": false
+      },
+      "elapsedMs": 971
+    },
+    {
+      "method": "GET",
+      "url": "https://fs-mcp.labs.onshape.app/.well-known/oauth-protected-resource/mcp",
+      "purpose": "protected-resource-metadata",
+      "startedAt": "2026-09-11T12:54:34.982Z",
+      "status": 200,
+      "headers": {
+        "contentType": "application/json",
+        "authentication": {
+          "present": false
+        },
+        "sessionHeaderPresent": false,
+        "setCookiePresent": false,
+        "redirectPresent": false
+      },
+      "body": {
+        "jsonRpc": false,
+        "resultPresent": false,
+        "errorPresent": false,
+        "bytesRead": 228,
+        "nonProtocolBodyDiscarded": false
+      },
+      "elapsedMs": 654
+    },
+    {
+      "method": "GET",
+      "url": "https://fs-mcp.labs.onshape.app/.well-known/oauth-authorization-server",
+      "purpose": "authorization-server-metadata",
+      "startedAt": "2026-09-11T12:54:35.636Z",
+      "status": 200,
+      "headers": {
+        "contentType": "application/json",
+        "authentication": {
+          "present": false
+        },
+        "sessionHeaderPresent": false,
+        "setCookiePresent": false,
+        "redirectPresent": false
+      },
+      "body": {
+        "jsonRpc": false,
+        "resultPresent": false,
+        "errorPresent": false,
+        "bytesRead": 590,
+        "nonProtocolBodyDiscarded": false
+      },
+      "elapsedMs": 203
+    }
+  ],
+  "retries": 0,
+  "tools": [],
+  "toolsListStatus": "NOT_ATTEMPTED",
+  "cadCreated": false,
+  "authenticated": false,
+  "oauth": {
+    "protectedResource": {
+      "url": "https://fs-mcp.labs.onshape.app/.well-known/oauth-protected-resource/mcp",
+      "metadata": {
+        "resource": "https://fs-mcp.labs.onshape.app/mcp",
+        "authorization_servers": [
+          "https://fs-mcp.labs.onshape.app/"
+        ],
+        "bearer_methods_supported": [
+          "header"
+        ]
+      },
+      "resourceMatchesEndpoint": true
+    },
+    "authorizationServers": [
+      {
+        "url": "https://fs-mcp.labs.onshape.app/.well-known/oauth-authorization-server",
+        "status": 200,
+        "metadata": {
+          "issuer": "https://fs-mcp.labs.onshape.app/",
+          "authorization_endpoint": "https://fs-mcp.labs.onshape.app/authorize",
+          "token_endpoint": "https://fs-mcp.labs.onshape.app/token",
+          "registration_endpoint": "https://fs-mcp.labs.onshape.app/register",
+          "response_types_supported": [
+            "code"
+          ],
+          "grant_types_supported": [
+            "authorization_code",
+            "refresh_token"
+          ],
+          "code_challenge_methods_supported": [
+            "S256"
+          ],
+          "token_endpoint_auth_methods_supported": [
+            "client_secret_post",
+            "client_secret_basic"
+          ]
+        },
+        "issuerMatches": true
+      }
+    ]
+  },
+  "blocker": "AUTHENTICATION_REQUIRED",
+  "elapsedMs": 1830,
+  "requestCount": 3
+}

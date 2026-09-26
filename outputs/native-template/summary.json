@@ -1,0 +1,3623 @@
+{
+  "status": "LIVE_COMPLETE",
+  "completedAt": "2026-09-11T16:22:24.362Z",
+  "finalizedAt": "2026-09-11T16:30:26.695Z",
+  "documents": [
+    {
+      "role": "template",
+      "did": "2f23d55654f456b946061a5f",
+      "wid": "ccfd8b5117a32b5fb46baaeb",
+      "eid": "0b24f166452add1bd85ec855",
+      "creationSequence": 1,
+      "url": "https://cad.onshape.com/documents/2f23d55654f456b946061a5f/w/ccfd8b5117a32b5fb46baaeb/e/0b24f166452add1bd85ec855"
+    },
+    {
+      "role": "copy",
+      "did": "2db9a7eda58817bb0ba921b8",
+      "wid": "511535852de274d393a2ea6c",
+      "eid": "87e35d1bfe08c90c7ac97c4f",
+      "creationSequence": 60,
+      "url": "https://cad.onshape.com/documents/2db9a7eda58817bb0ba921b8/w/511535852de274d393a2ea6c/e/87e35d1bfe08c90c7ac97c4f"
+    }
+  ],
+  "tests": {
+    "status": "PASS",
+    "sourceHash": "950b8434437c90aee894dac8c2e7cdc0d441b4bbb79de94f472740fdaec76d02",
+    "testHash": "6984a711c837f89bb71462dc6e8c3a91bc270320dcefb716d5d1d11f1dc2c549",
+    "node": "v24.15.0",
+    "testFiles": [
+      "cli.test.mjs",
+      "credentials.test.mjs",
+      "live-schema.test.mjs",
+      "model.test.mjs",
+      "patch.test.mjs",
+      "preflight.test.mjs",
+      "recovery.test.mjs",
+      "safety.test.mjs",
+      "transport.test.mjs",
+      "verify.test.mjs",
+      "workflow.test.mjs"
+    ],
+    "passed": 30,
+    "failed": 0,
+    "outputHash": "803e798cd311dc00c905b46325a9cf8e74cf32908cd5438dacaf3baae87613f3",
+    "evidence": "executed Node tests, no real transport"
+  },
+  "executionTests": {
+    "status": "PASS",
+    "sourceHash": "1bfa50a3a502f9394cf909bbfe0b4ab8a2efc981a23410f14555e7bc7dbb2ad9",
+    "testHash": "6984a711c837f89bb71462dc6e8c3a91bc270320dcefb716d5d1d11f1dc2c549",
+    "node": "v24.15.0",
+    "testFiles": [
+      "cli.test.mjs",
+      "credentials.test.mjs",
+      "live-schema.test.mjs",
+      "model.test.mjs",
+      "patch.test.mjs",
+      "preflight.test.mjs",
+      "recovery.test.mjs",
+      "safety.test.mjs",
+      "transport.test.mjs",
+      "verify.test.mjs",
+      "workflow.test.mjs"
+    ],
+    "passed": 30,
+    "failed": 0,
+    "outputHash": "6113f3a13a0187625485c6a17f029166b43c6e8673aa58b542cf2151c9c4815d",
+    "evidence": "executed Node tests, no real transport"
+  },
+  "executionSourceHash": "1bfa50a3a502f9394cf909bbfe0b4ab8a2efc981a23410f14555e7bc7dbb2ad9",
+  "stateHash": "6326f3f3eadf470d0618243c398136239d2cae9228cc96890fc2449e0e82eb0b",
+  "ledgerHash": "bebbfba9d786750857f31f150ca78d7584aedf006f8a0d6a2f90db85153e8584",
+  "cumulativeCost": {
+    "attempted": 84,
+    "successful": 83,
+    "failed": 0,
+    "unknownOutcomesConservative": 1,
+    "reconciledInterruptedReads": 1,
+    "automaticRetries": 0,
+    "recordedRequestMs": 62524.86489999998
+  },
+  "remainingAttempts": 36,
+  "sixCallTargetMet": true,
+  "revisionSuccessfulCalls": 6,
+  "originalTemplateUnchanged": true,
+  "preservation": {
+    "status": "PASS",
+    "beforeHash": "a60eb7f0e2e0bcf37f10f77b1499950fb5504dc7b25c64728c613d9add5e60c7",
+    "afterHash": "754ce1407d963b42692349294658d8c4d7bf1a765162975912c13d8c1fac8449",
+    "changedFeatureIds": [
+      "Fyd8SSJSmaf2Hyz_0",
+      "FpNVMyouOXqRcKO_0"
+    ],
+    "ignoredServerFields": [
+      "nodeId",
+      "evaluated quantity value; expression remains compared"
+    ]
+  },
+  "phases": {
+    "setup": {
+      "status": "PASS",
+      "cost": {
+        "attempted": 58,
+        "successful": 57,
+        "failed": 0,
+        "unknownOutcomesConservative": 1,
+        "reconciledInterruptedReads": 1,
+        "automaticRetries": 0,
+        "recordedRequestMs": 39567.188599999994
+      },
+      "firstStartedAt": "2026-09-11T16:00:36.438Z",
+      "completedAt": "2026-09-11T16:10:41.875Z",
+      "wallSpanMsIncludingInterruptions": 605437,
+      "completedInvocationMs": 6889.0588,
+      "microversion": "43b8e4916a8e7e781726665a",
+      "libraryVersion": 3070,
+      "serializationVersion": "1.2.21",
+      "featureCount": 32,
+      "native": {
+        "nativeReadback": "PASS",
+        "solverDOF": "UNVERIFIED",
+        "map": {
+          "var-innerWidth": "Fyd8SSJSmaf2Hyz_0",
+          "var-rollerGap": "FpNVMyouOXqRcKO_0",
+          "var-plateThickness": "FQvOgGL14Zx17mm_0",
+          "var-plateLength": "F77dKbOEEaBgugl_0",
+          "var-plateHeight": "FxKWJYVtchlhLYA_0",
+          "var-plateBottomZ": "Fq4evdkOSYMYpMW_0",
+          "var-rollerDiameter": "FKFO1teE0WIDWay_0",
+          "var-frontRollerY": "FCLikjKBqeyLAx8_0",
+          "var-rollerZ": "Fum4SewqVW4pygE_0",
+          "var-shaftHoleDiameter": "FUpsoQOy3VpDgmW_0",
+          "var-mountHoleDiameter": "F4C1ak6srPh8Bul_0",
+          "var-pivotHoleDiameter": "FepvMnCNpmy5ZeY_0",
+          "var-pivotY": "FwKotLIMqZQFhga_0",
+          "var-pivotZ": "FxIJEaharZBW5A9_0",
+          "var-mount1Y": "FcR9NQjK03NA8zO_0",
+          "var-mount1Z": "F08I5SS0eprfCug_0",
+          "var-mount2Y": "FscqWuVeIRn8uqK_0",
+          "var-mount2Z": "FDMIaT4YCJmkPwk_0",
+          "var-rearRollerY": "FALiZQnZMKBNrX3_0",
+          "plate-plane": "Fd9udA3gGVzm8q1_0",
+          "plate-profile": "FJPJ4rQn2INLcFt_0",
+          "plate-extrude": "FJJg1PmFMMvntC7_0",
+          "hole-sketch-0": "FhlKkh5Ne40fOth_1",
+          "hole-cut-0": "F6uMhqiiDHu77MC_1",
+          "hole-sketch-1": "FW7ejK3Vw3F6cST_1",
+          "hole-cut-1": "FfHAmzrJXM7ViFO_1",
+          "hole-sketch-2": "FwjldTclRt358af_1",
+          "hole-cut-2": "FAsEVpTD1SMZCdu_1",
+          "hole-sketch-3": "FvGOvy0EW1jOz5Z_1",
+          "hole-cut-3": "FvriuD6D2QScUyI_1",
+          "hole-sketch-4": "FHO7mk8Ep8iIcIR_1",
+          "hole-cut-4": "FAMthbPVAnceCfS_1",
+          "Right": "Right",
+          "Origin": "Origin"
+        },
+        "note": "Driving definitions read back; remaining solver degrees of freedom are not exposed by this adapter."
+      },
+      "sketches": [
+        {
+          "name": "Plate profile: length / height / bottom",
+          "featureId": "FJPJ4rQn2INLcFt_0",
+          "constraints": [
+            {
+              "id": "join0",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.start"
+                }
+              ]
+            },
+            {
+              "id": "axis0",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0"
+                }
+              ]
+            },
+            {
+              "id": "join1",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge2.start"
+                }
+              ]
+            },
+            {
+              "id": "axis1",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1"
+                }
+              ]
+            },
+            {
+              "id": "join2",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge3.start"
+                }
+              ]
+            },
+            {
+              "id": "axis2",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2"
+                }
+              ]
+            },
+            {
+              "id": "join3",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.start"
+                }
+              ]
+            },
+            {
+              "id": "axis3",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3"
+                }
+              ]
+            },
+            {
+              "id": "anchor-horizontal",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                }
+              ]
+            },
+            {
+              "id": "bottom",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateBottomZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "length",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateLength",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "height",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateHeight",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Front shaft: constrained hole sketch",
+          "featureId": "FhlKkh5Ne40fOth_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#frontRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rear shaft: constrained hole sketch",
+          "featureId": "FW7ejK3Vw3F6cST_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rearRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 1: constrained hole sketch",
+          "featureId": "FwjldTclRt358af_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 2: constrained hole sketch",
+          "featureId": "FvGOvy0EW1jOz5Z_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pivot: constrained hole sketch",
+          "featureId": "FHO7mk8Ep8iIcIR_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "status": "PASS",
+        "evidence": "server REST analytic B-rep and mass properties; not tessellation",
+        "units": "mm",
+        "partMap": {
+          "semanticId": "leftPlate",
+          "serverPartId": "JID"
+        },
+        "boundsMm": {
+          "low": [
+            -176.35,
+            0,
+            12.699999999999989
+          ],
+          "high": [
+            -170,
+            320,
+            162.7
+          ]
+        },
+        "volumeMm3": 301875.7093467633,
+        "holes": [
+          {
+            "name": "Front shaft",
+            "center": [
+              70,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Rear shaft",
+            "center": [
+              246.2,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 1",
+            "center": [
+              140,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 2",
+            "center": [
+              300,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Pivot",
+            "center": [
+              25,
+              130
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          }
+        ]
+      },
+      "featureReadback": "live/response-055-getPartStudioFeatures.json",
+      "geometryEvidence": "live/setup-geometry-response.json"
+    },
+    "copy": {
+      "status": "PASS",
+      "cost": {
+        "attempted": 8,
+        "successful": 8,
+        "failed": 0,
+        "unknownOutcomesConservative": 0,
+        "reconciledInterruptedReads": 0,
+        "automaticRetries": 0,
+        "recordedRequestMs": 11554.318499999998
+      },
+      "firstStartedAt": "2026-09-11T16:11:03.242Z",
+      "completedAt": "2026-09-11T16:11:15.183Z",
+      "wallSpanMsIncludingInterruptions": 11941,
+      "completedInvocationMs": 11917.203,
+      "microversion": "1ea7d029ed7e39a5fdbffec2",
+      "libraryVersion": 3070,
+      "serializationVersion": "1.2.21",
+      "featureCount": 32,
+      "native": {
+        "nativeReadback": "PASS",
+        "solverDOF": "UNVERIFIED",
+        "map": {
+          "var-innerWidth": "Fyd8SSJSmaf2Hyz_0",
+          "var-rollerGap": "FpNVMyouOXqRcKO_0",
+          "var-plateThickness": "FQvOgGL14Zx17mm_0",
+          "var-plateLength": "F77dKbOEEaBgugl_0",
+          "var-plateHeight": "FxKWJYVtchlhLYA_0",
+          "var-plateBottomZ": "Fq4evdkOSYMYpMW_0",
+          "var-rollerDiameter": "FKFO1teE0WIDWay_0",
+          "var-frontRollerY": "FCLikjKBqeyLAx8_0",
+          "var-rollerZ": "Fum4SewqVW4pygE_0",
+          "var-shaftHoleDiameter": "FUpsoQOy3VpDgmW_0",
+          "var-mountHoleDiameter": "F4C1ak6srPh8Bul_0",
+          "var-pivotHoleDiameter": "FepvMnCNpmy5ZeY_0",
+          "var-pivotY": "FwKotLIMqZQFhga_0",
+          "var-pivotZ": "FxIJEaharZBW5A9_0",
+          "var-mount1Y": "FcR9NQjK03NA8zO_0",
+          "var-mount1Z": "F08I5SS0eprfCug_0",
+          "var-mount2Y": "FscqWuVeIRn8uqK_0",
+          "var-mount2Z": "FDMIaT4YCJmkPwk_0",
+          "var-rearRollerY": "FALiZQnZMKBNrX3_0",
+          "plate-plane": "Fd9udA3gGVzm8q1_0",
+          "plate-profile": "FJPJ4rQn2INLcFt_0",
+          "plate-extrude": "FJJg1PmFMMvntC7_0",
+          "hole-sketch-0": "FhlKkh5Ne40fOth_1",
+          "hole-cut-0": "F6uMhqiiDHu77MC_1",
+          "hole-sketch-1": "FW7ejK3Vw3F6cST_1",
+          "hole-cut-1": "FfHAmzrJXM7ViFO_1",
+          "hole-sketch-2": "FwjldTclRt358af_1",
+          "hole-cut-2": "FAsEVpTD1SMZCdu_1",
+          "hole-sketch-3": "FvGOvy0EW1jOz5Z_1",
+          "hole-cut-3": "FvriuD6D2QScUyI_1",
+          "hole-sketch-4": "FHO7mk8Ep8iIcIR_1",
+          "hole-cut-4": "FAMthbPVAnceCfS_1",
+          "Right": "Right",
+          "Origin": "Origin"
+        },
+        "note": "Driving definitions read back; remaining solver degrees of freedom are not exposed by this adapter."
+      },
+      "sketches": [
+        {
+          "name": "Plate profile: length / height / bottom",
+          "featureId": "FJPJ4rQn2INLcFt_0",
+          "constraints": [
+            {
+              "id": "join0",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.start"
+                }
+              ]
+            },
+            {
+              "id": "axis0",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0"
+                }
+              ]
+            },
+            {
+              "id": "join1",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge2.start"
+                }
+              ]
+            },
+            {
+              "id": "axis1",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1"
+                }
+              ]
+            },
+            {
+              "id": "join2",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge3.start"
+                }
+              ]
+            },
+            {
+              "id": "axis2",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2"
+                }
+              ]
+            },
+            {
+              "id": "join3",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.start"
+                }
+              ]
+            },
+            {
+              "id": "axis3",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3"
+                }
+              ]
+            },
+            {
+              "id": "anchor-horizontal",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                }
+              ]
+            },
+            {
+              "id": "bottom",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateBottomZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "length",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateLength",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "height",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateHeight",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Front shaft: constrained hole sketch",
+          "featureId": "FhlKkh5Ne40fOth_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#frontRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rear shaft: constrained hole sketch",
+          "featureId": "FW7ejK3Vw3F6cST_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rearRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 1: constrained hole sketch",
+          "featureId": "FwjldTclRt358af_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 2: constrained hole sketch",
+          "featureId": "FvGOvy0EW1jOz5Z_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pivot: constrained hole sketch",
+          "featureId": "FHO7mk8Ep8iIcIR_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "status": "PASS",
+        "evidence": "server REST analytic B-rep and mass properties; not tessellation",
+        "units": "mm",
+        "partMap": {
+          "semanticId": "leftPlate",
+          "serverPartId": "JID"
+        },
+        "boundsMm": {
+          "low": [
+            -176.35,
+            0,
+            12.699999999999989
+          ],
+          "high": [
+            -170,
+            320,
+            162.7
+          ]
+        },
+        "volumeMm3": 301875.7093467633,
+        "holes": [
+          {
+            "name": "Front shaft",
+            "center": [
+              70,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Rear shaft",
+            "center": [
+              246.2,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 1",
+            "center": [
+              140,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 2",
+            "center": [
+              300,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Pivot",
+            "center": [
+              25,
+              130
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          }
+        ]
+      },
+      "featureReadback": "live/response-063-getPartStudioFeatures.json",
+      "geometryEvidence": "live/copy-geometry-response.json"
+    },
+    "simulated-editor": {
+      "status": "PASS",
+      "cost": {
+        "attempted": 8,
+        "successful": 8,
+        "failed": 0,
+        "unknownOutcomesConservative": 0,
+        "reconciledInterruptedReads": 0,
+        "automaticRetries": 0,
+        "recordedRequestMs": 6404.079100000001
+      },
+      "firstStartedAt": "2026-09-11T16:21:58.278Z",
+      "completedAt": "2026-09-11T16:22:05.156Z",
+      "wallSpanMsIncludingInterruptions": 6878,
+      "completedInvocationMs": 6819.596799999999,
+      "microversion": "d5103a4786f576d65df1505d",
+      "libraryVersion": 3070,
+      "serializationVersion": "1.2.21",
+      "featureCount": 34,
+      "native": {
+        "nativeReadback": "PASS",
+        "solverDOF": "UNVERIFIED",
+        "map": {
+          "var-innerWidth": "Fyd8SSJSmaf2Hyz_0",
+          "var-rollerGap": "FpNVMyouOXqRcKO_0",
+          "var-plateThickness": "FQvOgGL14Zx17mm_0",
+          "var-plateLength": "F77dKbOEEaBgugl_0",
+          "var-plateHeight": "FxKWJYVtchlhLYA_0",
+          "var-plateBottomZ": "Fq4evdkOSYMYpMW_0",
+          "var-rollerDiameter": "FKFO1teE0WIDWay_0",
+          "var-frontRollerY": "FCLikjKBqeyLAx8_0",
+          "var-rollerZ": "Fum4SewqVW4pygE_0",
+          "var-shaftHoleDiameter": "FUpsoQOy3VpDgmW_0",
+          "var-mountHoleDiameter": "F4C1ak6srPh8Bul_0",
+          "var-pivotHoleDiameter": "FepvMnCNpmy5ZeY_0",
+          "var-pivotY": "FwKotLIMqZQFhga_0",
+          "var-pivotZ": "FxIJEaharZBW5A9_0",
+          "var-mount1Y": "FcR9NQjK03NA8zO_0",
+          "var-mount1Z": "F08I5SS0eprfCug_0",
+          "var-mount2Y": "FscqWuVeIRn8uqK_0",
+          "var-mount2Z": "FDMIaT4YCJmkPwk_0",
+          "var-rearRollerY": "FALiZQnZMKBNrX3_0",
+          "plate-plane": "Fd9udA3gGVzm8q1_0",
+          "plate-profile": "FJPJ4rQn2INLcFt_0",
+          "plate-extrude": "FJJg1PmFMMvntC7_0",
+          "hole-sketch-0": "FhlKkh5Ne40fOth_1",
+          "hole-cut-0": "F6uMhqiiDHu77MC_1",
+          "hole-sketch-1": "FW7ejK3Vw3F6cST_1",
+          "hole-cut-1": "FfHAmzrJXM7ViFO_1",
+          "hole-sketch-2": "FwjldTclRt358af_1",
+          "hole-cut-2": "FAsEVpTD1SMZCdu_1",
+          "hole-sketch-3": "FvGOvy0EW1jOz5Z_1",
+          "hole-cut-3": "FvriuD6D2QScUyI_1",
+          "hole-sketch-4": "FHO7mk8Ep8iIcIR_1",
+          "hole-cut-4": "FAMthbPVAnceCfS_1",
+          "editor-hole-sketch": "FjYxxNqn7CH0VRZ_1",
+          "editor-hole-cut": "Frq7M9XcvtyUKOl_1",
+          "Right": "Right",
+          "Origin": "Origin"
+        },
+        "note": "Driving definitions read back; remaining solver degrees of freedom are not exposed by this adapter."
+      },
+      "sketches": [
+        {
+          "name": "Plate profile: length / height / bottom",
+          "featureId": "FJPJ4rQn2INLcFt_0",
+          "constraints": [
+            {
+              "id": "join0",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.start"
+                }
+              ]
+            },
+            {
+              "id": "axis0",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0"
+                }
+              ]
+            },
+            {
+              "id": "join1",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge2.start"
+                }
+              ]
+            },
+            {
+              "id": "axis1",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1"
+                }
+              ]
+            },
+            {
+              "id": "join2",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge3.start"
+                }
+              ]
+            },
+            {
+              "id": "axis2",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2"
+                }
+              ]
+            },
+            {
+              "id": "join3",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.start"
+                }
+              ]
+            },
+            {
+              "id": "axis3",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3"
+                }
+              ]
+            },
+            {
+              "id": "anchor-horizontal",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                }
+              ]
+            },
+            {
+              "id": "bottom",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateBottomZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "length",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateLength",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "height",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateHeight",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Front shaft: constrained hole sketch",
+          "featureId": "FhlKkh5Ne40fOth_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#frontRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rear shaft: constrained hole sketch",
+          "featureId": "FW7ejK3Vw3F6cST_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rearRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 1: constrained hole sketch",
+          "featureId": "FwjldTclRt358af_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 2: constrained hole sketch",
+          "featureId": "FvGOvy0EW1jOz5Z_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pivot: constrained hole sketch",
+          "featureId": "FHO7mk8Ep8iIcIR_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Editor downstream: constrained hole sketch",
+          "featureId": "FjYxxNqn7CH0VRZ_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "200 mm",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "40 mm",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "4 mm",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "status": "PASS",
+        "evidence": "server REST analytic B-rep and mass properties; not tessellation",
+        "units": "mm",
+        "partMap": {
+          "semanticId": "leftPlate",
+          "serverPartId": "JID"
+        },
+        "boundsMm": {
+          "low": [
+            -178.00000000000003,
+            0,
+            12.699999999999989
+          ],
+          "high": [
+            -170,
+            320,
+            162.7
+          ]
+        },
+        "volumeMm3": 380215.3233302207,
+        "holes": [
+          {
+            "name": "Front shaft",
+            "center": [
+              70,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Rear shaft",
+            "center": [
+              246.2,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 1",
+            "center": [
+              140,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 2",
+            "center": [
+              300,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Pivot",
+            "center": [
+              30,
+              130
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Editor downstream",
+            "center": [
+              200,
+              40
+            ],
+            "diameter": 4,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          }
+        ]
+      },
+      "featureReadback": "live/response-071-getPartStudioFeatures.json",
+      "geometryEvidence": "live/simulated-editor-geometry-response.json"
+    },
+    "revision": {
+      "status": "PASS",
+      "cost": {
+        "attempted": 6,
+        "successful": 6,
+        "failed": 0,
+        "unknownOutcomesConservative": 0,
+        "reconciledInterruptedReads": 0,
+        "automaticRetries": 0,
+        "recordedRequestMs": 1854.85
+      },
+      "firstStartedAt": "2026-09-11T16:22:11.801Z",
+      "completedAt": "2026-09-11T16:22:14.026Z",
+      "wallSpanMsIncludingInterruptions": 2225,
+      "completedInvocationMs": 2141.5516000000002,
+      "microversion": "ae2732bc911e3cf419bf1a7d",
+      "libraryVersion": 3070,
+      "serializationVersion": "1.2.21",
+      "featureCount": 34,
+      "native": {
+        "nativeReadback": "PASS",
+        "solverDOF": "UNVERIFIED",
+        "map": {
+          "var-innerWidth": "Fyd8SSJSmaf2Hyz_0",
+          "var-rollerGap": "FpNVMyouOXqRcKO_0",
+          "var-plateThickness": "FQvOgGL14Zx17mm_0",
+          "var-plateLength": "F77dKbOEEaBgugl_0",
+          "var-plateHeight": "FxKWJYVtchlhLYA_0",
+          "var-plateBottomZ": "Fq4evdkOSYMYpMW_0",
+          "var-rollerDiameter": "FKFO1teE0WIDWay_0",
+          "var-frontRollerY": "FCLikjKBqeyLAx8_0",
+          "var-rollerZ": "Fum4SewqVW4pygE_0",
+          "var-shaftHoleDiameter": "FUpsoQOy3VpDgmW_0",
+          "var-mountHoleDiameter": "F4C1ak6srPh8Bul_0",
+          "var-pivotHoleDiameter": "FepvMnCNpmy5ZeY_0",
+          "var-pivotY": "FwKotLIMqZQFhga_0",
+          "var-pivotZ": "FxIJEaharZBW5A9_0",
+          "var-mount1Y": "FcR9NQjK03NA8zO_0",
+          "var-mount1Z": "F08I5SS0eprfCug_0",
+          "var-mount2Y": "FscqWuVeIRn8uqK_0",
+          "var-mount2Z": "FDMIaT4YCJmkPwk_0",
+          "var-rearRollerY": "FALiZQnZMKBNrX3_0",
+          "plate-plane": "Fd9udA3gGVzm8q1_0",
+          "plate-profile": "FJPJ4rQn2INLcFt_0",
+          "plate-extrude": "FJJg1PmFMMvntC7_0",
+          "hole-sketch-0": "FhlKkh5Ne40fOth_1",
+          "hole-cut-0": "F6uMhqiiDHu77MC_1",
+          "hole-sketch-1": "FW7ejK3Vw3F6cST_1",
+          "hole-cut-1": "FfHAmzrJXM7ViFO_1",
+          "hole-sketch-2": "FwjldTclRt358af_1",
+          "hole-cut-2": "FAsEVpTD1SMZCdu_1",
+          "hole-sketch-3": "FvGOvy0EW1jOz5Z_1",
+          "hole-cut-3": "FvriuD6D2QScUyI_1",
+          "hole-sketch-4": "FHO7mk8Ep8iIcIR_1",
+          "hole-cut-4": "FAMthbPVAnceCfS_1",
+          "editor-hole-sketch": "FjYxxNqn7CH0VRZ_1",
+          "editor-hole-cut": "Frq7M9XcvtyUKOl_1",
+          "Right": "Right",
+          "Origin": "Origin"
+        },
+        "note": "Driving definitions read back; remaining solver degrees of freedom are not exposed by this adapter."
+      },
+      "sketches": [
+        {
+          "name": "Plate profile: length / height / bottom",
+          "featureId": "FJPJ4rQn2INLcFt_0",
+          "constraints": [
+            {
+              "id": "join0",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.start"
+                }
+              ]
+            },
+            {
+              "id": "axis0",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0"
+                }
+              ]
+            },
+            {
+              "id": "join1",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge2.start"
+                }
+              ]
+            },
+            {
+              "id": "axis1",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1"
+                }
+              ]
+            },
+            {
+              "id": "join2",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge3.start"
+                }
+              ]
+            },
+            {
+              "id": "axis2",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2"
+                }
+              ]
+            },
+            {
+              "id": "join3",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.start"
+                }
+              ]
+            },
+            {
+              "id": "axis3",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3"
+                }
+              ]
+            },
+            {
+              "id": "anchor-horizontal",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                }
+              ]
+            },
+            {
+              "id": "bottom",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateBottomZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "length",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateLength",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "height",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateHeight",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Front shaft: constrained hole sketch",
+          "featureId": "FhlKkh5Ne40fOth_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#frontRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rear shaft: constrained hole sketch",
+          "featureId": "FW7ejK3Vw3F6cST_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rearRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 1: constrained hole sketch",
+          "featureId": "FwjldTclRt358af_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 2: constrained hole sketch",
+          "featureId": "FvGOvy0EW1jOz5Z_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pivot: constrained hole sketch",
+          "featureId": "FHO7mk8Ep8iIcIR_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Editor downstream: constrained hole sketch",
+          "featureId": "FjYxxNqn7CH0VRZ_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "200 mm",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "40 mm",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "4 mm",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "status": "PASS",
+        "evidence": "server REST analytic B-rep and mass properties; not tessellation",
+        "units": "mm",
+        "partMap": {
+          "semanticId": "leftPlate",
+          "serverPartId": "JID"
+        },
+        "boundsMm": {
+          "low": [
+            -188,
+            0,
+            12.699999999999989
+          ],
+          "high": [
+            -180,
+            320,
+            162.7
+          ]
+        },
+        "volumeMm3": 380215.3233302207,
+        "holes": [
+          {
+            "name": "Front shaft",
+            "center": [
+              70,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Rear shaft",
+            "center": [
+              241.2,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 1",
+            "center": [
+              140,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 2",
+            "center": [
+              300,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Pivot",
+            "center": [
+              30,
+              130
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Editor downstream",
+            "center": [
+              200,
+              40
+            ],
+            "diameter": 4,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          }
+        ]
+      },
+      "featureReadback": "live/response-077-getPartStudioFeatures.json",
+      "geometryEvidence": "live/revision-geometry-response.json"
+    },
+    "validation": {
+      "status": "PASS",
+      "cost": {
+        "attempted": 4,
+        "successful": 4,
+        "failed": 0,
+        "unknownOutcomesConservative": 0,
+        "reconciledInterruptedReads": 0,
+        "automaticRetries": 0,
+        "recordedRequestMs": 3144.4287000000004
+      },
+      "firstStartedAt": "2026-09-11T16:22:21.012Z",
+      "completedAt": "2026-09-11T16:22:24.362Z",
+      "wallSpanMsIncludingInterruptions": 3350,
+      "completedInvocationMs": 3307.7161,
+      "microversion": "43b8e4916a8e7e781726665a",
+      "libraryVersion": 3070,
+      "serializationVersion": "1.2.21",
+      "featureCount": 32,
+      "native": {
+        "nativeReadback": "PASS",
+        "solverDOF": "UNVERIFIED",
+        "map": {
+          "var-innerWidth": "Fyd8SSJSmaf2Hyz_0",
+          "var-rollerGap": "FpNVMyouOXqRcKO_0",
+          "var-plateThickness": "FQvOgGL14Zx17mm_0",
+          "var-plateLength": "F77dKbOEEaBgugl_0",
+          "var-plateHeight": "FxKWJYVtchlhLYA_0",
+          "var-plateBottomZ": "Fq4evdkOSYMYpMW_0",
+          "var-rollerDiameter": "FKFO1teE0WIDWay_0",
+          "var-frontRollerY": "FCLikjKBqeyLAx8_0",
+          "var-rollerZ": "Fum4SewqVW4pygE_0",
+          "var-shaftHoleDiameter": "FUpsoQOy3VpDgmW_0",
+          "var-mountHoleDiameter": "F4C1ak6srPh8Bul_0",
+          "var-pivotHoleDiameter": "FepvMnCNpmy5ZeY_0",
+          "var-pivotY": "FwKotLIMqZQFhga_0",
+          "var-pivotZ": "FxIJEaharZBW5A9_0",
+          "var-mount1Y": "FcR9NQjK03NA8zO_0",
+          "var-mount1Z": "F08I5SS0eprfCug_0",
+          "var-mount2Y": "FscqWuVeIRn8uqK_0",
+          "var-mount2Z": "FDMIaT4YCJmkPwk_0",
+          "var-rearRollerY": "FALiZQnZMKBNrX3_0",
+          "plate-plane": "Fd9udA3gGVzm8q1_0",
+          "plate-profile": "FJPJ4rQn2INLcFt_0",
+          "plate-extrude": "FJJg1PmFMMvntC7_0",
+          "hole-sketch-0": "FhlKkh5Ne40fOth_1",
+          "hole-cut-0": "F6uMhqiiDHu77MC_1",
+          "hole-sketch-1": "FW7ejK3Vw3F6cST_1",
+          "hole-cut-1": "FfHAmzrJXM7ViFO_1",
+          "hole-sketch-2": "FwjldTclRt358af_1",
+          "hole-cut-2": "FAsEVpTD1SMZCdu_1",
+          "hole-sketch-3": "FvGOvy0EW1jOz5Z_1",
+          "hole-cut-3": "FvriuD6D2QScUyI_1",
+          "hole-sketch-4": "FHO7mk8Ep8iIcIR_1",
+          "hole-cut-4": "FAMthbPVAnceCfS_1",
+          "Right": "Right",
+          "Origin": "Origin"
+        },
+        "note": "Driving definitions read back; remaining solver degrees of freedom are not exposed by this adapter."
+      },
+      "sketches": [
+        {
+          "name": "Plate profile: length / height / bottom",
+          "featureId": "FJPJ4rQn2INLcFt_0",
+          "constraints": [
+            {
+              "id": "join0",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.start"
+                }
+              ]
+            },
+            {
+              "id": "axis0",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0"
+                }
+              ]
+            },
+            {
+              "id": "join1",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge2.start"
+                }
+              ]
+            },
+            {
+              "id": "axis1",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1"
+                }
+              ]
+            },
+            {
+              "id": "join2",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge3.start"
+                }
+              ]
+            },
+            {
+              "id": "axis2",
+              "type": "HORIZONTAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge2"
+                }
+              ]
+            },
+            {
+              "id": "join3",
+              "type": "COINCIDENT",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3.end"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.start"
+                }
+              ]
+            },
+            {
+              "id": "axis3",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge3"
+                }
+              ]
+            },
+            {
+              "id": "anchor-horizontal",
+              "type": "VERTICAL",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                }
+              ]
+            },
+            {
+              "id": "bottom",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateBottomZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "length",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge0.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge0.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateLength",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "height",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "edge1.start"
+                },
+                {
+                  "id": "localSecond",
+                  "value": "edge1.end"
+                },
+                {
+                  "id": "length",
+                  "expression": "#plateHeight",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Front shaft: constrained hole sketch",
+          "featureId": "FhlKkh5Ne40fOth_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#frontRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rear shaft: constrained hole sketch",
+          "featureId": "FW7ejK3Vw3F6cST_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rearRollerY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#rollerZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#shaftHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 1: constrained hole sketch",
+          "featureId": "FwjldTclRt358af_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount1Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mount 2: constrained hole sketch",
+          "featureId": "FvGOvy0EW1jOz5Z_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Y",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mount2Z",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#mountHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pivot: constrained hole sketch",
+          "featureId": "FHO7mk8Ep8iIcIR_1",
+          "constraints": [
+            {
+              "id": "center-y",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotY",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "HORIZONTAL"
+                }
+              ]
+            },
+            {
+              "id": "center-z",
+              "type": "DISTANCE",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle.center"
+                },
+                {
+                  "id": "externalSecond"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotZ",
+                  "value": 0
+                },
+                {
+                  "id": "direction",
+                  "value": "VERTICAL"
+                }
+              ]
+            },
+            {
+              "id": "diameter",
+              "type": "DIAMETER",
+              "drivenDimension": false,
+              "parameters": [
+                {
+                  "id": "localFirst",
+                  "value": "circle"
+                },
+                {
+                  "id": "length",
+                  "expression": "#pivotHoleDiameter",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "status": "PASS",
+        "evidence": "server REST analytic B-rep and mass properties; not tessellation",
+        "units": "mm",
+        "partMap": {
+          "semanticId": "leftPlate",
+          "serverPartId": "JID"
+        },
+        "boundsMm": {
+          "low": [
+            -176.35,
+            0,
+            12.699999999999989
+          ],
+          "high": [
+            -170,
+            320,
+            162.7
+          ]
+        },
+        "volumeMm3": 301875.7093467633,
+        "holes": [
+          {
+            "name": "Front shaft",
+            "center": [
+              70,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Rear shaft",
+            "center": [
+              246.2,
+              65
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 1",
+            "center": [
+              140,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Mount 2",
+            "center": [
+              300,
+              135
+            ],
+            "diameter": 6.6,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          },
+          {
+            "name": "Pivot",
+            "center": [
+              25,
+              130
+            ],
+            "diameter": 12.9,
+            "evidence": "cylindrical face, two full circular boundary lengths at both X faces, area and total volume"
+          }
+        ]
+      },
+      "featureReadback": "live/response-081-getPartStudioFeatures.json",
+      "geometryEvidence": "live/validation-geometry-response.json"
+    }
+  },
+  "gates": {
+    "offlinePreflight": "PASS",
+    "nativeSourceAndGeometry": "PASS",
+    "independentCopy": "PASS",
+    "revisionAndPreservation": "PASS",
+    "originalUnchanged": "PASS",
+    "sixCallRevision": "PASS",
+    "nativeSolverDOF": "UNVERIFIED",
+    "humanUI": "UNVERIFIED",
+    "manufacturingRelease": "UNVERIFIED"
+  },
+  "limitations": [
+    "Separate-editor API simulation, not a human UI test.",
+    "Driving native constraints and healthy geometry do not expose exact remaining sketch DOF.",
+    "Dimensioned circle sketches and bounded REMOVE extrudes, not native Hole features.",
+    "Historical interrupted read remains an unknown allowance outcome and counts against the attempt cap.",
+    "Annual account usage is a saved shared snapshot, not a new quota measurement.",
+    "No manufacturing package, materials, tolerances, fits, FEA, assemblies, or production approval.",
+    "No API PNG requested; external AI/provider cost is not measured."
+  ]
+}

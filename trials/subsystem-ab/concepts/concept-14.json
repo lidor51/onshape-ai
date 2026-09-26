@@ -1,0 +1,64 @@
+{
+  "id": "14",
+  "title": "1778 reference clone",
+  "family": "Direct capture, raise-and-center, then powered handoff against a carrier-locked lower axle",
+  "notice": "Architecture clone; dimensions are provisional, not measured 1778 CAD.",
+  "summary": "Powered pickup retains one coral; presence triggers raising and mechanical centering. Present directly, then power the handoff against the locked lower contact.",
+  "advantage": "One moving carrier captures, centers and presents; the intentional axle lock targets in-place spinning without a separate long V conveyor.",
+  "risk": "Entry contact, retention and centering may fail. Receiver misalignment or wrong current-grip tuning can still throw coral; no measured geometry or physical pass.",
+  "firstTest": "Hand-crank a flat-plate mockup with full pipe and bumper; compare locked/free lower axle, delayed receiver grip, entry offsets and centering during raise.",
+  "complexity": "moderate",
+  "inspiration": "research/2025-coral/1690-1778.md E07-E11: previously read firsthand post text reports powered pickup, presence-triggered raising, mechanical centering, axle locking and alignment/current-grip sensitivity. CAD, images and videos are link-only, NOT viewed or measured. No exact replica or verified coordinates; no 1690 four-bar or 1690/2056 V conveyor. Carrier motion, fingers and stop are proposals, not measured 1778 mechanisms.",
+  "side": {
+    "guides": [
+      {"points": [[-410,0],[-370,0],[-346,9],[-346,3],[-370,0]], "label": "Proposed flat PC entry toe at pickup only; retract before raising"},
+      {"points": [[68,266],[92,290]], "label": "Retracted retaining-stop proposal; opens only after receiver alignment"}
+    ],
+    "rollers": [
+      {"center": [-20.238822,279.061178], "radius": 25, "rotation": "locked", "label": "LOWER LOCKED: nonrotating relative to carrier, not world-fixed; supports front/lower quadrant"},
+      {"center": [95.938822,395.238822], "radius": 25, "label": "UPPER DRIVEN: powered pickup and rearward/downward handoff; preload/floating mount TBD"}
+    ],
+    "links": [
+      {"points": [[-20.238822,279.061178],[95.938822,395.238822]], "label": "Carrier end plates at x=+/-250, outside coral ends; not a frame linkage or material through coral"}
+    ],
+    "pivot": null,
+    "ghost": [
+      [[-375,153],[-355,185],[-210,50],[-230,15],[-375,153]],
+      [[-338.088822,153.088822],[-221.911178,36.911178]],
+      [[-337.15,95],[-320.411152,135.411152],[-280,152.15],[-239.588848,135.411152],[-222.85,95],[-239.588848,54.588848],[-280,37.85],[-320.411152,54.588848],[-337.15,95]]
+    ],
+    "path": [[-400,57.15],[-365,62],[-350,71.81],[-338.088822,70.938822],[-310,75.891],[-280,95],[-260.66293,166.179625],[-223.562113,229.929062],[-171.225907,281.90389],[-107.220938,318.562113],[-35.90904,337.405532],[37.85,337.15]],
+    "receiver": {"center": [37.85,337.15], "label": "Direct crosswise receiver target; aligned jaws share the retained offer pose before powered release"},
+    "labels": [
+      {"at": [-440,560], "text": "Presence -> raise / center"},
+      {"at": [-440,505], "text": "Locked axle moves with carrier"},
+      {"at": [270,550], "text": "Align -> power -> current grip"}
+    ]
+  },
+  "plan": {
+    "guides": [
+      {"points": [[-250,-45.238822],[250,-45.238822],[250,4.761178],[-250,4.761178],[-250,-45.238822]], "rotation": "locked", "label": "LOCKED lower transverse contact band: axis x, y=-20.238822, z=279.061178; not a powered vertical-axis wheel"},
+      {"points": [[-250,70.938822],[250,70.938822],[250,120.938822],[-250,120.938822],[-250,70.938822]], "rotation": "driven", "label": "DRIVEN upper transverse contact band: axis x, y=95.938822, z=395.238822; overlaps piece only in projection"},
+      {"points": [[-250,-65],[-155,-10],[-155,105]], "label": "Proposed left short centering finger, closed during raise; outside nominal coral end"},
+      {"points": [[250,-65],[155,-10],[155,105]], "label": "Proposed right short centering finger; lift-coupled closure, not a separate V conveyor"},
+      {"points": [[-250,-65],[-250,105]], "label": "Left finger open-position datum; closure actuation unverified"},
+      {"points": [[250,-65],[250,105]], "label": "Right finger open-position datum; closure actuation unverified"},
+      {"points": [[-150.8125,-19.3],[150.8125,-19.3],[150.8125,95],[-150.8125,95],[-150.8125,-19.3]], "label": "CORAL reference: final horizontal L301.625 x OD114.3, center [0,37.85], axis x"},
+      {"points": [[-150.8125,-337.15],[150.8125,-337.15],[150.8125,-222.85],[-150.8125,-222.85],[-150.8125,-337.15]], "label": "CORAL reference: earlier capture ghost, same one piece at y=-280, z=95; not a second coral"},
+      {"points": [[-250,-410],[250,-410],[250,-346],[-250,-346],[-250,-410]], "label": "Pickup-only entry toe footprint; retracted in raised pose"},
+      {"points": [[-60,68],[60,68],[60,92],[-60,92],[-60,68]], "label": "Retracted stop at z266..290; below offered coral, not blocking handoff"}
+    ],
+    "rollers": [],
+    "movingOutline": [[-260,-65],[260,-65],[260,130],[-260,130],[-260,-65]],
+    "path": [[0,-400],[0,-365],[0,-350],[0,-338.088822],[0,-310],[0,-280],[0,-260.66293],[0,-223.562113],[0,-171.225907],[0,-107.220938],[0,-35.90904],[0,37.85]],
+    "receiver": {"center": [0,37.85], "label": "Receiver at x0, y37.85, z337.15; crosswise coral, current-confirmed grip required"},
+    "coralYawDeg": 90,
+    "labels": [
+      {"at": [-550,300], "text": "Crosswise entry; yaw not guaranteed"},
+      {"at": [-550,430], "text": "LOCKED lower / DRIVEN upper"},
+      {"at": [-550,560], "text": "Short fingers center during raise"}
+    ]
+  },
+  "mouthWidthMm": 500,
+  "states": "Main provisional entry: horizontal crosswise, yaw90; robot-assisted recovery is not 360-yaw centering. Presence is not alignment. Solid contacts show raised offer; ghosts show capture at [-280,95]. A proposed 90-deg carrier turn follows the sampled arc; deployment linkage is unresolved, not a measured pivot. Lower axle stays locked to the moving carrier. Stop/nip retain coral while short fingers close mechanically during raise. Align receiver, release stop, power upper contact against locked lower; confirm manipulator current-grip before redeploy. Inhibit a second coral robot-wide. Flat routed plates, manual-machined shafts/blocks and printed guides; no accurate bends. Full piece/bumper dimensions are drawn; crosswise path has >75 mm bumper margin in 2D only. Entry, retention, centering closure, traction, swept hardware, current settings, jam recovery, stow and legality remain untested."
+}

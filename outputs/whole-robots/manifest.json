@@ -1,0 +1,93 @@
+{
+  "stage": 2,
+  "season": 2025,
+  "status": "TEN_UNTESTED_WHOLE_ROBOT_CONCEPTS",
+  "apiCalls": 0,
+  "cadKernelRuns": 0,
+  "views": [
+    "axonometric",
+    "side",
+    "top"
+  ],
+  "size": {
+    "width": 2200,
+    "height": 1630
+  },
+  "overviewSize": {
+    "width": 2200,
+    "height": 4350
+  },
+  "renderElapsedMs": 15582,
+  "files": [
+    {
+      "id": "R01",
+      "svg": "robot-R01.svg",
+      "png": "robot-R01.png",
+      "svgSha256": "35f54e01536ba1a814ce2fbcbaf207c37960791b710fb506aa7850200d2c2cc0",
+      "pngSha256": "c811a95714dbe5957b435a2cfb365f65cd6ba2ea12e59ff83c04a57411d97382"
+    },
+    {
+      "id": "R02",
+      "svg": "robot-R02.svg",
+      "png": "robot-R02.png",
+      "svgSha256": "2781b72b0ef454781910fa880cafc1ca54eada29352546465964d7b785524485",
+      "pngSha256": "95a5f94b60e69852b3199101d30e2ea7dc230b3161a17ca241a8a749ef82d10c"
+    },
+    {
+      "id": "R03",
+      "svg": "robot-R03.svg",
+      "png": "robot-R03.png",
+      "svgSha256": "fafbe6823f5ed668684610fb8def2e54742bfa89df04b89f463f86167171266b",
+      "pngSha256": "6bd762e061ffd0720dbf549ed8e8f370c9e9ad9c69f2682e7bdb25534468f0dd"
+    },
+    {
+      "id": "R04",
+      "svg": "robot-R04.svg",
+      "png": "robot-R04.png",
+      "svgSha256": "d2a4297d6d8c7b92f14a0d2b73dac746e1258bc4f39884f6f3dacf23e2ae89d7",
+      "pngSha256": "0fda4ede232f47918e4532aa93649a59bc6827d9994a7101410fca06618a1954"
+    },
+    {
+      "id": "R05",
+      "svg": "robot-R05.svg",
+      "png": "robot-R05.png",
+      "svgSha256": "dfe8e06259d85e279a75722bc8469fa02232a280b9ca7bf5f9b648f4a5fcd192",
+      "pngSha256": "f1f1ea981583cfa5238b010fd580526ffe76c4c392691fa688899d67b2b06875"
+    },
+    {
+      "id": "R06",
+      "svg": "robot-R06.svg",
+      "png": "robot-R06.png",
+      "svgSha256": "0becf7367a54615f79fa08bea9f0a8955f5b6fe617d1269fabdc70f6a81187ed",
+      "pngSha256": "a27841ba004d4110f5594a0138c93b872ef78a73b6d386df3e3f04656c327192"
+    },
+    {
+      "id": "R07",
+      "svg": "robot-R07.svg",
+      "png": "robot-R07.png",
+      "svgSha256": "6e0b49c11e9faca95340836b3040ae328f3e3e9573c277a2991f8d173af2ddb1",
+      "pngSha256": "bb00ca46faacd4c902f3848a76ffd865b732a7c00c57b1e098123c438303f1ce"
+    },
+    {
+      "id": "R08",
+      "svg": "robot-R08.svg",
+      "png": "robot-R08.png",
+      "svgSha256": "73344972473d8e2cebd7477abbb0229024550a8c1ebbe2b16b0ffbf2e5a15202",
+      "pngSha256": "1fb3d92b5a489366fbca470d82cafb391b5f6409b5dab27f523997f713f32463"
+    },
+    {
+      "id": "R09",
+      "svg": "robot-R09.svg",
+      "png": "robot-R09.png",
+      "svgSha256": "9be782bed5f5074afcae3a19c1d0066d11c157171e1d880984106342f55571d3",
+      "pngSha256": "1dfea08d032e92ba5a652a3f4d63bf6504d3cea1de1d4748e5a788541da9ca70"
+    },
+    {
+      "id": "R10",
+      "svg": "robot-R10.svg",
+      "png": "robot-R10.png",
+      "svgSha256": "0031381486d6f431278d6a12e82a007f84352c74abd1ca179d7a4ba70baeb197",
+      "pngSha256": "d31d3ffd28a2a690e9809b1e74f82f45a8a87d4c0f51284db0b4340e188f7b90"
+    }
+  ]
+}

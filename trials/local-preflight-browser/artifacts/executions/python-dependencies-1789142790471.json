@@ -1,0 +1,19 @@
+{
+  "status": "FAIL",
+  "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\Scripts\\python.exe",
+  "arguments": [
+    "-I",
+    "-m",
+    "pip",
+    "--isolated",
+    "--disable-pip-version-check",
+    "check"
+  ],
+  "exitCode": 1,
+  "signal": null,
+  "stdout": "cadquery 2.6.1 requires casadi, which is not installed.\r\n",
+  "stderr": "WARNING: Ignoring invalid distribution -asadi (c:\\users\\lidor\\frc\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages)\r\n",
+  "wallTimeMs": 1254.7385,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0
+}

@@ -1,0 +1,120 @@
+{
+  "motorSpline": [
+    {
+      "phaseDeg": 30.0,
+      "intersectionMm3": 0.0
+    }
+  ],
+  "bestSpline": {
+    "phaseDeg": 30.0,
+    "intersectionMm3": 0.0
+  },
+  "gearMesh": [
+    {
+      "phaseDeg": 1.2,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.2249999999999999,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.2499999999999998,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.2749999999999997,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.2999999999999996,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.3249999999999995,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.3499999999999994,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.3749999999999993,
+      "intersectionMm3": 0.0
+    },
+    {
+      "phaseDeg": 1.3999999999999992,
+      "intersectionMm3": 0.006716637826277008
+    },
+    {
+      "phaseDeg": 1.4249999999999992,
+      "intersectionMm3": 0.078644345053387
+    },
+    {
+      "phaseDeg": 1.449999999999999,
+      "intersectionMm3": 0.1841527198023575
+    },
+    {
+      "phaseDeg": 1.474999999999999,
+      "intersectionMm3": 0.31124959180678274
+    },
+    {
+      "phaseDeg": 1.499999999999999,
+      "intersectionMm3": 0.45572003786114573
+    },
+    {
+      "phaseDeg": 1.5249999999999988,
+      "intersectionMm3": 0.6191829233562848
+    },
+    {
+      "phaseDeg": 1.5499999999999987,
+      "intersectionMm3": 0.8044490861502905
+    },
+    {
+      "phaseDeg": 1.5749999999999986,
+      "intersectionMm3": 1.0101770475171832
+    },
+    {
+      "phaseDeg": 1.5999999999999985,
+      "intersectionMm3": 1.2352843444310617
+    },
+    {
+      "phaseDeg": 1.6249999999999984,
+      "intersectionMm3": 1.4780657634313903
+    },
+    {
+      "phaseDeg": 1.6499999999999984,
+      "intersectionMm3": 1.7395040746662496
+    },
+    {
+      "phaseDeg": 1.6749999999999983,
+      "intersectionMm3": 2.0174334930240607
+    },
+    {
+      "phaseDeg": 1.6999999999999982,
+      "intersectionMm3": 2.3118297658485334
+    },
+    {
+      "phaseDeg": 1.724999999999998,
+      "intersectionMm3": 2.6224397801574724
+    },
+    {
+      "phaseDeg": 1.749999999999998,
+      "intersectionMm3": 2.9501448778858577
+    },
+    {
+      "phaseDeg": 1.774999999999998,
+      "intersectionMm3": 3.294423770934465
+    },
+    {
+      "phaseDeg": 1.7999999999999978,
+      "intersectionMm3": 3.656223446274701
+    }
+  ],
+  "bestMesh": {
+    "phaseDeg": 1.2,
+    "intersectionMm3": 0.0
+  },
+  "originalMotorCoverIntersectionMm3": 1.013295791298182,
+  "scope": "Finite phase samples of unmodified vendor solids, not load or friction verification"
+}

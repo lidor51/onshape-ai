@@ -1,0 +1,306 @@
+{
+  "fixedTubeSkewWitnesses": [
+    {
+      "yaw": 0,
+      "sampleIndex": 8,
+      "coralCenterMm": [
+        0,
+        -376.258064516129,
+        150.56582661290324
+      ],
+      "fixedTube": "pickup_2_tube",
+      "hardIntersectionMm3": 704.9865745814169,
+      "frontFloatCannotRepairFixedTubeCollision": true
+    },
+    {
+      "yaw": 30,
+      "sampleIndex": 10,
+      "coralCenterMm": [
+        0,
+        -362.3225806451613,
+        149.74988342792165
+      ],
+      "fixedTube": "pickup_2_tube",
+      "hardIntersectionMm3": 1691.9397668351526,
+      "frontFloatCannotRepairFixedTubeCollision": true
+    },
+    {
+      "yaw": 60,
+      "sampleIndex": 16,
+      "coralCenterMm": [
+        0,
+        -320.51612903225805,
+        146.81462242702952
+      ],
+      "fixedTube": "pickup_2_tube",
+      "hardIntersectionMm3": 13.871814953635937,
+      "frontFloatCannotRepairFixedTubeCollision": true
+    },
+    {
+      "yaw": 75,
+      "sampleIndex": 22,
+      "coralCenterMm": [
+        0,
+        -278.7096774193549,
+        153.31347277473864
+      ],
+      "fixedTube": "pickup_2_tube",
+      "hardIntersectionMm3": 203.80000790042595,
+      "frontFloatCannotRepairFixedTubeCollision": true
+    }
+  ],
+  "retentionClosure": {
+    "samples": 63,
+    "pairVisits": 2583,
+    "cacheHits": 0,
+    "broadphaseRejections": 2472,
+    "fullBrepBooleans": 111,
+    "intentionalCompliantContacts": 0,
+    "unexpectedCount": 48,
+    "witnesses": [
+      {
+        "sample": "tab-close:13.064516129032258",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 0.032222175475034816
+      },
+      {
+        "sample": "tab-close:14.516129032258064",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 4.398027269872876
+      },
+      {
+        "sample": "tab-close:15.96774193548387",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 19.01663429871866
+      },
+      {
+        "sample": "tab-close:17.419354838709676",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 45.23461146202211
+      },
+      {
+        "sample": "tab-close:18.870967741935484",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 83.18358857864676
+      },
+      {
+        "sample": "tab-close:20.322580645161292",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 131.08773432529455
+      },
+      {
+        "sample": "tab-close:21.774193548387096",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 183.06035885410148
+      },
+      {
+        "sample": "tab-close:23.225806451612904",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 236.3284739925964
+      },
+      {
+        "sample": "tab-close:24.677419354838708",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 289.61051076948274
+      },
+      {
+        "sample": "tab-close:26.129032258064516",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 342.1342400769024
+      },
+      {
+        "sample": "tab-close:27.580645161290324",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 392.91050567793087
+      },
+      {
+        "sample": "tab-close:29.032258064516128",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 441.02287676395946
+      },
+      {
+        "sample": "tab-close:30.483870967741936",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 485.82601958610906
+      },
+      {
+        "sample": "tab-close:31.93548387096774",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 526.8804989838418
+      },
+      {
+        "sample": "tab-close:33.38709677419355",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 564.2596078884234
+      },
+      {
+        "sample": "tab-close:34.83870967741935",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 598.4042733236503
+      },
+      {
+        "sample": "tab-close:36.29032258064516",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 629.127019005551
+      },
+      {
+        "sample": "tab-close:37.74193548387097",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 654.4287761010005
+      },
+      {
+        "sample": "tab-close:39.193548387096776",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 673.3499113862827
+      },
+      {
+        "sample": "tab-close:40.645161290322584",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 685.4860343429166
+      },
+      {
+        "sample": "tab-close:42.096774193548384",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 690.9228030391873
+      },
+      {
+        "sample": "tab-close:43.54838709677419",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 691.735740386454
+      },
+      {
+        "sample": "tab-close:45.0",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 689.355510410734
+      },
+      {
+        "sample": "tab-close:46.45161290322581",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 684.2963060702278
+      },
+      {
+        "sample": "tab-close:47.903225806451616",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 676.9086746979751
+      },
+      {
+        "sample": "tab-close:49.354838709677416",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 667.4302807231928
+      },
+      {
+        "sample": "tab-close:50.806451612903224",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 656.0036159166132
+      },
+      {
+        "sample": "tab-close:52.25806451612903",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 642.6905684545383
+      },
+      {
+        "sample": "tab-close:53.70967741935484",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 627.4799758707617
+      },
+      {
+        "sample": "tab-close:55.16129032258065",
+        "pair": [
+          "front_stop_antibounce_flexible_tab",
+          "coral_reference"
+        ],
+        "volume": 610.3421702658644
+      }
+    ]
+  },
+  "status": "FAIL_REQUIRED_LAYOUT_GATES",
+  "physicalPerformance": "UNVERIFIED",
+  "note": "No edits to geometry; test additional required states not covered by endpoint receiver clearance."
+}

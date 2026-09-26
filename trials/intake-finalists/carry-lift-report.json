@@ -1,0 +1,6416 @@
+{
+  "candidateId": "B",
+  "revision": "carry-lift",
+  "result": "FAIL",
+  "geometryReady": false,
+  "parameters": {
+    "units": "mm",
+    "coralLength": 301.625,
+    "coralOD": 114.3,
+    "coralBore": 101.6,
+    "pivotY": 100,
+    "pivotZ": 150,
+    "acquireY": -320,
+    "acquireZ": 57.15,
+    "handoffDegrees": -180,
+    "stowDegrees": -175,
+    "rollerRadius": 25,
+    "nominalCompression": 3,
+    "compressionCapacity": 7,
+    "shaftHalfLength": 270,
+    "shaftRadius": 6.35,
+    "keeperClosedAcross": 140,
+    "keeperStroke": 65,
+    "receiverLift": 250,
+    "upperJawStroke": 450,
+    "lowerJawStroke": 100,
+    "receiverInnerRadius": 59.5,
+    "receiverOuterRadius": 63.5,
+    "receiverAcross": 120,
+    "receiverRailY": 650,
+    "liftRailY": 680,
+    "receiverRailTop": 780,
+    "liftRailTop": 1050,
+    "chassisWidth": 700,
+    "chassisLength": 760,
+    "heightLimit": 1066.8,
+    "extensionLimit": 457.2,
+    "requiredFloor": 5,
+    "requiredExtensionMargin": 5,
+    "requiredStowInset": 5,
+    "requiredClearance": 0.25,
+    "rotationSamples": 361,
+    "slideSamples": 101
+  },
+  "scope": "Nominal rigid analytic geometry with assumed compliant contact; not complete acquisition or physical success.",
+  "inspectedPoses": 3176,
+  "exactPairTests": 14261,
+  "hardwareBodies": 79,
+  "referenceBodies": 10,
+  "coralBodies": 1,
+  "phases": [
+    {
+      "state": "capture",
+      "begin": 0,
+      "end": 1,
+      "countPerMount": 101,
+      "name": "capture"
+    },
+    {
+      "state": "transfer",
+      "begin": 0,
+      "end": 1,
+      "countPerMount": 361,
+      "name": "retained-transfer"
+    },
+    {
+      "state": "handoff",
+      "begin": 0,
+      "end": 0.2,
+      "countPerMount": 101,
+      "name": "receiver-close"
+    },
+    {
+      "state": "handoff",
+      "begin": 0.2,
+      "end": 0.4,
+      "countPerMount": 101,
+      "name": "carrier-release"
+    },
+    {
+      "state": "handoff",
+      "begin": 0.4,
+      "end": 0.65,
+      "countPerMount": 101,
+      "name": "receiver-lift"
+    },
+    {
+      "state": "handoff",
+      "begin": 0.65,
+      "end": 1,
+      "countPerMount": 361,
+      "name": "empty-return"
+    },
+    {
+      "state": "stow",
+      "begin": 0,
+      "end": 1,
+      "countPerMount": 101,
+      "name": "loaded-stow"
+    },
+    {
+      "state": "delivered-stow",
+      "begin": 0,
+      "end": 1,
+      "countPerMount": 361,
+      "name": "delivered-stow"
+    }
+  ],
+  "maximumRotationStepDegrees": 0.5,
+  "conservativeMethod": "Exact rotation extrema and linear swept bounds; exact extruded polygon/circle separation; half-cell relative-motion Lipschitz bounds; exact circle/line or circle/rotation contact minima. Every phase is bounded independently. Shared rigid motion cancels; opposed slides do not. Axial and planar separation bounds both retained.",
+  "polygonOverlapMeaning": "Negative polygon score establishes overlap, not penetration depth. The coral bore is conservatively filled for collision checks; no proposed hardware enters it.",
+  "mountPolicy": "The complete mechanism is rigidly rotated for left mounting; intact chassis and bumper references are transformed back into local coordinates.",
+  "degreesOfFreedom": {
+    "positioning": 4,
+    "drivenRollers": 1,
+    "carrierLockedRollers": 1,
+    "independentInputs": 5,
+    "inputs": [
+      "carrier rotation",
+      "rear roller drive",
+      "synchronized split axial keepers",
+      "synchronized unequal-stroke vertical jaws",
+      "250 mm receiver lift"
+    ]
+  },
+  "handoffCenterMm": [
+    0,
+    520,
+    242.85000000000005
+  ],
+  "deliveredCenterMm": [
+    0,
+    520,
+    492.85
+  ],
+  "structure": {
+    "status": "PASS",
+    "inspectedPoses": 3176,
+    "failures": [],
+    "criterion": "Actual named joint geometry must connect every body to a touching chassis crossmember at every sampled pose. Local axial bearing bores and pivot bearing interiors remain simplified named joint allowances."
+  },
+  "retention": {
+    "carrierLowerOpeningUpperBoundMm": 81.26731474298688,
+    "receiverOpeningUpperBoundMm": 26.404784733855433,
+    "carrier": "Opposed drums, two lower sectors, upper keeper and end discs. All three keeper sectors translate axially before lift.",
+    "receiver": "Upper and lower radial half-cages, tangent pads and upper-jaw axial wall stops. Jaws close vertically before source release; the closed assembly lifts 250 mm before empty return.",
+    "status": "Geometric throat and wall-stop checks only; loads, distortion, axial tilt escape and actuation failure remain unproven."
+  },
+  "finiteContacts": [
+    {
+      "part": "Locked central drum",
+      "axialIntervalMm": [
+        -98,
+        98
+      ],
+      "nominalCoralOverlapMm": 196,
+      "nominalCompressionMm": 3,
+      "mode": "carrier-locked"
+    },
+    {
+      "part": "Driven central drum",
+      "axialIntervalMm": [
+        -98,
+        98
+      ],
+      "nominalCoralOverlapMm": 196,
+      "nominalCompressionMm": 3,
+      "mode": "powered"
+    }
+  ],
+  "pickupScreen": {
+    "method": "Exact support function of a full finite cylinder yawed about vertical, against end planes and compliant roller tangent slabs only.",
+    "nominalCheckedYawDegrees": 0,
+    "nominalCheckedOffsetMm": 0,
+    "assumedAdditionalCompressionMm": 4,
+    "slabScreenYawDegreesAtOffset5": 1.5,
+    "allHardwareYawCertified": false,
+    "guaranteedAcquisition": false,
+    "cases": [
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -13.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -8.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -3.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": 1.554687395181304,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -3.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -8.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -10,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -13.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -10.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -5.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -0.21956360399002506,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": 4.780436396009975,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -0.21956360399002506,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -5.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -5,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -10.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -7.715135336365307,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -2.7151353363653072,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": 2.2848646636346928,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": 7.284864663634693,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": 2.2848646636346928,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -2.7151353363653072,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -2,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -7.715135336365307,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -7.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -2.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": 2.7431670813288065,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": 7.7431670813288065,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": 2.7431670813288065,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -2.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": -1.5,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -7.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": -5.8125,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": -0.8125,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": 4.1875,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": 9.1875,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": 4.1875,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": -0.8125,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 0,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 150.8125,
+        "fullNormalHalfExtentMm": 57.15,
+        "axialMarginMm": -5.8125,
+        "compressionRequiredMm": 3,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -7.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -2.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": 2.7431670813288065,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": 7.7431670813288065,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": 2.7431670813288065,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": true
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -2.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 1.5,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 152.2568329186712,
+        "fullNormalHalfExtentMm": 61.07822713903422,
+        "axialMarginMm": -7.2568329186711935,
+        "compressionRequiredMm": 6.928227139034227,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -7.715135336365307,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -2.7151353363653072,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": 2.2848646636346928,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": 7.284864663634693,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": 2.2848646636346928,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -2.7151353363653072,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 2,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 152.7151353363653,
+        "fullNormalHalfExtentMm": 62.37846611058725,
+        "axialMarginMm": -7.715135336365307,
+        "compressionRequiredMm": 8.228466110587256,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -10.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -5.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -0.21956360399002506,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": 4.780436396009975,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -0.21956360399002506,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -5.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 5,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 155.21956360399003,
+        "fullNormalHalfExtentMm": 70.07670244907445,
+        "axialMarginMm": -10.219563603990025,
+        "compressionRequiredMm": 15.926702449074448,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": -15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -13.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": -10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -8.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": -5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -3.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 0,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": 1.554687395181304,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 5,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -3.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 10,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -8.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      },
+      {
+        "yawDegrees": 10,
+        "axialOffsetMm": 15,
+        "fullAcrossHalfExtentMm": 158.4453126048187,
+        "fullNormalHalfExtentMm": 82.47007887904161,
+        "axialMarginMm": -13.445312604818696,
+        "compressionRequiredMm": 28.32007887904161,
+        "slabScreenPass": false
+      }
+    ]
+  },
+  "gates": [
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.931008559070563,
+      "lowerBoundMm": 18.928889622773454,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.977638888888889,
+        "owner": "receiver",
+        "angleDegrees": -11.499999999999979,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 69.90925885547517,
+      "lowerBoundMm": 69.90918294121406,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0.06944444444444445,
+        "owner": "carrier",
+        "angleDegrees": -12.5,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 5,
+      "lowerBoundMm": 5,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 2",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 177.85000000000002,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Front intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 179.8117475172917,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.800274111109365,
+      "lowerBoundMm": -10.954050739141012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8972222222222223,
+        "owner": "receiver",
+        "angleDegrees": -157.01388888888889,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.001591795013113,
+      "lowerBoundMm": -31.216904898131236,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.67323029647568,
+      "lowerBoundMm": -47.694380780311704,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 16.799999999999955,
+      "lowerBoundMm": 16.799999999999955,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Receiver lift rail negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 192.54063751558692,
+      "lowerBoundMm": 192.54063751558692,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 5,
+      "lowerBoundMm": 5,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Keeper pin negative-x 0"
+      }
+    },
+    {
+      "criterion": "front.coral.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 182.85000000000002,
+      "lowerBoundMm": 182.85000000000002,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.930953849457808,
+      "lowerBoundMm": 18.92888962277351,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.0638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -11.180555555555557,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 69.90925885547512,
+      "lowerBoundMm": 69.90918294121406,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0.06944444444444445,
+        "owner": "carrier",
+        "angleDegrees": -12.5,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 138.9637998714012,
+      "lowerBoundMm": 137.0869564951775,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 179.8117475172917,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.800274111109365,
+      "lowerBoundMm": -10.954050739141012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8972222222222223,
+        "owner": "receiver",
+        "angleDegrees": -157.01388888888889,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.001591795013113,
+      "lowerBoundMm": -31.216904898131236,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.67323029647568,
+      "lowerBoundMm": -47.694380780311704,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 12,
+      "lowerBoundMm": 12,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 132.54063751558692,
+      "lowerBoundMm": 132.54063751558692,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 12,
+      "lowerBoundMm": 12,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 122.85000000000002,
+      "lowerBoundMm": 122.85000000000002,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "retention.carrier-lower-opening",
+      "status": "PASS",
+      "sampledMarginMm": 33.032685257013114,
+      "lowerBoundMm": 33.032685257013114,
+      "requiredMm": 0,
+      "witness": {
+        "phase": "retention",
+        "openingMm": 81.26731474298688
+      }
+    },
+    {
+      "criterion": "retention.receiver-opening",
+      "status": "PASS",
+      "sampledMarginMm": 87.89521526614456,
+      "lowerBoundMm": 87.89521526614456,
+      "requiredMm": 0,
+      "witness": {
+        "phase": "retention",
+        "openingMm": 26.404784733855433
+      }
+    },
+    {
+      "criterion": "retention.carrier-end-disc-wall",
+      "status": "PASS",
+      "sampledMarginMm": 1.2000000000000028,
+      "lowerBoundMm": 1.2000000000000028,
+      "requiredMm": 0.25,
+      "witness": {
+        "phase": "retention"
+      }
+    },
+    {
+      "criterion": "retention.receiver-end-stop-wall",
+      "status": "PASS",
+      "sampledMarginMm": 3.1499999999999986,
+      "lowerBoundMm": 3.1499999999999986,
+      "requiredMm": 0.25,
+      "witness": {
+        "phase": "retention"
+      }
+    },
+    {
+      "criterion": "release.keeper-axial-clearance",
+      "status": "PASS",
+      "sampledMarginMm": 50.1875,
+      "lowerBoundMm": 50.1875,
+      "requiredMm": 0.25,
+      "witness": {
+        "phase": "carrier-release"
+      }
+    },
+    {
+      "criterion": "acquisition.nominal-slot-screen",
+      "status": "PASS",
+      "sampledMarginMm": 4,
+      "lowerBoundMm": 4,
+      "requiredMm": 0,
+      "witness": {
+        "phase": "acquire",
+        "scope": "Seated nominal pose only"
+      }
+    }
+  ],
+  "phaseGates": [
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 29.435804652858167,
+      "lowerBoundMm": 29.435804652858167,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 80.05000000000001,
+      "lowerBoundMm": 80.05000000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 38,
+      "lowerBoundMm": 38,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Lower jaw carriage bridge negative-x",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 177.85000000000002,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Front intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 262.85722257474134,
+      "lowerBoundMm": 262.85722257474134,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Front frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.4999999999998863,
+      "lowerBoundMm": 0.4999999999998863,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.849999999999973,
+      "lowerBoundMm": 3.849999999999973,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0.84,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Keeper pin negative-x 1",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.93100855907062,
+      "lowerBoundMm": 18.928889622773568,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0.0638888888888889,
+        "owner": "carrier",
+        "angleDegrees": -11.500000000000002,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 69.90925885547517,
+      "lowerBoundMm": 69.90918294121406,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0.06944444444444445,
+        "owner": "carrier",
+        "angleDegrees": -12.5,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 38,
+      "lowerBoundMm": 38,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Lower jaw carriage bridge negative-x",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 177.85000000000002,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Front intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 179.8117475172917,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 8.999999999999972,
+      "lowerBoundMm": 8.999999999999972,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier end disc negative-x",
+        "obstacle": "Keeper pin negative-x 1",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.4999999999998863,
+      "lowerBoundMm": 0.4999999999998863,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.849999999999973,
+      "lowerBoundMm": 3.849999999999973,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Keeper pin negative-x 1",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 495.2,
+      "lowerBoundMm": 495.2,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lift carriage bridge negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 640.0500000000001,
+      "lowerBoundMm": 640.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 38,
+      "lowerBoundMm": 38,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lower jaw carriage bridge negative-x",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 195.1605675551462,
+      "lowerBoundMm": 195.1605675551462,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Rear intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 181.6885908935154,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 8.999999999999972,
+      "lowerBoundMm": 8.999999999999972,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Carrier end disc negative-x",
+        "obstacle": "Keeper pin negative-x 1",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0.116,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lift to jaw rail tie negative-x",
+        "obstacle": "Upper jaw carriage shoe negative-x -9",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 2.340937861805223,
+      "lowerBoundMm": 0.09093786180522123,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Upper receiver cage negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 462.2,
+      "lowerBoundMm": 462.2,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 0"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 640.0500000000001,
+      "lowerBoundMm": 640.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 5,
+      "lowerBoundMm": 5,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 2",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 195.1605675551462,
+      "lowerBoundMm": 195.1605675551462,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Rear intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 181.6885908935154,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.49999999999994316,
+      "lowerBoundMm": 0.49999999999994316,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 2.340937861805223,
+      "lowerBoundMm": 2.340937861805223,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Upper receiver cage negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 462.2,
+      "lowerBoundMm": 462.2,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 0"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 640.0500000000001,
+      "lowerBoundMm": 640.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 5,
+      "lowerBoundMm": 5,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 2",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 195.1605675551462,
+      "lowerBoundMm": 193.91056755514623,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Rear intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 180.43859089351542,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -9.35,
+      "lowerBoundMm": -10.599999999999971,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.465,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 2.340937861805223,
+      "lowerBoundMm": 2.340937861805223,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Upper receiver cage negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.931008559070563,
+      "lowerBoundMm": 18.928889622773454,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.977638888888889,
+        "owner": "receiver",
+        "angleDegrees": -11.499999999999979,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 435.70000000000005,
+      "lowerBoundMm": 435.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 640.0500000000001,
+      "lowerBoundMm": 640.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 5,
+      "lowerBoundMm": 5,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 2",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 336.08652183068875,
+      "lowerBoundMm": 336.08652183068875,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 404.8769175058961,
+      "lowerBoundMm": 404.8769175058961,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.697681571519956,
+      "lowerBoundMm": -10.91299467463808,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.6947222222222222,
+        "owner": "receiver",
+        "angleDegrees": -157,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.001591795013113,
+      "lowerBoundMm": -31.216904898131236,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.65159179501311,
+      "lowerBoundMm": -47.69438078031158,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 495.2,
+      "lowerBoundMm": 495.2,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lift carriage bridge negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 640.0500000000001,
+      "lowerBoundMm": 640.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 38,
+      "lowerBoundMm": 38,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lower jaw carriage bridge negative-x",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 195.1605675551462,
+      "lowerBoundMm": 194.97288321752384,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Rear intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 181.50090655589304,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 8.999999999999972,
+      "lowerBoundMm": 8.999999999999972,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Carrier end disc negative-x",
+        "obstacle": "Keeper pin negative-x 1",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.4999999999998863,
+      "lowerBoundMm": 0.4999999999998863,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.849999999999973,
+      "lowerBoundMm": 3.849999999999973,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 1",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 16.799999999999955,
+      "lowerBoundMm": 16.799999999999955,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Receiver lift rail negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 192.54063751558692,
+      "lowerBoundMm": 192.54063751558692,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "front.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.93095384945775,
+      "lowerBoundMm": 18.92888962277351,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.0638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -11.180555555555557,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 435.70000000000005,
+      "lowerBoundMm": 435.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 640.0500000000001,
+      "lowerBoundMm": 640.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "front.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 12.5239993177247,
+      "lowerBoundMm": 12.5239993177247,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Keeper pin negative-x 2",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.frame",
+      "status": "PASS",
+      "sampledMarginMm": 15,
+      "lowerBoundMm": 15,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 336.08652183068875,
+      "lowerBoundMm": 336.08652183068875,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 404.8769175058961,
+      "lowerBoundMm": 404.8769175058961,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.800274111109365,
+      "lowerBoundMm": -10.954050739141012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8972222222222223,
+        "owner": "receiver",
+        "angleDegrees": -157.01388888888889,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.02323029647568,
+      "lowerBoundMm": -31.177006924507328,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.67323029647568,
+      "lowerBoundMm": -47.694380780311704,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "front.hardware.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 5,
+      "lowerBoundMm": 5,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Keeper pin negative-x 0"
+      }
+    },
+    {
+      "criterion": "front.coral.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 182.85000000000002,
+      "lowerBoundMm": 182.85000000000002,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 29.435804652858167,
+      "lowerBoundMm": 29.435804652858167,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 80.05000000000001,
+      "lowerBoundMm": 80.05000000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 177.85,
+      "lowerBoundMm": 177.85000000000002,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Left intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 262.85722257474134,
+      "lowerBoundMm": 262.85722257474134,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Left frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.4999999999998863,
+      "lowerBoundMm": 0.4999999999998863,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.849999999999973,
+      "lowerBoundMm": 3.849999999999973,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0.84,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Keeper pin negative-x 1",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.931008559070676,
+      "lowerBoundMm": 18.92888962277351,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0.0638888888888889,
+        "owner": "carrier",
+        "angleDegrees": -11.500000000000002,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 69.90925885547512,
+      "lowerBoundMm": 69.90918294121406,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0.06944444444444445,
+        "owner": "carrier",
+        "angleDegrees": -12.5,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 138.9637998714012,
+      "lowerBoundMm": 137.0869564951775,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 179.8117475172917,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 8.999999999999972,
+      "lowerBoundMm": 8.999999999999972,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier end disc negative-x",
+        "obstacle": "Keeper pin negative-x 1",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.4999999999998863,
+      "lowerBoundMm": 0.4999999999998863,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.849999999999973,
+      "lowerBoundMm": 3.849999999999973,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Keeper pin negative-x 1",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "transfer",
+        "phase": "retained-transfer",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 469.20000000000005,
+      "lowerBoundMm": 469.20000000000005,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 580.0500000000001,
+      "lowerBoundMm": 580.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 138.9637998714012,
+      "lowerBoundMm": 138.9637998714012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 181.6885908935154,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 8.999999999999972,
+      "lowerBoundMm": 8.999999999999972,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Carrier end disc negative-x",
+        "obstacle": "Keeper pin negative-x 1",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0.116,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lift to jaw rail tie negative-x",
+        "obstacle": "Upper jaw carriage shoe negative-x -9",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": 2.340937861805223,
+      "lowerBoundMm": 0.09093786180522123,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Upper receiver cage negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-close",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 469.20000000000005,
+      "lowerBoundMm": 469.20000000000005,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 580.0500000000001,
+      "lowerBoundMm": 580.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 138.9637998714012,
+      "lowerBoundMm": 138.9637998714012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 181.6885908935154,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.49999999999994316,
+      "lowerBoundMm": 0.49999999999994316,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 2.340937861805223,
+      "lowerBoundMm": 2.340937861805223,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Upper receiver cage negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "carrier-release",
+        "progress": 0.2,
+        "owner": "both",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 469.20000000000005,
+      "lowerBoundMm": 469.20000000000005,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 580.0500000000001,
+      "lowerBoundMm": 580.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 138.9637998714012,
+      "lowerBoundMm": 137.71379987140122,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 180.43859089351542,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -9.35,
+      "lowerBoundMm": -10.599999999999971,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.465,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 2.340937861805223,
+      "lowerBoundMm": 2.340937861805223,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Upper receiver cage negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": 7.105427357601002e-15,
+      "lowerBoundMm": 7.105427357601002e-15,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "receiver-lift",
+        "progress": 0.4,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.931008559070563,
+      "lowerBoundMm": 18.92888962277351,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.977638888888889,
+        "owner": "receiver",
+        "angleDegrees": -11.499999999999979,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 435.70000000000005,
+      "lowerBoundMm": 435.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 580.0500000000001,
+      "lowerBoundMm": 580.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 316.8628640835767,
+      "lowerBoundMm": 316.8628640835767,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 404.8769175058961,
+      "lowerBoundMm": 404.8769175058961,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.697681571519956,
+      "lowerBoundMm": -10.91299467463808,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.6947222222222222,
+        "owner": "receiver",
+        "angleDegrees": -157,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.001591795013113,
+      "lowerBoundMm": -31.216904898131236,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.65159179501311,
+      "lowerBoundMm": -47.69438078031158,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.65,
+        "owner": "receiver",
+        "angleDegrees": -180,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "PASS",
+      "sampledMarginMm": 55,
+      "lowerBoundMm": 55,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 469.20000000000005,
+      "lowerBoundMm": 469.20000000000005,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 185.70000000000005,
+      "lowerBoundMm": 185.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 580.0500000000001,
+      "lowerBoundMm": 580.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 138.9637998714012,
+      "lowerBoundMm": 138.77611553377884,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 181.6885908935154,
+      "lowerBoundMm": 181.50090655589304,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 8.999999999999972,
+      "lowerBoundMm": 8.999999999999972,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Carrier end disc negative-x",
+        "obstacle": "Keeper pin negative-x 1",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 0.4999999999998863,
+      "lowerBoundMm": 0.4999999999998863,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Upper receiver pad negative-x",
+        "obstacle": "Upper finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 3.849999999999973,
+      "lowerBoundMm": 3.849999999999973,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Keeper pin negative-x 1",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "PASS",
+      "sampledMarginMm": -3.0000000000000213,
+      "lowerBoundMm": -3.0000000000000213,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": -180,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 12,
+      "lowerBoundMm": 12,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.loaded-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 132.54063751558692,
+      "lowerBoundMm": 132.54063751558692,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "stow",
+        "phase": "loaded-stow",
+        "progress": 1,
+        "owner": "carrier",
+        "angleDegrees": -175.00000000000003,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.structure",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "unattachedBodies": []
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.extension",
+      "status": "PASS",
+      "sampledMarginMm": 18.930953849457808,
+      "lowerBoundMm": 18.92888962277351,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.0638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -11.180555555555557,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.coral.floor",
+      "status": "PASS",
+      "sampledMarginMm": 435.70000000000005,
+      "lowerBoundMm": 435.70000000000005,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.coral.extension",
+      "status": "PASS",
+      "sampledMarginMm": 580.0500000000001,
+      "lowerBoundMm": 580.0500000000001,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "left.hardware.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 16,
+      "lowerBoundMm": 16,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.hardware.mount-contact",
+      "status": "PASS",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Pivot tower negative-x",
+        "obstacle": "Pivot crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.bumper",
+      "status": "PASS",
+      "sampledMarginMm": 316.8628640835767,
+      "lowerBoundMm": 316.8628640835767,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Right intact bumper",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.frame",
+      "status": "PASS",
+      "sampledMarginMm": 404.8769175058961,
+      "lowerBoundMm": 404.8769175058961,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Full hollow coral",
+        "obstacle": "Receiver crossmember",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.carrier.hardware",
+      "status": "PASS",
+      "sampledMarginMm": 6,
+      "lowerBoundMm": 6,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Withdrawable keeper negative-x 0",
+        "obstacle": "Keeper guide negative-x 0",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.800274111109365,
+      "lowerBoundMm": -10.954050739141012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8972222222222223,
+        "owner": "receiver",
+        "angleDegrees": -157.01388888888889,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.02323029647568,
+      "lowerBoundMm": -31.177006924507328,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.67323029647568,
+      "lowerBoundMm": -47.694380780311704,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.contact.receiver-pad",
+      "status": "PASS",
+      "sampledMarginMm": -2.1316282072803006e-14,
+      "lowerBoundMm": -2.1316282072803006e-14,
+      "requiredMm": 0,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0,
+        "owner": "receiver",
+        "angleDegrees": 0,
+        "part": "Lower receiver pad negative-x",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 12,
+      "lowerBoundMm": 12,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Lift carriage shoe negative-x -9"
+      }
+    },
+    {
+      "criterion": "left.coral.delivered-stow.inset",
+      "status": "PASS",
+      "sampledMarginMm": 122.85000000000002,
+      "lowerBoundMm": 122.85000000000002,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 1,
+        "owner": "receiver",
+        "angleDegrees": -174.99999999999997,
+        "part": "Full hollow coral"
+      }
+    },
+    {
+      "criterion": "retention.carrier-lower-opening",
+      "status": "PASS",
+      "sampledMarginMm": 33.032685257013114,
+      "lowerBoundMm": 33.032685257013114,
+      "requiredMm": 0,
+      "witness": {
+        "phase": "retention",
+        "openingMm": 81.26731474298688
+      }
+    },
+    {
+      "criterion": "retention.receiver-opening",
+      "status": "PASS",
+      "sampledMarginMm": 87.89521526614456,
+      "lowerBoundMm": 87.89521526614456,
+      "requiredMm": 0,
+      "witness": {
+        "phase": "retention",
+        "openingMm": 26.404784733855433
+      }
+    },
+    {
+      "criterion": "retention.carrier-end-disc-wall",
+      "status": "PASS",
+      "sampledMarginMm": 1.2000000000000028,
+      "lowerBoundMm": 1.2000000000000028,
+      "requiredMm": 0.25,
+      "witness": {
+        "phase": "retention"
+      }
+    },
+    {
+      "criterion": "retention.receiver-end-stop-wall",
+      "status": "PASS",
+      "sampledMarginMm": 3.1499999999999986,
+      "lowerBoundMm": 3.1499999999999986,
+      "requiredMm": 0.25,
+      "witness": {
+        "phase": "retention"
+      }
+    },
+    {
+      "criterion": "release.keeper-axial-clearance",
+      "status": "PASS",
+      "sampledMarginMm": 50.1875,
+      "lowerBoundMm": 50.1875,
+      "requiredMm": 0.25,
+      "witness": {
+        "phase": "carrier-release"
+      }
+    },
+    {
+      "criterion": "acquisition.nominal-slot-screen",
+      "status": "PASS",
+      "sampledMarginMm": 4,
+      "lowerBoundMm": 4,
+      "requiredMm": 0,
+      "witness": {
+        "phase": "acquire",
+        "scope": "Seated nominal pose only"
+      }
+    }
+  ],
+  "failures": [
+    {
+      "criterion": "front.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "front",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "front.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.800274111109365,
+      "lowerBoundMm": -10.954050739141012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8972222222222223,
+        "owner": "receiver",
+        "angleDegrees": -157.01388888888889,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.001591795013113,
+      "lowerBoundMm": -31.216904898131236,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "front",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "front.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.67323029647568,
+      "lowerBoundMm": -47.694380780311704,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "front",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    },
+    {
+      "criterion": "left.hardware.floor",
+      "status": "FAIL",
+      "sampledMarginMm": 4.588731169446731,
+      "lowerBoundMm": 4.588731169446731,
+      "requiredMm": 5,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Carrier cheek negative-x"
+      }
+    },
+    {
+      "criterion": "left.hardware.frame",
+      "status": "FAIL",
+      "sampledMarginMm": 0,
+      "lowerBoundMm": 0,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "capture",
+        "phase": "capture",
+        "progress": 0,
+        "owner": "carrier",
+        "angleDegrees": 0,
+        "part": "Receiver lift rail negative-x",
+        "obstacle": "Right frame",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.receiver.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -8.800274111109365,
+      "lowerBoundMm": -10.954050739141012,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8972222222222223,
+        "owner": "receiver",
+        "angleDegrees": -157.01388888888889,
+        "part": "Locked full roller shaft",
+        "obstacle": "Lower finger stem negative-x",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.coral.hardware",
+      "status": "FAIL",
+      "sampledMarginMm": -29.001591795013113,
+      "lowerBoundMm": -31.216904898131236,
+      "requiredMm": 0.25,
+      "witness": {
+        "mount": "left",
+        "state": "handoff",
+        "phase": "empty-return",
+        "progress": 0.7054166666666667,
+        "owner": "receiver",
+        "angleDegrees": -151.5,
+        "part": "Locked full roller shaft",
+        "obstacle": "Full hollow coral",
+        "intendedContact": false
+      }
+    },
+    {
+      "criterion": "left.contact.roller-contact",
+      "status": "FAIL",
+      "sampledMarginMm": -47.67323029647568,
+      "lowerBoundMm": -47.694380780311704,
+      "requiredMm": -3,
+      "witness": {
+        "mount": "left",
+        "state": "delivered-stow",
+        "phase": "delivered-stow",
+        "progress": 0.8638888888888889,
+        "owner": "receiver",
+        "angleDegrees": -151.18055555555554,
+        "part": "Locked central drum",
+        "obstacle": "Full hollow coral",
+        "intendedContact": true
+      }
+    }
+  ],
+  "intentionalJoints": [
+    {
+      "first": "Pivot shaft",
+      "second": "Pivot tower negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Pivot shaft",
+      "second": "Carrier cheek negative-x",
+      "type": "revolute"
+    },
+    {
+      "first": "Carrier end disc negative-x",
+      "second": "End disc hub negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "End disc hub negative-x",
+      "second": "End disc link negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "End disc link negative-x",
+      "second": "Carrier cheek negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Withdrawable keeper negative-x 0",
+      "second": "Keeper pin negative-x 0",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin negative-x 0",
+      "second": "Keeper guide negative-x 0",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Keeper guide negative-x 0",
+      "second": "Carrier cheek negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin negative-x 0",
+      "second": "Carrier cheek negative-x",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Withdrawable keeper negative-x 1",
+      "second": "Keeper pin negative-x 1",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin negative-x 1",
+      "second": "Keeper guide negative-x 1",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Keeper guide negative-x 1",
+      "second": "Carrier cheek negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin negative-x 1",
+      "second": "Carrier cheek negative-x",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Upper keeper mounting tab negative-x",
+      "second": "Withdrawable keeper negative-x 2",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper keeper mounting tab negative-x",
+      "second": "Keeper pin negative-x 2",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin negative-x 2",
+      "second": "Keeper guide negative-x 2",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Keeper guide negative-x 2",
+      "second": "End disc link negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin negative-x 2",
+      "second": "End disc link negative-x",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Pivot shaft",
+      "second": "Pivot tower positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Pivot shaft",
+      "second": "Carrier cheek positive-x",
+      "type": "revolute"
+    },
+    {
+      "first": "Carrier end disc positive-x",
+      "second": "End disc hub positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "End disc hub positive-x",
+      "second": "End disc link positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "End disc link positive-x",
+      "second": "Carrier cheek positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Withdrawable keeper positive-x 0",
+      "second": "Keeper pin positive-x 0",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin positive-x 0",
+      "second": "Keeper guide positive-x 0",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Keeper guide positive-x 0",
+      "second": "Carrier cheek positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin positive-x 0",
+      "second": "Carrier cheek positive-x",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Withdrawable keeper positive-x 1",
+      "second": "Keeper pin positive-x 1",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin positive-x 1",
+      "second": "Keeper guide positive-x 1",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Keeper guide positive-x 1",
+      "second": "Carrier cheek positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin positive-x 1",
+      "second": "Carrier cheek positive-x",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Upper keeper mounting tab positive-x",
+      "second": "Withdrawable keeper positive-x 2",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper keeper mounting tab positive-x",
+      "second": "Keeper pin positive-x 2",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin positive-x 2",
+      "second": "Keeper guide positive-x 2",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Keeper guide positive-x 2",
+      "second": "End disc link positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Keeper pin positive-x 2",
+      "second": "End disc link positive-x",
+      "type": "axial-bearing"
+    },
+    {
+      "first": "Locked full roller shaft",
+      "second": "Locked central drum",
+      "type": "rigid"
+    },
+    {
+      "first": "Locked full roller shaft",
+      "second": "Carrier cheek negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Locked full roller shaft",
+      "second": "Carrier cheek positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Driven full roller shaft",
+      "second": "Driven central drum",
+      "type": "rigid"
+    },
+    {
+      "first": "Driven full roller shaft",
+      "second": "Carrier cheek negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Driven full roller shaft",
+      "second": "Carrier cheek positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift carriage shoe negative-x -9",
+      "second": "Lift carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift carriage shoe negative-x -9",
+      "second": "Receiver lift rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lift carriage shoe negative-x 9",
+      "second": "Lift carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift carriage shoe negative-x 9",
+      "second": "Receiver lift rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lift carriage bridge negative-x",
+      "second": "Receiver lift rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lift to jaw rail tie negative-x",
+      "second": "Lift carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift to jaw rail tie negative-x",
+      "second": "Receiver jaw rail negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower receiver cage negative-x",
+      "second": "Lower receiver pad negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower jaw carriage shoe negative-x -9",
+      "second": "Lower jaw carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower jaw carriage shoe negative-x -9",
+      "second": "Receiver jaw rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lower jaw carriage shoe negative-x 9",
+      "second": "Lower jaw carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower jaw carriage shoe negative-x 9",
+      "second": "Receiver jaw rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lower jaw carriage bridge negative-x",
+      "second": "Receiver jaw rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lower receiver cage negative-x",
+      "second": "Lower finger stem negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower finger stem negative-x",
+      "second": "Lower outboard beam negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower outboard beam negative-x",
+      "second": "Lower jaw carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower outboard beam negative-x",
+      "second": "Lower jaw carriage shoe negative-x 9",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper receiver cage negative-x",
+      "second": "Upper receiver pad negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper jaw carriage shoe negative-x -9",
+      "second": "Upper jaw carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper jaw carriage shoe negative-x -9",
+      "second": "Receiver jaw rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Upper jaw carriage shoe negative-x 9",
+      "second": "Upper jaw carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper jaw carriage shoe negative-x 9",
+      "second": "Receiver jaw rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Upper jaw carriage bridge negative-x",
+      "second": "Receiver jaw rail negative-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Upper receiver cage negative-x",
+      "second": "Upper finger stem negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper finger stem negative-x",
+      "second": "Upper outboard beam negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper outboard beam negative-x",
+      "second": "Upper jaw carriage bridge negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper outboard beam negative-x",
+      "second": "Upper jaw carriage shoe negative-x 9",
+      "type": "rigid"
+    },
+    {
+      "first": "Receiver stop bridge negative-x",
+      "second": "Upper finger stem negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Receiver stop bridge negative-x",
+      "second": "Upper receiver cage negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Receiver stop bridge negative-x",
+      "second": "Receiver axial stop negative-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift carriage shoe positive-x -9",
+      "second": "Lift carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift carriage shoe positive-x -9",
+      "second": "Receiver lift rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lift carriage shoe positive-x 9",
+      "second": "Lift carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift carriage shoe positive-x 9",
+      "second": "Receiver lift rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lift carriage bridge positive-x",
+      "second": "Receiver lift rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lift to jaw rail tie positive-x",
+      "second": "Lift carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lift to jaw rail tie positive-x",
+      "second": "Receiver jaw rail positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower receiver cage positive-x",
+      "second": "Lower receiver pad positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower jaw carriage shoe positive-x -9",
+      "second": "Lower jaw carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower jaw carriage shoe positive-x -9",
+      "second": "Receiver jaw rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lower jaw carriage shoe positive-x 9",
+      "second": "Lower jaw carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower jaw carriage shoe positive-x 9",
+      "second": "Receiver jaw rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lower jaw carriage bridge positive-x",
+      "second": "Receiver jaw rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Lower receiver cage positive-x",
+      "second": "Lower finger stem positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower finger stem positive-x",
+      "second": "Lower outboard beam positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower outboard beam positive-x",
+      "second": "Lower jaw carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Lower outboard beam positive-x",
+      "second": "Lower jaw carriage shoe positive-x -9",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper receiver cage positive-x",
+      "second": "Upper receiver pad positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper jaw carriage shoe positive-x -9",
+      "second": "Upper jaw carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper jaw carriage shoe positive-x -9",
+      "second": "Receiver jaw rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Upper jaw carriage shoe positive-x 9",
+      "second": "Upper jaw carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper jaw carriage shoe positive-x 9",
+      "second": "Receiver jaw rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Upper jaw carriage bridge positive-x",
+      "second": "Receiver jaw rail positive-x",
+      "type": "vertical-slide"
+    },
+    {
+      "first": "Upper receiver cage positive-x",
+      "second": "Upper finger stem positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper finger stem positive-x",
+      "second": "Upper outboard beam positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper outboard beam positive-x",
+      "second": "Upper jaw carriage bridge positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Upper outboard beam positive-x",
+      "second": "Upper jaw carriage shoe positive-x -9",
+      "type": "rigid"
+    },
+    {
+      "first": "Receiver stop bridge positive-x",
+      "second": "Upper finger stem positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Receiver stop bridge positive-x",
+      "second": "Upper receiver cage positive-x",
+      "type": "rigid"
+    },
+    {
+      "first": "Receiver stop bridge positive-x",
+      "second": "Receiver axial stop positive-x",
+      "type": "rigid"
+    }
+  ],
+  "modelContract": {
+    "type": "analytic-extrusion-assembly",
+    "rendererNeutral": true,
+    "threeObject3D": false,
+    "browserRenderingVerified": false
+  },
+  "topologyRepairsUsed": 3,
+  "geometryFrozen": true,
+  "repairHistory": [
+    {
+      "revision": "initial",
+      "result": "FAIL",
+      "evidence": "Keeper sector/drum -0.965596 mm; receiver pad/beam assembly intersections."
+    },
+    {
+      "revision": "repair-1",
+      "result": "FAIL",
+      "evidence": "Keeper pins/receiver cage -2.5 mm; upper pin/link -9 mm; keeper/stop bridge overlap."
+    },
+    {
+      "revision": "repair-2",
+      "result": "FAIL",
+      "evidence": "Lower receiver stop bridge overlapped its pad and crossed the upper keeper tab during closing."
+    },
+    {
+      "revision": "repair-3",
+      "result": "Focused sampled close/release/lift PASS; full gate result is the top-level result."
+    }
+  ],
+  "limitations": [
+    "Acquire starts with a centered, already seated crosswise coral on the floor. Pickup and self-centering are not established.",
+    "Nominal 3 mm compliant drum interference and 7 mm maximum compression are assumptions, not measured material behavior.",
+    "Rigid analytic clearance and geometric retention are not load, traction, reliability or elite-suitability validation.",
+    "Actuation, synchronization, bearings, fasteners, tolerances and cables remain unsized.",
+    "Model output is renderer-neutral mesh data with analytic extrusions; no vendor or rendering-library imports.",
+    "Stow is the loaded-carrier branch. Delivered-stow follows the completed lift and empty return."
+  ]
+}

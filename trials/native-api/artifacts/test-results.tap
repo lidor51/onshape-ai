@@ -1,0 +1,131 @@
+TAP version 13
+# Subtest: generated offline artifacts reproduce the normative benchmark and twelve ID-preserving updates
+ok 1 - generated offline artifacts reproduce the normative benchmark and twelve ID-preserving updates
+  ---
+  duration_ms: 21.1118
+  type: 'test'
+  ...
+# Subtest: public evidence confirms privacy flag asymmetry and inherited feature cursor fields
+ok 2 - public evidence confirms privacy flag asymmetry and inherited feature cursor fields
+  ---
+  duration_ms: 4.5769
+  type: 'test'
+  ...
+# OFFLINE ONLY: generated trials/native-api/artifacts/{baseline,revision,revision-updates}.json. No credentials or network used.
+# Subtest: default runner is offline even when a fetch implementation is available
+ok 3 - default runner is offline even when a fetch implementation is available
+  ---
+  duration_ms: 11.1618
+  type: 'test'
+  ...
+# Subtest: native circle/extrude payload uses metres for geometry and returned sketch ID
+ok 4 - native circle/extrude payload uses metres for geometry and returned sketch ID
+  ---
+  duration_ms: 3.1713
+  type: 'test'
+  ...
+# Subtest: baseline and revision meet benchmark dimensions without changing feature topology
+ok 5 - baseline and revision meet benchmark dimensions without changing feature topology
+  ---
+  duration_ms: 7.8651
+  type: 'test'
+  ...
+# Subtest: rectangle segments close and retain unit directions in metres
+ok 6 - rectangle segments close and retain unit directions in metres
+  ---
+  duration_ms: 0.4426
+  type: 'test'
+  ...
+# Subtest: feature bindings reject unresolved or injected IDs and preserve inputs
+ok 7 - feature bindings reject unresolved or injected IDs and preserve inputs
+  ---
+  duration_ms: 2.1855
+  type: 'test'
+  ...
+# Subtest: live opt-in rejects existing-document arguments and arbitrary hosts
+ok 8 - live opt-in rejects existing-document arguments and arbitrary hosts
+  ---
+  duration_ms: 2.94
+  type: 'test'
+  ...
+# Subtest: credential loader cannot read before live opt-in; only synthetic input is tested
+ok 9 - credential loader cannot read before live opt-in; only synthetic input is tested
+  ---
+  duration_ms: 3.2294
+  type: 'test'
+  ...
+# Subtest: HMAC matches official lower-case canonical field order with terminal newline
+ok 10 - HMAC matches official lower-case canonical field order with terminal newline
+  ---
+  duration_ms: 1.9207
+  type: 'test'
+  ...
+# Subtest: redirect and hostile error responses never log credentials or headers or body
+ok 11 - redirect and hostile error responses never log credentials or headers or body
+  ---
+  duration_ms: 45.9465
+  type: 'test'
+  ...
+# Subtest: transport rejects delete, absolute URLs, and traversal before fetching
+ok 12 - transport rejects delete, absolute URLs, and traversal before fetching
+  ---
+  duration_ms: 0.6216
+  type: 'test'
+  ...
+# Subtest: private creation is fail-closed on absent flags, public response, or anonymous access
+ok 13 - private creation is fail-closed on absent flags, public response, or anonymous access
+  ---
+  duration_ms: 2.4922
+  type: 'test'
+  ...
+# Subtest: feature failure, missing status, skew, and changed update ID are rejected
+ok 14 - feature failure, missing status, skew, and changed update ID are rejected
+  ---
+  duration_ms: 0.8431
+  type: 'test'
+  ...
+# Subtest: synthetic cylinder proves through-bore extents; blind pocket and missing hole fail
+ok 15 - synthetic cylinder proves through-bore extents; blind pocket and missing hole fail
+  ---
+  duration_ms: 1.7021
+  type: 'test'
+  ...
+# Subtest: circle readback accepts documented legacy spelling but rejects shifted geometry
+ok 16 - circle readback accepts documented legacy spelling but rejects shifted geometry
+  ---
+  duration_ms: 1.7994
+  type: 'test'
+  ...
+# Subtest: synthetic controller creates once, adds 18 features, updates 12 IDs, measures both stages and attempts media
+ok 17 - synthetic controller creates once, adds 18 features, updates 12 IDs, measures both stages and attempts media
+  ---
+  duration_ms: 22.9248
+  type: 'test'
+  ...
+# Subtest: private response failure halts after creation with no fallback, deletion, or model mutations
+ok 18 - private response failure halts after creation with no fallback, deletion, or model mutations
+  ---
+  duration_ms: 1.2785
+  type: 'test'
+  ...
+# Subtest: failed native feature stops and identifies failing logical key
+ok 19 - failed native feature stops and identifies failing logical key
+  ---
+  duration_ms: 0.959
+  type: 'test'
+  ...
+# Subtest: measured baseline mismatch blocks revision instead of counting mock completion
+ok 20 - measured baseline mismatch blocks revision instead of counting mock completion
+  ---
+  duration_ms: 6.3356
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 271.1043

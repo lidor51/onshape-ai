@@ -1,0 +1,29 @@
+{
+  "startedAt": "2026-09-11T11:49:48.264Z",
+  "route": "existing MCP + FeatureScript (MCP+FS)",
+  "status": "blocked-before-credential-loading",
+  "serverRelease": "v0.5.2",
+  "serverCommit": "3bd1bf698818ade4ab286f0e3a7cc57289114b91",
+  "executableModified": false,
+  "sourcePatchCompiled": false,
+  "configuredOrigin": "https://cad.onshape.com",
+  "credentialConfigurationRead": false,
+  "credentialsLoaded": false,
+  "serverLaunched": false,
+  "mcpRequests": 0,
+  "mcpToolCalls": 0,
+  "onshapeHttpRequests": 0,
+  "retries": 0,
+  "newDocuments": 0,
+  "phaseDocumentLimit": 3,
+  "documentUrls": [],
+  "cadElapsedMs": null,
+  "binarySha256": "424d25e13acab181da32470fb1c28faa129258998ba52979b72f693a43846472",
+  "geometrySourceSha256": "f069baa4510550439a82db8ddae81934e855958fbb56bbf7255d24a036d39cac",
+  "localTransportSourceSha256": "11c2118d1a296703edbdca138742c2569235cac08c719e33fe4772d3f004d146",
+  "error": {
+    "code": "BLOCKED_RELEASE_REDIRECT_POLICY",
+    "message": "Pinned release follows redirects internally without the trial origin/write policy. A source patch does not harden the executable. Credentials were not loaded; no MCP or CAD call was sent."
+  },
+  "elapsedMs": 69.4333
+}

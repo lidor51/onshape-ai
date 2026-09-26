@@ -1,0 +1,47 @@
+{
+  "status": "prototype-engineering",
+  "task_completion": "INCOMPLETE_BLOCKED",
+  "release": "NOT RELEASED",
+  "source_status": "BLOCKED_SYNTAX_AFTER_THREE_MODEL_REPAIRS",
+  "runtime_failure": {"command": "validate.py --quick", "exit_code": 1, "file": "model.py", "line": 265, "type": "IndentationError", "message": "unindent does not match any outer indentation level"},
+  "repair_count_model": 3,
+  "export_revision": {
+    "description": "Last successfully executed local B-rep export, predating the failed correction",
+    "pickup_pivot_yz_mm": [110, 210],
+    "pickup_sideplate_x_mm": 238,
+    "pickup_roller_width_mm": 360,
+    "pickup_rear_hard_od_mm": 40,
+    "instances": 282,
+    "definitions": 54,
+    "occurrence_solids": 378,
+    "custom_step_definitions": 44,
+    "flat_dxf_and_pdf_sheets": 15,
+    "assembly_step": {"path": "assembled.step", "bytes": 24905557, "sha256": "9bfddedcba96930c4483df5807dfd0c317e497fb590e1ce318077342bfdb842b"},
+    "custom_step": {"path": "custompart.step", "bytes": 1308813, "sha256": "862488653ad19f2790afdf2da54f65a816885f289e833f331b2ca70af798cf72"},
+    "inspection_pdf": {"path": "drawings/inspection-not-released.pdf", "bytes": 41448, "sha256": "0dd0459c1a08354cf465e17425d133a9221f3f696c18c59c920b38201a67143f"},
+    "source_revision_hash_captured_at_export": false
+  },
+  "attempted_source_revision": {"exported": false, "validated": false, "pickup_pivot_yz_mm": [110, 265], "pickup_sideplate_x_mm": 290, "pickup_rear_hard_od_mm": 20, "includes": ["floor relief", "three #10-32 motor screws", "sensor bracket placement correction"]},
+  "evidence": {
+    "software_tests_before_failed_correction": {"pass": 10, "fail": 0, "seconds": 18.116},
+    "custom_step_reimports_before_failed_correction": {"pass": 44, "fail": 0},
+    "geometry": {"status": "FAIL", "report": "validation.json", "passed_gates": 4, "total_gates": 15, "fold_sample_count": 21, "fold_step_degrees": 20, "floating_degrees": [-8, -4, 0], "failed_samples": 21, "collision_records": 264, "minimum_floor_mm": 4, "maximum_extension_mm": 390.2400969378607, "elapsed_seconds": 628.422},
+    "full_mechanism_5_degree_sweep": "NOT RUN",
+    "continuous_motion": "NOT PROVEN",
+    "physical_tests": "NOT RUN",
+    "vendor_originals": "SHA256 reverified unchanged for X44 and bearing"
+  },
+  "hard_blockers": [
+    "Current model.py cannot parse and three allowed local repairs are exhausted",
+    "WCP-1010 12T and WCP-0121 60T authentic STEP missing from offline cache; not substituted",
+    "Retained full-mechanism fold collides with fixed V banks; sideplate bottom Z4 violates Z5 floor",
+    "Retained full coral bumper-crest witness intersects rear hard core by 14013.287274631035 mm3",
+    "Retained seated sensor bracket is a disconnected component",
+    "Kick reversal, qualified belt tension/take-up, fold torque coupling/holding, complete fastening and retention not engineered to acceptance",
+    "Wheel construction, sensor mount identity, contact path, shop tolerances and receiver transfer unresolved"
+  ],
+  "offline": true,
+  "cloud_calls": 0,
+  "writes_scope": "designs/coral-intake-v1 only, excluding COTS-REVIEW.md and RELEASE-GATES.md",
+  "preservation": "Earlier trials untouched; previous generated reports archived under history; retained failed STEP output not called corrected"
+}

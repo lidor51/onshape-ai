@@ -1,0 +1,14 @@
+{
+  "entry": "validate.py",
+  "args": [
+    "--full"
+  ],
+  "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "started": "2026-09-13T09:33:23.049Z",
+  "ended": "2026-09-13T09:43:23.090Z",
+  "wallSeconds": 600.041,
+  "wallLimitMs": 600000,
+  "timedOut": true,
+  "signal": "SIGKILL",
+  "exitCode": 124
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "testsRun": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "meaning": "Regression/measurement/gate tests passing does NOT mean physical geometry motion passed."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "SCOPED_CONTACT_WITNESSES",
+  "pickup_source_sha256": "221046dd031478de13c283ee6924958ae6fca61972f6654f6d3b0148a6a65d6c",
+  "approach_step_mm": 4,
+  "crosswise_circular_kicker_first_contact_center_y_mm": -219.34166622903757,
+  "rows": [
+    {
+      "yaw_deg": 0,
+      "contact": {
+        "part": "star_front_5_body_2",
+        "center_y_mm": -409.8125,
+        "unloaded_overlap_mm3": 198.30692886949907
+      },
+      "hard_obstruction_before_contact": null,
+      "status": "GEOMETRIC_CONTACT_WITNESS"
+    },
+    {
+      "yaw_deg": 30,
+      "contact": {
+        "part": "star_front_7_body_2",
+        "center_y_mm": -394.18245620824064,
+        "unloaded_overlap_mm3": 11.0678946870197
+      },
+      "hard_obstruction_before_contact": null,
+      "status": "GEOMETRIC_CONTACT_WITNESS"
+    },
+    {
+      "yaw_deg": 60,
+      "contact": {
+        "part": "star_front_8_body_2",
+        "center_y_mm": -359.8996018262807,
+        "unloaded_overlap_mm3": 1.7714782159671671
+      },
+      "hard_obstruction_before_contact": null,
+      "status": "GEOMETRIC_CONTACT_WITNESS"
+    },
+    {
+      "yaw_deg": 90,
+      "contact": {
+        "part": "star_front_1_body_2",
+        "center_y_mm": -288.15,
+        "unloaded_overlap_mm3": 4.009720230184417
+      },
+      "hard_obstruction_before_contact": null,
+      "status": "GEOMETRIC_CONTACT_WITNESS"
+    }
+  ],
+  "scope": "Centered horizontal pipe, four yaw angles, fixed unloaded star phase. Stops at first soft contact. Not traction, compression, complete feed, offset/pitch or floating motion verification."
+}

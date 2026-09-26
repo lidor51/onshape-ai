@@ -1,0 +1,65 @@
+part,quantity,material,stock,geometry,source,status
+pickup_sideplate,2,6061-T6 provisional,"6 mm router plate, paired",custom_brep,custom/local nominal,NOT RELEASED
+axle_cassette,10,6061-T6 provisional,6 mm plate; bore fit provisional,custom_brep,custom/local nominal,NOT RELEASED
+floating_arm,2,6061-T6 provisional,"6 mm paired plates; plain pivot, NOT reference four-bar",custom_brep,custom/local nominal,NOT RELEASED
+floating_pivot_journal,2,6061-T6 provisional,lathe sleeve; central roller shaft rotates independently,custom_brep,custom/local nominal,NOT RELEASED
+floating_pivot_bushing,2,acetal,"lathe bush, radial clearance 0.1 mm provisional",custom_brep,custom/local nominal,NOT RELEASED
+vendor_hex_bearing,28,vendor mixed materials,WCP-0783,authentic_vendor_brep,trials/subsystem-ab/cots/cache/wcp-0783.step,NOT RELEASED
+hardware_M5x16,40,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+stop_mount_0,2,6061-T6 provisional,6 mm plate stop outrigger,custom_brep,custom/local nominal,NOT RELEASED
+hardware_M8x40,4,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+stop_mount_1,2,6061-T6 provisional,6 mm plate stop outrigger,custom_brep,custom/local nominal,NOT RELEASED
+pickup_crossmember,2,6061-T6 provisional,"20x20x2 mm tube, saw length 470",custom_brep,custom/local nominal,NOT RELEASED
+tube_end_plug,12,6061-T6 provisional,"15.8 square, M5 tap after drilling 4.2",custom_brep,custom/local nominal,NOT RELEASED
+hardware_M5x20,12,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+pickup_hex_shaft_560,4,"WCP 1/2 inch AF hex aluminum stock, grade unverified","AF 12.7 exact, saw 560; M5 end taps",custom_brep,custom/local nominal,NOT RELEASED
+roller_core_kick,1,6061-T6 provisional,"round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",custom_brep,custom/local nominal,NOT RELEASED
+roller_hub_kick,2,6061-T6 provisional,"router/lathe custom hub, 12.8 AF running clearance; retention pending",custom_brep,custom/local nominal,NOT RELEASED
+hex_collar,20,6061-T6 provisional,split/set screw retention interface not yet detailed,custom_brep,custom/local nominal,NOT RELEASED
+hardware_M5x12,20,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+compliant_sleeve_kick,1,custom rubber/foam compound TBD,UNLOADED compliant volume; NOT an authentic COTS star,custom_brep,custom/local nominal,NOT RELEASED
+roller_core_front,1,6061-T6 provisional,"round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",custom_brep,custom/local nominal,NOT RELEASED
+roller_hub_front,2,6061-T6 provisional,"router/lathe custom hub, 12.8 AF running clearance; retention pending",custom_brep,custom/local nominal,NOT RELEASED
+compliant_sleeve_front,1,custom rubber/foam compound TBD,UNLOADED compliant volume; NOT an authentic COTS star,custom_brep,custom/local nominal,NOT RELEASED
+roller_core_middle,1,6061-T6 provisional,"round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",custom_brep,custom/local nominal,NOT RELEASED
+roller_hub_middle,2,6061-T6 provisional,"router/lathe custom hub, 12.8 AF running clearance; retention pending",custom_brep,custom/local nominal,NOT RELEASED
+compliant_sleeve_middle,1,custom rubber/foam compound TBD,UNLOADED compliant volume; NOT an authentic COTS star,custom_brep,custom/local nominal,NOT RELEASED
+roller_core_rear,1,6061-T6 provisional,"round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",custom_brep,custom/local nominal,NOT RELEASED
+roller_hub_rear,2,6061-T6 provisional,"router/lathe custom hub, 12.8 AF running clearance; retention pending",custom_brep,custom/local nominal,NOT RELEASED
+compliant_sleeve_rear,1,custom rubber/foam compound TBD,UNLOADED compliant volume; NOT an authentic COTS star,custom_brep,custom/local nominal,NOT RELEASED
+round_belt_hex_pulley,9,6061-T6 provisional,"custom lathe/router pulley, R18 pitch, 6 mm round belt; grip unverified",custom_brep,custom/local nominal,NOT RELEASED
+upper_pickup_belt,1,"6 mm welded polyurethane round belt, supplier TBD","neutral-length belt, tensioner travel unverified",custom_brep,custom/local nominal,NOT RELEASED
+pickup_drive_mount,1,6061-T6 provisional,6 mm plate; pilot and journal finish-machine,custom_brep,custom/local nominal,NOT RELEASED
+vendor_x44,4,vendor mixed materials,WCP-0941,authentic_vendor_brep,trials/subsystem-ab/cots/cache/wcp-0941.step,NOT RELEASED
+hardware_M4.826x12,8,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+frame_pivot_cheek,2,6061-T6 provisional,6 mm frame cheek; frame doubler/load verification pending,custom_brep,custom/local nominal,NOT RELEASED
+fold_pivot_stub,2,"WCP 1/2 inch AF hex stock, grade TBD","split 76 mm stub, NOT a shaft across the coral corridor",custom_brep,custom/local nominal,NOT RELEASED
+hardware_M5x35,4,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+fold_drive_mount,1,6061-T6 provisional,6 mm plate; pilot and journal finish-machine,custom_brep,custom/local nominal,NOT RELEASED
+indexer_bank_plate_L,2,6061-T6 provisional,6 mm paired flat plates; bearing holes finish-machine,custom_brep,custom/local nominal,NOT RELEASED
+indexer_post,4,6061-T6 provisional,"20x20x2 metric tube, saw 178",custom_brep,custom/local nominal,NOT RELEASED
+indexer_hex_shaft,6,"WCP half-inch hex stock, grade unverified","AF12.7 exact; 196 long, M5 end taps",custom_brep,custom/local nominal,NOT RELEASED
+indexer_wheel_core,18,machined acetal or qualified printed nylon,"custom 3 inch wheel core, NOT scaled AndyMark COTS",custom_brep,custom/local nominal,NOT RELEASED
+indexer_custom_tyre,18,"custom elastomer, hardness TBD","76.2 OD x25.4; custom, not authentic AM-3462",custom_brep,custom/local nominal,NOT RELEASED
+indexer_belt_L,1,"6 mm welded PU round belt, supplier TBD",continuous closed loop; slip/load unverified,custom_brep,custom/local nominal,NOT RELEASED
+indexer_drive_L_mount,1,6061-T6 provisional,6 mm plate; pilot and journal finish-machine,custom_brep,custom/local nominal,NOT RELEASED
+indexer_bank_plate_R,2,6061-T6 provisional,6 mm paired flat plates; bearing holes finish-machine,custom_brep,custom/local nominal,NOT RELEASED
+indexer_belt_R,1,"6 mm welded PU round belt, supplier TBD",continuous closed loop; slip/load unverified,custom_brep,custom/local nominal,NOT RELEASED
+indexer_drive_R_mount,1,6061-T6 provisional,6 mm plate; pilot and journal finish-machine,custom_brep,custom/local nominal,NOT RELEASED
+detachable_tray,1,polycarbonate,"3 mm flat sheet, no precision bends",custom_brep,custom/local nominal,NOT RELEASED
+dock_crossbar,2,6061-T6 provisional,"20x20x2 tube, saw 530",custom_brep,custom/local nominal,NOT RELEASED
+tray_spacer,4,6061-T6 provisional,lathe standoff 5.85 nominal,custom_brep,custom/local nominal,NOT RELEASED
+hardware_M5x30,4,steel,socket head screw plus washer; no thread helices,standard_hardware_nominal_brep,custom/local nominal,NOT RELEASED
+coral_stop,1,6061-T6 provisional,6 mm flat stop; bracket joint unresolved,custom_brep,custom/local nominal,NOT RELEASED
+sensor_adapter,2,polycarbonate,3 mm provisional 20x15 mount pattern; NOT verified LaserCAN interface,custom_brep,custom/local nominal,NOT RELEASED
+sensor_reference_envelope,2,REFERENCE only,LaserCAN candidate envelope; vendor CAD and actual holes unavailable,reference_envelope,custom/local nominal,NOT RELEASED
+pickup_drive_12T,1,procurement / design required,WCP-1010,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+pickup_drive_60T,1,procurement / design required,WCP-0121,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+kick_reversal,1,procurement / design required,unresolved,"MISSING, not substituted","Kick needs opposite rotation to upper rollers; dedicated reversal and its closed drive remain unresolved, not silently same-sense powered",BLOCKED
+fold_drive_12T,1,procurement / design required,WCP-1010,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+fold_drive_60T,1,procurement / design required,WCP-0121,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+indexer_drive_L_12T,1,procurement / design required,WCP-1010,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+indexer_drive_L_60T,1,procurement / design required,WCP-0121,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+indexer_drive_R_12T,1,procurement / design required,WCP-1010,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+indexer_drive_R_60T,1,procurement / design required,WCP-0121,"MISSING, not substituted",original vendor STEP not cached,BLOCKED
+sensors,1,procurement / design required,unresolved,"MISSING, not substituted",Two distinct presence/seated interfaces; LaserCAN dimensions/pattern and line-of-sight unverified,BLOCKED

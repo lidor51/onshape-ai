@@ -1,0 +1,62 @@
+{
+  "annual_scenario": {
+    "additional_milestones": 100,
+    "assumed_calls_per_milestone": 10,
+    "combined_trial_reserve": 300,
+    "existing_used": 273,
+    "future_native_edit_setup_allowance": 427,
+    "planning_total": 2000,
+    "safety_reserve": 500,
+    "status": "UNVERIFIED_CONDITIONAL_NOT_MEASURED"
+  },
+  "calls": {
+    "attempted": 31,
+    "failed": 0,
+    "phase_successes": {
+      "A": 8,
+      "B": 8,
+      "revision": 6,
+      "setup": 9
+    },
+    "remaining_attempt_reserve": 49,
+    "retries": 0,
+    "successful": 31,
+    "unknown": 0
+  },
+  "evidence": "LOCAL_SYNTHETIC_ONLY_NOT_ONSHAPE",
+  "fresh_key_confirmed": false,
+  "human_approval": "UNVERIFIED",
+  "live_snapshot": "SEPARATE_EVIDENCE_IN_ARTIFACTS_LIVE",
+  "manufacture_ready": false,
+  "network_guard": {
+    "authenticated_calls": 0,
+    "blocked_attempts": 0
+  },
+  "quota_source": {
+    "annual_safety": 500,
+    "limit": 2500,
+    "manufacturing_reserve": 80,
+    "native_reserve": 120,
+    "official_reserve": 100,
+    "remaining": 2227,
+    "reported_on": "2026-09-11",
+    "source": "Parent-provided official OAuth quota snapshot; not this trial's call",
+    "used": 273
+  },
+  "revisions": {
+    "A": {
+      "holes": 5,
+      "package_correctness": "PASS",
+      "thickness_mm": 6.349999999999994,
+      "volume_mm3": 301875.70934676327
+    },
+    "B": {
+      "holes": 6,
+      "package_correctness": "PASS",
+      "thickness_mm": 8.0,
+      "volume_mm3": 380215.3233302202
+    }
+  },
+  "status": "PASS",
+  "tests_passed": 60
+}

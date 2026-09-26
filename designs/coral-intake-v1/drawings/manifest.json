@@ -1,0 +1,248 @@
+{
+  "status": "NOT RELEASED",
+  "sheets": [
+    {
+      "part": "pickup_sideplate",
+      "dxf": "drawings/pickup_sideplate.dxf",
+      "wires": 17,
+      "bounds_mm": [
+        -380.0,
+        4.0,
+        -3.0,
+        140.0,
+        317.0,
+        3.0
+      ],
+      "holes": 22,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "axle_cassette",
+      "dxf": "drawings/axle_cassette.dxf",
+      "wires": 6,
+      "bounds_mm": [
+        -29.0,
+        -29.0,
+        -3.0,
+        29.0,
+        29.0,
+        3.0
+      ],
+      "holes": 5,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "floating_arm",
+      "dxf": "drawings/floating_arm.dxf",
+      "wires": 4,
+      "bounds_mm": [
+        -155.0,
+        -131.0,
+        -3.0,
+        30.0,
+        30.0,
+        3.0
+      ],
+      "holes": 6,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "stop_mount_0",
+      "dxf": "drawings/stop_mount_0.dxf",
+      "wires": 2,
+      "bounds_mm": [
+        -233.2996649242,
+        238.111175745,
+        -3.0,
+        -123.0,
+        275.0,
+        3.0
+      ],
+      "holes": 1,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "stop_mount_1",
+      "dxf": "drawings/stop_mount_1.dxf",
+      "wires": 2,
+      "bounds_mm": [
+        -188.2270632113,
+        173.59285503474,
+        -3.0,
+        -123.0,
+        275.0,
+        3.0
+      ],
+      "holes": 1,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "pickup_drive_mount",
+      "dxf": "drawings/pickup_drive_mount.dxf",
+      "wires": 7,
+      "bounds_mm": [
+        -43.0,
+        249.0,
+        -3.0,
+        70.72,
+        321.0,
+        3.0
+      ],
+      "holes": 6,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "frame_pivot_cheek",
+      "dxf": "drawings/frame_pivot_cheek.dxf",
+      "wires": 4,
+      "bounds_mm": [
+        -2.0,
+        28.0,
+        -3.0,
+        170.0,
+        292.0,
+        3.0
+      ],
+      "holes": 3,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "fold_drive_mount",
+      "dxf": "drawings/fold_drive_mount.dxf",
+      "wires": 7,
+      "bounds_mm": [
+        76.0,
+        172.0,
+        -3.0,
+        144.0,
+        289.72,
+        3.0
+      ],
+      "holes": 6,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "indexer_bank_plate_L",
+      "dxf": "drawings/indexer_bank_plate_L.dxf",
+      "wires": 6,
+      "bounds_mm": [
+        -280.0,
+        44.0,
+        -3.0,
+        -65.0,
+        324.0,
+        3.0
+      ],
+      "holes": 5,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "indexer_drive_L_mount",
+      "dxf": "drawings/indexer_drive_L_mount.dxf",
+      "wires": 7,
+      "bounds_mm": [
+        -252.22,
+        36.0,
+        -3.0,
+        -138.5,
+        108.0,
+        3.0
+      ],
+      "holes": 6,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "indexer_bank_plate_R",
+      "dxf": "drawings/indexer_bank_plate_R.dxf",
+      "wires": 6,
+      "bounds_mm": [
+        65.0,
+        44.0,
+        -3.0,
+        280.0,
+        324.0,
+        3.0
+      ],
+      "holes": 5,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "indexer_drive_R_mount",
+      "dxf": "drawings/indexer_drive_R_mount.dxf",
+      "wires": 7,
+      "bounds_mm": [
+        138.5,
+        36.0,
+        -3.0,
+        252.22,
+        108.0,
+        3.0
+      ],
+      "holes": 6,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "detachable_tray",
+      "dxf": "drawings/detachable_tray.dxf",
+      "wires": 5,
+      "bounds_mm": [
+        -80.0,
+        230.0,
+        -1.5,
+        80.0,
+        539.0,
+        1.5
+      ],
+      "holes": 4,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "coral_stop",
+      "dxf": "drawings/coral_stop.dxf",
+      "wires": 3,
+      "bounds_mm": [
+        -80.0,
+        0.0,
+        -3.0,
+        80.0,
+        40.0,
+        3.0
+      ],
+      "holes": 2,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    },
+    {
+      "part": "sensor_adapter",
+      "dxf": "drawings/sensor_adapter.dxf",
+      "wires": 6,
+      "bounds_mm": [
+        -20.0,
+        -26.0,
+        -1.5,
+        20.0,
+        18.0,
+        1.5
+      ],
+      "holes": 5,
+      "status": "NOT RELEASED",
+      "gate": "valid local B-rep and actual drilled holes only"
+    }
+  ],
+  "count": 15,
+  "pdf": "drawings/inspection-not-released.pdf",
+  "assembly_geometry_status": "FAIL"
+}

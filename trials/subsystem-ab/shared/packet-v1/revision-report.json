@@ -1,0 +1,452 @@
+{
+  "status": "PASS_LOCAL_GEOMETRY_AND_DATUM_PRESERVATION_ONLY",
+  "geometryMotionStatus": "FAIL_SEE_VALIDATION",
+  "changedSourceParts": [
+    {
+      "part": "pickup_cross_tube",
+      "volumeDeltaMm3": 2880.0000000000146,
+      "boundsBeforeMm": [
+        -252.0,
+        -10.0,
+        -10.0,
+        252.0,
+        10.0,
+        10.0
+      ],
+      "boundsAfterMm": [
+        -262.0,
+        -10.0,
+        -10.0,
+        262.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "part": "lower_hex_shaft",
+      "volumeDeltaMm3": 2793.6247475276177,
+      "boundsBeforeMm": [
+        -264.0,
+        -6.35,
+        -7.3323484187094845,
+        264.0,
+        6.350000000000002,
+        7.332348418709485
+      ],
+      "boundsAfterMm": [
+        -274.0,
+        -6.35,
+        -7.3323484187094845,
+        274.0,
+        6.350000000000002,
+        7.332348418709485
+      ]
+    },
+    {
+      "part": "upper_pickup_drum",
+      "volumeDeltaMm3": 32888.45973497559,
+      "boundsBeforeMm": [
+        -235.0,
+        -27.0,
+        -27.0,
+        235.0,
+        27.0,
+        27.0
+      ],
+      "boundsAfterMm": [
+        -245.0,
+        -27.0,
+        -27.0,
+        245.0,
+        27.0,
+        27.0
+      ]
+    },
+    {
+      "part": "lower_pickup_drum",
+      "volumeDeltaMm3": 43010.79614181386,
+      "boundsBeforeMm": [
+        -235.0,
+        -27.0,
+        -27.0,
+        235.0,
+        27.0,
+        27.0
+      ],
+      "boundsAfterMm": [
+        -245.0,
+        -27.0,
+        -27.0,
+        245.0,
+        27.0,
+        27.0
+      ]
+    },
+    {
+      "part": "pickup_belt",
+      "volumeDeltaMm3": 72692.6124715656,
+      "boundsBeforeMm": [
+        -220.0,
+        -390.0,
+        -400.0,
+        220.0,
+        30.0,
+        30.000000000000004
+      ],
+      "boundsAfterMm": [
+        -230.0,
+        -390.0,
+        -400.0,
+        230.0,
+        30.0,
+        30.000000000000004
+      ]
+    },
+    {
+      "part": "deploy_output_gear",
+      "volumeDeltaMm3": -5443.751750140422,
+      "boundsBeforeMm": [
+        -4.0,
+        -62.23,
+        -62.23,
+        21.0,
+        62.23,
+        62.23
+      ],
+      "boundsAfterMm": [
+        -4.0,
+        -62.23,
+        -62.23,
+        11.0,
+        62.23,
+        62.23
+      ]
+    }
+  ],
+  "samePartRoleIds": true,
+  "sameInstanceIds": true,
+  "sameMateIds": true,
+  "pivotOriginBeforeMm": [
+    0,
+    100,
+    410
+  ],
+  "pivotOriginAfterMm": [
+    0,
+    100,
+    410
+  ],
+  "receiverAttachmentBefore": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      440.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      405.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "receiverAttachmentAfter": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      440.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      405.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "receiverIndependentProbe": {
+    "controls": {
+      "mouthWidth": 500,
+      "receiverHeight": 350
+    },
+    "receiverBoundsMm": [
+      -160.0,
+      425.0,
+      435.0,
+      160.0,
+      455.0,
+      685.0
+    ],
+    "pickupDrumLengthMm": 470.0,
+    "sourceGeometryChanged": true,
+    "motion": {
+      "status": "FAIL",
+      "sampledNotContinuousProof": true,
+      "incrementDeg": null,
+      "samples": [
+        {
+          "angleDeg": 0,
+          "status": "FAIL",
+          "unexpectedClashes": [
+            {
+              "pair": [
+                "pickup_gear_guard",
+                "pickup_right"
+              ],
+              "overlapMm3": 298.45430657803325
+            }
+          ],
+          "intentionalContacts": [
+            {
+              "pair": [
+                "deploy_output_gear",
+                "deploy_pinion"
+              ],
+              "overlapMm3": 185.05547097560736,
+              "reason": "Designed gear addendum-envelope overlap at 71.12 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "held_coral",
+                "orienter_left_drum"
+              ],
+              "overlapMm3": 2361.77646776394,
+              "reason": "Intentional nominal compliant contact; physical compression/traction NOT PROVEN"
+            },
+            {
+              "pair": [
+                "held_coral",
+                "orienter_right_drum"
+              ],
+              "overlapMm3": 2361.801277387673,
+              "reason": "Intentional nominal compliant contact; physical compression/traction NOT PROVEN"
+            },
+            {
+              "pair": [
+                "orienter_left_gear",
+                "orienter_left_pinion"
+              ],
+              "overlapMm3": 173.5714662101774,
+              "reason": "Designed gear addendum-envelope overlap at 40.64 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "orienter_right_gear",
+                "orienter_right_pinion"
+              ],
+              "overlapMm3": 173.5714662101774,
+              "reason": "Designed gear addendum-envelope overlap at 40.64 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "pickup_output_gear",
+                "pickup_pinion"
+              ],
+              "overlapMm3": 185.05547097560736,
+              "reason": "Designed gear addendum-envelope overlap at 71.12 mm pitch centers; not tooth contact validation"
+            }
+          ],
+          "pairCount": 1035,
+          "kernelIntersectionComputations": 96,
+          "envelopeStatus": "PASS",
+          "mechanismBoundsMm": [
+            -350.0,
+            -290.0,
+            10.0,
+            350.0,
+            760.0,
+            685.0
+          ],
+          "frontExtensionMm": 290.0,
+          "sideExtensionMm": 0,
+          "rearExtensionMm": 0,
+          "minimumMovingToBumperMm": 8.257667933661686,
+          "nearestBumperPart": "pickup_belt"
+        },
+        {
+          "angleDeg": -72.5,
+          "status": "FAIL",
+          "unexpectedClashes": [
+            {
+              "pair": [
+                "pickup_gear_guard",
+                "pickup_right"
+              ],
+              "overlapMm3": 298.45430657803325
+            }
+          ],
+          "intentionalContacts": [
+            {
+              "pair": [
+                "deploy_output_gear",
+                "deploy_pinion"
+              ],
+              "overlapMm3": 185.05547097562615,
+              "reason": "Designed gear addendum-envelope overlap at 71.12 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "held_coral",
+                "orienter_left_drum"
+              ],
+              "overlapMm3": 2361.77646776394,
+              "reason": "Intentional nominal compliant contact; physical compression/traction NOT PROVEN"
+            },
+            {
+              "pair": [
+                "held_coral",
+                "orienter_right_drum"
+              ],
+              "overlapMm3": 2361.801277387673,
+              "reason": "Intentional nominal compliant contact; physical compression/traction NOT PROVEN"
+            },
+            {
+              "pair": [
+                "orienter_left_gear",
+                "orienter_left_pinion"
+              ],
+              "overlapMm3": 173.5714662101774,
+              "reason": "Designed gear addendum-envelope overlap at 40.64 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "orienter_right_gear",
+                "orienter_right_pinion"
+              ],
+              "overlapMm3": 173.5714662101774,
+              "reason": "Designed gear addendum-envelope overlap at 40.64 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "pickup_output_gear",
+                "pickup_pinion"
+              ],
+              "overlapMm3": 185.05547097560736,
+              "reason": "Designed gear addendum-envelope overlap at 71.12 mm pitch centers; not tooth contact validation"
+            }
+          ],
+          "pairCount": 1035,
+          "kernelIntersectionComputations": 16,
+          "envelopeStatus": "PASS",
+          "mechanismBoundsMm": [
+            -350.0,
+            -391.1293595983823,
+            70.0,
+            350.0,
+            760.0,
+            685.0
+          ],
+          "frontExtensionMm": 391.1293595983823,
+          "sideExtensionMm": 0,
+          "rearExtensionMm": 0,
+          "minimumMovingToBumperMm": 177.65571903401792,
+          "nearestBumperPart": "pickup_right"
+        },
+        {
+          "angleDeg": -145,
+          "status": "FAIL",
+          "unexpectedClashes": [
+            {
+              "pair": [
+                "pickup_gear_guard",
+                "pickup_right"
+              ],
+              "overlapMm3": 298.45430657803325
+            }
+          ],
+          "intentionalContacts": [
+            {
+              "pair": [
+                "deploy_output_gear",
+                "deploy_pinion"
+              ],
+              "overlapMm3": 185.05547097561112,
+              "reason": "Designed gear addendum-envelope overlap at 71.12 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "held_coral",
+                "orienter_left_drum"
+              ],
+              "overlapMm3": 2361.77646776394,
+              "reason": "Intentional nominal compliant contact; physical compression/traction NOT PROVEN"
+            },
+            {
+              "pair": [
+                "held_coral",
+                "orienter_right_drum"
+              ],
+              "overlapMm3": 2361.801277387673,
+              "reason": "Intentional nominal compliant contact; physical compression/traction NOT PROVEN"
+            },
+            {
+              "pair": [
+                "orienter_left_gear",
+                "orienter_left_pinion"
+              ],
+              "overlapMm3": 173.5714662101774,
+              "reason": "Designed gear addendum-envelope overlap at 40.64 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "orienter_right_gear",
+                "orienter_right_pinion"
+              ],
+              "overlapMm3": 173.5714662101774,
+              "reason": "Designed gear addendum-envelope overlap at 40.64 mm pitch centers; not tooth contact validation"
+            },
+            {
+              "pair": [
+                "pickup_output_gear",
+                "pickup_pinion"
+              ],
+              "overlapMm3": 185.05547097560736,
+              "reason": "Designed gear addendum-envelope overlap at 71.12 mm pitch centers; not tooth contact validation"
+            }
+          ],
+          "pairCount": 1035,
+          "kernelIntersectionComputations": 18,
+          "envelopeStatus": "PASS",
+          "mechanismBoundsMm": [
+            -350.0,
+            0.0,
+            70.0,
+            350.0,
+            760.0,
+            949.5737734733035
+          ],
+          "frontExtensionMm": 0,
+          "sideExtensionMm": 0,
+          "rearExtensionMm": 0,
+          "minimumMovingToBumperMm": 184.42980882523267,
+          "nearestBumperPart": "pickup_right"
+        }
+      ]
+    }
+  },
+  "nativeMatePreservation": "UNVERIFIED_NOT_EXECUTED"
+}

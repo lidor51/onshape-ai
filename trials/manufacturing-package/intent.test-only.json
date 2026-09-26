@@ -1,0 +1,16 @@
+{
+  "part_number": "TEST-INTAKE-LP",
+  "description": "Synthetic intake left side plate",
+  "material": "6061-T6 aluminum",
+  "quantity": 1,
+  "thickness_source": "measured_state",
+  "outer_tolerance_mm": 0.20,
+  "thickness_tolerance_mm": 0.13,
+  "hole_diameter_tolerance_mm": 0.05,
+  "hole_coordinate_tolerance_mm": 0.10,
+  "finish": "Bare; remove burrs and break sharp edges 0.2 mm maximum",
+  "release_status": "TEST_ONLY",
+  "test_assumptions_acknowledged": true,
+  "approval": null,
+  "date": "2026-09-11"
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-18",
+  "team": 2056,
+  "target": "2025 LIGHTNING robot intake, straightenator and cradle native assembly or 3D exchange CAD",
+  "status": "BLOCKED_SOURCE_UNAVAILABLE",
+  "native_robot_cad_established": false,
+  "conclusion_scope": "No 2025 robot/intake assembly source established in the bounded current public thread and homepage check; not a claim that 2056 never releases any CAD.",
+  "controlling_source": {
+    "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550/30",
+    "post_number": 30,
+    "post_id": 3641107,
+    "author": "Khalsa",
+    "created_at": "2025-05-30T18:41:19.429Z",
+    "updated_at": "2025-05-31T00:23:05.582Z",
+    "finding": "Team design lead explicitly says the drawing package is available but a Solidworks or .Step file will not be released; motor covers are discussed separately."
+  },
+  "thread_inspection": {
+    "topic_id": 502550,
+    "public_json_url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550.json?print=true",
+    "retrieval_started_utc": "2026-09-18T06:58:49.5944442+00:00",
+    "http_status": 200,
+    "response_bytes": 561841,
+    "response_sha256": "ba667d67286090c515c856cdff3d19ea96e0242fe2da8026d8bb32912807ea67",
+    "reported_posts_count": 178,
+    "returned_posts_count": 178,
+    "public_stream_count": 178,
+    "highest_post_number": 187,
+    "last_posted_at": "2026-08-05T17:28:30.232Z",
+    "distinct_structured_link_urls_scanned": 27,
+    "review_scope": "CAD-related paragraphs, download request/reply chains and structured link URLs; not full engineering review of every post or deleted/private content.",
+    "response_mirror_saved": false
+  },
+  "source_posts": [
+    { "post_number": 1, "post_id": 3639749, "author": "Khalsa", "created_at": "2025-05-29T17:03:04.64Z", "finding": "Team release links two PDFs and warns of multiple drawing revisions." },
+    { "post_number": 26, "post_id": 3640952, "author": "EricZheng", "created_at": "2025-05-30T15:31:30.335Z", "finding": "Asks for full CAD release; answered within post 30." },
+    { "post_number": 28, "post_id": 3641020, "author": "Holtzman", "created_at": "2025-05-30T16:51:24.773Z", "finding": "Team asks that documentation and CAD not be rehosted; identifies Khalsa as design lead." },
+    { "post_number": 30, "post_id": 3641107, "author": "Khalsa", "created_at": "2025-05-30T18:41:19.429Z", "finding": "No Solidworks/STEP robot release; possible later cover CAD is a separate subject." },
+    { "post_number": 94, "post_id": 3690252, "author": "Mariohdz", "created_at": "2025-07-25T23:07:12.932Z", "finding": "Repeats CAD request." },
+    { "post_number": 95, "post_id": 3690318, "author": "DaiTou567", "created_at": "2025-07-26T00:16:30.918Z", "finding": "Third-party no-CAD assertion; not used as team policy." },
+    { "post_number": 97, "post_id": 3692627, "author": "aung", "created_at": "2025-07-29T05:54:47.864Z", "finding": "Third-party no-public-CAD assertion; not used as team policy." },
+    { "post_number": 98, "post_id": 3693956, "author": "Nessie", "created_at": "2025-07-30T13:31:09.886Z", "finding": "Claims some CAD is shared but supplies no assembly URL." },
+    { "post_number": 135, "post_id": 3765347, "author": "SHMKPK", "created_at": "2025-10-21T16:39:02.433Z", "finding": "Motor-cover release follow-up, quoting post 30." },
+    { "post_number": 167, "post_id": 3801086, "author": "SHMKPK", "created_at": "2026-01-05T15:35:00.891Z", "finding": "Follow-up to post 135." },
+    { "post_number": 170, "post_id": 3804718, "author": "Khalsa", "created_at": "2026-01-10T00:18:18.608Z", "finding": "OPR26 electrical mounts/covers release, not 2025 intake or full robot CAD." }
+  ],
+  "observed_resources": [
+    {
+      "label": "OPR25-2056 Technical Binder",
+      "url": "https://2056.ca/wp-content/uploads/2025/05/OPR25-2056-Technical-Binder.pdf",
+      "source_post_number": 1,
+      "format": "PDF",
+      "format_basis": "URL and prior downloaded-PDF inspection report; bytes not revalidated today",
+      "native_or_exchange_cad": false,
+      "downloaded_this_pass": false,
+      "revision_status": "Mutable URL; no explicit binder revision established"
+    },
+    {
+      "label": "OPR25-2056 CAD Drawing Package",
+      "url": "https://2056.ca/wp-content/uploads/2025/05/OPR25-2056-Drawing-Package-comp.pdf",
+      "source_post_number": 1,
+      "format": "PDF",
+      "format_basis": "URL and prior downloaded-PDF inspection report; bytes not revalidated today",
+      "native_or_exchange_cad": false,
+      "downloaded_this_pass": false,
+      "revision_status": "Multiple sheet revisions, not one frozen robot assembly"
+    },
+    {
+      "label": "OPR26-STRAIN RELIEF MOUNT RELEASE",
+      "url": "https://drive.google.com/file/d/1qDfApPIipNq2SYCu0KaWWWhpbQu_U2vP/view?usp=sharing",
+      "source_post_number": 170,
+      "scope": "X44 terminal cover, RoboRIO/CANivore strain relief mount, Limelight 4 fan mounts for SDS MK5n",
+      "is_target_robot_or_intake_assembly": false,
+      "format": null,
+      "filename": null,
+      "size_bytes": null,
+      "sha256": null,
+      "native_or_exchange_cad": null,
+      "inspection_state": "LINK_IDENTIFIED_PREVIEW_SIGN_IN_REDIRECT",
+      "downloaded_this_pass": false,
+      "revision_status": "Team post dated 2026-01-10 and OPR26 label; exact file revision unknown",
+      "access_caveat": "Fetch tool reported Google sign-in redirect and displayed usp%3Dsharing instead of submitted usp=sharing. No follow-up, authentication or alternate download endpoint. Does not establish canonical link privacy."
+    },
+    {
+      "label": "Earlier Strain Relief STEP File reference",
+      "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553/34",
+      "source_post_number": 170,
+      "format": null,
+      "source_preview_format_label": "STEP",
+      "is_direct_file_url": false,
+      "is_target_robot_or_intake_assembly": false,
+      "inspection_state": "SEEN_OLDER_THREAD_POINTER_ONLY",
+      "target_fetched": false,
+      "downloaded_this_pass": false,
+      "revision_status": "Older auxiliary release; not verified or matched to LIGHTNING"
+    }
+  ],
+  "local_inspection": {
+    "native_robot_source_urls": [],
+    "cad_files_downloaded": 0,
+    "native_or_exchange_files_opened": 0,
+    "assemblies_inspected": 0,
+    "parts_measured": 0,
+    "measurements": [],
+    "downloaded_binary_bytes": 0,
+    "new_pdf_or_image_downloads": 0,
+    "cad_kernel_launched": false,
+    "parasolid_read_claimed": false,
+    "conditional_download_limit_bytes": 150000000,
+    "head_requests": 0,
+    "conditional_step_part_limit": 5,
+    "download_and_inspection_gate_triggered": false,
+    "gate_reason": "No direct permitted target robot/intake native or 3D exchange source identified",
+    "reference_cad_cache_used": false,
+    "cache_ignore_changed": false
+  },
+  "prior_pdf_evidence": {
+    "authoritative_local_report": "2056-binder.md",
+    "prior_receipt": "2056-binder.evidence.json",
+    "older_context_report": "2056-6328.md",
+    "precedence": "The actual binder-inspection report supersedes older claims that PDFs were unread",
+    "pdfs_reopened_this_pass": false,
+    "prior_binary_hashes_revalidated_this_pass": false,
+    "binder": {
+      "inspection_date": "2026-09-12",
+      "pages": 33,
+      "sha256": "5f5738b38e819860c048710d2edc4084c9328906ed93e2c8e1ce1a131f50cc1c",
+      "last_modified": "Thu, 29 May 2025 15:17:02 GMT"
+    },
+    "drawings": {
+      "inspection_date": "2026-09-12",
+      "pages": 285,
+      "sha256": "30286623b5a496f760dd4a83e0c86a42d889a27fd1ff6831c42aeb104302a81f",
+      "last_modified": "Mon, 23 Jun 2025 14:27:27 GMT"
+    },
+    "selected_drawing_evidence": [
+      { "pdf_pages": [7, 8], "drawing_ids": ["OPR25-A11", "OPR25-A11-R1"], "supports": "Shared versus independent-drive documented layouts and motor BOM", "does_not_establish": "Final assembly revision, deployment date, geometry measurement or jam-rate improvement" },
+      { "pdf_pages": [12, 13], "drawing_ids": ["OPR25-A14", "OPR25-A14-R2"], "supports": "Different intake layouts and revision labels", "does_not_establish": "Revision-compatible complete assembly or swept-volume clearance" },
+      { "pdf_pages": [20], "drawing_ids": ["OPR25-A18-R1"], "supports": "Front roller construction, BOM and assembly notes", "does_not_establish": "Measured contact compression, deflection or durability" },
+      { "pdf_pages": [22], "drawing_ids": ["OPR25-A20-R1"], "supports": "Cradle construction and sensor mountings", "does_not_establish": "Receiver tolerance or dynamic handoff validation" },
+      { "pdf_pages": [139], "drawing_ids": ["OPR25-P209"], "supports": "Printed 0.063-inch 5052-H32 material and 80-/90-degree bends", "does_not_establish": "Suitability for a shop without accurate metal bending" }
+    ]
+  },
+  "use_and_revision_caveats": {
+    "no_rehosting_source_post_number": 28,
+    "explicit_reusable_design_license_established": false,
+    "native_robot_revision": null,
+    "source_urls_mutable": true,
+    "no_source_binaries_images_or_full_thread_mirror_published": true,
+    "public_access_is_not_blanket_reuse_permission": true,
+    "next_required_source": "Team-authorized 2025 intake/straightenator/cradle assembly or STEP export with revision and dependencies identified"
+  },
+  "request_accounting": {
+    "unit": "Top-level public retrieval attempts, not exact wire-level HTTP request count",
+    "attempt_count": 5,
+    "webpage_fetch_invocations": 3,
+    "terminal_retrieval_invocations": 2,
+    "wire_http_request_count": null,
+    "wire_count_limitation": "Webpage fetch abstracts transport/redirects; supplemental terminal homepage invocation gave no response receipt",
+    "attempts": [
+      {
+        "attempt": 1,
+        "method": "webpage_fetch",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550",
+        "outcome": "Release extract returned; most reply text omitted",
+        "http_status": null
+      },
+      {
+        "attempt": 2,
+        "method": "anonymous_GET",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550.json?print=true",
+        "outcome": "Public JSON returned and parsed in memory",
+        "http_status": 200,
+        "use_cookies": false,
+        "use_default_credentials": false,
+        "automatic_redirects": false,
+        "timeout_seconds": 45,
+        "response_buffer_limit_bytes": 12582912
+      },
+      {
+        "attempt": 3,
+        "method": "webpage_fetch",
+        "url": "https://2056.ca/",
+        "outcome": "Homepage extract returned; no native robot link established",
+        "http_status": null
+      },
+      {
+        "attempt": 4,
+        "method": "supplemental_terminal_GET_invocation",
+        "url": "https://2056.ca/",
+        "outcome": "No output, exit code 1 and no response object; wire request occurrence unconfirmed",
+        "http_status": null,
+        "error_cause": null,
+        "retried": false
+      },
+      {
+        "attempt": 5,
+        "method": "webpage_fetch",
+        "url": "https://drive.google.com/file/d/1qDfApPIipNq2SYCu0KaWWWhpbQu_U2vP/view?usp=sharing",
+        "tool_displayed_url": "https://drive.google.com/file/d/1qDfApPIipNq2SYCu0KaWWWhpbQu_U2vP/view?usp%3Dsharing",
+        "outcome": "Google sign-in redirect reported; stopped without following or authenticating",
+        "http_status": null,
+        "reported_redirect_host": "accounts.google.com",
+        "reported_redirect_path": "/ServiceLogin",
+        "canonical_link_privacy_established": false
+      }
+    ],
+    "errors_or_access_limitations": [
+      { "attempt": 4, "type": "INCONCLUSIVE_TERMINAL_INVOCATION", "cause_known": false },
+      { "attempt": 5, "type": "SIGN_IN_REDIRECT_REPORTED", "authentication_attempted": false }
+    ],
+    "authenticated_requests": 0,
+    "onshape_requests": 0,
+    "onshape_api_allocation_calls": 0,
+    "credentials_accessed": false,
+    "browser_automation_used": false,
+    "delegates_used": false
+  },
+  "write_scope": [
+    "research/2025-coral/2056-NATIVE-INSPECTION.md",
+    "research/2025-coral/2056-native-evidence.json"
+  ]
+}

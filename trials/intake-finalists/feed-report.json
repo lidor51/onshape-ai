@@ -1,0 +1,734 @@
+{
+  "schema": "intake-finalists/feed/2",
+  "candidate": "A",
+  "status": "FAIL",
+  "firstFailedResult": {
+    "schema": "intake-finalists/feed/1",
+    "status": "FAIL",
+    "passing": 17,
+    "failing": 5,
+    "floorEntry": {
+      "passing": 5,
+      "cases": 230,
+      "lengthwiseInterferenceMm": 52.3
+    },
+    "zeroDrivePoses": 38,
+    "noseBridgeDeadMm": 123.004546,
+    "bankPitchDeadMm": 12.004546,
+    "wideBanks": {
+      "passing": 1074,
+      "cases": 1150
+    },
+    "receiverAbsentHold": false
+  },
+  "repairHistory": [
+    {
+      "attempt": 1,
+      "change": "Continuous opposed belt loops with original widths; enclosed fixed orienter",
+      "status": "FAIL",
+      "zeroDrivePoses": 0,
+      "narrowIndexPassing": 807,
+      "narrowIndexCases": 819,
+      "indexReserveMm": -0.785417,
+      "foldExtensionBoundMm": 483.596863,
+      "stowedInsetMm": -38,
+      "opposedSurfacesAtEntry": 1
+    },
+    {
+      "attempt": 2,
+      "change": "Interleave nose and fixed lanes; 5 mm center slot; independent tail stubs",
+      "status": "FAIL",
+      "zeroDrivePoses": 0,
+      "narrowIndexPassing": 819,
+      "narrowIndexCases": 819,
+      "indexReserveMm": 0.116231,
+      "foldExtensionBoundMm": 483.596863,
+      "stowedInsetMm": -38,
+      "loadedFoldGapMm": 21.35
+    }
+  ],
+  "repairAttempt": 3,
+  "beltDesign": {
+    "thickness": 3,
+    "pulleyRadius": 25,
+    "outsideRadius": 28,
+    "gap": 111.3,
+    "front": [
+      -420,
+      33
+    ],
+    "crest": [
+      -180,
+      197.5
+    ],
+    "tail": [
+      0,
+      197.5
+    ],
+    "noseSpan": [
+      [
+        -165,
+        -80
+      ],
+      [
+        80,
+        165
+      ]
+    ],
+    "entryYaw": [
+      90,
+      90
+    ],
+    "entryAcross": [
+      -10,
+      10
+    ],
+    "indexAcross": [
+      -10,
+      10
+    ],
+    "frontStop": 10,
+    "backStop": 370,
+    "fenceInside": 180,
+    "roofInside": 410
+  },
+  "geometryReady": false,
+  "ancestry": [
+    "01",
+    "09"
+  ],
+  "dimensions": {
+    "coralLength": 301.625,
+    "coralDiameter": 114.3,
+    "coralBore": 101.6,
+    "compression": 3,
+    "clearance": 5,
+    "extensionLimit": 457.2,
+    "chassisWidth": 700,
+    "chassisLength": 760,
+    "bumperTop": 165,
+    "receiver": [
+      0,
+      430,
+      281.15
+    ],
+    "pivot": [
+      0,
+      80,
+      225
+    ],
+    "foldDegrees": 135,
+    "bankSpan": [
+      [
+        -75,
+        -2.5
+      ],
+      [
+        2.5,
+        75
+      ]
+    ],
+    "bankRows": [
+      30,
+      86,
+      142,
+      198,
+      254,
+      310
+    ],
+    "bankRadius": 25,
+    "bankHeight": 197.5,
+    "orientCenter": [
+      0,
+      190,
+      281.15
+    ]
+  },
+  "gates": [
+    {
+      "name": "full-body-bumper-margin",
+      "status": "PASS",
+      "value": 59,
+      "minimum": 5,
+      "witness": {
+        "state": "capture",
+        "progress": 0.875,
+        "center": [
+          0,
+          -84.375,
+          281.15
+        ],
+        "body": "bumper-front"
+      }
+    },
+    {
+      "name": "full-cylinder-commanded-yaw-bumper-both-mounts",
+      "status": "PASS",
+      "value": 59,
+      "minimum": 5,
+      "cases": 738,
+      "acrossOffsets": [
+        -10,
+        0,
+        10
+      ]
+    },
+    {
+      "name": "hardware-to-intact-bumper-front-and-left",
+      "status": "FAIL",
+      "value": -0.000001,
+      "minimum": 5,
+      "witness": {
+        "state": "acquire",
+        "progress": 0,
+        "mount": "front",
+        "body": "nose-lower-0",
+        "bumper": "bumper-front"
+      }
+    },
+    {
+      "name": "hardware-extension-reserve-front-and-left",
+      "status": "FAIL",
+      "value": -26.396863,
+      "minimum": 5
+    },
+    {
+      "name": "hardware-floor-margin",
+      "status": "PASS",
+      "value": 5,
+      "minimum": 5
+    },
+    {
+      "name": "stowed-hardware-inset-front-and-left",
+      "status": "FAIL",
+      "value": 2,
+      "minimum": 5
+    },
+    {
+      "name": "starting-height-below-1000",
+      "status": "PASS",
+      "value": 257.682107,
+      "minimum": 5
+    },
+    {
+      "name": "fold-body-clearance",
+      "status": "FAIL",
+      "value": -27.270788,
+      "minimum": 5,
+      "witness": {
+        "progress": 0.4,
+        "moving": "tail-pulley-0",
+        "fixed": "cell-front-gate"
+      }
+    },
+    {
+      "name": "loaded-fold-coral-clearance",
+      "status": "PASS",
+      "value": 21.35,
+      "minimum": 5
+    },
+    {
+      "name": "distinct-rubber-body-clearance",
+      "status": "PASS",
+      "value": 5,
+      "minimum": 5
+    },
+    {
+      "name": "whole-shaft-to-guide-clearance",
+      "status": "PASS",
+      "value": 18.5,
+      "minimum": 5
+    },
+    {
+      "name": "gate-sweeps-to-working-belts",
+      "status": "FAIL",
+      "value": -0.000001,
+      "minimum": 5,
+      "witness": {
+        "state": "acquire",
+        "progress": 0,
+        "panel": "cell-front-gate",
+        "belt": "nose-upper-0"
+      }
+    },
+    {
+      "name": "coral-to-whole-shafts",
+      "status": "PASS",
+      "value": 20.15,
+      "minimum": 5
+    },
+    {
+      "name": "coral-to-rigid-guides",
+      "status": "PASS",
+      "value": 1.5,
+      "minimum": 0,
+      "witness": {
+        "state": "acquire",
+        "progress": 0.275,
+        "body": "pickup-pulley-1"
+      },
+      "overlapSentinel": -0.000001
+    },
+    {
+      "name": "commanded-path-compression-ceiling",
+      "status": "PASS",
+      "value": -1.5,
+      "minimum": -3
+    },
+    {
+      "name": "continuous-two-powered-stations",
+      "status": "PASS",
+      "value": 2,
+      "minimum": 2,
+      "zeroDrivePoses": 0,
+      "excessiveContacts": 0,
+      "firstDeadSpot": null
+    },
+    {
+      "name": "continuous-top-bottom-opposition",
+      "status": "FAIL",
+      "value": 1,
+      "minimum": 2
+    },
+    {
+      "name": "crosswise-floor-entry-clearance",
+      "status": "PASS",
+      "value": -1.5,
+      "minimum": -3,
+      "entryCases": 3,
+      "entryClearCases": 3,
+      "witness": {
+        "center": [
+          -10,
+          -500.088077,
+          57.15
+        ],
+        "yaw": 90,
+        "gap": -1.5
+      }
+    },
+    {
+      "name": "narrow-indexer-two-banks",
+      "status": "PASS",
+      "value": 819,
+      "minimum": 819
+    },
+    {
+      "name": "narrow-indexer-preload-reserve",
+      "status": "FAIL",
+      "value": 0.116231,
+      "minimum": 0.5
+    },
+    {
+      "name": "receiver-closed-cage-clearance",
+      "status": "PASS",
+      "value": 11.1875,
+      "minimum": 5
+    },
+    {
+      "name": "receiver-jaw-preload",
+      "status": "PASS",
+      "value": 3,
+      "minimum": 3
+    },
+    {
+      "name": "cell-full-cylinder-yaw-and-small-tilt-workspace",
+      "status": "PASS",
+      "value": 5.723674,
+      "minimum": 5,
+      "workspaceCases": 2457,
+      "pitchDegrees": [
+        -0.25,
+        0.25
+      ]
+    },
+    {
+      "name": "cell-small-tilt-compression",
+      "status": "PASS",
+      "value": 0.842502,
+      "minimum": 0
+    },
+    {
+      "name": "receiver-absent-geometric-retention-2D",
+      "status": "PASS",
+      "value": 4,
+      "minimum": 4,
+      "escape": [
+        {
+          "yaw": 0,
+          "escaped": false,
+          "visited": 125
+        },
+        {
+          "yaw": 30,
+          "escaped": false,
+          "visited": 33
+        },
+        {
+          "yaw": 60,
+          "escaped": false,
+          "visited": 55
+        },
+        {
+          "yaw": 90,
+          "escaped": false,
+          "visited": 115
+        }
+      ],
+      "releaseEscape": {
+        "escaped": true,
+        "visited": 843
+      },
+      "scope": "10 mm connected translation grid at fixed yaw and height, with a positive open-gate escape control. Not force or arbitrary 3D escape proof."
+    },
+    {
+      "name": "receiver-transfer-opening",
+      "status": "PASS",
+      "value": 1,
+      "minimum": 1
+    }
+  ],
+  "states": [
+    {
+      "state": "acquire",
+      "poses": 41,
+      "bumperVerticalGap": null,
+      "minimumPoweredStations": 2,
+      "minimumRigidPieceGap": 1.5
+    },
+    {
+      "state": "capture",
+      "poses": 41,
+      "bumperVerticalGap": 59,
+      "minimumPoweredStations": 2,
+      "minimumRigidPieceGap": 1.5
+    },
+    {
+      "state": "transfer",
+      "poses": 41,
+      "bumperVerticalGap": 59,
+      "minimumPoweredStations": 4,
+      "minimumRigidPieceGap": 1.5
+    },
+    {
+      "state": "handoff",
+      "poses": 41,
+      "bumperVerticalGap": null,
+      "minimumPoweredStations": 4,
+      "minimumRigidPieceGap": 1.554707
+    },
+    {
+      "state": "stow",
+      "poses": 41,
+      "bumperVerticalGap": null,
+      "minimumPoweredStations": 4,
+      "minimumRigidPieceGap": 1.554707
+    }
+  ],
+  "sweep": {
+    "posesPerState": 41,
+    "totalPoses": 205,
+    "foldStepDegrees": 3.375,
+    "interpolation": "Analytic tangent lines and pulley arcs; rigid fold. Belt arc fold bounds conservatively include whole circles. Other clearance gates sampled.",
+    "prismMethod": "Finite horizontal cylinders for working belt contact; exact full-cylinder extents for tilted cage fit. Hardware belt polygons have 5-degree facets; gaps above5 use AABB lower bounds."
+  },
+  "contact": {
+    "wideBanks": {
+      "cases": 1150,
+      "passing": 1099,
+      "minimumBanks": 1,
+      "preloadMargin": -8.640719,
+      "firstFailure": {
+        "center": [
+          -30,
+          162,
+          281.15
+        ],
+        "yaw": 0,
+        "bankCount": 1,
+        "margin": -8.640719
+      },
+      "yawStep": 2,
+      "offsets": [
+        -30,
+        -15,
+        0,
+        15,
+        30
+      ],
+      "rearwardOffsets": [
+        -28,
+        -14,
+        0,
+        14,
+        28
+      ]
+    },
+    "narrowBanks": {
+      "cases": 819,
+      "passing": 819,
+      "minimumBanks": 2,
+      "preloadMargin": 0.116231,
+      "firstFailure": null,
+      "yawStep": 1,
+      "offsets": [
+        -10,
+        0,
+        10
+      ],
+      "rearwardOffsets": [
+        -10,
+        0,
+        10
+      ]
+    },
+    "contactIntervals": {
+      "crosswiseHalfContactReach": 15.912259,
+      "bankWorkingRun": [
+        30,
+        560
+      ],
+      "bankPitchDeadLength": 0,
+      "noseToBankContactOverlap": 1.824519,
+      "bridgeMidpointReserve": 0.165751,
+      "fullCurveCenterline": "Front pulley arc -> common rising tangent -> crest pulley arc -> horizontal tangent; no pose jump.",
+      "lowerWorkingHeight": 225.5,
+      "upperWorkingHeight": 336.8,
+      "opposedGap": 111.3,
+      "lengthwiseDualBankOffsetLimit": 10.50769,
+      "lengthwiseReserveOffsetLimit": 8.144247
+    },
+    "entry": {
+      "entryCases": 3,
+      "entryClearCases": 3,
+      "worstEntry": -1.5,
+      "entryWitness": {
+        "center": [
+          -10,
+          -500.088077,
+          57.15
+        ],
+        "yaw": 90,
+        "gap": -1.5
+      },
+      "entryYawScreen": [
+        {
+          "yaw": 0,
+          "relativeToCrosswise": -90,
+          "pulleyGap": null,
+          "beltEnvelopeGap": null,
+          "shaftGap": -6.35,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 60,
+          "relativeToCrosswise": -30,
+          "pulleyGap": -25,
+          "beltEnvelopeGap": -28,
+          "shaftGap": -6.35,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 75,
+          "relativeToCrosswise": -15,
+          "pulleyGap": -25,
+          "beltEnvelopeGap": -28,
+          "shaftGap": -6.35,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 85,
+          "relativeToCrosswise": -5,
+          "pulleyGap": -10.790712,
+          "beltEnvelopeGap": -13.790712,
+          "shaftGap": 7.859288,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 89,
+          "relativeToCrosswise": -1,
+          "pulleyGap": -1.008474,
+          "beltEnvelopeGap": -4.008474,
+          "shaftGap": 17.641526,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 89.5,
+          "relativeToCrosswise": -0.5,
+          "pulleyGap": 0.242835,
+          "beltEnvelopeGap": -2.757165,
+          "shaftGap": 18.892835,
+          "floorEnvelopeClear": true,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 90,
+          "relativeToCrosswise": 0,
+          "pulleyGap": 1.5,
+          "beltEnvelopeGap": -1.5,
+          "shaftGap": 20.15,
+          "floorEnvelopeClear": true,
+          "admittedToCommandedTrial": true
+        },
+        {
+          "yaw": 90.5,
+          "relativeToCrosswise": 0.5,
+          "pulleyGap": 0.242835,
+          "beltEnvelopeGap": -2.757165,
+          "shaftGap": 18.892835,
+          "floorEnvelopeClear": true,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 91,
+          "relativeToCrosswise": 1,
+          "pulleyGap": -1.008474,
+          "beltEnvelopeGap": -4.008474,
+          "shaftGap": 17.641526,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 95,
+          "relativeToCrosswise": 5,
+          "pulleyGap": -10.790712,
+          "beltEnvelopeGap": -13.790712,
+          "shaftGap": 7.859288,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 105,
+          "relativeToCrosswise": 15,
+          "pulleyGap": -25,
+          "beltEnvelopeGap": -28,
+          "shaftGap": -6.35,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        },
+        {
+          "yaw": 120,
+          "relativeToCrosswise": 30,
+          "pulleyGap": -25,
+          "beltEnvelopeGap": -28,
+          "shaftGap": -6.35,
+          "floorEnvelopeClear": false,
+          "admittedToCommandedTrial": false
+        }
+      ],
+      "admittedCommandedYaw": [
+        90,
+        90
+      ],
+      "admittedEntryOffsets": [
+        -10,
+        10
+      ],
+      "validEndToEndEnvelope": null,
+      "scope": "Floor drum screen is necessary only, not certification of nonzero-yaw transport. No +/-30 or all-angle capability."
+    },
+    "compressionMm": 3,
+    "criterion": "Actual continuous belt working surfaces, not supporting wheel stations. Two banks and separate top/bottom opposition. Narrow +/-10 index envelope, 0.5 mm contact reserve. Wide cases are rejects, not required capability."
+  },
+  "clearances": {
+    "maximumHardwareExtension": 483.596863,
+    "stowedHeight": 742.317893,
+    "stowedInset": 2,
+    "bumperVertical": 59,
+    "allYawBumper": 59,
+    "hardwareBumper": -0.000001,
+    "fold": -27.270788,
+    "loadedFold": 21.35,
+    "rubberBodies": 5,
+    "wholeShaftToGuide": 18.5,
+    "coralToShaft": 20.15,
+    "receiverRoof": 71.7,
+    "receiverFrontStop": 11.1875,
+    "receiverRearStop": 11.1875
+  },
+  "controls": {
+    "controlledPositionDOF": 5,
+    "positioning": [
+      "nose pivot",
+      "symmetric receiver jaws",
+      "receiver stop slide",
+      "cell front gate",
+      "cell back gate"
+    ],
+    "rollerDrives": 3,
+    "drives": [
+      "paired opposed nose belts",
+      "left opposed fixed belts",
+      "right opposed fixed belts"
+    ],
+    "totalControlledActuators": 8,
+    "interlocks": [
+      "absent/waiting: stop acquisition, feed and yaw; retain occupied cell",
+      "ready: open entry, retain, then release back gate"
+    ],
+    "unmodeled": [
+      "motors and reductions",
+      "upper nose bend backing/idlers",
+      "upper shafts and supports",
+      "gate slides",
+      "yaw observability",
+      "transmission coupling",
+      "tensioners and holding brakes"
+    ]
+  },
+  "mount": {
+    "tested": [
+      "front",
+      "left"
+    ],
+    "results": {
+      "front": {
+        "hardwareBumper": -0.000001,
+        "stowedInset": 2
+      },
+      "left": {
+        "hardwareBumper": -0.000001,
+        "stowedInset": 2
+      }
+    },
+    "leftReceiver": [
+      80,
+      380,
+      281.15
+    ],
+    "localAxis": [
+      0,
+      1,
+      0
+    ],
+    "leftWorldAxis": [
+      1,
+      0,
+      0
+    ],
+    "interpretation": "Rigid side-entry equivalent; no swerve travel penalty. Full chassis-ring packaging only, not other subsystems."
+  },
+  "receiver": {
+    "datum": [
+      0,
+      430,
+      281.15
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "fixed": true,
+    "openJawGap": 148.3,
+    "closedJawGap": 108.3,
+    "sequence": "Ready/open -> feed to fixed datum -> close jaws -> confirm capture -> close front stop -> nose folds. Abort feed if receiver absent.",
+    "release": "Reverse the same jaw/stop slides only after downstream ownership confirmation. No receiving subsystem or automatic confirmation is modeled."
+  },
+  "decision": "Local split-belt geometry trial only. FAIL is not selectable; no all-angle or passive yaw trajectory claim. A remains fixed feed, unlike B retained-carrier transport."
+}

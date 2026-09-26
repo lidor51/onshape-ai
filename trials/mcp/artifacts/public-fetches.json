@@ -1,0 +1,37 @@
+[
+  {
+    "name": "repositories",
+    "url": "https://api.github.com/search/repositories?q=onshape%20mcp&sort=stars&per_page=8",
+    "status": 200,
+    "fetchedAt": "2026-09-11T11:37:08.827Z",
+    "sha256": "11e48be075117e2c3046c6b41994d0ed492132f33857442e9f53d26caa92066d"
+  },
+  {
+    "name": "release",
+    "url": "https://api.github.com/repos/altendky/onshape-mcp/releases/tags/v0.5.2",
+    "status": 200,
+    "fetchedAt": "2026-09-11T11:37:09.050Z",
+    "sha256": "56c3d055cf86e3669da850166e235244b7c0748841d7271d13eb9dc0bae23243"
+  },
+  {
+    "name": "commit",
+    "url": "https://api.github.com/repos/altendky/onshape-mcp/commits/3bd1bf698818ade4ab286f0e3a7cc57289114b91",
+    "status": 200,
+    "fetchedAt": "2026-09-11T11:37:09.436Z",
+    "sha256": "5721fdf9bfc283b1bb96298328a202bbacbaf3074613bd09fc44f7395e8e2430"
+  },
+  {
+    "name": "official-openapi",
+    "url": "https://cad.onshape.com/api/openapi",
+    "status": 200,
+    "fetchedAt": "2026-09-11T11:37:11.319Z",
+    "sha256": "0814f64c52138852e17d750c8443c84dfe16a71d44ff1d166a05d227d3cf6186"
+  },
+  {
+    "name": "fs-library",
+    "url": "https://cad.onshape.com/FsDoc/library.html",
+    "status": 200,
+    "fetchedAt": "2026-09-11T11:37:11.471Z",
+    "sha256": "7c4f074e15eeb719e82d77a66171e70b8bada0c8c5a860f07a312f05d30b6e9b"
+  }
+]

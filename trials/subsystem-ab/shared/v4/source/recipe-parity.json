@@ -1,0 +1,853 @@
+{
+  "checks": [
+    {
+      "part": "chassis_reference",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "chassis_reference",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bumper_keepout",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bumper_keepout",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x20",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x20",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x16",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x16",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x50",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x50",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "nut_M6",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "nut_M6",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "washer_M6",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "washer_M6",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "collar_half_hex",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "collar_half_hex",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "end_retainer_M5",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "end_retainer_M5",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bearing_retainer",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "bearing_retainer",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "M4_retainer_screw",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "M4_retainer_screw",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_cheek",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_cheek",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_tube",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_tube",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_rubber",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_rubber",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_hex_shaft",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_hex_shaft",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_end_plug",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_end_plug",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_cross_pin",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_cross_pin",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "chain_sprocket_12t",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "chain_sprocket_12t",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "fixed_transfer_cheek",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "fixed_transfer_cheek",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_0",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_0",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_1",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_1",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_2",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_2",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_3",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_3",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_4",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_4",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_5",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_5",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_6",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_6",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_7",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_7",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_0",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_0",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_1",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_1",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_2",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_2",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_3",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_3",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "float_carriage",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "float_carriage",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cross_tube",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cross_tube",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cross_tube_plug",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cross_tube_plug",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_spine",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_spine",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_hub",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_hub",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_bush",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_bush",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "tower",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "tower",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "chassis_mount_block",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "chassis_mount_block",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cradle_floor",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cradle_floor",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cradle_stop",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "cradle_stop",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "anti_bounce_finger",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "anti_bounce_finger",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "sensor_bracket",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "sensor_bracket",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "frame_post",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "frame_post",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_drum",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_drum",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_shaft",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_shaft",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_deck",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_deck",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "motor_mount",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "motor_mount",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "deployment_motor_mount",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "deployment_motor_mount",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "motor_screw_10_32",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "motor_screw_10_32",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "receiver_bridge_reference",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "receiver_bridge_reference",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "receiver_finger_reference",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "receiver_finger_reference",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "coral_reference",
+      "variant": "baseline",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    },
+    {
+      "part": "coral_reference",
+      "variant": "revision",
+      "volumeDifferenceMm3": 0.0,
+      "boundsDifferenceMm": 0.0,
+      "topologyCountsEqual": true,
+      "status": "PASS"
+    }
+  ],
+  "meaning": "Local recipe parity, NOT FeatureScript execution parity"
+}

@@ -1,0 +1,12 @@
+{
+  "entry": "test_layout.py",
+  "args": [],
+  "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "started": "2026-09-13T09:44:19.720Z",
+  "ended": "2026-09-13T09:44:20.894Z",
+  "wallSeconds": 1.174,
+  "wallLimitMs": 600000,
+  "timedOut": false,
+  "signal": null,
+  "exitCode": 0
+}

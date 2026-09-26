@@ -1,0 +1,198 @@
+[
+  {
+    "id": "R07",
+    "title": "Low-Mast Partner",
+    "family": "Opposed-belt coral transfer to short lift; independent algae telescope; deep cage",
+    "strategy": "Cover coral L1-L3 from station or floor, clear either reef algae tier for partners, and deliver algae to processor. Retain a deep-cage option. Alliance coverage, not a predicted throughput or stability advantage, motivates this concept.",
+    "tradeoff": "No L4 or net. At equal success, L4 beats L3 TELEOP rate only below a 25% cycle-time premium (5/4); equality ties. Times are unmeasured. A lower center of mass is a hypothesis, not computed.",
+    "firstTest": "Check upper-grip floor algae and processor release at the shared low-head pose against measured geometry; verify both reef heights separately. Then bench-test belt-to-lift retention and the deep hook/load path. No physical tests have run.",
+    "capabilities": {
+      "coralLevels": [1, 2, 3],
+      "coralSources": ["station", "floor"],
+      "algaeSources": ["reefLow", "reefHigh", "floor"],
+      "algaeDestinations": ["processor"],
+      "climb": "deep",
+      "simultaneousCarry": false
+    },
+    "subsystems": {
+      "drive": "Use the provided common 700 x 760 chassis, four drive-module envelopes and intact bumper ring; no duplicate chassis geometry or bumper cutout. X60/X44 drives and WCP interfaces are candidates only; ratios, power, mass and stability remain unsized.",
+      "coral": "Opposed compliant belts maintain contact over the front bumper, then align coral lengthwise (+y axis) into the short-lift wrist. Confirm wrist grip before releasing belts. Station feed enters that wrist directly. Proposed wrist pitch offers L1-L3; tool centers are not station/branch datums or insertion proofs. Nominal coral is OD114.3 x L301.625 mm; belts, alignment and pitch remain untested.",
+      "algae": "A dedicated pivoting short telescope owns one roller head. ReefLow/reefHigh heights are unknown: z1080/1520 are provisional tool-center intents pending measurement. Shared z410 low-head pose proposes floor upper-grip and processor offer using different wrist/ball contacts, not measured release geometry. Algae OD412.75 +/-6.35 mm; grip, tolerances and controlled-ball swept bounds remain open. No net.",
+      "climb": "Deep setting is selected with field staff before play. Rear winch crossmember ties both rails to a hook boom; stowed and deployed links explicitly join hook to base. Drawn hook z360 is a proposal, not cage-bottom or contact height. Winch lock, engagement, ANCHOR avoidance, frame loads and carpet clearance are unverified; cage contact alone is not a climb.",
+      "packaging": "Reserve separate rear-left battery and right-front electrical boxes alongside the mechanisms, with rear battery lift-out and top electrical service access. Keep the center deck largely open. Use router-cut aluminum/polycarbonate plates, tubes, spacers and printed guides, not accurate metal bends. Mount boxes on chassis brackets; service clearances and battery fit await verification.",
+      "control": "Independent actuators, but serialize coral/algae carrying. Track one of each under G409 and inhibit acquisition if occupancy/location is unknown. Positive transfer confirmation, guarded release/jam recovery and climb/stow interlock are required. Tools/links sharing an owner show mutually exclusive pose samples, not duplicate mechanisms; all views use this one 3D dataset. Base remains; stowed/deployed are alternative states.",
+      "stow": "Fold belt carrier, lower short-lift wrist, retract algae head into its rear cradle and latch deep hook. Clear both pieces before climb. Nominal box half-sizes and link radii must fit x+/-350, y0..760, z<=1066.8 in base/stow; deploy uses the 420 mm sketch margin. Tool envelopes are hardware, not game-piece solids; all centers are proposed, not measured field datums. Sweeps and retained-piece bounds are unverified."
+    },
+    "cycle": {
+      "auto": "Coordinate LEAVE and an intended preload L2/L3 placement with partners; the drawing is not an autonomous reach or success test. Add station/floor acquisition only after possession and collision guards are demonstrated. No net or L4 routine.",
+      "coral": "Floor: belt nip -> over-bumper retention -> lengthwise alignment -> confirmed wrist handoff -> short lift -> L1/L2/L3 offer -> release and retreat. Station: receive directly in the same wrist. One coral throughout; separately test loose and initially algae-stacked floor cases rather than ingesting both blindly.",
+      "algae": "Stow coral path; use the same algae head at floor or provisional low/high reef pose. Retain, retract over the intact bumper, drive to processor and offer from the shared low-head pose. Different contacts/locations require testing. A processor score gives 6 to us; a later opponent HP net score gives them 4, not us 10.",
+      "endgame": "Stop acquisition, clear pieces, lower coral and latch algae stow. Approach the preselected deep cage; deploy hook from its rail-tied base and tension the winch under a future verified load limit. Confirm legal support and carpet clearance. Abort to park when appropriate; deep and park are alternatives, not additive."
+    },
+    "inspiration": [
+      {
+        "source": "research/2025-coral/1690-1778.md",
+        "lesson": "Local report, 1690 E03: the author reports separating acquisition from orientation and a rear-roller deletion that produced a transfer dead spot. That supports checking continuous contact at the installed handoff. These opposed belts, dimensions, short lift, algae telescope and deep climb are original proposals, not a measured 1690 replica or reported team capabilities."
+      },
+      {
+        "source": "trials/whole-robot-concepts/GAME-ANALYSIS.md",
+        "lesson": "Conditional Value Checks: L4 wins the L3 TELEOP point-rate comparison only if 5*p4/t4 > 4*p3/t3. Equal success gives the 1.25 cycle-time boundary; 25% is an equality premium, not measured time saved by omitting L4. Access, RP value, penalties and partner coverage can change the decision. Lower center of mass has not been calculated."
+      },
+      {
+        "source": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+        "lesson": "Use the locally verified manual scope in GAME-ANALYSIS: pp.23-34 field/piece references, pp.45-50 scoring and cage conditions, G409 occupancy and R101-R105/R401/R405 envelopes and intact bumpers. Branch tips, station bottom and cage bottom are not tool centers. Unknown reef-algae heights remain unknown; these acquisition, scoring and hook poses are unverified proposals."
+      }
+    ],
+    "geometry": {
+      "boxes": [
+        {"name": "Short coral mast on front-left rail bracket", "role": "structure", "center": [-170, 285, 590], "size": [100, 100, 820], "state": "base"},
+        {"name": "Coral short-lift carriage and wrist stowed", "role": "coral", "center": [-170, 285, 430], "size": [320, 220, 220], "state": "stowed"},
+        {"name": "Opposed-belt pickup folded carrier", "role": "coral", "center": [-170, 110, 510], "size": [280, 160, 240], "state": "stowed"},
+        {"name": "Independent algae telescope pivot and drive", "role": "algae", "center": [210, 420, 310], "size": [120, 100, 180], "state": "base"},
+        {"name": "Algae roller head rear retention stow", "role": "algae", "center": [100, 535, 790], "size": [460, 180, 160], "state": "stowed"},
+        {"name": "Deep winch and brake on rear crossmember", "role": "climb", "center": [0, 620, 235], "size": [180, 130, 170], "state": "base"},
+        {"name": "Deep hook boom latched stow", "role": "climb", "center": [0, 700, 510], "size": [200, 80, 180], "state": "stowed"},
+        {"name": "Deep hook proposed engagement, not cage datum", "role": "climb", "center": [0, 1050, 360], "size": [210, 100, 160], "state": "deployed"},
+        {"name": "Battery reserve, rear-left lift-out access", "role": "electrical", "center": [-235, 535, 240], "size": [160, 230, 180], "state": "base"},
+        {"name": "Electrical reserve, right-front top access", "role": "electrical", "center": [215, 235, 215], "size": [190, 220, 130], "state": "base"}
+      ],
+      "links": [
+        {"name": "Coral mast rail foot and fixed guide", "role": "structure", "points": [[-285, 285, 150], [-170, 285, 190], [-170, 285, 990]], "radius": 18, "state": "base"},
+        {"name": "Coral belt carrier floor proposal from lift handoff", "role": "coral", "points": [[-170, 285, 430], [-170, 110, 510], [-170, -125, 310], [-170, -280, 115]], "radius": 18, "state": "deployed"},
+        {"name": "Coral wrist station alternative from short lift", "role": "coral", "points": [[-170, 285, 430], [-170, 285, 1020], [-170, -200, 1060]], "radius": 16, "state": "deployed"},
+        {"name": "Coral wrist L1 alternative from short lift", "role": "coral", "points": [[-170, 285, 430], [-170, -200, 540]], "radius": 16, "state": "deployed"},
+        {"name": "Coral wrist L2 alternative from short lift", "role": "coral", "points": [[-170, 285, 430], [-170, 285, 880], [-170, -200, 900]], "radius": 16, "state": "deployed"},
+        {"name": "Coral wrist L3 alternative from short lift", "role": "coral", "points": [[-170, 285, 430], [-170, 285, 1260], [-170, -200, 1300]], "radius": 16, "state": "deployed"},
+        {"name": "Algae telescope rail anchor", "role": "structure", "points": [[285, 420, 150], [210, 420, 310]], "radius": 18, "state": "base"},
+        {"name": "Algae telescope folded to rear head stow", "role": "algae", "points": [[210, 420, 310], [210, 420, 650], [100, 535, 790]], "radius": 22, "state": "stowed"},
+        {"name": "Algae head shared floor-processor low-pose alternative", "role": "algae", "points": [[210, 420, 310], [210, 160, 650], [0, -275, 410]], "radius": 22, "state": "deployed"},
+        {"name": "Algae head reef low alternative, reach unverified", "role": "algae", "points": [[210, 420, 310], [210, 160, 820], [160, -200, 1080]], "radius": 22, "state": "deployed"},
+        {"name": "Algae head reef high alternative, reach unverified", "role": "algae", "points": [[210, 420, 310], [210, 220, 1250], [160, -200, 1520]], "radius": 22, "state": "deployed"},
+        {"name": "Deep winch rail-to-rail load crossmember, unverified", "role": "climb", "points": [[-260, 620, 150], [0, 620, 235], [260, 620, 150]], "radius": 22, "state": "base"},
+        {"name": "Deep hook stowed boom to winch base", "role": "climb", "points": [[0, 620, 235], [0, 700, 510]], "radius": 25, "state": "stowed"},
+        {"name": "Deep hook deployed boom to winch base, unverified", "role": "climb", "points": [[0, 620, 235], [0, 820, 610], [0, 1050, 360]], "radius": 25, "state": "deployed"},
+        {"name": "Deep hook proposed winch tension return", "role": "climb", "points": [[0, 1050, 360], [0, 620, 235]], "radius": 8, "state": "deployed"}
+      ],
+      "tools": [
+        {"name": "Coral floor belt nip proposed center", "role": "coral", "center": [-170, -280, 115], "size": [320, 220, 220], "state": "deployed"},
+        {"name": "Coral station wrist proposed center", "role": "coral", "center": [-170, -200, 1060], "size": [320, 220, 220], "state": "deployed"},
+        {"name": "Coral L1 wrist proposed offer center", "role": "coral", "center": [-170, -200, 540], "size": [320, 220, 220], "state": "deployed"},
+        {"name": "Coral L2 wrist proposed offer center", "role": "coral", "center": [-170, -200, 900], "size": [320, 220, 220], "state": "deployed"},
+        {"name": "Coral L3 wrist proposed offer center", "role": "coral", "center": [-170, -200, 1300], "size": [320, 220, 220], "state": "deployed"},
+        {"name": "Algae floor / processor shared low-head proposed center", "role": "algae", "center": [0, -275, 410], "size": [460, 180, 160], "state": "deployed"},
+        {"name": "Algae reef low proposed head center, height unknown", "role": "algae", "center": [160, -200, 1080], "size": [460, 180, 160], "state": "deployed"},
+        {"name": "Algae reef high proposed head center, height unknown", "role": "algae", "center": [160, -200, 1520], "size": [460, 180, 160], "state": "deployed"}
+      ],
+      "routes": [
+        {"name": "Coral floor to belt retention to wrist to L3 example", "role": "coral", "points": [[-170, -280, 115], [-170, -125, 310], [-170, 110, 510], [-170, 285, 430], [-170, 285, 1260], [-170, -200, 1300]]},
+        {"name": "Coral station to same wrist retention to L2 example", "role": "coral", "points": [[-170, -200, 1060], [-170, 285, 430], [-170, 285, 880], [-170, -200, 900]]},
+        {"name": "Algae floor to retention to processor, same low head at different robot locations", "role": "algae", "points": [[0, -275, 410], [100, 535, 790], [0, -275, 410]]},
+        {"name": "Algae high retract via low waypoint to retention to processor", "role": "algae", "points": [[160, -200, 1520], [160, -200, 1080], [100, 535, 790], [0, -275, 410]]}
+      ],
+      "annotations": [
+        {"at": [-170, -200, 1300], "text": "Proposed centers; no field datum"},
+        {"at": [160, -200, 1520], "text": "One head, alternative poses"},
+        {"at": [0, 1050, 360], "text": "Deep load path unverified"},
+        {"at": [-235, 535, 240], "text": "Rear battery lift-out"}
+      ]
+    }
+  },
+  {
+    "id": "R08",
+    "title": "Wide-Mouth Cycle Partner",
+    "family": "Broad coral tip-roller carrier to small scoring arm; independent low algae arm; shallow cage",
+    "strategy": "Limit reach for alliance coverage: seek frequent L1/L2 coral cycles from station or floor, plus floor/low-reef algae to processor and a shallow climb. Simplicity is a design intent, not a measured reliability or best-robot claim.",
+    "tradeoff": "Omit coral L3/L4, high-reef algae, net and deep climb. Partners must cover those scoring/reach gaps. Broad capture needs orientation and handoff tests; fewer reach stages do not establish faster cycles or lower total integration effort.",
+    "firstTest": "Test the broad mouth with off-angle coral, carrier-fixed lower contact and deliberately offset receiver. Check low-reef/processor poses against measurements, then prove shallow-hook retention and load path. These tests have not run.",
+    "capabilities": {
+      "coralLevels": [1, 2],
+      "coralSources": ["station", "floor"],
+      "algaeSources": ["floor", "reefLow"],
+      "algaeDestinations": ["processor"],
+      "climb": "shallow",
+      "simultaneousCarry": false
+    },
+    "subsystems": {
+      "drive": "Retain the provided common chassis, four drive modules and continuous bumper ring without a cutout. Driver-assisted heading correction is an intended recovery option, not orientation-independent pickup. X60/X44 and WCP choices remain candidates; no motor ratio, power, mass or cycle time is established.",
+      "coral": "A proposed 600 mm broad carrier captures coral crosswise (+x axis). During raising, guides center it; a powered tip roller pushes against lower contact locked to the moving carrier, not world. Handoff is to a grip-confirmed cradle on a small folding scoring arm with its own drive, not R07's elevator. That cradle also receives station coral and offers L1/L2. Coral OD114.3 x L301.625 mm; all tool centers/pitch are proposals, not field datums.",
+      "algae": "Independent short folding arm and compliant roller head handle floor and reefLow only, retaining then offering to processor. Low-reef z1060 is a provisional tool center pending measurement; reef algae height remains unknown. Floor z270 and processor z480 are proposed head centers, not measured ball centers or opening datums. Algae OD412.75 +/-6.35 mm. High-reef reach and net are intentionally absent; grip and full controlled-ball bounds remain unverified.",
+      "climb": "Preselect shallow cage with field staff. Rear winch cradle transfers hook load into both chassis rails; separate stowed/deployed hook links explicitly return to the base. Proposed hook z1040 is not the 765.175 cage-bottom datum or an established engagement point. Brake, hook lock, frame loads, ANCHOR avoidance and no-carpet-contact qualification remain unverified. No deep-climb mode.",
+      "packaging": "Use sparse flat aluminum/polycarbonate plates, spacers, tubes and printed centering guides without precision bends. Rear-left battery and right-front electrical boxes remain alongside the mechanisms, with rear battery lift-out and top electronics access. The compact coral arm avoids a tall lift bay; this is a packaging hypothesis, not computed mass savings. Check real battery, cables and service sweep later.",
+      "control": "Serialize carrying despite independent coral/algae drives. One-piece occupancy, positive cradle grip before carrier release, and possession-versus-centering checks are mandatory. Inhibit unknown occupancy/location, guard release and jam recovery, and interlock climb with stow. Each owner's tool/link poses are alternatives in the same 3D dataset, not duplicate arms; all views share base plus stowed/deployed state selection.",
+      "stow": "Raise and latch broad carrier, fold scoring cradle above its drive, fold algae head into rear retention and latch shallow hook. Clear pieces before climb. Base/stow half-size/radius bounds must fit x+/-350, y0..760, z<=1066.8; deployed hardware uses the 420 mm sketch margin. Tool boxes bound hardware, not whole pieces. All centers are provisional; unmodeled joints, sweeps, retained-piece clearance and service access remain open."
+    },
+    "cycle": {
+      "auto": "Coordinate LEAVE and a preload L1/L2 placement with the alliance; no higher-level routine. Add a station or floor acquisition only after carrier ownership and receiver alignment guards work. Frequent low-level cycling is an intended role, not a measured autonomous count or time.",
+      "coral": "Floor: broad capture -> retain while raising/centering -> powered tip against carrier-fixed lower contact -> confirmed scoring-cradle grip -> small-arm L1/L2 offer -> release. Station feeds that cradle directly. Presence alone does not confirm centering. Test loose and algae-stacked starts separately and avoid a second controlled coral.",
+      "algae": "Park coral mechanism, capture one floor or low-reef algae, confirm roller retention, retract over the intact bumper, drive to processor and release under location guard. Do not attempt high-reef removal or net. Processor gives 6 own points; a subsequent opponent HP conversion is 4 opponent points, not 10 own points.",
+      "endgame": "End cycles, clear both pieces and latch carrier/cradle/algae stow. Deploy rail-connected shallow hook toward the preselected cage, confirm retention and tension the winch only after load proof. Test legal hanging clear of carpet and ANCHORS. Choose a park abort when justified; shallow and park are mutually exclusive scores."
+    },
+    "inspiration": [
+      {
+        "source": "research/2025-coral/1690-1778.md",
+        "lesson": "1778 E07-E11 are author-reported: raising/centering, presence sensing that is not centering sensing, fixed lower axle needed for handoff, and sensitivity to receiver alignment. E10 describes driver-assisted rotation, not universal-angle capture. Our 600 mm broad mouth, carrier geometry, small scoring arm, algae path and shallow climb are original proposals, not a measured 1778 replica."
+      },
+      {
+        "source": "trials/whole-robot-concepts/GAME-ANALYSIS.md",
+        "lesson": "The lower-reach family is conditional on alliance complementarity, not evidence that simplicity produces fast cycles. R08 intentionally goes below the L1-L3 example to L1/L2 and reefLow only. Reef clearing earns no removal points; any partner access benefit is conditional. A shallow-climb choice still needs its own time, reliability and load-path evidence."
+      },
+      {
+        "source": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+        "lesson": "Locally verified scope: pp.23-34 separates field datums from mechanism poses; pp.45-50 defines scoring/cages; G409 governs whole-robot occupancy, including handoffs; R101-R105 and R401/R405 govern size and intact bumpers. No manual datum is a measured manipulator center. L1 is a trough, not a branch; cage contact alone does not qualify a shallow climb."
+      }
+    ],
+    "geometry": {
+      "boxes": [
+        {"name": "Broad coral carrier pivot crossbar", "role": "coral", "center": [0, 170, 295], "size": [500, 90, 150], "state": "base"},
+        {"name": "Tip-roller carrier with locked lower contact, stowed", "role": "coral", "center": [0, 170, 540], "size": [600, 230, 260], "state": "stowed"},
+        {"name": "Small coral scoring-arm drive and shoulder", "role": "coral", "center": [-205, 350, 360], "size": [130, 150, 180], "state": "base"},
+        {"name": "Coral scoring cradle retained stow", "role": "coral", "center": [-100, 425, 630], "size": [360, 180, 180], "state": "stowed"},
+        {"name": "Independent low-algae arm pivot and drive", "role": "algae", "center": [230, 460, 305], "size": [100, 120, 210], "state": "base"},
+        {"name": "Algae roller head folded rear stow", "role": "algae", "center": [100, 595, 890], "size": [460, 180, 160], "state": "stowed"},
+        {"name": "Shallow winch and brake rear cradle", "role": "climb", "center": [0, 660, 260], "size": [150, 120, 180], "state": "base"},
+        {"name": "Shallow hook latched stow", "role": "climb", "center": [0, 695, 450], "size": [200, 90, 160], "state": "stowed"},
+        {"name": "Shallow hook proposed engagement, not cage datum", "role": "climb", "center": [0, 1040, 1040], "size": [210, 120, 160], "state": "deployed"},
+        {"name": "Battery reserve, rear-left lift-out access", "role": "electrical", "center": [-230, 630, 235], "size": [160, 220, 170], "state": "base"},
+        {"name": "Electrical reserve, right-front top access", "role": "electrical", "center": [220, 245, 235], "size": [170, 180, 150], "state": "base"}
+      ],
+      "links": [
+        {"name": "Coral carrier and small-arm chassis anchor brackets", "role": "structure", "points": [[285, 170, 150], [0, 170, 295], [-285, 170, 150], [-285, 350, 150], [-205, 350, 360]], "radius": 18, "state": "base"},
+        {"name": "Coral carrier folded about its own pivot", "role": "coral", "points": [[0, 170, 295], [0, 170, 540]], "radius": 18, "state": "stowed"},
+        {"name": "Coral broad carrier floor pose over intact bumper", "role": "coral", "points": [[0, 170, 295], [0, -125, 310], [0, -270, 150]], "radius": 18, "state": "deployed"},
+        {"name": "Coral powered tip transfer to small-arm cradle", "role": "coral", "points": [[0, 170, 540], [-100, 335, 630], [-100, 425, 630]], "radius": 12, "state": "stowed"},
+        {"name": "Coral small scoring arm folded to retained cradle", "role": "coral", "points": [[-205, 350, 360], [-100, 425, 630]], "radius": 20, "state": "stowed"},
+        {"name": "Coral small-arm station alternative from shoulder", "role": "coral", "points": [[-205, 350, 360], [-100, 170, 820], [-100, -180, 1050]], "radius": 20, "state": "deployed"},
+        {"name": "Coral small-arm L1 alternative from shoulder", "role": "coral", "points": [[-205, 350, 360], [-100, 110, 510], [-100, -180, 510]], "radius": 20, "state": "deployed"},
+        {"name": "Coral small-arm L2 alternative from shoulder", "role": "coral", "points": [[-205, 350, 360], [-100, 100, 760], [-100, -180, 890]], "radius": 20, "state": "deployed"},
+        {"name": "Algae pivot and shallow winch rail load brackets", "role": "structure", "points": [[230, 460, 305], [285, 460, 150], [285, 660, 150], [0, 660, 260], [-285, 660, 150]], "radius": 20, "state": "base"},
+        {"name": "Algae short arm folded to rear retention", "role": "algae", "points": [[230, 460, 305], [230, 460, 680], [100, 595, 890]], "radius": 22, "state": "stowed"},
+        {"name": "Algae short-arm floor alternative from pivot", "role": "algae", "points": [[230, 460, 305], [230, 120, 620], [60, -265, 270]], "radius": 22, "state": "deployed"},
+        {"name": "Algae short-arm reef low alternative, height unknown", "role": "algae", "points": [[230, 460, 305], [230, 120, 820], [170, -180, 1060]], "radius": 22, "state": "deployed"},
+        {"name": "Algae short-arm processor offer alternative", "role": "algae", "points": [[230, 460, 305], [230, 120, 620], [210, -190, 480]], "radius": 22, "state": "deployed"},
+        {"name": "Shallow hook stowed load link to winch base", "role": "climb", "points": [[0, 660, 260], [0, 695, 450]], "radius": 24, "state": "stowed"},
+        {"name": "Shallow hook deployed boom and internal tension path to base, unverified", "role": "climb", "points": [[0, 660, 260], [0, 830, 710], [0, 1040, 1040]], "radius": 24, "state": "deployed"}
+      ],
+      "tools": [
+        {"name": "Coral floor broad carrier proposed center", "role": "coral", "center": [0, -270, 150], "size": [600, 230, 260], "state": "deployed"},
+        {"name": "Coral station small-arm cradle proposed center", "role": "coral", "center": [-100, -180, 1050], "size": [360, 180, 180], "state": "deployed"},
+        {"name": "Coral L1 small-arm cradle proposed offer center", "role": "coral", "center": [-100, -180, 510], "size": [360, 180, 180], "state": "deployed"},
+        {"name": "Coral L2 small-arm cradle proposed offer center", "role": "coral", "center": [-100, -180, 890], "size": [360, 180, 180], "state": "deployed"},
+        {"name": "Algae floor proposed head center", "role": "algae", "center": [60, -265, 270], "size": [460, 180, 160], "state": "deployed"},
+        {"name": "Algae reef low proposed head center, height unknown", "role": "algae", "center": [170, -180, 1060], "size": [460, 180, 160], "state": "deployed"},
+        {"name": "Algae processor proposed head offer center", "role": "algae", "center": [210, -190, 480], "size": [460, 180, 160], "state": "deployed"}
+      ],
+      "routes": [
+        {"name": "Coral floor carrier to crosswise retention to small-arm L1 example", "role": "coral", "points": [[0, -270, 150], [0, -125, 310], [0, 170, 540], [-100, 425, 630], [-100, -180, 510]]},
+        {"name": "Coral station direct cradle retention to small-arm L2 example", "role": "coral", "points": [[-100, -180, 1050], [-100, 425, 630], [-100, -180, 890]]},
+        {"name": "Algae floor to independent retention to processor", "role": "algae", "points": [[60, -265, 270], [100, 595, 890], [210, -190, 480]]},
+        {"name": "Algae low reef to same retention to processor", "role": "algae", "points": [[170, -180, 1060], [100, 595, 890], [210, -190, 480]]}
+      ],
+      "annotations": [
+        {"at": [0, 170, 540], "text": "Lower contact locked to carrier"},
+        {"at": [-100, -180, 1050], "text": "Proposed centers; no field datum"},
+        {"at": [170, -180, 1060], "text": "One head, alternative poses"},
+        {"at": [0, 1040, 1040], "text": "Shallow load path unverified"}
+      ]
+    }
+  }
+]

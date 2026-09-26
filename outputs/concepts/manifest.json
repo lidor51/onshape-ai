@@ -1,0 +1,162 @@
+{
+  "stage": 2,
+  "apiCalls": 0,
+  "cadKernelRuns": 0,
+  "conceptCount": 14,
+  "overviewSize": {
+    "width": 2000,
+    "height": 4926
+  },
+  "status": "UNTESTED_CONCEPT_PREVIEWS",
+  "files": [
+    {
+      "id": "01",
+      "file": "concept-01.svg",
+      "sha256": "0674fedfb8d76ca91f47f72ed1932a887eb39a0ed1e3d751425e5f090c0a8931"
+    },
+    {
+      "id": "02",
+      "file": "concept-02.svg",
+      "sha256": "04a7f9dca01dc98e03ee07cbcfb6ccab85c1b62e0004aa1594f13ea198f06600"
+    },
+    {
+      "id": "03",
+      "file": "concept-03.svg",
+      "sha256": "20f13c679f01863769fc1165293aadb07201d6fd80be467c7f4241edbcb08aa7"
+    },
+    {
+      "id": "04",
+      "file": "concept-04.svg",
+      "sha256": "52ba6084be43549c3232468491373be572e30ffb156dedfeef3646548cd755c7"
+    },
+    {
+      "id": "05",
+      "file": "concept-05.svg",
+      "sha256": "37b1cb6166c7c051fc3e93cf0ea9ebd8a0d8d876dba49868a83a75867d02f371"
+    },
+    {
+      "id": "06",
+      "file": "concept-06.svg",
+      "sha256": "c96b3240797a1cfc25ef88df056cf11785a19bf4d66f03605b90718c2c023315"
+    },
+    {
+      "id": "07",
+      "file": "concept-07.svg",
+      "sha256": "730b041bceca4d81d423fad16939e4c967f302bfd7e1369d4f2f34471f4dfbe5"
+    },
+    {
+      "id": "08",
+      "file": "concept-08.svg",
+      "sha256": "7d9c7009f1786616652828bdaa6afca749a4a4b9ff2b981da911a2c1d0fa58e7"
+    },
+    {
+      "id": "09",
+      "file": "concept-09.svg",
+      "sha256": "fa359ab1466d750d77514ad963132e2f580b4c77aee28bdf9d893116c6c1e00d"
+    },
+    {
+      "id": "10",
+      "file": "concept-10.svg",
+      "sha256": "ff775dad4a3c29ee11acf05b0a252499665343c7b089debda844f9e951474b86"
+    },
+    {
+      "id": "11",
+      "file": "concept-11.svg",
+      "sha256": "7eeda93da23c1ea598a494123c99e2e34074123678475a9601883f1e25fe4432"
+    },
+    {
+      "id": "12",
+      "file": "concept-12.svg",
+      "sha256": "8c5086b7df75e30c50b36ba46560eab639df81910883188ced41bac26dacbb49"
+    },
+    {
+      "id": "13",
+      "file": "concept-13.svg",
+      "sha256": "8d01f0a7949267420472c9243143f4dad92a33cb116555ca35e0c15d8a8888ab"
+    },
+    {
+      "id": "14",
+      "file": "concept-14.svg",
+      "sha256": "91090bcaaf4f15222edcc0d87e07c32fa307faad7145b53ca40f9ddde015571f"
+    }
+  ],
+  "rasters": [
+    {
+      "file": "concept-01.png",
+      "bytes": 166415,
+      "sha256": "d4b46ab4dc6d116888e29f7a01738f92be0cbfdc4672942768b2c34c04195156"
+    },
+    {
+      "file": "concept-02.png",
+      "bytes": 176165,
+      "sha256": "e5232e9335cd32fcf8ba4d8cd19223ee810b01022fc5dbfc7e19e38a5553f905"
+    },
+    {
+      "file": "concept-03.png",
+      "bytes": 172474,
+      "sha256": "27f7aeaaff1264ffc175bd408f83aa09c821e6db31bbe43c80904f4840482227"
+    },
+    {
+      "file": "concept-04.png",
+      "bytes": 148833,
+      "sha256": "fce6ebff87f8a8d4b30086dfe1374a1df859cfac3f77ca0b962ecb050f4c7f15"
+    },
+    {
+      "file": "concept-05.png",
+      "bytes": 154285,
+      "sha256": "6332c2371178eb2dae78aa9b16d49348b39bb326ae33d04c41dc8a7a72881cf5"
+    },
+    {
+      "file": "concept-06.png",
+      "bytes": 167791,
+      "sha256": "c3ee8a228e863bf57aed4232f2c15e3c7d2d497e3a80174179dc12ab80a0d38c"
+    },
+    {
+      "file": "concept-07.png",
+      "bytes": 150599,
+      "sha256": "a8f8d7c38ec813b87a966a5e1d0f996bb35f8e221478081e255488b82cc01315"
+    },
+    {
+      "file": "concept-08.png",
+      "bytes": 150839,
+      "sha256": "2fd6bb182a89574e3222dfd5e6d68a8c49084aa5e124b53d342226a3ecfe1080"
+    },
+    {
+      "file": "concept-09.png",
+      "bytes": 163741,
+      "sha256": "7f565ee4c8306172b6219bfb715135657cc2b9372a027e900abedb8a830d4b0c"
+    },
+    {
+      "file": "concept-10.png",
+      "bytes": 187548,
+      "sha256": "9073a77f8fe11438dda02543c806d8bdecd18f2f5f6823eb3727d9280714f3fc"
+    },
+    {
+      "file": "concept-11.png",
+      "bytes": 200259,
+      "sha256": "87128889a21b3e24b542a44af790ea03edebd131c4d234d7cdad8d5b566dfc96"
+    },
+    {
+      "file": "concept-12.png",
+      "bytes": 187543,
+      "sha256": "1544c929125e3ba6a47f10d269f9403d3e3e51a321d25f0db872fc0e58f8d17b"
+    },
+    {
+      "file": "concept-13.png",
+      "bytes": 170236,
+      "sha256": "70e29bf0f5ce831c37bff01f785334526a00c2b986849a2f91e72f9270d4a951"
+    },
+    {
+      "file": "concept-14.png",
+      "bytes": 178585,
+      "sha256": "076b22f59c3f8efabda5363cd21f7bf3ee3186a21e605765e2af504fce86ef8c"
+    },
+    {
+      "file": "overview.png",
+      "bytes": 1349320,
+      "sha256": "ed5f87513ce242661e99ea18bfbedabf2e00bdccbdab86c24c36a0d226c391ba"
+    }
+  ],
+  "rasterEngine": "@resvg/resvg-js 2.6.2 (2D SVG rasterizer, not a CAD kernel)",
+  "rasterElapsedMs": 12609
+}

@@ -1,0 +1,2832 @@
+{
+  "status": "BLOCKED_NOT_NATIVE_ADMITTED",
+  "controls": {
+    "mouthWidth": {
+      "default": 500.0,
+      "min": 500.0,
+      "max": 520.0,
+      "unit": "mm"
+    },
+    "receiverHeight": {
+      "default": 447.15,
+      "min": 437.15,
+      "max": 467.15,
+      "unit": "mm"
+    },
+    "topFloat": {
+      "default": 0.0,
+      "min": 0.0,
+      "max": 12.0,
+      "unit": "mm"
+    }
+  },
+  "baseline": {
+    "mouthWidth": 500.0,
+    "receiverHeight": 447.15,
+    "topFloat": 0.0
+  },
+  "revision": {
+    "mouthWidth": 520,
+    "receiverHeight": 447.15,
+    "topFloat": 0.0
+  },
+  "receiverProbe": {
+    "mouthWidth": 500.0,
+    "receiverHeight": 467.15,
+    "topFloat": 0.0
+  },
+  "groups": [
+    {
+      "id": "fixed",
+      "parent": null,
+      "jointType": "FIXED",
+      "originMm": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "chassis",
+        "bumper",
+        "fixed_roll_0_retainer_L",
+        "fixed_roll_0_retainer_screw_L0",
+        "fixed_roll_0_retainer_screw_L120",
+        "fixed_roll_0_retainer_screw_L240",
+        "fixed_roll_0_retainer_R",
+        "fixed_roll_0_retainer_screw_R0",
+        "fixed_roll_0_retainer_screw_R120",
+        "fixed_roll_0_retainer_screw_R240",
+        "fixed_roll_1_retainer_L",
+        "fixed_roll_1_retainer_screw_L0",
+        "fixed_roll_1_retainer_screw_L120",
+        "fixed_roll_1_retainer_screw_L240",
+        "fixed_roll_1_retainer_R",
+        "fixed_roll_1_retainer_screw_R0",
+        "fixed_roll_1_retainer_screw_R120",
+        "fixed_roll_1_retainer_screw_R240",
+        "fixed_roll_2_retainer_L",
+        "fixed_roll_2_retainer_screw_L0",
+        "fixed_roll_2_retainer_screw_L120",
+        "fixed_roll_2_retainer_screw_L240",
+        "fixed_roll_2_retainer_R",
+        "fixed_roll_2_retainer_screw_R0",
+        "fixed_roll_2_retainer_screw_R120",
+        "fixed_roll_2_retainer_screw_R240",
+        "fixed_roll_3_retainer_L",
+        "fixed_roll_3_retainer_screw_L0",
+        "fixed_roll_3_retainer_screw_L120",
+        "fixed_roll_3_retainer_screw_L240",
+        "fixed_roll_3_retainer_R",
+        "fixed_roll_3_retainer_screw_R0",
+        "fixed_roll_3_retainer_screw_R120",
+        "fixed_roll_3_retainer_screw_R240",
+        "fixed_transfer_cheek_-1",
+        "fixed_transfer_cheek_1",
+        "tower_-1",
+        "pivot_bush_-1",
+        "chassis_mount_block_-1",
+        "tower_joint_-1_125_135_screw",
+        "tower_joint_-1_125_135_nut",
+        "tower_joint_-1_125_135_washer",
+        "tower_joint_-1_125_160_screw",
+        "tower_joint_-1_125_160_nut",
+        "tower_joint_-1_125_160_washer",
+        "tower_joint_-1_165_135_screw",
+        "tower_joint_-1_165_135_nut",
+        "tower_joint_-1_165_135_washer",
+        "tower_joint_-1_165_160_screw",
+        "tower_joint_-1_165_160_nut",
+        "tower_joint_-1_165_160_washer",
+        "tower_1",
+        "pivot_bush_1",
+        "chassis_mount_block_1",
+        "tower_joint_1_125_135_screw",
+        "tower_joint_1_125_135_nut",
+        "tower_joint_1_125_135_washer",
+        "tower_joint_1_125_160_screw",
+        "tower_joint_1_125_160_nut",
+        "tower_joint_1_125_160_washer",
+        "tower_joint_1_165_135_screw",
+        "tower_joint_1_165_135_nut",
+        "tower_joint_1_165_135_washer",
+        "tower_joint_1_165_160_screw",
+        "tower_joint_1_165_160_nut",
+        "tower_joint_1_165_160_washer",
+        "cradle_floor",
+        "cradle_stop",
+        "anti_bounce_-1",
+        "anti_bounce_1",
+        "sensor_460_-1",
+        "sensor_460_1",
+        "sensor_650_-1",
+        "sensor_650_1",
+        "frame_post_-305.0_300",
+        "frame_post_-305.0_700",
+        "frame_post_305.0_300",
+        "frame_post_305.0_700",
+        "orienter_deck_-1_380",
+        "orienter_deck_-1_524",
+        "orienter_deck_1_380",
+        "orienter_deck_1_524",
+        "deploy_motor_0",
+        "deploy_motor_1",
+        "deploy_motor_mount",
+        "deploy_motor_screw_0",
+        "deploy_motor_screw_120",
+        "deploy_motor_screw_240",
+        "orienter_left_motor_0",
+        "orienter_left_motor_1",
+        "orienter_left_motor_mount",
+        "orienter_left_motor_screw_0",
+        "orienter_left_motor_screw_120",
+        "orienter_left_motor_screw_240",
+        "orienter_right_motor_0",
+        "orienter_right_motor_1",
+        "orienter_right_motor_mount",
+        "orienter_right_motor_screw_0",
+        "orienter_right_motor_screw_120",
+        "orienter_right_motor_screw_240"
+      ],
+      "memberConnectorIds": [
+        "instance_0_mount",
+        "instance_1_mount",
+        "instance_242_mount",
+        "instance_243_mount",
+        "instance_244_mount",
+        "instance_245_mount",
+        "instance_250_mount",
+        "instance_251_mount",
+        "instance_252_mount",
+        "instance_253_mount",
+        "instance_263_mount",
+        "instance_264_mount",
+        "instance_265_mount",
+        "instance_266_mount",
+        "instance_271_mount",
+        "instance_272_mount",
+        "instance_273_mount",
+        "instance_274_mount",
+        "instance_284_mount",
+        "instance_285_mount",
+        "instance_286_mount",
+        "instance_287_mount",
+        "instance_292_mount",
+        "instance_293_mount",
+        "instance_294_mount",
+        "instance_295_mount",
+        "instance_305_mount",
+        "instance_306_mount",
+        "instance_307_mount",
+        "instance_308_mount",
+        "instance_313_mount",
+        "instance_314_mount",
+        "instance_315_mount",
+        "instance_316_mount",
+        "instance_319_mount",
+        "instance_320_mount",
+        "instance_391_mount",
+        "instance_392_mount",
+        "instance_394_mount",
+        "instance_403_mount",
+        "instance_404_mount",
+        "instance_405_mount",
+        "instance_406_mount",
+        "instance_407_mount",
+        "instance_408_mount",
+        "instance_409_mount",
+        "instance_410_mount",
+        "instance_411_mount",
+        "instance_412_mount",
+        "instance_413_mount",
+        "instance_414_mount",
+        "instance_415_mount",
+        "instance_416_mount",
+        "instance_418_mount",
+        "instance_427_mount",
+        "instance_428_mount",
+        "instance_429_mount",
+        "instance_430_mount",
+        "instance_431_mount",
+        "instance_432_mount",
+        "instance_433_mount",
+        "instance_434_mount",
+        "instance_435_mount",
+        "instance_436_mount",
+        "instance_437_mount",
+        "instance_438_mount",
+        "instance_439_mount",
+        "instance_440_mount",
+        "instance_441_mount",
+        "instance_442_mount",
+        "instance_443_mount",
+        "instance_444_mount",
+        "instance_445_mount",
+        "instance_446_mount",
+        "instance_447_mount",
+        "instance_448_mount",
+        "instance_449_mount",
+        "instance_450_mount",
+        "instance_461_mount",
+        "instance_462_mount",
+        "instance_473_mount",
+        "instance_474_mount",
+        "instance_475_mount",
+        "instance_476_mount",
+        "instance_477_mount",
+        "instance_478_mount",
+        "instance_479_mount",
+        "instance_480_mount",
+        "instance_491_mount",
+        "instance_492_mount",
+        "instance_493_mount",
+        "instance_494_mount",
+        "instance_495_mount",
+        "instance_496_mount",
+        "instance_499_mount",
+        "instance_500_mount",
+        "instance_501_mount",
+        "instance_502_mount",
+        "instance_503_mount",
+        "instance_504_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0.0,
+        140.0,
+        435.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": [
+        -135,
+        0
+      ],
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_left_cheek",
+        "pickup_right_cheek",
+        "pickup_roll_0_retainer_L",
+        "pickup_roll_0_retainer_screw_L0",
+        "pickup_roll_0_retainer_screw_L120",
+        "pickup_roll_0_retainer_screw_L240",
+        "pickup_roll_0_retainer_R",
+        "pickup_roll_0_retainer_screw_R0",
+        "pickup_roll_0_retainer_screw_R120",
+        "pickup_roll_0_retainer_screw_R240",
+        "pickup_roll_1_retainer_L",
+        "pickup_roll_1_retainer_screw_L0",
+        "pickup_roll_1_retainer_screw_L120",
+        "pickup_roll_1_retainer_screw_L240",
+        "pickup_roll_1_retainer_R",
+        "pickup_roll_1_retainer_screw_R0",
+        "pickup_roll_1_retainer_screw_R120",
+        "pickup_roll_1_retainer_screw_R240",
+        "pickup_roll_2_retainer_L",
+        "pickup_roll_2_retainer_screw_L0",
+        "pickup_roll_2_retainer_screw_L120",
+        "pickup_roll_2_retainer_screw_L240",
+        "pickup_roll_2_retainer_R",
+        "pickup_roll_2_retainer_screw_R0",
+        "pickup_roll_2_retainer_screw_R120",
+        "pickup_roll_2_retainer_screw_R240",
+        "pickup_roll_3_retainer_L",
+        "pickup_roll_3_retainer_screw_L0",
+        "pickup_roll_3_retainer_screw_L120",
+        "pickup_roll_3_retainer_screw_L240",
+        "pickup_roll_3_retainer_R",
+        "pickup_roll_3_retainer_screw_R0",
+        "pickup_roll_3_retainer_screw_R120",
+        "pickup_roll_3_retainer_screw_R240",
+        "pickup_roll_4_retainer_L",
+        "pickup_roll_4_retainer_screw_L0",
+        "pickup_roll_4_retainer_screw_L120",
+        "pickup_roll_4_retainer_screw_L240",
+        "pickup_roll_4_retainer_R",
+        "pickup_roll_4_retainer_screw_R0",
+        "pickup_roll_4_retainer_screw_R120",
+        "pickup_roll_4_retainer_screw_R240",
+        "pickup_roll_5_retainer_L",
+        "pickup_roll_5_retainer_screw_L0",
+        "pickup_roll_5_retainer_screw_L120",
+        "pickup_roll_5_retainer_screw_L240",
+        "pickup_roll_5_retainer_R",
+        "pickup_roll_5_retainer_screw_R0",
+        "pickup_roll_5_retainer_screw_R120",
+        "pickup_roll_5_retainer_screw_R240",
+        "pickup_roll_6_retainer_L",
+        "pickup_roll_6_retainer_screw_L0",
+        "pickup_roll_6_retainer_screw_L120",
+        "pickup_roll_6_retainer_screw_L240",
+        "pickup_roll_6_retainer_R",
+        "pickup_roll_6_retainer_screw_R0",
+        "pickup_roll_6_retainer_screw_R120",
+        "pickup_roll_6_retainer_screw_R240",
+        "pickup_roll_7_retainer_L",
+        "pickup_roll_7_retainer_screw_L0",
+        "pickup_roll_7_retainer_screw_L120",
+        "pickup_roll_7_retainer_screw_L240",
+        "pickup_roll_7_retainer_R",
+        "pickup_roll_7_retainer_screw_R0",
+        "pickup_roll_7_retainer_screw_R120",
+        "pickup_roll_7_retainer_screw_R240",
+        "pickup_roll_8_retainer_L",
+        "pickup_roll_8_retainer_screw_L0",
+        "pickup_roll_8_retainer_screw_L120",
+        "pickup_roll_8_retainer_screw_L240",
+        "pickup_roll_8_retainer_R",
+        "pickup_roll_8_retainer_screw_R0",
+        "pickup_roll_8_retainer_screw_R120",
+        "pickup_roll_8_retainer_screw_R240",
+        "pickup_roll_9_retainer_L",
+        "pickup_roll_9_retainer_screw_L0",
+        "pickup_roll_9_retainer_screw_L120",
+        "pickup_roll_9_retainer_screw_L240",
+        "pickup_roll_9_retainer_R",
+        "pickup_roll_9_retainer_screw_R0",
+        "pickup_roll_9_retainer_screw_R120",
+        "pickup_roll_9_retainer_screw_R240",
+        "pickup_roll_10_retainer_L",
+        "pickup_roll_10_retainer_screw_L0",
+        "pickup_roll_10_retainer_screw_L120",
+        "pickup_roll_10_retainer_screw_L240",
+        "pickup_roll_10_retainer_R",
+        "pickup_roll_10_retainer_screw_R0",
+        "pickup_roll_10_retainer_screw_R120",
+        "pickup_roll_10_retainer_screw_R240",
+        "pickup_lower_guide_0",
+        "pickup_lower_guide_1",
+        "pickup_lower_guide_2",
+        "pickup_lower_guide_3",
+        "pickup_lower_guide_4",
+        "pickup_lower_guide_5",
+        "pickup_lower_guide_6",
+        "pickup_lower_guide_7",
+        "pickup_float_slide_-1_-32_screw",
+        "pickup_float_slide_-1_-32_nut",
+        "pickup_float_slide_-1_-32_washer",
+        "pickup_float_slide_-1_32_screw",
+        "pickup_float_slide_-1_32_nut",
+        "pickup_float_slide_-1_32_washer",
+        "pickup_float_slide_1_-32_screw",
+        "pickup_float_slide_1_-32_nut",
+        "pickup_float_slide_1_-32_washer",
+        "pickup_float_slide_1_32_screw",
+        "pickup_float_slide_1_32_nut",
+        "pickup_float_slide_1_32_washer",
+        "pickup_cross_tube_0",
+        "pickup_cross_plug_0_-1",
+        "pickup_cross_joint_0_-1_screw",
+        "pickup_cross_joint_0_-1_washer",
+        "pickup_cross_plug_0_1",
+        "pickup_cross_joint_0_1_screw",
+        "pickup_cross_joint_0_1_washer",
+        "pickup_cross_tube_1",
+        "pickup_cross_plug_1_-1",
+        "pickup_cross_joint_1_-1_screw",
+        "pickup_cross_joint_1_-1_washer",
+        "pickup_cross_plug_1_1",
+        "pickup_cross_joint_1_1_screw",
+        "pickup_cross_joint_1_1_washer",
+        "pickup_cross_tube_2",
+        "pickup_cross_plug_2_-1",
+        "pickup_cross_joint_2_-1_screw",
+        "pickup_cross_joint_2_-1_washer",
+        "pickup_cross_plug_2_1",
+        "pickup_cross_joint_2_1_screw",
+        "pickup_cross_joint_2_1_washer",
+        "pickup_trunnion_-1",
+        "pickup_trunnion_1",
+        "pickup_hub_-1",
+        "pickup_hub_joint_-1_45_screw",
+        "pickup_hub_joint_-1_45_washer",
+        "pickup_hub_joint_-1_135_screw",
+        "pickup_hub_joint_-1_135_washer",
+        "pickup_hub_joint_-1_225_screw",
+        "pickup_hub_joint_-1_225_washer",
+        "pickup_hub_joint_-1_315_screw",
+        "pickup_hub_joint_-1_315_washer",
+        "pickup_hub_1",
+        "pickup_hub_joint_1_45_screw",
+        "pickup_hub_joint_1_45_washer",
+        "pickup_hub_joint_1_135_screw",
+        "pickup_hub_joint_1_135_washer",
+        "pickup_hub_joint_1_225_screw",
+        "pickup_hub_joint_1_225_washer",
+        "pickup_hub_joint_1_315_screw",
+        "pickup_hub_joint_1_315_washer",
+        "deploy_motor_gear_0",
+        "pickup_motor_0",
+        "pickup_motor_1",
+        "pickup_motor_mount",
+        "pickup_motor_screw_0",
+        "pickup_motor_screw_120",
+        "pickup_motor_screw_240"
+      ],
+      "memberConnectorIds": [
+        "instance_2_mount",
+        "instance_3_mount",
+        "instance_11_mount",
+        "instance_12_mount",
+        "instance_13_mount",
+        "instance_14_mount",
+        "instance_19_mount",
+        "instance_20_mount",
+        "instance_21_mount",
+        "instance_22_mount",
+        "instance_32_mount",
+        "instance_33_mount",
+        "instance_34_mount",
+        "instance_35_mount",
+        "instance_40_mount",
+        "instance_41_mount",
+        "instance_42_mount",
+        "instance_43_mount",
+        "instance_53_mount",
+        "instance_54_mount",
+        "instance_55_mount",
+        "instance_56_mount",
+        "instance_61_mount",
+        "instance_62_mount",
+        "instance_63_mount",
+        "instance_64_mount",
+        "instance_74_mount",
+        "instance_75_mount",
+        "instance_76_mount",
+        "instance_77_mount",
+        "instance_82_mount",
+        "instance_83_mount",
+        "instance_84_mount",
+        "instance_85_mount",
+        "instance_95_mount",
+        "instance_96_mount",
+        "instance_97_mount",
+        "instance_98_mount",
+        "instance_103_mount",
+        "instance_104_mount",
+        "instance_105_mount",
+        "instance_106_mount",
+        "instance_116_mount",
+        "instance_117_mount",
+        "instance_118_mount",
+        "instance_119_mount",
+        "instance_124_mount",
+        "instance_125_mount",
+        "instance_126_mount",
+        "instance_127_mount",
+        "instance_137_mount",
+        "instance_138_mount",
+        "instance_139_mount",
+        "instance_140_mount",
+        "instance_145_mount",
+        "instance_146_mount",
+        "instance_147_mount",
+        "instance_148_mount",
+        "instance_158_mount",
+        "instance_159_mount",
+        "instance_160_mount",
+        "instance_161_mount",
+        "instance_166_mount",
+        "instance_167_mount",
+        "instance_168_mount",
+        "instance_169_mount",
+        "instance_179_mount",
+        "instance_180_mount",
+        "instance_181_mount",
+        "instance_182_mount",
+        "instance_187_mount",
+        "instance_188_mount",
+        "instance_189_mount",
+        "instance_190_mount",
+        "instance_200_mount",
+        "instance_201_mount",
+        "instance_202_mount",
+        "instance_203_mount",
+        "instance_208_mount",
+        "instance_209_mount",
+        "instance_210_mount",
+        "instance_211_mount",
+        "instance_221_mount",
+        "instance_222_mount",
+        "instance_223_mount",
+        "instance_224_mount",
+        "instance_229_mount",
+        "instance_230_mount",
+        "instance_231_mount",
+        "instance_232_mount",
+        "instance_321_mount",
+        "instance_322_mount",
+        "instance_323_mount",
+        "instance_324_mount",
+        "instance_325_mount",
+        "instance_326_mount",
+        "instance_327_mount",
+        "instance_328_mount",
+        "instance_355_mount",
+        "instance_356_mount",
+        "instance_357_mount",
+        "instance_358_mount",
+        "instance_359_mount",
+        "instance_360_mount",
+        "instance_362_mount",
+        "instance_363_mount",
+        "instance_364_mount",
+        "instance_365_mount",
+        "instance_366_mount",
+        "instance_367_mount",
+        "instance_368_mount",
+        "instance_369_mount",
+        "instance_370_mount",
+        "instance_371_mount",
+        "instance_372_mount",
+        "instance_373_mount",
+        "instance_374_mount",
+        "instance_375_mount",
+        "instance_376_mount",
+        "instance_377_mount",
+        "instance_378_mount",
+        "instance_379_mount",
+        "instance_380_mount",
+        "instance_381_mount",
+        "instance_382_mount",
+        "instance_383_mount",
+        "instance_384_mount",
+        "instance_385_mount",
+        "instance_386_mount",
+        "instance_387_mount",
+        "instance_388_mount",
+        "instance_389_mount",
+        "instance_390_mount",
+        "instance_393_mount",
+        "instance_395_mount",
+        "instance_396_mount",
+        "instance_397_mount",
+        "instance_398_mount",
+        "instance_399_mount",
+        "instance_400_mount",
+        "instance_401_mount",
+        "instance_402_mount",
+        "instance_417_mount",
+        "instance_419_mount",
+        "instance_420_mount",
+        "instance_421_mount",
+        "instance_422_mount",
+        "instance_423_mount",
+        "instance_424_mount",
+        "instance_425_mount",
+        "instance_426_mount",
+        "instance_482_mount",
+        "instance_483_mount",
+        "instance_484_mount",
+        "instance_485_mount",
+        "instance_486_mount",
+        "instance_487_mount",
+        "instance_488_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_top",
+      "parent": "pickup",
+      "jointType": "SLIDER",
+      "originMm": [
+        0,
+        -359.9,
+        154.9
+      ],
+      "axis": [
+        0,
+        -0.7525766947068778,
+        0.6585046078685182
+      ],
+      "limits": [
+        0,
+        12
+      ],
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_upper_guide_0",
+        "pickup_upper_guide_1",
+        "pickup_upper_guide_2",
+        "pickup_upper_guide_3",
+        "pickup_top_entry_retainer_L",
+        "pickup_top_entry_retainer_screw_L0",
+        "pickup_top_entry_retainer_screw_L120",
+        "pickup_top_entry_retainer_screw_L240",
+        "pickup_top_entry_retainer_R",
+        "pickup_top_entry_retainer_screw_R0",
+        "pickup_top_entry_retainer_screw_R120",
+        "pickup_top_entry_retainer_screw_R240",
+        "pickup_float_carriage_-1",
+        "pickup_float_carriage_1"
+      ],
+      "memberConnectorIds": [
+        "instance_329_mount",
+        "instance_330_mount",
+        "instance_331_mount",
+        "instance_332_mount",
+        "instance_340_mount",
+        "instance_341_mount",
+        "instance_342_mount",
+        "instance_343_mount",
+        "instance_348_mount",
+        "instance_349_mount",
+        "instance_350_mount",
+        "instance_351_mount",
+        "instance_354_mount",
+        "instance_361_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "receiver",
+      "parent": "fixed",
+      "jointType": "SLIDER",
+      "originMm": [
+        0,
+        560,
+        447.15
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "limits": [
+        0,
+        100
+      ],
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "receiver_bridge",
+        "receiver_finger_-1",
+        "receiver_finger_1"
+      ],
+      "memberConnectorIds": [
+        "instance_507_mount",
+        "instance_508_mount",
+        "instance_509_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_0_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -240,
+        50
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_0_shaft",
+        "pickup_roll_0_tube",
+        "pickup_roll_0_rubber",
+        "pickup_roll_0_plug_L",
+        "pickup_roll_0_collar_L",
+        "pickup_roll_0_end_L",
+        "pickup_roll_0_bearing_L_0",
+        "pickup_roll_0_plug_R",
+        "pickup_roll_0_collar_R",
+        "pickup_roll_0_end_R",
+        "pickup_roll_0_bearing_R_0",
+        "pickup_roll_0_sprocket_14",
+        "pickup_roll_0_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_4_mount",
+        "instance_5_mount",
+        "instance_6_mount",
+        "instance_7_mount",
+        "instance_8_mount",
+        "instance_9_mount",
+        "instance_10_mount",
+        "instance_15_mount",
+        "instance_16_mount",
+        "instance_17_mount",
+        "instance_18_mount",
+        "instance_23_mount",
+        "instance_24_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_1_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -205,
+        90
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_1_shaft",
+        "pickup_roll_1_tube",
+        "pickup_roll_1_rubber",
+        "pickup_roll_1_plug_L",
+        "pickup_roll_1_collar_L",
+        "pickup_roll_1_end_L",
+        "pickup_roll_1_bearing_L_0",
+        "pickup_roll_1_plug_R",
+        "pickup_roll_1_collar_R",
+        "pickup_roll_1_end_R",
+        "pickup_roll_1_bearing_R_0",
+        "pickup_roll_1_sprocket_14",
+        "pickup_roll_1_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_25_mount",
+        "instance_26_mount",
+        "instance_27_mount",
+        "instance_28_mount",
+        "instance_29_mount",
+        "instance_30_mount",
+        "instance_31_mount",
+        "instance_36_mount",
+        "instance_37_mount",
+        "instance_38_mount",
+        "instance_39_mount",
+        "instance_44_mount",
+        "instance_45_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_2_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -170,
+        130
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_2_shaft",
+        "pickup_roll_2_tube",
+        "pickup_roll_2_rubber",
+        "pickup_roll_2_plug_L",
+        "pickup_roll_2_collar_L",
+        "pickup_roll_2_end_L",
+        "pickup_roll_2_bearing_L_0",
+        "pickup_roll_2_plug_R",
+        "pickup_roll_2_collar_R",
+        "pickup_roll_2_end_R",
+        "pickup_roll_2_bearing_R_0",
+        "pickup_roll_2_sprocket_14",
+        "pickup_roll_2_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_46_mount",
+        "instance_47_mount",
+        "instance_48_mount",
+        "instance_49_mount",
+        "instance_50_mount",
+        "instance_51_mount",
+        "instance_52_mount",
+        "instance_57_mount",
+        "instance_58_mount",
+        "instance_59_mount",
+        "instance_60_mount",
+        "instance_65_mount",
+        "instance_66_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_3_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -135,
+        170
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_3_shaft",
+        "pickup_roll_3_tube",
+        "pickup_roll_3_rubber",
+        "pickup_roll_3_plug_L",
+        "pickup_roll_3_collar_L",
+        "pickup_roll_3_end_L",
+        "pickup_roll_3_bearing_L_0",
+        "pickup_roll_3_plug_R",
+        "pickup_roll_3_collar_R",
+        "pickup_roll_3_end_R",
+        "pickup_roll_3_bearing_R_0",
+        "pickup_roll_3_sprocket_14",
+        "pickup_roll_3_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_67_mount",
+        "instance_68_mount",
+        "instance_69_mount",
+        "instance_70_mount",
+        "instance_71_mount",
+        "instance_72_mount",
+        "instance_73_mount",
+        "instance_78_mount",
+        "instance_79_mount",
+        "instance_80_mount",
+        "instance_81_mount",
+        "instance_86_mount",
+        "instance_87_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_4_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -100,
+        210
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_4_shaft",
+        "pickup_roll_4_tube",
+        "pickup_roll_4_rubber",
+        "pickup_roll_4_plug_L",
+        "pickup_roll_4_collar_L",
+        "pickup_roll_4_end_L",
+        "pickup_roll_4_bearing_L_0",
+        "pickup_roll_4_plug_R",
+        "pickup_roll_4_collar_R",
+        "pickup_roll_4_end_R",
+        "pickup_roll_4_bearing_R_0",
+        "pickup_roll_4_sprocket_14",
+        "pickup_roll_4_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_88_mount",
+        "instance_89_mount",
+        "instance_90_mount",
+        "instance_91_mount",
+        "instance_92_mount",
+        "instance_93_mount",
+        "instance_94_mount",
+        "instance_99_mount",
+        "instance_100_mount",
+        "instance_101_mount",
+        "instance_102_mount",
+        "instance_107_mount",
+        "instance_108_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_5_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -65,
+        250
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_5_shaft",
+        "pickup_roll_5_tube",
+        "pickup_roll_5_rubber",
+        "pickup_roll_5_plug_L",
+        "pickup_roll_5_collar_L",
+        "pickup_roll_5_end_L",
+        "pickup_roll_5_bearing_L_0",
+        "pickup_roll_5_plug_R",
+        "pickup_roll_5_collar_R",
+        "pickup_roll_5_end_R",
+        "pickup_roll_5_bearing_R_0",
+        "pickup_roll_5_sprocket_14",
+        "pickup_roll_5_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_109_mount",
+        "instance_110_mount",
+        "instance_111_mount",
+        "instance_112_mount",
+        "instance_113_mount",
+        "instance_114_mount",
+        "instance_115_mount",
+        "instance_120_mount",
+        "instance_121_mount",
+        "instance_122_mount",
+        "instance_123_mount",
+        "instance_128_mount",
+        "instance_129_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_6_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -30,
+        290
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_6_shaft",
+        "pickup_roll_6_tube",
+        "pickup_roll_6_rubber",
+        "pickup_roll_6_plug_L",
+        "pickup_roll_6_collar_L",
+        "pickup_roll_6_end_L",
+        "pickup_roll_6_bearing_L_0",
+        "pickup_roll_6_plug_R",
+        "pickup_roll_6_collar_R",
+        "pickup_roll_6_end_R",
+        "pickup_roll_6_bearing_R_0",
+        "pickup_roll_6_sprocket_14",
+        "pickup_roll_6_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_130_mount",
+        "instance_131_mount",
+        "instance_132_mount",
+        "instance_133_mount",
+        "instance_134_mount",
+        "instance_135_mount",
+        "instance_136_mount",
+        "instance_141_mount",
+        "instance_142_mount",
+        "instance_143_mount",
+        "instance_144_mount",
+        "instance_149_mount",
+        "instance_150_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_7_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        5,
+        330
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_7_shaft",
+        "pickup_roll_7_tube",
+        "pickup_roll_7_rubber",
+        "pickup_roll_7_plug_L",
+        "pickup_roll_7_collar_L",
+        "pickup_roll_7_end_L",
+        "pickup_roll_7_bearing_L_0",
+        "pickup_roll_7_plug_R",
+        "pickup_roll_7_collar_R",
+        "pickup_roll_7_end_R",
+        "pickup_roll_7_bearing_R_0",
+        "pickup_roll_7_sprocket_14",
+        "pickup_roll_7_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_151_mount",
+        "instance_152_mount",
+        "instance_153_mount",
+        "instance_154_mount",
+        "instance_155_mount",
+        "instance_156_mount",
+        "instance_157_mount",
+        "instance_162_mount",
+        "instance_163_mount",
+        "instance_164_mount",
+        "instance_165_mount",
+        "instance_170_mount",
+        "instance_171_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_8_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        40,
+        370
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_8_shaft",
+        "pickup_roll_8_tube",
+        "pickup_roll_8_rubber",
+        "pickup_roll_8_plug_L",
+        "pickup_roll_8_collar_L",
+        "pickup_roll_8_end_L",
+        "pickup_roll_8_bearing_L_0",
+        "pickup_roll_8_plug_R",
+        "pickup_roll_8_collar_R",
+        "pickup_roll_8_end_R",
+        "pickup_roll_8_bearing_R_0",
+        "pickup_roll_8_sprocket_14",
+        "pickup_roll_8_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_172_mount",
+        "instance_173_mount",
+        "instance_174_mount",
+        "instance_175_mount",
+        "instance_176_mount",
+        "instance_177_mount",
+        "instance_178_mount",
+        "instance_183_mount",
+        "instance_184_mount",
+        "instance_185_mount",
+        "instance_186_mount",
+        "instance_191_mount",
+        "instance_192_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_9_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        90.0,
+        370.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_9_shaft",
+        "pickup_roll_9_tube",
+        "pickup_roll_9_rubber",
+        "pickup_roll_9_plug_L",
+        "pickup_roll_9_collar_L",
+        "pickup_roll_9_end_L",
+        "pickup_roll_9_bearing_L_0",
+        "pickup_roll_9_plug_R",
+        "pickup_roll_9_collar_R",
+        "pickup_roll_9_end_R",
+        "pickup_roll_9_bearing_R_0",
+        "pickup_roll_9_sprocket_14",
+        "pickup_roll_9_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_193_mount",
+        "instance_194_mount",
+        "instance_195_mount",
+        "instance_196_mount",
+        "instance_197_mount",
+        "instance_198_mount",
+        "instance_199_mount",
+        "instance_204_mount",
+        "instance_205_mount",
+        "instance_206_mount",
+        "instance_207_mount",
+        "instance_212_mount",
+        "instance_213_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_roll_10_rotation",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        140.0,
+        370.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_roll_10_shaft",
+        "pickup_roll_10_tube",
+        "pickup_roll_10_rubber",
+        "pickup_roll_10_plug_L",
+        "pickup_roll_10_collar_L",
+        "pickup_roll_10_end_L",
+        "pickup_roll_10_bearing_L_0",
+        "pickup_roll_10_plug_R",
+        "pickup_roll_10_collar_R",
+        "pickup_roll_10_end_R",
+        "pickup_roll_10_bearing_R_0",
+        "pickup_roll_10_sprocket_14",
+        "pickup_roll_10_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_214_mount",
+        "instance_215_mount",
+        "instance_216_mount",
+        "instance_217_mount",
+        "instance_218_mount",
+        "instance_219_mount",
+        "instance_220_mount",
+        "instance_225_mount",
+        "instance_226_mount",
+        "instance_227_mount",
+        "instance_228_mount",
+        "instance_233_mount",
+        "instance_234_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "fixed_roll_0_rotation",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        195,
+        370
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "fixed_roll_0_shaft",
+        "fixed_roll_0_tube",
+        "fixed_roll_0_rubber",
+        "fixed_roll_0_plug_L",
+        "fixed_roll_0_collar_L",
+        "fixed_roll_0_end_L",
+        "fixed_roll_0_bearing_L_0",
+        "fixed_roll_0_plug_R",
+        "fixed_roll_0_collar_R",
+        "fixed_roll_0_end_R",
+        "fixed_roll_0_bearing_R_0",
+        "fixed_roll_0_sprocket_14",
+        "fixed_roll_0_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_235_mount",
+        "instance_236_mount",
+        "instance_237_mount",
+        "instance_238_mount",
+        "instance_239_mount",
+        "instance_240_mount",
+        "instance_241_mount",
+        "instance_246_mount",
+        "instance_247_mount",
+        "instance_248_mount",
+        "instance_249_mount",
+        "instance_254_mount",
+        "instance_255_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "fixed_roll_1_rotation",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        250,
+        370
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "fixed_roll_1_shaft",
+        "fixed_roll_1_tube",
+        "fixed_roll_1_rubber",
+        "fixed_roll_1_plug_L",
+        "fixed_roll_1_collar_L",
+        "fixed_roll_1_end_L",
+        "fixed_roll_1_bearing_L_0",
+        "fixed_roll_1_plug_R",
+        "fixed_roll_1_collar_R",
+        "fixed_roll_1_end_R",
+        "fixed_roll_1_bearing_R_0",
+        "fixed_roll_1_sprocket_14",
+        "fixed_roll_1_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_256_mount",
+        "instance_257_mount",
+        "instance_258_mount",
+        "instance_259_mount",
+        "instance_260_mount",
+        "instance_261_mount",
+        "instance_262_mount",
+        "instance_267_mount",
+        "instance_268_mount",
+        "instance_269_mount",
+        "instance_270_mount",
+        "instance_275_mount",
+        "instance_276_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "fixed_roll_2_rotation",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        305,
+        370
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "fixed_roll_2_shaft",
+        "fixed_roll_2_tube",
+        "fixed_roll_2_rubber",
+        "fixed_roll_2_plug_L",
+        "fixed_roll_2_collar_L",
+        "fixed_roll_2_end_L",
+        "fixed_roll_2_bearing_L_0",
+        "fixed_roll_2_plug_R",
+        "fixed_roll_2_collar_R",
+        "fixed_roll_2_end_R",
+        "fixed_roll_2_bearing_R_0",
+        "fixed_roll_2_sprocket_14",
+        "fixed_roll_2_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_277_mount",
+        "instance_278_mount",
+        "instance_279_mount",
+        "instance_280_mount",
+        "instance_281_mount",
+        "instance_282_mount",
+        "instance_283_mount",
+        "instance_288_mount",
+        "instance_289_mount",
+        "instance_290_mount",
+        "instance_291_mount",
+        "instance_296_mount",
+        "instance_297_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "fixed_roll_3_rotation",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        360,
+        370
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "fixed_roll_3_shaft",
+        "fixed_roll_3_tube",
+        "fixed_roll_3_rubber",
+        "fixed_roll_3_plug_L",
+        "fixed_roll_3_collar_L",
+        "fixed_roll_3_end_L",
+        "fixed_roll_3_bearing_L_0",
+        "fixed_roll_3_plug_R",
+        "fixed_roll_3_collar_R",
+        "fixed_roll_3_end_R",
+        "fixed_roll_3_bearing_R_0",
+        "fixed_roll_3_sprocket_14",
+        "fixed_roll_3_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_298_mount",
+        "instance_299_mount",
+        "instance_300_mount",
+        "instance_301_mount",
+        "instance_302_mount",
+        "instance_303_mount",
+        "instance_304_mount",
+        "instance_309_mount",
+        "instance_310_mount",
+        "instance_311_mount",
+        "instance_312_mount",
+        "instance_317_mount",
+        "instance_318_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_top_entry_rotation",
+      "parent": "pickup_top",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        0,
+        -374.8792586450702,
+        107.95363049705618
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_top_entry_shaft",
+        "pickup_top_entry_tube",
+        "pickup_top_entry_rubber",
+        "pickup_top_entry_plug_L",
+        "pickup_top_entry_collar_L",
+        "pickup_top_entry_end_L",
+        "pickup_top_entry_bearing_L_0",
+        "pickup_top_entry_plug_R",
+        "pickup_top_entry_collar_R",
+        "pickup_top_entry_end_R",
+        "pickup_top_entry_bearing_R_0",
+        "pickup_top_entry_sprocket_14",
+        "pickup_top_entry_sprocket_22"
+      ],
+      "memberConnectorIds": [
+        "instance_333_mount",
+        "instance_334_mount",
+        "instance_335_mount",
+        "instance_336_mount",
+        "instance_337_mount",
+        "instance_338_mount",
+        "instance_339_mount",
+        "instance_344_mount",
+        "instance_345_mount",
+        "instance_346_mount",
+        "instance_347_mount",
+        "instance_352_mount",
+        "instance_353_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "orienter_-1_0",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        -87.15,
+        400,
+        447.15
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "orienter_-1_0_drum",
+        "orienter_-1_0_shaft",
+        "orienter_-1_0_bearing_384_0",
+        "orienter_-1_0_bearing_528_0",
+        "orienter_-1_0_collar"
+      ],
+      "memberConnectorIds": [
+        "instance_451_mount",
+        "instance_452_mount",
+        "instance_453_mount",
+        "instance_454_mount",
+        "instance_455_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "orienter_-1_1",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        -87.15,
+        540,
+        447.15
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "orienter_-1_1_drum",
+        "orienter_-1_1_shaft",
+        "orienter_-1_1_bearing_384_0",
+        "orienter_-1_1_bearing_528_0",
+        "orienter_-1_1_collar"
+      ],
+      "memberConnectorIds": [
+        "instance_456_mount",
+        "instance_457_mount",
+        "instance_458_mount",
+        "instance_459_mount",
+        "instance_460_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "orienter_1_0",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        87.15,
+        400,
+        447.15
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "orienter_1_0_drum",
+        "orienter_1_0_shaft",
+        "orienter_1_0_bearing_384_0",
+        "orienter_1_0_bearing_528_0",
+        "orienter_1_0_collar"
+      ],
+      "memberConnectorIds": [
+        "instance_463_mount",
+        "instance_464_mount",
+        "instance_465_mount",
+        "instance_466_mount",
+        "instance_467_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "orienter_1_1",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        87.15,
+        540,
+        447.15
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "orienter_1_1_drum",
+        "orienter_1_1_shaft",
+        "orienter_1_1_bearing_384_0",
+        "orienter_1_1_bearing_528_0",
+        "orienter_1_1_collar"
+      ],
+      "memberConnectorIds": [
+        "instance_468_mount",
+        "instance_469_mount",
+        "instance_470_mount",
+        "instance_471_mount",
+        "instance_472_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "deploy_motor_output_reference",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        -262.0,
+        99.36,
+        435
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "deploy_motor_pinion_0"
+      ],
+      "memberConnectorIds": [
+        "instance_481_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "pickup_pickup_motor_output_reference",
+      "parent": "pickup",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        253.0,
+        100,
+        275
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "pickup_motor_pinion_0",
+        "pickup_motor_gear_0"
+      ],
+      "memberConnectorIds": [
+        "instance_489_mount",
+        "instance_490_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "orienter_left_motor_output_reference",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        -127.79,
+        650,
+        560
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "orienter_left_motor_pinion_0",
+        "orienter_left_motor_gear_0"
+      ],
+      "memberConnectorIds": [
+        "instance_497_mount",
+        "instance_498_mount"
+      ],
+      "physicalGroundingComplete": false
+    },
+    {
+      "id": "orienter_right_motor_output_reference",
+      "parent": "fixed",
+      "jointType": "REVOLUTE",
+      "originMm": [
+        127.79,
+        650,
+        560
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limits": null,
+      "nativeStatus": "UNEXECUTED",
+      "members": [
+        "orienter_right_motor_pinion_0",
+        "orienter_right_motor_gear_0"
+      ],
+      "memberConnectorIds": [
+        "instance_505_mount",
+        "instance_506_mount"
+      ],
+      "physicalGroundingComplete": false
+    }
+  ],
+  "relations": [
+    {
+      "id": "pickup_roll_0_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_0_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_1_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_1_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_2_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_2_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_3_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_3_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_4_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_4_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_5_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_5_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_6_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_6_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_7_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_7_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_8_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_8_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_9_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_9_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_roll_10_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_drive_reference",
+      "child": "pickup_roll_10_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "fixed_roll_0_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "fixed_drive_reference",
+      "child": "fixed_roll_0_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "fixed_roll_1_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "fixed_drive_reference",
+      "child": "fixed_roll_1_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "fixed_roll_2_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "fixed_drive_reference",
+      "child": "fixed_roll_2_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "fixed_roll_3_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "fixed_drive_reference",
+      "child": "fixed_roll_3_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "pickup_top_entry_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "parent": "pickup_top_drive_reference",
+      "child": "pickup_top_entry_rotation",
+      "signedRatio": 1,
+      "physicalPath": "alternating short #25 loops; length and tensioner qualification pending"
+    },
+    {
+      "id": "orienter_-1_0_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "signedRatio": 1,
+      "parent": "orienter_-1_motor_output_reference",
+      "child": "orienter_-1_0"
+    },
+    {
+      "id": "orienter_-1_1_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "signedRatio": 1,
+      "parent": "orienter_-1_motor_output_reference",
+      "child": "orienter_-1_1"
+    },
+    {
+      "id": "orienter_1_0_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "signedRatio": 1,
+      "parent": "orienter_1_motor_output_reference",
+      "child": "orienter_1_0"
+    },
+    {
+      "id": "orienter_1_1_drive",
+      "type": "CHAIN_SYNCHRONIZATION",
+      "signedRatio": 1,
+      "parent": "orienter_1_motor_output_reference",
+      "child": "orienter_1_1"
+    },
+    {
+      "id": "deploy_motor_reduction",
+      "type": "GEAR",
+      "signedRatio": -3,
+      "input": "deploy_motor_output_reference",
+      "output": "pickup",
+      "loadCapacity": "UNVERIFIED_NOT_THERMAL_OR_POWER_PASS"
+    },
+    {
+      "id": "pickup_motor_reduction",
+      "type": "GEAR",
+      "signedRatio": -3,
+      "input": "pickup_pickup_motor_output_reference",
+      "output": "pickup_motor_driven_shaft",
+      "loadCapacity": "UNVERIFIED_NOT_THERMAL_OR_POWER_PASS"
+    },
+    {
+      "id": "orienter_left_motor_reduction",
+      "type": "GEAR",
+      "signedRatio": -3,
+      "input": "orienter_left_motor_output_reference",
+      "output": "orienter_left_motor_driven_shaft",
+      "loadCapacity": "UNVERIFIED_NOT_THERMAL_OR_POWER_PASS"
+    },
+    {
+      "id": "orienter_right_motor_reduction",
+      "type": "GEAR",
+      "signedRatio": -3,
+      "input": "orienter_right_motor_output_reference",
+      "output": "orienter_right_motor_driven_shaft",
+      "loadCapacity": "UNVERIFIED_NOT_THERMAL_OR_POWER_PASS"
+    }
+  ],
+  "sourceBodyCount": 58,
+  "physicalInstances": 510,
+  "logicalGroups": 28,
+  "connectors": "source/connectors.json",
+  "instances": [
+    "baseline/instances.json",
+    "revision/instances.json"
+  ],
+  "contactExceptions": [
+    {
+      "pair": [
+        "pickup_roll_0_end_L",
+        "pickup_roll_0_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_0_end_R",
+        "pickup_roll_0_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_1_end_L",
+        "pickup_roll_1_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_1_end_R",
+        "pickup_roll_1_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_2_end_L",
+        "pickup_roll_2_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_2_end_R",
+        "pickup_roll_2_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_3_end_L",
+        "pickup_roll_3_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_3_end_R",
+        "pickup_roll_3_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_4_end_L",
+        "pickup_roll_4_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_4_end_R",
+        "pickup_roll_4_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_5_end_L",
+        "pickup_roll_5_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_5_end_R",
+        "pickup_roll_5_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_6_end_L",
+        "pickup_roll_6_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_6_end_R",
+        "pickup_roll_6_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_7_end_L",
+        "pickup_roll_7_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_7_end_R",
+        "pickup_roll_7_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_8_end_L",
+        "pickup_roll_8_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_8_end_R",
+        "pickup_roll_8_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_9_end_L",
+        "pickup_roll_9_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_9_end_R",
+        "pickup_roll_9_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_10_end_L",
+        "pickup_roll_10_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_roll_10_end_R",
+        "pickup_roll_10_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_0_end_L",
+        "fixed_roll_0_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_0_end_R",
+        "fixed_roll_0_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_1_end_L",
+        "fixed_roll_1_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_1_end_R",
+        "fixed_roll_1_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_2_end_L",
+        "fixed_roll_2_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_2_end_R",
+        "fixed_roll_2_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_3_end_L",
+        "fixed_roll_3_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "fixed_roll_3_end_R",
+        "fixed_roll_3_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_top_entry_end_L",
+        "pickup_top_entry_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_top_entry_end_R",
+        "pickup_top_entry_shaft"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M5 male thread envelope into modeled 4.2 mm tap drill, <=9 mm engagement; threads not tessellated"
+    },
+    {
+      "pair": [
+        "pickup_cross_joint_0_-1_screw",
+        "pickup_cross_plug_0_-1"
+      ],
+      "maximumVolumeMm3": 120,
+      "intent": "M6 thread envelope in 5 mm tapped plug bore; not adhesive torque transfer"
+    },
+    {
+      "pair": [
+        "pickup_cross_joint_0_1_screw",
+        "pickup_cross_plug_0_1"
+      ],
+      "maximumVolumeMm3": 120,
+      "intent": "M6 thread envelope in 5 mm tapped plug bore; not adhesive torque transfer"
+    },
+    {
+      "pair": [
+        "pickup_cross_joint_1_-1_screw",
+        "pickup_cross_plug_1_-1"
+      ],
+      "maximumVolumeMm3": 120,
+      "intent": "M6 thread envelope in 5 mm tapped plug bore; not adhesive torque transfer"
+    },
+    {
+      "pair": [
+        "pickup_cross_joint_1_1_screw",
+        "pickup_cross_plug_1_1"
+      ],
+      "maximumVolumeMm3": 120,
+      "intent": "M6 thread envelope in 5 mm tapped plug bore; not adhesive torque transfer"
+    },
+    {
+      "pair": [
+        "pickup_cross_joint_2_-1_screw",
+        "pickup_cross_plug_2_-1"
+      ],
+      "maximumVolumeMm3": 120,
+      "intent": "M6 thread envelope in 5 mm tapped plug bore; not adhesive torque transfer"
+    },
+    {
+      "pair": [
+        "pickup_cross_joint_2_1_screw",
+        "pickup_cross_plug_2_1"
+      ],
+      "maximumVolumeMm3": 120,
+      "intent": "M6 thread envelope in 5 mm tapped plug bore; not adhesive torque transfer"
+    },
+    {
+      "pair": [
+        "pickup_hub_-1",
+        "pickup_hub_joint_-1_45_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_-1",
+        "pickup_hub_joint_-1_135_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_-1",
+        "pickup_hub_joint_-1_225_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_-1",
+        "pickup_hub_joint_-1_315_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_1",
+        "pickup_hub_joint_1_45_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_1",
+        "pickup_hub_joint_1_135_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_1",
+        "pickup_hub_joint_1_225_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "pickup_hub_1",
+        "pickup_hub_joint_1_315_screw"
+      ],
+      "maximumVolumeMm3": 70,
+      "intent": "M6 screw thread envelope in actual 5 mm tap drill through 8 mm flange; 8 mm modeled thread engagement"
+    },
+    {
+      "pair": [
+        "deploy_motor_0",
+        "deploy_motor_1"
+      ],
+      "maximumVolumeMm3": 1.1,
+      "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+    },
+    {
+      "pair": [
+        "deploy_motor_0",
+        "deploy_motor_screw_0"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "deploy_motor_0",
+        "deploy_motor_screw_120"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "deploy_motor_0",
+        "deploy_motor_screw_240"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "deploy_motor_0",
+        "deploy_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 1,
+      "intent": "Spline tooth contact only; 1 mm3 limit, not blanket motor overlap; joint representation distinct from fixed motor source"
+    },
+    {
+      "pair": [
+        "deploy_motor_gear_0",
+        "deploy_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 0.05,
+      "intent": "Authentic 16:48 mesh, 40.64 mm pitch center; phase/backlash must pass actual geometry"
+    },
+    {
+      "pair": [
+        "pickup_motor_0",
+        "pickup_motor_1"
+      ],
+      "maximumVolumeMm3": 1.1,
+      "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+    },
+    {
+      "pair": [
+        "pickup_motor_0",
+        "pickup_motor_screw_0"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "pickup_motor_0",
+        "pickup_motor_screw_120"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "pickup_motor_0",
+        "pickup_motor_screw_240"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "pickup_motor_0",
+        "pickup_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 1,
+      "intent": "Spline tooth contact only; 1 mm3 limit, not blanket motor overlap; joint representation distinct from fixed motor source"
+    },
+    {
+      "pair": [
+        "pickup_motor_gear_0",
+        "pickup_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 0.05,
+      "intent": "Authentic 16:48 mesh, 40.64 mm pitch center; phase/backlash must pass actual geometry"
+    },
+    {
+      "pair": [
+        "orienter_left_motor_0",
+        "orienter_left_motor_1"
+      ],
+      "maximumVolumeMm3": 1.1,
+      "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+    },
+    {
+      "pair": [
+        "orienter_left_motor_0",
+        "orienter_left_motor_screw_0"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "orienter_left_motor_0",
+        "orienter_left_motor_screw_120"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "orienter_left_motor_0",
+        "orienter_left_motor_screw_240"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "orienter_left_motor_0",
+        "orienter_left_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 1,
+      "intent": "Spline tooth contact only; 1 mm3 limit, not blanket motor overlap; joint representation distinct from fixed motor source"
+    },
+    {
+      "pair": [
+        "orienter_left_motor_gear_0",
+        "orienter_left_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 0.05,
+      "intent": "Authentic 16:48 mesh, 40.64 mm pitch center; phase/backlash must pass actual geometry"
+    },
+    {
+      "pair": [
+        "orienter_right_motor_0",
+        "orienter_right_motor_1"
+      ],
+      "maximumVolumeMm3": 1.1,
+      "intent": "Unmodified original WCP source-body internal overlap measured 1.013296 mm3; fixed presentation solids, no regenerated interface"
+    },
+    {
+      "pair": [
+        "orienter_right_motor_0",
+        "orienter_right_motor_screw_0"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "orienter_right_motor_0",
+        "orienter_right_motor_screw_120"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "orienter_right_motor_0",
+        "orienter_right_motor_screw_240"
+      ],
+      "maximumVolumeMm3": 30,
+      "intent": "Exact #10-32 3/8-inch screw thread envelope in original blind tap-drill; modeled engagement 3.525 mm, physical qualification pending"
+    },
+    {
+      "pair": [
+        "orienter_right_motor_0",
+        "orienter_right_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 1,
+      "intent": "Spline tooth contact only; 1 mm3 limit, not blanket motor overlap; joint representation distinct from fixed motor source"
+    },
+    {
+      "pair": [
+        "orienter_right_motor_gear_0",
+        "orienter_right_motor_pinion_0"
+      ],
+      "maximumVolumeMm3": 0.05,
+      "intent": "Authentic 16:48 mesh, 40.64 mm pitch center; phase/backlash must pass actual geometry"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "pickup_float_slide_-1_-32",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -254.6,
+        -406.8792586450702,
+        122.95363049705618
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_float_slide_-1_32",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -254.6,
+        -342.8792586450702,
+        122.95363049705618
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_float_slide_1_-32",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        254.6,
+        -406.8792586450702,
+        122.95363049705618
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_float_slide_1_32",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        254.6,
+        -342.8792586450702,
+        122.95363049705618
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_cross_joint_0_-1",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -254.6,
+        140.0,
+        315.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_cross_joint_0_1",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        254.6,
+        140.0,
+        315.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_cross_joint_1_-1",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -254.6,
+        25.0,
+        290.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_cross_joint_1_1",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        254.6,
+        25.0,
+        290.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_cross_joint_2_-1",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -254.6,
+        -185.0,
+        35.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_cross_joint_2_1",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        254.6,
+        -185.0,
+        35.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_hub_joint_-1_45",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "pickup_hub_joint_-1_135",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "pickup_hub_joint_-1_225",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "pickup_hub_joint_-1_315",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "tower_joint_-1_125_135",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -327.6,
+        125.0,
+        135.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "tower_joint_-1_125_160",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -327.6,
+        125.0,
+        160.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "tower_joint_-1_165_135",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -327.6,
+        165.0,
+        135.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "tower_joint_-1_165_160",
+      "standard": "M6",
+      "axis": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "headFaceMm": [
+        -327.6,
+        165.0,
+        160.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "pickup_hub_joint_1_45",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "pickup_hub_joint_1_135",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "pickup_hub_joint_1_225",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "pickup_hub_joint_1_315",
+      "standard": "M6",
+      "screwLengthMm": 16,
+      "clearanceStackMm": 7.6,
+      "threadEngagementMm": 8,
+      "nut": false,
+      "qualification": "TEST_ONLY thread pullout unverified"
+    },
+    {
+      "id": "tower_joint_1_125_135",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        327.6,
+        125.0,
+        135.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "tower_joint_1_125_160",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        327.6,
+        125.0,
+        160.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "tower_joint_1_165_135",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        327.6,
+        165.0,
+        135.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    },
+    {
+      "id": "tower_joint_1_165_160",
+      "standard": "M6",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "headFaceMm": [
+        327.6,
+        165.0,
+        160.0
+      ],
+      "modeledStackMm": 12.4,
+      "screwLengthMm": 20,
+      "engagementQualification": "PENDING_PHYSICAL_ASSEMBLY"
+    }
+  ],
+  "sourcePolicy": "Custom bodies from FeatureScript; original source-file COTS direct import; source-to-assembly placements separate; both X44 bodies fixed, output connectors are joint representations, not physical fake rotors",
+  "nativeGate": "No API/UI action authorized by this local packet; fix mechanical blockers and validate missing relation endpoints before admission",
+  "limitations": [
+    "Drive reference endpoints include unresolved generated shaft roles; native relations NOT ready to submit",
+    "Group motion currently tests deployment only, not gear phase progression, receiver travel or topFloat sweep",
+    "Frame post instance labels vary with width; source roles remain stable but native occurrence identity needs migration"
+  ]
+}

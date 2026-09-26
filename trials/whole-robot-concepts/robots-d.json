@@ -1,0 +1,202 @@
+[
+  {
+    "id": "R09",
+    "title": "Algae-First Hybrid",
+    "family": "Algae-priority retained elevator and flywheel feed with low rear coral arm",
+    "strategy": "Prioritize algae clearing and net-shot intent, retaining a processor choice for alliance needs. Rear station/floor coral covers L1-L3; deliberately omit L4 and simultaneous carry to concentrate effort on algae and deep climb.",
+    "tradeoff": "Unlike R03's station-first L4 coral role, a large algae cradle, flywheels and transfer controls dominate packaging. No L4, net placement or dual carry; deep climb and launch repeatability remain high-risk hypotheses.",
+    "firstTest": "Sweep the largest algae from floor over intact bumpers into the retained cradle, then test feed ownership. Overlay folded coral links, cable loops and deep hook with battery access before selecting motors.",
+    "capabilities": {
+      "coralLevels": [1, 2, 3],
+      "coralSources": ["station", "floor"],
+      "algaeSources": ["reefLow", "reefHigh", "floor"],
+      "algaeDestinations": ["processor", "net"],
+      "climb": "deep",
+      "simultaneousCarry": false
+    },
+    "subsystems": {
+      "drive": "Common 700 x 760 chassis; renderer supplies four drive envelopes and intact bumper ring x+/-435, y-85..845, z45..165. Starting perimeter is 2920 mm. Front algae and rear coral approaches need different alignment modes. Travel with retained tool low; elevated operation and deep-climb approach need stability/contact guards, not an invented speed or mass limit.",
+      "coral": "Rear folding two-link low arm carries opposed driven rollers, backstop and gate. The same wrist accepts station coral or lowers outside the rear bumper, then lifts floor coral over it with continuous retention. Wrist alignment serves L1-L3 offers; L4 is deliberately absent. All tool centers and sizes are proposals, not performance, solved joints or branch-insertion proof.",
+      "algae": "Wide retained-cradle elevator, folding upper stage and folding wrist collect reefLow/reefHigh/floor, then raise over intact bumpers. Opposed contacts and backstop retain through a confirmed handoff to flywheel feed. An exclusive low processor gate bypasses the wheels, not a free-fall chute. Reef centers, net rim and processor target remain unknown. All tool poses are proposals; net-shot route is illustration, not ballistics.",
+      "climb": "Left-rear flat-plate hook arm pivots on chassis gussets and folds vertically. A chassis winch, pivot fairlead and arm tether close the proposed load loop to one own-alliance deep cage. Hook contact is not the cage-bottom datum. Latch, brake, strength, ANCHOR exclusion and carpet clearance remain unproved; field staff select deep before the match. No shallow mechanism is claimed.",
+      "packaging": "Battery and rear extraction lane sit below coral wrist; disabled pit service removes the rear bumper segment, never a match intake gap. Right electrical plate and cable folds reserve access. Metric router-cut aluminum/polycarbonate plates, spacers, lathe shafts and printed guides; no accurate bends. Motors, ratios and mass are deferred. Tool boxes are hardware envelopes, not full controlled-piece sweeps or clearance proof.",
+      "control": "Whole-robot one-of-each counters include stuck/herded pieces, but R09 serializes types. Wrist -> cradle -> feed ownership transfers only on confirmed capture, before upstream release. Processor/flywheel gates exclude each other. Unknown occupancy/location stops acquire/release; jams stop and retain. Coral release needs own reef; no out-of-field ejection except processor. Net/opponent-cage/ANCHOR contact and protected-zone guards gate motion.",
+      "stow": "Latch algae upper stage beside mast and cradle inside plan; gates shut, flywheels stopped. Fold coral links and capture both cable/reeving loops in side channels; fold rear hook. Climb requires empty paths, confirmed lift/arm/tool stow, cable clearance and latches before winching. Base/stow boxes and link radii fit 700 x 760 x 1066.8; deployed hardware targets 420 mm extension. Alternative poses are not concurrent assemblies; sweeps remain unproved."
+    },
+    "cycle": {
+      "auto": "Coordinate LEAVE and a retained L2/L3 preload with partners; no L4 auto claim. Only attempt a selected algae source after coral release and occupancy confirmation. Robot net launch is an optional later proof gate, not an assumed autonomous success; no human-player algae entry in AUTO.",
+      "coral": "Require algae path empty. Receive at rear station or grip loose floor coral outside rear bumper; maintain pinch/backstop while raising over it. Align retained coral and offer L1, L2 or L3, release only at guarded own-reef location, confirm empty and fold. No intermediate second-coral buffer or L4 cycle.",
+      "algae": "Require coral empty. Treat loose algae and algae-on-coral marks separately; reject collateral coral control. Grip floor or proposed low/high reef pose, raise and retract under retention. Confirm capture before feeding flywheels, or select processor outlet. Processor gives 6 to us but supplies opposing HP; net gives 4 to net owner, not 10 to us.",
+      "endgame": "Finish a guarded release; never dump to clear climb. Confirm both paths empty, stop flywheels, fold/latch lifts, wrist and coral arm, and contain cables. Deploy left hook toward selected own deep cage, latch and winch only after engagement confirmation. Exactly one cage, no ANCHOR/carpet contact; park fallback is not additive cage scoring."
+    },
+    "inspiration": [
+      {"source": "trials/whole-robot-concepts/BRIEF.md", "lesson": "Original Stage 2 algae-first proposal, not an author-reported team robot or measured replica. R03 is distinguished by the task's station-first L4 role: here the rear coral arm is lower reach and algae packaging/control owns the design effort."},
+      {"source": "trials/whole-robot-concepts/GAME-ANALYSIS.md", "lesson": "Apply conditional algae-clearing and processor-versus-net value, without awarding clearance points or assuming launch success. Keep field-height unknowns separate from proposed tool centers; retained contact loops and deep cage engagement still need proof."},
+      {"source": "trials/whole-robot-concepts/game.json", "lesson": "Use one-of-each legal occupancy as an upper bound, not a mechanical requirement. R09 intentionally serializes pieces. Maximum nominal algae diameter is 419.1 mm; complete ball/contact sweeps remain a first-test gate, not something a hardware bounding-box check certifies."}
+    ],
+    "geometry": {
+      "boxes": [
+        {"name": "Algae fixed mast and chassis foot", "role": "structure", "center": [-40, 265, 525], "size": [150, 100, 650], "state": "base"},
+        {"name": "Algae upper stage folded beside mast", "role": "algae", "center": [-40, 210, 720], "size": [100, 80, 540], "state": "stowed"},
+        {"name": "Algae retained cradle and opposed contacts", "role": "algae", "center": [-40, 265, 520], "size": [460, 440, 440], "state": "stowed"},
+        {"name": "Algae flywheel housing and gated feed", "role": "algae", "center": [-40, 300, 870], "size": [500, 340, 260], "state": "base"},
+        {"name": "Coral chassis shoulder and bearing plates", "role": "coral", "center": [140, 595, 340], "size": [100, 100, 180], "state": "base"},
+        {"name": "Coral two links folded back together", "role": "coral", "center": [140, 630, 690], "size": [90, 120, 560], "state": "stowed"},
+        {"name": "Coral retained roller wrist with backstop", "role": "coral", "center": [140, 660, 435], "size": [340, 170, 160], "state": "stowed"},
+        {"name": "Deep chassis winch and brake reserve", "role": "climb", "center": [-240, 640, 230], "size": [140, 160, 140], "state": "base"},
+        {"name": "Deep folded hook arm and latch envelope", "role": "climb", "center": [-240, 640, 675], "size": [100, 140, 610], "state": "stowed"},
+        {"name": "Battery reserved volume", "role": "electrical", "center": [-45, 565, 225], "size": [220, 160, 190], "state": "base"},
+        {"name": "Battery rear service lane - keep empty", "role": "electrical", "center": [-45, 690, 225], "size": [220, 100, 190], "state": "base"},
+        {"name": "Right electrical panel and connector access", "role": "electrical", "center": [265, 315, 205], "size": [140, 260, 130], "state": "base"},
+        {"name": "Algae reeving and cable fold channel", "role": "electrical", "center": [250, 275, 690], "size": [60, 180, 680], "state": "stowed"},
+        {"name": "Coral captured wrist cable fold", "role": "electrical", "center": [295, 600, 710], "size": [50, 80, 520], "state": "stowed"}
+      ],
+      "links": [
+        {"name": "Coral folded shoulder-elbow-wrist chain", "role": "coral", "points": [[140, 595, 180], [140, 595, 430], [140, 620, 930], [140, 660, 435]], "radius": 16, "state": "stowed"},
+        {"name": "Coral station shoulder-elbow-wrist proposal", "role": "coral", "points": [[140, 595, 180], [140, 595, 430], [140, 484, 917], [140, 960, 1070]], "radius": 16, "state": "deployed"},
+        {"name": "Coral floor shoulder-elbow-wrist proposal", "role": "coral", "points": [[140, 595, 180], [140, 595, 430], [140, 1077, 565], [140, 1050, 65]], "radius": 16, "state": "deployed"},
+        {"name": "Coral L1 shoulder-elbow-wrist proposal", "role": "coral", "points": [[140, 595, 180], [140, 595, 430], [140, 729, 912], [140, 1020, 505]], "radius": 16, "state": "deployed"},
+        {"name": "Coral L2 shoulder-elbow-wrist proposal", "role": "coral", "points": [[140, 595, 180], [140, 595, 430], [140, 512, 923], [140, 1010, 875]], "radius": 16, "state": "deployed"},
+        {"name": "Coral L3 shoulder-elbow-wrist proposal", "role": "coral", "points": [[140, 595, 180], [140, 595, 430], [140, 624, 929], [140, 980, 1280]], "radius": 16, "state": "deployed"},
+        {"name": "Algae folded mast-stage-wrist contact support", "role": "algae", "points": [[-40, 265, 180], [-40, 265, 850], [-40, 210, 990], [-40, 210, 490], [-40, 265, 520]], "radius": 18, "state": "stowed"},
+        {"name": "Algae floor mast-carriage-folding wrist proposal", "role": "algae", "points": [[-40, 265, 180], [-40, 265, 620], [-40, 30, 620], [-40, -230, 440], [-40, -280, 200]], "radius": 18, "state": "deployed"},
+        {"name": "Algae reef low mast-carriage-wrist proposal", "role": "algae", "points": [[-40, 265, 180], [-40, 265, 820], [-40, -50, 1100], [-40, -230, 1000]], "radius": 18, "state": "deployed"},
+        {"name": "Algae reef high raised stage-wrist proposal", "role": "algae", "points": [[-40, 265, 180], [-40, 265, 850], [-40, 265, 1540], [-40, -50, 1640], [-40, -230, 1500]], "radius": 18, "state": "deployed"},
+        {"name": "Algae processor lowered carriage-gate proposal", "role": "algae", "points": [[-40, 265, 180], [-40, 265, 620], [-40, 30, 560], [-40, -265, 405]], "radius": 18, "state": "deployed"},
+        {"name": "Algae net feed support from chassis mast", "role": "algae", "points": [[-40, 265, 180], [-40, 265, 850], [-40, 265, 870], [-40, 230, 980]], "radius": 18, "state": "deployed"},
+        {"name": "Deep folded chassis pivot-arm-hook", "role": "climb", "points": [[-240, 640, 230], [-240, 595, 350], [-240, 595, 890], [-240, 660, 950], [-240, 695, 900]], "radius": 14, "state": "stowed"},
+        {"name": "Deep deployed chassis pivot-arm-hook proposal", "role": "climb", "points": [[-240, 640, 230], [-240, 595, 350], [-240, 1000, 600], [-240, 1040, 700], [-240, 1130, 700], [-240, 1130, 630], [-240, 1080, 630]], "radius": 14, "state": "deployed"},
+        {"name": "Deep winch-fairlead-arm tether load return", "role": "climb", "points": [[-240, 640, 230], [-240, 595, 350], [-240, 1080, 630]], "radius": 6, "state": "deployed"}
+      ],
+      "tools": [
+        {"name": "Coral station proposal", "role": "coral", "center": [140, 960, 1070], "size": [340, 190, 180], "state": "deployed"},
+        {"name": "Coral floor proposal", "role": "coral", "center": [140, 1050, 65], "size": [340, 210, 130], "state": "deployed"},
+        {"name": "Coral L1 proposal", "role": "coral", "center": [140, 1020, 505], "size": [340, 190, 180], "state": "deployed"},
+        {"name": "Coral L2 proposal", "role": "coral", "center": [140, 1010, 875], "size": [340, 190, 180], "state": "deployed"},
+        {"name": "Coral L3 proposal", "role": "coral", "center": [140, 980, 1280], "size": [340, 190, 180], "state": "deployed"},
+        {"name": "Algae floor lower-contact proposal", "role": "algae", "center": [-40, -280, 200], "size": [460, 210, 240], "state": "deployed"},
+        {"name": "Algae reef low proposal", "role": "algae", "center": [-40, -230, 1000], "size": [460, 250, 440], "state": "deployed"},
+        {"name": "Algae reef high proposal", "role": "algae", "center": [-40, -230, 1500], "size": [460, 250, 440], "state": "deployed"},
+        {"name": "Algae processor outlet proposal", "role": "algae", "center": [-40, -265, 405], "size": [460, 240, 300], "state": "deployed"},
+        {"name": "Algae net flywheel release proposal", "role": "algae", "center": [-40, 230, 980], "size": [500, 300, 240], "state": "deployed"}
+      ],
+      "routes": [
+        {"name": "Coral station-retain-L3 center-path proposal", "role": "coral", "points": [[140, 960, 1070], [140, 900, 900], [140, 660, 435], [140, 900, 900], [140, 980, 1280]]},
+        {"name": "Coral floor-over-bumper-retain-L1 proposal", "role": "coral", "points": [[140, 1050, 65], [140, 1050, 360], [140, 880, 520], [140, 660, 435], [140, 1020, 505]]},
+        {"name": "Coral retained wrist-L2 offer proposal", "role": "coral", "points": [[140, 660, 435], [140, 900, 650], [140, 1010, 875]]},
+        {"name": "Algae floor-retained cradle center-path proposal", "role": "algae", "points": [[-40, -280, 200], [-40, -250, 440], [-40, 70, 520], [-40, 265, 520]]},
+        {"name": "Algae reef low-retained cradle proposal", "role": "algae", "points": [[-40, -230, 1000], [-40, 70, 1000], [-40, 265, 520]]},
+        {"name": "Algae reef high-retained cradle proposal", "role": "algae", "points": [[-40, -230, 1500], [-40, 70, 1500], [-40, 265, 520]]},
+        {"name": "Algae cradle-processor gated outlet proposal", "role": "algae", "points": [[-40, 265, 520], [-40, 30, 520], [-40, -265, 405]]},
+        {"name": "Algae net shot route illustration - not ballistics", "role": "algae", "points": [[-40, 265, 520], [-40, 230, 980], [-40, -200, 1500], [-40, -350, 2350]]}
+      ],
+      "annotations": [
+        {"at": [140, 700, 1000], "text": "All tool centers are proposals"},
+        {"at": [-40, -230, 1760], "text": "Reef centers / net rim unknown"},
+        {"at": [-40, -350, 2350], "text": "Shot route is not ballistics"},
+        {"at": [-45, 730, 300], "text": "Battery exits rear in pit"}
+      ]
+    }
+  },
+  {
+    "id": "R10",
+    "title": "Twin Independent Lifts",
+    "family": "Original split-channel folding elevators with independent retained tools",
+    "strategy": "Hold one algae low while a separate coral lift cycles L1-L4, avoiding a forced dump only under legal one-of-each occupancy and verified clearance. Later use processor or tentative net placement; choose central-rear shallow climb.",
+    "tradeoff": "Omits deep climb and net shooting; does not promise simultaneous scoring. Duplicate folding lifts add width, top mass, reeving and tip risk. Net placement remains conditional on missing rim geometry and loaded clearance.",
+    "firstTest": "With largest algae latched low, sweep coral station/floor/L4 and both lift folds against separator, cables and cage arm. Reject dual carry or net placement if clearance, unknown rim reach or loaded stability fails.",
+    "capabilities": {
+      "coralLevels": [1, 2, 3, 4],
+      "coralSources": ["station", "floor"],
+      "algaeSources": ["reefLow", "reefHigh", "floor"],
+      "algaeDestinations": ["processor", "net"],
+      "climb": "shallow",
+      "simultaneousCarry": true
+    },
+    "subsystems": {
+      "drive": "Common 700 x 760 chassis, 2920 mm perimeter; renderer supplies four drive envelopes and intact x+/-435, y-85..845, z45..165 bumper ring. Left coral and front algae approaches use independent alignment frames. Two raised tools are not a permitted travel default. Added width, top mass and overturning risk need loaded tests; no invented drive speed, mass or stability margin.",
+      "coral": "Left folding elevator and side-facing wrist use opposed rollers, backstop and gate with no algae handoff. Station and over-side-bumper floor pickup feed one cradle for L1-L4. L2/L3 share the tool shown at L3; L2's proposed center [-575,280,900] is on its separate offer route. All tool centers and sizes are proposals, not reach, insertion or performance proof. Side-by-side channel separation is nominal, not a collision result.",
+      "algae": "Right folding elevator with larger retained roller cradle owns reefLow/reefHigh/floor to processor or high net placement; no flywheels or cross-transfer. Opposed contacts and backstop retain while raising over front bumper. Reef centers, processor target and net rim remain unknown; z2500 net tool center is only a proposal. A held algae stays low and latched during coral cycles; simultaneous carry does not mean concurrent scoring or verified full-ball clearance.",
+      "climb": "Central-rear shallow hook arm pivots on chassis gussets; chassis winch feeds a fairlead and tether back to the arm, closing a sketched load loop. The arm folds between service bays and deploys only after both lifts latch down. Proposed hook pose is not the 765.175 mm cage-bottom datum. Cage engagement, brake, load capacity, ANCHOR and carpet clearance remain unproved. Field staff select shallow; deep is deliberately omitted.",
+      "packaging": "Left coral and wider right algae channel meet a separator; narrow clearances are unverified. Rear-left battery withdraws left through reserved lane with bumper removed only in disabled pit service; rear-right electrical bay remains accessible. Central rear is reserved for climb. Metric router plates, lathe shafts, spacers and printed guides avoid accurate bends. Motor/ratio selection and mass sizing are deferred. Boxes exclude full controlled-piece sweeps.",
+      "control": "Independent retained-path owners, no handoff. Whole-robot one-of-each counters include stuck/herded pieces; reject a second of either. Coral cycling while algae held needs low-latch and verified-clearance guards. Unknown occupancy/location inhibits acquire/release; jams stop and retain. Coral release requires own reef; no out-of-field ejection except processor. Net release needs verified aperture/no net contact. Protected-zone/opponent-cage/ANCHOR checks gate motion.",
+      "stow": "Retract/fold coral stage pair and algae stage stack into separate channels; latch wrists behind intact bumpers, gates closed. Secure reeving/cable folds in outer channels, away from separator and hook. Climb requires both paths empty, independent stage/wrist latches and cable-clear sensors confirmed. Fold hook rear-center inside plan. Base/stow includes box half-sizes and link radii. Alternative deployed poses are not concurrent hardware or a solved sweep."
+    },
+    "cycle": {
+      "auto": "Coordinate LEAVE and a selected coral preload offer with alliance partners. Keep algae lift latched until an independently cleared in-match acquisition route and occupancy confirmation permit use. L4 auto and dual carry remain test-gated intentions, not predicted points, timings or automatic RP.",
+      "coral": "With one algae held low, verify latch and clearance before acquiring one coral at left station or floor. Raise floor coral over intact side bumper under pinch retention, align and offer L1-L4, confirm legal release and retract. No forced algae dump, but block the coral cycle if either occupancy or mechanical-clearance state is uncertain.",
+      "algae": "Acquire one ball from floor or a proposed reef-low/high pose on the right path, latch low and optionally retain through coral cycles. Stacked-mark cases need separate tests and must not control a second piece of either type. Later lower to processor or raise for tentative net placement with no net contact; no ballistic launcher or simultaneous-score claim.",
+      "endgame": "Finish legal releases before climb; do not dump a retained ball to bypass a guard. Confirm both paths empty, retract/fold/latch each lift and contain cables. Deploy rear-center hook to selected own shallow cage, verify engagement then tension chassis winch. Exactly one cage, no ANCHOR/carpet contact; park fallback is not additive shallow scoring."
+    },
+    "inspiration": [
+      {"source": "trials/whole-robot-concepts/BRIEF.md", "lesson": "Original high-complexity proposal with two genuinely separate folding elevators, retained tools and ownership channels. No team is credited with this arrangement; neither depicted tool is a duplicate of a shared mechanism pretending to be independent."},
+      {"source": "trials/whole-robot-concepts/game.json", "lesson": "G409 permits one coral and one algae, not unrestricted multi-piece storage. Holding an algae through coral cycles can avoid a forced dump only if loaded separation is demonstrated. Net rim remains null; the high placement sketch is deliberately conditional, not a reachable field target."},
+      {"source": "trials/whole-robot-concepts/GAME-ANALYSIS.md", "lesson": "Full coral and both algae destinations do not imply a best-at-everything robot. This concept sacrifices deep climb and net shooting, and pays for independence with width, upper structure, cable management and stability risk. Cage poses and scoring offers are not qualification proofs."}
+    ],
+    "geometry": {
+      "boxes": [
+        {"name": "Coral left fixed mast and chassis foot", "role": "structure", "center": [-235, 520, 530], "size": [110, 90, 680], "state": "base"},
+        {"name": "Coral upper stage pair folded in left channel", "role": "coral", "center": [-265, 535, 650], "size": [70, 110, 740], "state": "stowed"},
+        {"name": "Coral independent retained wrist", "role": "coral", "center": [-235, 280, 520], "size": [180, 340, 180], "state": "stowed"},
+        {"name": "Coral outer reeving and cable fold", "role": "electrical", "center": [-332, 470, 645], "size": [24, 180, 750], "state": "stowed"},
+        {"name": "Algae right fixed mast and chassis foot", "role": "structure", "center": [90, 520, 540], "size": [170, 100, 700], "state": "base"},
+        {"name": "Algae upper stage stack folded in right channel", "role": "algae", "center": [180, 540, 645], "size": [90, 100, 750], "state": "stowed"},
+        {"name": "Algae independent retained cradle", "role": "algae", "center": [90, 265, 535], "size": [450, 440, 440], "state": "stowed"},
+        {"name": "Algae outer reeving and cable fold", "role": "electrical", "center": [328, 445, 650], "size": [24, 180, 740], "state": "stowed"},
+        {"name": "Battery rear-left reserved volume", "role": "electrical", "center": [-175, 655, 225], "size": [230, 170, 190], "state": "base"},
+        {"name": "Electrical rear-right service bay", "role": "electrical", "center": [195, 660, 225], "size": [240, 160, 170], "state": "base"},
+        {"name": "Shallow central chassis winch and brake reserve", "role": "climb", "center": [0, 650, 225], "size": [110, 160, 150], "state": "base"},
+        {"name": "Shallow hook arm folded between rear bays", "role": "climb", "center": [0, 645, 650], "size": [100, 130, 660], "state": "stowed"},
+        {"name": "Battery left extraction lane - keep empty", "role": "electrical", "center": [-320, 655, 225], "size": [60, 170, 190], "state": "base"},
+        {"name": "Nominal flat-plate channel separator", "role": "structure", "center": [-140, 370, 540], "size": [10, 310, 630], "state": "base"},
+        {"name": "Shallow chassis pivot gussets and fairlead", "role": "climb", "center": [0, 590, 330], "size": [100, 70, 140], "state": "base"}
+      ],
+      "links": [
+        {"name": "Coral left folded mast-stage-wrist chain", "role": "coral", "points": [[-235, 520, 180], [-235, 520, 850], [-265, 535, 1000], [-265, 535, 350], [-235, 280, 520]], "radius": 16, "state": "stowed"},
+        {"name": "Coral station left mast-carriage-wrist proposal", "role": "coral", "points": [[-235, 520, 180], [-235, 520, 850], [-235, 520, 1060], [-235, 280, 1060], [-540, 280, 1060]], "radius": 16, "state": "deployed"},
+        {"name": "Coral floor left mast-folding wrist proposal", "role": "coral", "points": [[-235, 520, 180], [-235, 520, 340], [-235, 280, 340], [-550, 280, 340], [-610, 280, 65]], "radius": 16, "state": "deployed"},
+        {"name": "Coral L1 left mast-carriage-wrist proposal", "role": "coral", "points": [[-235, 520, 180], [-235, 520, 520], [-235, 280, 520], [-575, 280, 520]], "radius": 16, "state": "deployed"},
+        {"name": "Coral L2-L3 carriage alternatives - shown L3", "role": "coral", "points": [[-235, 520, 180], [-235, 520, 850], [-235, 520, 900], [-235, 520, 1290], [-235, 280, 1290], [-575, 280, 1290]], "radius": 16, "state": "deployed"},
+        {"name": "Coral L4 left raised stages-wrist proposal", "role": "coral", "points": [[-235, 520, 180], [-235, 520, 850], [-235, 520, 1460], [-235, 520, 1920], [-235, 280, 1920], [-575, 280, 1920]], "radius": 16, "state": "deployed"},
+        {"name": "Algae right folded mast-stage-cradle chain", "role": "algae", "points": [[90, 520, 180], [90, 520, 870], [180, 540, 1000], [180, 540, 330], [90, 265, 535]], "radius": 18, "state": "stowed"},
+        {"name": "Algae floor right mast-folding cradle proposal", "role": "algae", "points": [[90, 520, 180], [90, 520, 620], [90, 220, 620], [90, -230, 440], [90, -285, 200]], "radius": 18, "state": "deployed"},
+        {"name": "Algae reef low right mast-cradle proposal", "role": "algae", "points": [[90, 520, 180], [90, 520, 870], [90, 520, 1060], [90, 180, 1100], [90, -240, 1000]], "radius": 18, "state": "deployed"},
+        {"name": "Algae reef high right raised stages proposal", "role": "algae", "points": [[90, 520, 180], [90, 520, 870], [90, 520, 1540], [90, 180, 1640], [90, -240, 1520]], "radius": 18, "state": "deployed"},
+        {"name": "Algae processor right mast-cradle proposal", "role": "algae", "points": [[90, 520, 180], [90, 520, 620], [90, 180, 560], [90, -250, 405]], "radius": 18, "state": "deployed"},
+        {"name": "Algae net placement right stage stack proposal", "role": "algae", "points": [[90, 520, 180], [90, 520, 870], [90, 520, 1560], [90, 520, 2240], [90, 520, 2550], [90, 180, 2550], [90, -200, 2500]], "radius": 18, "state": "deployed"},
+        {"name": "Shallow folded chassis pivot-arm-hook", "role": "climb", "points": [[0, 650, 225], [0, 590, 360], [0, 610, 880], [0, 660, 950], [0, 690, 900]], "radius": 14, "state": "stowed"},
+        {"name": "Shallow deployed chassis pivot-arm-hook proposal", "role": "climb", "points": [[0, 650, 225], [0, 590, 360], [0, 880, 790], [0, 1020, 1010], [0, 1100, 1010], [0, 1100, 940], [0, 1060, 940]], "radius": 14, "state": "deployed"},
+        {"name": "Shallow winch-fairlead-arm tether load return", "role": "climb", "points": [[0, 650, 225], [0, 590, 360], [0, 1060, 940]], "radius": 6, "state": "deployed"}
+      ],
+      "tools": [
+        {"name": "Coral station proposal", "role": "coral", "center": [-540, 280, 1060], "size": [180, 340, 180], "state": "deployed"},
+        {"name": "Coral floor proposal", "role": "coral", "center": [-610, 280, 65], "size": [180, 340, 130], "state": "deployed"},
+        {"name": "Coral L1 proposal", "role": "coral", "center": [-575, 280, 520], "size": [180, 340, 180], "state": "deployed"},
+        {"name": "Coral L2/L3 proposal - shown L3", "role": "coral", "center": [-575, 280, 1290], "size": [180, 340, 180], "state": "deployed"},
+        {"name": "Coral L4 proposal", "role": "coral", "center": [-575, 280, 1920], "size": [180, 340, 180], "state": "deployed"},
+        {"name": "Algae floor lower-contact proposal", "role": "algae", "center": [90, -285, 200], "size": [450, 220, 240], "state": "deployed"},
+        {"name": "Algae reef low proposal", "role": "algae", "center": [90, -240, 1000], "size": [450, 280, 440], "state": "deployed"},
+        {"name": "Algae reef high proposal", "role": "algae", "center": [90, -240, 1520], "size": [450, 280, 440], "state": "deployed"},
+        {"name": "Algae processor placement proposal", "role": "algae", "center": [90, -250, 405], "size": [450, 260, 320], "state": "deployed"},
+        {"name": "Algae net placement proposal - rim unknown", "role": "algae", "center": [90, -200, 2500], "size": [450, 300, 450], "state": "deployed"}
+      ],
+      "routes": [
+        {"name": "Coral station-left retention-L4 proposal", "role": "coral", "points": [[-540, 280, 1060], [-235, 280, 1060], [-235, 280, 520], [-235, 280, 1920], [-575, 280, 1920]]},
+        {"name": "Coral floor-over-side-bumper-L1 proposal", "role": "coral", "points": [[-610, 280, 65], [-610, 280, 350], [-235, 280, 520], [-575, 280, 520]]},
+        {"name": "Coral L2 separate offer center proposal", "role": "coral", "points": [[-235, 280, 520], [-235, 280, 900], [-575, 280, 900]]},
+        {"name": "Coral L3 separate offer center proposal", "role": "coral", "points": [[-235, 280, 520], [-235, 280, 1290], [-575, 280, 1290]]},
+        {"name": "Algae floor-over-front-bumper-low retention proposal", "role": "algae", "points": [[90, -285, 200], [90, -250, 450], [90, 80, 535], [90, 265, 535]]},
+        {"name": "Algae reef low-right low retention proposal", "role": "algae", "points": [[90, -240, 1000], [90, 80, 1000], [90, 265, 535]]},
+        {"name": "Algae reef high-right low retention proposal", "role": "algae", "points": [[90, -240, 1520], [90, 80, 1520], [90, 265, 535]]},
+        {"name": "Algae retained-low processor offer proposal", "role": "algae", "points": [[90, 265, 535], [90, 80, 535], [90, -250, 405]]},
+        {"name": "Algae retained-net placement intent - no ballistic path", "role": "algae", "points": [[90, 265, 535], [90, 265, 1800], [90, 265, 2500], [90, -200, 2500]]}
+      ],
+      "annotations": [
+        {"at": [-235, 280, 1550], "text": "All tool centers are proposals"},
+        {"at": [90, -200, 2780], "text": "Net rim / reef centers unknown"},
+        {"at": [-575, 280, 900], "text": "L2 offer proposal: z900"},
+        {"at": [90, 265, 535], "text": "Hold algae low; clearance gate"}
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\Scripts\\python.exe",
+  "arguments": [
+    "-I",
+    "-X",
+    "faulthandler",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser",
+    "-p",
+    "oracle_test.py",
+    "-v"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "",
+  "stderr": "test_dns_guard (oracle_test.OracleTests) ... ok\r\ntest_local_hostname_is_allowed (oracle_test.OracleTests) ... ok\r\ntest_negative_parameters (oracle_test.OracleTests) ... C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:609: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  simple_dir = oneOf([\"X\", \"Y\", \"Z\", \"XY\", \"XZ\", \"YZ\"])\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:613: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  cqtype = oneOf(\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:616: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'\r\n  cqtype = cqtype.setParseAction(pyparsing_common.upcaseTokens)\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:622: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  direction_op = oneOf([\">\", \"<\"])\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:625: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  center_nth_op = oneOf([\">>\", \"<<\"])\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:635: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  other_op = oneOf([\"|\", \"#\", \"+\", \"-\"])\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:638: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  named_view = oneOf([\"front\", \"back\", \"left\", \"right\", \"top\", \"bottom\"])\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:763: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\r\n  delta_op = oneOf([\"exc\", \"except\"])\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:770: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'\r\n  atom.setParseAction(atom_callback)\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\selectors.py:793: PyparsingDeprecationWarning: 'infixNotation' deprecated - use 'infix_notation'\r\n  expr = infixNotation(\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\assembly.py:65: PyparsingDeprecationWarning: 'delimitedList' deprecated - use 'DelimitedList'\r\n  Name = delimitedList(\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\assembly.py:67: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'\r\n  ).setResultsName(\"name\")\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\assembly.py:68: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'\r\n  Tag = Word(alphas, alphanums + \"_\").setResultsName(\"tag\")\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\assembly.py:69: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'\r\n  Selector = _selector_grammar.setResultsName(\"selector\")\r\nC:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages\\cadquery\\assembly.py:73: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'\r\n  ).setResultsName(\"selector_kind\")\r\nok\r\ntest_network_guard (oracle_test.OracleTests) ... ok\r\ntest_output_path_is_confined (oracle_test.OracleTests) ... ok\r\ntest_real_kernel_and_step_roundtrip (oracle_test.OracleTests) ... ok\r\ntest_subprocess_guard (oracle_test.OracleTests) ... ok\r\ntest_wrong_shape_is_rejected (oracle_test.OracleTests) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 8 tests in 4.300s\r\n\r\nOK\r\n",
+  "wallTimeMs": 4982.4763,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0
+}

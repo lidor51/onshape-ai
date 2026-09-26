@@ -1,0 +1,1395 @@
+{
+  "evidence": "PUBLIC_DOCUMENTATION_RESEARCH_NOT_ONSHAPE_EXECUTION",
+  "fetchedAt": "2026-09-11T11:41:35.604Z",
+  "sources": [
+    {
+      "url": "https://onshape-public.github.io/docs/auth/apikeys/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 43484,
+      "sha256": "60461f1f57495c89c6638a2bfd145345faf1c76e83121ecb08357a1ceffd9014"
+    },
+    {
+      "url": "https://onshape-public.github.io/docs/auth/limits/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 36494,
+      "sha256": "2d49876d11de61e42e3424c1e0c548171256922550546106c60e7faa06d53529"
+    },
+    {
+      "url": "https://onshape-public.github.io/docs/api-adv/featureaccess/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 74038,
+      "sha256": "7208b91fab5f4465156a4cea3bbbb987e83cad49c7b4f9ed31ca542628c2fe88"
+    },
+    {
+      "url": "https://onshape-public.github.io/docs/api-adv/documents/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 86631,
+      "sha256": "7af6777eab4c18348d6068a2c82ed4bf81236a15d2881f898b4f04b14539d71d"
+    },
+    {
+      "url": "https://onshape-public.github.io/docs/api-adv/partstudios/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 85611,
+      "sha256": "377573aba8eb61bc62f4b89bcb660a93bd5649da8f83aa64c1140f96e926b432"
+    },
+    {
+      "url": "https://onshape-public.github.io/docs/api-adv/translation/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 86873,
+      "sha256": "1758e0b039d5b4ab0ae0c50d142bb26f29fd9b33a50d8b8eca1553bb2f85ea98"
+    },
+    {
+      "url": "https://onshape-public.github.io/docs/api-adv/metadata/",
+      "revision": "Mutable official documentation; fetched body SHA-256 recorded",
+      "status": 200,
+      "bytes": 79728,
+      "sha256": "6002eccfea72b7049656fd1dbb4c70b93d3291491a84e6c2861904bdd1a2ff29"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/onshape-public/onshape-clients/4f613cc4025a90e11493e2b79560afe9762e1686/openapi.json",
+      "revision": "4f613cc4025a90e11493e2b79560afe9762e1686",
+      "project": "onshape-public/onshape-clients",
+      "license": "MIT",
+      "archived": true,
+      "status": 200,
+      "bytes": 939985,
+      "sha256": "ae34bd1084127aee2e26e51994066619c75556d4edfb2a95c997b728f940adf2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/onshape-public/onshape-clients/4f613cc4025a90e11493e2b79560afe9762e1686/README.md",
+      "revision": "4f613cc4025a90e11493e2b79560afe9762e1686",
+      "project": "onshape-public/onshape-clients",
+      "license": "MIT",
+      "archived": true,
+      "status": 200,
+      "bytes": 1895,
+      "sha256": "30a47b12a99dfac1caeba059a101d6d47238aee59bdcafffafaca17749934619"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/onshape-public/onshape-clients/4f613cc4025a90e11493e2b79560afe9762e1686/LICENSE",
+      "revision": "4f613cc4025a90e11493e2b79560afe9762e1686",
+      "project": "onshape-public/onshape-clients",
+      "license": "MIT",
+      "archived": true,
+      "status": 200,
+      "bytes": 1089,
+      "sha256": "b7b2d3278695777d2c1e7eaad0787f1ec5eddd41ecc326a424a5a7948895dcc0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/onshape-public/onshape-clients/4f613cc4025a90e11493e2b79560afe9762e1686/python/README.rst",
+      "revision": "4f613cc4025a90e11493e2b79560afe9762e1686",
+      "project": "onshape-public/onshape-clients",
+      "license": "MIT",
+      "archived": true,
+      "status": 200,
+      "bytes": 2934,
+      "sha256": "7436e9851d11529ac84136997684b53a6b480bd6390df2400557e61b990a2858"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/onshape-public/onshape-clients/4f613cc4025a90e11493e2b79560afe9762e1686/python/test/test_part_studios_api.py",
+      "revision": "4f613cc4025a90e11493e2b79560afe9762e1686",
+      "project": "onshape-public/onshape-clients",
+      "license": "MIT",
+      "archived": true,
+      "status": 200,
+      "bytes": 7414,
+      "sha256": "227ca67f3ee97aa2f85dd2a65297986f534a766f1a32e23d6b1d21734e28c013"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/a2a7b13ea823f144b20d27198043aea35a64d928/extrude.fs",
+      "revision": "a2a7b13ea823f144b20d27198043aea35a64d928",
+      "project": "javawizard/onshape-std-library-mirror",
+      "license": "MIT",
+      "status": 200,
+      "bytes": 58162,
+      "sha256": "caa1aab5ad49873376e6193724373114d446942fa6e36d3b67a18e2aa1886541"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/a2a7b13ea823f144b20d27198043aea35a64d928/query.fs",
+      "revision": "a2a7b13ea823f144b20d27198043aea35a64d928",
+      "project": "javawizard/onshape-std-library-mirror",
+      "license": "MIT",
+      "status": 200,
+      "bytes": 81627,
+      "sha256": "444952d20ce4821d0c6616298b405ec57e24563a98ad319f164357a7a52c2893"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/a2a7b13ea823f144b20d27198043aea35a64d928/defaultFeatures.fs",
+      "revision": "a2a7b13ea823f144b20d27198043aea35a64d928",
+      "project": "javawizard/onshape-std-library-mirror",
+      "license": "MIT",
+      "status": 200,
+      "bytes": 4252,
+      "sha256": "75db68d8b3001f0f64dd1f1b3153a9e7ea56c54b3dee16c04321e919330668da"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/a2a7b13ea823f144b20d27198043aea35a64d928/LICENSE.txt",
+      "revision": "a2a7b13ea823f144b20d27198043aea35a64d928",
+      "project": "javawizard/onshape-std-library-mirror",
+      "license": "MIT",
+      "status": 200,
+      "bytes": 1129,
+      "sha256": "f5f136af7eed0873125abcebd6201327ae825a83fc6a2ab0b1156338a6a5eaa6"
+    }
+  ],
+  "schemaFields": {
+    "BTDocumentParams": {
+      "inheritedSchemas": [],
+      "fields": {
+        "betaCapabilityIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "generateUnknownMessages": {
+          "type": "boolean"
+        },
+        "isEmptyContent": {
+          "type": "boolean"
+        },
+        "isPublic": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "string"
+        },
+        "notRevisionManaged": {
+          "type": "boolean"
+        },
+        "ownerEmail": {
+          "type": "string"
+        },
+        "ownerId": {
+          "type": "string"
+        },
+        "ownerType": {
+          "type": "integer"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "projectId": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "BTDocumentInfo": {
+      "inheritedSchemas": [],
+      "fields": {
+        "anonymousAccessAllowed": {
+          "type": "boolean"
+        },
+        "anonymousAllowsExport": {
+          "type": "boolean"
+        },
+        "betaCapabilityIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "canMove": {
+          "type": "boolean"
+        },
+        "canUnshare": {
+          "type": "boolean"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "createdBy": {
+          "reference": "#/components/schemas/BTUserBasicSummaryInfo"
+        },
+        "createdWithEducationPlan": {
+          "type": "boolean"
+        },
+        "defaultElementId": {
+          "type": "string"
+        },
+        "defaultWorkspace": {
+          "reference": "#/components/schemas/BTWorkspaceInfo"
+        },
+        "description": {
+          "type": "string"
+        },
+        "documentLabels": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTDocumentLabelInfo"
+          }
+        },
+        "documentThumbnailElementId": {
+          "type": "string"
+        },
+        "duplicateNameViolationError": {
+          "type": "string"
+        },
+        "hasReleaseRevisionableObjects": {
+          "type": "boolean"
+        },
+        "hasRelevantInsertables": {
+          "type": "boolean"
+        },
+        "href": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "isContainer": {
+          "type": "boolean"
+        },
+        "isEnterpriseOwned": {
+          "type": "boolean"
+        },
+        "isMutable": {
+          "type": "boolean"
+        },
+        "isOrphaned": {
+          "type": "boolean"
+        },
+        "isUpgradedToLatestVersion": {
+          "type": "boolean"
+        },
+        "isUsingManagedWorkflow": {
+          "type": "boolean"
+        },
+        "jsonType": {
+          "type": "string"
+        },
+        "likedByCurrentUser": {
+          "type": "boolean"
+        },
+        "likes": {
+          "type": "integer"
+        },
+        "modifiedAt": {
+          "type": "string"
+        },
+        "modifiedBy": {
+          "reference": "#/components/schemas/BTUserBasicSummaryInfo"
+        },
+        "name": {
+          "type": "string"
+        },
+        "notRevisionManaged": {
+          "type": "boolean"
+        },
+        "numberOfTimesCopied": {
+          "type": "integer"
+        },
+        "numberOfTimesReferenced": {
+          "type": "integer"
+        },
+        "owner": {
+          "reference": "#/components/schemas/BTOwnerInfo"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "permission": {
+          "type": "string",
+          "enum": [
+            "NOACCESS",
+            "ANONYMOUS_ACCESS",
+            "READ",
+            "READ_COPY_EXPORT",
+            "COMMENT",
+            "WRITE",
+            "RESHARE",
+            "FULL",
+            "OWNER"
+          ]
+        },
+        "permissionSet": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "projectId": {
+          "type": "string"
+        },
+        "public": {
+          "type": "boolean"
+        },
+        "recentVersion": {
+          "reference": "#/components/schemas/BTBaseInfo"
+        },
+        "resourceType": {
+          "type": "string"
+        },
+        "supportTeamUserAndShared": {
+          "type": "boolean"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "thumbnail": {
+          "reference": "#/components/schemas/BTThumbnailInfo"
+        },
+        "totalWorkspacesScheduledForUpdate": {
+          "type": "integer"
+        },
+        "totalWorkspacesUpdating": {
+          "type": "integer"
+        },
+        "trash": {
+          "type": "boolean"
+        },
+        "trashedAt": {
+          "type": "string"
+        },
+        "treeHref": {
+          "type": "string"
+        },
+        "userAccountLimitsBreached": {
+          "type": "boolean"
+        },
+        "viewRef": {
+          "type": "string"
+        }
+      }
+    },
+    "BTMSketch-151": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTMFeature-134"
+      ],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTMSketchConstraint-2"
+          }
+        },
+        "entities": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTMSketchGeomEntity-5"
+          }
+        }
+      }
+    },
+    "BTMSketchCurveSegment-155": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTMSketchCurve-4"
+      ],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "endParam": {
+          "type": "number"
+        },
+        "endPointId": {
+          "type": "string"
+        },
+        "startParam": {
+          "type": "number"
+        },
+        "startPointId": {
+          "type": "string"
+        }
+      }
+    },
+    "BTCurveGeometryLine-117": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTCurveGeometry-114"
+      ],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "dirX": {
+          "type": "number"
+        },
+        "dirY": {
+          "type": "number"
+        },
+        "pntX": {
+          "type": "number"
+        },
+        "pntY": {
+          "type": "number"
+        }
+      }
+    },
+    "BTCurveGeometryCircle-115": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTCurveGeometry-114"
+      ],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "clockwise": {
+          "type": "boolean"
+        },
+        "radius": {
+          "type": "number"
+        },
+        "xcenter": {
+          "type": "number"
+        },
+        "xdir": {
+          "type": "number"
+        },
+        "ycenter": {
+          "type": "number"
+        },
+        "ydir": {
+          "type": "number"
+        }
+      }
+    },
+    "BTFeatureApiBase-1430": {
+      "inheritedSchemas": [],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "libraryVersion": {
+          "type": "integer"
+        },
+        "microversionSkew": {
+          "type": "boolean"
+        },
+        "rejectMicroversionSkew": {
+          "type": "boolean"
+        },
+        "serializationVersion": {
+          "type": "string"
+        },
+        "sourceMicroversion": {
+          "type": "string"
+        }
+      }
+    },
+    "BTFeatureDefinitionCall-1406": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTFeatureApiBase-1430"
+      ],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "feature": {
+          "reference": "#/components/schemas/BTMFeature-134"
+        }
+      }
+    },
+    "BTFeatureListResponse-2457": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTFeatureApiBase-1430"
+      ],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "defaultFeatures": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTMFeature-134"
+          }
+        },
+        "featureStates": {
+          "type": "object"
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTMFeature-134"
+          }
+        },
+        "imports": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTMImport-136"
+          }
+        },
+        "isComplete": {
+          "type": "boolean"
+        },
+        "rollbackIndex": {
+          "type": "integer"
+        }
+      }
+    },
+    "BTBoundingBoxInfo": {
+      "inheritedSchemas": [],
+      "fields": {
+        "highX": {
+          "type": "number"
+        },
+        "highY": {
+          "type": "number"
+        },
+        "highZ": {
+          "type": "number"
+        },
+        "lowX": {
+          "type": "number"
+        },
+        "lowY": {
+          "type": "number"
+        },
+        "lowZ": {
+          "type": "number"
+        }
+      }
+    },
+    "BTExportModelBody-1272": {
+      "inheritedSchemas": [],
+      "fields": {
+        "edges": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTExportModelEdge-1782"
+          }
+        },
+        "faces": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTExportModelFace-1363"
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "SOLID",
+            "SHEET",
+            "WIRE",
+            "POINT",
+            "MATE_CONNECTOR",
+            "COMPOSITE",
+            "UNKNOWN"
+          ]
+        },
+        "vertices": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTExportModelVertex-858"
+          }
+        }
+      }
+    },
+    "BTExportModelFace-1363": {
+      "inheritedSchemas": [],
+      "fields": {
+        "area": {
+          "type": "number"
+        },
+        "box": {
+          "reference": "#/components/schemas/BTBoundingBox-1052"
+        },
+        "id": {
+          "type": "string"
+        },
+        "loops": {
+          "type": "array",
+          "items": {
+            "reference": "#/components/schemas/BTExportModelLoop-1182"
+          }
+        },
+        "orientation": {
+          "type": "boolean"
+        },
+        "surface": {
+          "reference": "#/components/schemas/BTSurfaceDescription-1564"
+        }
+      }
+    },
+    "BTCylinderDescription-686": {
+      "inheritedSchemas": [
+        "#/components/schemas/BTSurfaceDescription-1564"
+      ],
+      "fields": {
+        "axis": {
+          "reference": "#/components/schemas/BTVector3d-389"
+        },
+        "btType": {
+          "type": "string"
+        },
+        "origin": {
+          "reference": "#/components/schemas/BTVector3d-389"
+        },
+        "radius": {
+          "type": "number"
+        }
+      }
+    },
+    "BTVector3d-389": {
+      "inheritedSchemas": [],
+      "fields": {
+        "btType": {
+          "type": "string"
+        },
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "z": {
+          "type": "number"
+        }
+      }
+    },
+    "BTShadedViewsInfo": {
+      "inheritedSchemas": [],
+      "fields": {
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "byte"
+            }
+          }
+        }
+      }
+    }
+  },
+  "endpointSchemas": [
+    {
+      "path": "/api/documents",
+      "methods": {
+        "get": {
+          "operationId": "getDocuments",
+          "parameters": [
+            {
+              "name": "q",
+              "in": "query",
+              "schema": {
+                "type": "string",
+                "default": ""
+              }
+            },
+            {
+              "name": "filter",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            {
+              "name": "owner",
+              "in": "query",
+              "schema": {
+                "type": "string",
+                "default": ""
+              }
+            },
+            {
+              "name": "ownerType",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32",
+                "default": 1
+              }
+            },
+            {
+              "name": "sortColumn",
+              "in": "query",
+              "schema": {
+                "type": "string",
+                "default": "createdAt"
+              }
+            },
+            {
+              "name": "sortOrder",
+              "in": "query",
+              "schema": {
+                "type": "string",
+                "default": "desc"
+              }
+            },
+            {
+              "name": "offset",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32",
+                "default": 0
+              }
+            },
+            {
+              "name": "limit",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32",
+                "default": 20
+              }
+            },
+            {
+              "name": "label",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "project",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "parentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success!",
+              "content": {
+                "application/vnd.onshape.v1+json;charset=UTF-8;qs=0.1": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTGlobalTreeNodeListResponse"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "operationId": "createDocument",
+          "parameters": [],
+          "requestBody": {
+            "content": {
+              "application/json;charset=UTF-8; qs=0.09": {
+                "schema": {
+                  "$ref": "#/components/schemas/BTDocumentParams"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/vnd.onshape.v1+json;charset=UTF-8;qs=0.1": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTDocumentInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/api/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/boundingboxes",
+      "methods": {
+        "get": {
+          "operationId": "getBoundingBoxes",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "partid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "includeHidden",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            {
+              "name": "configuration",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "linkDocumentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/vnd.onshape.v1+json;charset=UTF-8;qs=0.1": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTBoundingBoxInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/bodydetails",
+      "methods": {
+        "get": {
+          "operationId": "getPartStudioBodyDetails",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "configuration",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "linkDocumentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "rollbackBarIndex",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32",
+                "default": -1
+              }
+            }
+          ],
+          "requestBody": {
+            "content": {
+              "application/json;charset=UTF-8; qs=0.09": {
+                "schema": {
+                  "type": "string",
+                  "enum": [
+                    "UNDEFINED",
+                    "V1",
+                    "V2"
+                  ]
+                }
+              }
+            }
+          },
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/json;charset=UTF-8; qs=0.09": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTExportModelBodiesResponse-734"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/boundingboxes",
+      "methods": {
+        "get": {
+          "operationId": "getPartStudioBoundingBoxes",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "includeHidden",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            {
+              "name": "includeWireBodies",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": true
+              }
+            },
+            {
+              "name": "configuration",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "linkDocumentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/json;charset=UTF-8; qs=0.09": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTBoundingBoxInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+      "methods": {
+        "get": {
+          "operationId": "getPartStudioFeatures",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "featureId",
+              "in": "query",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "name": "linkDocumentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "noSketchGeometry",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": false
+              }
+            }
+          ],
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/vnd.onshape.v2+json;charset=UTF-8;qs=0.2": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTFeatureListResponse-2457"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "operationId": "addPartStudioFeature",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "requestBody": {
+            "description": "feature The serialized feature definition",
+            "content": {
+              "application/vnd.onshape.v2+json;charset=UTF-8;qs=0.2": {
+                "schema": {
+                  "$ref": "#/components/schemas/BTFeatureDefinitionCall-1406"
+                }
+              }
+            }
+          },
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/vnd.onshape.v2+json;charset=UTF-8;qs=0.2": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTFeatureDefinitionResponse-1617"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/shadedviews",
+      "methods": {
+        "get": {
+          "operationId": "getPartStudioShadedViews",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "viewMatrix",
+              "in": "query",
+              "schema": {
+                "type": "string",
+                "default": "front"
+              }
+            },
+            {
+              "name": "outputHeight",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32",
+                "default": 500
+              }
+            },
+            {
+              "name": "outputWidth",
+              "in": "query",
+              "schema": {
+                "type": "integer",
+                "format": "int32",
+                "default": 500
+              }
+            },
+            {
+              "name": "pixelSize",
+              "in": "query",
+              "schema": {
+                "type": "number",
+                "format": "double",
+                "default": 0.003
+              }
+            },
+            {
+              "name": "edges",
+              "in": "query",
+              "schema": {
+                "type": "string",
+                "default": "show"
+              }
+            },
+            {
+              "name": "showAllParts",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            {
+              "name": "includeSurfaces",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            {
+              "name": "useAntiAliasing",
+              "in": "query",
+              "schema": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            {
+              "name": "configuration",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "linkDocumentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/json;charset=UTF-8; qs=0.09": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTShadedViewsInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/api/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches/{sid}/boundingboxes",
+      "methods": {
+        "get": {
+          "operationId": "getSketchBoundingBoxes",
+          "parameters": [
+            {
+              "name": "did",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvm",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "wvmid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "eid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "sid",
+              "in": "path",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "configuration",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "linkDocumentId",
+              "in": "query",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "default": {
+              "description": "default response",
+              "content": {
+                "application/vnd.onshape.v1+json;charset=UTF-8;qs=0.1": {
+                  "schema": {
+                    "$ref": "#/components/schemas/BTBoundingBoxInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

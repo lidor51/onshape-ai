@@ -1,0 +1,490 @@
+TAP version 13
+# Subtest: compact dispatch is under 14000 characters, uses live 3070 and keeps entrypoint order
+ok 1 - compact dispatch is under 14000 characters, uses live 3070 and keeps entrypoint order
+  ---
+  duration_ms: 33.2264
+  type: 'test'
+  ...
+# Subtest: compaction preserves all non-whitespace tokens including strings and operator boundaries
+ok 2 - compaction preserves all non-whitespace tokens including strings and operator boundaries
+  ---
+  duration_ms: 0.4918
+  type: 'test'
+  ...
+# Subtest: dispatch declares dependencies before wrappers and places exported features on their own lines
+ok 3 - dispatch declares dependencies before wrappers and places exported features on their own lines
+  ---
+  duration_ms: 8.2458
+  type: 'test'
+  ...
+# Subtest: compact dispatch preserves both-phase bounds, volumes, full cylindrical through-hole checks and evidence caveats
+ok 4 - compact dispatch preserves both-phase bounds, volumes, full cylindrical through-hole checks and evidence caveats
+  ---
+  duration_ms: 6.8539
+  type: 'test'
+  ...
+# Subtest: parent failures and successful minimal probe remain separate with no invented raw response or source identity
+ok 5 - parent failures and successful minimal probe remain separate with no invented raw response or source identity
+  ---
+  duration_ms: 3.8011
+  type: 'test'
+  ...
+# Subtest: historical declaration preparation preserves exact payload bytes and its then-unspent final repair
+ok 6 - historical declaration preparation preserves exact payload bytes and its then-unspent final repair
+  ---
+  duration_ms: 42.7908
+  type: 'test'
+  ...
+# Subtest: one compiler probe fits the parent limit and preserves actual suspect helper declarations
+ok 7 - one compiler probe fits the parent limit and preserves actual suspect helper declarations
+  ---
+  duration_ms: 9.0174
+  type: 'test'
+  ...
+# Subtest: probe is separate from the production model and does not claim geometry validation
+ok 8 - probe is separate from the production model and does not claim geometry validation
+  ---
+  duration_ms: 2.6394
+  type: 'test'
+  ...
+# Subtest: current result is bound to both actual saved phase reports and measured values
+ok 9 - current result is bound to both actual saved phase reports and measured values
+  ---
+  duration_ms: 27.9845
+  type: 'test'
+  ...
+# Subtest: actual retained-source hashes differ from prepared bytes and revision changes only numeric defaults
+ok 10 - actual retained-source hashes differ from prepared bytes and revision changes only numeric defaults
+  ---
+  duration_ms: 11.6352
+  type: 'test'
+  ...
+# Subtest: saved baseline console passes while revision test remains explicitly parent-attributed without raw output
+ok 11 - saved baseline console passes while revision test remains explicitly parent-attributed without raw output
+  ---
+  duration_ms: 17.7045
+  type: 'test'
+  ...
+# Subtest: original failures and preparation snapshots remain historical with unresolved precise cause
+ok 12 - original failures and preparation snapshots remain historical with unresolved precise cause
+  ---
+  duration_ms: 1.8421
+  type: 'test'
+  ...
+# Subtest: accounting includes both HTTP failures and never treats allocation residual as exact official usage
+ok 13 - accounting includes both HTTP failures and never treats allocation residual as exact official usage
+  ---
+  duration_ms: 0.8195
+  type: 'test'
+  ...
+# Subtest: parent invocation count, compiler cap and limitations are explicit rather than universal pass claims
+ok 14 - parent invocation count, compiler cap and limitations are explicit rather than universal pass claims
+  ---
+  duration_ms: 0.416
+  type: 'test'
+  ...
+# Subtest: retained identity matches public discovery and both actual phase snapshots without claiming a new document
+ok 15 - retained identity matches public discovery and both actual phase snapshots without claiming a new document
+  ---
+  duration_ms: 0.5741
+  type: 'test'
+  ...
+# Subtest: finalization is offline and keeps historical validation separate from current verification
+ok 16 - finalization is offline and keeps historical validation separate from current verification
+  ---
+  duration_ms: 1.1429
+  type: 'test'
+  ...
+# Subtest: dispatch artifacts are actual tool parameter maps with exact source bytes and manifest hashes
+ok 17 - dispatch artifacts are actual tool parameter maps with exact source bytes and manifest hashes
+  ---
+  duration_ms: 20.4525
+  type: 'test'
+  ...
+# Subtest: live discovery contains only approved matched identities and preserves all eight attempted requests
+ok 18 - live discovery contains only approved matched identities and preserves all eight attempted requests
+  ---
+  duration_ms: 0.7606
+  type: 'test'
+  ...
+# Subtest: retained binding requires validated new-branch identities within the positively public managed document
+ok 19 - retained binding requires validated new-branch identities within the positively public managed document
+  ---
+  duration_ms: 1.9241
+  type: 'test'
+  ...
+# Subtest: revision binding requires exact source readback and changes only the baseline flag without replacing the feature
+ok 20 - revision binding requires exact source readback and changes only the baseline flag without replacing the feature
+  ---
+  duration_ms: 1.705
+  type: 'test'
+  ...
+# Subtest: current README names the actual server and distinguishes completed modeling from supplemental evidence
+ok 21 - current README names the actual server and distinguishes completed modeling from supplemental evidence
+  ---
+  duration_ms: 2.4283
+  type: 'test'
+  ...
+# Subtest: generated source and both expectation artifacts are bound to local fixture snapshots and source
+ok 22 - generated source and both expectation artifacts are bound to local fixture snapshots and source
+  ---
+  duration_ms: 9.1043
+  type: 'test'
+  ...
+# Subtest: immutable live evidence proves only the unsigned challenge and metadata, not CAD or tool discovery
+ok 23 - immutable live evidence proves only the unsigned challenge and metadata, not CAD or tool discovery
+  ---
+  duration_ms: 1.0764
+  type: 'test'
+  ...
+# Subtest: historical live evidence contains no credential fields and preserves its original blocked acceptance
+ok 24 - historical live evidence contains no credential fields and preserves its original blocked acceptance
+  ---
+  duration_ms: 1.7643
+  type: 'test'
+  ...
+# Subtest: continuation records exposed contracts without inventing loading, invocation, geometry, or quota evidence
+ok 25 - continuation records exposed contracts without inventing loading, invocation, geometry, or quota evidence
+  ---
+  duration_ms: 2.0237
+  type: 'test'
+  ...
+# Subtest: current and historical docs are ASCII with valid local links and explicit evidence limitations
+ok 26 - current and historical docs are ASCII with valid local links and explicit evidence limitations
+  ---
+  duration_ms: 20.9197
+  type: 'test'
+  ...
+# Subtest: synthetic baseline records round-trip and validate without claiming persistence
+ok 27 - synthetic baseline records round-trip and validate without claiming persistence
+  ---
+  duration_ms: 14.9277
+  type: 'test'
+  ...
+# Subtest: synthetic revision records round-trip and validate without claiming persistence
+ok 28 - synthetic revision records round-trip and validate without claiming persistence
+  ---
+  duration_ms: 2.7798
+  type: 'test'
+  ...
+# Subtest: all required geometric failure conditions remain enforced
+ok 29 - all required geometric failure conditions remain enforced
+  ---
+  duration_ms: 11.0433
+  type: 'test'
+  ...
+# Subtest: parser rejects absent, incomplete, duplicate, malformed and non-finite records
+ok 30 - parser rejects absent, incomplete, duplicate, malformed and non-finite records
+  ---
+  duration_ms: 3.1461
+  type: 'test'
+  ...
+# Subtest: compiler/runtime failures cannot pass even with valid records; warnings alone may pass
+ok 31 - compiler/runtime failures cannot pass even with valid records; warnings alone may pass
+  ---
+  duration_ms: 1.5723
+  type: 'test'
+  ...
+# Subtest: final source fits 6000 characters and exports one empty-precondition geometry feature
+ok 32 - final source fits 6000 characters and exports one empty-precondition geometry feature
+  ---
+  duration_ms: 11.4455
+  type: 'test'
+  ...
+# Subtest: revision differs only in numeric default fields; create and test use the same export
+ok 33 - revision differs only in numeric default fields; create and test use the same export
+  ---
+  duration_ms: 3.7012
+  type: 'test'
+  ...
+# Subtest: lexical smoke check finds no unknown bare identifiers; it is not an Onshape compiler
+ok 34 - lexical smoke check finds no unknown bare identifiers; it is not an Onshape compiler
+  ---
+  duration_ms: 6.9328
+  type: 'test'
+  ...
+# Subtest: saved test/create payloads use exact final source bytes and honest manifest hashes
+ok 35 - saved test/create payloads use exact final source bytes and honest manifest hashes
+  ---
+  duration_ms: 11.5873
+  type: 'test'
+  ...
+# Subtest: baseline independently matches normative coordinates and nine separate part expectations
+ok 36 - baseline independently matches normative coordinates and nine separate part expectations
+  ---
+  duration_ms: 4.4823
+  type: 'test'
+  ...
+# Subtest: revision updates plate offsets, roller lengths, shaft lengths, bores, crossmembers and clear gap
+ok 37 - revision updates plate offsets, roller lengths, shaft lengths, bores, crossmembers and clear gap
+  ---
+  duration_ms: 1.1641
+  type: 'test'
+  ...
+# Subtest: plate thickness is editable independently and shaft extensions follow outside plate faces
+ok 38 - plate thickness is editable independently and shaft extensions follow outside plate faces
+  ---
+  duration_ms: 0.64
+  type: 'test'
+  ...
+# Subtest: local validation detects holes leaving the plate or overlapping each other
+ok 39 - local validation detects holes leaving the plate or overlapping each other
+  ---
+  duration_ms: 1.7269
+  type: 'test'
+  ...
+# Subtest: independent FeatureScript provides reusable parameters, stable roles, bores, non-BOM flag and unevaluated evidence
+ok 40 - independent FeatureScript provides reusable parameters, stable roles, bores, non-BOM flag and unevaluated evidence
+  ---
+  duration_ms: 4.4071
+  type: 'test'
+  ...
+# Subtest: self-contained test is the first executable feature and covers both hardcoded phases with explicit defaults
+ok 41 - self-contained test is the first executable feature and covers both hardcoded phases with explicit defaults
+  ---
+  duration_ms: 1.4927
+  type: 'test'
+  ...
+# Subtest: every phase asserts fixture-derived exact bounds, volumes and cylinder axes including five holes per plate
+ok 42 - every phase asserts fixture-derived exact bounds, volumes and cylinder axes including five holes per plate
+  ---
+  duration_ms: 2.2351
+  type: 'test'
+  ...
+# Subtest: retained baseline and revision keep the same entry point and operation IDs with only a source-default switch
+ok 43 - retained baseline and revision keep the same entry point and operation IDs with only a source-default switch
+  ---
+  duration_ms: 1.5801
+  type: 'test'
+  ...
+# Subtest: discovery requires all three explicit authorizations before credential loading
+ok 44 - discovery requires all three explicit authorizations before credential loading
+  ---
+  duration_ms: 2.7282
+  type: 'test'
+  ...
+# Subtest: only exact managed names survive filtering, with ambiguity and incomplete listing rejected
+ok 45 - only exact managed names survive filtering, with ambiguity and incomplete listing rejected
+  ---
+  duration_ms: 2.6399
+  type: 'test'
+  ...
+# Subtest: origin and route guards reject unrelated CAD, geometry endpoints, credentials and broad search
+ok 46 - origin and route guards reject unrelated CAD, geometry endpoints, credentials and broad search
+  ---
+  duration_ms: 1.2066
+  type: 'test'
+  ...
+# Subtest: live-like transport only GETs four approved routes and persists no raw account fields
+ok 47 - live-like transport only GETs four approved routes and persists no raw account fields
+  ---
+  duration_ms: 14.2539
+  type: 'test'
+  ...
+# Subtest: transport caps attempts at eight and does not follow redirects or expose thrown secrets
+ok 48 - transport caps attempts at eight and does not follow redirects or expose thrown secrets
+  ---
+  duration_ms: 6.7064
+  type: 'test'
+  ...
+# Subtest: private managed metadata blocks model admission without sharing changes
+ok 49 - private managed metadata blocks model admission without sharing changes
+  ---
+  duration_ms: 0.7996
+  type: 'test'
+  ...
+# Subtest: an absent Notes document does not erase positively verified Workspace metadata or permit Notes writes
+ok 50 - an absent Notes document does not erase positively verified Workspace metadata or permit Notes writes
+  ---
+  duration_ms: 1.015
+  type: 'test'
+  ...
+# Subtest: live probe requires an explicit flag before network access
+ok 51 - live probe requires an explicit flag before network access
+  ---
+  duration_ms: 2.7355
+  type: 'test'
+  ...
+# Subtest: 401 discovers only advertised public metadata; never tools, login or token endpoints
+ok 52 - 401 discovers only advertised public metadata; never tools, login or token endpoints
+  ---
+  duration_ms: 17.9867
+  type: 'test'
+  ...
+# Subtest: successful session orders initialize, notification, paginated list without tool execution
+ok 53 - successful session orders initialize, notification, paginated list without tool execution
+  ---
+  duration_ms: 5.7413
+  type: 'test'
+  ...
+# Subtest: SSE reader handles split frames and ignores notifications without saving event IDs
+ok 54 - SSE reader handles split frames and ignores notifications without saving event IDs
+  ---
+  duration_ms: 2.6129
+  type: 'test'
+  ...
+# Subtest: redirects and unsupported versions stop without follow-up requests
+ok 55 - redirects and unsupported versions stop without follow-up requests
+  ---
+  duration_ms: 1.876
+  type: 'test'
+  ...
+# Subtest: network exception text is not persisted
+ok 56 - network exception text is not persisted
+  ---
+  duration_ms: 2.1736
+  type: 'test'
+  ...
+# Subtest: unsigned initialize follows the MCP 2025-06-18 Streamable HTTP envelope
+ok 57 - unsigned initialize follows the MCP 2025-06-18 Streamable HTTP envelope
+  ---
+  duration_ms: 3.8493
+  type: 'test'
+  ...
+# Subtest: session and negotiated version stay on subsequent protocol requests
+ok 58 - session and negotiated version stay on subsequent protocol requests
+  ---
+  duration_ms: 0.4452
+  type: 'test'
+  ...
+# Subtest: saved headers omit cookies, sessions, challenge descriptions and redirect values
+ok 59 - saved headers omit cookies, sessions, challenge descriptions and redirect values
+  ---
+  duration_ms: 3.1529
+  type: 'test'
+  ...
+# Subtest: metadata discovery rejects credentials, queries, redirects and unapproved hosts
+ok 60 - metadata discovery rejects credentials, queries, redirects and unapproved hosts
+  ---
+  duration_ms: 1.018
+  type: 'test'
+  ...
+# Subtest: baseline ledger and artifact hashes bind actual requests to the retained branch
+ok 61 - baseline ledger and artifact hashes bind actual requests to the retained branch
+  ---
+  duration_ms: 44.2592
+  type: 'test'
+  ...
+# Subtest: baseline actual snapshots, measurements, PNG and nine STEP members agree
+ok 62 - baseline actual snapshots, measurements, PNG and nine STEP members agree
+  ---
+  duration_ms: 32.1232
+  type: 'test'
+  ...
+# Subtest: baseline full offline capture revalidates actual source tokens, status, names and BOM
+ok 63 - baseline full offline capture revalidates actual source tokens, status, names and BOM
+  ---
+  duration_ms: 31.0983
+  type: 'test'
+  ...
+# Subtest: revision ledger and artifact hashes bind actual requests to the retained branch
+ok 64 - revision ledger and artifact hashes bind actual requests to the retained branch
+  ---
+  duration_ms: 26.2595
+  type: 'test'
+  ...
+# Subtest: revision actual snapshots, measurements, PNG and nine STEP members agree
+ok 65 - revision actual snapshots, measurements, PNG and nine STEP members agree
+  ---
+  duration_ms: 23.4085
+  type: 'test'
+  ...
+# Subtest: revision full offline capture revalidates actual source tokens, status, names and BOM
+ok 66 - revision full offline capture revalidates actual source tokens, status, names and BOM
+  ---
+  duration_ms: 25.8757
+  type: 'test'
+  ...
+# Subtest: both phases preserve feature and part identity while source and geometry change
+ok 67 - both phases preserve feature and part identity while source and geometry change
+  ---
+  duration_ms: 1.1798
+  type: 'test'
+  ...
+# Subtest: explicit phase, current-key and quiescent-branch acknowledgement precede credential access
+ok 68 - explicit phase, current-key and quiescent-branch acknowledgement precede credential access
+  ---
+  duration_ms: 2.7004
+  type: 'test'
+  ...
+# Subtest: only exact pinned branch reads and immutable measurement source are accepted
+ok 69 - only exact pinned branch reads and immutable measurement source are accepted
+  ---
+  duration_ms: 5.3907
+  type: 'test'
+  ...
+# Subtest: measurement contains literal retained feature query and no geometry-generating operations
+ok 70 - measurement contains literal retained feature query and no geometry-generating operations
+  ---
+  duration_ms: 0.3547
+  type: 'test'
+  ...
+# Subtest: attempts consume non-resetting per-phase and cumulative budgets including failures
+ok 71 - attempts consume non-resetting per-phase and cumulative budgets including failures
+  ---
+  duration_ms: 2.3921
+  type: 'test'
+  ...
+# Subtest: actual downloaded archive contains exactly nine valid original STEP members with correct CRCs
+ok 72 - actual downloaded archive contains exactly nine valid original STEP members with correct CRCs
+  ---
+  duration_ms: 17.5176
+  type: 'test'
+  ...
+# Subtest: source guard: runtime reads current credentials without logging them, no modeling or credential exports
+ok 73 - source guard: runtime reads current credentials without logging them, no modeling or credential exports
+  ---
+  duration_ms: 9.381
+  type: 'test'
+  ...
+# Subtest: transport checkpoints before dispatch, permits only observed snapshots, does not log auth
+ok 74 - transport checkpoints before dispatch, permits only observed snapshots, does not log auth
+  ---
+  duration_ms: 11.5632
+  type: 'test'
+  ...
+# Subtest: redirects, transport failures and echoed secrets cannot leak, retry or evade request counting
+ok 75 - redirects, transport failures and echoed secrets cannot leak, retry or evade request counting
+  ---
+  duration_ms: 4.1081
+  type: 'test'
+  ...
+# Subtest: typed JSON decoder preserves numeric geometry and rejects unknown types and duplicate keys
+ok 76 - typed JSON decoder preserves numeric geometry and rejects unknown types and duplicate keys
+  ---
+  duration_ms: 2.8188
+  type: 'test'
+  ...
+# Subtest: feature snapshot requires actual retained feature ID, namespace, microversion and OK state
+ok 77 - feature snapshot requires actual retained feature ID, namespace, microversion and OK state
+  ---
+  duration_ms: 0.4889
+  type: 'test'
+  ...
+# Subtest: saved live legacy feature envelope is decoded locally without a repeated request
+ok 78 - saved live legacy feature envelope is decoded locally without a repeated request
+  ---
+  duration_ms: 4.0093
+  type: 'test'
+  ...
+# Subtest: saved live legacy measurement map entries pass complete geometry and BOM validation locally
+ok 79 - saved live legacy measurement map entries pass complete geometry and BOM validation locally
+  ---
+  duration_ms: 10.2826
+  type: 'test'
+  ...
+# Subtest: synthetic full capture fits twelve requests with three polls and unchanged snapshot; no files saved
+ok 80 - synthetic full capture fits twelve requests with three polls and unchanged snapshot; no files saved
+  ---
+  duration_ms: 8.7571
+  type: 'test'
+  ...
+1..80
+# tests 80
+# suites 0
+# pass 80
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 823.7543

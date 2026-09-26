@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "phase": "revision",
+  "original": {
+    "file": "revision-export-original.step",
+    "serverSavedFile": "20260911-154124-b5a7239c-Part_Studio_1",
+    "kind": "step",
+    "bytes": 64436,
+    "sha256": "e3b947a3cf325706ee6b9d6b4150c59b524e7ccdd243e41568e22bc4840b4846"
+  },
+  "steps": [
+    {
+      "file": "revision-export-original.step",
+      "archiveEntry": null,
+      "bytes": 64436,
+      "sha256": "e3b947a3cf325706ee6b9d6b4150c59b524e7ccdd243e41568e22bc4840b4846",
+      "solidRecords": 9,
+      "provenance": "MCP-downloaded Onshape STEP"
+    }
+  ],
+  "images": [
+    {
+      "file": "revision-render-0.png",
+      "view": "iso",
+      "width": 1200,
+      "height": 900,
+      "bytes": 203142,
+      "sha256": "5ca63b6e1329e60d6f9b982818c7984c86354a7e2deb9a1bd69975cf68739eff",
+      "provenance": "Onshape shadedviews PNG returned as MCP ImageContent"
+    },
+    {
+      "file": "revision-render-1.png",
+      "view": "right",
+      "width": 1200,
+      "height": 900,
+      "bytes": 68398,
+      "sha256": "01e7416823d200bfacc8c40d5c90ceee3058f6f441b195cb047990a4cafd1691",
+      "provenance": "Onshape shadedviews PNG returned as MCP ImageContent"
+    }
+  ]
+}

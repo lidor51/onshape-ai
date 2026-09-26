@@ -1,0 +1,327 @@
+{
+  "phase": "revision",
+  "fixtureSha256": "8b0c26084c7176e98c9196c01e89c73ff41bc0443830aee18d1050f5e1dbe392",
+  "fixtureProvenance": "LOCAL_OFFICIAL_SNAPSHOTS_ORIGINAL_FIXTURE_NOT_REREAD",
+  "sourceSha256": "ba386e09952f2661ed18a9e932514434b74aca88b386672af1d66cf8818a956a",
+  "evidenceClass": "LOCAL_ANALYTIC_EXPECTATIONS_NOT_ONSHAPE_GEOMETRY",
+  "parameters": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9
+  },
+  "coralReference": {
+    "outerDiameterMm": 114.3,
+    "innerDiameterMm": 101.6,
+    "lengthMm": 301.625,
+    "centerYMm": -110,
+    "centerZMm": 57.15,
+    "note": "Nominal 4-inch Schedule 40 PVC, 11-7/8 inch long. Verify official tolerances before design release. Staged ahead of intake, not simulated contact."
+  },
+  "featureParametersMm": {
+    "innerWidth": 360,
+    "rollerGap": 95,
+    "plateThickness": 6.35
+  },
+  "rearRollerYMm": 241.2,
+  "expectedPartCount": 9,
+  "expectedHolesPerPlate": 5,
+  "parts": [
+    {
+      "name": "leftPlate",
+      "kind": "drilledPlate",
+      "minMm": [
+        -186.35,
+        0,
+        12.7
+      ],
+      "maxMm": [
+        -180,
+        320,
+        162.7
+      ],
+      "holes": [
+        {
+          "role": "frontShaftBore",
+          "centerYZMm": [
+            70,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "rearShaftBore",
+          "centerYZMm": [
+            241.2,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "frontMountHole",
+          "centerYZMm": [
+            140,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "rearMountHole",
+          "centerYZMm": [
+            300,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "pivotHole",
+          "centerYZMm": [
+            25,
+            130
+          ],
+          "diameterMm": 12.9
+        }
+      ],
+      "cylindricalFaces": 5,
+      "volumeMm3": 301875.70934676356
+    },
+    {
+      "name": "rightPlate",
+      "kind": "drilledPlate",
+      "minMm": [
+        180,
+        0,
+        12.7
+      ],
+      "maxMm": [
+        186.35,
+        320,
+        162.7
+      ],
+      "holes": [
+        {
+          "role": "frontShaftBore",
+          "centerYZMm": [
+            70,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "rearShaftBore",
+          "centerYZMm": [
+            241.2,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "frontMountHole",
+          "centerYZMm": [
+            140,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "rearMountHole",
+          "centerYZMm": [
+            300,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "pivotHole",
+          "centerYZMm": [
+            25,
+            130
+          ],
+          "diameterMm": 12.9
+        }
+      ],
+      "cylindricalFaces": 5,
+      "volumeMm3": 301875.70934676356
+    },
+    {
+      "name": "frontRoller",
+      "kind": "tube",
+      "axis": "x",
+      "minMm": [
+        -175,
+        31.9,
+        26.9
+      ],
+      "maxMm": [
+        175,
+        108.1,
+        103.1
+      ],
+      "centerYZMm": [
+        70,
+        65
+      ],
+      "outerDiameterMm": 76.2,
+      "innerDiameterMm": 12.7,
+      "cylindricalFaces": 2,
+      "nonBom": false,
+      "volumeMm3": 1551791.654736087
+    },
+    {
+      "name": "rearRoller",
+      "kind": "tube",
+      "axis": "x",
+      "minMm": [
+        -175,
+        203.1,
+        26.9
+      ],
+      "maxMm": [
+        175,
+        279.3,
+        103.1
+      ],
+      "centerYZMm": [
+        241.2,
+        65
+      ],
+      "outerDiameterMm": 76.2,
+      "innerDiameterMm": 12.7,
+      "cylindricalFaces": 2,
+      "nonBom": false,
+      "volumeMm3": 1551791.654736087
+    },
+    {
+      "name": "frontShaft",
+      "kind": "shaft",
+      "axis": "x",
+      "minMm": [
+        -199.04999999999998,
+        63.65,
+        58.65
+      ],
+      "maxMm": [
+        199.04999999999998,
+        76.35,
+        71.35
+      ],
+      "centerYZMm": [
+        70,
+        65
+      ],
+      "outerDiameterMm": 12.7,
+      "innerDiameterMm": 0,
+      "cylindricalFaces": 1,
+      "nonBom": false,
+      "volumeMm3": 50430.06185717845
+    },
+    {
+      "name": "rearShaft",
+      "kind": "shaft",
+      "axis": "x",
+      "minMm": [
+        -199.04999999999998,
+        234.85,
+        58.65
+      ],
+      "maxMm": [
+        199.04999999999998,
+        247.54999999999998,
+        71.35
+      ],
+      "centerYZMm": [
+        241.2,
+        65
+      ],
+      "outerDiameterMm": 12.7,
+      "innerDiameterMm": 0,
+      "cylindricalFaces": 1,
+      "nonBom": false,
+      "volumeMm3": 50430.06185717845
+    },
+    {
+      "name": "frontCrossmember",
+      "kind": "box",
+      "minMm": [
+        -180,
+        127.3,
+        122.3
+      ],
+      "maxMm": [
+        180,
+        152.7,
+        147.7
+      ],
+      "cylindricalFaces": 0,
+      "volumeMm3": 232257.59999999998
+    },
+    {
+      "name": "rearCrossmember",
+      "kind": "box",
+      "minMm": [
+        -180,
+        287.3,
+        122.3
+      ],
+      "maxMm": [
+        180,
+        312.7,
+        147.7
+      ],
+      "cylindricalFaces": 0,
+      "volumeMm3": 232257.59999999998
+    },
+    {
+      "name": "coralReference",
+      "kind": "tube",
+      "axis": "x",
+      "minMm": [
+        -150.8125,
+        -167.15,
+        0
+      ],
+      "maxMm": [
+        150.8125,
+        -52.85,
+        114.3
+      ],
+      "centerYZMm": [
+        -110,
+        57.15
+      ],
+      "outerDiameterMm": 114.3,
+      "innerDiameterMm": 101.6,
+      "cylindricalFaces": 2,
+      "nonBom": true,
+      "volumeMm3": 649551.4843768268
+    }
+  ],
+  "serverCompilation": "UNVERIFIED",
+  "serverMeasurements": null
+}

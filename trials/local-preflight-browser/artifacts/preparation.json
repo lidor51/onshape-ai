@@ -1,0 +1,39 @@
+{
+  "status": "PREPARED_NOT_SOLID_VALIDATED",
+  "candidates": [
+    "A",
+    "B-thickness",
+    "B-pivot",
+    "B-width",
+    "B-revision",
+    "B-final-six"
+  ],
+  "validParameterSweepCount": 25,
+  "hashes": {
+    "benchmark": "8b0c26084c7176e98c9196c01e89c73ff41bc0443830aee18d1050f5e1dbe392",
+    "reusedSource": "af76352c2d823da717d178e4bcec0923fd7283d41b640272402fd71a89c21968",
+    "generatedSource": "042b5676a8f1b6b4faad848ad096daa5acd691f0ed96a192129de588aa12ffbf"
+  },
+  "parameterHashes": {
+    "A": "ffd3b689f9f56f1d8c04b735b20aae04e1331486804b9d9c647c7d9fa06269ad",
+    "B-thickness": "99720b0fa7494ee6f9f4a9bc4cc82a1fb7a6cdd9c29919162532d79abb26f975",
+    "B-pivot": "c5f94d730ec5bea380efdd279ba2f8b29527260965d8a6b91f3527534b2aebd4",
+    "B-width": "8ce0a385b90813989b33e60ed86b724b52f78bc67c1abc690fa73bd0123a6f17",
+    "B-revision": "7c0979559a95967dd2fae2c185854d4ed66d51b3ba62856707dd466c1d5758a0",
+    "B-final-six": "98c83893cf8f57df818c94e31883dd6f5d48b1793c90880f191c0c63aba5fb53"
+  },
+  "featureScriptVersion": 3070,
+  "inputPath": "trials/featurescript/intake.fs",
+  "adaptations": [
+    "Retain pinned 3070 source version",
+    "Extract cuboid/cylindrical subtraction plate pattern",
+    "Generate one left plate only",
+    "Expose ten real length parameters with defaults",
+    "Add edge and bore-overlap checks",
+    "Keep downstream sixth hole outside custom FeatureScript"
+  ],
+  "independence": "Reused source; not independent generation-quality evidence",
+  "localCompilerClaim": false,
+  "networkRequests": 0,
+  "wallTimeMs": 32.14750000000001
+}

@@ -1,0 +1,39 @@
+{
+  "status": "CATALOG_BOUND_CANDIDATES_NOT_RELEASED",
+  "observed_on": "2026-09-18",
+  "sources": {
+    "belts": "https://wcproducts.com/products/htd-timing-belts-9mm-width",
+    "pulleys": "https://wcproducts.com/products/htd-timing-pulleys",
+    "chain": "https://wcproducts.com/products/25-sprockets"
+  },
+  "roller_loops": [
+    {"rows": ["front", "middle"], "pulley_sku": "WCP-0563", "pulley_teeth": 18, "pitch_mm": 5, "width_mm": 9, "bore": "1/2 inch hex", "belt_sku": "WCP-0621", "belt_teeth": 80, "pitch_length_mm": 400, "nominal_center_mm": 155, "nominal_wrap_degrees": 180, "nominal_engaged_teeth": 9},
+    {"rows": ["middle", "rear"], "pulley_sku": "WCP-0563", "pulley_teeth": 18, "pitch_mm": 5, "width_mm": 9, "bore": "1/2 inch hex", "belt_sku": "WCP-0619", "belt_teeth": 70, "pitch_length_mm": 350, "nominal_center_mm": 130, "nominal_wrap_degrees": 180, "nominal_engaged_teeth": 9}
+  ],
+  "pickup_reduction": {
+    "preferred_screen_range": [9, 12],
+    "example_total": 10,
+    "example_stages": [{"kind": "spur", "driver": 12, "driven": 60}, {"kind": "HTD_5mm", "driver": 18, "driven": 36}],
+    "example_second_stage_skus": ["WCP-0563", "WCP-0990"],
+    "packaged_and_load_rated": false
+  },
+  "deployment": {
+    "layout_candidate": "Chassis-mounted in-house reduction unit, short guarded chain to a supported pivot, physical deployed/stowed stops and positive service/stow retention",
+    "ratio_selected": null,
+    "rejected_ratio": 5,
+    "screened_ratios": [36, 50, 64],
+    "reason_unselected": "Current CAD mass screen leaves high peak current demand even at 64:1; mass reduction, motion duration, possible counterbalance and hardware load ratings must be resolved",
+    "chain_family_candidate": "#25; load/RPM/impact capacity unverified, not approved",
+    "impact_collapse": "Not implied by a backdrivable chain/gear train; controlled torque, geometry and mechanical protection require verification"
+  },
+  "required_before_release": [
+    "Actual pulley STEP/drawing and axial retention stack",
+    "Separate axial planes for the two middle-shaft pulleys",
+    "Assembly/tension adjustment and removal access",
+    "Manufacturer tooth and tensile load limits at the actual speed",
+    "Full-span guarding, misalignment and reversing duty checks",
+    "Continuous pickup contact and front floating preload/stops",
+    "Kicker reversal and speed matching",
+    "Actual source period/availability versus intended competition season"
+  ]
+}

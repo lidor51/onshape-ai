@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "A",
+      "status": "PASS"
+    },
+    {
+      "name": "B-thickness",
+      "status": "PASS"
+    },
+    {
+      "name": "B-pivot",
+      "status": "PASS"
+    },
+    {
+      "name": "B-width",
+      "status": "PASS"
+    },
+    {
+      "name": "B-revision",
+      "status": "PASS"
+    },
+    {
+      "name": "B-final-six",
+      "status": "PASS"
+    },
+    {
+      "name": "benchmark-revision",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t6.35-p25-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t6.35-p25-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t6.35-p25-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t6.35-p30-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t6.35-p30-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t6.35-p30-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t8-p25-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t8-p25-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t8-p25-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t8-p30-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t8-p30-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w340-t8-p30-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t6.35-p25-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t6.35-p25-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t6.35-p25-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t6.35-p30-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t6.35-p30-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t6.35-p30-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t8-p25-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t8-p25-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t8-p25-g100",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t8-p30-g95",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t8-p30-g97.5",
+      "status": "PASS"
+    },
+    {
+      "name": "w360-t8-p30-g100",
+      "status": "PASS"
+    }
+  ],
+  "realSolidChecksRun": 31,
+  "successful": 31,
+  "wallTimeMs": 120917.5354,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0,
+  "networkIsolation": "Python audit hook before CAD import denies sockets, DNS and child processes; local socket.gethostname allowed; no OS firewall assertion",
+  "localFeatureScriptCompilation": "NOT_PERFORMED"
+}

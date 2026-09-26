@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-18",
+  "url": "https://www.reca.lc/intake",
+  "method": "Visible calculator UI configured and outputs read in browser",
+  "inputs": {
+    "motor": "Kraken X44",
+    "FOC": false,
+    "motor_count": 1,
+    "reduction": 10,
+    "roller_diameter_in": 5,
+    "travel_distance_in": 12,
+    "stator_limit_a": 30,
+    "stator_limit_status": "Calculator input only, not an approved hardware limit",
+    "drivetrain_speed_ft_per_s": 17.6,
+    "drivetrain_speed_status": "Unchanged calculator default; not this robot's selected speed"
+  },
+  "observed_display": {"linear_speed_ft_per_s": 16.9, "time_to_goal_s": 0.06},
+  "converted_speed_m_per_s": 5.15112,
+  "local_no_load_speed_m_per_s": 5.158840712386335,
+  "agreement": "Within displayed speed precision; corroborates no-load kinematics only",
+  "not_validated": ["Loaded acquisition force", "Traction and compliance", "Continuous transport", "Current or thermal duty", "Deployment geometry or torque", "Impact survival"],
+  "arm_calculator": {
+    "url": "https://www.reca.lc/arm",
+    "reviewed": true,
+    "used_as_system_validation": false,
+    "reason": "Its single-arm load model was not shown equivalent to the current translating linkage and missing actuator. Default results are not evidence for this system."
+  }
+}

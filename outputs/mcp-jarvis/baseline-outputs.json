@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "phase": "baseline",
+  "original": {
+    "file": "baseline-export-original.step",
+    "serverSavedFile": "20260911-153741-b5a7239c-Part_Studio_1",
+    "kind": "step",
+    "bytes": 64436,
+    "sha256": "e326330462bfcccddf6ad2ffe538822e211689e860cd144e89a89df36a7c17e5"
+  },
+  "steps": [
+    {
+      "file": "baseline-export-original.step",
+      "archiveEntry": null,
+      "bytes": 64436,
+      "sha256": "e326330462bfcccddf6ad2ffe538822e211689e860cd144e89a89df36a7c17e5",
+      "solidRecords": 9,
+      "provenance": "MCP-downloaded Onshape STEP"
+    }
+  ],
+  "images": [
+    {
+      "file": "baseline-render-0.png",
+      "view": "iso",
+      "width": 1200,
+      "height": 900,
+      "bytes": 203536,
+      "sha256": "18096b039fef97ac6ea67f23881224305a4c2cdca0cc2483973d948b0bdb831e",
+      "provenance": "Onshape shadedviews PNG returned as MCP ImageContent"
+    },
+    {
+      "file": "baseline-render-1.png",
+      "view": "right",
+      "width": 1200,
+      "height": 900,
+      "bytes": 68482,
+      "sha256": "046472a81aa2eb97e2c58de4131c052a65a562e961edeb11110a2a7cce9fed80",
+      "provenance": "Onshape shadedviews PNG returned as MCP ImageContent"
+    }
+  ]
+}

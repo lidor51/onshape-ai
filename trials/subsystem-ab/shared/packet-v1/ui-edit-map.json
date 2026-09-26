@@ -1,0 +1,52 @@
+{
+  "featureName": "Concept A shared engineering",
+  "featureSymbol": "conceptAShared",
+  "source": "source/concept-a.fs",
+  "compilation": "UNVERIFIED_ZERO_LIVE_CALLS",
+  "controls": {
+    "mouthWidth": {
+      "label": "Pickup mouth width",
+      "baselineMm": 500,
+      "revisionMm": 520,
+      "rangeMm": [
+        480,
+        520
+      ],
+      "affectedGeometry": [
+        "pickup_cross_tube",
+        "lower_hex_shaft",
+        "upper_pickup_drum",
+        "lower_pickup_drum",
+        "pickup_belt",
+        "deploy_output_gear"
+      ],
+      "preserved": [
+        "pivot world origin/axis",
+        "receiver source geometry/attachment",
+        "fixed orienter"
+      ]
+    },
+    "receiverHeight": {
+      "label": "Receiver height datum",
+      "baselineMm": 320,
+      "probeMm": 350,
+      "rangeMm": [
+        300,
+        360
+      ],
+      "sourceEffect": "Rough fork leg length = receiverHeight - 110; fork attachment world Z = receiverHeight + 85. Height dimension and assembly placement must both update.",
+      "independentFrom": "mouthWidth"
+    }
+  },
+  "fixedNotIndependentlyEditableInUI": [
+    "gear teeth/module/pressure angle",
+    "bearing/hex nominal fits",
+    "pivot Y/Z",
+    "transfer ramp profile",
+    "mount hole patterns",
+    "drum diameter",
+    "stow limit"
+  ],
+  "assemblyUpdate": "Resolve parts by role, preserve existing instance/mate IDs, recompute parameter-dependent connector positions from contract; do not delete/reinsert to claim identity retention.",
+  "humanUsabilityObserved": false
+}

@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MCP isolated install",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"C:/Users/lidor/FRC/onshape-ai/trials/mcp/second-server/install.mjs"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

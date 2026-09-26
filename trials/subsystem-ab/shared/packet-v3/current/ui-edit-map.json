@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "mouthWidth": {
+      "min": 480,
+      "max": 520
+    },
+    "receiverHeight": {
+      "min": 300,
+      "max": 360
+    }
+  },
+  "baseline": {
+    "mouthWidth": 500,
+    "receiverHeight": 320
+  },
+  "revision": {
+    "mouthWidth": 520,
+    "receiverHeight": 320
+  },
+  "mouthWidthEffects": [
+    "side-plate positions",
+    "cross-tube, drum and belt widths",
+    "source-owned connector locations"
+  ],
+  "receiverHeightEffects": [
+    "fork leg length = receiverHeight - 110",
+    "receiver datum Z = receiverHeight + 85"
+  ],
+  "sourceCandidate": "source/concept-a.fs",
+  "sourceOwnedConnectorDefinitions": 102,
+  "nativeFeatureGeometryEquivalence": "UNVERIFIED_OFFLINE_CANDIDATE_ONLY",
+  "nativeConnectorOwnership": "UNVERIFIED_SOURCE_EMITTED_NOT_NATIVE_READBACK",
+  "humanUiObserved": false
+}

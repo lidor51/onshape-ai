@@ -1,0 +1,84 @@
+{
+  "packetVersion": "concept-a-local-v2",
+  "units": "mm",
+  "status": "ENGINEERING_STUDY_NOT_MECHANICALLY_RELEASED",
+  "baseline": {
+    "mouthWidth": 500,
+    "receiverHeight": 320
+  },
+  "revision": {
+    "mouthWidth": 520,
+    "receiverHeight": 320
+  },
+  "receiverControlProbe": {
+    "mouthWidth": 500,
+    "receiverHeight": 350
+  },
+  "controls": {
+    "mouthWidth": {
+      "min": 480,
+      "max": 520
+    },
+    "receiverHeight": {
+      "min": 300,
+      "max": 360
+    }
+  },
+  "pivotOriginMm": [
+    0,
+    100,
+    410
+  ],
+  "lowerDrumLocalMm": [
+    0,
+    -360,
+    -370
+  ],
+  "deployLimitsDeg": [
+    -145,
+    0
+  ],
+  "sampleIncrementDeg": 5,
+  "chassisMm": {
+    "width": 700,
+    "length": 760,
+    "bottom": 70,
+    "height": 50,
+    "rail": 25
+  },
+  "bumperMm": {
+    "outwardDepth": 85,
+    "bottom": 45,
+    "top": 165
+  },
+  "drumRadiusMm": 27,
+  "beltThicknessMm": 3,
+  "shaftHexAcrossFlatsMm": 12.7,
+  "bearingBodyDiameterMm": 28.575,
+  "bearingWidthMm": 7.9502,
+  "bearingSeatDiameterMm": 28.675,
+  "x44BoltCircleMm": 34.925,
+  "x44PilotDiameterMm": 19.05,
+  "gearModuleMm": 1.27,
+  "gearPressureAngleDeg": 14.5,
+  "gearTeeth": [
+    16,
+    48
+  ],
+  "coralMm": {
+    "length": 301.625,
+    "outerDiameter": 114.3,
+    "innerDiameter": 101.6
+  },
+  "receiverOriginXYMm": [
+    0,
+    440
+  ],
+  "assumptions": [
+    "Pivot and receiver Y differ from provisional research datums to clear a complete bumper and separate stow from handoff.",
+    "Full 85 mm deep, 120 mm high uninterrupted bumper keepout fills the nominal 63.5-146.05 mm zone with extra height; not certified bumper construction.",
+    "Initial 127 mm drum straight belt path collided with bumper. Revised 54 mm drum plus 3 mm belt and relocated pivot passed the focused swept-volume screen; grip remains unverified.",
+    "Belt/drum contact, gear teeth, bearing races, spline form, fasteners, fits, electrical controls and load capacity are not released.",
+    "All purchased envelopes are NOT_VENDOR_GEOMETRY; parent must bind authentic source/version before the paired trial is frozen."
+  ]
+}

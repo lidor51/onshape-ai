@@ -1,0 +1,9 @@
+{
+  "pythonExecutable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "apiCalls": 0,
+  "networkAuditDeniedEvents": [],
+  "exportWallSeconds": 60.742496100006974,
+  "validationWallSeconds": 27.239430000001448,
+  "sourceAndEnvironment": "Existing manufacturing venv, -u -B; no environment changes",
+  "priorInterruptedAttempts": "Initial import/Boolean/distance calls were interrupted; only the completed stored full sweeps support PASS"
+}

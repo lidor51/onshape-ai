@@ -1,0 +1,261 @@
+{
+  "mechanicallyReleased": false,
+  "parts": [
+    {
+      "role": "chassis_reference",
+      "quantity": 1,
+      "category": "reference",
+      "manufacturedBomIncluded": false,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "bumper_keepout",
+      "quantity": 1,
+      "category": "reference",
+      "manufacturedBomIncluded": false,
+      "material": "FULL_BUMPER_KEEP_OUT_NO_NOTCH",
+      "notes": ""
+    },
+    {
+      "role": "receiver_reference",
+      "quantity": 1,
+      "category": "reference",
+      "manufacturedBomIncluded": false,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Rough open fork, not a modeled capture actuator; height control changes fork geometry and placement, independently of mouthWidth."
+    },
+    {
+      "role": "coral_reference",
+      "quantity": 1,
+      "category": "reference",
+      "manufacturedBomIncluded": false,
+      "material": "NOMINAL_PVC_NOT_MEASURED",
+      "notes": ""
+    },
+    {
+      "role": "stage_deck",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "cradle",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "MACHINED_POLYMER_STOCK_UNSELECTED",
+      "notes": "Straight V trough, nominal tangent contact; router stock/travel and split construction require review."
+    },
+    {
+      "role": "transfer_ramp",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "FLAT_POLYCARBONATE_RAMP_RIGID_MODULE",
+      "notes": "Inclined flat plate on two attached foot blocks; no sheet bending. Foot joining hardware omitted. Gravity transition and dynamic coral transfer unverified."
+    },
+    {
+      "role": "hex_bearing_envelope",
+      "quantity": 10,
+      "category": "cots-envelope",
+      "manufacturedBomIncluded": false,
+      "material": "BEARING_ENVELOPE",
+      "notes": "WCP-0783 nominal body only. Flange/races/loads pending. Whole envelope follows inner hex; circular OD does not imply race locking."
+    },
+    {
+      "role": "x44_envelope",
+      "quantity": 3,
+      "category": "cots-envelope",
+      "manufacturedBomIncluded": false,
+      "material": "MOTOR_ENVELOPE",
+      "notes": "WCP-0941 body 47.4 x 75; 8 mm cylindrical spline envelope. Shaft extension assumed 22 mm; catalog drawing confirmation required."
+    },
+    {
+      "role": "pinion_16_envelope",
+      "quantity": 4,
+      "category": "cots-envelope",
+      "manufacturedBomIncluded": false,
+      "material": "STEEL_GEAR_ENVELOPE",
+      "notes": "16 teeth, 20 DP, 14.5 deg; teeth omitted, addendum envelope. Assumed face width 8 mm, NOT vendor gear geometry."
+    },
+    {
+      "role": "gear_48_envelope",
+      "quantity": 2,
+      "category": "cots-envelope",
+      "manufacturedBomIncluded": false,
+      "material": "GEAR_ENVELOPE",
+      "notes": "48 teeth, 20 DP, 14.5 deg. Simplified solid addendum envelope; actual WCP width/retention pending."
+    },
+    {
+      "role": "orienter_hex_shaft",
+      "quantity": 2,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "1/2 inch AF native interface; collars/axial retention in omitted hardware BOM."
+    },
+    {
+      "role": "orienter_contact_drum",
+      "quantity": 2,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "CUSTOM_ELASTOMER_CONTACT_DRUM",
+      "notes": "Custom 70 mm OD contact drum, not AndyMark am-3462. Tire compliance/friction and hub construction unverified."
+    },
+    {
+      "role": "orienter_housing",
+      "quantity": 2,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "PRINTED_HOUSING_MATERIAL_UNSELECTED",
+      "notes": "One printable U support plus open-bottom gear side guards; no precision bend. Motor clocking and top access guard still require vendor and safety review."
+    },
+    {
+      "role": "pickup_left_plate",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "pickup_side_plate",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "pickup_cross_tube",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "20 x 20 x 2 metric tube; end fasteners omitted, end holes pending."
+    },
+    {
+      "role": "pivot_spine",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Fixed 1/2 inch hex spine supports independent frame and upper-drum bearings; separate frame/drum outer races."
+    },
+    {
+      "role": "lower_hex_shaft",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "upper_pickup_drum",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "TUBE_RUBBER_ASSEMBLY",
+      "notes": "Continuous bored tube with end bearing seats. Rubber/hub retention and stiffness pending."
+    },
+    {
+      "role": "lower_pickup_drum",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "TUBE_RUBBER_ASSEMBLY",
+      "notes": "Hex-driven lower drum and end hubs treated as one rigid custom part; detailed hub build pending."
+    },
+    {
+      "role": "pickup_belt",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "BELT_ENVELOPE_NOT_VENDOR",
+      "notes": "Actual closed 3 mm belt envelope with two tangent spans and wrap. Flexible belt represented fixed for clearance only, not a rigid native transmission simulation."
+    },
+    {
+      "role": "pickup_output_gear",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Custom 96t gear with bearing-clearance hub; 6:1 reduction, teeth simplified to addendum envelope. Bolted drum flange retention pending."
+    },
+    {
+      "role": "pickup_gear_guard",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "POLYCARBONATE_GUARD",
+      "notes": "Contoured radial guard ring, side plate closes one face; removable outboard cover and finger access review still required."
+    },
+    {
+      "role": "pivot_tower",
+      "quantity": 2,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Flat tower with machined/bolted foot represented as a rigid contiguous module; joining and spine clamp hardware pending."
+    },
+    {
+      "role": "deploy_motor_reducer_envelope",
+      "quantity": 1,
+      "category": "cots-envelope",
+      "manufacturedBomIncluded": false,
+      "material": "UNSELECTED_MOTOR_REDUCER_ENVELOPE",
+      "notes": "X44 plus assumed 8:1 reducer envelope, NOT an authentic selected gearbox. Internal stages/adapter/brake unverified, deployment powertrain gate BLOCKED pending selection."
+    },
+    {
+      "role": "deploy_output_gear",
+      "quantity": 1,
+      "category": "custom",
+      "manufacturedBomIncluded": true,
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Custom 96t output, 20 DP/14.5 deg, 6:1 mesh at 71.12 mm centers; 4 M4 bolt pattern to left carrier. Axial hub shortens under mouth revision."
+    }
+  ],
+  "omittedDetailedHardware": [
+    {
+      "item": "X44 #10-32 motor screws",
+      "nominalQuantity": 12,
+      "status": "Clocking, engagement and exact lengths unverified"
+    },
+    {
+      "item": "M4 deployment hub bolts",
+      "nominalQuantity": 4,
+      "status": "Bolt pattern modeled; engagement/load review pending"
+    },
+    {
+      "item": "M6 deck mount bolts",
+      "nominalQuantity": 4,
+      "status": "Deck bores modeled; chassis reference attachment pending"
+    },
+    {
+      "item": "Shaft collars/retainers",
+      "nominalQuantity": 8,
+      "status": "Envelope/length design pending"
+    },
+    {
+      "item": "Tower feet, motor adapter, drum hubs, ramp and guard fastening",
+      "nominalQuantity": null,
+      "status": "Incomplete detailed hardware BOM, not counted as released fasteners"
+    }
+  ],
+  "rigidModulesNotMonolithicStock": [
+    "pivot_tower",
+    "transfer_ramp",
+    "pickup_side_plate with standoffs",
+    "pickup drums with hubs/tread"
+  ],
+  "referencesExcluded": [
+    "chassis",
+    "bumper",
+    "receiver",
+    "held_coral"
+  ],
+  "massCostStress": "UNVERIFIED"
+}

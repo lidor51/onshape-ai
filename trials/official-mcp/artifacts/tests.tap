@@ -1,0 +1,238 @@
+TAP version 13
+# Subtest: compact dispatch is under 14000 characters, uses live 3070 and keeps entrypoint order
+ok 1 - compact dispatch is under 14000 characters, uses live 3070 and keeps entrypoint order
+  ---
+  duration_ms: 30.0793
+  type: 'test'
+  ...
+# Subtest: compaction preserves all non-whitespace tokens including strings and operator boundaries
+ok 2 - compaction preserves all non-whitespace tokens including strings and operator boundaries
+  ---
+  duration_ms: 0.366
+  type: 'test'
+  ...
+# Subtest: compact dispatch preserves both-phase bounds, volumes, full cylindrical through-hole checks and evidence caveats
+ok 3 - compact dispatch preserves both-phase bounds, volumes, full cylindrical through-hole checks and evidence caveats
+  ---
+  duration_ms: 6.3541
+  type: 'test'
+  ...
+# Subtest: dispatch artifacts are actual tool parameter maps with exact source bytes and manifest hashes
+ok 4 - dispatch artifacts are actual tool parameter maps with exact source bytes and manifest hashes
+  ---
+  duration_ms: 38.5609
+  type: 'test'
+  ...
+# Subtest: live discovery contains only approved matched identities and preserves all eight attempted requests
+ok 5 - live discovery contains only approved matched identities and preserves all eight attempted requests
+  ---
+  duration_ms: 2.3552
+  type: 'test'
+  ...
+# Subtest: retained binding requires validated new-branch identities within the positively public managed document
+ok 6 - retained binding requires validated new-branch identities within the positively public managed document
+  ---
+  duration_ms: 2.3161
+  type: 'test'
+  ...
+# Subtest: revision binding requires exact source readback and changes only the baseline flag without replacing the feature
+ok 7 - revision binding requires exact source readback and changes only the baseline flag without replacing the feature
+  ---
+  duration_ms: 2.4662
+  type: 'test'
+  ...
+# Subtest: continuation setup names the actual server and distinguishes parent authentication from CAD execution
+ok 8 - continuation setup names the actual server and distinguishes parent authentication from CAD execution
+  ---
+  duration_ms: 2.0639
+  type: 'test'
+  ...
+# Subtest: generated source and both expectation artifacts are bound to local fixture snapshots and source
+ok 9 - generated source and both expectation artifacts are bound to local fixture snapshots and source
+  ---
+  duration_ms: 11.3595
+  type: 'test'
+  ...
+# Subtest: immutable live evidence proves only the unsigned challenge and metadata, not CAD or tool discovery
+ok 10 - immutable live evidence proves only the unsigned challenge and metadata, not CAD or tool discovery
+  ---
+  duration_ms: 3.789
+  type: 'test'
+  ...
+# Subtest: saved live evidence contains no credential fields; acceptance remains blocked and scope is explicit
+ok 11 - saved live evidence contains no credential fields; acceptance remains blocked and scope is explicit
+  ---
+  duration_ms: 3.0097
+  type: 'test'
+  ...
+# Subtest: continuation records exposed contracts without inventing loading, invocation, geometry, or quota evidence
+ok 12 - continuation records exposed contracts without inventing loading, invocation, geometry, or quota evidence
+  ---
+  duration_ms: 1.8128
+  type: 'test'
+  ...
+# Subtest: handoff docs are ASCII with working local links and bounded, explicit auth and CAD limitations
+ok 13 - handoff docs are ASCII with working local links and bounded, explicit auth and CAD limitations
+  ---
+  duration_ms: 8.675
+  type: 'test'
+  ...
+# Subtest: baseline independently matches normative coordinates and nine separate part expectations
+ok 14 - baseline independently matches normative coordinates and nine separate part expectations
+  ---
+  duration_ms: 4.409
+  type: 'test'
+  ...
+# Subtest: revision updates plate offsets, roller lengths, shaft lengths, bores, crossmembers and clear gap
+ok 15 - revision updates plate offsets, roller lengths, shaft lengths, bores, crossmembers and clear gap
+  ---
+  duration_ms: 1.2005
+  type: 'test'
+  ...
+# Subtest: plate thickness is editable independently and shaft extensions follow outside plate faces
+ok 16 - plate thickness is editable independently and shaft extensions follow outside plate faces
+  ---
+  duration_ms: 1.9988
+  type: 'test'
+  ...
+# Subtest: local validation detects holes leaving the plate or overlapping each other
+ok 17 - local validation detects holes leaving the plate or overlapping each other
+  ---
+  duration_ms: 1.3928
+  type: 'test'
+  ...
+# Subtest: independent FeatureScript provides reusable parameters, stable roles, bores, non-BOM flag and unevaluated evidence
+ok 18 - independent FeatureScript provides reusable parameters, stable roles, bores, non-BOM flag and unevaluated evidence
+  ---
+  duration_ms: 8.1561
+  type: 'test'
+  ...
+# Subtest: self-contained test is the first executable feature and covers both hardcoded phases with explicit defaults
+ok 19 - self-contained test is the first executable feature and covers both hardcoded phases with explicit defaults
+  ---
+  duration_ms: 1.5286
+  type: 'test'
+  ...
+# Subtest: every phase asserts fixture-derived exact bounds, volumes and cylinder axes including five holes per plate
+ok 20 - every phase asserts fixture-derived exact bounds, volumes and cylinder axes including five holes per plate
+  ---
+  duration_ms: 1.2482
+  type: 'test'
+  ...
+# Subtest: retained baseline and revision keep the same entry point and operation IDs with only a source-default switch
+ok 21 - retained baseline and revision keep the same entry point and operation IDs with only a source-default switch
+  ---
+  duration_ms: 1.3477
+  type: 'test'
+  ...
+# Subtest: discovery requires all three explicit authorizations before credential loading
+ok 22 - discovery requires all three explicit authorizations before credential loading
+  ---
+  duration_ms: 2.6293
+  type: 'test'
+  ...
+# Subtest: only exact managed names survive filtering, with ambiguity and incomplete listing rejected
+ok 23 - only exact managed names survive filtering, with ambiguity and incomplete listing rejected
+  ---
+  duration_ms: 2.5159
+  type: 'test'
+  ...
+# Subtest: origin and route guards reject unrelated CAD, geometry endpoints, credentials and broad search
+ok 24 - origin and route guards reject unrelated CAD, geometry endpoints, credentials and broad search
+  ---
+  duration_ms: 1.08
+  type: 'test'
+  ...
+# Subtest: live-like transport only GETs four approved routes and persists no raw account fields
+ok 25 - live-like transport only GETs four approved routes and persists no raw account fields
+  ---
+  duration_ms: 46.182
+  type: 'test'
+  ...
+# Subtest: transport caps attempts at eight and does not follow redirects or expose thrown secrets
+ok 26 - transport caps attempts at eight and does not follow redirects or expose thrown secrets
+  ---
+  duration_ms: 4.3467
+  type: 'test'
+  ...
+# Subtest: private managed metadata blocks model admission without sharing changes
+ok 27 - private managed metadata blocks model admission without sharing changes
+  ---
+  duration_ms: 0.5529
+  type: 'test'
+  ...
+# Subtest: an absent Notes document does not erase positively verified Workspace metadata or permit Notes writes
+ok 28 - an absent Notes document does not erase positively verified Workspace metadata or permit Notes writes
+  ---
+  duration_ms: 0.5034
+  type: 'test'
+  ...
+# Subtest: live probe requires an explicit flag before network access
+ok 29 - live probe requires an explicit flag before network access
+  ---
+  duration_ms: 2.5827
+  type: 'test'
+  ...
+# Subtest: 401 discovers only advertised public metadata; never tools, login or token endpoints
+ok 30 - 401 discovers only advertised public metadata; never tools, login or token endpoints
+  ---
+  duration_ms: 52.9175
+  type: 'test'
+  ...
+# Subtest: successful session orders initialize, notification, paginated list without tool execution
+ok 31 - successful session orders initialize, notification, paginated list without tool execution
+  ---
+  duration_ms: 3.2945
+  type: 'test'
+  ...
+# Subtest: SSE reader handles split frames and ignores notifications without saving event IDs
+ok 32 - SSE reader handles split frames and ignores notifications without saving event IDs
+  ---
+  duration_ms: 1.9094
+  type: 'test'
+  ...
+# Subtest: redirects and unsupported versions stop without follow-up requests
+ok 33 - redirects and unsupported versions stop without follow-up requests
+  ---
+  duration_ms: 1.1672
+  type: 'test'
+  ...
+# Subtest: network exception text is not persisted
+ok 34 - network exception text is not persisted
+  ---
+  duration_ms: 0.4107
+  type: 'test'
+  ...
+# Subtest: unsigned initialize follows the MCP 2025-06-18 Streamable HTTP envelope
+ok 35 - unsigned initialize follows the MCP 2025-06-18 Streamable HTTP envelope
+  ---
+  duration_ms: 4.1896
+  type: 'test'
+  ...
+# Subtest: session and negotiated version stay on subsequent protocol requests
+ok 36 - session and negotiated version stay on subsequent protocol requests
+  ---
+  duration_ms: 0.3926
+  type: 'test'
+  ...
+# Subtest: saved headers omit cookies, sessions, challenge descriptions and redirect values
+ok 37 - saved headers omit cookies, sessions, challenge descriptions and redirect values
+  ---
+  duration_ms: 43.8696
+  type: 'test'
+  ...
+# Subtest: metadata discovery rejects credentials, queries, redirects and unapproved hosts
+ok 38 - metadata discovery rejects credentials, queries, redirects and unapproved hosts
+  ---
+  duration_ms: 0.9178
+  type: 'test'
+  ...
+1..38
+# tests 38
+# suites 0
+# pass 38
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 313.2746

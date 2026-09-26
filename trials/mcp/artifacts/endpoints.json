@@ -1,0 +1,2702 @@
+[
+  {
+    "operation_id": "getPlanPurchases",
+    "method": "GET",
+    "path": "/accounts/plans/{planId}/purchases",
+    "description": "Get a list of all app purchases made for the specified plan.",
+    "tags": [
+      "Account"
+    ]
+  },
+  {
+    "operation_id": "getPurchases",
+    "method": "GET",
+    "path": "/accounts/purchases",
+    "description": "Get a list of all app purchases made by the current user.",
+    "tags": [
+      "Account"
+    ]
+  },
+  {
+    "operation_id": "consumePurchase",
+    "method": "POST",
+    "path": "/accounts/purchases/{pid}/consume",
+    "description": "Mark a purchase as consumed by the current user.",
+    "tags": [
+      "Account"
+    ]
+  },
+  {
+    "operation_id": "cancelPurchaseNew",
+    "method": "DELETE",
+    "path": "/accounts/{aid}/purchases/{pid}",
+    "description": "Cancel a recurring subscription for the specified account ID and purchase ID.",
+    "tags": [
+      "Account"
+    ]
+  },
+  {
+    "operation_id": "getAliasesInCompany",
+    "method": "GET",
+    "path": "/aliases",
+    "description": "Get a list of all aliases that exist for your enterprise.",
+    "tags": [
+      "Alias"
+    ]
+  },
+  {
+    "operation_id": "createAlias",
+    "method": "POST",
+    "path": "/aliases",
+    "description": "Create an alias in your enterprise.",
+    "tags": [
+      "Alias"
+    ]
+  },
+  {
+    "operation_id": "deleteAlias",
+    "method": "DELETE",
+    "path": "/aliases/{aid}",
+    "description": "Delete an alias from your enterprise.",
+    "tags": [
+      "Alias"
+    ]
+  },
+  {
+    "operation_id": "getAlias",
+    "method": "GET",
+    "path": "/aliases/{aid}",
+    "description": "Get an alias by ID.",
+    "tags": [
+      "Alias"
+    ]
+  },
+  {
+    "operation_id": "updateAlias",
+    "method": "POST",
+    "path": "/aliases/{aid}",
+    "description": "Add, remove, replace, or rename entries in an alias list.",
+    "tags": [
+      "Alias"
+    ]
+  },
+  {
+    "operation_id": "getAliasMembers",
+    "method": "GET",
+    "path": "/aliases/{aid}/members",
+    "description": "Get all users and teams assigned to an alias.",
+    "tags": [
+      "Alias"
+    ]
+  },
+  {
+    "operation_id": "createElement",
+    "method": "POST",
+    "path": "/appelements/d/{did}/w/{wid}",
+    "description": "Create a new application element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "bulkCreateElement",
+    "method": "POST",
+    "path": "/appelements/d/{did}/w/{wid}/bulkcreate",
+    "description": "Create multiple empty application elements at once.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "deleteBlobSubelement",
+    "method": "DELETE",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/blob/{bid}",
+    "description": "Delete a blob subelement from an app element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "downloadBlobSubelementWorkspace",
+    "method": "GET",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/blob/{bid}",
+    "description": "Download the blob element (i.e., a file) stored in an app element in a document's workspace.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "uploadBlobSubelement",
+    "method": "POST",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/blob/{bid}",
+    "description": "Create a new blob subelement from an uploaded file.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "copyAssociativeData",
+    "method": "POST",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/copyassociativedata",
+    "description": "Copy associative data from one view to another.",
+    "tags": [
+      "AppAssociativeData"
+    ]
+  },
+  {
+    "operation_id": "getElementTransactions",
+    "method": "GET",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/transactions",
+    "description": "Get a list of all transactions performed on an element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "startTransaction",
+    "method": "POST",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/transactions",
+    "description": "Start a transaction",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "abortTransaction",
+    "method": "DELETE",
+    "path": "/appelements/d/{did}/w/{wid}/e/{eid}/transactions/{tid}",
+    "description": "Abort a transaction.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "commitTransactions",
+    "method": "POST",
+    "path": "/appelements/d/{did}/w/{wid}/transactions",
+    "description": "Merge multiple transactions into one microversion.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "downloadBlobSubelement",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{vm}/{vmid}/e/{eid}/blob/{bid}",
+    "description": "Download a blob subelement from the specified app element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "deleteAssociativeData",
+    "method": "DELETE",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/associativedata",
+    "description": "Delete the associative data from the specified app element.",
+    "tags": [
+      "AppAssociativeData"
+    ]
+  },
+  {
+    "operation_id": "getAssociativeData",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/associativedata",
+    "description": "Get the associative data for the specified app element.",
+    "tags": [
+      "AppAssociativeData"
+    ]
+  },
+  {
+    "operation_id": "postAssociativeData",
+    "method": "POST",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/associativedata",
+    "description": "Set the associative data for the specified app element.",
+    "tags": [
+      "AppAssociativeData"
+    ]
+  },
+  {
+    "operation_id": "getBlobSubelementIds",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/blob",
+    "description": "Get a list of all blob subelement IDs for the specified workspace, version, or microversion.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "compareAppElementJson",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/compare",
+    "description": "Compare app element JSON trees between workspaces/versions/microversions in a document.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "getSubElementContent",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content",
+    "description": "Get a list of all subelement IDs in a specified workspace/version/microversion.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "updateAppElement",
+    "method": "POST",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content",
+    "description": "Update the content for the specified app element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "getAppElementHistory",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/history",
+    "description": "Get the history of the specified all element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "getSubelementIds",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/ids",
+    "description": "Get a list of all subelement IDs in a specified workspace/version/microversion.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "getJson",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/json",
+    "description": "Get the full JSON tree for the specified workspace/version/microversion.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "getJsonPaths",
+    "method": "POST",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/jsonpaths",
+    "description": "Get the JSON at specified paths for an element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "deleteAppElementContentBatch",
+    "method": "DELETE",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/subelements",
+    "description": "Delete multiple subelements array by document ID, workspace or version or microversion ID, tab ID, and subelement IDs.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "getSubElementContentBatch",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/subelements",
+    "description": "Get a list of multiple subelements by document ID, workspace or version or microversion ID, tab ID, and subelement IDs.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "deleteAppElementContent",
+    "method": "DELETE",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/content/subelements/{sid}",
+    "description": "Deletes the content from the specified app element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "createReference",
+    "method": "POST",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/references",
+    "description": "Creates a reference to an app element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "deleteReference",
+    "method": "DELETE",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/references/{rid}",
+    "description": "Delete an app element reference.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "resolveReference",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/references/{rid}",
+    "description": "Resolves a single reference to an app element.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "updateReference",
+    "method": "POST",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/references/{rid}",
+    "description": "Update an app element reference.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "resolveReferences",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/e/{eid}/resolvereferences",
+    "description": "Resolves bulk app element references.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "resolveAllElementReferences",
+    "method": "GET",
+    "path": "/appelements/d/{did}/{wvm}/{wvmid}/resolvereferences",
+    "description": "Resolves bulk app element references.",
+    "tags": [
+      "AppElement"
+    ]
+  },
+  {
+    "operation_id": "deleteCompanyAppSettings",
+    "method": "DELETE",
+    "path": "/applications/clients/{cid}/settings/companies/{cpid}",
+    "description": "Delete a company's application preference settings.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "getCompanyAppSettings",
+    "method": "GET",
+    "path": "/applications/clients/{cid}/settings/companies/{cpid}",
+    "description": "Get company-level preference settings for an application.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "updateAppCompanySettings",
+    "method": "POST",
+    "path": "/applications/clients/{cid}/settings/companies/{cpid}",
+    "description": "Update company preference settings for an application.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "deleteAppSettings",
+    "method": "DELETE",
+    "path": "/applications/clients/{cid}/settings/users/{uid}",
+    "description": "Delete a user's application preference settings.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "getUserAppSettings",
+    "method": "GET",
+    "path": "/applications/clients/{cid}/settings/users/{uid}",
+    "description": "Get user-level preference settings for an application.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "updateAppSettings",
+    "method": "POST",
+    "path": "/applications/clients/{cid}/settings/users/{uid}",
+    "description": "Update a user's application preference settings.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "getApplicableExtensionsForClient",
+    "method": "GET",
+    "path": "/applications/extensions/user/{uid}/client/{cid}",
+    "description": "Get a list of the client extensions the specified user has granted/accepted terms for.",
+    "tags": [
+      "APIApplication"
+    ]
+  },
+  {
+    "operation_id": "getNamedViews",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/e/{eid}/namedViews",
+    "description": "Get the view data for all named views for the specified element.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "createAssembly",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}",
+    "description": "Create a new assembly tab in the document.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getOrCreateBillOfMaterialsElement",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/bomelement",
+    "description": "Gets the Bill Of Materials (BOM) for the specified assembly, or creates a BOM if none exist.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "deleteFeature",
+    "method": "DELETE",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/features/featureid/{fid}",
+    "description": "Delete a feature from an assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "updateFeature",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/features/featureid/{fid}",
+    "description": "Update an existing feature for an Assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "deleteInstance",
+    "method": "DELETE",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/instance/nodeid/{nid}",
+    "description": "Delete an instance of an assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "createInstance",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/instances",
+    "description": "Insert an instance of a part, sketch, assembly, or Part Studio into an assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "updateMateValues",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/matevalues",
+    "description": "Update mate values for the given mates in the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "modify",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/modify",
+    "description": "Modify an assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "transformOccurrences",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/occurrencetransforms",
+    "description": "Transform a list of assembly occurrences.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "insertTransformedInstances",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/transformedinstances",
+    "description": "Create new instances with transformation.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getAssemblyDefinition",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}",
+    "description": "Get definition information for the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getBillOfMaterials",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/bom",
+    "description": "Get the Bill Of Materials (BOM) content for the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getAssemblyBoundingBoxes",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/boundingboxes",
+    "description": "Get bounding box information for the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getDisplayStates",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/displaystates",
+    "description": "Get a list of display states for the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getExplodedViews",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/explodedviews",
+    "description": "Get a list of exploded views for the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getFeatures",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+    "description": "Get the definitions of the specified features in an assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "addFeature",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+    "description": "Add a feature to the assembly feature list.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getFeatureSpecs",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/featurespecs",
+    "description": "Get the feature spec definitions for an assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getAssemblyMassProperties",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/massproperties",
+    "description": "Get the mass properties for the assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getNamedPositions",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/namedpositions",
+    "description": "Get a list of all named positions for the assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getAssemblyShadedViews",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wvm}/{wvmid}/e/{eid}/shadedviews",
+    "description": "Get an array of shaded view images for the document.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "createAssemblyExportGltf",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/{wv}/{wvid}/e/{eid}/export/gltf",
+    "description": "Export the assembly to glTF.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "createAssemblyExportObj",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/{wv}/{wvid}/e/{eid}/export/obj",
+    "description": "Export the assembly to OBJ.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "createAssemblyExportStep",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/{wv}/{wvid}/e/{eid}/export/step",
+    "description": "Export the assembly to STEP.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getMateValues",
+    "method": "GET",
+    "path": "/assemblies/d/{did}/{wv}/{wvid}/e/{eid}/matevalues",
+    "description": "Get a list of mate values in the specified assembly.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "translateFormat",
+    "method": "POST",
+    "path": "/assemblies/d/{did}/{wv}/{wvid}/e/{eid}/translations",
+    "description": "Export the assembly to another format.",
+    "tags": [
+      "Assembly"
+    ]
+  },
+  {
+    "operation_id": "getClientPlans",
+    "method": "GET",
+    "path": "/billing/plans/client/{cid}",
+    "description": "Get all billing plans and their information for an application by client ID.",
+    "tags": [
+      "Billing"
+    ]
+  },
+  {
+    "operation_id": "uploadFileCreateElement",
+    "method": "POST",
+    "path": "/blobelements/d/{did}/w/{wid}",
+    "description": "Upload a file and create a blob element from it.",
+    "tags": [
+      "BlobElement"
+    ]
+  },
+  {
+    "operation_id": "downloadFileWorkspace",
+    "method": "GET",
+    "path": "/blobelements/d/{did}/w/{wid}/e/{eid}",
+    "description": "Download a file from a blob element for the specified workspace/version/microversion.",
+    "tags": [
+      "BlobElement"
+    ]
+  },
+  {
+    "operation_id": "uploadFileUpdateElement",
+    "method": "POST",
+    "path": "/blobelements/d/{did}/w/{wid}/e/{eid}",
+    "description": "Update a blob element by uploading a file.",
+    "tags": [
+      "BlobElement"
+    ]
+  },
+  {
+    "operation_id": "updateUnits",
+    "method": "POST",
+    "path": "/blobelements/d/{did}/w/{wid}/e/{eid}/units",
+    "description": "Change the measurement units for the blob element.",
+    "tags": [
+      "BlobElement"
+    ]
+  },
+  {
+    "operation_id": "createBlobTranslation",
+    "method": "POST",
+    "path": "/blobelements/d/{did}/{wv}/{wvid}/e/{eid}/translations",
+    "description": "Export a blob element to another format.",
+    "tags": [
+      "BlobElement"
+    ]
+  },
+  {
+    "operation_id": "getComments",
+    "method": "GET",
+    "path": "/comments",
+    "description": "Get a list of comments in a document.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "createComment",
+    "method": "POST",
+    "path": "/comments",
+    "description": "Update a document with a new comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "deleteComment",
+    "method": "DELETE",
+    "path": "/comments/{cid}",
+    "description": "Delete a comment from a document.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "getComment",
+    "method": "GET",
+    "path": "/comments/{cid}",
+    "description": "Get details for a comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "updateComment",
+    "method": "POST",
+    "path": "/comments/{cid}",
+    "description": "Update the content of an existing comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "deleteAttachments",
+    "method": "DELETE",
+    "path": "/comments/{cid}/attachment",
+    "description": "Delete all attachments from a comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "addAttachment",
+    "method": "POST",
+    "path": "/comments/{cid}/attachment",
+    "description": "Add an attachment to a comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "getAttachment",
+    "method": "GET",
+    "path": "/comments/{cid}/attachment/{fdid}.{ext}",
+    "description": "Get the attachment with the specified file extension that is associated with the specified comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "reopen",
+    "method": "POST",
+    "path": "/comments/{cid}/reopen",
+    "description": "Reopen a resolved comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "resolve",
+    "method": "POST",
+    "path": "/comments/{cid}/resolve",
+    "description": "Resolve a comment.",
+    "tags": [
+      "Comment"
+    ]
+  },
+  {
+    "operation_id": "findCompany",
+    "method": "GET",
+    "path": "/companies",
+    "description": "Get all companies to which the specified user belongs.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "getCompany",
+    "method": "GET",
+    "path": "/companies/{cid}",
+    "description": "Get company information by company ID.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "getDocumentsByName",
+    "method": "GET",
+    "path": "/companies/{cid}/documentsbyname",
+    "description": "Get document by exact document name.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "clearGlobalPermissions",
+    "method": "DELETE",
+    "path": "/companies/{cid}/globalpermission/{type}/{id}",
+    "description": "Remove global permissions for a company user or team.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "addGlobalPermissionsForIdentity",
+    "method": "POST",
+    "path": "/companies/{cid}/globalpermission/{type}/{id}",
+    "description": "Add one or more global permissions to company user or team.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "getCompanyUsers",
+    "method": "GET",
+    "path": "/companies/{cid}/users",
+    "description": "Get a list of members in a company.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "addUserToCompany",
+    "method": "POST",
+    "path": "/companies/{cid}/users",
+    "description": "Add a user to a company.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "removeUserFromCompany",
+    "method": "DELETE",
+    "path": "/companies/{cid}/users/{uid}",
+    "description": "Remove a user from a company, company teams, and all the direct shares.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "updateCompanyUser",
+    "method": "POST",
+    "path": "/companies/{cid}/users/{uid}",
+    "description": "Update the company's information for a user.",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "operation_id": "getDocuments",
+    "method": "GET",
+    "path": "/documents",
+    "description": "Get a list of documents that meet the criteria you specify.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "createDocument",
+    "method": "POST",
+    "path": "/documents",
+    "description": "Create and upload a document.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "downloadExternalData",
+    "method": "GET",
+    "path": "/documents/d/{did}/externaldata/{fid}",
+    "description": "Download external data file(s) associated with the document.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocumentVersions",
+    "method": "GET",
+    "path": "/documents/d/{did}/versions",
+    "description": "Retrieve versions by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "createVersion",
+    "method": "POST",
+    "path": "/documents/d/{did}/versions",
+    "description": "Create version by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getVersion",
+    "method": "GET",
+    "path": "/documents/d/{did}/versions/{vid}",
+    "description": "Retrieve version by document ID and version ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "updateExternalReferencesToLatestDocuments",
+    "method": "POST",
+    "path": "/documents/d/{did}/w/{wid}/e/{eid}/latestdocumentreferences",
+    "description": "Update external references to latest by document ID, workspace ID, and tab ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "moveElementsToDocument",
+    "method": "POST",
+    "path": "/documents/d/{did}/w/{wid}/moveelement",
+    "description": "Move tab by document ID and workspace ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "revertUnchangedToRevisions",
+    "method": "POST",
+    "path": "/documents/d/{did}/w/{wid}/revertunchangedtorevisions",
+    "description": "",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "syncAppElements",
+    "method": "POST",
+    "path": "/documents/d/{did}/w/{wid}/syncAppElements",
+    "description": "",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocumentWorkspaces",
+    "method": "GET",
+    "path": "/documents/d/{did}/workspaces",
+    "description": "Retrieve workspaces by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "createWorkspace",
+    "method": "POST",
+    "path": "/documents/d/{did}/workspaces",
+    "description": "Create workspace by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "deleteWorkspace",
+    "method": "DELETE",
+    "path": "/documents/d/{did}/workspaces/{wid}",
+    "description": "Delete workspace by document ID and workspace ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocumentHistory",
+    "method": "GET",
+    "path": "/documents/d/{did}/{wm}/{wmid}/documenthistory",
+    "description": "Retrieve document history by document ID and workspace or microversion ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocumentContents",
+    "method": "GET",
+    "path": "/documents/d/{did}/{wvm}/{wvmid}/contents",
+    "description": "Retrieve tabs and folders by document ID and workspace or version or microversion ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getElementsInDocument",
+    "method": "GET",
+    "path": "/documents/d/{did}/{wvm}/{wvmid}/elements",
+    "description": "Retrieve tabs by document ID and workspace or version or microversion ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getUnitInfo",
+    "method": "GET",
+    "path": "/documents/d/{did}/{wvm}/{wvmid}/unitinfo",
+    "description": "Get the selected units and precision by document ID and workspace or version or microversion ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getCurrentMicroversion",
+    "method": "GET",
+    "path": "/documents/d/{did}/{wv}/{wvid}/currentmicroversion",
+    "description": "Retrieve current microversion by document ID and workspace or version ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "export2Json",
+    "method": "POST",
+    "path": "/documents/d/{did}/{wv}/{wvid}/e/{eid}/export",
+    "description": "Export document by document ID, workspace or version ID, and tab ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getInsertables",
+    "method": "GET",
+    "path": "/documents/d/{did}/{wv}/{wvid}/insertables",
+    "description": "Retrieve insertables by document ID and workspace or version ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "search",
+    "method": "POST",
+    "path": "/documents/search",
+    "description": "Search document.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "deleteDocument",
+    "method": "DELETE",
+    "path": "/documents/{did}",
+    "description": "Delete document by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocument",
+    "method": "GET",
+    "path": "/documents/{did}",
+    "description": "Retrieve document by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "updateDocumentAttributes",
+    "method": "POST",
+    "path": "/documents/{did}",
+    "description": "Update document attributes by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocumentAcl",
+    "method": "GET",
+    "path": "/documents/{did}/acl",
+    "description": "Retrieve access control list by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "updateAnonymousAccess",
+    "method": "POST",
+    "path": "/documents/{did}/acl/anonymousAccess",
+    "description": "Allow or deny anonymous access to a document or publication.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "updatePublicAccess",
+    "method": "POST",
+    "path": "/documents/{did}/acl/public",
+    "description": "Make a document public or private.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "updateDocumentNotes",
+    "method": "POST",
+    "path": "/documents/{did}/notes",
+    "description": "Update document notes by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "getDocumentPermissionSet",
+    "method": "GET",
+    "path": "/documents/{did}/permissionset",
+    "description": "Retrieve Document permissions by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "shareDocument",
+    "method": "POST",
+    "path": "/documents/{did}/share",
+    "description": "Share document by document ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "unShareDocument",
+    "method": "DELETE",
+    "path": "/documents/{did}/share/{eid}",
+    "description": "Remove document View permissions from a user or other entity.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "unshareFromSupport",
+    "method": "DELETE",
+    "path": "/documents/{did}/shareWithSupport",
+    "description": "Unshare document with support.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "shareWithSupport",
+    "method": "POST",
+    "path": "/documents/{did}/shareWithSupport",
+    "description": "Share document by document ID with Onshape support.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "mergePreview",
+    "method": "GET",
+    "path": "/documents/{did}/w/{wid}/mergePreview",
+    "description": "Merge preview of changes that will occur based on document ID, workspace ID and source workspace/version ID",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "restoreFromHistory",
+    "method": "POST",
+    "path": "/documents/{did}/w/{wid}/restore/{vm}/{vmid}",
+    "description": "Restore version or microversion to workspace by document ID, workspace ID, and version or microversion ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "copyWorkspace",
+    "method": "POST",
+    "path": "/documents/{did}/workspaces/{wid}/copy",
+    "description": "Copy workspace by document ID and workspace ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "mergeIntoWorkspace",
+    "method": "POST",
+    "path": "/documents/{did}/workspaces/{wid}/merge",
+    "description": "Merge into workspace by document ID and workspace ID.",
+    "tags": [
+      "Document"
+    ]
+  },
+  {
+    "operation_id": "createDrawingAppElement",
+    "method": "POST",
+    "path": "/drawings/d/{did}/w/{wid}/create",
+    "description": "Create a new drawing in a document.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "modifyDrawing",
+    "method": "POST",
+    "path": "/drawings/d/{did}/w/{wid}/e/{eid}/modify",
+    "description": "Modify a drawing via JSON payload.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "getDrawingTranslatorFormats",
+    "method": "GET",
+    "path": "/drawings/d/{did}/w/{wid}/e/{eid}/translationformats",
+    "description": "Get a list of all valid formats the drawing can be translated (exported) to.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "getDrawingViews_1",
+    "method": "GET",
+    "path": "/drawings/d/{did}/{wvm}/{wvmid}/e/{eid}/views",
+    "description": "Get details of all drawing views.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "getDrawingViewJsonGeometry_1",
+    "method": "GET",
+    "path": "/drawings/d/{did}/{wvm}/{wvmid}/e/{eid}/views/{viewid}/jsongeometry",
+    "description": "Get view geometry of a drawing view in JSON format.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "createDrawingTranslation",
+    "method": "POST",
+    "path": "/drawings/d/{did}/{wv}/{wvid}/e/{eid}/translations",
+    "description": "Translate (export) a drawing to a different format.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "getModificationStatus",
+    "method": "GET",
+    "path": "/drawings/modify/status/{mrid}",
+    "description": "Get the status of a drawing modification operation.",
+    "tags": [
+      "Drawing"
+    ]
+  },
+  {
+    "operation_id": "copyElementFromSourceDocument",
+    "method": "POST",
+    "path": "/elements/copyelement/{did}/workspace/{wid}",
+    "description": "Copy an element from a source document.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "encodeConfigurationMap",
+    "method": "POST",
+    "path": "/elements/d/{did}/e/{eid}/configurationencodings",
+    "description": "Encode a configuration option for use in other API calls.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "deleteElement",
+    "method": "DELETE",
+    "path": "/elements/d/{did}/w/{wid}/e/{eid}",
+    "description": "Delete an element from a document.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "updateReferences",
+    "method": "POST",
+    "path": "/elements/d/{did}/w/{wid}/e/{eid}/updatereferences",
+    "description": "Update or replace references in an element.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "getConfiguration",
+    "method": "GET",
+    "path": "/elements/d/{did}/{wvm}/{wvmid}/e/{eid}/configuration",
+    "description": "Get the configuration definition for a Part Studio, Variable Studio, or Assembly.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "updateConfiguration",
+    "method": "POST",
+    "path": "/elements/d/{did}/{wvm}/{wvmid}/e/{eid}/configuration",
+    "description": "Update the configuration definition for a Part Studio, Variable Studio, or Assembly.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "decodeConfiguration",
+    "method": "GET",
+    "path": "/elements/d/{did}/{wvm}/{wvmid}/e/{eid}/configurationencodings/{cid}",
+    "description": "Decode a configuration string.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "getElementTranslatorFormatsByVersionOrWorkspace",
+    "method": "GET",
+    "path": "/elements/translatorFormats/{did}/{wv}/{wvid}/{eid}",
+    "description": "Gets the list of formats an element can be translated to or from.",
+    "tags": [
+      "Element"
+    ]
+  },
+  {
+    "operation_id": "getValidRuleOptions",
+    "method": "GET",
+    "path": "/exportrules/options/{cu}/{cuid}",
+    "description": " Get a list of valid export rule options for the user or company.",
+    "tags": [
+      "ExportRule"
+    ]
+  },
+  {
+    "operation_id": "createFeatureStudio",
+    "method": "POST",
+    "path": "/featurestudios/d/{did}/w/{wid}",
+    "description": "Create a new Feature Studio tab in a document.",
+    "tags": [
+      "FeatureStudio"
+    ]
+  },
+  {
+    "operation_id": "getFeatureStudioContents",
+    "method": "GET",
+    "path": "/featurestudios/d/{did}/{wvm}/{wvmid}/e/{eid}",
+    "description": "Get the text for a Feature Studio element.",
+    "tags": [
+      "FeatureStudio"
+    ]
+  },
+  {
+    "operation_id": "updateFeatureStudioContents",
+    "method": "POST",
+    "path": "/featurestudios/d/{did}/{wvm}/{wvmid}/e/{eid}",
+    "description": "Update the text for a Feature Studio element.",
+    "tags": [
+      "FeatureStudio"
+    ]
+  },
+  {
+    "operation_id": "getFeatureStudioSpecs",
+    "method": "GET",
+    "path": "/featurestudios/d/{did}/{wvm}/{wvmid}/e/{eid}/featurespecs",
+    "description": "Get the feature specs for a Feature Studio element.",
+    "tags": [
+      "FeatureStudio"
+    ]
+  },
+  {
+    "operation_id": "getFolderAcl",
+    "method": "GET",
+    "path": "/folders/{fid}/acl",
+    "description": "Get the Access Control List (ACL) for a folder to view permissions.",
+    "tags": [
+      "Folder"
+    ]
+  },
+  {
+    "operation_id": "share",
+    "method": "POST",
+    "path": "/folders/{fid}/share",
+    "description": "Share folder with an entity.",
+    "tags": [
+      "Folder"
+    ]
+  },
+  {
+    "operation_id": "unShare",
+    "method": "DELETE",
+    "path": "/folders/{fid}/share/{eid}",
+    "description": "Remove permissions from the folder for the specified Access Control List (ACL) entry.",
+    "tags": [
+      "Folder"
+    ]
+  },
+  {
+    "operation_id": "getLatestInDocument",
+    "method": "GET",
+    "path": "/insertables/d/{did}/latest",
+    "description": "Get a list of things in this document that can be inserted elsewhere.",
+    "tags": [
+      "Insertable"
+    ]
+  },
+  {
+    "operation_id": "getItems",
+    "method": "GET",
+    "path": "/items",
+    "description": "Get all items owned by a company/classroom/enterprise.",
+    "tags": [
+      "Item"
+    ]
+  },
+  {
+    "operation_id": "createItem",
+    "method": "POST",
+    "path": "/items",
+    "description": "Create a new item.",
+    "tags": [
+      "Item"
+    ]
+  },
+  {
+    "operation_id": "deleteItem",
+    "method": "DELETE",
+    "path": "/items/{iid}",
+    "description": "Delete an item.",
+    "tags": [
+      "Item"
+    ]
+  },
+  {
+    "operation_id": "getItem",
+    "method": "GET",
+    "path": "/items/{iid}",
+    "description": "Get item by ID.",
+    "tags": [
+      "Item"
+    ]
+  },
+  {
+    "operation_id": "updateItem",
+    "method": "POST",
+    "path": "/items/{iid}",
+    "description": "Update an item.",
+    "tags": [
+      "Item"
+    ]
+  },
+  {
+    "operation_id": "getWMVEsMetadata",
+    "method": "GET",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e",
+    "description": "Get the metadata for all elements in a document.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getWMVEMetadata",
+    "method": "GET",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e/{eid}",
+    "description": "Get the metadata for an element.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "updateWVEMetadata",
+    "method": "POST",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e/{eid}",
+    "description": "Update the metadata for an element.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getFullAssemblyMetadata",
+    "method": "GET",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e/{eid}/assembly-debug",
+    "description": "Get the metadata for an assembly, including supporting metadata.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getWMVEPsMetadata",
+    "method": "GET",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e/{eid}/p",
+    "description": "Get the metadata for all parts in a document.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getWMVEPMetadata",
+    "method": "GET",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e/{eid}/{iden}/{pid}",
+    "description": "Get the metadata for a part.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "updateWVEPMetadata",
+    "method": "POST",
+    "path": "/metadata/d/{did}/{wvm}/{wvmid}/e/{eid}/{iden}/{pid}",
+    "description": "Update the metadata for a part.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getWVMetadata",
+    "method": "GET",
+    "path": "/metadata/d/{did}/{wv}/{wvid}",
+    "description": "Get the metadata for a workspace or version.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "updateWVMetadata",
+    "method": "POST",
+    "path": "/metadata/d/{did}/{wv}/{wvid}",
+    "description": "Update the metadata for a workspace or version.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "updateVEOPStandardContentPartMetadata",
+    "method": "POST",
+    "path": "/metadata/standardcontent/d/{did}",
+    "description": "Update the metadata for a standard content part.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getVEOPStandardContentMetadata",
+    "method": "GET",
+    "path": "/metadata/standardcontent/d/{did}/v/{vid}/e/{eid}/p/{pid}",
+    "description": "Get the metadata for a standard content part.",
+    "tags": [
+      "Metadata"
+    ]
+  },
+  {
+    "operation_id": "getCategoryProperties",
+    "method": "GET",
+    "path": "/metadatacategory/categoryproperties",
+    "description": "Get properties associated with the specified metadata categories.",
+    "tags": [
+      "MetadataCategory"
+    ]
+  },
+  {
+    "operation_id": "nextNumbers",
+    "method": "POST",
+    "path": "/numberingscheme/nextnumbers",
+    "description": "Get the next available part number for a release item.",
+    "tags": [
+      "NumberingScheme"
+    ]
+  },
+  {
+    "operation_id": "getOpenApi",
+    "method": "GET",
+    "path": "/openapi",
+    "description": "Get the OpenAPI specification for the Onshape REST API.",
+    "tags": [
+      "OpenApi"
+    ]
+  },
+  {
+    "operation_id": "getTags",
+    "method": "GET",
+    "path": "/openapi/tags",
+    "description": "Get the list of tags in the Onshape OpenAPI specification.",
+    "tags": [
+      "OpenApi"
+    ]
+  },
+  {
+    "operation_id": "updateNextNumbers",
+    "method": "POST",
+    "path": "/partnumber/nextnumbers",
+    "description": "See [NumberingScheme.nextNumbers](#/NumberingScheme/nextNumbers)",
+    "tags": [
+      "PartNumber"
+    ]
+  },
+  {
+    "operation_id": "getPartsWMV",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}",
+    "description": "Get all parts in a workspace, version, or microversion.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getPartsWMVE",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}",
+    "description": "Get all parts in an element.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getBodyDetails",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/bodydetails",
+    "description": "Get a part's body details.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getBoundingBoxes",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/boundingboxes",
+    "description": "Get a part's bounding box details.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "exportPartGltf",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/gltf",
+    "description": "Synchronously export a part to a glTF file.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getMassProperties",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/massproperties",
+    "description": "Get a part's mass properties.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "exportPS",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/parasolid",
+    "description": "Synchronously export a part to a Parasolid file.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getPartShadedViews",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/shadedviews",
+    "description": "Get a part's shaded views.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getBendTable",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/sheetmetal/bendtable",
+    "description": "Get a part's sheet metal bend table.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "exportStl",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/stl",
+    "description": "Synchronously export a part to an STL file.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getEdges",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/tessellatededges",
+    "description": "Get a list of a part's tessellation edges.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getFaces_1",
+    "method": "GET",
+    "path": "/parts/d/{did}/{wvm}/{wvmid}/e/{eid}/partid/{partid}/tessellatedfaces",
+    "description": "Get a list of a part's tessellation faces.",
+    "tags": [
+      "Part"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioNamedViews",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/e/{eid}/namedViews",
+    "description": "Get a list of all named views that exist in the Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "createPartStudio",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/w/{wid}",
+    "description": "Create a new Part Studio in a document.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "deletePartStudioFeature",
+    "method": "DELETE",
+    "path": "/partstudios/d/{did}/w/{wid}/e/{eid}/features/featureid/{fid}",
+    "description": "Delete a Part Studio feature.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "updatePartStudioFeature",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/w/{wid}/e/{eid}/features/featureid/{fid}",
+    "description": "Update the definition of a Part Studio feature.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "updateRollback",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/w/{wid}/e/{eid}/features/rollback",
+    "description": "Move the Feature List rollback bar in the Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "updateFeatures",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/w/{wid}/e/{eid}/features/updates",
+    "description": "Update multiple features in a Part Studio",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioBodyDetails",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/bodydetails",
+    "description": "Get the body details for a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioBoundingBoxes",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/boundingboxes",
+    "description": "Get the bounding boxes for a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "comparePartStudios",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/compare",
+    "description": "Get the differences between two Part Studios in a single document.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioFeatures",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+    "description": "Get a list of features instantiated in the Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "addPartStudioFeature",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+    "description": "Add a feature to the Part Studio's Feature List.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "evalFeatureScript",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/featurescript",
+    "description": "Evaluate the FeatureScript snippet for a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getFeatureScriptRepresentation",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/featurescriptrepresentation",
+    "description": "Get the FeatureScript representation of a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioFeatureSpecs",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/featurespecs",
+    "description": "Get the specs for a Part Studio feature.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getFeatureScriptTable",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/fstable",
+    "description": "Compute and return a FeatureScript table for a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "exportPartStudioGltf",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/gltf",
+    "description": "Synchronously export a Part Studio to a glTF file.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "translateIds",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/idtranslations",
+    "description": "Find corresponding deterministic IDs from a source document microversion at the target version.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioMassProperties",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/massproperties",
+    "description": "Get the mass properties for a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "exportParasolid",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/parasolid",
+    "description": "Synchronously export a Part Studio to a Parasolid file.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioShadedViews",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/shadedviews",
+    "description": "Get a list of shaded views for a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getSketchInfo",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches",
+    "description": "Get information for all sketches in Part Studio.",
+    "tags": [
+      "Sketch"
+    ]
+  },
+  {
+    "operation_id": "getSketchBoundingBoxes",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches/{sid}/boundingboxes",
+    "description": "Get all bounding boxes for a sketch.",
+    "tags": [
+      "Sketch"
+    ]
+  },
+  {
+    "operation_id": "getTessellatedEntities",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/sketches/{sid}/tessellatedentities",
+    "description": "Get the tessellations of a sketch in a Part Studio.",
+    "tags": [
+      "Sketch"
+    ]
+  },
+  {
+    "operation_id": "exportPartStudioStl",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/stl",
+    "description": "Synchronously export a Part Studio to an STL file.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioEdges",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/tessellatededges",
+    "description": "Get a list of all edges in a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getPartStudioFaces",
+    "method": "GET",
+    "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/tessellatedfaces",
+    "description": "Get a list of all faces in a Part Studio.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "createPartStudioExportGltf",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wv}/{wvid}/e/{eid}/export/gltf",
+    "description": "Asynchronously export a Part Studio to glTF.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "createPartStudioExportObj",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wv}/{wvid}/e/{eid}/export/obj",
+    "description": "Asynchronously export a Part Studio to OBJ.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "createPartStudioExportStep",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wv}/{wvid}/e/{eid}/export/step",
+    "description": "Asynchronously export a Part Studio to STEP.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "createPartStudioTranslation",
+    "method": "POST",
+    "path": "/partstudios/d/{did}/{wv}/{wvid}/e/{eid}/translations",
+    "description": "Asynchronously export a Part Studio to another format.",
+    "tags": [
+      "PartStudio"
+    ]
+  },
+  {
+    "operation_id": "getWhereUsed",
+    "method": "GET",
+    "path": "/productstructure/whereused",
+    "description": "Find where an item is used",
+    "tags": [
+      "ProductStructure"
+    ]
+  },
+  {
+    "operation_id": "createPublication",
+    "method": "POST",
+    "path": "/publications",
+    "description": "Create a new publication.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "deletePublication",
+    "method": "DELETE",
+    "path": "/publications/{pid}",
+    "description": "Delete a publication.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "updatePublicationAttributes",
+    "method": "POST",
+    "path": "/publications/{pid}",
+    "description": "Update publication's attributes name, description, and notes.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "addItemToPublication",
+    "method": "POST",
+    "path": "/publications/{pid}/item",
+    "description": "Add an item in a publication.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "deletePublicationItem",
+    "method": "DELETE",
+    "path": "/publications/{pid}/item/{iid}",
+    "description": "Remove an item from a publication.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "getPublicationItems",
+    "method": "GET",
+    "path": "/publications/{pid}/items",
+    "description": "Get all items in a publication.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "addItemsToPublication",
+    "method": "POST",
+    "path": "/publications/{pid}/items",
+    "description": "Add publication items in bulk.",
+    "tags": [
+      "Publication"
+    ]
+  },
+  {
+    "operation_id": "createObsoletionPackage",
+    "method": "POST",
+    "path": "/releasepackages/obsoletion/{wfid}",
+    "description": "Create an obsoletion candidate to make an existing revision obsolete.",
+    "tags": [
+      "ReleasePackage"
+    ]
+  },
+  {
+    "operation_id": "createReleasePackage",
+    "method": "POST",
+    "path": "/releasepackages/release/{wfid}",
+    "description": "Create a new release candidate for one or more items.",
+    "tags": [
+      "ReleasePackage"
+    ]
+  },
+  {
+    "operation_id": "getReleasePackage",
+    "method": "GET",
+    "path": "/releasepackages/{rpid}",
+    "description": "Get details about the specified release candidate.",
+    "tags": [
+      "ReleasePackage"
+    ]
+  },
+  {
+    "operation_id": "updateReleasePackage",
+    "method": "POST",
+    "path": "/releasepackages/{rpid}",
+    "description": "Update the release/obsoletion candidate/item properties.",
+    "tags": [
+      "ReleasePackage"
+    ]
+  },
+  {
+    "operation_id": "getRevisionByPartNumber",
+    "method": "GET",
+    "path": "/revisions/c/{cid}/partnumber/{pnum}",
+    "description": "Get details for the specified revision.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "enumerateRevisions",
+    "method": "GET",
+    "path": "/revisions/companies/{cid}",
+    "description": "Get all revisions for a company.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "getRevisionHistoryInCompanyByElementId",
+    "method": "GET",
+    "path": "/revisions/companies/{cid}/d/{did}/{wv}/{wvid}/e/{eid}",
+    "description": "Get all revisions for an element (tab).",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "getRevisionHistoryInCompanyByPartId",
+    "method": "GET",
+    "path": "/revisions/companies/{cid}/d/{did}/{wv}/{wvid}/e/{eid}/p/{pid}",
+    "description": "Get all revisions for a part ID.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "getRevisionHistoryInCompanyByPartNumber",
+    "method": "GET",
+    "path": "/revisions/companies/{cid}/partnumber/{pnum}",
+    "description": "Get all revisions for a part number.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "deleteRevisionHistory",
+    "method": "DELETE",
+    "path": "/revisions/companies/{cid}/partnumber/{pnum}/elementType/{et}",
+    "description": "Delete all revisions for a part number.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "getAllInDocument",
+    "method": "GET",
+    "path": "/revisions/d/{did}",
+    "description": "Get all revisions for a document.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "getAllInDocumentVersion",
+    "method": "GET",
+    "path": "/revisions/d/{did}/v/{vid}",
+    "description": "Get all revisions for a version.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "getLatestInDocumentOrCompany",
+    "method": "GET",
+    "path": "/revisions/{cd}/{cdid}/p/{pnum}/latest",
+    "description": "Get the latest revision information for a part.",
+    "tags": [
+      "Revision"
+    ]
+  },
+  {
+    "operation_id": "setCustomParameters",
+    "method": "POST",
+    "path": "/standardcontent/d/{did}/customparameters",
+    "description": "Sets the part number and description for a standard content component.",
+    "tags": [
+      "StandardContent"
+    ]
+  },
+  {
+    "operation_id": "getParameterValuesForId",
+    "method": "GET",
+    "path": "/standardcontent/d/{did}/parametervalues",
+    "description": "Gets all possible values for each of the standard content parameters.",
+    "tags": [
+      "StandardContent"
+    ]
+  },
+  {
+    "operation_id": "getStandardContentList",
+    "method": "GET",
+    "path": "/standardcontent/list",
+    "description": "List all standard content.",
+    "tags": [
+      "StandardContent"
+    ]
+  },
+  {
+    "operation_id": "createTableTemplate",
+    "method": "POST",
+    "path": "/tabletemplates",
+    "description": "Create a new properties table template.",
+    "tags": [
+      "PropertiesTableTemplate"
+    ]
+  },
+  {
+    "operation_id": "getByCompanyId",
+    "method": "GET",
+    "path": "/tabletemplates/companies/{cid}",
+    "description": "Get all properties table templates available for a company.",
+    "tags": [
+      "PropertiesTableTemplate"
+    ]
+  },
+  {
+    "operation_id": "getByDocumentId",
+    "method": "GET",
+    "path": "/tabletemplates/d/{did}",
+    "description": "Get all table templates that are available to use on the provided document.",
+    "tags": [
+      "PropertiesTableTemplate"
+    ]
+  },
+  {
+    "operation_id": "deleteTableTemplate",
+    "method": "DELETE",
+    "path": "/tabletemplates/{tid}",
+    "description": "Delete a properties table template.",
+    "tags": [
+      "PropertiesTableTemplate"
+    ]
+  },
+  {
+    "operation_id": "getTableTemplate",
+    "method": "GET",
+    "path": "/tabletemplates/{tid}",
+    "description": "Get a properties table template by template ID.",
+    "tags": [
+      "PropertiesTableTemplate"
+    ]
+  },
+  {
+    "operation_id": "getActionItems",
+    "method": "GET",
+    "path": "/tasks",
+    "description": "Lists tasks assigned to the specified user",
+    "tags": [
+      "Task"
+    ]
+  },
+  {
+    "operation_id": "createTask",
+    "method": "POST",
+    "path": "/tasks",
+    "description": "Create a new task in a draft state.",
+    "tags": [
+      "Task"
+    ]
+  },
+  {
+    "operation_id": "getTask",
+    "method": "GET",
+    "path": "/tasks/{tid}",
+    "description": "Get a task by id.",
+    "tags": [
+      "Task"
+    ]
+  },
+  {
+    "operation_id": "updateTask",
+    "method": "POST",
+    "path": "/tasks/{tid}",
+    "description": "Update the task and its properties.",
+    "tags": [
+      "Task"
+    ]
+  },
+  {
+    "operation_id": "transitionTask",
+    "method": "POST",
+    "path": "/tasks/{tid}/{transition}",
+    "description": "Execute a workflow transition.",
+    "tags": [
+      "Task"
+    ]
+  },
+  {
+    "operation_id": "find",
+    "method": "GET",
+    "path": "/teams",
+    "description": "Get a list of all teams the current user belongs to.",
+    "tags": [
+      "Team"
+    ]
+  },
+  {
+    "operation_id": "getTeam",
+    "method": "GET",
+    "path": "/teams/{tid}",
+    "description": "Get team information by team ID.",
+    "tags": [
+      "Team"
+    ]
+  },
+  {
+    "operation_id": "getMembers",
+    "method": "GET",
+    "path": "/teams/{tid}/members",
+    "description": "Get a list of a team's members.",
+    "tags": [
+      "Team"
+    ]
+  },
+  {
+    "operation_id": "getThumbnailForDocument",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}",
+    "description": "Get the thumbnail info for a document in the default workspace.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getThumbnailForDocumentAndVersion",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}/v/{vid}",
+    "description": "Get the thumbnail info for a version of a document.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getDocumentThumbnail",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}/w/{wid}",
+    "description": "Get the thumbnail info for a workspace.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getElementThumbnailWithApiConfiguration",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}/w/{wid}/e/{eid}/ac/{cid}/s/{sz}",
+    "description": "Get the thumbnail image with the given configuration for an element.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getDocumentThumbnailWithSize",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}/w/{wid}/s/{sz}",
+    "description": "Get the thumbnail image with the given size for a document.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "deleteApplicationThumbnails",
+    "method": "DELETE",
+    "path": "/thumbnails/d/{did}/{wv}/{wvid}/e/{eid}",
+    "description": "Delete an element's thumbnail.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getElementThumbnail",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}/{wv}/{wvid}/e/{eid}",
+    "description": "Get the thumbnail info structure for an element.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "setApplicationElementThumbnail",
+    "method": "POST",
+    "path": "/thumbnails/d/{did}/{wv}/{wvid}/e/{eid}",
+    "description": "Set the thumbnail image for an application element.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getElementThumbnailWithSize",
+    "method": "GET",
+    "path": "/thumbnails/d/{did}/{wv}/{wvid}/e/{eid}/s/{sz}",
+    "description": "Get the thumbnail image with the given size for an element.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getThumbnailForDocumentOld",
+    "method": "GET",
+    "path": "/thumbnails/document/{did}",
+    "description": "This endpoint will be deprecated soon. Use `getThumbnailForDocument` instead.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getThumbnailForDocumentAndVersionOld",
+    "method": "GET",
+    "path": "/thumbnails/document/{did}/version/{vid}",
+    "description": "This endpoint will be deprecated soon. Use `getThumbnailForDocumentAndVersion` instead.",
+    "tags": [
+      "Thumbnail"
+    ]
+  },
+  {
+    "operation_id": "getDocumentTranslations",
+    "method": "GET",
+    "path": "/translations/d/{did}",
+    "description": "Get information on an in-progress or completed translation by document ID.",
+    "tags": [
+      "Translation"
+    ]
+  },
+  {
+    "operation_id": "createTranslation",
+    "method": "POST",
+    "path": "/translations/d/{did}/w/{wid}",
+    "description": "Import or upload a CAD file into Onshape, and translate the data into parts or assemblies.",
+    "tags": [
+      "Translation"
+    ]
+  },
+  {
+    "operation_id": "getAllTranslatorFormats",
+    "method": "GET",
+    "path": "/translations/translationformats",
+    "description": "Get a list of formats this translation can use.",
+    "tags": [
+      "Translation"
+    ]
+  },
+  {
+    "operation_id": "deleteTranslation",
+    "method": "DELETE",
+    "path": "/translations/{tid}",
+    "description": "Delete a translation request.",
+    "tags": [
+      "Translation"
+    ]
+  },
+  {
+    "operation_id": "getTranslation",
+    "method": "GET",
+    "path": "/translations/{tid}",
+    "description": "Get information on an in-progress or completed translation by translation ID.",
+    "tags": [
+      "Translation"
+    ]
+  },
+  {
+    "operation_id": "session",
+    "method": "POST",
+    "path": "/users/session",
+    "description": "Authenticate a user's Onshape credentials, and create a session.",
+    "tags": [
+      "User"
+    ]
+  },
+  {
+    "operation_id": "sessionInfo",
+    "method": "GET",
+    "path": "/users/sessioninfo",
+    "description": "Get the session information for an authenticated (signed-in) user.",
+    "tags": [
+      "User"
+    ]
+  },
+  {
+    "operation_id": "getUserSettingsCurrentLoggedInUser",
+    "method": "GET",
+    "path": "/users/settings",
+    "description": "Get the user settings for the signed-in user (i.e., you) for the current session.",
+    "tags": [
+      "User"
+    ]
+  },
+  {
+    "operation_id": "getUserSettings",
+    "method": "GET",
+    "path": "/users/{uid}/settings",
+    "description": "Get the user settings for any user in your organization (admins only).",
+    "tags": [
+      "User"
+    ]
+  },
+  {
+    "operation_id": "setVariables",
+    "method": "POST",
+    "path": "/variables/d/{did}/w/{wid}/e/{eid}/variables",
+    "description": "Assign variables to a Variable Studio",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "setVariableStudioReferences",
+    "method": "POST",
+    "path": "/variables/d/{did}/w/{wid}/e/{eid}/variablestudioreferences",
+    "description": "Set the Variable Studio references for an element.",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "setVariableStudioScope",
+    "method": "POST",
+    "path": "/variables/d/{did}/w/{wid}/e/{eid}/variablestudioscope",
+    "description": "Set the scope the Variable Studio.",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "createVariableStudio",
+    "method": "POST",
+    "path": "/variables/d/{did}/w/{wid}/variablestudio",
+    "description": "Create a new Variable Studio in a document and workspace.",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "getVariables",
+    "method": "GET",
+    "path": "/variables/d/{did}/{wv}/{wvid}/e/{eid}/variables",
+    "description": "Get the contents of all variable tables in an element.",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "getVariableStudioReferences",
+    "method": "GET",
+    "path": "/variables/d/{did}/{wv}/{wvid}/e/{eid}/variablestudioreferences",
+    "description": "Get the Variable Studio references for an element.",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "getVariableStudioScope",
+    "method": "GET",
+    "path": "/variables/d/{did}/{wv}/{wvid}/e/{eid}/variablestudioscope",
+    "description": "Get the scope of a Variable Studio.",
+    "tags": [
+      "Variables"
+    ]
+  },
+  {
+    "operation_id": "getAllVersions",
+    "method": "GET",
+    "path": "/versions",
+    "description": "Get all versions of the Onshape REST APIs.",
+    "tags": [
+      "Version"
+    ]
+  },
+  {
+    "operation_id": "getWebhooks",
+    "method": "GET",
+    "path": "/webhooks",
+    "description": "Get a list of all webhooks registered by a user or company.",
+    "tags": [
+      "Webhook"
+    ]
+  },
+  {
+    "operation_id": "createWebhook",
+    "method": "POST",
+    "path": "/webhooks",
+    "description": "Create a new webhook.",
+    "tags": [
+      "Webhook"
+    ]
+  },
+  {
+    "operation_id": "unregisterWebhook",
+    "method": "DELETE",
+    "path": "/webhooks/{webhookid}",
+    "description": "Unregister a webhook.",
+    "tags": [
+      "Webhook"
+    ]
+  },
+  {
+    "operation_id": "getWebhook",
+    "method": "GET",
+    "path": "/webhooks/{webhookid}",
+    "description": "Get webhook info by webhook ID.",
+    "tags": [
+      "Webhook"
+    ]
+  },
+  {
+    "operation_id": "updateWebhook",
+    "method": "POST",
+    "path": "/webhooks/{webhookid}",
+    "description": "Update a webhook.",
+    "tags": [
+      "Webhook"
+    ]
+  },
+  {
+    "operation_id": "pingWebhook",
+    "method": "POST",
+    "path": "/webhooks/{webhookid}/ping",
+    "description": "Ping a webhook.",
+    "tags": [
+      "Webhook"
+    ]
+  },
+  {
+    "operation_id": "getActiveWorkflows",
+    "method": "GET",
+    "path": "/workflow/active",
+    "description": "Get all active workflows for the currently logged in user's company.",
+    "tags": [
+      "Workflow"
+    ]
+  },
+  {
+    "operation_id": "getAllowedApprovers",
+    "method": "GET",
+    "path": "/workflow/c/{companyId}/approvers",
+    "description": "Get all identities allowed to be approvers on a workflow object.",
+    "tags": [
+      "Workflow"
+    ]
+  },
+  {
+    "operation_id": "enumerateObjectWorkflows",
+    "method": "GET",
+    "path": "/workflow/companies/{cid}/objects",
+    "description": "Enumerate all of a company's workflowable objects.",
+    "tags": [
+      "Workflow"
+    ]
+  },
+  {
+    "operation_id": "getWorkflowById",
+    "method": "GET",
+    "path": "/workflow/obj/{objectId}",
+    "description": "Lightweight information about the current state of a workflowable object like release package.",
+    "tags": [
+      "Workflow"
+    ]
+  },
+  {
+    "operation_id": "getAuditLog",
+    "method": "GET",
+    "path": "/workflow/obj/{objectId}/auditlog",
+    "description": "Get all audit log entries for a workflowable object.",
+    "tags": [
+      "Workflow"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "entry": "build.py",
+  "args": [],
+  "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "started": "2026-09-13T09:32:31.046Z",
+  "ended": "2026-09-13T09:33:02.263Z",
+  "wallSeconds": 31.217,
+  "wallLimitMs": 600000,
+  "timedOut": false,
+  "signal": null,
+  "exitCode": 0
+}

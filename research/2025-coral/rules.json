@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "season": 2025,
+  "game": "REEFSCAPE",
+  "retrieved_on": "2026-09-12",
+  "audit_status": "VALIDATED_BOUNDED_RULES",
+  "scope": "Local coral intake concept sizing; not all-manual compliance or inspection approval",
+  "inch_to_mm": 25.4,
+  "pound_to_kg": 0.45359237,
+  "validation_meaning": "Relevant source passages read; does not assert any mechanism passed, exhaustive audit, or event approval",
+  "sources": {
+    "manual": {
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+      "sha256": "dc6aa9ddbeba25c679c58bae746bde14dba2af79a61a65d8c5f575ca6cdfd523",
+      "page_count": 164,
+      "section_8_footer_version": "V11",
+      "section_footer_versions": {"1": "V1", "5": "V4", "7": "V11", "8": "V11"},
+      "printed_pages_equal_pdf_pages": true,
+      "cache_file": ".cache/rules/manual.pdf",
+      "pdf_modified": "2025-04-08T16:18:04-04:00",
+      "http_last_modified": "2025-04-08T21:10:03Z",
+      "parser": "pypdf 6.0.0",
+      "ocr_used": false
+    },
+    "updates": {
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/TeamUpdates/TeamUpdate-Combined.pdf",
+      "sha256": "fc8c6292a5756244d1e896d01fc78bb620db9caa95913d42c02a450e379f10fb",
+      "page_count": 44,
+      "pdf_modified": "2025-04-08T16:15:32-04:00",
+      "cache_file": ".cache/rules/updates.pdf",
+      "last_update": {"number": 21, "date": "2025-04-08", "pdf_pages": [1]},
+      "redline_extraction_caveat": "Old/new text can be concatenated; use final manual to resolve operative wording"
+    },
+    "qa": {
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/FRC2025REEFSCAPE-QandAExport.pdf",
+      "sha256": "8f282af8993c2c790f3e695aec365b5edfe5918e1099a9572f149ba9fa58d890",
+      "page_count": 74,
+      "pdf_modified": "2025-12-16T11:37:29-05:00",
+      "cache_file": ".cache/rules/qa.pdf",
+      "supersedes_manual": false,
+      "answer_dates_distinct_from_export_date": true
+    }
+  },
+  "constraints": [
+    {
+      "id": "starting_perimeter",
+      "rule": "R104",
+      "section": "8.1 General ROBOT Design",
+      "source": "manual",
+      "pdf_pages": [78],
+      "quantity_kind": "regulatory_maximum",
+      "operator": "<=",
+      "inches": 120,
+      "mm": 3048,
+      "condition": "STARTING CONFIGURATION; ROBOT PERIMETER, not bumper outline or chassis width"
+    },
+    {
+      "id": "starting_height",
+      "rule": "R104",
+      "section": "8.1 General ROBOT Design",
+      "source": "manual",
+      "pdf_pages": [78],
+      "quantity_kind": "regulatory_maximum",
+      "operator": "<=",
+      "inches": 42,
+      "mm": 1066.8,
+      "condition": "STARTING CONFIGURATION"
+    },
+    {
+      "id": "perimeter_extension",
+      "rule": "R105",
+      "section": "8.1 General ROBOT Design",
+      "source": "manual",
+      "pdf_pages": [78, 79],
+      "quantity_kind": "regulatory_maximum",
+      "operator": "<=",
+      "inches": 18,
+      "mm": 457.2,
+      "condition": "Beyond vertical projection of ROBOT PERIMETER in all mechanism states; also G415 p. 68; hardware or software constraints demonstrable at inspection"
+    },
+    {"id": "perimeter_minor_protrusion", "rule": "R101", "section": "8.1 General ROBOT Design", "source": "manual", "pdf_pages": [77], "quantity_kind": "regulatory_maximum", "operator": "<=", "inches": 0.25, "mm": 6.35, "condition": "Only minor fastener-type protrusions excluded from fixed perimeter; not general mechanism overhang"},
+    {"id": "starting_overhang", "rule": "R102", "section": "8.1 General ROBOT Design", "source": "manual", "pdf_pages": [78], "quantity_kind": "qualitative_requirement", "permitted": false, "condition": "Outside vertical perimeter projection except BUMPERS and minor protrusions"},
+    {"id": "single_side_only", "rule": "G415", "section": "7.4.3 ROBOT", "source": "manual", "pdf_pages": [68], "quantity_kind": "interpreted_rule", "required": false, "qa_reference": "Q174", "condition": "Multiple simultaneous sides allowed; every robot extension remains within R105/G415"},
+    {"id": "post_start_height", "rule": "R104", "section": "8.1 General ROBOT Design", "source": "manual", "pdf_pages": [78], "quantity_kind": "interpreted_rule", "limit_state": "not_imposed_after_start", "limit_mm": null, "qa_reference": "Q18", "condition": "G413 safety, G420 NET contact, venue and transport restrictions still apply; null is not a safe-clearance claim"},
+    {"id": "coral_in_extension_measurement", "rule": "R105", "section": "8.1 General ROBOT Design", "source": "manual", "pdf_pages": [78], "quantity_kind": "interpreted_rule", "included": false, "qa_reference": "Q144", "condition": "Controlled CORAL still included in safety and opponent-contact review"},
+    {"id": "bumper_segment_gap", "rule": "R401", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [84], "quantity_kind": "regulatory_nominal_maximum", "operator": "<", "inches": 1.25, "mm": 31.75, "condition": "Between adjacent segments only; corners filled; not permission for arbitrary intake notches"},
+    {"id": "bumper_padding_depth", "rule": "R402", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [84], "quantity_kind": "regulatory_nominal_minimum", "operator": ">=", "inches": 2.25, "mm": 57.15, "condition": "Approved padding material per R402-A"},
+    {"id": "bumper_padding_height", "rule": "R402", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [84], "quantity_kind": "regulatory_nominal_minimum", "operator": ">=", "inches": 4.5, "mm": 114.3, "condition": "R402-A padding height"},
+    {"id": "bumper_backer_height", "rule": "R402", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [84, 85], "quantity_kind": "regulatory_nominal_minimum", "operator": ">=", "inches": 4.5, "mm": 114.3, "condition": "R402-B supporting backer height"},
+    {"id": "bumper_projection", "rule": "R403", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [86], "quantity_kind": "regulatory_nominal_maximum", "operator": "<=", "inches": 4, "mm": 101.6, "condition": "Outward from ROBOT PERIMETER"},
+    {"id": "bumper_hard_projection", "rule": "R404", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [86], "quantity_kind": "regulatory_nominal_maximum", "operator": "<=", "inches": 1.25, "mm": 31.75, "condition": "Hard bumper parts outward from ROBOT PERIMETER"},
+    {"id": "bumper_padding_beyond_hard", "rule": "R404", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [86], "quantity_kind": "regulatory_nominal_minimum", "operator": ">=", "inches": 2, "mm": 50.8, "condition": "Padding beyond any hard bumper parts"},
+    {"id": "bumper_zone_lower", "rule": "R405", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [86, 87], "quantity_kind": "regulatory_nominal_zone_boundary", "inches": 2.5, "mm": 63.5, "condition": "Padding with backing continuously fills lower-to-upper interval above virtual flat floor; preserve current robot configuration"},
+    {"id": "bumper_zone_upper", "rule": "R405", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [86, 87], "quantity_kind": "regulatory_nominal_zone_boundary", "inches": 5.75, "mm": 146.05, "condition": "Padding with backing continuously fills lower-to-upper interval above virtual flat floor; not just starting pose"},
+    {"id": "bumper_corner_padding", "rule": "R406", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [87, 88], "quantity_kind": "regulatory_nominal_minimum", "operator": ">=", "inches": 2.25, "mm": 57.15, "condition": "Uncompressed corner padding extension with no gaps or voids"},
+    {"id": "bumper_inspection_tolerance", "rule": "8.4", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [84], "quantity_kind": "inspection_tolerance", "inches": 0.25, "mm": 6.35, "condition": "Section 8.4 only unless otherwise specified; plus for maxima, minus for minima; do not consume as design allowance or apply to R104/R105"},
+    {"id": "coral_length", "rule": "5.7.1", "section": "5.7.1 CORAL", "source": "manual", "pdf_pages": [33], "quantity_kind": "official_nominal_geometry", "inches": 11.875, "mm": 301.625, "condition": "4-inch Schedule 40 cellular foam-core PVC, am-5601 or cut stock; not measured piece tolerance"},
+    {"id": "coral_outer_diameter", "rule": "5.7.1", "section": "5.7.1 CORAL", "source": "manual", "pdf_pages": [33], "quantity_kind": "official_nominal_geometry", "inches": 4.5, "mm": 114.3, "condition": "Actual variation and ovality unverified"},
+    {"id": "coral_inner_diameter", "rule": "5.7.1", "section": "5.7.1 CORAL", "source": "manual", "pdf_pages": [33], "quantity_kind": "official_nominal_geometry", "inches": 4, "mm": 101.6, "condition": "Manual nominal pipe ID, not guaranteed bore fit"},
+    {"id": "coral_mass_lower", "rule": "5.7.1", "section": "5.7.1 CORAL", "source": "manual", "pdf_pages": [33], "quantity_kind": "official_piece_mass_range_boundary", "pounds": 1.1, "kg": 0.498951607, "condition": "Lower endpoint of stated event/KOP mass range, not robot rule minimum"},
+    {"id": "coral_mass_upper", "rule": "5.7.1", "section": "5.7.1 CORAL", "source": "manual", "pdf_pages": [33], "quantity_kind": "official_piece_mass_range_boundary", "pounds": 1.8, "kg": 0.816466266, "condition": "Upper endpoint of stated event/KOP mass range; measure selected samples"},
+    {"id": "controlled_coral", "rule": "G409", "section": "7.4.2 SCORING ELEMENTS", "source": "manual", "pdf_pages": [66, 67], "quantity_kind": "regulatory_maximum_count", "operator": "<=", "count": 1, "condition": "Whole robot direct/transitive CONTROL, including supported/stuck/herded pieces; limited L1 scored-CORAL pushing exception"},
+    {"id": "controlled_algae", "rule": "G409", "section": "7.4.2 SCORING ELEMENTS", "source": "manual", "pdf_pages": [66, 67], "quantity_kind": "regulatory_maximum_count", "operator": "<=", "count": 1, "condition": "May coexist with one CORAL; not permission for two CORAL"},
+    {"id": "preload_coral", "rule": "G303", "section": "7.3 Pre-MATCH", "source": "manual", "pdf_pages": [64], "quantity_kind": "regulatory_maximum_count", "operator": "<=", "count": 1, "condition": "Fully and solely supported at MATCH start"},
+    {"id": "propulsion_motors", "rule": "R502", "section": "8.5 Motors & Actuators", "source": "manual", "pdf_pages": [91, 92], "quantity_kind": "regulatory_maximum_count", "operator": "<=", "count": 4, "condition": "Motor enables movement around FIELD; incidental insignificant intake carpet thrust is excluded"},
+    {"id": "robot_mass", "rule": "R103", "section": "8.1 General ROBOT Design", "source": "manual", "pdf_pages": [78], "quantity_kind": "regulatory_maximum", "operator": "<=", "pounds": 115, "kg": 52.16312255, "condition": "R103 exclusions: bumpers, specified battery and associated connection assembly, event-provided location tags"},
+    {"id": "robot_with_bumpers_mass", "rule": "R408", "section": "8.4 BUMPER Rules", "source": "manual", "pdf_pages": [88], "quantity_kind": "regulatory_maximum", "operator": "<=", "pounds": 135, "kg": 61.23496995, "condition": "R103 robot plus bumpers; not a separate 20-pound bumper limit"}
+  ],
+  "motors": [
+    {"name": "Kraken x44", "part_numbers": ["WCP-0941"], "rule": "R501", "section": "8.5 Motors & Actuators", "source": "manual", "pdf_pages": [89, 90], "listed": true, "model_count_limit": null, "count_limit_state": "no_separate_model_cap", "kickoff_addition": {"source": "updates", "update": 0, "date": "2025-01-04", "pdf_pages": [42], "printed_page": "2 of 4"}, "availability_date_verified": false},
+    {"name": "Kraken x60", "part_numbers": ["WCP-0940", "am-5274"], "rule": "R501", "section": "8.5 Motors & Actuators", "source": "manual", "pdf_pages": [89, 90], "listed": true, "model_count_limit": null, "count_limit_state": "no_separate_model_cap", "availability_date_verified": false}
+  ],
+  "interpretations": [
+    {"id": "Q18", "source": "qa", "pdf_pages": [5, 6], "answered_on": "2025-01-10", "title": "Maximum height extension limit"},
+    {"id": "Q144", "source": "qa", "pdf_pages": [42, 43], "answered_on": "2025-02-10", "title": "R105 Coral Inclusion in Robot Extension Limits"},
+    {"id": "Q174", "source": "qa", "pdf_pages": [51, 52], "answered_on": "2025-02-18", "title": "Robot Expansion limits in all directions simultaneously."},
+    {"id": "Q197", "source": "qa", "pdf_pages": [58], "answered_on": "2025-03-04", "title": "Bumpers interact with bumpers"}
+  ],
+  "qualitative_checks": [
+    {"id": "motor_modification_and_controller", "rules": ["R503", "R504", "R505"], "source": "manual", "pdf_pages": [92, 93, 94], "condition": "Enumerated motor modification exceptions only; matching integrated Talon FX; one load per controller unless specified; X60 plug-screw exception does not name X44"},
+    {"id": "bumper_construction", "rules": ["R402", "R407", "R409", "R410"], "source": "manual", "pdf_pages": [84, 85, 88], "condition": "Approved foam/material properties, full cloth cover, rigid fastening, no wedge action, no articulation, removable for inspection; selected construction unverified"},
+    {"id": "safe_materials_and_edges", "rules": ["R201", "R202", "R203"], "source": "manual", "pdf_pages": [79, 80], "condition": "No carpet-damaging traction features, hazardous edges or unsafe materials/construction"},
+    {"id": "release_lubrication_and_wear", "rules": ["R204", "R205", "R206", "G408"], "source": "manual", "pdf_pages": [66, 80], "condition": "Safe disabled/powered-off removal; no field contamination; no significant piece hazard, gouging or tearing"},
+    {"id": "jam_clear_location", "rules": ["G407", "G412"], "source": "manual", "pdf_pages": [66, 67], "condition": "No intentional out-of-field CORAL ejection; launching requires bumpers partially in own REEF ZONE; approximate short-distance guidance is not an exact distance threshold"},
+    {"id": "dynamic_safety_and_bumpers", "rules": ["G413", "G414", "R405"], "source": "manual", "pdf_pages": [67, 68, 86, 87], "condition": "Review every configuration, safe stopping, controlled-piece outside-field contact and virtual-flat-floor bumper-zone compliance"},
+    {"id": "field_damage_and_entanglement", "rules": ["G416", "G417", "G420"], "source": "manual", "pdf_pages": [69], "condition": "No field damage; prohibited grabbing/grasping/attachment/entanglement/suspension except G417 CAGES exception; no NET or opponent-NET ALGAE contact"},
+    {"id": "opponent_contact", "rules": ["G422", "G423", "G424"], "source": "manual", "pdf_pages": [70, 71], "condition": "No prohibited initiated inside-perimeter contact/damage, including via controlled piece; no deliberate attachment/tipping/entanglement"}
+  ],
+  "piece_dimensional_tolerance": {"state": "UNVERIFIED", "mm": null},
+  "design_margin_mm": null,
+  "pending": ["Mechanism geometry and swept-state checks", "Physical CORAL variation and contact properties", "Selected stock and bumper materials/markings", "Motor performance, supply dates and exact gearbox interface", "Electrical/pneumatic implementation compliance", "Wear, snag, powered-off release and jam-clear tests", "Field/receiver clearances and human inspection", "All-manual and all-Q&A audit outside bounded scope"]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "RECEIVED_STEP",
+  "rawFile": "revision-export.bin",
+  "archiveFile": null,
+  "bytes": 64379,
+  "sha256": "388cb611875936e57288c5a42f7c1bed8b15879f72fcb4afdd8597d00a9aa329",
+  "parts": [
+    {
+      "member": "revision.step",
+      "file": "revision.step",
+      "bytes": 64379,
+      "sha256": "388cb611875936e57288c5a42f7c1bed8b15879f72fcb4afdd8597d00a9aa329",
+      "manifoldSolidBrepCount": 9
+    }
+  ]
+}

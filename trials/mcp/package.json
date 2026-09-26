@@ -1,0 +1,12 @@
+{
+  "name": "onshape-existing-mcp-trial",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "test": "node --test *.test.mjs",
+    "discover": "node discover.mjs"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.26.0" }
+}

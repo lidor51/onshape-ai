@@ -1,0 +1,455 @@
+{
+ "status": "CRAYOLA_CONCEPTS_STATIC_POSE_CHECKS",
+ "generated": "2026-09-26T14:55:20.690Z",
+ "sources": {
+  "fieldHtml": {
+   "path": "C:/Users/lidor/FRC/2026/mocked_game/Steampunk_SKYFORGE_Field_3D.html",
+   "sha256": "f95c97f3c207692fbac2ca68e76a72f79e9cb89b2ca8f1289b895fd160bd038c",
+   "use": "field mesh (parts, colours) re-used verbatim, vertices rounded to 0.1 mm"
+  },
+  "manual": {
+   "path": "C:/Users/lidor/FRC/2026/mocked_game/Steampunk_SKYFORGE_Game_Manual.html",
+   "sha256": "587ae48282674ea661527bcf95ccf37b7aec0040bbfb1901e9682e9d49adb837",
+   "use": "all rule and field datums in field.mjs"
+  },
+  "simulator": {
+   "simulator": "C:/Users/lidor/FRC/2026/mocked_game/sim",
+   "configSha256": "254adaf5e3e4a1e7b43375c3aea8f4775ca860e6f14e7686728630194d7c203d",
+   "seconds": 419
+  }
+ },
+ "concepts": [
+  {
+   "id": "SF1",
+   "name": "Brass Cannon",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "underCube",
+    "vgFender",
+    "vgZone",
+    "hang",
+    "under"
+   ],
+   "complexity": {
+    "motors": 9,
+    "positioningDof": 3,
+    "handoffs": 2,
+    "stateChanges": 6,
+    "movingCables": "barrel (3 motors across the pivot), intake roller motor",
+    "service": "Barrel unit comes out as one module (pivot shaft + chain)"
+   }
+  },
+  {
+   "id": "SF2",
+   "name": "Mortar Rider",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "underCube",
+    "vgFender",
+    "vgZone",
+    "under"
+   ],
+   "complexity": {
+    "motors": 7,
+    "positioningDof": 1,
+    "handoffs": 1,
+    "stateChanges": 2,
+    "movingCables": "intake roller motor only",
+    "service": "Open top; the flywheel shaft is reachable from the rear"
+   }
+  },
+  {
+   "id": "SF3",
+   "name": "Gantry Tower",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "g1",
+    "g2",
+    "g3",
+    "hang"
+   ],
+   "complexity": {
+    "motors": 9,
+    "positioningDof": 5,
+    "handoffs": 1,
+    "stateChanges": 7,
+    "movingCables": "carriage + drawer + trapdoor through the elevator",
+    "service": "Drawer slides out forward; the elevator needs rigging access"
+   }
+  },
+  {
+   "id": "SF4",
+   "name": "Forge Hybrid",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "g1",
+    "g2",
+    "g3",
+    "vgZone",
+    "hang"
+   ],
+   "complexity": {
+    "motors": 11,
+    "positioningDof": 5,
+    "handoffs": 1,
+    "stateChanges": 8,
+    "movingCables": "carriage + drawer + trapdoor + kicker through the elevator",
+    "service": "As SF3, plus kicker on the tray"
+   }
+  },
+  {
+   "id": "SF5",
+   "name": "Column Arm",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "g2",
+    "vgFender",
+    "vgZone",
+    "hang"
+   ],
+   "complexity": {
+    "motors": 9,
+    "positioningDof": 5,
+    "handoffs": 1,
+    "stateChanges": 6,
+    "movingCables": "pinch-belt motor and 2 kicker motors on the column (through wrist and shoulder)",
+    "service": "Column unbolts at the wrist; both joint drives sit on the chassis"
+   }
+  },
+  {
+   "id": "SF6",
+   "name": "Ramp Lift",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "g3",
+    "vgFender",
+    "vgZone",
+    "hang"
+   ],
+   "complexity": {
+    "motors": 10,
+    "positioningDof": 5,
+    "handoffs": 1,
+    "stateChanges": 6,
+    "movingCables": "tilt, belt and kicker motors plus the trapdoor servo on the carriage",
+    "service": "Tray lifts off its two stub axles; lift motors at the base"
+   }
+  },
+  {
+   "id": "SF7",
+   "name": "Rocker Tray",
+   "tasks": [
+    "start",
+    "floor",
+    "safe",
+    "g2",
+    "vgZone",
+    "hang"
+   ],
+   "complexity": {
+    "motors": 8,
+    "positioningDof": 4,
+    "handoffs": 1,
+    "stateChanges": 5,
+    "movingCables": "belt and kicker motors and the trapdoor servo ride on the tray (cables cross one linkage joint)",
+    "service": "Tray lifts off its four stub axles; the crank drive stays on the chassis"
+   }
+  }
+ ],
+ "checkCounts": {
+  "pass": 513,
+  "flag": 50,
+  "fail": 4,
+  "info": 28
+ },
+ "hoodScan": [
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 56,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 58,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 60,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 62,
+   "feasible": true,
+   "speedBand": 3.90000000000007,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 64,
+   "feasible": true,
+   "speedBand": 9.300000000000285,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 66,
+   "feasible": true,
+   "speedBand": 11.09999999999992,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 68,
+   "feasible": true,
+   "speedBand": 11.999999999999867,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 70,
+   "feasible": true,
+   "speedBand": 12.600000000000444,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 72,
+   "feasible": true,
+   "speedBand": 12.699999999999811,
+   "unblockable": true
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 74,
+   "feasible": true,
+   "speedBand": 10.19999999999952,
+   "unblockable": true
+  },
+  {
+   "id": "SF2",
+   "task": "vgFender",
+   "alpha": 76,
+   "feasible": true,
+   "speedBand": 6.899999999999795,
+   "unblockable": true
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 56,
+   "feasible": true,
+   "speedBand": 16.60000000000027,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 58,
+   "feasible": true,
+   "speedBand": 14.500000000000112,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 60,
+   "feasible": true,
+   "speedBand": 12.299999999999745,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 62,
+   "feasible": true,
+   "speedBand": 10.400000000000375,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 64,
+   "feasible": true,
+   "speedBand": 8.89999999999942,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 66,
+   "feasible": true,
+   "speedBand": 7.600000000000017,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 68,
+   "feasible": true,
+   "speedBand": 5.7999999999997165,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 70,
+   "feasible": true,
+   "speedBand": 3.5999999999998256,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 72,
+   "feasible": true,
+   "speedBand": 1.7000000000000348,
+   "unblockable": true
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 74,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  },
+  {
+   "id": "SF2",
+   "task": "vgZone",
+   "alpha": 76,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 56,
+   "feasible": true,
+   "speedBand": 18.500000000001194,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 58,
+   "feasible": true,
+   "speedBand": 16.19999999999895,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 60,
+   "feasible": true,
+   "speedBand": 13.699999999999157,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 62,
+   "feasible": true,
+   "speedBand": 10.70000000000001,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 64,
+   "feasible": true,
+   "speedBand": 8.100000000000529,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 66,
+   "feasible": true,
+   "speedBand": 5.900000000000494,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 68,
+   "feasible": true,
+   "speedBand": 3.9999999999998925,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 70,
+   "feasible": true,
+   "speedBand": 2.3000000000000798,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 72,
+   "feasible": true,
+   "speedBand": 0.8000000000000451,
+   "unblockable": true
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 74,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  },
+  {
+   "id": "SF4",
+   "task": "vgZone",
+   "alpha": 76,
+   "feasible": false,
+   "speedBand": 0,
+   "unblockable": false
+  }
+ ],
+ "bundleSha256": "32db576985032c4aedb66a26eec9439aed8aa6605f92662ac322e2d43a09de02",
+ "fieldJsSha256": "ed47d8f656d947ba893db1907134ac5522b6bd0cfce6c3f19f88b3d445d23cd5",
+ "engine": "three 0.180.0 + esbuild 0.25.10",
+ "notProven": [
+  "continuous motion or sweep clearance",
+  "contact forces, compression, traction",
+  "real cube flight (drag, tumble, spin)",
+  "structure, loads, hang retention",
+  "cycle times or match performance"
+ ],
+ "apiCalls": 0,
+ "cadKernelRuns": 0
+}

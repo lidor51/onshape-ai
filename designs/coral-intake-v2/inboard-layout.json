@@ -1,0 +1,316 @@
+{
+  "scope": "Necessary front containment and discrete sideways-contact sensitivity, NOT full-frame or continuous-feed acceptance",
+  "reference": {
+    "rear": [
+      -25,
+      348
+    ],
+    "middle": [
+      -177.6302722267113,
+      321
+    ],
+    "front": [
+      -269.14529831532695,
+      166
+    ],
+    "kick": [
+      -122,
+      34
+    ],
+    "trayTop": 175,
+    "coralRadius": 57.15,
+    "starRadius": 63.7,
+    "upperHardRadius": 14.142135623730951,
+    "kickerRadius": 25.5
+  },
+  "candidates": [
+    {
+      "config": {
+        "rear": [
+          70,
+          348
+        ],
+        "middle": [
+          -158.4097195830335,
+          321
+        ],
+        "front": [
+          -272.5642201513422,
+          166
+        ],
+        "kick": [
+          -122,
+          34
+        ],
+        "trayTop": 175,
+        "coralRadius": 57.15,
+        "starRadius": 63.7,
+        "upperHardRadius": 14.142135623730951,
+        "kickerRadius": 25.5,
+        "frontSpan": 192.5,
+        "rearSpan": 230,
+        "frontBeltLength": 475,
+        "rearBeltLength": 550
+      },
+      "fixedRearCircleFrontMargin": 6.299999999999997,
+      "floatResults": [
+        {
+          "angle": 0,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -4,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -8,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        }
+      ],
+      "releaseReady": false
+    },
+    {
+      "config": {
+        "rear": [
+          70,
+          348
+        ],
+        "middle": [
+          -158.4097195830335,
+          321
+        ],
+        "front": [
+          -292.57379823302085,
+          166
+        ],
+        "kick": [
+          -122,
+          34
+        ],
+        "trayTop": 175,
+        "coralRadius": 57.15,
+        "starRadius": 63.7,
+        "upperHardRadius": 14.142135623730951,
+        "kickerRadius": 25.5,
+        "frontSpan": 205,
+        "rearSpan": 230,
+        "frontBeltLength": 500,
+        "rearBeltLength": 550
+      },
+      "fixedRearCircleFrontMargin": 6.299999999999997,
+      "floatResults": [
+        {
+          "angle": 0,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -4,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -8,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        }
+      ],
+      "releaseReady": false
+    },
+    {
+      "config": {
+        "rear": [
+          80,
+          348
+        ],
+        "middle": [
+          -148.4097195830335,
+          321
+        ],
+        "front": [
+          -262.5642201513422,
+          166
+        ],
+        "kick": [
+          -122,
+          34
+        ],
+        "trayTop": 175,
+        "coralRadius": 57.15,
+        "starRadius": 63.7,
+        "upperHardRadius": 14.142135623730951,
+        "kickerRadius": 25.5,
+        "frontSpan": 192.5,
+        "rearSpan": 230,
+        "frontBeltLength": 475,
+        "rearBeltLength": 550
+      },
+      "fixedRearCircleFrontMargin": 16.299999999999997,
+      "floatResults": [
+        {
+          "angle": 0,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -4,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -8,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        }
+      ],
+      "releaseReady": false
+    },
+    {
+      "config": {
+        "rear": [
+          80,
+          348
+        ],
+        "middle": [
+          -148.4097195830335,
+          321
+        ],
+        "front": [
+          -282.57379823302085,
+          166
+        ],
+        "kick": [
+          -122,
+          34
+        ],
+        "trayTop": 175,
+        "coralRadius": 57.15,
+        "starRadius": 63.7,
+        "upperHardRadius": 14.142135623730951,
+        "kickerRadius": 25.5,
+        "frontSpan": 205,
+        "rearSpan": 230,
+        "frontBeltLength": 500,
+        "rearBeltLength": 550
+      },
+      "fixedRearCircleFrontMargin": 16.299999999999997,
+      "floatResults": [
+        {
+          "angle": 0,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -4,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -8,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        }
+      ],
+      "releaseReady": false
+    },
+    {
+      "config": {
+        "rear": [
+          90,
+          348
+        ],
+        "middle": [
+          -138.4097195830335,
+          321
+        ],
+        "front": [
+          -252.56422015134223,
+          166
+        ],
+        "kick": [
+          -122,
+          34
+        ],
+        "trayTop": 175,
+        "coralRadius": 57.15,
+        "starRadius": 63.7,
+        "upperHardRadius": 14.142135623730951,
+        "kickerRadius": 25.5,
+        "frontSpan": 192.5,
+        "rearSpan": 230,
+        "frontBeltLength": 475,
+        "rearBeltLength": 550
+      },
+      "fixedRearCircleFrontMargin": 26.299999999999997,
+      "floatResults": [
+        {
+          "angle": 0,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -4,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -8,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        }
+      ],
+      "releaseReady": false
+    },
+    {
+      "config": {
+        "rear": [
+          90,
+          348
+        ],
+        "middle": [
+          -138.4097195830335,
+          321
+        ],
+        "front": [
+          -272.57379823302085,
+          166
+        ],
+        "kick": [
+          -122,
+          34
+        ],
+        "trayTop": 175,
+        "coralRadius": 57.15,
+        "starRadius": 63.7,
+        "upperHardRadius": 14.142135623730951,
+        "kickerRadius": 25.5,
+        "frontSpan": 205,
+        "rearSpan": 230,
+        "frontBeltLength": 500,
+        "rearBeltLength": 550
+      },
+      "fixedRearCircleFrontMargin": 26.299999999999997,
+      "floatResults": [
+        {
+          "angle": 0,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -4,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        },
+        {
+          "angle": -8,
+          "status": "NO_ROUTE_IN_SEARCH",
+          "pathPoints": 0
+        }
+      ],
+      "releaseReady": false
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "evidence": "Analytic contract only; not compiled or measured in Onshape",
+  "variant": "baseline",
+  "parameters": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9
+  },
+  "rearRollerYMm": 246.2,
+  "clearRollerGapMm": 100,
+  "rollerLengthMm": 330,
+  "shaftLengthMm": 378.09999999999997,
+  "expectedSolidCount": 9,
+  "parts": [
+    {
+      "name": "leftPlate",
+      "boundsMm": {
+        "min": [
+          -176.35,
+          0,
+          12.7
+        ],
+        "max": [
+          -170,
+          320,
+          162.7
+        ]
+      },
+      "volumeMm3": 301875.70934676356,
+      "holes": [
+        {
+          "role": "frontShaft",
+          "centerYZMm": [
+            70,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "rearShaft",
+          "centerYZMm": [
+            246.2,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "frontMount",
+          "centerYZMm": [
+            140,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "rearMount",
+          "centerYZMm": [
+            300,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "pivot",
+          "centerYZMm": [
+            25,
+            130
+          ],
+          "diameterMm": 12.9
+        }
+      ]
+    },
+    {
+      "name": "rightPlate",
+      "boundsMm": {
+        "min": [
+          170,
+          0,
+          12.7
+        ],
+        "max": [
+          176.35,
+          320,
+          162.7
+        ]
+      },
+      "volumeMm3": 301875.70934676356,
+      "holes": [
+        {
+          "role": "frontShaft",
+          "centerYZMm": [
+            70,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "rearShaft",
+          "centerYZMm": [
+            246.2,
+            65
+          ],
+          "diameterMm": 12.9
+        },
+        {
+          "role": "frontMount",
+          "centerYZMm": [
+            140,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "rearMount",
+          "centerYZMm": [
+            300,
+            135
+          ],
+          "diameterMm": 6.6
+        },
+        {
+          "role": "pivot",
+          "centerYZMm": [
+            25,
+            130
+          ],
+          "diameterMm": 12.9
+        }
+      ]
+    },
+    {
+      "name": "frontRoller",
+      "boundsMm": {
+        "min": [
+          -165,
+          31.9,
+          26.9
+        ],
+        "max": [
+          165,
+          108.1,
+          103.1
+        ]
+      },
+      "volumeMm3": 1463117.845894025,
+      "boreDiameterMm": 12.7
+    },
+    {
+      "name": "frontShaft",
+      "boundsMm": {
+        "min": [
+          -189.04999999999998,
+          63.65,
+          58.65
+        ],
+        "max": [
+          189.04999999999998,
+          76.35,
+          71.35
+        ]
+      },
+      "volumeMm3": 47896.52446169096
+    },
+    {
+      "name": "rearRoller",
+      "boundsMm": {
+        "min": [
+          -165,
+          208.1,
+          26.9
+        ],
+        "max": [
+          165,
+          284.3,
+          103.1
+        ]
+      },
+      "volumeMm3": 1463117.845894025,
+      "boreDiameterMm": 12.7
+    },
+    {
+      "name": "rearShaft",
+      "boundsMm": {
+        "min": [
+          -189.04999999999998,
+          239.85,
+          58.65
+        ],
+        "max": [
+          189.04999999999998,
+          252.54999999999998,
+          71.35
+        ]
+      },
+      "volumeMm3": 47896.52446169096
+    },
+    {
+      "name": "frontCrossmember",
+      "boundsMm": {
+        "min": [
+          -170,
+          127.3,
+          122.3
+        ],
+        "max": [
+          170,
+          152.7,
+          147.7
+        ]
+      },
+      "volumeMm3": 219354.4
+    },
+    {
+      "name": "rearCrossmember",
+      "boundsMm": {
+        "min": [
+          -170,
+          287.3,
+          122.3
+        ],
+        "max": [
+          170,
+          312.7,
+          147.7
+        ]
+      },
+      "volumeMm3": 219354.4
+    },
+    {
+      "name": "coralReference",
+      "boundsMm": {
+        "min": [
+          -150.8125,
+          -167.15,
+          0
+        ],
+        "max": [
+          150.8125,
+          -52.85,
+          114.3
+        ]
+      },
+      "volumeMm3": 649551.4843768268,
+      "boreDiameterMm": 101.6,
+      "nonBomReference": true
+    }
+  ],
+  "source": "../intake.fs",
+  "sourceSha256": "af76352c2d823da717d178e4bcec0923fd7283d41b640272402fd71a89c21968",
+  "compilation": "NOT_RUN",
+  "featureCallTemplate": {
+    "btType": "BTFeatureDefinitionCall-1406",
+    "feature": {
+      "btType": "BTMFeature-134",
+      "featureType": "coralGroundIntake",
+      "name": "FRC coral ground intake",
+      "namespace": "<namespace returned by version-pinned feature specs>",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQuantity-147",
+          "parameterId": "innerWidth",
+          "expression": "340 mm",
+          "isInteger": false
+        },
+        {
+          "btType": "BTMParameterQuantity-147",
+          "parameterId": "rollerGap",
+          "expression": "100 mm",
+          "isInteger": false
+        }
+      ]
+    }
+  }
+}

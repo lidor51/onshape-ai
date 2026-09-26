@@ -1,0 +1,884 @@
+[
+  {
+    "id": "pickup_1_tube",
+    "role": "tube",
+    "group": "float",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.1202394364,
+      "boundsMm": [
+        -260.0,
+        -427.0,
+        129.0,
+        -5.0,
+        -347.0,
+        209.0
+      ]
+    }
+  },
+  {
+    "id": "pickup_1_rubber",
+    "role": "rubber",
+    "group": "float",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819124,
+      "boundsMm": [
+        -260.0,
+        -450.5,
+        105.5,
+        -5.0,
+        -323.5,
+        232.5
+      ]
+    }
+  },
+  {
+    "id": "pickup_1_shaft",
+    "role": "shaft",
+    "group": "float",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.601792465455,
+      "boundsMm": [
+        -260.0,
+        -393.35,
+        162.65,
+        -5.0,
+        -380.65,
+        175.35
+      ]
+    }
+  },
+  {
+    "id": "pickup_2_tube",
+    "role": "tube",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.1202394364,
+      "boundsMm": [
+        5.0,
+        -348.0,
+        203.74992983365254,
+        260.0,
+        -268.0,
+        283.7499298336526
+      ]
+    }
+  },
+  {
+    "id": "pickup_2_rubber",
+    "role": "rubber",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819124,
+      "boundsMm": [
+        5.0,
+        -371.5,
+        180.24992983365254,
+        260.0,
+        -244.5,
+        307.2499298336526
+      ]
+    }
+  },
+  {
+    "id": "pickup_2_shaft",
+    "role": "shaft",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.60179246545,
+      "boundsMm": [
+        5.0,
+        -314.35,
+        237.39992983365255,
+        260.0,
+        -301.65,
+        250.09992983365254
+      ]
+    }
+  },
+  {
+    "id": "pickup_3_tube",
+    "role": "tube",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.1202394363,
+      "boundsMm": [
+        -260.0,
+        -280.0,
+        254.74992983365257,
+        -5.0,
+        -200.0,
+        334.7499298336526
+      ]
+    }
+  },
+  {
+    "id": "pickup_3_rubber",
+    "role": "rubber",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819124,
+      "boundsMm": [
+        -260.0,
+        -303.5,
+        231.24992983365257,
+        -5.0,
+        -176.5,
+        358.2499298336526
+      ]
+    }
+  },
+  {
+    "id": "pickup_3_shaft",
+    "role": "shaft",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.601792465473,
+      "boundsMm": [
+        -260.0,
+        -246.35,
+        288.39992983365255,
+        -5.0,
+        -233.65,
+        301.0999298336526
+      ]
+    }
+  },
+  {
+    "id": "pickup_4_tube",
+    "role": "tube",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.12023943616,
+      "boundsMm": [
+        5.0,
+        -211.0,
+        298.46461776964605,
+        260.0,
+        -131.0,
+        378.46461776964605
+      ]
+    }
+  },
+  {
+    "id": "pickup_4_rubber",
+    "role": "rubber",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.376581912,
+      "boundsMm": [
+        5.0,
+        -234.5,
+        274.96461776964605,
+        260.0,
+        -107.5,
+        401.96461776964605
+      ]
+    }
+  },
+  {
+    "id": "pickup_4_shaft",
+    "role": "shaft",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.601792465473,
+      "boundsMm": [
+        5.0,
+        -177.35,
+        332.11461776964603,
+        260.0,
+        -164.65,
+        344.8146177696461
+      ]
+    }
+  },
+  {
+    "id": "pickup_5_tube",
+    "role": "tube",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.12023943604,
+      "boundsMm": [
+        -260.0,
+        -117.0,
+        309.8,
+        -5.0,
+        -37.0,
+        389.8
+      ]
+    }
+  },
+  {
+    "id": "pickup_5_rubber",
+    "role": "rubber",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819122,
+      "boundsMm": [
+        -260.0,
+        -140.5,
+        286.3,
+        -5.0,
+        -13.5,
+        413.3
+      ]
+    }
+  },
+  {
+    "id": "pickup_5_shaft",
+    "role": "shaft",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.60179246547,
+      "boundsMm": [
+        -260.0,
+        -83.35,
+        343.45,
+        -5.0,
+        -70.65,
+        356.15000000000003
+      ]
+    }
+  },
+  {
+    "id": "pickup_flat_ramp_mitered_toe",
+    "role": "plate",
+    "group": "pickup",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 615333.3333333344,
+      "boundsMm": [
+        -260.0,
+        -350.0,
+        0.0,
+        260.0,
+        -110.0,
+        180.0
+      ]
+    }
+  },
+  {
+    "id": "fixed_flat_deck_receiver_slots",
+    "role": "plate",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1630623.9999999995,
+      "boundsMm": [
+        -260.0,
+        -110.0,
+        176.0,
+        260.0,
+        680.0,
+        180.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_entry_left_shaft",
+    "role": "shaft",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        -192.7,
+        17.3,
+        180.0,
+        -167.3,
+        42.7,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_entry_left_rubber",
+    "role": "rubber",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        -215.0,
+        -5.0,
+        180.0,
+        -145.0,
+        65.0,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_entry_right_shaft",
+    "role": "shaft",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        167.3,
+        17.3,
+        180.0,
+        192.7,
+        42.7,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_entry_right_rubber",
+    "role": "rubber",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        145.0,
+        -5.0,
+        180.0,
+        215.0,
+        65.0,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_middle_left_shaft",
+    "role": "shaft",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        -142.7,
+        152.3,
+        180.0,
+        -117.29999999999998,
+        177.7,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_middle_left_rubber",
+    "role": "rubber",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        -165.0,
+        130.0,
+        180.0,
+        -94.99999999999999,
+        200.0,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_middle_right_shaft",
+    "role": "shaft",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364966,
+      "boundsMm": [
+        117.3,
+        152.3,
+        180.0,
+        142.7,
+        177.7,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_middle_right_rubber",
+    "role": "rubber",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        95.0,
+        130.0,
+        180.0,
+        165.0,
+        200.0,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_exit_left_shaft",
+    "role": "shaft",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        -97.85000000000001,
+        292.3,
+        180.0,
+        -72.45,
+        317.7,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_exit_left_rubber",
+    "role": "rubber",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        -120.15,
+        270.0,
+        180.0,
+        -50.15,
+        340.0,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_exit_right_shaft",
+    "role": "shaft",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        72.45,
+        292.3,
+        180.0,
+        97.85000000000001,
+        317.7,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "orienter_exit_right_rubber",
+    "role": "rubber",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.0930169999,
+      "boundsMm": [
+        50.150000000000006,
+        270.0,
+        180.0,
+        120.15,
+        340.0,
+        320.0
+      ]
+    }
+  },
+  {
+    "id": "cradle_back_stop",
+    "role": "retainer",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 12000.0,
+      "boundsMm": [
+        -50.0,
+        617.8125,
+        180.0,
+        50.0,
+        621.8125,
+        210.0
+      ]
+    }
+  },
+  {
+    "id": "cradle_side_rail_-1",
+    "role": "retainer",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 48600.0,
+      "boundsMm": [
+        -76.0,
+        350.0,
+        180.0,
+        -70.0,
+        620.0,
+        210.0
+      ]
+    }
+  },
+  {
+    "id": "cradle_side_rail_1",
+    "role": "retainer",
+    "group": "fixed",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 48600.0,
+      "boundsMm": [
+        70.0,
+        350.0,
+        180.0,
+        76.0,
+        620.0,
+        210.0
+      ]
+    }
+  },
+  {
+    "id": "front_stop_antibounce_flexible_tab",
+    "role": "retainer",
+    "group": "tab",
+    "referenceOnly": false,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1440.0,
+      "boundsMm": [
+        -20.0,
+        310.0,
+        174.0,
+        20.0,
+        328.0,
+        176.0
+      ]
+    }
+  },
+  {
+    "id": "bumper_reference",
+    "role": "bumper",
+    "group": "fixed",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 8874000.0,
+      "boundsMm": [
+        -435.0,
+        -85.0,
+        45.0,
+        435.0,
+        0.0,
+        165.0
+      ]
+    }
+  },
+  {
+    "id": "chassis_side_reference_-1",
+    "role": "chassis",
+    "group": "fixed",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 684000.0,
+      "boundsMm": [
+        -350.0,
+        0.0,
+        50.0,
+        -320.0,
+        760.0,
+        80.0
+      ]
+    }
+  },
+  {
+    "id": "chassis_side_reference_1",
+    "role": "chassis",
+    "group": "fixed",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 684000.0,
+      "boundsMm": [
+        320.0,
+        0.0,
+        50.0,
+        350.0,
+        760.0,
+        80.0
+      ]
+    }
+  },
+  {
+    "id": "chassis_end_reference_15",
+    "role": "chassis",
+    "group": "fixed",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 576000.0,
+      "boundsMm": [
+        -320.0,
+        0.0,
+        50.0,
+        320.0,
+        30.0,
+        80.0
+      ]
+    }
+  },
+  {
+    "id": "chassis_end_reference_745",
+    "role": "chassis",
+    "group": "fixed",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 576000.0,
+      "boundsMm": [
+        -320.0,
+        730.0,
+        50.0,
+        320.0,
+        760.0,
+        80.0
+      ]
+    }
+  },
+  {
+    "id": "floor_reference",
+    "role": "floor",
+    "group": "fixed",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 22399999.999999996,
+      "boundsMm": [
+        -700.0,
+        -700.0,
+        -10.0,
+        700.0,
+        900.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "id": "receiver_finger_reference_-40",
+    "role": "receiver",
+    "group": "receiver",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 2499.9999999999995,
+      "boundsMm": [
+        -45.0,
+        440.0,
+        162.5,
+        -35.0,
+        490.0,
+        167.5
+      ]
+    }
+  },
+  {
+    "id": "receiver_finger_reference_40",
+    "role": "receiver",
+    "group": "receiver",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 2499.9999999999995,
+      "boundsMm": [
+        35.0,
+        440.0,
+        162.5,
+        45.0,
+        490.0,
+        167.5
+      ]
+    }
+  },
+  {
+    "id": "coral_reference",
+    "role": "coral",
+    "group": "coral",
+    "referenceOnly": true,
+    "sourceClass": "NOT_COTS",
+    "geometry": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 649551.4843768268,
+      "boundsMm": [
+        -57.15,
+        314.1875,
+        180.0,
+        57.15,
+        615.8125,
+        294.3
+      ]
+    }
+  }
+]

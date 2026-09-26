@@ -1,0 +1,165 @@
+{
+  "evidence": "Counts from this trial only; no new network requests",
+  "generatedAt": "2026-09-11T12:46:11.235Z",
+  "finalRun": "2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49",
+  "totalRecordedRequests": 62,
+  "totalRecordedHttpElapsedMs": 53523.0593,
+  "publicDocuments": [
+    "086039b6f3621e6c0c73690a"
+  ],
+  "publicDocumentCount": 1,
+  "totalDocumentCreationAttempts": 2,
+  "automaticRetries": 0,
+  "continuation": {
+    "requests": 36,
+    "httpElapsedMs": 36378.059400000006,
+    "sourceUploads": 0,
+    "documentsCreated": 0,
+    "versionsCreated": 1,
+    "featureInsertions": 1,
+    "parameterRevisions": 1,
+    "stepExportCreations": 2
+  },
+  "errors": [
+    {
+      "log": "2026-09-11T11-47-01-505Z-4b21b844-9614-4b69-a191-8558c6b9a061/calls.jsonl",
+      "method": "POST",
+      "path": "/documents",
+      "status": 409,
+      "message": "Free accounts only allow access to public documents. Upgrade your account to get full access to private documents."
+    },
+    {
+      "log": "2026-09-11T12-13-10-600Z-b3dea05b-d228-4142-8f6e-3f6fbdf257cd/diagnostic-352dbef2-f2c1-4c3f-bd6e-ba43a39b6a82-calls.jsonl",
+      "method": "GET",
+      "path": "/featurestudios/d/086039b6f3621e6c0c73690a/w/57576582af3edd8e81d291cf/e/8e613db339872b56a7d45795/featurescriptnotices",
+      "status": 404,
+      "message": "Not found."
+    },
+    {
+      "log": "2026-09-11T12-13-10-600Z-b3dea05b-d228-4142-8f6e-3f6fbdf257cd/diagnostic-352dbef2-f2c1-4c3f-bd6e-ba43a39b6a82-calls.jsonl",
+      "method": "GET",
+      "path": "/featurestudios/d/086039b6f3621e6c0c73690a/w/57576582af3edd8e81d291cf/e/8e613db339872b56a7d45795/errors",
+      "status": 404,
+      "message": "Not found."
+    },
+    {
+      "log": "2026-09-11T12-13-10-600Z-b3dea05b-d228-4142-8f6e-3f6fbdf257cd/diagnostic-3b31ccf4-e193-467e-8c2f-2f337f119b9c-calls.jsonl",
+      "method": "GET",
+      "path": "/featurescript/d/086039b6f3621e6c0c73690a/w/57576582af3edd8e81d291cf/e/8e613db339872b56a7d45795/notices",
+      "status": 404,
+      "message": "Not found."
+    },
+    {
+      "log": "2026-09-11T12-20-18-317Z-2bba9339-7d84-4098-960e-15c495b4d10e/calls.jsonl",
+      "method": "POST",
+      "path": "/documents/d/086039b6f3621e6c0c73690a/versions",
+      "status": 400,
+      "message": "Bad Request."
+    }
+  ],
+  "runs": [
+    {
+      "run": "2026-09-11T11-47-01-505Z-4b21b844-9614-4b69-a191-8558c6b9a061",
+      "requests": 1,
+      "httpElapsedMs": 852.6616,
+      "status": "FAILED",
+      "stage": "create-private-document",
+      "error": "HTTP 409; see sanitized call log; no retry was attempted",
+      "workflowElapsedMs": 857.9727,
+      "diagnostics": []
+    },
+    {
+      "run": "2026-09-11T12-11-03-551Z-5a939f25-8ac5-4fc1-9489-f1b37942b44a",
+      "requests": 5,
+      "httpElapsedMs": 6241.669099999999,
+      "status": "FAILED",
+      "stage": "source-upload-and-spec-check",
+      "error": "Saved Feature Studio source differs from uploaded source\n\u001b[32m+ actual\u001b[39m \u001b[31m- expected\u001b[39m\n\n\u001b[32m+\u001b[39m 'FeatureScript 2232;\\n' +\n\u001b[32m+\u001b[39m   'import(path : \"onshape/std/geometry.fs\", version : \"2232.0\");\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'const WIDTH_BOUNDS = { (millimeter) : [100, 340, 1000] } as LengthBoundSpec;\\n' +\n\u001b[32m+\u001b[39m   'const GAP_BOUNDS = { (millimeter) : [0, 100, 135.7] } as LengthBoundSpec;\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'const PLATE_THICKNESS = 6.35 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const PLATE_LENGTH = 320 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const PLATE_HEIGHT = 150 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const PLATE_BOTTOM = 12.7 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const ROLLER_DIAMETER = 76.2 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const SIDE_CLEARANCE = 5 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const FRONT_Y = 70 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const ROLLER_Z = 65 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const SHAFT_DIAMETER = 12.7 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const SHAFT_HOLE_DIAMETER = 12.9 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const SHAFT_EXTENSION = 12.7 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const CROSS_SIZE = 25.4 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const MOUNT_HOLE_DIAMETER = 6.6 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const PIVOT_HOLE_DIAMETER = 12.9 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const CORAL_OUTER_DIAMETER = 114.3 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const CORAL_INNER_DIAMETER = 101.6 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const CORAL_LENGTH = 301.625 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const CORAL_Y = -110 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   'const CORAL_Z = 57.15 * millimeter;\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'function nameBody(context is Context, body is Query, role is string)\\n' +\n\u001b[32m+\u001b[39m   '{\\n' +\n\u001b[32m+\u001b[39m   '    setProperty(context, {\\n' +\n\u001b[32m+\u001b[39m   '                \"entities\" : body,\\n' +\n\u001b[32m+\u001b[39m   '                \"propertyType\" : PropertyType.NAME,\\n' +\n\u001b[32m+\u001b[39m   '                \"value\" : role == \"coralReference\" ? \"coralReference [REFERENCE - NON-BOM]\" : role\\n' +\n\u001b[32m+\u001b[39m   '            });\\n' +\n\u001b[32m+\u001b[39m   '    setAttribute(context, {\\n' +\n\u001b[32m+\u001b[39m   '                \"entities\" : body,\\n' +\n\u001b[32m+\u001b[39m   '                \"name\" : \"featurescriptIntake\",\\n' +\n\u001b[32m+\u001b[39m   '                \"attribute\" : { \"role\" : role }\\n' +\n\u001b[32m+\u001b[39m   '            });\\n' +\n\u001b[32m+\u001b[39m   '}\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'function cylinderAlongX(context is Context, id is Id, minX is ValueWithUnits,\\n' +\n\u001b[32m+\u001b[39m   '        maxX is ValueWithUnits, centerY is ValueWithUnits, centerZ is ValueWithUnits,\\n' +\n\u001b[32m+\u001b[39m   '        radius is ValueWithUnits)\\n' +\n\u001b[32m+\u001b[39m   '{\\n' +\n\u001b[32m+\u001b[39m   '    fCylinder(context, id, {\\n' +\n\u001b[32m+\u001b[39m   '                \"bottomCenter\" : vector(minX, centerY, centerZ),\\n' +\n\u001b[32m+\u001b[39m   '                \"topCenter\" : vector(maxX, centerY, centerZ),\\n' +\n\u001b[32m+\u001b[39m   '                \"radius\" : radius\\n' +\n\u001b[32m+\u001b[39m   '            });\\n' +\n\u001b[32m+\u001b[39m   '}\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'function makePlate(context is Context, id is Id, minX is ValueWithUnits,\\n' +\n\u001b[32m+\u001b[39m   '        rearY is ValueWithUnits, role is string)\\n' +\n\u001b[32m+\u001b[39m   '{\\n' +\n\u001b[32m+\u001b[39m   '    fCuboid(context, id + \"blank\", {\\n' +\n\u001b[32m+\u001b[39m   '                \"corner1\" : vector(minX, 0 * millimeter, PLATE_BOTTOM),\\n' +\n\u001b[32m+\u001b[39m   '                \"corner2\" : vector(minX + PLATE_THICKNESS, PLATE_LENGTH, PLATE_BOTTOM + PLATE_HEIGHT)\\n' +\n\u001b[32m+\u001b[39m   '            });\\n' +\n\u001b[32m+\u001b[39m   '    const body = qCreatedBy(id + \"blank\", EntityType.BODY);\\n' +\n\u001b[32m+\u001b[39m   '    const holes = [\\n' +\n\u001b[32m+\u001b[39m   '        { \"role\" : \"frontShaft\", \"center\" : vector(FRONT_Y, ROLLER_Z), \"diameter\" : SHAFT_HOLE_DIAMETER },\\n' +\n\u001b[32m+\u001b[39m   '        { \"role\" : \"rearShaft\", \"center\" : vector(rearY, ROLLER_Z), \"diameter\" : SHAFT_HOLE_DIAMETER },\\n' +\n\u001b[32m+\u001b[39m   '        { \"role\" : \"frontMount\", \"center\" : vector(140, 135) * millimeter, \"diameter\" : MOUNT_HOLE_DIAMETER },\\n' +\n\u001b[32m+\u001b[39m   '        { \"role\" : \"rearMount\", \"center\" : vector(300, 135) * millimeter, \"diameter\" : MOUNT_HOLE_DIAMETER },\\n' +\n\u001b[32m+\u001b[39m   '        { \"role\" : \"pivot\", \"center\" : vector(25, 130) * millimeter, \"diameter\" : PIVOT_HOLE_DIAMETER }\\n' +\n\u001b[32m+\u001b[39m   '    ];\\n' +\n\u001b[32m+\u001b[39m   '    for (var hole in holes)\\n' +\n\u001b[32m+\u001b[39m   '    {\\n' +\n\u001b[32m+\u001b[39m   '        const holeId = id + hole.role;\\n' +\n\u001b[32m+\u001b[39m   '        cylinderAlongX(context, holeId + \"tool\", minX - millimeter,\\n' +\n\u001b[32m+\u001b[39m   '                minX + PLATE_THICKNESS + millimeter,\\n' +\n\u001b[32m+\u001b[39m   '                hole.center[0], hole.center[1], hole.diameter / 2);\\n' +\n\u001b[32m+\u001b[39m   '        opBoolean(context, holeId + \"subtract\", {\\n' +\n\u001b[32m+\u001b[39m   '                    \"tools\" : qCreatedBy(holeId + \"tool\", EntityType.BODY),\\n' +\n\u001b[32m+\u001b[39m   '                    \"targets\" : body,\\n' +\n\u001b[32m+\u001b[39m   '                    \"operationType\" : BooleanOperationType.SUBTRACTION,\\n' +\n\u001b[32m+\u001b[39m   '                    \"keepTools\" : false\\n' +\n\u001b[32m+\u001b[39m   '                });\\n' +\n\u001b[32m+\u001b[39m   '    }\\n' +\n\u001b[32m+\u001b[39m   '    nameBody(context, body, role);\\n' +\n\u001b[32m+\u001b[39m   '}\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'function makeTube(context is Context, id is Id, tubeLength is ValueWithUnits,\\n' +\n\u001b[32m+\u001b[39m   '        centerY is ValueWithUnits, centerZ is ValueWithUnits,\\n' +\n\u001b[32m+\u001b[39m   '        outerDiameter is ValueWithUnits, innerDiameter is ValueWithUnits, role is string)\\n' +\n\u001b[32m+\u001b[39m   '{\\n' +\n\u001b[32m+\u001b[39m   '    cylinderAlongX(context, id + \"blank\", -tubeLength / 2, tubeLength / 2,\\n' +\n\u001b[32m+\u001b[39m   '            centerY, centerZ, outerDiameter / 2);\\n' +\n\u001b[32m+\u001b[39m   '    cylinderAlongX(context, id + \"boreTool\", -tubeLength / 2 - millimeter,\\n' +\n\u001b[32m+\u001b[39m   '            tubeLength / 2 + millimeter, centerY, centerZ, innerDiameter / 2);\\n' +\n\u001b[32m+\u001b[39m   '    const body = qCreatedBy(id + \"blank\", EntityType.BODY);\\n' +\n\u001b[32m+\u001b[39m   '    opBoolean(context, id + \"subtract\", {\\n' +\n\u001b[32m+\u001b[39m   '                \"tools\" : qCreatedBy(id + \"boreTool\", EntityType.BODY),\\n' +\n\u001b[32m+\u001b[39m   '                \"targets\" : body,\\n' +\n\u001b[32m+\u001b[39m   '                \"operationType\" : BooleanOperationType.SUBTRACTION,\\n' +\n\u001b[32m+\u001b[39m   '                \"keepTools\" : false\\n' +\n\u001b[32m+\u001b[39m   '            });\\n' +\n\u001b[32m+\u001b[39m   '    nameBody(context, body, role);\\n' +\n\u001b[32m+\u001b[39m   '}\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   'annotation { \"Feature Type Name\" : \"FRC coral ground intake\" }\\n' +\n\u001b[32m+\u001b[39m   'export const coralGroundIntake = defineFeature(function(context is Context, id is Id, definition is map)\\n' +\n\u001b[32m+\u001b[39m   '    precondition\\n' +\n\u001b[32m+\u001b[39m   '    {\\n' +\n\u001b[32m+\u001b[39m   '        annotation { \"Name\" : \"Inner width\" }\\n' +\n\u001b[32m+\u001b[39m   '        isLength(definition.innerWidth, WIDTH_BOUNDS);\\n' +\n\u001b[32m+\u001b[39m   '        annotation { \"Name\" : \"Clear roller gap\" }\\n' +\n\u001b[32m+\u001b[39m   '        isLength(definition.rollerGap, GAP_BOUNDS);\\n' +\n\u001b[32m+\u001b[39m   '    }\\n' +\n\u001b[32m+\u001b[39m   '    {\\n' +\n\u001b[32m+\u001b[39m   '        const width = definition.innerWidth;\\n' +\n\u001b[32m+\u001b[39m   '        const rearY = FRONT_Y + ROLLER_DIAMETER + definition.rollerGap;\\n' +\n\u001b[32m+\u001b[39m   '        const rollerLength = width - 2 * SIDE_CLEARANCE;\\n' +\n\u001b[32m+\u001b[39m   '        const shaftLength = width + 2 * PLATE_THICKNESS + 2 * SHAFT_EXTENSION;\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   '        makePlate(context, id + \"leftPlate\", -width / 2 - PLATE_THICKNESS, rearY, \"leftPlate\");\\n' +\n\u001b[32m+\u001b[39m   '        makePlate(context, id + \"rightPlate\", width / 2, rearY, \"rightPlate\");\\n' +\n\u001b[32m+\u001b[39m   '\\n' +\n\u001b[32m+\u001b[39m   '        for (var roller in [\\n' +\n\u001b[32m+\u001b[39m   '            { \"role\" : \"frontRoller\", \"centerY\" : FRONT_Y },\\n' +\n\u001b[32m+\u001b[39m   '            { \"role\" : \"rearRoller\", \"centerY\" : rearY }\\n' +\n\u001b[32m+\u001b[39m   '        ])\\n' +\n\u001b[32m+\u001b[39m   '        {\\n' +\n\u001b[32m+\u001b[39m   '            makeTube(context, id + roller.role, rollerLength, roller.centerY, ROLLER_Z,\\n' +\n\u001b[32m+\u001b[39m   '                    ROLLER_DIAMETER, SHAFT_DIAMETER, roller.role);\\n' +\n\u001b[32m+\u001b[39m   '        }\\n' +\n\u001b[32m+\u001b[39m   '        for (var shaft in [\\n' +\n\u001b[32m+\u001b[39m   '            { \"role\" : \"frontShaft\", \"centerY\" : FRONT_Y },\\n' +\n\u001b[32m+\u001b[39m   '            { \"role\" : \"rearShaft\", \"centerY\" : rearY }\\n' +\n\u001b[32m+\u001b[39m   '        ])\\n' +\n\u001b[32m+\u001b[39m   '        {\\n' +\n\u001b[32m+\u001b[39m   '            const shaftId = id + shaft.role;\\n' +\n\u001b[32m+\u001b[39m   '            cylinderAlongX(context, shaftId + \"blank\", -shaftLength / 2, shaftLength / 2,\\n' +\n\u001b[32m+\u001b[39m   '                    shaft.centerY, ROLLER_Z, SHAFT_DIAMETER / 2);\\n' +\n\u001b[32m+\u001b[39m   '            nameBody(context, qCreatedBy(shaftId + \"blank\", EntityType.BODY), shaft.role);\\n' +\n\u001b[32m+\u001b[39m   '        }\\n' +\n\u001b[32m+\u001b[39m   '        for (var crossmember in [\\n' +\n\u001b[32m+\u001b[39m   '            { \"role\" : \"frontCrossmember\", \"center\" : vector(140, 135) * millimeter },\\n' +\n\u001b[32m+\u001b[39m   '            { \"role\" : \"rearCrossmember\", \"center\" : vector(300, 135) * millimeter }\\n' +\n\u001b[32m+\u001b[39m   '        ])\\n' +\n\u001b[32m+\u001b[39m   '        {\\n' +\n\u001b[32m+\u001b[39m   '            const crossId = id + crossmember.role;\\n' +\n\u001b[32m+\u001b[39m   '            fCuboid(context, crossId + \"blank\", {\\n' +\n\u001b[32m+\u001b[39m   '                        \"corner1\" : vector(-width / 2, crossmember.center[0] - CROSS_SIZE / 2, crossmember.center[1] - CROSS_SIZE / 2),\\n' +\n\u001b[32m+\u001b[39m   '                        \"corner2\" : vector(width / 2, crossmember.center[0] + CROSS_SIZE / 2, crossmember.center[1] + CROSS_SIZE / 2)\\n' +\n\u001b[32m+\u001b[39m   '                    });\\n' +\n\u001b[32m+\u001b[39m   '            nameBody(context, qCreatedBy(crossId + \"blank\", EntityType.BODY), crossmember.role);\\n' +\n\u001b[32m+\u001b[39m   '        }\\n' +\n\u001b[32m+\u001b[39m   '        makeTube(context, id + \"coralReference\", CORAL_LENGTH, CORAL_Y, CORAL_Z,\\n' +\n\u001b[32m+\u001b[39m   '                CORAL_OUTER_DIAMETER, CORAL_INNER_DIAMETER, \"coralReference\");\\n' +\n\u001b[32m+\u001b[39m   '        setProperty(context, {\\n' +\n\u001b[32m+\u001b[39m   '                    \"entities\" : qCreatedBy(id + \"coralReference\" + \"blank\", EntityType.BODY),\\n' +\n\u001b[32m+\u001b[39m   '                    \"propertyType\" : PropertyType.EXCLUDE_FROM_BOM,\\n' +\n\u001b[32m+\u001b[39m   '                    \"value\" : true\\n' +\n\u001b[32m+\u001b[39m   '                });\\n' +\n\u001b[32m+\u001b[39m   '        if (size(evaluateQuery(context, qBodyType(qCreatedBy(id, EntityType.BODY), BodyType.SOLID))) != 9)\\n' +\n\u001b[32m+\u001b[39m   '            throw regenError(\"Expected exactly nine intake solids\");\\n' +\n\u001b[31m-\u001b[39m 'FeatureScript 2232;\\r\\n' +\n\u001b[31m-\u001b[39m   'import(path : \"onshape/std/geometry.fs\", version : \"2232.0\");\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'const WIDTH_BOUNDS = { (millimeter) : [100, 340, 1000] } as LengthBoundSpec;\\r\\n' +\n\u001b[31m-\u001b[39m   'const GAP_BOUNDS = { (millimeter) : [0, 100, 135.7] } as LengthBoundSpec;\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'const PLATE_THICKNESS = 6.35 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const PLATE_LENGTH = 320 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const PLATE_HEIGHT = 150 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const PLATE_BOTTOM = 12.7 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const ROLLER_DIAMETER = 76.2 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const SIDE_CLEARANCE = 5 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const FRONT_Y = 70 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const ROLLER_Z = 65 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const SHAFT_DIAMETER = 12.7 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const SHAFT_HOLE_DIAMETER = 12.9 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const SHAFT_EXTENSION = 12.7 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const CROSS_SIZE = 25.4 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const MOUNT_HOLE_DIAMETER = 6.6 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const PIVOT_HOLE_DIAMETER = 12.9 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const CORAL_OUTER_DIAMETER = 114.3 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const CORAL_INNER_DIAMETER = 101.6 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const CORAL_LENGTH = 301.625 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const CORAL_Y = -110 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   'const CORAL_Z = 57.15 * millimeter;\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'function nameBody(context is Context, body is Query, role is string)\\r\\n' +\n\u001b[31m-\u001b[39m   '{\\r\\n' +\n\u001b[31m-\u001b[39m   '    setProperty(context, {\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"entities\" : body,\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"propertyType\" : PropertyType.NAME,\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"value\" : role == \"coralReference\" ? \"coralReference [REFERENCE - NON-BOM]\" : role\\r\\n' +\n\u001b[31m-\u001b[39m   '            });\\r\\n' +\n\u001b[31m-\u001b[39m   '    setAttribute(context, {\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"entities\" : body,\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"name\" : \"featurescriptIntake\",\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"attribute\" : { \"role\" : role }\\r\\n' +\n\u001b[31m-\u001b[39m   '            });\\r\\n' +\n\u001b[31m-\u001b[39m   '}\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'function cylinderAlongX(context is Context, id is Id, minX is ValueWithUnits,\\r\\n' +\n\u001b[31m-\u001b[39m   '        maxX is ValueWithUnits, centerY is ValueWithUnits, centerZ is ValueWithUnits,\\r\\n' +\n\u001b[31m-\u001b[39m   '        radius is ValueWithUnits)\\r\\n' +\n\u001b[31m-\u001b[39m   '{\\r\\n' +\n\u001b[31m-\u001b[39m   '    fCylinder(context, id, {\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"bottomCenter\" : vector(minX, centerY, centerZ),\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"topCenter\" : vector(maxX, centerY, centerZ),\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"radius\" : radius\\r\\n' +\n\u001b[31m-\u001b[39m   '            });\\r\\n' +\n\u001b[31m-\u001b[39m   '}\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'function makePlate(context is Context, id is Id, minX is ValueWithUnits,\\r\\n' +\n\u001b[31m-\u001b[39m   '        rearY is ValueWithUnits, role is string)\\r\\n' +\n\u001b[31m-\u001b[39m   '{\\r\\n' +\n\u001b[31m-\u001b[39m   '    fCuboid(context, id + \"blank\", {\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"corner1\" : vector(minX, 0 * millimeter, PLATE_BOTTOM),\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"corner2\" : vector(minX + PLATE_THICKNESS, PLATE_LENGTH, PLATE_BOTTOM + PLATE_HEIGHT)\\r\\n' +\n\u001b[31m-\u001b[39m   '            });\\r\\n' +\n\u001b[31m-\u001b[39m   '    const body = qCreatedBy(id + \"blank\", EntityType.BODY);\\r\\n' +\n\u001b[31m-\u001b[39m   '    const holes = [\\r\\n' +\n\u001b[31m-\u001b[39m   '        { \"role\" : \"frontShaft\", \"center\" : vector(FRONT_Y, ROLLER_Z), \"diameter\" : SHAFT_HOLE_DIAMETER },\\r\\n' +\n\u001b[31m-\u001b[39m   '        { \"role\" : \"rearShaft\", \"center\" : vector(rearY, ROLLER_Z), \"diameter\" : SHAFT_HOLE_DIAMETER },\\r\\n' +\n\u001b[31m-\u001b[39m   '        { \"role\" : \"frontMount\", \"center\" : vector(140, 135) * millimeter, \"diameter\" : MOUNT_HOLE_DIAMETER },\\r\\n' +\n\u001b[31m-\u001b[39m   '        { \"role\" : \"rearMount\", \"center\" : vector(300, 135) * millimeter, \"diameter\" : MOUNT_HOLE_DIAMETER },\\r\\n' +\n\u001b[31m-\u001b[39m   '        { \"role\" : \"pivot\", \"center\" : vector(25, 130) * millimeter, \"diameter\" : PIVOT_HOLE_DIAMETER }\\r\\n' +\n\u001b[31m-\u001b[39m   '    ];\\r\\n' +\n\u001b[31m-\u001b[39m   '    for (var hole in holes)\\r\\n' +\n\u001b[31m-\u001b[39m   '    {\\r\\n' +\n\u001b[31m-\u001b[39m   '        const holeId = id + hole.role;\\r\\n' +\n\u001b[31m-\u001b[39m   '        cylinderAlongX(context, holeId + \"tool\", minX - millimeter,\\r\\n' +\n\u001b[31m-\u001b[39m   '                minX + PLATE_THICKNESS + millimeter,\\r\\n' +\n\u001b[31m-\u001b[39m   '                hole.center[0], hole.center[1], hole.diameter / 2);\\r\\n' +\n\u001b[31m-\u001b[39m   '        opBoolean(context, holeId + \"subtract\", {\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"tools\" : qCreatedBy(holeId + \"tool\", EntityType.BODY),\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"targets\" : body,\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"operationType\" : BooleanOperationType.SUBTRACTION,\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"keepTools\" : false\\r\\n' +\n\u001b[31m-\u001b[39m   '                });\\r\\n' +\n\u001b[31m-\u001b[39m   '    }\\r\\n' +\n\u001b[31m-\u001b[39m   '    nameBody(context, body, role);\\r\\n' +\n\u001b[31m-\u001b[39m   '}\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'function makeTube(context is Context, id is Id, tubeLength is ValueWithUnits,\\r\\n' +\n\u001b[31m-\u001b[39m   '        centerY is ValueWithUnits, centerZ is ValueWithUnits,\\r\\n' +\n\u001b[31m-\u001b[39m   '        outerDiameter is ValueWithUnits, innerDiameter is ValueWithUnits, role is string)\\r\\n' +\n\u001b[31m-\u001b[39m   '{\\r\\n' +\n\u001b[31m-\u001b[39m   '    cylinderAlongX(context, id + \"blank\", -tubeLength / 2, tubeLength / 2,\\r\\n' +\n\u001b[31m-\u001b[39m   '            centerY, centerZ, outerDiameter / 2);\\r\\n' +\n\u001b[31m-\u001b[39m   '    cylinderAlongX(context, id + \"boreTool\", -tubeLength / 2 - millimeter,\\r\\n' +\n\u001b[31m-\u001b[39m   '            tubeLength / 2 + millimeter, centerY, centerZ, innerDiameter / 2);\\r\\n' +\n\u001b[31m-\u001b[39m   '    const body = qCreatedBy(id + \"blank\", EntityType.BODY);\\r\\n' +\n\u001b[31m-\u001b[39m   '    opBoolean(context, id + \"subtract\", {\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"tools\" : qCreatedBy(id + \"boreTool\", EntityType.BODY),\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"targets\" : body,\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"operationType\" : BooleanOperationType.SUBTRACTION,\\r\\n' +\n\u001b[31m-\u001b[39m   '                \"keepTools\" : false\\r\\n' +\n\u001b[31m-\u001b[39m   '            });\\r\\n' +\n\u001b[31m-\u001b[39m   '    nameBody(context, body, role);\\r\\n' +\n\u001b[31m-\u001b[39m   '}\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   'annotation { \"Feature Type Name\" : \"FRC coral ground intake\" }\\r\\n' +\n\u001b[31m-\u001b[39m   'export const coralGroundIntake = defineFeature(function(context is Context, id is Id, definition is map)\\r\\n' +\n\u001b[31m-\u001b[39m   '    precondition\\r\\n' +\n\u001b[31m-\u001b[39m   '    {\\r\\n' +\n\u001b[31m-\u001b[39m   '        annotation { \"Name\" : \"Inner width\" }\\r\\n' +\n\u001b[31m-\u001b[39m   '        isLength(definition.innerWidth, WIDTH_BOUNDS);\\r\\n' +\n\u001b[31m-\u001b[39m   '        annotation { \"Name\" : \"Clear roller gap\" }\\r\\n' +\n\u001b[31m-\u001b[39m   '        isLength(definition.rollerGap, GAP_BOUNDS);\\r\\n' +\n\u001b[31m-\u001b[39m   '    }\\r\\n' +\n\u001b[31m-\u001b[39m   '    {\\r\\n' +\n\u001b[31m-\u001b[39m   '        const width = definition.innerWidth;\\r\\n' +\n\u001b[31m-\u001b[39m   '        const rearY = FRONT_Y + ROLLER_DIAMETER + definition.rollerGap;\\r\\n' +\n\u001b[31m-\u001b[39m   '        const rollerLength = width - 2 * SIDE_CLEARANCE;\\r\\n' +\n\u001b[31m-\u001b[39m   '        const shaftLength = width + 2 * PLATE_THICKNESS + 2 * SHAFT_EXTENSION;\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   '        makePlate(context, id + \"leftPlate\", -width / 2 - PLATE_THICKNESS, rearY, \"leftPlate\");\\r\\n' +\n\u001b[31m-\u001b[39m   '        makePlate(context, id + \"rightPlate\", width / 2, rearY, \"rightPlate\");\\r\\n' +\n\u001b[31m-\u001b[39m   '\\r\\n' +\n\u001b[31m-\u001b[39m   '        for (var roller in [\\r\\n' +\n\u001b[31m-\u001b[39m   '            { \"role\" : \"frontRoller\", \"centerY\" : FRONT_Y },\\r\\n' +\n\u001b[31m-\u001b[39m   '            { \"role\" : \"rearRoller\", \"centerY\" : rearY }\\r\\n' +\n\u001b[31m-\u001b[39m   '        ])\\r\\n' +\n\u001b[31m-\u001b[39m   '        {\\r\\n' +\n\u001b[31m-\u001b[39m   '            makeTube(context, id + roller.role, rollerLength, roller.centerY, ROLLER_Z,\\r\\n' +\n\u001b[31m-\u001b[39m   '                    ROLLER_DIAMETER, SHAFT_DIAMETER, roller.role);\\r\\n' +\n\u001b[31m-\u001b[39m   '        }\\r\\n' +\n\u001b[31m-\u001b[39m   '        for (var shaft in [\\r\\n' +\n\u001b[31m-\u001b[39m   '            { \"role\" : \"frontShaft\", \"centerY\" : FRONT_Y },\\r\\n' +\n\u001b[31m-\u001b[39m   '            { \"role\" : \"rearShaft\", \"centerY\" : rearY }\\r\\n' +\n\u001b[31m-\u001b[39m   '        ])\\r\\n' +\n\u001b[31m-\u001b[39m   '        {\\r\\n' +\n\u001b[31m-\u001b[39m   '            const shaftId = id + shaft.role;\\r\\n' +\n\u001b[31m-\u001b[39m   '            cylinderAlongX(context, shaftId + \"blank\", -shaftLength / 2, shaftLength / 2,\\r\\n' +\n\u001b[31m-\u001b[39m   '                    shaft.centerY, ROLLER_Z, SHAFT_DIAMETER / 2);\\r\\n' +\n\u001b[31m-\u001b[39m   '            nameBody(context, qCreatedBy(shaftId + \"blank\", EntityType.BODY), shaft.role);\\r\\n' +\n\u001b[31m-\u001b[39m   '        }\\r\\n' +\n\u001b[31m-\u001b[39m   '        for (var crossmember in [\\r\\n' +\n\u001b[31m-\u001b[39m   '            { \"role\" : \"frontCrossmember\", \"center\" : vector(140, 135) * millimeter },\\r\\n' +\n\u001b[31m-\u001b[39m   '            { \"role\" : \"rearCrossmember\", \"center\" : vector(300, 135) * millimeter }\\r\\n' +\n\u001b[31m-\u001b[39m   '        ])\\r\\n' +\n\u001b[31m-\u001b[39m   '        {\\r\\n' +\n\u001b[31m-\u001b[39m   '            const crossId = id + crossmember.role;\\r\\n' +\n\u001b[31m-\u001b[39m   '            fCuboid(context, crossId + \"blank\", {\\r\\n' +\n\u001b[31m-\u001b[39m   '                        \"corner1\" : vector(-width / 2, crossmember.center[0] - CROSS_SIZE / 2, crossmember.center[1] - CROSS_SIZE / 2),\\r\\n' +\n\u001b[31m-\u001b[39m   '                        \"corner2\" : vector(width / 2, crossmember.center[0] + CROSS_SIZE / 2, crossmember.center[1] + CROSS_SIZE / 2)\\r\\n' +\n\u001b[31m-\u001b[39m   '                    });\\r\\n' +\n\u001b[31m-\u001b[39m   '            nameBody(context, qCreatedBy(crossId + \"blank\", EntityType.BODY), crossmember.role);\\r\\n' +\n\u001b[31m-\u001b[39m   '        }\\r\\n' +\n\u001b[31m-\u001b[39m   '        makeTube(context, id + \"coralReference\", CORAL_LENGTH, CORAL_Y, CORAL_Z,\\r\\n' +\n\u001b[31m-\u001b[39m   '                CORAL_OUTER_DIAMETER, CORAL_INNER_DIAMETER, \"coralReference\");\\r\\n' +\n\u001b[31m-\u001b[39m   '        setProperty(context, {\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"entities\" : qCreatedBy(id + \"coralReference\" + \"blank\", EntityType.BODY),\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"propertyType\" : PropertyType.EXCLUDE_FROM_BOM,\\r\\n' +\n\u001b[31m-\u001b[39m   '                    \"value\" : true\\r\\n' +\n\u001b[31m-\u001b[39m   '                });\\r\\n' +\n\u001b[31m-\u001b[39m   '        if (size(evaluateQuery(context, qBodyType(qCreatedBy(id, EntityType.BODY), BodyType.SOLID))) != 9)\\r\\n' +\n\u001b[31m-\u001b[39m   '            throw regenError(\"Expected exactly nine intake solids\");\\r\\n' +\n\u001b[39m    '    });'\n",
+      "workflowElapsedMs": 6268.0603,
+      "diagnostics": []
+    },
+    {
+      "run": "2026-09-11T12-12-37-322Z-466db7cb-9bf0-4d5f-b30b-b090d0dd2c86",
+      "requests": 0,
+      "httpElapsedMs": 0,
+      "diagnostics": []
+    },
+    {
+      "run": "2026-09-11T12-13-10-600Z-b3dea05b-d228-4142-8f6e-3f6fbdf257cd",
+      "requests": 14,
+      "httpElapsedMs": 6336.2097,
+      "status": "INSPECTED_SAVED_SOURCE_AND_SPECS",
+      "stage": "verify-resume-provenance",
+      "workflowElapsedMs": 1335.1956,
+      "diagnostics": [
+        {
+          "file": "compile-check-ceb6f44f-f3f5-420d-b2d8-6896fbd8de51-summary.json",
+          "networkRequests": 3,
+          "elapsedMs": 2073.5989
+        },
+        {
+          "file": "compile-check-eb137dae-24e3-4a9c-8400-6fa071fef483-summary.json",
+          "networkRequests": 3,
+          "elapsedMs": 1757.988
+        },
+        {
+          "file": "diagnostic-352dbef2-f2c1-4c3f-bd6e-ba43a39b6a82-summary.json",
+          "status": "STARTED",
+          "networkRequests": 3,
+          "elapsedMs": 629.6987
+        },
+        {
+          "file": "diagnostic-3b31ccf4-e193-467e-8c2f-2f337f119b9c-summary.json",
+          "status": "STARTED",
+          "networkRequests": 2,
+          "elapsedMs": 603.0464
+        }
+      ]
+    },
+    {
+      "run": "2026-09-11T12-20-18-317Z-2bba9339-7d84-4098-960e-15c495b4d10e",
+      "requests": 6,
+      "httpElapsedMs": 3714.459500000001,
+      "status": "FAILED",
+      "stage": "version-pinned-feature-specs",
+      "error": "HTTP 400; see sanitized call log; no retry was attempted",
+      "workflowElapsedMs": 3799.5355999999997,
+      "diagnostics": []
+    },
+    {
+      "run": "2026-09-11T12-37-01-358Z-f2ee3f15-b4f1-4480-b848-7c847ae17f55",
+      "requests": 10,
+      "httpElapsedMs": 17693.752300000004,
+      "status": "FAILED",
+      "stage": "baseline-validation",
+      "error": "Custom Feature Studio import not observed in feature list",
+      "workflowElapsedMs": 17771.269,
+      "diagnostics": []
+    },
+    {
+      "run": "2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49",
+      "requests": 26,
+      "httpElapsedMs": 18684.307100000005,
+      "status": "GEOMETRY_AND_EXPORTS_VERIFIED",
+      "stage": "completed",
+      "latestInvocation": {
+        "label": "finish-84d488aa-9e38-42d7-bf0f-1c25489fafce",
+        "startedAt": "2026-09-11T12:42:36.415Z",
+        "elapsedMs": 14170.1731,
+        "networkRequests": 14,
+        "retries": 0,
+        "status": "GEOMETRY_AND_EXPORTS_VERIFIED",
+        "stage": "completed"
+      },
+      "diagnostics": [
+        {
+          "file": "finish-84d488aa-9e38-42d7-bf0f-1c25489fafce-summary.json",
+          "status": "GEOMETRY_AND_EXPORTS_VERIFIED",
+          "networkRequests": 14,
+          "elapsedMs": 14170.1731
+        }
+      ]
+    }
+  ],
+  "timingsNote": "HTTP times include fetch/body read, not signing or log writes. Cumulative HTTP time is not agent wall time. Interrupted workflow timer is unavailable; completed invocation timers are preserved."
+}

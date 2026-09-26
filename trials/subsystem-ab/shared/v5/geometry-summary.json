@@ -1,0 +1,74 @@
+{
+  "variants": [
+    {
+      "variant": "baseline",
+      "status": "PASS_MODELED_CORE_ONLY",
+      "occurrences": 42,
+      "deploymentFailures": 0,
+      "nominalEntryFailures": 0,
+      "yawFailures": 0,
+      "receiverFailures": 0,
+      "entryOrientations": [
+        {
+          "yaw": 0,
+          "failures": 343
+        },
+        {
+          "yaw": 30,
+          "failures": 284
+        },
+        {
+          "yaw": 60,
+          "failures": 172
+        },
+        {
+          "yaw": 75,
+          "failures": 99
+        },
+        {
+          "yaw": 90,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "variant": "revision",
+      "status": "PASS_MODELED_CORE_ONLY",
+      "occurrences": 42,
+      "deploymentFailures": 0,
+      "nominalEntryFailures": 0,
+      "yawFailures": 0,
+      "receiverFailures": 0,
+      "entryOrientations": [
+        {
+          "yaw": 0,
+          "failures": 344
+        },
+        {
+          "yaw": 30,
+          "failures": 286
+        },
+        {
+          "yaw": 60,
+          "failures": 175
+        },
+        {
+          "yaw": 75,
+          "failures": 100
+        },
+        {
+          "yaw": 90,
+          "failures": 0
+        }
+      ]
+    }
+  ],
+  "seconds": 500.0,
+  "cadquery": "2.6.1",
+  "apiCalls": 0,
+  "newDownloads": 0,
+  "frozen": false,
+  "finishedDemonstrator": false,
+  "manufacturingRelease": false,
+  "scope": "Contact geometry core, not a supported, fastened or powered assembly. No hardware omitted from this model is claimed collision-checked."
+}

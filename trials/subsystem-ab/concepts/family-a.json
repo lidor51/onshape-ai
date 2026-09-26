@@ -1,0 +1,256 @@
+[
+  {
+    "id": "01",
+    "title": "Kicker and fixed V",
+    "family": "Compact rollers lift; fixed V guides orient",
+    "summary": "Three transverse contacts pull coral over a supported ramp into fixed V guide banks and a low receiver. UNTESTED sketch proposal.",
+    "advantage": "Separating pickup and orientation may keep the moving nose small and the receiver pose repeatable.",
+    "risk": "A passive V can wedge a crosswise coral; contact gaps between the pickup, kicker and exit roll may cause dead spots.",
+    "firstTest": "Hand-feed slow, offset and crosswise coral through a flat-stock mockup; check each contact transition and receiver-absent hold.",
+    "complexity": "low",
+    "inspiration": "1690's reported pickup/orientation separation and installed dead spot motivate this proposal, not a geometry replica or performance claim.",
+    "side": {
+      "guides": [
+        {"points": [[-445,0],[-365,34],[-235,113],[-100,175],[20,193],[125,203],[290,203],[290,193],[125,193],[20,183],[-100,165],[-235,103],[-365,24],[-445,0]], "label": "Ramp and continuous lower guide"},
+        {"points": [[20,193],[290,193],[290,211],[20,211],[20,193]], "label": "Fixed V bank support beneath path"}
+      ],
+      "rollers": [
+        {"center": [-417,173], "radius": 28, "label": "Pickup roll"},
+        {"center": [-268,266], "radius": 32, "label": "Kicker roll"},
+        {"center": [135,345], "radius": 28, "label": "Fixed exit roll"}
+      ],
+      "links": [{"points": [[-60,180],[-390,115]], "label": "Nose carrier"}],
+      "pivot": [-60,180],
+      "ghost": [[[-60,180],[110,535],[245,450],[15,180],[-60,180]]],
+      "path": [[-425,57.15],[-365,104],[-235,183],[-100,237],[20,250],[125,260],[260,260]],
+      "receiver": {"center": [260,260], "label": "Low jaw placeholder"},
+      "labels": [
+        {"at": [-440,380], "text": "Pickup + kicker"},
+        {"at": [65,390], "text": "Fixed V orienter; see plan"},
+        {"at": [-75,115], "text": "Common bumper intact"},
+        {"at": [-90,430], "text": "Dashed: proposed stow, not a sweep"},
+        {"at": [10,60], "text": "Center over bumper >=232; 9.85 mm sketch margin"}
+      ]
+    },
+    "plan": {
+      "guides": [
+        {"points": [[-245,-445],[245,-445],[245,-389],[-245,-389],[-245,-445]], "label": "Transverse pickup roll band"},
+        {"points": [[-225,-300],[225,-300],[225,-236],[-225,-236],[-225,-300]], "label": "Transverse kicker band"},
+        {"points": [[-255,-80],[-72,130],[-72,315],[-90,315],[-90,145],[-275,-80],[-255,-80]], "label": "Left fixed V guide bank"},
+        {"points": [[255,-80],[72,130],[72,315],[90,315],[90,145],[275,-80],[255,-80]], "label": "Right fixed V guide bank"},
+        {"points": [[-65,107],[65,107],[65,163],[-65,163],[-65,107]], "label": "Transverse exit roll band"}
+      ],
+      "rollers": [],
+      "movingOutline": [[-275,-445],[275,-445],[275,-60],[-275,-60],[-275,-445]],
+      "path": [[-70,-425],[-40,-365],[-25,-235],[0,-100],[0,20],[0,125],[0,260]],
+      "receiver": {"center": [0,260], "label": "Along-robot jaw placeholder"},
+      "coralYawDeg": 0,
+      "labels": [
+        {"at": [-235,-350], "text": "510 mm mouth intent"},
+        {"at": [-260,365], "text": "Fixed V banks aim for along-robot coral"},
+        {"at": [-260,420], "text": "Orientation is proposed, not demonstrated"}
+      ]
+    },
+    "mouthWidthMm": 510,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: nose down, rollers feed supported ramp. Hold: exit roll retains one coral in fixed V. Offer: release only to a ready receiver. Whole-robot occupancy blocks a second coral. Dashed ghost is a proposed nose stow position, not verified motion or a full sweep. Common bumper ring stays intact; an internal bellypan recess is optional, never a bumper cutout. Flat router-cut aluminum/polycarbonate, turned shafts and printed guide inserts; no accurate bends. All coordinates are approximate mm. Over y=-85..0, center z>=232 uses 165+57.15+9.85 mm; this is only a center-path heuristic, not full-length or 3D clearance. Traction, yaw, retention, loads and legality remain unknown."
+  },
+  {
+    "id": "02",
+    "title": "Opposed belts and cradle",
+    "family": "Short opposing belt runs lift into a fixed cradle",
+    "summary": "An upper and lower belt run carry coral up a short incline, then offer it crosswise into a fixed supported cradle. UNTESTED proposal.",
+    "advantage": "Opposed moving surfaces may maintain contact through the climb while a fixed cradle decouples pickup from receiver timing.",
+    "risk": "Belt tracking, unequal speed and the floating upper mount can skew or pinch coral; the belt-to-cradle transition is unproven.",
+    "firstTest": "Mock up both opposed belt runs with adjustable upper float; feed low-speed skewed coral and inspect exit support and jam reversal.",
+    "complexity": "moderate",
+    "inspiration": "2056's reported jam-handling lesson and 6328's receiver-waiting lesson motivate this belt alternative; neither establishes this geometry or performance.",
+    "side": {
+      "guides": [
+        {"points": [[-440,0],[-330,73],[-325,64],[-430,0],[-440,0]], "label": "Entry ramp"},
+        {"points": [[-326,83],[-96,207],[-76,169],[-306,45],[-326,83]], "label": "LOWER opposed belt loop; supports path"},
+        {"points": [[-401,222],[-171,346],[-151,308],[-381,184],[-401,222]], "label": "UPPER opposed belt loop; floating contact"},
+        {"points": [[-110,205],[10,218],[310,218],[310,208],[10,208],[-110,195],[-110,205]], "label": "Exit bridge and fixed cradle floor"}
+      ],
+      "rollers": [
+        {"center": [-316,64], "radius": 22, "label": "Lower entry pulley"},
+        {"center": [-86,188], "radius": 22, "label": "Lower exit pulley"},
+        {"center": [-391,203], "radius": 22, "label": "Upper entry pulley"},
+        {"center": [-161,327], "radius": 22, "label": "Upper exit pulley"}
+      ],
+      "links": [
+        {"points": [[-50,215],[-316,64]], "label": "Belt cassette carrier"},
+        {"points": [[-65,350],[-161,327]], "label": "Upper floating mount proposal"}
+      ],
+      "pivot": [-50,215],
+      "ghost": [[[-50,215],[80,570],[255,510],[95,205],[-50,215]]],
+      "path": [[-425,57.15],[-355,132],[-235,197],[-110,265],[10,275],[140,275],[270,275]],
+      "receiver": {"center": [270,275], "label": "Fixed crosswise cradle placeholder"},
+      "labels": [
+        {"at": [-445,390], "text": "Two opposed belts; not a single open belt"},
+        {"at": [-430,435], "text": "Upper float does not prove compression"},
+        {"at": [50,605], "text": "Dashed: proposed stow; sweep UNTESTED"},
+        {"at": [15,100], "text": "Intact bumper; center >=232 incl. 9.85 margin"},
+        {"at": [110,360], "text": "Supported fixed cradle"}
+      ]
+    },
+    "plan": {
+      "guides": [
+        {"points": [[-240,-338],[240,-338],[240,-64],[-240,-64],[-240,-338]], "label": "Lower belt projected footprint"},
+        {"points": [[-225,-413],[225,-413],[225,-139],[-225,-139],[-225,-413]], "label": "Upper belt projected footprint; stacked above lower"},
+        {"points": [[-245,-65],[-175,130],[-175,325],[-193,325],[-193,145],[-263,-65],[-245,-65]], "label": "Left cradle guide bank"},
+        {"points": [[245,-65],[175,130],[175,325],[193,325],[193,145],[263,-65],[245,-65]], "label": "Right cradle guide bank"},
+        {"points": [[-175,315],[175,315],[175,327],[-175,327],[-175,315]], "label": "Proposed cradle stop"}
+      ],
+      "rollers": [],
+      "movingOutline": [[-260,-445],[260,-445],[260,-50],[-260,-50],[-260,-445]],
+      "path": [[0,-425],[0,-355],[0,-235],[0,-110],[0,10],[0,140],[0,270]],
+      "receiver": {"center": [0,270], "label": "Crosswise cradle placeholder"},
+      "coralYawDeg": 90,
+      "labels": [
+        {"at": [-235,-460], "text": "480 mm mouth intent"},
+        {"at": [-235,-370], "text": "Belts stacked vertically; see side section"},
+        {"at": [-260,385], "text": "Cradle guide banks preserve crosswise pose"},
+        {"at": [-260,430], "text": "Skewed entry and passive alignment UNTESTED"}
+      ]
+    },
+    "mouthWidthMm": 480,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: opposing belt surfaces feed rearward together. Upper contact floats; spring travel, preload and compression are unknown. Hold: one coral rests crosswise in a stopped cradle; receiver capture must be confirmed before offer. Whole-robot occupancy prevents a second coral. Dashed ghost proposes folding the cassette inside the chassis, not a verified stow or full sweep. Common bumper remains uncut; any recess is internal. Flat-stock side plates, turned pulley shafts and printed guides avoid precision bends. Coordinates are approximate mm. Center z>=232 over y=-85..0 includes 9.85 mm beyond bumper top plus coral radius; finite-piece clearance and contact are not verified. Belt tension, synchronization, retention and legality remain unknown."
+  },
+  {
+    "id": "03",
+    "title": "Floating nose and indexer",
+    "family": "Four-bar pickup compliance with a stationary powered indexer",
+    "summary": "A floating four-bar nose follows entry height while a supported bridge feeds a stationary indexer and low jaw. UNTESTED proposal.",
+    "advantage": "The nose may accommodate floor variation without moving the indexer or changing the intended receiver pose.",
+    "risk": "Four-bar motion changes the bridge gap and contact force; nose float can lift away from coral or hit the bumper.",
+    "firstTest": "Move a flat-stock four-bar through small floor-height changes while hand-feeding coral; inspect bridge gaps, dead spots and hold pose.",
+    "complexity": "moderate",
+    "inspiration": "6328's reported floating pickup and 1778's alignment-sensitive transfer motivate separating nose compliance from the fixed handoff; not a team replica.",
+    "side": {
+      "guides": [
+        {"points": [[-445,0],[-365,28],[-245,108],[-120,170],[-108,160],[-245,97],[-365,18],[-445,0]], "label": "Floating nose lower ramp"},
+        {"points": [[-125,171],[30,185],[340,185],[340,175],[30,175],[-125,161],[-125,171]], "label": "Fixed bridge and indexer support"}
+      ],
+      "rollers": [
+        {"center": [-415,170], "radius": 30, "label": "Floating pickup roll"},
+        {"center": [-282,265], "radius": 34, "label": "Nose exit roll"},
+        {"center": [190,327], "radius": 28, "label": "Fixed indexer top roll"}
+      ],
+      "links": [
+        {"points": [[30,300],[-280,200]], "label": "Upper four-bar link"},
+        {"points": [[30,210],[-280,110]], "label": "Lower four-bar link"},
+        {"points": [[-280,110],[-280,200]], "label": "Moving nose upright"},
+        {"points": [[30,210],[30,300]], "label": "Fixed chassis upright"}
+      ],
+      "pivot": [30,300],
+      "ghost": [
+        [[30,300],[210,572]],
+        [[30,210],[210,482]],
+        [[45,372],[125,400],[245,480],[370,542],[300,610],[100,585],[45,372]]
+      ],
+      "path": [[-430,57.15],[-365,98],[-245,180],[-100,236],[30,242],[165,242],[295,242]],
+      "receiver": {"center": [295,242], "label": "Fixed low jaw placeholder"},
+      "labels": [
+        {"at": [-435,345], "text": "Floating parallelogram nose"},
+        {"at": [80,385], "text": "Fixed indexer; side wheels in plan"},
+        {"at": [-100,635], "text": "Dashed: proposed stow, not verified sweep"},
+        {"at": [25,85], "text": "Intact bumper; center >=232 incl. 9.85 margin"},
+        {"at": [-445,405], "text": "Floating contact; preload remains unknown"}
+      ]
+    },
+    "plan": {
+      "guides": [
+        {"points": [[-260,-445],[260,-445],[260,-385],[-260,-385],[-260,-445]], "label": "Transverse floating pickup roll band"},
+        {"points": [[-240,-316],[240,-316],[240,-248],[-240,-248],[-240,-316]], "label": "Transverse nose exit roll band"},
+        {"points": [[-255,-95],[-65,95],[-82,108],[-275,-95],[-255,-95]], "label": "Left fixed indexer entry bank"},
+        {"points": [[255,-95],[65,95],[82,108],[275,-95],[255,-95]], "label": "Right fixed indexer entry bank"},
+        {"points": [[-65,162],[65,162],[65,218],[-65,218],[-65,162]], "label": "Transverse fixed top roll band"},
+        {"points": [[-70,235],[-70,360],[-88,360],[-88,235],[-70,235]], "label": "Left fixed receiver rail"},
+        {"points": [[70,235],[70,360],[88,360],[88,235],[70,235]], "label": "Right fixed receiver rail"}
+      ],
+      "rollers": [
+        {"center": [-86,170], "radius": 29, "label": "Left vertical-axis index wheel"},
+        {"center": [86,170], "radius": 29, "label": "Right vertical-axis index wheel"}
+      ],
+      "movingOutline": [[-280,-445],[280,-445],[280,-110],[-280,-110],[-280,-445]],
+      "path": [[60,-430],[40,-365],[20,-245],[0,-100],[0,30],[0,165],[0,295]],
+      "receiver": {"center": [0,295], "label": "Along-robot fixed jaw placeholder"},
+      "coralYawDeg": 0,
+      "labels": [
+        {"at": [-260,-350], "text": "520 mm floating mouth intent"},
+        {"at": [-285,405], "text": "Fixed guide banks + powered side index wheels"},
+        {"at": [-285,450], "text": "Along-robot offer; yaw control UNTESTED"}
+      ]
+    },
+    "mouthWidthMm": 520,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: linked nose floats on unknown spring/preload settings; upper contact is not guaranteed compression. Hold: stationary indexer retains and orients one coral. Offer: fixed jaw accepts only after pose and receiver-ready checks. Whole-robot occupancy inhibits a second coral. Ghost lines show a proposed raised four-bar stow position only, not a verified linkage sweep or clearance result. Bumper ring stays intact; internal flat-stock chassis recess is optional. Router-cut parallel plates, turned spacers and printed guide lips require no accurate bends. Approximate mm coordinates use center z>=232 across y=-85..0, including 9.85 mm sketch margin above top plus coral radius. Moving bridge support, full coral envelope, loads, retention and legality remain unknown."
+  },
+  {
+    "id": "10",
+    "title": "Segmented star tunnel",
+    "family": "Rotating star pockets advance coral beneath a compliant ceiling",
+    "summary": "Three segmented star shafts step coral over slotted support guides under a floating ceiling, then offer it crosswise. UNTESTED proposal.",
+    "advantage": "Discrete pockets may provide controlled low-speed advance while ceiling float accommodates changing contact geometry.",
+    "risk": "Star phasing can pinch coral or leave an unsupported pocket transition; segment gaps may catch an end or deform the piece.",
+    "firstTest": "Hand-crank three printed star stations under an adjustable ceiling; inspect offset coral, phase errors, pocket transitions and jam release.",
+    "complexity": "high",
+    "inspiration": "Original star-pocket alternative informed by 1690's dead-spot lesson and 2056's jam-handling reports; no claim that either team used this mechanism.",
+    "side": {
+      "guides": [
+        {"points": [[-445,0],[-412,68],[-286,160],[-140,212],[-15,225],[290,225],[290,215],[-15,215],[-140,202],[-286,150],[-412,58],[-445,0]], "label": "Slotted lower bridge guides; star openings UNTESTED"},
+        {"points": [[-445,145],[-380,220],[-265,291],[-135,335],[280,344],[280,354],[-135,345],[-265,301],[-380,230],[-445,155],[-445,145]], "label": "Segmented compliant ceiling above path"},
+        {"points": [[-357,105],[-346,80],[-319,83],[-335,61],[-319,39],[-346,42],[-357,17],[-368,42],[-395,39],[-379,61],[-395,83],[-368,80],[-357,105]], "label": "Entry star segment silhouette"},
+        {"points": [[-219,200],[-208,175],[-180,178],[-196,155],[-180,132],[-208,135],[-219,110],[-230,135],[-258,132],[-242,155],[-258,178],[-230,175],[-219,200]], "label": "Middle star segment silhouette"},
+        {"points": [[-56,225],[-44,199],[-16,202],[-33,179],[-16,156],[-44,159],[-56,133],[-68,159],[-96,156],[-79,179],[-96,202],[-68,199],[-56,225]], "label": "Exit star segment silhouette"}
+      ],
+      "rollers": [
+        {"center": [-357,61], "radius": 14, "label": "Entry star shaft hub; lobes shown separately"},
+        {"center": [-219,155], "radius": 14, "label": "Middle star shaft hub; lobes shown separately"},
+        {"center": [-56,179], "radius": 14, "label": "Exit star shaft hub; lobes shown separately"}
+      ],
+      "links": [
+        {"points": [[15,225],[-219,155]], "label": "Tunnel carrier"},
+        {"points": [[-250,380],[-265,301]], "label": "Front ceiling float mount"},
+        {"points": [[120,395],[120,350]], "label": "Rear ceiling float mount"}
+      ],
+      "pivot": [15,225],
+      "ghost": [[[15,225],[80,545],[260,555],[150,225],[15,225]]],
+      "path": [[-435,57.15],[-412,142],[-286,230],[-140,273],[-15,282],[110,282],[260,282]],
+      "receiver": {"center": [260,282], "label": "Crosswise receiver placeholder"},
+      "labels": [
+        {"at": [-445,425], "text": "Three lobed stations, not round roller ladder"},
+        {"at": [-445,465], "text": "Ceiling float; compression not guaranteed"},
+        {"at": [10,595], "text": "Dashed: proposed stow; no sweep verified"},
+        {"at": [20,95], "text": "Intact bumper; center >=232 incl. 9.85 margin"},
+        {"at": [70,170], "text": "Bridge support continues to receiver"}
+      ]
+    },
+    "plan": {
+      "guides": [
+        {"points": [[-210,-401],[-90,-401],[-90,-313],[-210,-313],[-210,-401]], "label": "Entry star left segment bank"},
+        {"points": [[-60,-401],[60,-401],[60,-313],[-60,-313],[-60,-401]], "label": "Entry star center segment bank"},
+        {"points": [[90,-401],[210,-401],[210,-313],[90,-313],[90,-401]], "label": "Entry star right segment bank"},
+        {"points": [[-200,-264],[-85,-264],[-85,-174],[-200,-174],[-200,-264]], "label": "Middle star left segment bank"},
+        {"points": [[-55,-264],[55,-264],[55,-174],[-55,-174],[-55,-264]], "label": "Middle star center segment bank"},
+        {"points": [[85,-264],[200,-264],[200,-174],[85,-174],[85,-264]], "label": "Middle star right segment bank"},
+        {"points": [[-180,-102],[-80,-102],[-80,-10],[-180,-10],[-180,-102]], "label": "Exit star left segment bank"},
+        {"points": [[-50,-102],[50,-102],[50,-10],[-50,-10],[-50,-102]], "label": "Exit star center segment bank"},
+        {"points": [[80,-102],[180,-102],[180,-10],[80,-10],[80,-102]], "label": "Exit star right segment bank"},
+        {"points": [[-225,-440],[-165,100],[-165,325],[-185,325],[-185,100],[-245,-440],[-225,-440]], "label": "Left fixed tunnel guide bank"},
+        {"points": [[225,-440],[165,100],[165,325],[185,325],[185,100],[245,-440],[225,-440]], "label": "Right fixed tunnel guide bank"}
+      ],
+      "rollers": [],
+      "movingOutline": [[-245,-440],[245,-440],[205,15],[-205,15],[-245,-440]],
+      "path": [[25,-435],[10,-412],[0,-286],[0,-140],[0,-15],[0,110],[0,260]],
+      "receiver": {"center": [0,260], "label": "Crosswise receiver placeholder"},
+      "coralYawDeg": 90,
+      "labels": [
+        {"at": [-240,-465], "text": "450 mm mouth intent"},
+        {"at": [-260,385], "text": "Three transverse shafts with separate star banks"},
+        {"at": [-260,430], "text": "Tunnel guides retain crosswise pose; see ceiling in side"}
+      ]
+    },
+    "mouthWidthMm": 450,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: synchronized star pockets propose discrete rearward advance above slotted guide support. Floating upper ceiling is a contact proposal, not guaranteed compression. Hold: stop one coral at the supported crosswise receiver; offer only after receiver capture. Whole-robot occupancy prevents a second coral. Star profiles, segment spacing and phases are placeholders, not solved conjugate geometry. Dashed ghost proposes a folded tunnel stow position, not a verified pose or full sweep. Common bumper stays intact; only an internal recess may be considered. Router-cut flat plates, turned shafts and printed replaceable segments need no accurate bends. Approximate mm center path exceeds 232 across y=-85..0, including 9.85 mm beyond top plus coral radius. Full-piece clearance, pocket continuity, loads, wear, release and legality are unknown."
+  }
+]

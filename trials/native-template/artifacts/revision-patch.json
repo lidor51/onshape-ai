@@ -1,0 +1,164 @@
+{
+  "microversion": "LOCAL-editor-1-NOT-ONSHAPE",
+  "snapshotHash": "ad3534816954542f36579d24d79172bd0b1da1143e987e2f9b78334c37e7d256",
+  "changes": [
+    {
+      "featureId": "var-innerWidth",
+      "before": {
+        "btType": "BTMFeature-134",
+        "featureId": "var-innerWidth",
+        "name": "Control: innerWidth",
+        "featureType": "assignVariable",
+        "namespace": "",
+        "suppressed": false,
+        "returnAfterSubfeatures": false,
+        "parameters": [
+          {
+            "btType": "BTMParameterString-149",
+            "parameterId": "name",
+            "value": "innerWidth"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "mode",
+            "enumName": "VariableMode",
+            "value": "ASSIGNED"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "variableType",
+            "enumName": "VariableType",
+            "value": "LENGTH"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "lengthValue",
+            "expression": "340 mm"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "value",
+            "expression": "340 mm"
+          }
+        ]
+      },
+      "after": {
+        "btType": "BTMFeature-134",
+        "featureId": "var-innerWidth",
+        "name": "Control: innerWidth",
+        "featureType": "assignVariable",
+        "namespace": "",
+        "suppressed": false,
+        "returnAfterSubfeatures": false,
+        "parameters": [
+          {
+            "btType": "BTMParameterString-149",
+            "parameterId": "name",
+            "value": "innerWidth"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "mode",
+            "enumName": "VariableMode",
+            "value": "ASSIGNED"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "variableType",
+            "enumName": "VariableType",
+            "value": "LENGTH"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "lengthValue",
+            "expression": "360 mm"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "value",
+            "expression": "360 mm"
+          }
+        ]
+      }
+    },
+    {
+      "featureId": "var-rollerGap",
+      "before": {
+        "btType": "BTMFeature-134",
+        "featureId": "var-rollerGap",
+        "name": "Control: rollerGap",
+        "featureType": "assignVariable",
+        "namespace": "",
+        "suppressed": false,
+        "returnAfterSubfeatures": false,
+        "parameters": [
+          {
+            "btType": "BTMParameterString-149",
+            "parameterId": "name",
+            "value": "rollerGap"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "mode",
+            "enumName": "VariableMode",
+            "value": "ASSIGNED"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "variableType",
+            "enumName": "VariableType",
+            "value": "LENGTH"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "lengthValue",
+            "expression": "100 mm"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "value",
+            "expression": "100 mm"
+          }
+        ]
+      },
+      "after": {
+        "btType": "BTMFeature-134",
+        "featureId": "var-rollerGap",
+        "name": "Control: rollerGap",
+        "featureType": "assignVariable",
+        "namespace": "",
+        "suppressed": false,
+        "returnAfterSubfeatures": false,
+        "parameters": [
+          {
+            "btType": "BTMParameterString-149",
+            "parameterId": "name",
+            "value": "rollerGap"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "mode",
+            "enumName": "VariableMode",
+            "value": "ASSIGNED"
+          },
+          {
+            "btType": "BTMParameterEnum-145",
+            "parameterId": "variableType",
+            "enumName": "VariableType",
+            "value": "LENGTH"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "lengthValue",
+            "expression": "95 mm"
+          },
+          {
+            "btType": "BTMParameterQuantity-147",
+            "parameterId": "value",
+            "expression": "95 mm"
+          }
+        ]
+      }
+    }
+  ]
+}

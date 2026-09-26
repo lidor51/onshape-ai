@@ -1,0 +1,441 @@
+{
+  "cadquery": "2.6.1",
+  "status": "PASS",
+  "samples": [
+    {
+      "angleDeg": -145,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        70.0,
+        380.0,
+        250.0,
+        212.6714544941501,
+        949.5737734733035
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -140,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        70.0,
+        380.0,
+        250.0,
+        167.94458393881243,
+        954.839983441176
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -135,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        62.928932188134496,
+        380.0,
+        250.0,
+        130.0,
+        956.1879502661797
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -130,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        17.967095533132266,
+        380.0,
+        250.0,
+        130.0,
+        953.6074151068516
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -125,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -26.598739300550367,
+        380.0,
+        250.0,
+        130.0,
+        947.118017393924
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -120,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -70.42939940024243,
+        380.0,
+        250.0,
+        130.0,
+        936.7691453623978
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -115,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -113.19130697690878,
+        380.0,
+        250.0,
+        130.0,
+        922.6395601772527
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -110,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -154.55901809354538,
+        380.0,
+        250.0,
+        130.0,
+        904.8367965134245
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -105,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -194.21769949004783,
+        380.0,
+        250.0,
+        130.0,
+        883.4963441519973
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -100,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -231.86552465442207,
+        380.0,
+        250.0,
+        130.0,
+        858.7806168211591
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -95,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -267.21597090478895,
+        380.0,
+        250.0,
+        130.0,
+        830.8777161296618
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -90,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -300.00000000000006,
+        380.0,
+        250.0,
+        130.0,
+        800.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -85,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -329.96810568310275,
+        380.0,
+        250.0,
+        130.0,
+        766.382466496395
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -80,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -356.89221257461196,
+        380.0,
+        250.0,
+        130.0,
+        730.2809653476306
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -75,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -380.5674119638627,
+        380.0,
+        250.0,
+        130.0,
+        691.9702507761319
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -72.5,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -391.1293595983823,
+        380.0,
+        250.0,
+        130.0,
+        672.0769564527807
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -70,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.62237244798484,
+      "boundsMm": [
+        -250.0,
+        -400.8135212880269,
+        380.0,
+        250.0,
+        130.0,
+        651.7418904524295
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -65,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 234.26253848751017,
+      "boundsMm": [
+        -250.0,
+        -417.47645543021224,
+        380.0,
+        250.0,
+        130.0,
+        609.9020464891352
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -60,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 232.05459870594674,
+      "boundsMm": [
+        -250.0,
+        -430.42939940024235,
+        380.0,
+        250.0,
+        130.0,
+        566.7691453623979
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -55,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 227.85226519533805,
+      "boundsMm": [
+        -250.0,
+        -439.5737734733035,
+        380.0,
+        250.0,
+        130.0,
+        522.67145449415
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -50,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 221.68752025113835,
+      "boundsMm": [
+        -250.0,
+        -444.83998344117606,
+        380.0,
+        250.0,
+        130.0,
+        477.9445839388125
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -45,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 212.44300697745473,
+      "boundsMm": [
+        -250.0,
+        -446.18795026617977,
+        372.9289321881345,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -40,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 195.1056567972776,
+      "boundsMm": [
+        -250.0,
+        -443.6074151068516,
+        327.96709553313224,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -35,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 176.0551166463614,
+      "boundsMm": [
+        -250.0,
+        -437.1180173939241,
+        283.4012606994496,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -30,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 155.43637263828512,
+      "boundsMm": [
+        -250.0,
+        -426.7691453623979,
+        239.57060059975765,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -25,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 133.40634586488846,
+      "boundsMm": [
+        -250.0,
+        -412.63956017725275,
+        196.80869302309134,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -20,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 110.1326981320106,
+      "boundsMm": [
+        -250.0,
+        -394.8367965134245,
+        155.44098190645462,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -15,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 85.79255595191162,
+      "boundsMm": [
+        -250.0,
+        -373.4963441519973,
+        115.78230050995217,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -10,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 60.57116250356168,
+      "boundsMm": [
+        -250.0,
+        -348.78061682115913,
+        78.13447534557793,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": -5,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 34.6604678201965,
+      "boundsMm": [
+        -250.0,
+        -320.8777161296619,
+        42.78402909521111,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    },
+    {
+      "angleDeg": 0,
+      "bumperIntersectionMm3": 0.0,
+      "bumperDistanceMm": 8.257667933661686,
+      "boundsMm": [
+        -250.0,
+        -290.0,
+        10.0,
+        250.0,
+        130.0,
+        440.0
+      ],
+      "status": "PASS"
+    }
+  ],
+  "apiCalls": 0
+}

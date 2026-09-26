@@ -1,0 +1,8284 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-18T12:21:33.425710+00:00",
+  "release": "NOT RELEASED",
+  "export_performed": false,
+  "checkpoint": {
+    "release": "NOT RELEASED",
+    "base_instances": 364,
+    "net_helper_instances": 187,
+    "engineering_variant": {
+      "source_stow_degrees": -120,
+      "stow_degrees": -123,
+      "params_file_modified": false
+    },
+    "repairs": [
+      {
+        "part": "pickup_rail_R",
+        "repair": "pickup motor axial through-relief",
+        "radius_mm": 26.400000100000014,
+        "center_yz_mm": [
+          36.72,
+          287.0
+        ]
+      },
+      {
+        "part": "cassette_rear_R",
+        "repair": "pickup motor axial through-relief",
+        "radius_mm": 26.400000100000014,
+        "center_yz_mm": [
+          36.72,
+          287.0
+        ]
+      },
+      {
+        "part": "pickup_rail_R",
+        "repair": "R0 M8 stop shank actual OD8.5 through-hole",
+        "center_yz_mm": [
+          -220.29966492426774,
+          251.11117574500446
+        ]
+      },
+      {
+        "part": "pickup_rail_R",
+        "repair": "full fold-motor swept notch plus bypass candidate",
+        "accepted": true,
+        "candidate_solids": 1,
+        "lost_3mm_bolt_lands": [],
+        "motor_radius_mm": 26.400000100000014,
+        "center_yz_mm": [
+          155.72000000000003,
+          265.0
+        ],
+        "minimum_radial_pivot_ligament_mm": 3.3199999000000133,
+        "relief_exit_slot_yz_mm": [
+          [
+            53,
+            299
+          ],
+          [
+            53,
+            345
+          ]
+        ],
+        "relief_exit_width_mm": 20,
+        "bolt_pattern_relative_pivot_mm": [
+          [
+            -50,
+            -50
+          ],
+          [
+            -50,
+            -30
+          ],
+          [
+            -30,
+            -50
+          ],
+          [
+            -30,
+            -30
+          ]
+        ],
+        "status": "APPLIED, load unqualified"
+      },
+      {
+        "part": "cassette_pivot_R",
+        "repair": "recess four screw heads and washers 3 mm, M5x18 to M5x15",
+        "thread_engagement_mm": 5,
+        "mount_axial_clearance_mm": 1,
+        "counterbore_floor_mm": 3
+      },
+      {
+        "part": "fold_drive",
+        "repair": "input assembly relocated -90 degrees about unchanged output, same 45.72 center distance and gears",
+        "relocated_ids": [
+          "fold_drive_mount",
+          "fold_drive_X44",
+          "fold_drive_12T",
+          "fold_drive_pinion_spacer",
+          "fold_drive_pinion_retention",
+          "fold_drive_motor_screw_0",
+          "fold_drive_motor_screw_1",
+          "fold_drive_motor_screw_2"
+        ],
+        "original_swept_relief": "REJECTED in first focused run: original 40 mm square bolt lands intersect full sweep",
+        "native_joint_verified": false
+      }
+    ],
+    "fold_input": {
+      "pinion_ratio": -5,
+      "vendor_motor_body_unchanged": true,
+      "fused_vendor_rotor_motion_verified": false
+    },
+    "source_hashes": {
+      "model.py": "bea6509771aff7e8827d22eef2d4d40dc6a0fdcab5c1703f2f9ac059ec81dc80",
+      "geometry.py": "195b46ec54bbfe46e4573a2b5c3e6974b3ae0c2962ad4b019d5aca1c4d5ff8f4",
+      "transmission.py": "45b474779e3c7abc6f7d7819eb804adc99d3e28faab6a3155b5b5c0cc7f08b01",
+      "drive_completion.py": "be5f63d12f185e6e5eb41a31f4f817a22f02b8a2eb89a01174ec92f9d9bdbfa2",
+      "params.json": "c8fafac063515884c789cec070297eb0e13f6ff462199a1bf5c5bd31bbae1910",
+      "cots/sourcebindings.json": "719243c3ca45c4805f1d32d1bb28cd466a399631114a5f4bc0c7ad7d9b25d3cb",
+      "cots/load_vendor.py": "fce054690eeb6c39e50272297cd6777bfb472c6bc3054c8b5b02c5650c50666b",
+      "assemble.py": "1e4bc3289ba4ee0cddc7cff96d5b7251f2276cce313d54f40c2bb10f830ffc88"
+    }
+  },
+  "inventory": {
+    "instances": 551,
+    "unique_ids": 551,
+    "active_definitions": 140,
+    "active_custom_definitions": 111,
+    "custom_instances": 274,
+    "all_definitions": 167,
+    "all_custom_definitions": 136,
+    "unused_definitions": [
+      "compliant_sleeve_kick",
+      "dc_fold_flange_R",
+      "dc_pickup_rail_R",
+      "dc_reverse_outer_carrier",
+      "dc_shaft_kick",
+      "frame_pivot_cheek_1",
+      "hex_collar",
+      "indexer_drive_L_output_spacer_0",
+      "indexer_drive_L_output_spacer_1",
+      "indexer_drive_R_output_spacer_0",
+      "indexer_drive_R_output_spacer_1",
+      "indexer_hex_shaft",
+      "pickup_drive_output_spacer",
+      "pickup_hex_shaft_front",
+      "pickup_hex_shaft_kick",
+      "pickup_hex_shaft_middle",
+      "pickup_hex_shaft_rear",
+      "roller_core_kick",
+      "roller_hub_kick",
+      "round_belt_hex_pulley",
+      "tx_shaft_rear",
+      "tx_tube_19.000000_15.000000_21.412500",
+      "tx_tube_19.000000_15.000000_74.125000",
+      "tx_tube_19.000000_15.000000_8.169150",
+      "upper_pickup_belt",
+      "vendor_indexer_wheel",
+      "vendor_intake_star"
+    ],
+    "custom_quantities": {
+      "pickup_sideplate": 1,
+      "floating_arm": 2,
+      "floating_pivot_journal": 2,
+      "floating_pivot_bushing": 2,
+      "axle_cassette": 8,
+      "assembly_pickup_rail_R": 1,
+      "assembly_cassette_rear_R": 1,
+      "assembly_cassette_pivot_R": 1,
+      "stop_mount_0": 1,
+      "stop_mount_1": 1,
+      "pickup_crossmember": 2,
+      "tube_end_plug": 12,
+      "dc_pinned_shaft_kick": 1,
+      "dc_pinned_core_kick": 1,
+      "dc_pinned_sleeve_kick": 1,
+      "dc_pinned_hub_kick-1": 1,
+      "dc_pinned_hub_kick1": 1,
+      "tx_shaft_front": 1,
+      "tx_shaft_middle": 1,
+      "dc_shaft_rear": 1,
+      "pickup_drive_mount": 1,
+      "pinion_retention_spacer": 4,
+      "frame_pivot_cheek_-1": 1,
+      "fold_pivot_stub": 2,
+      "assembly_frame_cheek_1": 1,
+      "fold_drive_mount": 1,
+      "fold_drive_output_spacer": 1,
+      "indexer_bank_plate_L": 2,
+      "indexer_post": 4,
+      "dc_indexer_shaft": 6,
+      "dc_round_hex_pulley": 8,
+      "indexer_belt_L": 1,
+      "indexer_drive_L_mount": 1,
+      "indexer_bank_plate_R": 2,
+      "indexer_belt_R": 1,
+      "indexer_drive_R_mount": 1,
+      "detachable_tray": 1,
+      "dock_crossbar": 2,
+      "tray_spacer": 4,
+      "coral_stop": 1,
+      "presence_sensor_tab": 1,
+      "presence_sensor_adapter": 1,
+      "sensor_adapter": 1,
+      "tx_round_hex_pulley": 4,
+      "tx_front_belt": 1,
+      "tx_front_idler_bracket": 2,
+      "tx_tube_10.000000_5.500000_14.000000": 2,
+      "tx_tube_10.000000_5.500000_20.000000": 4,
+      "tx_mount_washer": 12,
+      "tx_idler_wheel": 2,
+      "tx_idler_axle": 2,
+      "tx_tube_19.000000_15.000000_2.062500": 2,
+      "tx_end_washer": 8,
+      "tx_tube_19.000000_15.000000_1.862500": 2,
+      "tx_rear_belt": 1,
+      "tx_rear_idler_bracket": 2,
+      "tx_tube_10.000000_5.500000_13.000000": 2,
+      "tx_middle_stop_bridge": 1,
+      "tx_tube_19.000000_15.000000_10.000000": 2,
+      "tx_tube_19.000000_15.000000_22.412500": 1,
+      "tx_tube_19.000000_15.000000_96.650000": 1,
+      "tx_tube_19.000000_15.000000_30.712500": 8,
+      "tx_tube_19.000000_15.000000_96.450000": 1,
+      "tx_tube_19.000000_15.000000_35.412500": 1,
+      "tx_tube_19.000000_15.000000_3.000000": 1,
+      "tx_tube_19.000000_15.000000_6.412500": 1,
+      "tx_tube_19.000000_15.000000_112.650000": 1,
+      "tx_tube_19.000000_15.000000_36.914286": 7,
+      "tx_tube_19.000000_15.000000_112.450000": 1,
+      "tx_tube_19.000000_15.000000_19.412500": 1,
+      "dc_tube_19.000000_15.000000_1.650000": 2,
+      "dc_tube_19.000000_15.000000_1.169150": 2,
+      "dc_tube_19.000000_15.000000_5.244150": 2,
+      "dc_tube_19.000000_15.000000_13.312500": 4,
+      "dc_tube_19.000000_15.000000_34.112500": 4,
+      "dc_tube_19.000000_15.000000_3.650000": 6,
+      "dc_tube_19.000000_15.000000_8.000000": 6,
+      "dc_end_washer": 20,
+      "dc_tube_19.000000_15.000000_28.650000": 4,
+      "dc_tube_19.000000_15.000000_34.312500": 2,
+      "dc_tube_19.000000_15.000000_13.112500": 2,
+      "dc_reverse_inner_carrier": 1,
+      "dc_tube_10.000000_5.500000_4.000000": 2,
+      "dc_mount_washer": 14,
+      "dc_dc_reverse_shaft": 1,
+      "dc_tube_19.000000_15.000000_1.412500": 1,
+      "dc_tube_19.000000_15.000000_9.100000": 1,
+      "dc_tube_19.000000_15.000000_9.412500": 2,
+      "dc_tube_19.000000_15.000000_5.675400": 1,
+      "dc_tube_19.000000_15.000000_1.675400": 2,
+      "dc_tube_19.000000_15.000000_10.000000": 1,
+      "dc_tube_19.000000_15.000000_21.412500": 1,
+      "dc_tube_19.000000_15.000000_112.650000": 2,
+      "dc_tube_19.000000_15.000000_74.125000": 4,
+      "dc_tube_19.000000_15.000000_112.450000": 2,
+      "dc_tube_19.000000_15.000000_8.169150": 1,
+      "dc_tube_19.000000_15.000000_6.269550": 1,
+      "dc_tube_19.000000_15.000000_4.412500": 1,
+      "dc_tube_19.000000_15.000000_328.000000": 1,
+      "dc_tube_19.000000_15.000000_4.000000": 1,
+      "dc_M4_washer": 4,
+      "dc_kick_belt": 1,
+      "dc_kick_idler_bracket": 2,
+      "dc_tube_10.000000_5.500000_1.000000": 2,
+      "dc_tube_10.000000_5.500000_20.000000": 2,
+      "dc_idler_wheel": 1,
+      "dc_idler_axle": 1,
+      "dc_tube_19.000000_15.000000_2.062500": 1,
+      "dc_tube_19.000000_15.000000_1.862500": 1,
+      "dc_fold_flange_L": 1,
+      "assembly_dc_fold_flange_R": 1
+    },
+    "roles": {
+      "structure": 63,
+      "pivot_journal": 2,
+      "bushing": 2,
+      "bearing": 36,
+      "fastener": 123,
+      "hard_shaft": 16,
+      "hard_roller_core": 41,
+      "compliant_contact": 41,
+      "hub": 2,
+      "vendor_marking_unqualified": 22,
+      "motor": 4,
+      "gear": 10,
+      "spacer": 165,
+      "pulley": 15,
+      "belt": 5,
+      "coral_support": 1,
+      "coral_stop": 1,
+      "sensor_envelope": 2
+    },
+    "service_units": {
+      "pickup": [
+        "pickup_rail_L",
+        "floating_arm_L",
+        "floating_journal_L",
+        "floating_bushing_L",
+        "cassette_kick_L",
+        "bearing_kick_L",
+        "cassette_bolt_kick_L0",
+        "cassette_bolt_kick_L1",
+        "cassette_bolt_kick_L2",
+        "cassette_bolt_kick_L3",
+        "cassette_front_L",
+        "bearing_front_L",
+        "cassette_bolt_front_L0",
+        "cassette_bolt_front_L3",
+        "cassette_middle_L",
+        "bearing_middle_L",
+        "cassette_rear_L",
+        "bearing_rear_L",
+        "cassette_bolt_rear_L0",
+        "cassette_bolt_rear_L3",
+        "cassette_pivot_L",
+        "bearing_pivot_L",
+        "floating_stop_L0",
+        "floating_stop_L1",
+        "pickup_rail_R",
+        "floating_arm_R",
+        "floating_journal_R",
+        "floating_bushing_R",
+        "cassette_kick_R",
+        "bearing_kick_R",
+        "cassette_bolt_kick_R1",
+        "cassette_bolt_kick_R3",
+        "cassette_front_R",
+        "bearing_front_R",
+        "cassette_bolt_front_R0",
+        "cassette_bolt_front_R1",
+        "cassette_bolt_front_R2",
+        "cassette_bolt_front_R3",
+        "cassette_middle_R",
+        "bearing_middle_R",
+        "cassette_bolt_middle_R0",
+        "cassette_bolt_middle_R1",
+        "cassette_bolt_middle_R2",
+        "cassette_bolt_middle_R3",
+        "cassette_rear_R",
+        "bearing_rear_R",
+        "cassette_bolt_rear_R2",
+        "cassette_bolt_rear_R3",
+        "cassette_pivot_R",
+        "bearing_pivot_R",
+        "stop_mount_R0",
+        "floating_stop_R0",
+        "stop_mount_R1",
+        "floating_stop_R1",
+        "pickup_crossmember_0",
+        "crossmember_plug_0_-1",
+        "crossmember_bolt_0_-1",
+        "crossmember_plug_0_1",
+        "crossmember_bolt_0_1",
+        "pickup_crossmember_1",
+        "crossmember_plug_1_-1",
+        "crossmember_bolt_1_-1",
+        "crossmember_plug_1_1",
+        "crossmember_bolt_1_1",
+        "shaft_kick",
+        "core_kick",
+        "sleeve_kick",
+        "hub_kick-1",
+        "hub_kick1",
+        "shaft_front",
+        "star_front_0_solid_0",
+        "star_front_0_solid_1",
+        "star_front_0_solid_2",
+        "star_front_1_solid_0",
+        "star_front_1_solid_1",
+        "star_front_1_solid_2",
+        "star_front_2_solid_0",
+        "star_front_2_solid_1",
+        "star_front_2_solid_2",
+        "star_front_3_solid_0",
+        "star_front_3_solid_1",
+        "star_front_3_solid_2",
+        "star_front_4_solid_0",
+        "star_front_4_solid_1",
+        "star_front_4_solid_2",
+        "star_front_5_solid_0",
+        "star_front_5_solid_1",
+        "star_front_5_solid_2",
+        "star_front_6_solid_0",
+        "star_front_6_solid_1",
+        "star_front_6_solid_2",
+        "star_front_7_solid_0",
+        "star_front_7_solid_1",
+        "star_front_7_solid_2",
+        "star_front_8_solid_0",
+        "star_front_8_solid_1",
+        "star_front_8_solid_2",
+        "shaft_middle",
+        "star_middle_0_solid_0",
+        "star_middle_0_solid_1",
+        "star_middle_0_solid_2",
+        "star_middle_1_solid_0",
+        "star_middle_1_solid_1",
+        "star_middle_1_solid_2",
+        "star_middle_2_solid_0",
+        "star_middle_2_solid_1",
+        "star_middle_2_solid_2",
+        "star_middle_3_solid_0",
+        "star_middle_3_solid_1",
+        "star_middle_3_solid_2",
+        "star_middle_4_solid_0",
+        "star_middle_4_solid_1",
+        "star_middle_4_solid_2",
+        "star_middle_5_solid_0",
+        "star_middle_5_solid_1",
+        "star_middle_5_solid_2",
+        "star_middle_6_solid_0",
+        "star_middle_6_solid_1",
+        "star_middle_6_solid_2",
+        "star_middle_7_solid_0",
+        "star_middle_7_solid_1",
+        "star_middle_7_solid_2",
+        "shaft_rear",
+        "star_rear_0_solid_0",
+        "star_rear_0_solid_1",
+        "star_rear_0_solid_2",
+        "star_rear_1_solid_0",
+        "star_rear_1_solid_1",
+        "star_rear_1_solid_2",
+        "star_rear_2_solid_0",
+        "star_rear_2_solid_1",
+        "star_rear_2_solid_2",
+        "star_rear_3_solid_0",
+        "star_rear_3_solid_1",
+        "star_rear_3_solid_2",
+        "star_rear_4_solid_0",
+        "star_rear_4_solid_1",
+        "star_rear_4_solid_2",
+        "pickup_drive_mount",
+        "pickup_drive_X44",
+        "pickup_drive_output_bearing",
+        "pickup_drive_motor_screw_0",
+        "pickup_drive_motor_screw_1",
+        "pickup_drive_motor_screw_2",
+        "pickup_drive_12T",
+        "pickup_drive_60T",
+        "pickup_drive_pinion_spacer",
+        "pickup_drive_pinion_retention",
+        "tx_pulley_middle_front",
+        "tx_pulley_front_front",
+        "tx_front_belt",
+        "tx_front_idler_bracket_-1",
+        "tx_front_idler_bracket_1",
+        "tx_front_idler_mount_sleeve_0",
+        "tx_front_idler_bridge_0",
+        "tx_front_idler_mount_screw_0",
+        "tx_front_idler_mount_nut_0",
+        "tx_front_idler_mount_washer_0",
+        "tx_front_idler_mount_sleeve_1",
+        "tx_front_idler_bridge_1",
+        "tx_front_idler_mount_screw_1",
+        "tx_front_idler_mount_nut_1",
+        "tx_front_idler_mount_washer_1",
+        "tx_front_idler_wheel",
+        "tx_front_idler_axle",
+        "tx_front_idler_bearing_-1",
+        "tx_front_idler_race_sleeve_-1",
+        "tx_front_idler_end_-1_washer",
+        "tx_front_idler_end_-1_screw",
+        "tx_front_idler_bearing_1",
+        "tx_front_idler_race_sleeve_1",
+        "tx_front_idler_end_1_washer",
+        "tx_front_idler_end_1_screw",
+        "tx_pulley_middle_rear",
+        "tx_pulley_rear_rear",
+        "tx_rear_belt",
+        "tx_rear_idler_bracket_-1",
+        "tx_rear_idler_bracket_1",
+        "tx_rear_idler_mount_sleeve_0",
+        "tx_rear_idler_bridge_0",
+        "tx_rear_idler_mount_screw_0",
+        "tx_rear_idler_mount_nut_0",
+        "tx_rear_idler_mount_washer_0",
+        "tx_rear_idler_mount_sleeve_1",
+        "tx_rear_idler_bridge_1",
+        "tx_rear_idler_mount_screw_1",
+        "tx_rear_idler_mount_nut_1",
+        "tx_rear_idler_mount_washer_1",
+        "tx_rear_idler_wheel",
+        "tx_rear_idler_axle",
+        "tx_rear_idler_bearing_-1",
+        "tx_rear_idler_race_sleeve_-1",
+        "tx_rear_idler_end_-1_washer",
+        "tx_rear_idler_end_-1_screw",
+        "tx_rear_idler_bearing_1",
+        "tx_rear_idler_race_sleeve_1",
+        "tx_rear_idler_end_1_washer",
+        "tx_rear_idler_end_1_screw",
+        "tx_middle_stop_bridge",
+        "tx_stop_gap_washer_0",
+        "tx_stop_head_washer_0",
+        "tx_stop_mount_screw_0",
+        "tx_stop_mount_nut_0",
+        "tx_stop_gap_washer_1",
+        "tx_stop_head_washer_1",
+        "tx_stop_mount_screw_1",
+        "tx_stop_mount_nut_1",
+        "tx_stop_gap_washer_2",
+        "tx_stop_head_washer_2",
+        "tx_stop_mount_screw_2",
+        "tx_stop_mount_nut_2",
+        "tx_stop_gap_washer_3",
+        "tx_stop_head_washer_3",
+        "tx_stop_mount_screw_3",
+        "tx_stop_mount_nut_3",
+        "tx_stack_front_0",
+        "tx_stack_front_1",
+        "tx_stack_front_2",
+        "tx_stack_front_3",
+        "tx_stack_front_4",
+        "tx_stack_front_5",
+        "tx_stack_front_6",
+        "tx_stack_front_7",
+        "tx_stack_front_8",
+        "tx_stack_front_9",
+        "tx_stack_front_10",
+        "tx_stack_front_11",
+        "tx_stack_front_12",
+        "tx_capture_front_-1_washer",
+        "tx_capture_front_-1_screw",
+        "tx_capture_front_1_washer",
+        "tx_capture_front_1_screw",
+        "tx_stack_middle_0",
+        "tx_stack_middle_1",
+        "tx_stack_middle_2",
+        "tx_stack_middle_3",
+        "tx_stack_middle_4",
+        "tx_stack_middle_5",
+        "tx_stack_middle_6",
+        "tx_stack_middle_7",
+        "tx_stack_middle_8",
+        "tx_stack_middle_9",
+        "tx_stack_middle_10",
+        "tx_stack_middle_11",
+        "tx_stack_middle_12",
+        "tx_capture_middle_-1_washer",
+        "tx_capture_middle_-1_screw",
+        "tx_capture_middle_1_washer",
+        "tx_capture_middle_1_screw",
+        "dc_reverse_inner_carrier",
+        "dc_reverse_mount_spacer_0",
+        "dc_reverse_mount_washer_0",
+        "dc_reverse_mount_screw_0",
+        "dc_reverse_mount_spacer_1",
+        "dc_reverse_mount_washer_1",
+        "dc_reverse_mount_screw_1",
+        "dc_reverse_bearing_inner",
+        "dc_reverse_bearing_outer",
+        "dc_pickoff_60T",
+        "dc_reverse_60T",
+        "dc_reverse_pulley",
+        "dc_kick_pulley",
+        "dc_reverse_shaft",
+        "dc_reverse_spacer_0",
+        "dc_reverse_spacer_1",
+        "dc_reverse_spacer_2",
+        "dc_reverse_spacer_3",
+        "dc_reverse_spacer_4",
+        "dc_reverse_end_-1_washer",
+        "dc_reverse_end_-1_screw",
+        "dc_reverse_end_1_washer",
+        "dc_reverse_end_1_screw",
+        "dc_rear_spacer_0",
+        "dc_rear_spacer_1",
+        "dc_rear_spacer_2",
+        "dc_rear_spacer_3",
+        "dc_rear_spacer_4",
+        "dc_rear_spacer_5",
+        "dc_rear_spacer_6",
+        "dc_rear_spacer_7",
+        "dc_rear_spacer_8",
+        "dc_rear_spacer_9",
+        "dc_rear_spacer_10",
+        "dc_rear_end_-1_washer",
+        "dc_rear_end_-1_screw",
+        "dc_rear_end_1_washer",
+        "dc_rear_end_1_screw",
+        "dc_kick_spacer_0",
+        "dc_kick_spacer_1",
+        "dc_kick_spacer_2",
+        "dc_kick_spacer_3",
+        "dc_kick_spacer_4",
+        "dc_kick_spacer_5",
+        "dc_kick_end_-1_washer",
+        "dc_kick_end_-1_screw",
+        "dc_kick_end_1_washer",
+        "dc_kick_end_1_screw",
+        "dc_kick_pin_0",
+        "dc_kick_pin_nut_0",
+        "dc_kick_pin_washer_0_-1",
+        "dc_kick_pin_washer_0_1",
+        "dc_kick_pin_1",
+        "dc_kick_pin_nut_1",
+        "dc_kick_pin_washer_1_-1",
+        "dc_kick_pin_washer_1_1",
+        "dc_kick_belt",
+        "dc_kick_idler_bracket_-1",
+        "dc_kick_idler_bracket_1",
+        "dc_kick_idler_mount_gap_0",
+        "dc_kick_idler_bridge_0",
+        "dc_kick_idler_mount_screw_0",
+        "dc_kick_idler_mount_nut_0",
+        "dc_kick_idler_head_washer_0",
+        "dc_kick_idler_nut_washer_0",
+        "dc_kick_idler_mount_gap_1",
+        "dc_kick_idler_bridge_1",
+        "dc_kick_idler_mount_screw_1",
+        "dc_kick_idler_mount_nut_1",
+        "dc_kick_idler_head_washer_1",
+        "dc_kick_idler_nut_washer_1",
+        "dc_kick_idler_wheel",
+        "dc_kick_idler_axle",
+        "dc_kick_idler_bearing_-1",
+        "dc_kick_idler_race_spacer_-1",
+        "dc_kick_idler_end_-1_washer",
+        "dc_kick_idler_end_-1_screw",
+        "dc_kick_idler_bearing_1",
+        "dc_kick_idler_race_spacer_1",
+        "dc_kick_idler_end_1_washer",
+        "dc_kick_idler_end_1_screw"
+      ],
+      "fold_frame_interface": [
+        "frame_cheek_-1",
+        "frame_pivot_bearing_-1",
+        "pivot_stub_-1",
+        "frame_mount_-10",
+        "frame_mount_-11",
+        "frame_cheek_1",
+        "frame_pivot_bearing_1",
+        "pivot_stub_1",
+        "frame_mount_10",
+        "frame_mount_11",
+        "fold_drive_mount",
+        "fold_drive_X44",
+        "fold_drive_output_bearing",
+        "fold_drive_motor_screw_0",
+        "fold_drive_motor_screw_1",
+        "fold_drive_motor_screw_2",
+        "fold_drive_12T",
+        "fold_drive_60T",
+        "fold_drive_pinion_spacer",
+        "fold_drive_pinion_retention",
+        "fold_drive_output_spacer",
+        "fold_drive_output_end",
+        "dc_fold_flange_L",
+        "dc_fold_mount_L0",
+        "dc_fold_washer_L0",
+        "dc_fold_mount_L1",
+        "dc_fold_washer_L1",
+        "dc_fold_mount_L2",
+        "dc_fold_washer_L2",
+        "dc_fold_mount_L3",
+        "dc_fold_washer_L3",
+        "dc_fold_flange_R",
+        "dc_fold_mount_R0",
+        "dc_fold_washer_R0",
+        "dc_fold_mount_R1",
+        "dc_fold_washer_R1",
+        "dc_fold_mount_R2",
+        "dc_fold_washer_R2",
+        "dc_fold_mount_R3",
+        "dc_fold_washer_R3"
+      ],
+      "indexer_left": [
+        "indexer_plate_L_114",
+        "indexer_plate_L_247",
+        "indexer_post_L0",
+        "post_plug_L0_250",
+        "post_bolt_L0_250",
+        "post_plug_L0_66",
+        "post_bolt_L0_66",
+        "indexer_post_L1",
+        "post_plug_L1_250",
+        "post_bolt_L1_250",
+        "post_plug_L1_66",
+        "post_bolt_L1_66",
+        "indexer_L0_lower",
+        "indexer_L0_upper",
+        "indexer_L0_shaft",
+        "indexer_L0_wheel_0_solid_0",
+        "indexer_L0_wheel_0_solid_1",
+        "indexer_L0_wheel_1_solid_0",
+        "indexer_L0_wheel_1_solid_1",
+        "indexer_L0_wheel_2_solid_0",
+        "indexer_L0_wheel_2_solid_1",
+        "indexer_L0_pulley",
+        "indexer_L1_lower",
+        "indexer_L1_upper",
+        "indexer_L1_shaft",
+        "indexer_L1_wheel_0_solid_0",
+        "indexer_L1_wheel_0_solid_1",
+        "indexer_L1_wheel_1_solid_0",
+        "indexer_L1_wheel_1_solid_1",
+        "indexer_L1_wheel_2_solid_0",
+        "indexer_L1_wheel_2_solid_1",
+        "indexer_L1_pulley",
+        "indexer_L2_lower",
+        "indexer_L2_upper",
+        "indexer_L2_shaft",
+        "indexer_L2_wheel_0_solid_0",
+        "indexer_L2_wheel_0_solid_1",
+        "indexer_L2_wheel_1_solid_0",
+        "indexer_L2_wheel_1_solid_1",
+        "indexer_L2_wheel_2_solid_0",
+        "indexer_L2_wheel_2_solid_1",
+        "indexer_L2_pulley",
+        "indexer_belt_L",
+        "indexer_drive_L_mount",
+        "indexer_drive_L_X44",
+        "indexer_drive_L_output_bearing",
+        "indexer_drive_L_motor_screw_0",
+        "indexer_drive_L_motor_screw_1",
+        "indexer_drive_L_motor_screw_2",
+        "indexer_drive_L_12T",
+        "indexer_drive_L_60T",
+        "indexer_drive_L_pinion_spacer",
+        "indexer_drive_L_pinion_retention",
+        "dc_indexer_L0_spacer_0",
+        "dc_indexer_L0_spacer_1",
+        "dc_indexer_L0_spacer_2",
+        "dc_indexer_L0_spacer_3",
+        "dc_indexer_L0_spacer_4",
+        "dc_indexer_L0_spacer_5",
+        "dc_indexer_L0_spacer_6",
+        "dc_indexer_L0_end_-1_washer",
+        "dc_indexer_L0_end_-1_screw",
+        "dc_indexer_L0_end_1_washer",
+        "dc_indexer_L0_end_1_screw",
+        "dc_indexer_L1_spacer_0",
+        "dc_indexer_L1_spacer_1",
+        "dc_indexer_L1_spacer_2",
+        "dc_indexer_L1_spacer_3",
+        "dc_indexer_L1_spacer_4",
+        "dc_indexer_L1_end_-1_washer",
+        "dc_indexer_L1_end_-1_screw",
+        "dc_indexer_L1_end_1_washer",
+        "dc_indexer_L1_end_1_screw",
+        "dc_indexer_L2_spacer_0",
+        "dc_indexer_L2_spacer_1",
+        "dc_indexer_L2_spacer_2",
+        "dc_indexer_L2_spacer_3",
+        "dc_indexer_L2_spacer_4",
+        "dc_indexer_L2_end_-1_washer",
+        "dc_indexer_L2_end_-1_screw",
+        "dc_indexer_L2_end_1_washer",
+        "dc_indexer_L2_end_1_screw"
+      ],
+      "indexer_right": [
+        "indexer_plate_R_114",
+        "indexer_plate_R_247",
+        "indexer_post_R0",
+        "post_plug_R0_250",
+        "post_bolt_R0_250",
+        "post_plug_R0_66",
+        "post_bolt_R0_66",
+        "indexer_post_R1",
+        "post_plug_R1_250",
+        "post_bolt_R1_250",
+        "post_plug_R1_66",
+        "post_bolt_R1_66",
+        "indexer_R0_lower",
+        "indexer_R0_upper",
+        "indexer_R0_shaft",
+        "indexer_R0_wheel_0_solid_0",
+        "indexer_R0_wheel_0_solid_1",
+        "indexer_R0_wheel_1_solid_0",
+        "indexer_R0_wheel_1_solid_1",
+        "indexer_R0_wheel_2_solid_0",
+        "indexer_R0_wheel_2_solid_1",
+        "indexer_R0_pulley",
+        "indexer_R1_lower",
+        "indexer_R1_upper",
+        "indexer_R1_shaft",
+        "indexer_R1_wheel_0_solid_0",
+        "indexer_R1_wheel_0_solid_1",
+        "indexer_R1_wheel_1_solid_0",
+        "indexer_R1_wheel_1_solid_1",
+        "indexer_R1_wheel_2_solid_0",
+        "indexer_R1_wheel_2_solid_1",
+        "indexer_R1_pulley",
+        "indexer_R2_lower",
+        "indexer_R2_upper",
+        "indexer_R2_shaft",
+        "indexer_R2_wheel_0_solid_0",
+        "indexer_R2_wheel_0_solid_1",
+        "indexer_R2_wheel_1_solid_0",
+        "indexer_R2_wheel_1_solid_1",
+        "indexer_R2_wheel_2_solid_0",
+        "indexer_R2_wheel_2_solid_1",
+        "indexer_R2_pulley",
+        "indexer_belt_R",
+        "indexer_drive_R_mount",
+        "indexer_drive_R_X44",
+        "indexer_drive_R_output_bearing",
+        "indexer_drive_R_motor_screw_0",
+        "indexer_drive_R_motor_screw_1",
+        "indexer_drive_R_motor_screw_2",
+        "indexer_drive_R_12T",
+        "indexer_drive_R_60T",
+        "indexer_drive_R_pinion_spacer",
+        "indexer_drive_R_pinion_retention",
+        "dc_indexer_R0_spacer_0",
+        "dc_indexer_R0_spacer_1",
+        "dc_indexer_R0_spacer_2",
+        "dc_indexer_R0_spacer_3",
+        "dc_indexer_R0_spacer_4",
+        "dc_indexer_R0_spacer_5",
+        "dc_indexer_R0_spacer_6",
+        "dc_indexer_R0_end_-1_washer",
+        "dc_indexer_R0_end_-1_screw",
+        "dc_indexer_R0_end_1_washer",
+        "dc_indexer_R0_end_1_screw",
+        "dc_indexer_R1_spacer_0",
+        "dc_indexer_R1_spacer_1",
+        "dc_indexer_R1_spacer_2",
+        "dc_indexer_R1_spacer_3",
+        "dc_indexer_R1_spacer_4",
+        "dc_indexer_R1_end_-1_washer",
+        "dc_indexer_R1_end_-1_screw",
+        "dc_indexer_R1_end_1_washer",
+        "dc_indexer_R1_end_1_screw",
+        "dc_indexer_R2_spacer_0",
+        "dc_indexer_R2_spacer_1",
+        "dc_indexer_R2_spacer_2",
+        "dc_indexer_R2_spacer_3",
+        "dc_indexer_R2_spacer_4",
+        "dc_indexer_R2_end_-1_washer",
+        "dc_indexer_R2_end_-1_screw",
+        "dc_indexer_R2_end_1_washer",
+        "dc_indexer_R2_end_1_screw"
+      ],
+      "dock": [
+        "detachable_tray",
+        "dock_crossbar_245",
+        "tray_spacer_-65_245",
+        "tray_dock_screw_-65_245",
+        "tray_spacer_65_245",
+        "tray_dock_screw_65_245",
+        "dock_crossbar_525",
+        "tray_spacer_-65_525",
+        "tray_dock_screw_-65_525",
+        "tray_spacer_65_525",
+        "tray_dock_screw_65_525",
+        "coral_stop",
+        "presence_sensor_tab",
+        "sensor_mount_presence",
+        "sensor_presence",
+        "sensor_mount_seated",
+        "sensor_seated"
+      ]
+    },
+    "modularity_status": "Existing pickup, independent indexer banks, tray/dock and fold interface; no simplification claimed from helper count; physical service access unqualified"
+  },
+  "sources": {
+    "pass": true,
+    "products": [
+      {
+        "product": "hex_bearing",
+        "path": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+        "expected_sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+        "actual_sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b"
+      },
+      {
+        "product": "intake_star",
+        "path": "designs/coral-intake-v1/cots/originals/am-5123.step",
+        "expected_sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869",
+        "actual_sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869"
+      },
+      {
+        "product": "hex_output_gear",
+        "path": "designs/coral-intake-v1/cots/originals/wcp-0121.step",
+        "expected_sha256": "06509b998bc9676cf54a057e944e46c643428a1b8b9c6e78d172f932bbad2cf6",
+        "actual_sha256": "06509b998bc9676cf54a057e944e46c643428a1b8b9c6e78d172f932bbad2cf6"
+      },
+      {
+        "product": "x44",
+        "path": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+        "expected_sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+        "actual_sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1"
+      },
+      {
+        "product": "spline_pinion",
+        "path": "designs/coral-intake-v1/cots/originals/wcp-1010.step",
+        "expected_sha256": "f8f26ea01566c74727766733b896cbbd881d0887b35d527b060e31fd0730a486",
+        "actual_sha256": "f8f26ea01566c74727766733b896cbbd881d0887b35d527b060e31fd0730a486"
+      },
+      {
+        "product": "indexer_wheel",
+        "path": "designs/coral-intake-v1/cots/originals/am-3945-rev3.step",
+        "expected_sha256": "60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd",
+        "actual_sha256": "60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd"
+      }
+    ],
+    "imported_originals": 6,
+    "vendor_boolean_trims": false,
+    "step_roundtrip_verified": false
+  },
+  "custom_solids": {
+    "pass": true,
+    "definitions": [
+      {
+        "definition": "assembly_cassette_pivot_R",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 14630.119705854053
+      },
+      {
+        "definition": "assembly_cassette_rear_R",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 25367.74299296757
+      },
+      {
+        "definition": "assembly_dc_fold_flange_R",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 18447.274698711306
+      },
+      {
+        "definition": "assembly_frame_cheek_1",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 180828.52581032383
+      },
+      {
+        "definition": "assembly_pickup_rail_R",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 357950.4986896597
+      },
+      {
+        "definition": "axle_cassette",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 15767.337461318246
+      },
+      {
+        "definition": "coral_stop",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 38114.900466686726
+      },
+      {
+        "definition": "dc_M4_washer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 47.712938426394985
+      },
+      {
+        "definition": "dc_dc_reverse_shaft",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 9138.10912793406
+      },
+      {
+        "definition": "dc_end_washer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 259.77044254370605
+      },
+      {
+        "definition": "dc_fold_flange_L",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 17712.381634343034
+      },
+      {
+        "definition": "dc_idler_axle",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3064.304370561139
+      },
+      {
+        "definition": "dc_idler_wheel",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 14019.625191312945
+      },
+      {
+        "definition": "dc_indexer_shaft",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 26458.582562606687
+      },
+      {
+        "definition": "dc_kick_belt",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 17921.14966502283
+      },
+      {
+        "definition": "dc_kick_idler_bracket",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 11590.367690574181
+      },
+      {
+        "definition": "dc_mount_washer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 54.781521896972016
+      },
+      {
+        "definition": "dc_pinned_core_kick",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 49634.97146930783
+      },
+      {
+        "definition": "dc_pinned_hub_kick-1",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 2643.905072382194
+      },
+      {
+        "definition": "dc_pinned_hub_kick1",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 2643.905072382194
+      },
+      {
+        "definition": "dc_pinned_shaft_kick",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 87374.67622549935
+      },
+      {
+        "definition": "dc_pinned_sleeve_kick",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 568269.0068698286
+      },
+      {
+        "definition": "dc_reverse_inner_carrier",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 17793.88613134058
+      },
+      {
+        "definition": "dc_round_hex_pulley",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 10807.41747821361
+      },
+      {
+        "definition": "dc_shaft_rear",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 95461.11382654437
+      },
+      {
+        "definition": "dc_tube_10.000000_5.500000_1.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 54.781521896972016
+      },
+      {
+        "definition": "dc_tube_10.000000_5.500000_20.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1095.63043793944
+      },
+      {
+        "definition": "dc_tube_10.000000_5.500000_4.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 219.12608758788807
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_1.169150",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 124.88176373211195
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_1.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 150.87498718865226
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_1.650000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 176.24334786638804
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_1.675400",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 178.95642728203023
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_1.862500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 198.941354788575
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_10.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1068.14150222053
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_112.450000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 12011.25119246986
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_112.650000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 12032.614022514266
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_13.112500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1400.6005447866708
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_13.312500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1421.9633748310812
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_2.062500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 220.3041848329843
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_21.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 2287.1579916297123
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_28.650000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3060.225403861818
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_3.650000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 389.87164831049404
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_328.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 35035.041272833405
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_34.112500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3643.6976994497845
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_34.312500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3665.0605294941915
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_4.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 427.2566008882119
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_4.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 471.3174378548116
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_5.244150",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 560.1494258869799
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_5.675400",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 606.2130281702359
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_6.269550",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 669.6766555246701
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_74.125000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 7917.59888520968
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_8.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 854.5132017764238
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_8.169150",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 872.5808152864843
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_9.100000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 972.0087670206788
+      },
+      {
+        "definition": "dc_tube_19.000000_15.000000_9.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1005.3881889650761
+      },
+      {
+        "definition": "detachable_tray",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 148034.90046668675
+      },
+      {
+        "definition": "dock_crossbar",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 76319.99999999994
+      },
+      {
+        "definition": "floating_arm",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 65206.30747537567
+      },
+      {
+        "definition": "floating_pivot_bushing",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1504.1474386489888
+      },
+      {
+        "definition": "floating_pivot_journal",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 5026.548245743669
+      },
+      {
+        "definition": "fold_drive_mount",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 41252.520449374155
+      },
+      {
+        "definition": "fold_drive_output_spacer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 4841.979519911082
+      },
+      {
+        "definition": "fold_pivot_stub",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 10255.559026945197
+      },
+      {
+        "definition": "frame_pivot_cheek_-1",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 184598.43699463154
+      },
+      {
+        "definition": "indexer_bank_plate_L",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 309079.8818103658
+      },
+      {
+        "definition": "indexer_bank_plate_R",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 309079.8818103658
+      },
+      {
+        "definition": "indexer_belt_L",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 16226.813053807371
+      },
+      {
+        "definition": "indexer_belt_R",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 16226.813053807371
+      },
+      {
+        "definition": "indexer_drive_L_mount",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 42349.80044937415
+      },
+      {
+        "definition": "indexer_drive_R_mount",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 42349.80044937415
+      },
+      {
+        "definition": "indexer_post",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 25631.999999999993
+      },
+      {
+        "definition": "pickup_crossmember",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 82656.0
+      },
+      {
+        "definition": "pickup_drive_mount",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 42349.80044937415
+      },
+      {
+        "definition": "pickup_sideplate",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 333128.0302288787
+      },
+      {
+        "definition": "pinion_retention_spacer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 768.7095522371508
+      },
+      {
+        "definition": "presence_sensor_adapter",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 4043.774683445189
+      },
+      {
+        "definition": "presence_sensor_tab",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1944.7251166716812
+      },
+      {
+        "definition": "sensor_adapter",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 5099.774683445188
+      },
+      {
+        "definition": "stop_mount_0",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 16128.713915698976
+      },
+      {
+        "definition": "stop_mount_1",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 16128.713915698976
+      },
+      {
+        "definition": "tray_spacer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1037.2262670137975
+      },
+      {
+        "definition": "tube_end_plug",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 2829.426916772028
+      },
+      {
+        "definition": "tx_end_washer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 259.77044254370605
+      },
+      {
+        "definition": "tx_front_belt",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 12370.211410180696
+      },
+      {
+        "definition": "tx_front_idler_bracket",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 17968.457901556998
+      },
+      {
+        "definition": "tx_idler_axle",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3064.304370561139
+      },
+      {
+        "definition": "tx_idler_wheel",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 14019.625191312945
+      },
+      {
+        "definition": "tx_middle_stop_bridge",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 35122.71166291015
+      },
+      {
+        "definition": "tx_mount_washer",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 54.781521896972016
+      },
+      {
+        "definition": "tx_rear_belt",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 10602.07850558349
+      },
+      {
+        "definition": "tx_rear_idler_bracket",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 22162.79489802733
+      },
+      {
+        "definition": "tx_round_hex_pulley",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 10807.41747821361
+      },
+      {
+        "definition": "tx_shaft_front",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 90292.90804361786
+      },
+      {
+        "definition": "tx_shaft_middle",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 92388.12660426376
+      },
+      {
+        "definition": "tx_tube_10.000000_5.500000_13.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 712.1597846606363
+      },
+      {
+        "definition": "tx_tube_10.000000_5.500000_14.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 766.9413065576082
+      },
+      {
+        "definition": "tx_tube_10.000000_5.500000_20.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1095.63043793944
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_1.862500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 198.941354788575
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_10.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 1068.14150222053
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_112.450000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 12011.25119246986
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_112.650000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 12032.614022514266
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_19.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 2073.529691185606
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_2.062500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 220.3041848329843
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_22.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 2393.972141851765
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_3.000000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 320.44245066615883
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_30.712500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3280.529588694803
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_35.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3782.5560947384547
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_36.914286",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 3942.9680596255002
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_6.412500",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 684.9457382989173
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_96.450000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 10302.224788917008
+      },
+      {
+        "definition": "tx_tube_19.000000_15.000000_96.650000",
+        "solids": 1,
+        "valid_closed_positive": true,
+        "flat_single_solid": true,
+        "volume_mm3": 10323.58761896142
+      }
+    ]
+  },
+  "focused": {
+    "known_pairs": [
+      {
+        "first": "cassette_rear_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "floating_stop_R0",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R0",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R2",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R3",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "known_pairs_pass": true,
+    "gear_pairs": [
+      {
+        "first": "pickup_drive_12T",
+        "second": "pickup_drive_60T",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true,
+        "name": "pickup_drive",
+        "center_distance_mm": 45.72,
+        "continuous_mesh_verified": false
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true,
+        "name": "fold_drive",
+        "center_distance_mm": 45.72000000000003,
+        "continuous_mesh_verified": false
+      },
+      {
+        "first": "indexer_drive_L_12T",
+        "second": "indexer_drive_L_60T",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true,
+        "name": "indexer_drive_L",
+        "center_distance_mm": 45.72,
+        "continuous_mesh_verified": false
+      },
+      {
+        "first": "indexer_drive_R_12T",
+        "second": "indexer_drive_R_60T",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true,
+        "name": "indexer_drive_R",
+        "center_distance_mm": 45.72,
+        "continuous_mesh_verified": false
+      },
+      {
+        "first": "dc_pickoff_60T",
+        "second": "dc_reverse_60T",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true,
+        "name": "dc_reversal",
+        "center_distance_mm": 76.19999999999999,
+        "continuous_mesh_verified": false
+      }
+    ],
+    "five_static_gear_pairs_pass": true
+  },
+  "motion": {
+    "samples": [
+      {
+        "fold_degrees": 0,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -384.0,
+          5.0,
+          348.0,
+          544.0,
+          350.50338767761247
+        ],
+        "minimum_floor_mm": 5.0,
+        "floor_limiting_part": "cassette_kick_L",
+        "floor_reserve_above_5mm": 0.0,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 384.0,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": 0,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -384.0,
+          5.0,
+          348.0,
+          544.0,
+          350.50338767761247
+        ],
+        "minimum_floor_mm": 5.0,
+        "floor_limiting_part": "cassette_kick_L",
+        "floor_reserve_above_5mm": 0.0,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 384.0,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": 0,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -384.0,
+          5.0,
+          348.0,
+          544.0,
+          350.50338767761247
+        ],
+        "minimum_floor_mm": 5.0,
+        "floor_limiting_part": "cassette_kick_L",
+        "floor_reserve_above_5mm": 0.0,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 384.0,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -442.79137178958695,
+          9.387499899994276,
+          348.0,
+          544.0,
+          486.58073756689123
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 442.79137178958695,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -442.79137178958695,
+          9.387499899994276,
+          348.0,
+          544.0,
+          486.58073756689123
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 442.79137178958695,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -442.79137178958695,
+          9.387499899994276,
+          348.0,
+          544.0,
+          486.58073756689123
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 442.79137178958695,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -434.90794580958885,
+          9.387499899994276,
+          348.0,
+          544.0,
+          625.4355679998131
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 434.90794580958885,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -434.90794580958885,
+          9.387499899994276,
+          348.0,
+          544.0,
+          625.4355679998131
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 434.90794580958885,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -434.90794580958885,
+          9.387499899994276,
+          348.0,
+          544.0,
+          625.4355679998131
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 434.90794580958885,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -361.30057958016965,
+          9.387499899994276,
+          348.0,
+          544.0,
+          720.8165494695127
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 361.30057958016965,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -361.30057958016965,
+          9.387499899994276,
+          348.0,
+          544.0,
+          720.8165494695127
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 361.30057958016965,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -361.30057958016965,
+          9.387499899994276,
+          348.0,
+          544.0,
+          720.8165494695127
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 361.30057958016965,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -230.84740779762552,
+          9.387499899994276,
+          348.0,
+          544.0,
+          761.2193279373789
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 230.84740779762552,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -230.84740779762552,
+          9.387499899994276,
+          348.0,
+          544.0,
+          761.2193279373789
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 230.84740779762552,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -230.84740779762552,
+          9.387499899994276,
+          348.0,
+          544.0,
+          761.2193279373789
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 230.84740779762552,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -150.96924607083753,
+          9.387499899994276,
+          348.0,
+          544.0,
+          796.4699080037657
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 150.96924607083753,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -150.96924607083753,
+          9.387499899994276,
+          348.0,
+          544.0,
+          796.4699080037657
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 150.96924607083753,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -150.96924607083753,
+          9.387499899994276,
+          348.0,
+          544.0,
+          796.4699080037657
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": null,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": true,
+        "stow_target_5mm_pass": true,
+        "maximum_extension_mm": 150.96924607083753,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -123,
+        "floating_degrees": -8,
+        "bounds_mm": [
+          -350.0,
+          -2.000000000000014,
+          9.387499899994276,
+          348.0,
+          544.0,
+          788.3802766343075
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": -2.000000000000014,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": false,
+        "stow_target_5mm_pass": false,
+        "maximum_extension_mm": 2.000000000000014,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -123,
+        "floating_degrees": -4,
+        "bounds_mm": [
+          -350.0,
+          -2.000000000000014,
+          9.387499899994276,
+          348.0,
+          544.0,
+          788.3802766343075
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": -2.000000000000014,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": false,
+        "stow_target_5mm_pass": false,
+        "maximum_extension_mm": 2.000000000000014,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      },
+      {
+        "fold_degrees": -123,
+        "floating_degrees": 0,
+        "bounds_mm": [
+          -350.0,
+          -2.000000000000014,
+          9.387499899994276,
+          348.0,
+          544.0,
+          788.3802766343075
+        ],
+        "minimum_floor_mm": 9.387499899994276,
+        "floor_limiting_part": "indexer_drive_L_X44",
+        "floor_reserve_above_5mm": 4.3874998999942765,
+        "width_margin_mm": 0.0,
+        "stow_margin_mm": -2.000000000000014,
+        "within_floor_cap": true,
+        "stow_minimum_1mm_pass": false,
+        "stow_target_5mm_pass": false,
+        "maximum_extension_mm": 2.000000000000014,
+        "bounds_method": "exact posed bounds at stow; conservative rotated AABBs elsewhere, near-floor candidates exact"
+      }
+    ],
+    "sample_count": 21,
+    "moving_vs_all_fixed": true,
+    "fixed_instances": 197,
+    "aabb_candidates": [
+      {
+        "first": "bearing_pivot_R",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "cassette_bolt_rear_L3",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "cassette_bolt_rear_R2",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "cassette_bolt_rear_R3",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_0",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_2",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_fold_flange_R",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_fold_mount_L0",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_fold_mount_L1",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_fold_mount_L2",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_fold_mount_L3",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_kick_belt",
+        "second": "reference:bumper",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_kick_idler_bracket_-1",
+        "second": "reference:bumper",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_kick_idler_bracket_1",
+        "second": "reference:bumper",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_kick_idler_wheel",
+        "second": "reference:bumper",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_rear_spacer_1",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_rear_spacer_8",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "dc_reverse_mount_screw_1",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_motor_screw_1",
+        "sample_poses": [
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_motor_screw_2",
+        "sample_poses": [
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_mount",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_60T",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_60T",
+        "second": "fold_drive_motor_screw_0",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "fold_drive_60T",
+        "second": "fold_drive_motor_screw_2",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_12T",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_60T",
+        "second": "fold_drive_mount",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_60T",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "fold_drive_mount",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_motor_screw_0",
+        "second": "fold_drive_mount",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_motor_screw_0",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_motor_screw_1",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_motor_screw_2",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "fold_drive_motor_screw_1",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "fold_drive_motor_screw_2",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "fold_drive_mount",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "fold_drive_output_bearing",
+        "sample_poses": [
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "frame_pivot_bearing_1",
+        "sample_poses": [
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_drive_output_bearing",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "frame_mount_-10",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "frame_mount_-11",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "reference:bumper",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "reference:frame_front",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_10",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_11",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "reference:bumper",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "reference:frame_front",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pivot_stub_-1",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pivot_stub_-1",
+        "second": "frame_pivot_bearing_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": "Specific coaxial hex stub / source bearing bore; nominal running joint, still needs exact fit and retention qualification"
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "fold_drive_mount",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "fold_drive_output_bearing",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": "Specific fold output shaft / bearing bore; exact fit required"
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "frame_pivot_bearing_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -80,
+            -8
+          ],
+          [
+            -80,
+            -4
+          ],
+          [
+            -80,
+            0
+          ],
+          [
+            -100,
+            -8
+          ],
+          [
+            -100,
+            -4
+          ],
+          [
+            -100,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": "Specific coaxial hex stub / source bearing bore; nominal running joint, still needs exact fit and retention qualification"
+      },
+      {
+        "first": "shaft_rear",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "shaft_rear",
+        "second": "frame_cheek_1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "dc_indexer_L0_end_1_screw",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "dc_indexer_L0_end_1_washer",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "dc_indexer_L0_spacer_5",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "dc_indexer_L0_spacer_6",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "indexer_L0_pulley",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "indexer_L0_shaft",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "indexer_L0_upper",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "indexer_belt_L",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_0_solid_2",
+        "second": "indexer_plate_L_247",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_1_solid_2",
+        "second": "dc_indexer_L2_end_1_washer",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_1_solid_2",
+        "second": "dc_indexer_L2_spacer_4",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_1_solid_2",
+        "second": "indexer_L1_pulley",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_1_solid_2",
+        "second": "indexer_L2_pulley",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_1_solid_2",
+        "second": "indexer_belt_L",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_1_solid_2",
+        "second": "indexer_plate_L_247",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_3_solid_2",
+        "second": "dc_indexer_R2_end_1_washer",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_3_solid_2",
+        "second": "dc_indexer_R2_spacer_4",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_3_solid_2",
+        "second": "indexer_R1_pulley",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_3_solid_2",
+        "second": "indexer_R2_pulley",
+        "sample_poses": [
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_3_solid_2",
+        "second": "indexer_belt_R",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_3_solid_2",
+        "second": "indexer_plate_R_247",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "dc_indexer_R0_end_1_screw",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "dc_indexer_R0_end_1_washer",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "dc_indexer_R0_spacer_5",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "dc_indexer_R0_spacer_6",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "indexer_R0_pulley",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "indexer_R0_shaft",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "indexer_R0_upper",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "indexer_belt_R",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "star_rear_4_solid_2",
+        "second": "indexer_plate_R_247",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "tx_rear_idler_mount_screw_0",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "tx_rear_idler_mount_screw_1",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "tx_rear_idler_mount_sleeve_0",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      },
+      {
+        "first": "tx_rear_idler_mount_sleeve_1",
+        "second": "frame_cheek_-1",
+        "sample_poses": [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -20,
+            -8
+          ],
+          [
+            -20,
+            -4
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -40,
+            -8
+          ],
+          [
+            -40,
+            -4
+          ],
+          [
+            -40,
+            0
+          ],
+          [
+            -60,
+            -8
+          ],
+          [
+            -60,
+            -4
+          ],
+          [
+            -60,
+            0
+          ],
+          [
+            -123,
+            -8
+          ],
+          [
+            -123,
+            -4
+          ],
+          [
+            -123,
+            0
+          ]
+        ],
+        "status": "UNCERTAIN conservative envelope overlap",
+        "declared_joint": null
+      }
+    ],
+    "candidate_pairs": 96,
+    "continuous_motion_certified": false,
+    "moving_vs_moving_exhaustive": false,
+    "connectivity_n_squared_run": false,
+    "pass": false,
+    "status": "TRIAGE ONLY; overlapping envelopes are uncertain, declared joints are not collision waivers"
+  },
+  "main_poses": {
+    "checks": [
+      {
+        "first": "cassette_bolt_rear_R2",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_bolt_rear_R2",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_bolt_rear_R2",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 57.78014322692738,
+        "pass": false
+      },
+      {
+        "first": "cassette_bolt_rear_R2",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 57.78014322692738,
+        "pass": false
+      },
+      {
+        "first": "cassette_bolt_rear_R3",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_bolt_rear_R3",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_bolt_rear_R3",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_bolt_rear_R3",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_0",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_0",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_0",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_0",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_2",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_2",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_2",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_2",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_fold_flange_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_fold_flange_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_fold_flange_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_fold_flange_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_rear_spacer_8",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_rear_spacer_8",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_rear_spacer_8",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_rear_spacer_8",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_reverse_mount_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_reverse_mount_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_reverse_mount_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "dc_reverse_mount_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R0",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R0",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R0",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R0",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R2",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R2",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R2",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R2",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R3",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R3",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R3",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_mount",
+        "second": "dc_fold_mount_R3",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 392.5694423797565,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 239.32179208981762,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_12T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 239.32179208981762,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_60T",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_60T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_60T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_60T",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 630.3306570791524,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 431.17361639921097,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 431.17361639921097,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_0",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 107.6389697919399,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_0",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 325.9467126407572,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_0",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 325.9467126407573,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_0",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 325.9467126407573,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_motor_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_motor_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_motor_screw_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_motor_screw_2",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_motor_screw_2",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 325.9467126407572,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_2",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 325.94671264075726,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_motor_screw_2",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 325.94671264075726,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 3347.3351704375423,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 6324.891106815358,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 6267.028131504886,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 6267.028131504886,
+        "pass": false
+      },
+      {
+        "first": "pickup_drive_output_bearing",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_output_bearing",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_output_bearing",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_drive_output_bearing",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "floating_stop_R0",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "floating_stop_R0",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "floating_stop_R0",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "floating_stop_R0",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_10",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_10",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_10",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_10",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_11",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_11",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_11",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "frame_mount_11",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_drive_X44",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "shaft_rear",
+        "second": "frame_cheek_1",
+        "fold_degrees": 0,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "shaft_rear",
+        "second": "frame_cheek_1",
+        "fold_degrees": -60,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "shaft_rear",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": -8,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "shaft_rear",
+        "second": "frame_cheek_1",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": -20,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": -40,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": -60,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": -80,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": -100,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "first": "fold_drive_12T",
+        "second": "fold_drive_60T",
+        "fold_degrees": -123,
+        "float_degrees": 0,
+        "overlap_mm3": 0.0,
+        "pass": true
+      }
+    ],
+    "pass": false,
+    "scope": "Known pairs and corrected-part versus all-fixed candidates, four key poses; fold gear sampled at all seven angles; no global pair certification"
+  },
+  "inherited_validation": {
+    "sha256": "7fa9a95acac18da2adcd79cf5fb2a36f534fba2b4a86f41ebc1c7b486bcfd9c5",
+    "samples": [
+      {
+        "fold_degrees": 0,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 5.0,
+        "maximum_extension_mm": 384.0,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": 0,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 5.0,
+        "maximum_extension_mm": 384.0,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": 0,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 5.0,
+        "maximum_extension_mm": 384.0,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 96.2663702706366,
+        "maximum_extension_mm": 413.05120482077245,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 96.2663702706366,
+        "maximum_extension_mm": 413.05120482077245,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 96.2663702706366,
+        "maximum_extension_mm": 413.05120482077245,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 207.88450652979088,
+        "maximum_extension_mm": 403.1156167130755,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 207.88450652979088,
+        "maximum_extension_mm": 403.1156167130755,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 207.88450652979088,
+        "maximum_extension_mm": 403.1156167130755,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 335.39161423636097,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 335.39161423636097,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 335.39161423636097,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 218.04771158914735,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 218.04771158914735,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 218.04771158914735,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 107.67376851878251,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 107.67376851878251,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 107.67376851878251,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -120,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 4.666604983954109,
+        "pass": false,
+        "failures": [
+          {
+            "part": "cassette_kick_L",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              -299.0,
+              -4.666604983954109,
+              557.391614236361,
+              -293.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          },
+          {
+            "part": "cassette_kick_R",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              293.0,
+              -4.666604983954109,
+              557.391614236361,
+              299.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          }
+        ]
+      },
+      {
+        "fold_degrees": -120,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 4.666604983954109,
+        "pass": false,
+        "failures": [
+          {
+            "part": "cassette_kick_L",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              -299.0,
+              -4.666604983954109,
+              557.391614236361,
+              -293.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          },
+          {
+            "part": "cassette_kick_R",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              293.0,
+              -4.666604983954109,
+              557.391614236361,
+              299.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          }
+        ]
+      },
+      {
+        "fold_degrees": -120,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 4.666604983954109,
+        "pass": false,
+        "failures": [
+          {
+            "part": "cassette_kick_L",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              -299.0,
+              -4.666604983954109,
+              557.391614236361,
+              -293.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          },
+          {
+            "part": "cassette_kick_R",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              293.0,
+              -4.666604983954109,
+              557.391614236361,
+              299.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          }
+        ]
+      }
+    ],
+    "unchanged": true
+  },
+  "historical_hashes": {
+    "assembled.step": "9bfddedcba96930c4483df5807dfd0c317e497fb590e1ce318077342bfdb842b",
+    "custompart.step": "862488653ad19f2790afdf2da54f65a816885f289e833f331b2ca70af798cf72",
+    "parts.json": "afe0d88c0d776933b0b15223b43ea6ce500f1cc832e2099c686aaf5a9fe68a26",
+    "BOM.json": "d49172646f218df8744bea0c19d6bd02e0a5aee45b7e6249e4e2aa6544ce896f",
+    "BOM.csv": "678c3133809a4d6d905c75eb5b9c9fcbf51007cafdbd20bd16be952d576328b2",
+    "validation.json": "7fa9a95acac18da2adcd79cf5fb2a36f534fba2b4a86f41ebc1c7b486bcfd9c5",
+    "quick-validation.json": "02f3ce8a2feff5f4ea6c3ac2f665b3edf449ba1ba33a95fbb8e5fd238e3194bc",
+    "integration-checks.json": "716fece383c954ccbf43cc6ef2375a6b03ffdecb35bc124ccba434be3ad9e482",
+    "export-validation.json": "81ef68da18a379c0732aa487fbd544d7a93b835d4684aa340304b41e09ed41a1"
+  },
+  "historical_unchanged": true,
+  "source_current": true,
+  "gates": {
+    "unique_active_ids": true,
+    "custom_valid_closed_solids": true,
+    "six_original_hashes": true,
+    "five_static_gear_meshes": true,
+    "known_static_clearance": true,
+    "main_pose_corrected_clearance": false,
+    "sampled_floor_5mm": true,
+    "sampled_extension_cap": true,
+    "stow_1mm_minimum": false,
+    "stow_5mm_target": false,
+    "source_current": true,
+    "historical_unchanged": true,
+    "all_fixed_candidate_resolution": false,
+    "continuous_motion": false,
+    "full_D1_physical_gates": false,
+    "strength_and_fold_hold": false,
+    "field_reliability": false,
+    "manufacturing_release": false
+  },
+  "elapsed_check_seconds": 442.98399999999674,
+  "pass": false
+}

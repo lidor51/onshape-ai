@@ -1,0 +1,579 @@
+{
+  "schema_version": 2,
+  "products": {
+    "x44": {
+      "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+      "units": "mm",
+      "source_sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "source_coordinate_system": "Unchanged STEP root coordinates",
+      "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+      "source_to_attachment": {
+        "convention": "attachment_point = rotation * source_point + translation_mm",
+        "rotation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "shaft_axis": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "assembly_fit_validated": false,
+      "operating_clearance_validated": false,
+      "mounting_plane": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "face_indices": [
+          119
+        ]
+      },
+      "rotation_description": "Identity; source +Z points out of the motor, source +X passes through a mounting hole.",
+      "pilot_diameter_mm": 19.05,
+      "pilot_cylindrical_height_mm": 4.5125,
+      "pilot_face_indices": [
+        103,
+        120
+      ],
+      "bolt_circle_diameter_mm": 34.925,
+      "mounting_holes": [
+        {
+          "angle_deg": 0,
+          "center_mm": [
+            17.4625,
+            0,
+            0
+          ],
+          "face_indices": [
+            11,
+            1833
+          ]
+        },
+        {
+          "angle_deg": 30,
+          "center_mm": [
+            15.12296861,
+            8.73125,
+            0
+          ],
+          "face_indices": [
+            13,
+            1829
+          ]
+        },
+        {
+          "angle_deg": 60,
+          "center_mm": [
+            8.73125,
+            15.12296861,
+            0
+          ],
+          "face_indices": [
+            21,
+            1813
+          ]
+        },
+        {
+          "angle_deg": 90,
+          "center_mm": [
+            0,
+            17.4625,
+            0
+          ],
+          "face_indices": [
+            20,
+            1815
+          ]
+        },
+        {
+          "angle_deg": 120,
+          "center_mm": [
+            -8.73125,
+            15.12296861,
+            0
+          ],
+          "face_indices": [
+            18,
+            1819
+          ]
+        },
+        {
+          "angle_deg": 150,
+          "center_mm": [
+            -15.12296861,
+            8.73125,
+            0
+          ],
+          "face_indices": [
+            19,
+            1817
+          ]
+        },
+        {
+          "angle_deg": 180,
+          "center_mm": [
+            -17.4625,
+            0,
+            0
+          ],
+          "face_indices": [
+            17,
+            1821
+          ]
+        },
+        {
+          "angle_deg": 210,
+          "center_mm": [
+            -15.12296861,
+            -8.73125,
+            0
+          ],
+          "face_indices": [
+            12,
+            1831
+          ]
+        },
+        {
+          "angle_deg": 240,
+          "center_mm": [
+            -8.73125,
+            -15.12296861,
+            0
+          ],
+          "face_indices": [
+            16,
+            1823
+          ]
+        },
+        {
+          "angle_deg": 300,
+          "center_mm": [
+            8.73125,
+            -15.12296861,
+            0
+          ],
+          "face_indices": [
+            15,
+            1825
+          ]
+        },
+        {
+          "angle_deg": 330,
+          "center_mm": [
+            15.12296861,
+            -8.73125,
+            0
+          ],
+          "face_indices": [
+            14,
+            1827
+          ]
+        }
+      ],
+      "missing_hole_angle_deg": 270,
+      "angle_convention": "Right-hand about source +Z, 0 degrees = source +X",
+      "modeled_hole_diameter_mm": 4.0386,
+      "modeled_blind_bottom_z_mm": -6.35,
+      "mounting_thread_from_drawing": "#10-32 UNF",
+      "mounting_thread_depth_from_drawing_mm": 6.35,
+      "shaft_end_thread_from_drawing": "#10-32 UNF",
+      "shaft_end_thread_depth_from_drawing_mm": 9.525,
+      "spline_shoulder_z_mm": 5.55625,
+      "shaft_tip_z_mm": 37.35705,
+      "shaft_extension_from_shoulder_mm": 31.8008,
+      "shaft_extension_from_mount_mm": 37.35705,
+      "shaft_evidence_face_indices": [
+        468,
+        470,
+        472
+      ],
+      "caution": "Thread dimensions come from the original drawing, not inferred from tap-drill cylinders. Usable screw engagement and spline interference are unvalidated."
+    },
+    "hex_bearing": {
+      "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+      "units": "mm",
+      "source_sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "source_coordinate_system": "Unchanged STEP root coordinates",
+      "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+      "source_to_attachment": {
+        "convention": "attachment_point = rotation * source_point + translation_mm",
+        "rotation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "translation_mm": [
+          0,
+          0,
+          -6.35
+        ]
+      },
+      "shaft_axis": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          1,
+          0
+        ]
+      },
+      "assembly_fit_validated": false,
+      "operating_clearance_validated": false,
+      "mounting_plane": {
+        "origin": [
+          0,
+          6.35,
+          0
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "face_indices": [
+          12
+        ]
+      },
+      "rotation_description": "+90 degrees about source X maps source +Y to attachment +Z; origin is flange underside.",
+      "bore_across_flats_mm": 12.72,
+      "bore_face_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "hex_corner_direction": [
+        1,
+        0,
+        0
+      ],
+      "body_od_mm": 28.5496,
+      "body_od_face_indices": [
+        5,
+        24
+      ],
+      "flange_od_mm": 31.115,
+      "flange_face_indices": [
+        2,
+        10
+      ],
+      "overall_width_mm": 7.9375,
+      "flange_thickness_mm": 1.5875,
+      "journal_depth_to_seat_mm": 6.35,
+      "caution": "CAD bore 12.72 mm and journal OD 28.5496 mm differ from nominal 0.500-inch hex / 1.125-inch OD. Preserve geometry; bearing fit class and press-fit allowance are not established."
+    },
+    "spline_pinion": {
+      "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+      "units": "mm",
+      "source_sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "source_coordinate_system": "Unchanged STEP root coordinates",
+      "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+      "source_to_attachment": {
+        "convention": "attachment_point = rotation * source_point + translation_mm",
+        "rotation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "shaft_axis": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "assembly_fit_validated": false,
+      "operating_clearance_validated": false,
+      "rotation_description": "Identity, source +Z is the common axis of tooth-tip cylinders; source origin is gear midplane.",
+      "axis_evidence_face_indices": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ],
+      "seating_planes": [
+        {
+          "origin": [
+            0,
+            0,
+            -9.525
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "face_indices": [
+            1
+          ]
+        },
+        {
+          "origin": [
+            0,
+            0,
+            9.525
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "face_indices": [
+            2
+          ]
+        }
+      ],
+      "tooth_count_from_tip_faces": 16,
+      "tip_circle_diameter_mm": 22.85999966,
+      "overall_width_mm": 19.05,
+      "tooth_face_width_mm": 19.05,
+      "tooth_midplane_origin": [
+        0,
+        0,
+        0
+      ],
+      "caution": "Source teeth and bore are preserved. No substituted primitive, involute regeneration, axial retention, backlash, or assembly interference approval.",
+      "bore_profile": "Original vendor SplineXS geometry; not reduced to a circular 8 mm bore",
+      "spline_to_motor_clocking": "UNVERIFIED; source orientation retained, parent must verify spline engagement"
+    },
+    "hex_output_gear": {
+      "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+      "units": "mm",
+      "source_sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "source_coordinate_system": "Unchanged STEP root coordinates",
+      "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+      "source_to_attachment": {
+        "convention": "attachment_point = rotation * source_point + translation_mm",
+        "rotation": [
+          [
+            0.8660254037844387,
+            0.49999999999999994,
+            0
+          ],
+          [
+            -0.49999999999999994,
+            0.8660254037844387,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "shaft_axis": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "assembly_fit_validated": false,
+      "operating_clearance_validated": false,
+      "rotation_description": "-30 degrees about source Z aligns the CAD hex corner with attachment +X; gear midplane stays at origin.",
+      "axis_evidence_face_indices": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "seating_planes": [
+        {
+          "origin": [
+            0,
+            0,
+            -6.324599999999999
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "face_indices": [
+            58
+          ]
+        },
+        {
+          "origin": [
+            0,
+            0,
+            6.324599999999999
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "face_indices": [
+            109
+          ]
+        }
+      ],
+      "tooth_count_from_tip_faces": 48,
+      "tip_circle_diameter_mm": 63.5,
+      "overall_width_mm": 12.6492,
+      "tooth_face_width_mm": 9.525,
+      "tooth_midplane_origin": [
+        0,
+        0,
+        0
+      ],
+      "caution": "Source teeth and bore are preserved. No substituted primitive, involute regeneration, axial retention, backlash, or assembly interference approval.",
+      "bore_across_flats_mm": 12.8016,
+      "bore_face_indices": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "hex_corner_direction": [
+        0.8660254037844387,
+        0.49999999999999994,
+        0
+      ],
+      "cad_clearance_over_nominal_half_inch_hex_mm": 0.1016
+    }
+  }
+}

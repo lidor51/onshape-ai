@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "path": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "bytes": 12537342,
+      "reexportAllowed": false,
+      "originalImportRequired": true
+    },
+    {
+      "path": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "bytes": 95572,
+      "reexportAllowed": false,
+      "originalImportRequired": true
+    },
+    {
+      "path": "trials/subsystem-ab/cots/cache/wcp-1016.step",
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "bytes": 2191518,
+      "reexportAllowed": false,
+      "originalImportRequired": true
+    },
+    {
+      "path": "trials/subsystem-ab/cots/cache/wcp-0137.step",
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "bytes": 2378852,
+      "reexportAllowed": false,
+      "originalImportRequired": true
+    }
+  ],
+  "placementTransforms": [],
+  "vendorBodiesInCustomExports": 0,
+  "status": "ORIGINALS_HASHED_NOT_PLACED",
+  "nativeImplementation": "OUT_OF_SCOPE",
+  "x44BodySemantics": "Original body includes presentation output shaft; rear cover fixed. No generated replacement vendor shaft."
+}

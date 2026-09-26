@@ -1,0 +1,387 @@
+{
+  "status": "PASS",
+  "bindings": {
+    "dependencies": "b2edd44926223916d44c6a2e3846721c1215792d78256914cf8a7d51313d82a9",
+    "dependencyRuntime": "6ca03779291afe32696054cdcfed7b80b79a51d8646ee0e3760d19acf035904e",
+    "dependencySpecification": "ff8f7ad692dd1311d94928abc4028dc7a6264e440ec6055fc1f1b34cc140ad9f",
+    "dialog": "a9f8b42270aa431ac20ed8b6df537401025cb6ec11f5075dbbfd5648dbcbdcd2",
+    "fixture": "8b0c26084c7176e98c9196c01e89c73ff41bc0443830aee18d1050f5e1dbe392",
+    "gate": "b123133fb3297f1a3fbffe4905a461df2d79d2ae639a5374ca20f0278ab81faf",
+    "generator": "7460e66295017666b5a7deb0854cab1094a7d95da87f72687612a3c1b4aa56eb",
+    "oracle": "b95bc6c44b151b357377acf77373abd0379a86f1ef8ea90435e3c2471d7d1530",
+    "parameters": "cb7d62843f3d9c64ccd7089d56944ee363d84f837af238738f4ec2f97fa82454",
+    "reusedSource": "af76352c2d823da717d178e4bcec0923fd7283d41b640272402fd71a89c21968",
+    "source": "042b5676a8f1b6b4faad848ad096daa5acd691f0ed96a192129de588aa12ffbf",
+    "sweep": "9b4fc46e57a53c81125d28112c9d6853551584c43557742fc2382ae7c8dbae50",
+    "validator": "5294754f4f09e1f169e0bcc1c22bad759c660a2674f775d1b30022627fa1122f"
+  },
+  "sourceContract": "PASS",
+  "oracle": {
+    "analyticComparison": "PASS",
+    "boundsMm": [
+      -186.35,
+      -180,
+      0,
+      320,
+      12.7,
+      162.7
+    ],
+    "closed": true,
+    "evidenceOrigin": "LOCAL_CADQUERY_NOT_ONSHAPE_EXPORT",
+    "expected": {
+      "boundsMm": [
+        -186.35,
+        -180,
+        0,
+        320,
+        12.7,
+        162.7
+      ],
+      "holes": [
+        [
+          "frontShaft",
+          70,
+          65,
+          6.45
+        ],
+        [
+          "rearShaft",
+          243.7,
+          65,
+          6.45
+        ],
+        [
+          "mount0",
+          140,
+          135,
+          3.3
+        ],
+        [
+          "mount1",
+          300,
+          135,
+          3.3
+        ],
+        [
+          "pivot",
+          30,
+          130,
+          6.45
+        ]
+      ],
+      "volumeMm3": 301875.70934676356
+    },
+    "holeCount": 5,
+    "holes": [
+      {
+        "areaMm2": 257.3435622188077,
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "faceCount": 1,
+        "name": "rearShaft",
+        "radius": 6.45,
+        "xBoundsMm": [
+          -186.35,
+          -180
+        ],
+        "y": 243.7,
+        "z": 65
+      },
+      {
+        "areaMm2": 131.66414811194812,
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "faceCount": 1,
+        "name": "mount1",
+        "radius": 3.3,
+        "xBoundsMm": [
+          -186.35,
+          -180
+        ],
+        "y": 300,
+        "z": 135
+      },
+      {
+        "areaMm2": 257.3435622188077,
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "faceCount": 1,
+        "name": "frontShaft",
+        "radius": 6.45,
+        "xBoundsMm": [
+          -186.35,
+          -180
+        ],
+        "y": 70,
+        "z": 65
+      },
+      {
+        "areaMm2": 131.66414811194812,
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "faceCount": 1,
+        "name": "mount0",
+        "radius": 3.3,
+        "xBoundsMm": [
+          -186.35,
+          -180
+        ],
+        "y": 140,
+        "z": 135
+      },
+      {
+        "areaMm2": 257.3435622188077,
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "faceCount": 1,
+        "name": "pivot",
+        "radius": 6.45,
+        "xBoundsMm": [
+          -186.35,
+          -180
+        ],
+        "y": 30,
+        "z": 130
+      }
+    ],
+    "kernel": "OpenCascade via CadQuery/OCP, not Onshape Parasolid",
+    "localStepSha256": "ca545fdb050ba59e37aa49a1fd27c52c2dd1b6a23d774ce6d51c8e45c81ebf76",
+    "networkIsolation": {
+      "allowedLocalOnlyEvent": "socket.gethostname",
+      "events": {
+        "denied": [
+          "subprocess.Popen",
+          "subprocess.Popen",
+          "subprocess.Popen"
+        ],
+        "localHostnameLookups": 1
+      },
+      "guard": "Python audit hook installed before CAD import",
+      "osFirewallClaim": false
+    },
+    "previewSha256": "73b8795ec42dc376b9226396f6ac51bdbc7ebbcc4650e15c2f74147daadaf1be",
+    "roundtrip": {
+      "analyticComparison": "PASS",
+      "boundsMm": [
+        -186.35,
+        -180,
+        0,
+        320,
+        12.7,
+        162.7
+      ],
+      "closed": true,
+      "expected": {
+        "boundsMm": [
+          -186.35,
+          -180,
+          0,
+          320,
+          12.7,
+          162.7
+        ],
+        "holes": [
+          [
+            "frontShaft",
+            70,
+            65,
+            6.45
+          ],
+          [
+            "rearShaft",
+            243.7,
+            65,
+            6.45
+          ],
+          [
+            "mount0",
+            140,
+            135,
+            3.3
+          ],
+          [
+            "mount1",
+            300,
+            135,
+            3.3
+          ],
+          [
+            "pivot",
+            30,
+            130,
+            6.45
+          ]
+        ],
+        "volumeMm3": 301875.70934676356
+      },
+      "holeCount": 5,
+      "holes": [
+        {
+          "areaMm2": 257.3435622188247,
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "faceCount": 1,
+          "name": "rearShaft",
+          "radius": 6.45,
+          "xBoundsMm": [
+            -186.35,
+            -180
+          ],
+          "y": 243.7,
+          "z": 65
+        },
+        {
+          "areaMm2": 131.6641481119568,
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "faceCount": 1,
+          "name": "mount1",
+          "radius": 3.3,
+          "xBoundsMm": [
+            -186.35,
+            -180
+          ],
+          "y": 300,
+          "z": 135
+        },
+        {
+          "areaMm2": 257.3435622188247,
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "faceCount": 1,
+          "name": "frontShaft",
+          "radius": 6.45,
+          "xBoundsMm": [
+            -186.35,
+            -180
+          ],
+          "y": 70,
+          "z": 65
+        },
+        {
+          "areaMm2": 131.6641481119568,
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "faceCount": 1,
+          "name": "mount0",
+          "radius": 3.3,
+          "xBoundsMm": [
+            -186.35,
+            -180
+          ],
+          "y": 140,
+          "z": 135
+        },
+        {
+          "areaMm2": 257.3435622188247,
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "faceCount": 1,
+          "name": "pivot",
+          "radius": 6.45,
+          "xBoundsMm": [
+            -186.35,
+            -180
+          ],
+          "y": 30,
+          "z": 130
+        }
+      ],
+      "kernel": "OpenCascade via CadQuery/OCP, not Onshape Parasolid",
+      "solids": 1,
+      "tolerances": {
+        "linearMm": 0.01,
+        "volumeMm3": 0.30187570934676355
+      },
+      "valid": true,
+      "volumeMm3": 301875.70934676327
+    },
+    "runtime": {
+      "folderLocalVenv": true,
+      "packages": [
+        "PyYAML==6.0.3",
+        "aiohappyeyeballs==2.7.1",
+        "aiohttp==3.14.3",
+        "aiosignal==1.4.0",
+        "async-timeout==5.0.1",
+        "attrs==26.1.0",
+        "cadquery-ocp==7.8.1.1.post1",
+        "cadquery==2.6.1",
+        "casadi==3.7.2",
+        "contourpy==1.3.2",
+        "cycler==0.12.1",
+        "ezdxf==1.4.4",
+        "fonttools==4.65.0",
+        "frozenlist==1.8.0",
+        "idna==3.19",
+        "kiwisolver==1.5.1",
+        "matplotlib==3.10.9",
+        "more-itertools==11.1.0",
+        "msgpack==1.2.2",
+        "multidict==6.8.0",
+        "multimethod==1.12",
+        "nlopt==2.11.0",
+        "numpy==2.2.6",
+        "packaging==26.3",
+        "path==17.1.1",
+        "pillow==12.3.0",
+        "pip==21.2.3",
+        "propcache==0.5.2",
+        "pyparsing==3.3.2",
+        "python-dateutil==2.9.0.post0",
+        "setuptools==57.4.0",
+        "six==1.17.0",
+        "trame-client==4.0.1",
+        "trame-common==1.2.7",
+        "trame-server==4.0.0",
+        "trame-vtk==2.8.13",
+        "trame==4.0.0",
+        "typing_extensions==4.16.0",
+        "typish==1.9.3",
+        "vtk==9.3.1",
+        "wslink==2.5.7",
+        "yarl==1.24.5"
+      ],
+      "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]"
+    },
+    "solids": 1,
+    "stepRoundtrip": "PASS",
+    "tolerances": {
+      "linearMm": 0.01,
+      "volumeMm3": 0.30187570934676355
+    },
+    "valid": true,
+    "volumeMm3": 301875.7093467633,
+    "wallTimeMs": 159.9646999993638
+  }
+}

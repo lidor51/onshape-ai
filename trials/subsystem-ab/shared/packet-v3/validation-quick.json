@@ -1,0 +1,1939 @@
+{
+  "apiCalls": 0,
+  "graph": {
+    "status": "PASS",
+    "instancesIncludingCoral": 57,
+    "nativeInstancesExcludingCoral": 56,
+    "treeMatesIncludingReference": 56,
+    "revoluteJoints": 10,
+    "transmissionRelations": 6,
+    "nativeExecution": "UNVERIFIED_LOCAL_CONTRACT_ONLY"
+  },
+  "variants": {
+    "baseline": {
+      "status": "PASS",
+      "solids": {
+        "chassis_reference": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 6321799.999999996,
+          "boundsMm": [
+            -350.0,
+            0.0,
+            70.0,
+            350.0,
+            760.0,
+            227.0
+          ]
+        },
+        "bumper_keepout": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 33252000.0,
+          "boundsMm": [
+            -435.0,
+            -465.0,
+            -60.0,
+            435.0,
+            465.0,
+            60.0
+          ]
+        },
+        "receiver_reference": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 432000.00000000006,
+          "boundsMm": [
+            -160.0,
+            -15.0,
+            0.0,
+            160.0,
+            15.0,
+            220.0
+          ]
+        },
+        "coral_reference": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 649551.4843768263,
+          "boundsMm": [
+            -150.8125,
+            -57.15,
+            -57.15,
+            150.8125,
+            57.15,
+            57.15
+          ]
+        },
+        "stage_deck": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1137086.5183889873,
+          "boundsMm": [
+            -250.0,
+            -190.0,
+            -3.0,
+            250.0,
+            190.0,
+            3.0
+          ]
+        },
+        "cradle": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1028863.935,
+          "boundsMm": [
+            -165.0,
+            -50.0,
+            -87.0,
+            165.0,
+            50.0,
+            -30.822305
+          ]
+        },
+        "transfer_ramp": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 244378.29349253714,
+          "boundsMm": [
+            -195.0,
+            145.0,
+            233.0,
+            195.0,
+            317.0,
+            320.0
+          ]
+        },
+        "orienter_hex_shaft": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 27098.16005102007,
+          "boundsMm": [
+            -97.0,
+            -6.3500000000000005,
+            -7.332348418708248,
+            97.0,
+            6.3500000000000005,
+            7.332348418708248
+          ]
+        },
+        "orienter_housing": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 233876.40417796146,
+          "boundsMm": [
+            -37.0,
+            -35.0,
+            -4.0,
+            37.0,
+            105.0,
+            194.0
+          ]
+        },
+        "pickup_left_plate": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 173719.62375663122,
+          "boundsMm": [
+            -4.0,
+            -381.0,
+            -391.0,
+            4.0,
+            21.000000000000004,
+            21.000000000000004
+          ]
+        },
+        "pickup_side_plate": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 203442.3033959745,
+          "boundsMm": [
+            -31.0,
+            -381.0,
+            -391.0,
+            4.0,
+            95.12,
+            24.0
+          ]
+        },
+        "pickup_cross_tube": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 72575.99999999997,
+          "boundsMm": [
+            -252.0,
+            -10.0,
+            -10.0,
+            252.0,
+            10.0,
+            10.0
+          ]
+        },
+        "pivot_spine": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 85484.91727435196,
+          "boundsMm": [
+            -306.0,
+            -6.3500000000000005,
+            -7.332348418708248,
+            306.0,
+            6.3500000000000005,
+            7.332348418708248
+          ]
+        },
+        "lower_hex_shaft": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 73751.69333473504,
+          "boundsMm": [
+            -264.0,
+            -6.3500000000000005,
+            -7.332348418708248,
+            264.0,
+            6.3500000000000005,
+            7.332348418708248
+          ]
+        },
+        "upper_pickup_drum": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 772878.8037719068,
+          "boundsMm": [
+            -235.0,
+            -27.0,
+            -27.0,
+            235.0,
+            27.0,
+            27.0
+          ]
+        },
+        "lower_pickup_drum": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1010753.7093325664,
+          "boundsMm": [
+            -235.0,
+            -27.0,
+            -27.0,
+            235.00000000000006,
+            27.0,
+            27.0
+          ]
+        },
+        "pickup_belt": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1599237.47436532,
+          "boundsMm": [
+            -220.0,
+            -390.0,
+            -400.0,
+            220.0,
+            30.000000000000004,
+            30.000000000000004
+          ]
+        },
+        "pickup_output_gear": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 138970.73836030634,
+          "boundsMm": [
+            -10.0,
+            -62.229991693394254,
+            -62.229991693394254,
+            6.3246,
+            62.229991693394254,
+            62.229991693394254
+          ]
+        },
+        "pickup_gear_guard": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 22230.243391266675,
+          "boundsMm": [
+            -12.0,
+            -67.0,
+            -67.00000000000001,
+            12.0,
+            96.12,
+            67.0
+          ]
+        },
+        "pivot_tower": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 251422.48178454774,
+          "boundsMm": [
+            -18.0,
+            -45.0,
+            -290.0,
+            18.0,
+            45.0,
+            35.0
+          ]
+        },
+        "deploy_output_gear": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 142881.60093527287,
+          "boundsMm": [
+            -6.32460000000091,
+            -62.2136724585998,
+            -62.2136724585998,
+            21.0,
+            62.213672458599795,
+            62.2136724585998
+          ]
+        },
+        "deploy_support_module": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 758850.1439915719,
+          "boundsMm": [
+            -41.0,
+            -45.0,
+            -290.0,
+            18.0,
+            254.56,
+            92.0
+          ]
+        },
+        "deploy_compound_shaft_module": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 270931.5819432112,
+          "boundsMm": [
+            -57.0,
+            -82.54969172831214,
+            -82.54969172831215,
+            7.0,
+            82.54969172831214,
+            82.54969172831214
+          ]
+        },
+        "cots_x44_main": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 110881.55104289528,
+          "boundsMm": [
+            -5.5562501,
+            -22.000000100000005,
+            -22.0000001,
+            74.61250010000572,
+            22.000000100000005,
+            25.400000100000014
+          ]
+        },
+        "cots_x44_rear_cover": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 2515.771152335832,
+          "boundsMm": [
+            53.276499899999976,
+            -21.70064380615926,
+            1.4717827362660396,
+            74.61250010000002,
+            21.700643806159235,
+            25.179381151360936
+          ]
+        },
+        "cots_hex_bearing": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 3985.8595418071236,
+          "boundsMm": [
+            -6.35,
+            -15.557500099999995,
+            -15.557500099999995,
+            1.5875000000000012,
+            15.557500099999997,
+            15.557500099999997
+          ]
+        },
+        "cots_spline_pinion": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 5071.75742022078,
+          "boundsMm": [
+            -9.525000100000003,
+            -11.295059806652704,
+            -11.295059806643067,
+            9.525000100000003,
+            11.295059806691508,
+            11.295059806701152
+          ]
+        },
+        "cots_hex_output_gear": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 13726.909690794935,
+          "boundsMm": [
+            -6.324599999999999,
+            -31.714166254708342,
+            -31.714166254708363,
+            6.324599999999999,
+            31.714166254708307,
+            31.71416625470835
+          ]
+        },
+        "cots_wheel": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 15092.582068992439,
+          "boundsMm": [
+            -6.3500001,
+            -25.390975400297197,
+            -25.390975400297194,
+            6.350000100000007,
+            25.390975400297194,
+            25.390975400297194
+          ]
+        },
+        "cots_x44_shaft": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1225.7317974358004,
+          "boundsMm": [
+            -37.357050099999995,
+            -3.9683788993915363,
+            -3.9288055934067945,
+            -5.556249899999996,
+            3.9683788993915297,
+            3.9720448800000057
+          ]
+        }
+      },
+      "holes": [
+        {
+          "part": "stage_deck",
+          "interface": "mount_0",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "mount_1",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "mount_2",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "mount_3",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "shaft_clearance_left",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "shaft_clearance_right",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "lower_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "upper_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_pilot",
+          "diameterMm": 19.15,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_bolt_0",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_bolt_120",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_bolt_240",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_tip_clearance",
+          "diameterMm": 10.0,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_left_plate",
+          "interface": "upper_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_left_plate",
+          "interface": "lower_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "upper_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "lower_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_bolt_0",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_bolt_60",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_bolt_-60",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_pilot",
+          "diameterMm": 19.15,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_45",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_135",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_225",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_315",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pivot_tower",
+          "interface": "fixed_hex_spine_clearance",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "spine_clearance",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "compound_bearing_-38",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "compound_bearing_-12",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_pilot",
+          "diameterMm": 19.15,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_bolt_0",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_bolt_120",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_bolt_240",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_shaft_outboard_clearance",
+          "diameterMm": 10.0,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        }
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "pairCount": 1596,
+          "kernelIntersectionComputations": 121,
+          "unexpectedClashes": [],
+          "declaredWheelPressContacts": [
+            {
+              "pair": [
+                "orienter_left_drum",
+                "orienter_left_shaft"
+              ],
+              "overlapMm3": 491.22523084677186,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            },
+            {
+              "pair": [
+                "orienter_right_drum",
+                "orienter_right_shaft"
+              ],
+              "overlapMm3": 491.2252308467682,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            }
+          ],
+          "originalVendorInternalInterfaces": [
+            {
+              "pair": [
+                "deploy_motor",
+                "deploy_motor_rear_cover"
+              ],
+              "overlapMm3": 1.01329629457507,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_left_motor",
+                "orienter_left_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132957938733411,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_right_motor",
+                "orienter_right_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132962431334558,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "pickup_motor",
+                "pickup_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132959539737607,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            }
+          ],
+          "boundsMm": [
+            -350.0,
+            -290.0,
+            10.0,
+            350.0,
+            760.0,
+            625.0
+          ],
+          "extensionMm": 290.0,
+          "envelopeStatus": "PASS",
+          "status": "PASS"
+        },
+        {
+          "angleDeg": -72.5,
+          "pairCount": 1596,
+          "kernelIntersectionComputations": 25,
+          "unexpectedClashes": [],
+          "declaredWheelPressContacts": [
+            {
+              "pair": [
+                "orienter_left_drum",
+                "orienter_left_shaft"
+              ],
+              "overlapMm3": 491.22523084677186,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            },
+            {
+              "pair": [
+                "orienter_right_drum",
+                "orienter_right_shaft"
+              ],
+              "overlapMm3": 491.2252308467682,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            }
+          ],
+          "originalVendorInternalInterfaces": [
+            {
+              "pair": [
+                "deploy_motor",
+                "deploy_motor_rear_cover"
+              ],
+              "overlapMm3": 1.01329629457507,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_left_motor",
+                "orienter_left_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132957938733411,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_right_motor",
+                "orienter_right_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132962431334558,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "pickup_motor",
+                "pickup_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132959539737607,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            }
+          ],
+          "boundsMm": [
+            -350.0,
+            -391.1293595983823,
+            70.0,
+            350.0,
+            760.0,
+            672.0769564527807
+          ],
+          "extensionMm": 391.1293595983823,
+          "envelopeStatus": "PASS",
+          "status": "PASS"
+        },
+        {
+          "angleDeg": -145,
+          "pairCount": 1596,
+          "kernelIntersectionComputations": 25,
+          "unexpectedClashes": [],
+          "declaredWheelPressContacts": [
+            {
+              "pair": [
+                "orienter_left_drum",
+                "orienter_left_shaft"
+              ],
+              "overlapMm3": 491.22523084677186,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            },
+            {
+              "pair": [
+                "orienter_right_drum",
+                "orienter_right_shaft"
+              ],
+              "overlapMm3": 491.2252308467682,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            }
+          ],
+          "originalVendorInternalInterfaces": [
+            {
+              "pair": [
+                "deploy_motor",
+                "deploy_motor_rear_cover"
+              ],
+              "overlapMm3": 1.01329629457507,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_left_motor",
+                "orienter_left_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132957938733411,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_right_motor",
+                "orienter_right_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132962431334558,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "pickup_motor",
+                "pickup_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132959539737607,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            }
+          ],
+          "boundsMm": [
+            -350.0,
+            0.0,
+            70.0,
+            350.0,
+            760.0,
+            949.5737734733035
+          ],
+          "extensionMm": 0,
+          "envelopeStatus": "PASS",
+          "status": "PASS"
+        }
+      ]
+    },
+    "revision": {
+      "status": "PASS",
+      "solids": {
+        "chassis_reference": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 6321799.999999996,
+          "boundsMm": [
+            -350.0,
+            0.0,
+            70.0,
+            350.0,
+            760.0,
+            227.0
+          ]
+        },
+        "bumper_keepout": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 33252000.0,
+          "boundsMm": [
+            -435.0,
+            -465.0,
+            -60.0,
+            435.0,
+            465.0,
+            60.0
+          ]
+        },
+        "receiver_reference": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 432000.00000000006,
+          "boundsMm": [
+            -160.0,
+            -15.0,
+            0.0,
+            160.0,
+            15.0,
+            220.0
+          ]
+        },
+        "coral_reference": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 649551.4843768263,
+          "boundsMm": [
+            -150.8125,
+            -57.15,
+            -57.15,
+            150.8125,
+            57.15,
+            57.15
+          ]
+        },
+        "stage_deck": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1137086.5183889873,
+          "boundsMm": [
+            -250.0,
+            -190.0,
+            -3.0,
+            250.0,
+            190.0,
+            3.0
+          ]
+        },
+        "cradle": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1028863.935,
+          "boundsMm": [
+            -165.0,
+            -50.0,
+            -87.0,
+            165.0,
+            50.0,
+            -30.822305
+          ]
+        },
+        "transfer_ramp": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 244378.29349253714,
+          "boundsMm": [
+            -195.0,
+            145.0,
+            233.0,
+            195.0,
+            317.0,
+            320.0
+          ]
+        },
+        "orienter_hex_shaft": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 27098.16005102007,
+          "boundsMm": [
+            -97.0,
+            -6.3500000000000005,
+            -7.332348418708248,
+            97.0,
+            6.3500000000000005,
+            7.332348418708248
+          ]
+        },
+        "orienter_housing": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 233876.40417796146,
+          "boundsMm": [
+            -37.0,
+            -35.0,
+            -4.0,
+            37.0,
+            105.0,
+            194.0
+          ]
+        },
+        "pickup_left_plate": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 173719.62375663122,
+          "boundsMm": [
+            -4.0,
+            -381.0,
+            -391.0,
+            4.0,
+            21.000000000000004,
+            21.000000000000004
+          ]
+        },
+        "pickup_side_plate": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 203442.3033959745,
+          "boundsMm": [
+            -31.0,
+            -381.0,
+            -391.0,
+            4.0,
+            95.12,
+            24.0
+          ]
+        },
+        "pickup_cross_tube": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 75455.99999999999,
+          "boundsMm": [
+            -262.0,
+            -10.0,
+            -10.0,
+            262.0,
+            10.0,
+            10.0
+          ]
+        },
+        "pivot_spine": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 85484.91727435196,
+          "boundsMm": [
+            -306.0,
+            -6.3500000000000005,
+            -7.332348418708248,
+            306.0,
+            6.3500000000000005,
+            7.332348418708248
+          ]
+        },
+        "lower_hex_shaft": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 76545.31808226288,
+          "boundsMm": [
+            -274.0,
+            -6.3500000000000005,
+            -7.332348418708248,
+            274.0,
+            6.3500000000000005,
+            7.332348418708248
+          ]
+        },
+        "upper_pickup_drum": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 805767.2635068817,
+          "boundsMm": [
+            -245.0,
+            -27.0,
+            -27.0,
+            245.0,
+            27.0,
+            27.0
+          ]
+        },
+        "lower_pickup_drum": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1053764.5054743781,
+          "boundsMm": [
+            -245.0,
+            -27.0,
+            -27.0,
+            245.00000000000006,
+            27.0,
+            27.0
+          ]
+        },
+        "pickup_belt": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1671930.0868364712,
+          "boundsMm": [
+            -230.0,
+            -390.0,
+            -400.0,
+            230.0,
+            30.000000000000004,
+            30.000000000000004
+          ]
+        },
+        "pickup_output_gear": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 138970.73836030634,
+          "boundsMm": [
+            -10.0,
+            -62.229991693394254,
+            -62.229991693394254,
+            6.3246,
+            62.229991693394254,
+            62.229991693394254
+          ]
+        },
+        "pickup_gear_guard": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 22230.243391266675,
+          "boundsMm": [
+            -12.0,
+            -67.0,
+            -67.00000000000001,
+            12.0,
+            96.12,
+            67.0
+          ]
+        },
+        "pivot_tower": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 251422.48178454774,
+          "boundsMm": [
+            -18.0,
+            -45.0,
+            -290.0,
+            18.0,
+            45.0,
+            35.0
+          ]
+        },
+        "deploy_output_gear": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 138539.70758151315,
+          "boundsMm": [
+            -6.32460000000091,
+            -62.2136724585998,
+            -62.2136724585998,
+            11.0,
+            62.213672458599795,
+            62.2136724585998
+          ]
+        },
+        "deploy_support_module": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 758850.1439915719,
+          "boundsMm": [
+            -41.0,
+            -45.0,
+            -290.0,
+            18.0,
+            254.56,
+            92.0
+          ]
+        },
+        "deploy_compound_shaft_module": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 270931.5819432112,
+          "boundsMm": [
+            -57.0,
+            -82.54969172831214,
+            -82.54969172831215,
+            7.0,
+            82.54969172831214,
+            82.54969172831214
+          ]
+        },
+        "cots_x44_main": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 110881.55104289528,
+          "boundsMm": [
+            -5.5562501,
+            -22.000000100000005,
+            -22.0000001,
+            74.61250010000572,
+            22.000000100000005,
+            25.400000100000014
+          ]
+        },
+        "cots_x44_rear_cover": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 2515.771152335832,
+          "boundsMm": [
+            53.276499899999976,
+            -21.70064380615926,
+            1.4717827362660396,
+            74.61250010000002,
+            21.700643806159235,
+            25.179381151360936
+          ]
+        },
+        "cots_hex_bearing": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 3985.8595418071236,
+          "boundsMm": [
+            -6.35,
+            -15.557500099999995,
+            -15.557500099999995,
+            1.5875000000000012,
+            15.557500099999997,
+            15.557500099999997
+          ]
+        },
+        "cots_spline_pinion": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 5071.75742022078,
+          "boundsMm": [
+            -9.525000100000003,
+            -11.295059806652704,
+            -11.295059806643067,
+            9.525000100000003,
+            11.295059806691508,
+            11.295059806701152
+          ]
+        },
+        "cots_hex_output_gear": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 13726.909690794935,
+          "boundsMm": [
+            -6.324599999999999,
+            -31.714166254708342,
+            -31.714166254708363,
+            6.324599999999999,
+            31.714166254708307,
+            31.71416625470835
+          ]
+        },
+        "cots_wheel": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 15092.582068992439,
+          "boundsMm": [
+            -6.3500001,
+            -25.390975400297197,
+            -25.390975400297194,
+            6.350000100000007,
+            25.390975400297194,
+            25.390975400297194
+          ]
+        },
+        "cots_x44_shaft": {
+          "valid": true,
+          "solids": 1,
+          "closed": true,
+          "volumeMm3": 1225.7317974358004,
+          "boundsMm": [
+            -37.357050099999995,
+            -3.9683788993915363,
+            -3.9288055934067945,
+            -5.556249899999996,
+            3.9683788993915297,
+            3.9720448800000057
+          ]
+        }
+      },
+      "holes": [
+        {
+          "part": "stage_deck",
+          "interface": "mount_0",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "mount_1",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "mount_2",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "mount_3",
+          "diameterMm": 6.6,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "shaft_clearance_left",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "stage_deck",
+          "interface": "shaft_clearance_right",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "lower_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "upper_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_pilot",
+          "diameterMm": 19.15,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_bolt_0",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_bolt_120",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_bolt_240",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "orienter_housing",
+          "interface": "motor_tip_clearance",
+          "diameterMm": 10.0,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_left_plate",
+          "interface": "upper_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_left_plate",
+          "interface": "lower_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "upper_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "lower_bearing",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_bolt_0",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_bolt_60",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_bolt_-60",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "motor_pilot",
+          "diameterMm": 19.15,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_45",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_135",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_225",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pickup_side_plate",
+          "interface": "deploy_hub_bolt_315",
+          "diameterMm": 4.4,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "pivot_tower",
+          "interface": "fixed_hex_spine_clearance",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "spine_clearance",
+          "diameterMm": 14.9,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "compound_bearing_-38",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "compound_bearing_-12",
+          "diameterMm": 28.675,
+          "cylindricalFaces": 2,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_pilot",
+          "diameterMm": 19.15,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_bolt_0",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_bolt_120",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_bolt_240",
+          "diameterMm": 5.5,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        },
+        {
+          "part": "deploy_support_module",
+          "interface": "motor_shaft_outboard_clearance",
+          "diameterMm": 10.0,
+          "cylindricalFaces": 1,
+          "emptyBoreSamples": 12,
+          "sampleCount": 12,
+          "status": "PASS"
+        }
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "pairCount": 1596,
+          "kernelIntersectionComputations": 121,
+          "unexpectedClashes": [],
+          "declaredWheelPressContacts": [
+            {
+              "pair": [
+                "orienter_left_drum",
+                "orienter_left_shaft"
+              ],
+              "overlapMm3": 491.22523084677186,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            },
+            {
+              "pair": [
+                "orienter_right_drum",
+                "orienter_right_shaft"
+              ],
+              "overlapMm3": 491.2252308467682,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            }
+          ],
+          "originalVendorInternalInterfaces": [
+            {
+              "pair": [
+                "deploy_motor",
+                "deploy_motor_rear_cover"
+              ],
+              "overlapMm3": 1.01329629457507,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_left_motor",
+                "orienter_left_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132957938733411,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_right_motor",
+                "orienter_right_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132962431334558,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "pickup_motor",
+                "pickup_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132961694901832,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            }
+          ],
+          "boundsMm": [
+            -350.0,
+            -290.0,
+            10.0,
+            350.0,
+            760.0,
+            625.0
+          ],
+          "extensionMm": 290.0,
+          "envelopeStatus": "PASS",
+          "status": "PASS"
+        },
+        {
+          "angleDeg": -72.5,
+          "pairCount": 1596,
+          "kernelIntersectionComputations": 25,
+          "unexpectedClashes": [],
+          "declaredWheelPressContacts": [
+            {
+              "pair": [
+                "orienter_left_drum",
+                "orienter_left_shaft"
+              ],
+              "overlapMm3": 491.22523084677186,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            },
+            {
+              "pair": [
+                "orienter_right_drum",
+                "orienter_right_shaft"
+              ],
+              "overlapMm3": 491.2252308467682,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            }
+          ],
+          "originalVendorInternalInterfaces": [
+            {
+              "pair": [
+                "deploy_motor",
+                "deploy_motor_rear_cover"
+              ],
+              "overlapMm3": 1.01329629457507,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_left_motor",
+                "orienter_left_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132957938733411,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_right_motor",
+                "orienter_right_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132962431334558,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "pickup_motor",
+                "pickup_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132961694901832,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            }
+          ],
+          "boundsMm": [
+            -350.0,
+            -391.1293595983823,
+            70.0,
+            350.0,
+            760.0,
+            672.0769564527807
+          ],
+          "extensionMm": 391.1293595983823,
+          "envelopeStatus": "PASS",
+          "status": "PASS"
+        },
+        {
+          "angleDeg": -145,
+          "pairCount": 1596,
+          "kernelIntersectionComputations": 25,
+          "unexpectedClashes": [],
+          "declaredWheelPressContacts": [
+            {
+              "pair": [
+                "orienter_left_drum",
+                "orienter_left_shaft"
+              ],
+              "overlapMm3": 491.22523084677186,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            },
+            {
+              "pair": [
+                "orienter_right_drum",
+                "orienter_right_shaft"
+              ],
+              "overlapMm3": 491.2252308467682,
+              "maximumAllowedIntersectionMm3": 510,
+              "reason": "Measured molded wheel hex AF 10.795 mm versus 12.7 mm shaft. Explicit wheel-only press interface; elastic fit, assembly force and hub life UNVERIFIED."
+            }
+          ],
+          "originalVendorInternalInterfaces": [
+            {
+              "pair": [
+                "deploy_motor",
+                "deploy_motor_rear_cover"
+              ],
+              "overlapMm3": 1.01329629457507,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_left_motor",
+                "orienter_left_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132957938733411,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "orienter_right_motor",
+                "orienter_right_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132962431334558,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            },
+            {
+              "pair": [
+                "pickup_motor",
+                "pickup_motor_rear_cover"
+              ],
+              "overlapMm3": 1.0132961694901832,
+              "classification": "UNCHANGED_VENDOR_INTERNAL_BODY_INTERFACE",
+              "sourceMeasuredOverlapMm3": 1.0132959225281024
+            }
+          ],
+          "boundsMm": [
+            -350.0,
+            0.0,
+            70.0,
+            350.0,
+            760.0,
+            949.5737734733035
+          ],
+          "extensionMm": 0,
+          "envelopeStatus": "PASS",
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "scope": "All unordered body-instance pairs, including diagnostic references. Sampled deployment with synchronized -6/48 gear rotations. Not continuous dynamics or manufacturing release.",
+  "gearPairExemptions": [],
+  "ordinaryShaftBearingExemptions": [],
+  "status": "PASS",
+  "wallSeconds": 2198.5997684999893
+}

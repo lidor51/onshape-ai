@@ -1,0 +1,540 @@
+{
+  "benchmarkId": "reefscape-coral-ground-intake-v1",
+  "route": "existing MCP + FeatureScript (MCP+FS)",
+  "phase": "baseline",
+  "status": "schema-validated-call-plan-only-not-executed",
+  "executableLive": false,
+  "sourceArtifact": "intake.fs",
+  "sourceSha256": "f069baa4510550439a82db8ddae81934e855958fbb56bbf7255d24a036d39cac",
+  "expected": {
+    "status": "local-expectations-only-not-server-measurements",
+    "units": "mm",
+    "dimensions": {
+      "innerWidthMm": 340,
+      "plateThicknessMm": 6.35,
+      "plateLengthMm": 320,
+      "plateHeightMm": 150,
+      "plateBottomZMm": 12.7,
+      "rollerDiameterMm": 76.2,
+      "rollerGapMm": 100,
+      "rollerSideClearanceMm": 5,
+      "frontRollerYMm": 70,
+      "rollerZMm": 65,
+      "shaftDiameterMm": 12.7,
+      "shaftHoleDiameterMm": 12.9,
+      "shaftEndExtensionMm": 12.7,
+      "crossmemberSizeMm": 25.4,
+      "crossmemberCentersYZMm": [
+        [
+          140,
+          135
+        ],
+        [
+          300,
+          135
+        ]
+      ],
+      "mountHoleDiameterMm": 6.6,
+      "pivotCenterYZMm": [
+        25,
+        130
+      ],
+      "pivotHoleDiameterMm": 12.9
+    },
+    "rearRollerYMm": 246.2,
+    "sleeveLengthMm": 330,
+    "shaftLengthMm": 378.1,
+    "expectedSolidCount": 9,
+    "parts": [
+      {
+        "name": "leftPlate",
+        "boundsMm": {
+          "min": [
+            -176.35,
+            0,
+            12.7
+          ],
+          "max": [
+            -170,
+            320,
+            162.7
+          ]
+        },
+        "throughHoles": [
+          {
+            "centerYZMm": [
+              70,
+              65
+            ],
+            "diameterMm": 12.9
+          },
+          {
+            "centerYZMm": [
+              246.2,
+              65
+            ],
+            "diameterMm": 12.9
+          },
+          {
+            "centerYZMm": [
+              140,
+              135
+            ],
+            "diameterMm": 6.6
+          },
+          {
+            "centerYZMm": [
+              300,
+              135
+            ],
+            "diameterMm": 6.6
+          },
+          {
+            "centerYZMm": [
+              25,
+              130
+            ],
+            "diameterMm": 12.9
+          }
+        ]
+      },
+      {
+        "name": "rightPlate",
+        "boundsMm": {
+          "min": [
+            170,
+            0,
+            12.7
+          ],
+          "max": [
+            176.35,
+            320,
+            162.7
+          ]
+        },
+        "throughHoles": [
+          {
+            "centerYZMm": [
+              70,
+              65
+            ],
+            "diameterMm": 12.9
+          },
+          {
+            "centerYZMm": [
+              246.2,
+              65
+            ],
+            "diameterMm": 12.9
+          },
+          {
+            "centerYZMm": [
+              140,
+              135
+            ],
+            "diameterMm": 6.6
+          },
+          {
+            "centerYZMm": [
+              300,
+              135
+            ],
+            "diameterMm": 6.6
+          },
+          {
+            "centerYZMm": [
+              25,
+              130
+            ],
+            "diameterMm": 12.9
+          }
+        ]
+      },
+      {
+        "name": "frontRoller",
+        "boundsMm": {
+          "min": [
+            -165,
+            31.9,
+            26.9
+          ],
+          "max": [
+            165,
+            108.1,
+            103.1
+          ]
+        },
+        "boreDiameterMm": 12.7
+      },
+      {
+        "name": "frontShaft",
+        "boundsMm": {
+          "min": [
+            -189.05,
+            63.65,
+            58.65
+          ],
+          "max": [
+            189.05,
+            76.35,
+            71.35
+          ]
+        }
+      },
+      {
+        "name": "rearRoller",
+        "boundsMm": {
+          "min": [
+            -165,
+            208.1,
+            26.9
+          ],
+          "max": [
+            165,
+            284.3,
+            103.1
+          ]
+        },
+        "boreDiameterMm": 12.7
+      },
+      {
+        "name": "rearShaft",
+        "boundsMm": {
+          "min": [
+            -189.05,
+            239.85,
+            58.65
+          ],
+          "max": [
+            189.05,
+            252.55,
+            71.35
+          ]
+        }
+      },
+      {
+        "name": "frontCrossmember",
+        "boundsMm": {
+          "min": [
+            -170,
+            127.3,
+            122.3
+          ],
+          "max": [
+            170,
+            152.7,
+            147.7
+          ]
+        }
+      },
+      {
+        "name": "rearCrossmember",
+        "boundsMm": {
+          "min": [
+            -170,
+            287.3,
+            122.3
+          ],
+          "max": [
+            170,
+            312.7,
+            147.7
+          ]
+        }
+      },
+      {
+        "name": "coralReference",
+        "nonBom": true,
+        "boundsMm": {
+          "min": [
+            -150.8125,
+            -167.15,
+            0
+          ],
+          "max": [
+            150.8125,
+            -52.85,
+            114.3
+          ]
+        },
+        "boreDiameterMm": 101.6
+      }
+    ],
+    "serverMeasurements": null,
+    "renderedImage": null,
+    "stepExport": null
+  },
+  "bindings": {
+    "$newDocument": "Only the successful response to this plan's createDocument; never accept an existing document ID.",
+    "$newPartStudio": "Only the createPartStudio response in that new document.",
+    "$newFeatureStudio": "Only the createFeatureStudio response in that new document.",
+    "$verifiedFeatureStudioNamespace": "Unresolved. Bind from a verified custom-feature import for the newly created Feature Studio; do not guess.",
+    "$latestFeatureRead": "Fresh getPartStudioFeatures before each mutation; reject microversion skew.",
+    "$createdFeature": "Feature ID returned by baseline addPartStudioFeature; reuse for revision.",
+    "$stepTranslation": "Async export response; poll getTranslation with bounded backoff until DONE or FAILED."
+  },
+  "gates": [
+    "Explicit future live approval and reviewed credentials handling required; no live runner is provided.",
+    "Require a NEW private document. Verify private status before later writes. No public fallback or deletion.",
+    "Compile source in Feature Studio, verify namespace, then require featureStatus OK after add/update.",
+    "Merge revision parameters into the full current feature readback; preserve IDs, namespace and other fields.",
+    "Decode body details and check ten through-holes plus roller/coral bores; tight bounds alone cannot prove holes.",
+    "Compare server part names/count, tight bounds and parameter expressions with expectations, with explicit unit conversion.",
+    "Verify coralReference EXCLUDE_FROM_BOM on the server, not just its name.",
+    "Check image PNG signature/dimensions and STEP bytes after DONE; do not treat a queued translation as export success."
+  ],
+  "calls": [
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "createDocument",
+        "path_params": {},
+        "query_params": {},
+        "body": "{\"name\":\"FRC coral intake MCP PoC\",\"isPublic\":false,\"isEmptyContent\":true}"
+      },
+      "method": "POST",
+      "path": "/documents",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getDocument",
+        "path_params": {
+          "did": "$newDocument.id"
+        },
+        "query_params": {}
+      },
+      "method": "GET",
+      "path": "/documents/{did}",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "createPartStudio",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wid": "$newDocument.defaultWorkspace.id"
+        },
+        "query_params": {},
+        "body": "{\"name\":\"Coral intake packaging\"}"
+      },
+      "method": "POST",
+      "path": "/partstudios/d/{did}/w/{wid}",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "createFeatureStudio",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wid": "$newDocument.defaultWorkspace.id"
+        },
+        "query_params": {},
+        "body": "{\"name\":\"Coral intake source\"}"
+      },
+      "method": "POST",
+      "path": "/featurestudios/d/{did}/w/{wid}",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "updateFeatureStudioContents",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newFeatureStudio.id"
+        },
+        "query_params": {},
+        "body": "{\"contents\":\"FeatureScript 2144;\\nimport(path : \\\"onshape/std/geometry.fs\\\", version : \\\"2144.0\\\");\\n\\nfunction cylinder(context is Context, bodyId is Id, firstX, lastX, centerY, centerZ, diameter)\\n{\\n    fCylinder(context, bodyId, {\\n        \\\"bottomCenter\\\" : vector(firstX, centerY, centerZ) * millimeter,\\n        \\\"topCenter\\\" : vector(lastX, centerY, centerZ) * millimeter,\\n        \\\"radius\\\" : diameter / 2 * millimeter\\n    });\\n}\\n\\nfunction bore(context is Context, operationId is Id, target is Query, firstX, lastX, centerY, centerZ, diameter)\\n{\\n    cylinder(context, operationId + \\\"tool\\\", firstX - 1, lastX + 1, centerY, centerZ, diameter);\\n    opBoolean(context, operationId + \\\"subtract\\\", {\\n        \\\"tools\\\" : qCreatedBy(operationId + \\\"tool\\\", EntityType.BODY),\\n        \\\"targets\\\" : target,\\n        \\\"operationType\\\" : BooleanOperationType.SUBTRACTION\\n    });\\n}\\n\\nfunction nameBody(context is Context, bodyId is Id, name is string)\\n{\\n    setProperty(context, { \\\"entities\\\" : qCreatedBy(bodyId, EntityType.BODY), \\\"propertyType\\\" : PropertyType.NAME, \\\"value\\\" : name });\\n}\\n\\nfunction plate(context is Context, plateId is Id, firstX, lastX, dimensions is map, rearY, name is string)\\n{\\n    const bodyId = plateId + \\\"blank\\\";\\n    fCuboid(context, bodyId, {\\n        \\\"corner1\\\" : vector(firstX, 0, dimensions.plateBottomZMm) * millimeter,\\n        \\\"corner2\\\" : vector(lastX, dimensions.plateLengthMm, dimensions.plateBottomZMm + dimensions.plateHeightMm) * millimeter\\n    });\\n    const holes = [\\n        [dimensions.frontRollerYMm, dimensions.rollerZMm, dimensions.shaftHoleDiameterMm],\\n        [rearY, dimensions.rollerZMm, dimensions.shaftHoleDiameterMm],\\n        [dimensions.crossmemberCentersYZMm[0][0], dimensions.crossmemberCentersYZMm[0][1], dimensions.mountHoleDiameterMm],\\n        [dimensions.crossmemberCentersYZMm[1][0], dimensions.crossmemberCentersYZMm[1][1], dimensions.mountHoleDiameterMm],\\n        [dimensions.pivotCenterYZMm[0], dimensions.pivotCenterYZMm[1], dimensions.pivotHoleDiameterMm]\\n    ];\\n    for (var index = 0; index < size(holes); index += 1)\\n    {\\n        const hole = holes[index];\\n        bore(context, plateId + (\\\"hole\\\" ~ index), qCreatedBy(bodyId, EntityType.BODY), firstX, lastX, hole[0], hole[1], hole[2]);\\n    }\\n    nameBody(context, bodyId, name);\\n}\\n\\nfunction sleeve(context is Context, sleeveId is Id, length, outerDiameter, innerDiameter, centerY, centerZ, name is string)\\n{\\n    const bodyId = sleeveId + \\\"blank\\\";\\n    cylinder(context, bodyId, -length / 2, length / 2, centerY, centerZ, outerDiameter);\\n    bore(context, sleeveId + \\\"bore\\\", qCreatedBy(bodyId, EntityType.BODY), -length / 2, length / 2, centerY, centerZ, innerDiameter);\\n    nameBody(context, bodyId, name);\\n}\\n\\nannotation { \\\"Feature Type Name\\\" : \\\"FRC coral intake packaging\\\" }\\nexport const coralIntake = defineFeature(function(context is Context, id is Id, definition is map)\\n    precondition\\n    {\\n        annotation { \\\"Name\\\" : \\\"Inner width\\\" }\\n        isLength(definition.innerWidth, LENGTH_BOUNDS);\\n        annotation { \\\"Name\\\" : \\\"Clear roller gap\\\" }\\n        isLength(definition.rollerGap, LENGTH_BOUNDS);\\n    }\\n    {\\n        const dimensions = {\\\"innerWidthMm\\\":340,\\\"plateThicknessMm\\\":6.35,\\\"plateLengthMm\\\":320,\\\"plateHeightMm\\\":150,\\\"plateBottomZMm\\\":12.7,\\\"rollerDiameterMm\\\":76.2,\\\"rollerGapMm\\\":100,\\\"rollerSideClearanceMm\\\":5,\\\"frontRollerYMm\\\":70,\\\"rollerZMm\\\":65,\\\"shaftDiameterMm\\\":12.7,\\\"shaftHoleDiameterMm\\\":12.9,\\\"shaftEndExtensionMm\\\":12.7,\\\"crossmemberSizeMm\\\":25.4,\\\"crossmemberCentersYZMm\\\":[[140,135],[300,135]],\\\"mountHoleDiameterMm\\\":6.6,\\\"pivotCenterYZMm\\\":[25,130],\\\"pivotHoleDiameterMm\\\":12.9};\\n        const coral = {\\\"outerDiameterMm\\\":114.3,\\\"innerDiameterMm\\\":101.6,\\\"lengthMm\\\":301.625,\\\"centerYMm\\\":-110,\\\"centerZMm\\\":57.15,\\\"note\\\":\\\"Nominal 4-inch Schedule 40 PVC, 11-7/8 inch long. Verify official tolerances before design release. Staged ahead of intake, not simulated contact.\\\"};\\n        const width = definition.innerWidth / millimeter;\\n        const gap = definition.rollerGap / millimeter;\\n        const halfWidth = width / 2;\\n        const rearY = dimensions.frontRollerYMm + dimensions.rollerDiameterMm + gap;\\n        const sleeveLength = width - 2 * dimensions.rollerSideClearanceMm;\\n        const shaftLength = width + 2 * (dimensions.plateThicknessMm + dimensions.shaftEndExtensionMm);\\n        plate(context, id + \\\"leftPlate\\\", -halfWidth - dimensions.plateThicknessMm, -halfWidth, dimensions, rearY, \\\"leftPlate\\\");\\n        plate(context, id + \\\"rightPlate\\\", halfWidth, halfWidth + dimensions.plateThicknessMm, dimensions, rearY, \\\"rightPlate\\\");\\n        const rollerCenters = [dimensions.frontRollerYMm, rearY];\\n        const prefixes = [\\\"front\\\", \\\"rear\\\"];\\n        for (var index = 0; index < 2; index += 1)\\n        {\\n            const prefix = prefixes[index];\\n            sleeve(context, id + (prefix ~ \\\"Roller\\\"), sleeveLength, dimensions.rollerDiameterMm, dimensions.shaftDiameterMm, rollerCenters[index], dimensions.rollerZMm, prefix ~ \\\"Roller\\\");\\n            const shaftId = id + (prefix ~ \\\"Shaft\\\");\\n            cylinder(context, shaftId, -shaftLength / 2, shaftLength / 2, rollerCenters[index], dimensions.rollerZMm, dimensions.shaftDiameterMm);\\n            nameBody(context, shaftId, prefix ~ \\\"Shaft\\\");\\n            const center = dimensions.crossmemberCentersYZMm[index];\\n            const halfSize = dimensions.crossmemberSizeMm / 2;\\n            const crossmemberId = id + (prefix ~ \\\"Crossmember\\\");\\n            fCuboid(context, crossmemberId, {\\n                \\\"corner1\\\" : vector(-halfWidth, center[0] - halfSize, center[1] - halfSize) * millimeter,\\n                \\\"corner2\\\" : vector(halfWidth, center[0] + halfSize, center[1] + halfSize) * millimeter\\n            });\\n            nameBody(context, crossmemberId, prefix ~ \\\"Crossmember\\\");\\n        }\\n        sleeve(context, id + \\\"coralReference\\\", coral.lengthMm, coral.outerDiameterMm, coral.innerDiameterMm, coral.centerYMm, coral.centerZMm, \\\"coralReference\\\");\\n        setProperty(context, { \\\"entities\\\" : qCreatedBy(id + \\\"coralReference\\\" + \\\"blank\\\", EntityType.BODY), \\\"propertyType\\\" : PropertyType.EXCLUDE_FROM_BOM, \\\"value\\\" : true });\\n    });\\n\"}"
+      },
+      "method": "POST",
+      "path": "/featurestudios/d/{did}/{wvm}/{wvmid}/e/{eid}",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getPartStudioFeatures",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {}
+      },
+      "method": "GET",
+      "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "addPartStudioFeature",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {},
+        "body": "{\"btType\":\"BTFeatureDefinitionCall-1406\",\"sourceMicroversion\":\"$latestFeatureRead.sourceMicroversion\",\"rejectMicroversionSkew\":true,\"feature\":{\"btType\":\"BTMFeature-134\",\"name\":\"Coral intake packaging\",\"featureType\":\"coralIntake\",\"namespace\":\"$verifiedFeatureStudioNamespace\",\"parameters\":[{\"btType\":\"BTMParameterQuantity-147\",\"parameterId\":\"innerWidth\",\"expression\":\"340 mm\",\"isInteger\":false},{\"btType\":\"BTMParameterQuantity-147\",\"parameterId\":\"rollerGap\",\"expression\":\"100 mm\",\"isInteger\":false}]}}"
+      },
+      "method": "POST",
+      "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getPartStudioFeatures",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {}
+      },
+      "method": "GET",
+      "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/features",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getPartsWMV",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id"
+        },
+        "query_params": {
+          "elementId": "$newPartStudio.id",
+          "includePropertyDefaults": "true"
+        }
+      },
+      "method": "GET",
+      "path": "/parts/d/{did}/{wvm}/{wvmid}",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getPartStudioBodyDetails",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {
+          "includeGeometricData": "true"
+        }
+      },
+      "method": "GET",
+      "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/bodydetails",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getPartStudioBoundingBoxes",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {}
+      },
+      "method": "GET",
+      "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/boundingboxes",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "evalFeatureScript",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wvm": "w",
+          "wvmid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {},
+        "body": "{\"script\":\"function(context is Context, queries) {\\n    const solids = evaluateQuery(context, qBodyType(qEverything(EntityType.BODY), BodyType.SOLID));\\n    var measurements = [];\\n    for (var solid in solids) {\\n        const bounds = evBox3d(context, { \\\"topology\\\" : solid, \\\"tight\\\" : true });\\n        measurements = append(measurements, {\\n            \\\"name\\\" : getProperty(context, { \\\"entity\\\" : solid, \\\"propertyType\\\" : PropertyType.NAME }),\\n            \\\"minMm\\\" : bounds.minCorner / millimeter,\\n            \\\"maxMm\\\" : bounds.maxCorner / millimeter\\n        });\\n    }\\n    return { \\\"solidCount\\\" : size(solids), \\\"parts\\\" : measurements };\\n}\"}"
+      },
+      "method": "POST",
+      "path": "/partstudios/d/{did}/{wvm}/{wvmid}/e/{eid}/featurescript",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_screenshot",
+      "status": "not-executed",
+      "arguments": {
+        "did": "$newDocument.id",
+        "wvm": "w",
+        "wvmid": "$newDocument.defaultWorkspace.id",
+        "eid": "$newPartStudio.id",
+        "view": {
+          "type": "preset",
+          "name": "isometric"
+        },
+        "output_width": 1200,
+        "output_height": 900,
+        "show_all_parts": true,
+        "output_path": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\mcp\\artifacts\\baseline.png"
+      }
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "createPartStudioExportStep",
+        "path_params": {
+          "did": "$newDocument.id",
+          "wv": "w",
+          "wvid": "$newDocument.defaultWorkspace.id",
+          "eid": "$newPartStudio.id"
+        },
+        "query_params": {},
+        "body": "{\"storeInDocument\":false,\"destinationName\":\"coral-intake-baseline\",\"stepVersionString\":\"AP242\",\"notifyUser\":false,\"triggerAutoDownload\":false}"
+      },
+      "method": "POST",
+      "path": "/partstudios/d/{did}/{wv}/{wvid}/e/{eid}/export/step",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "getTranslation",
+        "path_params": {
+          "tid": "$stepTranslation.id"
+        },
+        "query_params": {}
+      },
+      "method": "GET",
+      "path": "/translations/{tid}",
+      "status": "not-executed"
+    },
+    {
+      "tool": "onshape_api_call",
+      "arguments": {
+        "endpoint": "downloadExternalData",
+        "path_params": {
+          "did": "$newDocument.id",
+          "fid": "$stepTranslation.resultExternalDataIds[0]"
+        },
+        "query_params": {}
+      },
+      "method": "GET",
+      "path": "/documents/d/{did}/externaldata/{fid}",
+      "status": "not-executed"
+    }
+  ]
+}

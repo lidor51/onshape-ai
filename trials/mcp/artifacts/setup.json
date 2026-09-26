@@ -1,0 +1,172 @@
+{
+  "commit": "3bd1bf698818ade4ab286f0e3a7cc57289114b91",
+  "release": "v0.5.2",
+  "startedAt": "2026-09-11T11:36:25.014Z",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/README.md",
+      "status": 200,
+      "bytes": 5737,
+      "sha256": "533a52e9302d3069bb2d9afce3f9f06b4968d36b4b31daf5064f7e1868594e19",
+      "elapsedMs": 279.92359999999996
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/LICENSE-APACHE",
+      "status": 200,
+      "bytes": 11353,
+      "sha256": "ea2488ef5c27f1b263bbf07e6857a2029ab121e8c042b8208b06a67b0e480d9c",
+      "elapsedMs": 201.80290000000002
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/LICENSE-MIT",
+      "status": 200,
+      "bytes": 1067,
+      "sha256": "f6722f854d26adc7a8e415cc721ca15cf243f99daba9366e7a0a3785607d3433",
+      "elapsedMs": 65.78430000000003
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/Cargo.toml",
+      "status": 200,
+      "bytes": 2170,
+      "sha256": "39f6183a079253d7e2e4c664f189bca8d1d5e3f7d2158f69d412c7429ac6856e",
+      "elapsedMs": 66.21130000000005
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/Cargo.lock",
+      "status": 200,
+      "bytes": 83158,
+      "sha256": "7d32e167eb52f5c0e12d02ce382c7907a4664dba35f99bf31260a1578f1dbf54",
+      "elapsedMs": 80.32440000000008
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/docs/src/project/configuration.md",
+      "status": 200,
+      "bytes": 6096,
+      "sha256": "a87f2bd08ca630443d101d5b7d22fdb3fa7906018e7c24f169c2a2966e9cb1ee",
+      "elapsedMs": 65.87950000000001
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/docs/src/project/authentication.md",
+      "status": 200,
+      "bytes": 15445,
+      "sha256": "c36a82cc543b46fc0cc78d8e9c24e6dfa43ce33f1d460701c588e9fb3cf61121",
+      "elapsedMs": 68.90899999999999
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/docs/src/project/mcp-tools.md",
+      "status": 200,
+      "bytes": 16281,
+      "sha256": "334340d070f7d84f658a3bb4b3d2d83a2df911cdce28e8f8f04680f48320d5f9",
+      "elapsedMs": 67.31669999999997
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp/src/main.rs",
+      "status": 200,
+      "bytes": 16336,
+      "sha256": "3fd1d4e3456502bddf2c73c5e549b8baa1349f0cb6737d8ea31c3e5fe49d3f72",
+      "elapsedMs": 67.71159999999998
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-core/src/config.rs",
+      "status": 200,
+      "bytes": 53415,
+      "sha256": "7a35a863aab1c34c712c26b5c965a9c3328efae8795b846c7ede985007add95b",
+      "elapsedMs": 70.22299999999996
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-core/src/lib.rs",
+      "status": 200,
+      "bytes": 25796,
+      "sha256": "91712bb401196eaaad372ef81a4b1551d72ffa2c28eab7c02c8e94d1302e0af3",
+      "elapsedMs": 67.05650000000014
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-core/src/tools.rs",
+      "status": 200,
+      "bytes": 179054,
+      "sha256": "148d8326d40d46a9ce22fa00efcb60d4bfae6560165dada87bf32396f8a49f55",
+      "elapsedMs": 83.29120000000012
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-io/src/config.rs",
+      "status": 200,
+      "bytes": 13148,
+      "sha256": "6608f033060e745f1fc42086dc83e1ec13bb7918fa2600b31885e02f81eb24f6",
+      "elapsedMs": 208.33349999999996
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-io/src/lib.rs",
+      "status": 200,
+      "bytes": 123310,
+      "sha256": "206f829610a424bb221c4d7831830cbf4719c3ffcd6ba1ac456d1c2add683747",
+      "elapsedMs": 75.91959999999995
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-io/src/oauth.rs",
+      "status": 200,
+      "bytes": 32106,
+      "sha256": "25651906f4bf8f19ef85d76fa9112e47f0c7a8f1ea90a7c203a6c66bb15c54bd",
+      "elapsedMs": 68.41519999999991
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-io/src/watcher.rs",
+      "status": 200,
+      "bytes": 30064,
+      "sha256": "6d755cd30d317e890db0671f52044792ee87178dc309c9138f36f42c43168834",
+      "elapsedMs": 68.76170000000002
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-client-io/src/lib.rs",
+      "status": 200,
+      "bytes": 25271,
+      "sha256": "314c03059b18080d21eb95e60ba000a530b9d02e98e1618751aa3a69357e6a16",
+      "elapsedMs": 64.96180000000004
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-openapi/src/lib.rs",
+      "status": 200,
+      "bytes": 100508,
+      "sha256": "895a1c34eccec962a4f5ea7ffafb8c3e55d18431bb9fac2f16db53e1d0b1347f",
+      "elapsedMs": 73.59870000000001
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-io/ONSHAPE-API-LICENSE",
+      "status": 200,
+      "bytes": 581,
+      "sha256": "eaa5a96cf53957a07de6bcc03bb592b965ec9cbf43871f35823b3d1744318433",
+      "elapsedMs": 64.2206000000001
+    },
+    {
+      "url": "https://raw.githubusercontent.com/altendky/onshape-mcp/3bd1bf698818ade4ab286f0e3a7cc57289114b91/crates/onshape-mcp-io/onshape-openapi.json",
+      "status": 200,
+      "bytes": 1963625,
+      "sha256": "eadcea471568f8737f51fffe794dae51b72c35a700d4a7ac11c98fd345ef2eed",
+      "elapsedMs": 164.47590000000014
+    },
+    {
+      "url": "https://github.com/altendky/onshape-mcp/releases/download/v0.5.2/onshape-mcp-0.5.2-x86_64-pc-windows-msvc.zip",
+      "status": 200,
+      "bytes": 5668333,
+      "sha256": "8cd050010f120ec893499fa34fccaba08f9919530c76a0bdbbb6d704e7948739",
+      "elapsedMs": 810.7587000000001
+    }
+  ],
+  "commands": [
+    {
+      "command": "tar.exe -tf/-xf vendor/server.zip",
+      "exitCode": 0,
+      "entries": [
+        "onshape-mcp-0.5.2-x86_64-pc-windows-msvc/",
+        "onshape-mcp-0.5.2-x86_64-pc-windows-msvc/onshape-mcp.exe",
+        "onshape-mcp-0.5.2-x86_64-pc-windows-msvc/LICENSE-MIT",
+        "onshape-mcp-0.5.2-x86_64-pc-windows-msvc/LICENSE-APACHE"
+      ]
+    },
+    {
+      "command": "node npm-cli.js install/ci --ignore-scripts --no-audit --no-fund (isolated config/cache)",
+      "exitCode": 0,
+      "stdout": "\nadded 94 packages in 6s\n"
+    }
+  ],
+  "status": "ready-for-source-review"
+}

@@ -1,0 +1,472 @@
+{
+  "rows": [
+    {
+      "sourcePart": "chassis_reference",
+      "modeledQuantity": 1,
+      "category": "reference",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "bumper_keepout",
+      "modeledQuantity": 1,
+      "category": "reference",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_cheek",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "roller_hex_shaft",
+      "modeledQuantity": 16,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Cut exact 1/2-inch hex; face; drill/tap M5 axial ends",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "roller_tube",
+      "modeledQuantity": 16,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "TEST_ONLY assumed 38x2 mm tube; drill plug screws; deburr; confirm stock before release",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "roller_rubber",
+      "modeledQuantity": 16,
+      "category": "custom",
+      "material": "RUBBER_SLEEVE_GRADE_AND_BOND_PENDING",
+      "operations": "Custom bonded 6 mm sleeve, OD50; qualify hardness, bond and wear",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "roller_end_plug",
+      "modeledQuantity": 32,
+      "category": "custom",
+      "material": "MACHINED_POLYMER_GRADE_PENDING",
+      "operations": "Turn OD34 and mill hex; radial M4 cross pin, no unqualified glue-only torque path",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "collar_half_hex",
+      "modeledQuantity": 36,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Lathe and mill split clamp; cross tap M4",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "end_retainer_M5",
+      "modeledQuantity": 32,
+      "category": "custom",
+      "material": "M5_SCREW_AND_RETAINER_DISC_ASSEMBLY",
+      "operations": "Separate washer and M5 screw; threads schematic",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "hex_bearing_body_0",
+      "modeledQuantity": 40,
+      "category": "cots",
+      "material": "ORIGINAL_VENDOR",
+      "operations": "Direct original STEP import; no machining",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "bearing_retainer",
+      "modeledQuantity": 32,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "M4_retainer_screw",
+      "modeledQuantity": 96,
+      "category": "custom",
+      "material": "M4_THREAD_ENVELOPE",
+      "operations": "Purchase",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "chain_sprocket_12t",
+      "modeledQuantity": 32,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Custom #25 12t sprocket blank; 6.35 mm pitch, tooth form requires cutter qualification; NOT vendor CAD",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "fixed_transfer_cheek",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_0",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_1",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_2",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_3",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_4",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_5",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_6",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_lower_guide_7",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_upper_guide_0",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_upper_guide_1",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_upper_guide_2",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pickup_upper_guide_3",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_3_MM",
+      "operations": "Flat router-cut segment; no bending; attach to machined edge support strips",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "float_carriage",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "bolt_M6x20",
+      "modeledQuantity": 10,
+      "category": "custom",
+      "material": "ISO4762_M6x20_SIMPLIFIED_THREAD_ENVELOPE",
+      "operations": "Purchase; screw thread not modeled",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "nut_M6",
+      "modeledQuantity": 12,
+      "category": "custom",
+      "material": "ISO4032_M6_SIMPLIFIED",
+      "operations": "Purchase; thread not modeled",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "washer_M6",
+      "modeledQuantity": 26,
+      "category": "custom",
+      "material": "ISO7089_M6_SIMPLIFIED",
+      "operations": "Purchase",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "cross_tube",
+      "modeledQuantity": 3,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Saw 25x25x2 metric tube; drill ends; bolt machined threaded plugs",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "cross_tube_plug",
+      "modeledQuantity": 6,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pivot_spine",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Turn separate 25 mm OD side trunnions; no shaft across coral path; qualify flange torque clamp",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "tower",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pivot_bush",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "ACETAL_ASSUMED",
+      "operations": "Lathe bushing; qualify bearing pressure and wear",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "pivot_hub",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Turn flange; M6 tap four 5 mm drills through 8 mm flange; qualify thread pullout",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "chassis_mount_block",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Saw aluminum bar; drill two-axis M6 patterns; no precision bends",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "bolt_M6x16",
+      "modeledQuantity": 8,
+      "category": "custom",
+      "material": "GENERIC_M6x16_SIMPLIFIED_THREAD_ENVELOPE_NOT_VENDOR_CAD",
+      "operations": "Purchase; screw thread not modeled",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "bolt_M6x50",
+      "modeledQuantity": 8,
+      "category": "custom",
+      "material": "ISO4762_M6x50_SIMPLIFIED_THREAD_ENVELOPE",
+      "operations": "Purchase; screw thread not modeled",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "cradle_floor",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_6_MM",
+      "operations": "Router flat plate; receiver finger windows and bearing clearances; bolt to four frame standoffs",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "cradle_stop",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_6_MM",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "anti_bounce_finger",
+      "modeledQuantity": 2,
+      "category": "custom",
+      "material": "SPRING_POLYCARBONATE_3_MM",
+      "operations": "Flat replaceable finger; deflection and fatigue pending",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "sensor_bracket",
+      "modeledQuantity": 4,
+      "category": "custom",
+      "material": "PRINTED_POLYMER_PENDING",
+      "operations": "Two M4 mounts; 8 mm optical barrel clearance; exact sensor selection pending",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "frame_post",
+      "modeledQuantity": 4,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Saw 25x25x2 tube; drill both end mounting patterns",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "orienter_drum",
+      "modeledQuantity": 4,
+      "category": "custom",
+      "material": "CUSTOM_POLYURETHANE_OVER_HEX_HUB_PENDING",
+      "operations": "Two separable machined hubs and bonded tire required; compression 5 mm budget, qualify bond",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "orienter_shaft",
+      "modeledQuantity": 4,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "1/2-inch hex; face and tap M5 ends",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "orienter_deck",
+      "modeledQuantity": 4,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router plate; finish bearing bores and M6 chassis mounts",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "x44_body_0",
+      "modeledQuantity": 4,
+      "category": "cots",
+      "material": "ORIGINAL_VENDOR",
+      "operations": "Direct original STEP import; no machining",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "x44_body_1",
+      "modeledQuantity": 4,
+      "category": "cots",
+      "material": "ORIGINAL_VENDOR",
+      "operations": "Direct original STEP import; no machining",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "deployment_motor_mount",
+      "modeledQuantity": 1,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router output relief; motor clocked 60 degrees; retain exact pilot and three #10-32 mounting interfaces",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "motor_screw_10_32",
+      "modeledQuantity": 12,
+      "category": "custom",
+      "material": "10_32_UNF_3_8_IN_THREAD_ENVELOPE",
+      "operations": "Purchase; 3.525 mm engagement after 6 mm plate, verify washer stack",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "spline_pinion_body_0",
+      "modeledQuantity": 4,
+      "category": "cots",
+      "material": "ORIGINAL_VENDOR",
+      "operations": "Direct original STEP import; no machining",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "hex_output_gear_body_0",
+      "modeledQuantity": 4,
+      "category": "cots",
+      "material": "ORIGINAL_VENDOR",
+      "operations": "Direct original STEP import; no machining",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "motor_mount",
+      "modeledQuantity": 3,
+      "category": "custom",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router; finish 19.15 pilot; exact 34.925 mm BCD; #10-32 screws, <=6.35 mm thread depth",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "receiver_bridge_reference",
+      "modeledQuantity": 1,
+      "category": "reference",
+      "material": "ROUGH_RECEIVER_CLEARANCE_TOOL",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    },
+    {
+      "sourcePart": "receiver_finger_reference",
+      "modeledQuantity": 2,
+      "category": "reference",
+      "material": "6061-T6_ASSUMED",
+      "operations": "Router cut; deburr; inspect",
+      "manufacturingRelease": false
+    }
+  ],
+  "modeledPhysicalInstances": 510,
+  "quantityCaution": "Modeled instance count; end_retainer_M5 is a washer/screw representation and modeled tube plugs lack all required cross pins. Total purchase quantity is incomplete.",
+  "missingHardware": [
+    "#25 chains, tensioners, axial sprocket spacers and complete physical drive connection",
+    "guide edge-support fasteners and frame-post/chassis joint hardware",
+    "motor bracket chassis attachment, deploy hub shaft connection",
+    "hard-stop blocks and pins, powered-off retention",
+    "guards, guard standoffs and service-cover fasteners",
+    "sensor selection and stop/anti-bounce mounting fasteners"
+  ],
+  "tolerances": {
+    "customStock": "metric nominal, grade assumed",
+    "hexStockAFmm": 12.7,
+    "bearingSourceBoreAFmm": 12.72,
+    "bearingSeatMm": 28.675,
+    "motorPilotMm": 19.15,
+    "motorBCDmm": 34.925,
+    "routerGeneralPositionMm": "+/-0.2 provisional coupon qualification",
+    "bearingSeatDiameterToleranceMm": "+0.025/-0 provisional, qualify with actual source bearing"
+  }
+}

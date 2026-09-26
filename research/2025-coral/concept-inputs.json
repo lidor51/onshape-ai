@@ -1,0 +1,43 @@
+{
+  "status": "PROVISIONAL_ENGINEERING_ASSUMPTIONS_NOT_RELEASED_DIMENSIONS",
+  "sourceFiles": ["rules.json", "cots.json"],
+  "motorDataset": "ctre_12V_reference",
+  "motorMode": "trapezoidal",
+  "designAssumptions": {
+    "blankChassisWidthMm": 700,
+    "blankChassisLengthMm": 760,
+    "startingHeightTargetMm": 900,
+    "frontExtensionTargetMm": 400,
+    "pickupMouthWidthMm": 500,
+    "coralSweptEnvelopeExtraPerSideMm": 20,
+    "pickupDiameterExamplesMm": [76.2, 127],
+    "pickupSurfaceSpeedTargetsMps": [1.5, 3],
+    "pickupTotalReductionCandidates": [3, 6, 9, 12],
+    "alignmentSurfaceSpeedTargetsMps": [0.3, 0.6],
+    "alignmentTotalReductionCandidates": [3, 6, 9],
+    "pivotMovingStructureMassKg": 4,
+    "pivotStructureCenterOfMassRadiusM": 0.22,
+    "pivotStructureInertiaKgM2": 0.22,
+    "pivotStructureInertiaAxis": "pivot",
+    "pivotCoralCenterOfMassRadiusM": 0.3,
+    "pivotFrictionTorqueNm": 1,
+    "pivotTravelDeg": 80,
+    "pivotMoveDurationS": 0.75,
+    "pivotReductionCandidates": [36, 50, 64],
+    "pivotAssumedEfficiency": 0.75,
+    "pivotLoadFactor": 1.5,
+    "gravityMps2": 9.80665
+  },
+  "notEstablished": [
+    "Receiver pose, entry-angle tolerance and gripping interface",
+    "Actual linkage geometry, swept clearances and stop locations",
+    "Roller compression, slip, friction, allowable speed and physical acquisition performance",
+    "Measured mass, inertia, impact load and real transmission efficiency",
+    "Approved motor current limits, thermal duty and electrical design",
+    "Selected multi-stage gearbox, belt/chain part numbers and complete load-rated BOM",
+    "Stock grades, router travel/accuracy, fits and reinforcement availability",
+    "Manufacturing cost, robot-wide mass and service-time budgets"
+  ],
+  "scope": "Local screening only. No API, no CAD, no physical test, no legality approval.",
+  "sourceDatePolicy": "Use 2025 rules with presently available dated motor data; the X44 CTRE test was after 2025 Championships."
+}

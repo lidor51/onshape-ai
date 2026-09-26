@@ -1,0 +1,22 @@
+{
+  "checkedDate": "2026-09-11",
+  "method": "Public documentation via fetch_webpage, no authenticated client or API",
+  "browserExecution": "BLOCKED",
+  "reason": "Onshape Terms of Use section 4(b)(9) prohibits automated means of accessing the Service; this trial explicitly requires stopping on automation restrictions.",
+  "termsUrl": "https://www.onshape.com/en/legal/terms-of-use",
+  "termsEffectiveDate": "2020-07-15",
+  "shortExcerpt": "Use any robot, spider, scraper or other automated means to access the Service",
+  "allocationUrl": "https://onshape-public.github.io/docs/auth/limits/",
+  "allocationObservation": "Published rules exclude Onshape browser-client calls from API allocation. This does not establish automation permission.",
+  "tooling": {
+    "toolSearchExposed": false,
+    "playwrightDeferredNamesListed": true,
+    "playwrightToolsLoaded": false,
+    "pythonEnvironmentToolsLoaded": false,
+    "reason": "Required tool_search loader is not exposed in this session; deferred tools were not called directly."
+  },
+  "directOnshapeApiCalls": 0,
+  "authenticationObserved": false,
+  "quotaCounterObserved": false,
+  "parentQuotaContextOnly": { "used": 269, "limit": 2500, "remaining": 2231 }
+}

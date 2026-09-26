@@ -1,0 +1,3 @@
+[auth]
+method = "auto"
+check_interval = 300

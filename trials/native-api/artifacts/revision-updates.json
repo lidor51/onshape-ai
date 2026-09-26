@@ -1,0 +1,1053 @@
+{
+  "evidence": "OFFLINE_UPDATE_TEMPLATES_NOT_EXECUTED",
+  "method": "POST",
+  "endpointTemplate": "/api/v9/partstudios/d/{newDid}/w/{newWid}/e/{newEid}/features/featureid/{existingFid}",
+  "updates": [
+    {
+      "key": "leftPlate.profile",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMSketch-151",
+          "featureType": "newSketch",
+          "name": "leftPlate profile",
+          "parameters": [
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "sketchPlane",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qCreatedBy(makeId(\"Right\"), EntityType.FACE);"
+                }
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge0",
+              "startPointId": "edge0.start",
+              "endPointId": "edge0.end",
+              "startParam": 0,
+              "endParam": 0.32,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0,
+                "pntY": 0.0127,
+                "dirX": 1,
+                "dirY": 0
+              }
+            },
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge1",
+              "startPointId": "edge1.start",
+              "endPointId": "edge1.end",
+              "startParam": 0,
+              "endParam": 0.15,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0.32,
+                "pntY": 0.0127,
+                "dirX": 0,
+                "dirY": 1
+              }
+            },
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge2",
+              "startPointId": "edge2.start",
+              "endPointId": "edge2.end",
+              "startParam": 0,
+              "endParam": 0.32,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0.32,
+                "pntY": 0.16269999999999998,
+                "dirX": -1,
+                "dirY": 0
+              }
+            },
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge3",
+              "startPointId": "edge3.start",
+              "endPointId": "edge3.end",
+              "startParam": 0,
+              "endParam": 0.15,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0,
+                "pntY": 0.16269999999999998,
+                "dirX": 0,
+                "dirY": -1
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole0",
+              "centerId": "hole0.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.07,
+                "yCenter": 0.065,
+                "radius": 0.00645,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole1",
+              "centerId": "hole1.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.2412,
+                "yCenter": 0.065,
+                "radius": 0.00645,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole2",
+              "centerId": "hole2.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.14,
+                "yCenter": 0.135,
+                "radius": 0.0033,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole3",
+              "centerId": "hole3.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.3,
+                "yCenter": 0.135,
+                "radius": 0.0033,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole4",
+              "centerId": "hole4.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.025,
+                "yCenter": 0.13,
+                "radius": 0.00645,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            }
+          ],
+          "constraints": [],
+          "suppressed": false,
+          "featureId": "$feature:leftPlate.profile"
+        }
+      }
+    },
+    {
+      "key": "leftPlate.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "leftPlate",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "6.349999999999994 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:leftPlate.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "186.35 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:leftPlate.solid"
+        }
+      }
+    },
+    {
+      "key": "rightPlate.profile",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMSketch-151",
+          "featureType": "newSketch",
+          "name": "rightPlate profile",
+          "parameters": [
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "sketchPlane",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qCreatedBy(makeId(\"Right\"), EntityType.FACE);"
+                }
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge0",
+              "startPointId": "edge0.start",
+              "endPointId": "edge0.end",
+              "startParam": 0,
+              "endParam": 0.32,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0,
+                "pntY": 0.0127,
+                "dirX": 1,
+                "dirY": 0
+              }
+            },
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge1",
+              "startPointId": "edge1.start",
+              "endPointId": "edge1.end",
+              "startParam": 0,
+              "endParam": 0.15,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0.32,
+                "pntY": 0.0127,
+                "dirX": 0,
+                "dirY": 1
+              }
+            },
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge2",
+              "startPointId": "edge2.start",
+              "endPointId": "edge2.end",
+              "startParam": 0,
+              "endParam": 0.32,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0.32,
+                "pntY": 0.16269999999999998,
+                "dirX": -1,
+                "dirY": 0
+              }
+            },
+            {
+              "btType": "BTMSketchCurveSegment-155",
+              "entityId": "edge3",
+              "startPointId": "edge3.start",
+              "endPointId": "edge3.end",
+              "startParam": 0,
+              "endParam": 0.15,
+              "geometry": {
+                "btType": "BTCurveGeometryLine-117",
+                "pntX": 0,
+                "pntY": 0.16269999999999998,
+                "dirX": 0,
+                "dirY": -1
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole0",
+              "centerId": "hole0.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.07,
+                "yCenter": 0.065,
+                "radius": 0.00645,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole1",
+              "centerId": "hole1.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.2412,
+                "yCenter": 0.065,
+                "radius": 0.00645,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole2",
+              "centerId": "hole2.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.14,
+                "yCenter": 0.135,
+                "radius": 0.0033,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole3",
+              "centerId": "hole3.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.3,
+                "yCenter": 0.135,
+                "radius": 0.0033,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole4",
+              "centerId": "hole4.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.025,
+                "yCenter": 0.13,
+                "radius": 0.00645,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            }
+          ],
+          "constraints": [],
+          "suppressed": false,
+          "featureId": "$feature:rightPlate.profile"
+        }
+      }
+    },
+    {
+      "key": "rightPlate.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "rightPlate",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "6.349999999999994 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:rightPlate.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "180 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": false
+            }
+          ],
+          "featureId": "$feature:rightPlate.solid"
+        }
+      }
+    },
+    {
+      "key": "frontRoller.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "frontRoller",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "350 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:frontRoller.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "175 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:frontRoller.solid"
+        }
+      }
+    },
+    {
+      "key": "rearRoller.profile",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMSketch-151",
+          "featureType": "newSketch",
+          "name": "rearRoller profile",
+          "parameters": [
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "sketchPlane",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qCreatedBy(makeId(\"Right\"), EntityType.FACE);"
+                }
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "outer",
+              "centerId": "outer.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.2412,
+                "yCenter": 0.065,
+                "radius": 0.0381,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            },
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "hole0",
+              "centerId": "hole0.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.2412,
+                "yCenter": 0.065,
+                "radius": 0.00635,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            }
+          ],
+          "constraints": [],
+          "suppressed": false,
+          "featureId": "$feature:rearRoller.profile"
+        }
+      }
+    },
+    {
+      "key": "rearRoller.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "rearRoller",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "350 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:rearRoller.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "175 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:rearRoller.solid"
+        }
+      }
+    },
+    {
+      "key": "frontShaft.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "frontShaft",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "398.1 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:frontShaft.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "199.05 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:frontShaft.solid"
+        }
+      }
+    },
+    {
+      "key": "rearShaft.profile",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMSketch-151",
+          "featureType": "newSketch",
+          "name": "rearShaft profile",
+          "parameters": [
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "sketchPlane",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qCreatedBy(makeId(\"Right\"), EntityType.FACE);"
+                }
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "btType": "BTMSketchCurve-4",
+              "entityId": "outer",
+              "centerId": "outer.center",
+              "geometry": {
+                "btType": "BTCurveGeometryCircle-115",
+                "xCenter": 0.2412,
+                "yCenter": 0.065,
+                "radius": 0.00635,
+                "xDir": 1,
+                "yDir": 0,
+                "clockwise": false
+              }
+            }
+          ],
+          "constraints": [],
+          "suppressed": false,
+          "featureId": "$feature:rearShaft.profile"
+        }
+      }
+    },
+    {
+      "key": "rearShaft.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "rearShaft",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "398.1 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:rearShaft.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "199.05 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:rearShaft.solid"
+        }
+      }
+    },
+    {
+      "key": "frontCrossmember.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "frontCrossmember",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "360 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:frontCrossmember.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "180 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:frontCrossmember.solid"
+        }
+      }
+    },
+    {
+      "key": "rearCrossmember.solid",
+      "body": {
+        "btType": "BTFeatureDefinitionCall-1406",
+        "feature": {
+          "btType": "BTMFeature-134",
+          "featureType": "extrude",
+          "name": "rearCrossmember",
+          "suppressed": false,
+          "parameters": [
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "bodyType",
+              "enumName": "ExtendedToolBodyType",
+              "value": "SOLID"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "operationType",
+              "enumName": "NewBodyOperationType",
+              "value": "NEW"
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "endBound",
+              "enumName": "BoundingType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "depth",
+              "expression": "360 mm"
+            },
+            {
+              "btType": "BTMParameterQueryList-148",
+              "parameterId": "entities",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery-138",
+                  "queryString": "query=qSketchRegion(makeId(\"$feature:rearCrossmember.profile\"), true);"
+                }
+              ]
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "symmetric",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "oppositeDirection",
+              "value": false
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffset",
+              "value": true
+            },
+            {
+              "btType": "BTMParameterEnum-145",
+              "parameterId": "startOffsetBound",
+              "enumName": "StartOffsetType",
+              "value": "BLIND"
+            },
+            {
+              "btType": "BTMParameterQuantity-147",
+              "parameterId": "startOffsetDistance",
+              "expression": "180 mm"
+            },
+            {
+              "btType": "BTMParameterBoolean-144",
+              "parameterId": "startOffsetOppositeDirection",
+              "value": true
+            }
+          ],
+          "featureId": "$feature:rearCrossmember.solid"
+        }
+      }
+    }
+  ]
+}

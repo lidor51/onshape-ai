@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Local admission contract only; not live browser, authentication, CAD or full JSON Schema validation.",
+  "startedAt": "2026-09-12T14:14:42.676Z",
+  "completedAt": "2026-09-12T14:14:42.699Z",
+  "wallTimeMs": 20.335700000000003,
+  "nodeVersion": "v24.15.0",
+  "command": "node --test trials/subsystem-ab/browser/admission.test.mjs",
+  "contractChecksPassed": 8,
+  "browserExecutionStatus": "BLOCKED",
+  "testNetworkCalls": 0,
+  "testOnshapeApiCalls": 0,
+  "testBrowserActions": 0,
+  "evidenceCheckedDate": "2026-09-12",
+  "hashScope": "Exact UTF-8 excerpt bytes and local file bytes, not raw fetched responses.",
+  "excerptHashes": [
+    {
+      "id": "terms",
+      "url": "https://www.onshape.com/en/legal/terms-of-use",
+      "fetchedOn": "2026-09-12",
+      "excerptSha256": "4b247dce31a9369af540b1d1dc82ae4f77421369fdcf9b423156eec9e575541d",
+      "apiGuidanceExcerptSha256": null
+    },
+    {
+      "id": "limits",
+      "url": "https://onshape-public.github.io/docs/auth/limits/",
+      "fetchedOn": "2026-09-12",
+      "excerptSha256": "e9755829854cd5d367cc61b604216627d38c21c18b7193be7d2e4d7f52cfeee2",
+      "apiGuidanceExcerptSha256": "9eee427ff3265353b4283b9017fbb40ffe29e731c29039e2c920113a00099271"
+    }
+  ],
+  "artifactHashes": {
+    "admission.json": "7614a3d58d2d905604aa186fab474f225c0057087c8b165ebe7d625442db8881",
+    "admission.mjs": "67f242cf5aa112356ca56cd8fa7228ce03b6cd4e7da8e0f4370e8507b47dd0aa",
+    "admission.test.mjs": "854cf1bad234a9bf6c97711a70b7b799cede404c2eaf8cc03e1f38765c4b6f8b",
+    "paired-results.json": "160a1e16282985893c6d71a732a8befe176e488bb5d1e6583af0b09634ad3a38",
+    "result.schema.json": "ef423bb19e7e373404ef90abd7853997bcf98614fa57ab54ef925950ffc10476",
+    "REPORT.md": "1bf46a5e5e89bc16b2c80fe0fa925f1bbaf2b3ae8c6d3c0dbcc0e34b3bc73b6a",
+    "PILOT.md": "b0b764c458529933949db60f99d3e05c7b507d760b8c94a81aa242336f595448"
+  },
+  "protocolSha256": "6ca62935083198ffd9d51b37a537bed246e25f577bd72df1c8a2b6f22f7bbcdd"
+}

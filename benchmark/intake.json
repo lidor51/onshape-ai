@@ -1,0 +1,48 @@
+{
+  "id": "reefscape-coral-ground-intake-v1",
+  "units": "mm",
+  "axes": { "x": "across robot / shaft axis", "y": "front to rear", "z": "up; floor at zero" },
+  "intent": "Parametric packaging study, not a competition-ready mechanism",
+  "baseline": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [[140, 135], [300, 135]],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [25, 130],
+    "pivotHoleDiameterMm": 12.9
+  },
+  "coralReference": {
+    "outerDiameterMm": 114.3,
+    "innerDiameterMm": 101.6,
+    "lengthMm": 301.625,
+    "centerYMm": -110,
+    "centerZMm": 57.15,
+    "note": "Nominal 4-inch Schedule 40 PVC, 11-7/8 inch long. Verify official tolerances before design release. Staged ahead of intake, not simulated contact."
+  },
+  "revision": { "innerWidthMm": 360, "rollerGapMm": 95 },
+  "requiredParts": ["leftPlate", "rightPlate", "frontRoller", "rearRoller", "frontShaft", "rearShaft", "frontCrossmember", "rearCrossmember", "coralReference"],
+  "plateHolesPerSide": 5,
+  "excluded": ["motor and transmission", "bearings and fasteners", "assembly mates and motion", "FEA", "manufacturing tolerances", "2025 rule compliance certification"],
+  "acceptance": [
+    "Create nine separate solids including a clearly named non-BOM coral reference",
+    "Create two shaft bores, two crossmember mount holes, and one pivot hole per plate",
+    "Roller sleeves have shaft bores; crossmembers may be solid packaging envelopes",
+    "Revise inner width to 360 and clear roller gap to 95 without recreating the document",
+    "Measure server-side part count, bounds, holes, feature errors, and revision values",
+    "Obtain Onshape-rendered image and STEP export when authenticated",
+    "Record actual calls, failures, retries, elapsed time, and human interventions",
+    "Never count local source generation or a mock response as Onshape CAD success"
+  ]
+}

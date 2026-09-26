@@ -1,0 +1,44 @@
+{
+  "evidence": "analytic expectation only, NOT a measured B-rep or an Onshape result",
+  "boundsMm": [
+    -178,
+    -170,
+    0,
+    320,
+    12.7,
+    162.7
+  ],
+  "volumeMm3": 380315.85429513524,
+  "holes": [
+    {
+      "name": "frontShaft",
+      "y": 70,
+      "z": 65,
+      "radius": 6.45
+    },
+    {
+      "name": "rearShaft",
+      "y": 246.2,
+      "z": 65,
+      "radius": 6.45
+    },
+    {
+      "name": "mount0",
+      "y": 140,
+      "z": 135,
+      "radius": 3.3
+    },
+    {
+      "name": "mount1",
+      "y": 300,
+      "z": 135,
+      "radius": 3.3
+    },
+    {
+      "name": "pivot",
+      "y": 25,
+      "z": 130,
+      "radius": 6.45
+    }
+  ]
+}

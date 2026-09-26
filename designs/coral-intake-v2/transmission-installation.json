@@ -1,0 +1,3416 @@
+{
+  "schema": "coaxial-powertrain-installation/v1",
+  "removed_ids": [
+    "pickup_pickup_stage_shaft",
+    "pickup_pickup_drive_mount",
+    "pickup_pickup_drive_X44",
+    "pickup_pickup_drive_output_bearing",
+    "pickup_pickup_drive_motor_screw_0",
+    "pickup_pickup_drive_motor_screw_1",
+    "pickup_pickup_drive_motor_screw_2",
+    "pickup_pickup_drive_12T",
+    "pickup_pickup_drive_60T",
+    "pickup_pickup_drive_pinion_spacer",
+    "pickup_pickup_drive_pinion_retention",
+    "pickup_pickup_drive_output_spacer",
+    "pickup_pickup_drive_output_end",
+    "v2_front_outer_-1",
+    "v2_front_end_washer_-1",
+    "v2_front_end_screw_-1",
+    "pt_front_negative_extension_shaft",
+    "pt_front_negative_extension_washer_1",
+    "pt_front_negative_extension_end_screw_1",
+    "v2_middle_outer_-1",
+    "v2_middle_end_washer_-1",
+    "v2_middle_end_screw_-1",
+    "pt_middle_negative_extension_shaft",
+    "pt_middle_negative_extension_washer_1",
+    "pt_middle_negative_extension_end_screw_1",
+    "v2_kick_outer_1",
+    "v2_kick_end_washer_1",
+    "v2_kick_end_screw_1",
+    "pt_kick_positive_extension_shaft",
+    "pt_kick_positive_extension_washer_-1",
+    "pt_kick_positive_extension_end_screw_-1",
+    "v2_rear_to_frame_-1",
+    "v2_rear_to_frame_1",
+    "pt_rear_bridge_1_shaft",
+    "pt_rear_bridge_1_washer_-1",
+    "pt_rear_bridge_1_end_screw_-1",
+    "pt_rear_bridge_1_washer_1",
+    "pt_rear_bridge_1_end_screw_1",
+    "pt_rear_bridge_-1_shaft",
+    "pt_rear_bridge_-1_washer_-1",
+    "pt_rear_bridge_-1_end_screw_-1",
+    "pt_rear_bridge_-1_washer_1",
+    "pt_rear_bridge_-1_end_screw_1",
+    "v1_indexer_L0_pulley",
+    "v1_indexer_L1_pulley",
+    "v1_indexer_L2_pulley",
+    "v1_indexer_belt_L",
+    "v1_dc_indexer_L0_spacer_0",
+    "v1_dc_indexer_L0_spacer_1",
+    "v1_dc_indexer_L0_spacer_2",
+    "v1_dc_indexer_L0_spacer_3",
+    "v1_dc_indexer_L0_spacer_4",
+    "v1_dc_indexer_L0_spacer_5",
+    "v1_dc_indexer_L0_spacer_6",
+    "v1_dc_indexer_L0_end_-1_washer",
+    "v1_dc_indexer_L0_end_-1_screw",
+    "v1_dc_indexer_L0_end_1_washer",
+    "v1_dc_indexer_L0_end_1_screw",
+    "v1_dc_indexer_L1_spacer_0",
+    "v1_dc_indexer_L1_spacer_1",
+    "v1_dc_indexer_L1_spacer_2",
+    "v1_dc_indexer_L1_spacer_3",
+    "v1_dc_indexer_L1_spacer_4",
+    "v1_dc_indexer_L1_end_-1_washer",
+    "v1_dc_indexer_L1_end_-1_screw",
+    "v1_dc_indexer_L1_end_1_washer",
+    "v1_dc_indexer_L1_end_1_screw",
+    "v1_dc_indexer_L2_spacer_0",
+    "v1_dc_indexer_L2_spacer_1",
+    "v1_dc_indexer_L2_spacer_2",
+    "v1_dc_indexer_L2_spacer_3",
+    "v1_dc_indexer_L2_spacer_4",
+    "v1_dc_indexer_L2_end_-1_washer",
+    "v1_dc_indexer_L2_end_-1_screw",
+    "v1_dc_indexer_L2_end_1_washer",
+    "v1_dc_indexer_L2_end_1_screw",
+    "v1_indexer_R0_pulley",
+    "v1_indexer_R1_pulley",
+    "v1_indexer_R2_pulley",
+    "v1_indexer_belt_R",
+    "v1_dc_indexer_R0_spacer_0",
+    "v1_dc_indexer_R0_spacer_1",
+    "v1_dc_indexer_R0_spacer_2",
+    "v1_dc_indexer_R0_spacer_3",
+    "v1_dc_indexer_R0_spacer_4",
+    "v1_dc_indexer_R0_spacer_5",
+    "v1_dc_indexer_R0_spacer_6",
+    "v1_dc_indexer_R0_end_-1_washer",
+    "v1_dc_indexer_R0_end_-1_screw",
+    "v1_dc_indexer_R0_end_1_washer",
+    "v1_dc_indexer_R0_end_1_screw",
+    "v1_dc_indexer_R1_spacer_0",
+    "v1_dc_indexer_R1_spacer_1",
+    "v1_dc_indexer_R1_spacer_2",
+    "v1_dc_indexer_R1_spacer_3",
+    "v1_dc_indexer_R1_spacer_4",
+    "v1_dc_indexer_R1_end_-1_washer",
+    "v1_dc_indexer_R1_end_-1_screw",
+    "v1_dc_indexer_R1_end_1_washer",
+    "v1_dc_indexer_R1_end_1_screw",
+    "v1_dc_indexer_R2_spacer_0",
+    "v1_dc_indexer_R2_spacer_1",
+    "v1_dc_indexer_R2_spacer_2",
+    "v1_dc_indexer_R2_spacer_3",
+    "v1_dc_indexer_R2_spacer_4",
+    "v1_dc_indexer_R2_end_-1_washer",
+    "v1_dc_indexer_R2_end_-1_screw",
+    "v1_dc_indexer_R2_end_1_washer",
+    "v1_dc_indexer_R2_end_1_screw",
+    "deployment_deployment_stage_shaft",
+    "deployment_deployment_drive_mount",
+    "deployment_deployment_drive_X44",
+    "deployment_deployment_drive_output_bearing",
+    "deployment_deployment_drive_motor_screw_0",
+    "deployment_deployment_drive_motor_screw_1",
+    "deployment_deployment_drive_motor_screw_2",
+    "deployment_deployment_drive_12T",
+    "deployment_deployment_drive_60T",
+    "deployment_deployment_drive_pinion_spacer",
+    "deployment_deployment_drive_pinion_retention",
+    "deployment_deployment_drive_output_spacer",
+    "deployment_deployment_drive_output_end",
+    "pt_deployment_second_inner_keeper",
+    "pt_deployment_second_inner_keeper_screw_0",
+    "pt_deployment_second_inner_keeper_nut_0",
+    "pt_deployment_second_inner_keeper_screw_1",
+    "pt_deployment_second_inner_keeper_nut_1",
+    "pt_deployment_second_outer_keeper",
+    "pt_deployment_second_outer_keeper_screw_0",
+    "pt_deployment_second_outer_keeper_nut_0",
+    "pt_deployment_second_outer_keeper_screw_1",
+    "pt_deployment_second_outer_keeper_nut_1"
+  ],
+  "replaced_ids": [
+    {
+      "id": "pt_drive_pickup_mount",
+      "old_definition": "pt_drive_pickup_mount",
+      "new_definition": "pt_replacement_pt_drive_pickup_mount_0"
+    },
+    {
+      "id": "coaxial_frame_plate_1",
+      "old_definition": "coaxial_frame_plate",
+      "new_definition": "pt_replacement_coaxial_frame_plate_1_1"
+    },
+    {
+      "id": "coaxial_frame_plate_1",
+      "old_definition": "pt_replacement_coaxial_frame_plate_1_1",
+      "new_definition": "pt_replacement_coaxial_frame_plate_1_2"
+    },
+    {
+      "id": "v2_shaft_front",
+      "old_definition": "v2_roller_hex_shaft",
+      "new_definition": "pt_replacement_v2_shaft_front_3"
+    },
+    {
+      "id": "v2_shaft_middle",
+      "old_definition": "v2_roller_hex_shaft",
+      "new_definition": "pt_replacement_v2_shaft_middle_4"
+    },
+    {
+      "id": "v2_main_cheek_1",
+      "old_definition": "v2_main_cheek",
+      "new_definition": "pt_replacement_v2_main_cheek_1_5"
+    },
+    {
+      "id": "v2_main_cheek_1",
+      "old_definition": "pt_replacement_v2_main_cheek_1_5",
+      "new_definition": "pt_replacement_v2_main_cheek_1_6"
+    },
+    {
+      "id": "v2_shaft_kick",
+      "old_definition": "v2_roller_hex_shaft",
+      "new_definition": "pt_replacement_v2_shaft_kick_7"
+    },
+    {
+      "id": "v1_indexer_plate_L_247",
+      "old_definition": "v1_indexer_bank_plate_L",
+      "new_definition": "pt_replacement_v1_indexer_plate_L_247_8"
+    },
+    {
+      "id": "v1_indexer_plate_L_247",
+      "old_definition": "pt_replacement_v1_indexer_plate_L_247_8",
+      "new_definition": "pt_replacement_v1_indexer_plate_L_247_9"
+    },
+    {
+      "id": "v1_indexer_plate_L_247",
+      "old_definition": "pt_replacement_v1_indexer_plate_L_247_9",
+      "new_definition": "pt_replacement_v1_indexer_plate_L_247_10"
+    },
+    {
+      "id": "v1_indexer_plate_L_247",
+      "old_definition": "pt_replacement_v1_indexer_plate_L_247_10",
+      "new_definition": "pt_replacement_v1_indexer_plate_L_247_11"
+    },
+    {
+      "id": "v1_indexer_L0_shaft",
+      "old_definition": "v1_dc_indexer_shaft",
+      "new_definition": "pt_replacement_v1_indexer_L0_shaft_12"
+    },
+    {
+      "id": "v1_indexer_L1_shaft",
+      "old_definition": "v1_dc_indexer_shaft",
+      "new_definition": "pt_replacement_v1_indexer_L1_shaft_13"
+    },
+    {
+      "id": "v1_indexer_L2_shaft",
+      "old_definition": "v1_dc_indexer_shaft",
+      "new_definition": "pt_replacement_v1_indexer_L2_shaft_14"
+    },
+    {
+      "id": "v1_indexer_drive_L_mount",
+      "old_definition": "v1_indexer_drive_L_mount",
+      "new_definition": "pt_replacement_v1_indexer_drive_L_mount_15"
+    },
+    {
+      "id": "v1_indexer_plate_L_114",
+      "old_definition": "v1_indexer_bank_plate_L",
+      "new_definition": "pt_replacement_v1_indexer_plate_L_114_16"
+    },
+    {
+      "id": "v1_indexer_plate_R_247",
+      "old_definition": "v1_indexer_bank_plate_R",
+      "new_definition": "pt_replacement_v1_indexer_plate_R_247_17"
+    },
+    {
+      "id": "v1_indexer_plate_R_247",
+      "old_definition": "pt_replacement_v1_indexer_plate_R_247_17",
+      "new_definition": "pt_replacement_v1_indexer_plate_R_247_18"
+    },
+    {
+      "id": "v1_indexer_plate_R_247",
+      "old_definition": "pt_replacement_v1_indexer_plate_R_247_18",
+      "new_definition": "pt_replacement_v1_indexer_plate_R_247_19"
+    },
+    {
+      "id": "v1_indexer_plate_R_247",
+      "old_definition": "pt_replacement_v1_indexer_plate_R_247_19",
+      "new_definition": "pt_replacement_v1_indexer_plate_R_247_20"
+    },
+    {
+      "id": "v1_indexer_R0_shaft",
+      "old_definition": "v1_dc_indexer_shaft",
+      "new_definition": "pt_replacement_v1_indexer_R0_shaft_21"
+    },
+    {
+      "id": "v1_indexer_R1_shaft",
+      "old_definition": "v1_dc_indexer_shaft",
+      "new_definition": "pt_replacement_v1_indexer_R1_shaft_22"
+    },
+    {
+      "id": "v1_indexer_R2_shaft",
+      "old_definition": "v1_dc_indexer_shaft",
+      "new_definition": "pt_replacement_v1_indexer_R2_shaft_23"
+    },
+    {
+      "id": "v1_indexer_drive_R_mount",
+      "old_definition": "v1_indexer_drive_R_mount",
+      "new_definition": "pt_replacement_v1_indexer_drive_R_mount_24"
+    },
+    {
+      "id": "v1_indexer_plate_R_114",
+      "old_definition": "v1_indexer_bank_plate_R",
+      "new_definition": "pt_replacement_v1_indexer_plate_R_114_25"
+    },
+    {
+      "id": "pt_deploy_deployment_mount",
+      "old_definition": "pt_deploy_deployment_mount",
+      "new_definition": "pt_replacement_pt_deploy_deployment_mount_26"
+    },
+    {
+      "id": "coaxial_frame_plate_-1",
+      "old_definition": "coaxial_frame_plate",
+      "new_definition": "pt_replacement_coaxial_frame_plate_-1_27"
+    },
+    {
+      "id": "v2_main_cheek_-1",
+      "old_definition": "v2_main_cheek",
+      "new_definition": "pt_replacement_v2_main_cheek_-1_28"
+    },
+    {
+      "id": "pt_deploy_deployment_mount",
+      "old_definition": "pt_replacement_pt_deploy_deployment_mount_26",
+      "new_definition": "pt_replacement_pt_deploy_deployment_mount_29"
+    },
+    {
+      "id": "pt_deployment_outer_plate",
+      "old_definition": "pt_deployment_outer_plate",
+      "new_definition": "pt_replacement_pt_deployment_outer_plate_30"
+    }
+  ],
+  "stacks": [
+    {
+      "id": "pickup_stage",
+      "shaft_id": "pt_pickup_stage_shaft",
+      "ends_mm": [
+        257,
+        310
+      ],
+      "occupied": [
+        [
+          259.65,
+          267.5875,
+          "pt_drive_pickup_output_bearing"
+        ],
+        [
+          268.75665,
+          281.40585,
+          "pt_drive_pickup_60T"
+        ],
+        [
+          281.85625,
+          296.14375,
+          "pt_pickup_18T"
+        ],
+        [
+          298.4125,
+          306.35,
+          "pt_pickup_outer_bearing"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_pickup_stage_spacer_0",
+        "pt_pickup_stage_spacer_1",
+        "pt_pickup_stage_spacer_2",
+        "pt_pickup_stage_spacer_3",
+        "pt_pickup_stage_spacer_4"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "front_negative_extension",
+      "shaft_id": "v2_shaft_front",
+      "ends_mm": [
+        -264,
+        -242
+      ],
+      "occupied": [
+        [
+          -260.14375,
+          -245.85625,
+          "pt_front_middle_front"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_front_negative_extension_spacer_0",
+        "pt_front_negative_extension_spacer_1"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false,
+      "partial_stack": true,
+      "positive_end": "Existing +250 retained",
+      "interface_end_mm": -241.5875
+    },
+    {
+      "id": "middle_negative_extension",
+      "shaft_id": "v2_shaft_middle",
+      "ends_mm": [
+        -282,
+        -242
+      ],
+      "occupied": [
+        [
+          -278.14375,
+          -263.85625,
+          "pt_rear_middle_middle"
+        ],
+        [
+          -260.14375,
+          -245.85625,
+          "pt_front_middle_middle"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_middle_negative_extension_spacer_0",
+        "pt_middle_negative_extension_spacer_1",
+        "pt_middle_negative_extension_spacer_2"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false,
+      "partial_stack": true,
+      "positive_end": "Existing +250 retained",
+      "interface_end_mm": -241.5875
+    },
+    {
+      "id": "reverse",
+      "shaft_id": "pt_reverse_shaft",
+      "ends_mm": [
+        231,
+        294
+      ],
+      "occupied": [
+        [
+          233.65,
+          241.5875,
+          "pt_reverse_inner_bearing"
+        ],
+        [
+          244.67539999999997,
+          257.3246,
+          "pt_reverse_60T"
+        ],
+        [
+          261.85625,
+          276.14375,
+          "pt_reverse_36T"
+        ],
+        [
+          281.4125,
+          289.35,
+          "pt_reverse_outer_bearing"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_reverse_spacer_0",
+        "pt_reverse_spacer_1",
+        "pt_reverse_spacer_2",
+        "pt_reverse_spacer_3",
+        "pt_reverse_spacer_4"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "kick_positive_extension",
+      "shaft_id": "v2_shaft_kick",
+      "ends_mm": [
+        229.5875,
+        282
+      ],
+      "occupied": [
+        [
+          261.85625,
+          276.14375,
+          "pt_kick_15T"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_kick_positive_extension_spacer_0",
+        "pt_kick_positive_extension_spacer_1"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false,
+      "partial_stack": true,
+      "negative_end": "Existing -250 retained"
+    },
+    {
+      "id": "rear_bridge_1",
+      "shaft_id": "v2_shaft_rear",
+      "ends_mm": [
+        229.5875,
+        306.65
+      ],
+      "occupied": [
+        [
+          244.67539999999997,
+          257.3246,
+          "pt_rear_reverse_60T"
+        ],
+        [
+          281.85625,
+          296.14375,
+          "pt_rear_36T"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_rear_bridge_1_spacer_0",
+        "pt_rear_bridge_1_spacer_1",
+        "pt_rear_bridge_1_spacer_2"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false,
+      "partial_stack": true,
+      "retained_end_hardware": true
+    },
+    {
+      "id": "rear_bridge_-1",
+      "shaft_id": "v2_shaft_rear",
+      "ends_mm": [
+        -306.65,
+        -229.5875
+      ],
+      "occupied": [
+        [
+          -278.14375,
+          -263.85625,
+          "pt_rear_middle_rear"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_rear_bridge_-1_spacer_0",
+        "pt_rear_bridge_-1_spacer_1"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false,
+      "partial_stack": true,
+      "retained_end_hardware": true
+    },
+    {
+      "id": "indexer_L_0_idler",
+      "shaft_id": "pt_indexer_L_0_idler_shaft",
+      "ends_mm": [
+        273.15,
+        329.15
+      ],
+      "occupied": [
+        [
+          277.79999999999995,
+          285.73749999999995,
+          "pt_indexer_L_0_idler_lower_bearing"
+        ],
+        [
+          294.00624999999997,
+          308.29375,
+          "pt_indexer_L_0_idler_18T"
+        ],
+        [
+          316.5625,
+          324.5,
+          "pt_indexer_L_0_idler_upper_bearing"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_L_0_idler_spacer_0",
+        "pt_indexer_L_0_idler_spacer_1",
+        "pt_indexer_L_0_idler_spacer_2",
+        "pt_indexer_L_0_idler_spacer_3"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_L_1_idler",
+      "shaft_id": "pt_indexer_L_1_idler_shaft",
+      "ends_mm": [
+        291.15,
+        347.15
+      ],
+      "occupied": [
+        [
+          295.79999999999995,
+          303.73749999999995,
+          "pt_indexer_L_1_idler_lower_bearing"
+        ],
+        [
+          312.00624999999997,
+          326.29375,
+          "pt_indexer_L_1_idler_18T"
+        ],
+        [
+          334.5625,
+          342.5,
+          "pt_indexer_L_1_idler_upper_bearing"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_L_1_idler_spacer_0",
+        "pt_indexer_L_1_idler_spacer_1",
+        "pt_indexer_L_1_idler_spacer_2",
+        "pt_indexer_L_1_idler_spacer_3"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_L0",
+      "shaft_id": "v1_indexer_L0_shaft",
+      "ends_mm": [
+        123.15,
+        315.15
+      ],
+      "occupied": [
+        [
+          124.80000000000001,
+          132.7375,
+          "v1_indexer_drive_L_output_bearing"
+        ],
+        [
+          133.90664999999998,
+          146.55585,
+          "v1_indexer_drive_L_60T"
+        ],
+        [
+          151.8,
+          159.7375,
+          "v1_indexer_L0_lower"
+        ],
+        [
+          173.05,
+          198.45,
+          "v1_indexer_L0_wheel_0"
+        ],
+        [
+          198.45000000000002,
+          223.85,
+          "v1_indexer_L0_wheel_1"
+        ],
+        [
+          223.85000000000002,
+          249.25,
+          "v1_indexer_L0_wheel_2"
+        ],
+        [
+          283.5625,
+          291.5,
+          "v1_indexer_L0_upper"
+        ],
+        [
+          294.00624999999997,
+          308.29375,
+          "pt_indexer_L_0_station_0"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_L0_spacer_0",
+        "pt_indexer_L0_spacer_1",
+        "pt_indexer_L0_spacer_2",
+        "pt_indexer_L0_spacer_3",
+        "pt_indexer_L0_spacer_6",
+        "pt_indexer_L0_spacer_7",
+        "pt_indexer_L0_spacer_8"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_L1",
+      "shaft_id": "v1_indexer_L1_shaft",
+      "ends_mm": [
+        123.15,
+        332.15
+      ],
+      "occupied": [
+        [
+          151.8,
+          159.7375,
+          "v1_indexer_L1_lower"
+        ],
+        [
+          173.05,
+          198.45,
+          "v1_indexer_L1_wheel_0"
+        ],
+        [
+          198.45000000000002,
+          223.85,
+          "v1_indexer_L1_wheel_1"
+        ],
+        [
+          223.85000000000002,
+          249.25,
+          "v1_indexer_L1_wheel_2"
+        ],
+        [
+          283.5625,
+          291.5,
+          "v1_indexer_L1_upper"
+        ],
+        [
+          294.00624999999997,
+          308.29375,
+          "pt_indexer_L_0_station_1"
+        ],
+        [
+          312.00624999999997,
+          326.29375,
+          "pt_indexer_L_1_station_1"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_L1_spacer_0",
+        "pt_indexer_L1_spacer_1",
+        "pt_indexer_L1_spacer_4",
+        "pt_indexer_L1_spacer_5",
+        "pt_indexer_L1_spacer_6",
+        "pt_indexer_L1_spacer_7"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_L2",
+      "shaft_id": "v1_indexer_L2_shaft",
+      "ends_mm": [
+        123.15,
+        332.15
+      ],
+      "occupied": [
+        [
+          151.8,
+          159.7375,
+          "v1_indexer_L2_lower"
+        ],
+        [
+          194.05,
+          219.45,
+          "v1_indexer_L2_wheel_0"
+        ],
+        [
+          219.45000000000002,
+          244.85,
+          "v1_indexer_L2_wheel_1"
+        ],
+        [
+          244.85000000000002,
+          270.25,
+          "v1_indexer_L2_wheel_2"
+        ],
+        [
+          283.5625,
+          291.5,
+          "v1_indexer_L2_upper"
+        ],
+        [
+          312.00624999999997,
+          326.29375,
+          "pt_indexer_L_1_station_2"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_L2_spacer_0",
+        "pt_indexer_L2_spacer_1",
+        "pt_indexer_L2_spacer_4",
+        "pt_indexer_L2_spacer_5",
+        "pt_indexer_L2_spacer_6"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_R_0_idler",
+      "shaft_id": "pt_indexer_R_0_idler_shaft",
+      "ends_mm": [
+        273.15,
+        329.15
+      ],
+      "occupied": [
+        [
+          277.79999999999995,
+          285.73749999999995,
+          "pt_indexer_R_0_idler_lower_bearing"
+        ],
+        [
+          294.00624999999997,
+          308.29375,
+          "pt_indexer_R_0_idler_18T"
+        ],
+        [
+          316.5625,
+          324.5,
+          "pt_indexer_R_0_idler_upper_bearing"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_R_0_idler_spacer_0",
+        "pt_indexer_R_0_idler_spacer_1",
+        "pt_indexer_R_0_idler_spacer_2",
+        "pt_indexer_R_0_idler_spacer_3"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_R_1_idler",
+      "shaft_id": "pt_indexer_R_1_idler_shaft",
+      "ends_mm": [
+        291.15,
+        347.15
+      ],
+      "occupied": [
+        [
+          295.79999999999995,
+          303.73749999999995,
+          "pt_indexer_R_1_idler_lower_bearing"
+        ],
+        [
+          312.00624999999997,
+          326.29375,
+          "pt_indexer_R_1_idler_18T"
+        ],
+        [
+          334.5625,
+          342.5,
+          "pt_indexer_R_1_idler_upper_bearing"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_R_1_idler_spacer_0",
+        "pt_indexer_R_1_idler_spacer_1",
+        "pt_indexer_R_1_idler_spacer_2",
+        "pt_indexer_R_1_idler_spacer_3"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_R0",
+      "shaft_id": "v1_indexer_R0_shaft",
+      "ends_mm": [
+        123.15,
+        315.15
+      ],
+      "occupied": [
+        [
+          124.80000000000001,
+          132.7375,
+          "v1_indexer_drive_R_output_bearing"
+        ],
+        [
+          133.90664999999998,
+          146.55585,
+          "v1_indexer_drive_R_60T"
+        ],
+        [
+          151.8,
+          159.7375,
+          "v1_indexer_R0_lower"
+        ],
+        [
+          173.05,
+          198.45,
+          "v1_indexer_R0_wheel_0"
+        ],
+        [
+          198.45000000000002,
+          223.85,
+          "v1_indexer_R0_wheel_1"
+        ],
+        [
+          223.85000000000002,
+          249.25,
+          "v1_indexer_R0_wheel_2"
+        ],
+        [
+          283.5625,
+          291.5,
+          "v1_indexer_R0_upper"
+        ],
+        [
+          294.00624999999997,
+          308.29375,
+          "pt_indexer_R_0_station_0"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_R0_spacer_0",
+        "pt_indexer_R0_spacer_1",
+        "pt_indexer_R0_spacer_2",
+        "pt_indexer_R0_spacer_3",
+        "pt_indexer_R0_spacer_6",
+        "pt_indexer_R0_spacer_7",
+        "pt_indexer_R0_spacer_8"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_R1",
+      "shaft_id": "v1_indexer_R1_shaft",
+      "ends_mm": [
+        123.15,
+        332.15
+      ],
+      "occupied": [
+        [
+          151.8,
+          159.7375,
+          "v1_indexer_R1_lower"
+        ],
+        [
+          173.05,
+          198.45,
+          "v1_indexer_R1_wheel_0"
+        ],
+        [
+          198.45000000000002,
+          223.85,
+          "v1_indexer_R1_wheel_1"
+        ],
+        [
+          223.85000000000002,
+          249.25,
+          "v1_indexer_R1_wheel_2"
+        ],
+        [
+          283.5625,
+          291.5,
+          "v1_indexer_R1_upper"
+        ],
+        [
+          294.00624999999997,
+          308.29375,
+          "pt_indexer_R_0_station_1"
+        ],
+        [
+          312.00624999999997,
+          326.29375,
+          "pt_indexer_R_1_station_1"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_R1_spacer_0",
+        "pt_indexer_R1_spacer_1",
+        "pt_indexer_R1_spacer_4",
+        "pt_indexer_R1_spacer_5",
+        "pt_indexer_R1_spacer_6",
+        "pt_indexer_R1_spacer_7"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "indexer_R2",
+      "shaft_id": "v1_indexer_R2_shaft",
+      "ends_mm": [
+        123.15,
+        332.15
+      ],
+      "occupied": [
+        [
+          151.8,
+          159.7375,
+          "v1_indexer_R2_lower"
+        ],
+        [
+          194.05,
+          219.45,
+          "v1_indexer_R2_wheel_0"
+        ],
+        [
+          219.45000000000002,
+          244.85,
+          "v1_indexer_R2_wheel_1"
+        ],
+        [
+          244.85000000000002,
+          270.25,
+          "v1_indexer_R2_wheel_2"
+        ],
+        [
+          283.5625,
+          291.5,
+          "v1_indexer_R2_upper"
+        ],
+        [
+          312.00624999999997,
+          326.29375,
+          "pt_indexer_R_1_station_2"
+        ]
+      ],
+      "axis": 2,
+      "spacers": [
+        "pt_indexer_R2_spacer_0",
+        "pt_indexer_R2_spacer_1",
+        "pt_indexer_R2_spacer_4",
+        "pt_indexer_R2_spacer_5",
+        "pt_indexer_R2_spacer_6"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "deployment_first",
+      "shaft_id": "pt_deployment_first_shaft",
+      "ends_mm": [
+        -302,
+        -227
+      ],
+      "occupied": [
+        [
+          -298.35,
+          -290.4125,
+          "pt_deploy_deployment_output_bearing"
+        ],
+        [
+          -289.24335,
+          -276.59415,
+          "pt_deploy_deployment_60T"
+        ],
+        [
+          -269.7625,
+          -260.2374999,
+          "pt_deployment_14T"
+        ],
+        [
+          -236.5875,
+          -228.65,
+          "pt_deployment_first_outer_bearing"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_deployment_first_spacer_0",
+        "pt_deployment_first_spacer_1",
+        "pt_deployment_first_spacer_2",
+        "pt_deployment_first_spacer_3",
+        "pt_deployment_first_spacer_4"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    },
+    {
+      "id": "deployment_second",
+      "shaft_id": "pt_deployment_second_shaft",
+      "ends_mm": [
+        -302,
+        -227
+      ],
+      "occupied": [
+        [
+          -298.35,
+          -290.4125,
+          "pt_deployment_second_inner_bearing"
+        ],
+        [
+          -269.7625,
+          -260.2374999,
+          "pt_deployment_36T"
+        ],
+        [
+          -253.7625,
+          -244.2374999,
+          "pt_deployment_16T"
+        ],
+        [
+          -236.5875,
+          -228.65,
+          "pt_deployment_second_outer_bearing"
+        ]
+      ],
+      "axis": 0,
+      "spacers": [
+        "pt_deployment_second_spacer_0",
+        "pt_deployment_second_spacer_1",
+        "pt_deployment_second_spacer_2",
+        "pt_deployment_second_spacer_3",
+        "pt_deployment_second_spacer_4"
+      ],
+      "end_float_mm": 0.2,
+      "thread_engagement_mm": 10,
+      "thread_drill_depth_mm": 14,
+      "fit_and_load_qualified": false
+    }
+  ],
+  "paths": [
+    {
+      "id": "pickup_reduction",
+      "instance": "pt_pickup_reduction",
+      "centers": [
+        [
+          -25.0,
+          241.4644014579964
+        ],
+        [
+          -25.0,
+          348.0
+        ]
+      ],
+      "teeth": [
+        18,
+        36
+      ],
+      "axial_mm": 289,
+      "axis": 0,
+      "motion": "fixed",
+      "pitch_mm": 5,
+      "length_mm": 350.0,
+      "pitch_count": 70.0,
+      "sku": "WCP-0619",
+      "wrap_deg": [
+        164.54611184288945,
+        195.45388815711055
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "front_middle",
+      "instance": "pt_front_middle",
+      "centers": [
+        [
+          -177.6302722267113,
+          321.0
+        ],
+        [
+          -269.14529831532695,
+          166.0
+        ]
+      ],
+      "teeth": [
+        18,
+        18
+      ],
+      "axial_mm": -253,
+      "axis": 0,
+      "motion": "float",
+      "pitch_mm": 5,
+      "length_mm": 450.0,
+      "pitch_count": 90.0,
+      "sku": "WCP-0623",
+      "wrap_deg": [
+        180.0,
+        180.0
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "rear_middle",
+      "instance": "pt_rear_middle",
+      "centers": [
+        [
+          -25.0,
+          348.0
+        ],
+        [
+          -177.6302722267113,
+          321.0
+        ]
+      ],
+      "teeth": [
+        18,
+        18
+      ],
+      "axial_mm": -271,
+      "axis": 0,
+      "motion": "fold",
+      "pitch_mm": 5,
+      "length_mm": 400.0,
+      "pitch_count": 80.0,
+      "sku": "WCP-0621",
+      "wrap_deg": [
+        180.0,
+        180.0
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "reverse_kicker",
+      "instance": "pt_reverse_kicker",
+      "centers": [
+        [
+          -95.26116924459106,
+          318.50749084287787
+        ],
+        [
+          -122.0,
+          34.0
+        ]
+      ],
+      "teeth": [
+        36,
+        15
+      ],
+      "axial_mm": 269,
+      "axis": 0,
+      "motion": "fold",
+      "pitch_mm": 5,
+      "length_mm": 700.0000000000002,
+      "pitch_count": 140.00000000000006,
+      "sku": "WCP-0634",
+      "wrap_deg": [
+        186.7051208779166,
+        173.2948791220834
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "indexer_L_0",
+      "instance": "pt_indexer_L_0",
+      "centers": [
+        [
+          -172.5,
+          74
+        ],
+        [
+          -118.70504965494771,
+          114.95315373550214
+        ],
+        [
+          -110,
+          182
+        ]
+      ],
+      "teeth": [
+        18,
+        18,
+        18
+      ],
+      "axial_mm": 301.15,
+      "axis": 2,
+      "motion": "fixed",
+      "pitch_mm": 5,
+      "length_mm": 350.0,
+      "pitch_count": 70.0,
+      "sku": "WCP-0619",
+      "wrap_deg": [
+        157.33950856325887,
+        45.320982873482286,
+        157.33950856325885
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "indexer_L_1",
+      "instance": "pt_indexer_L_1",
+      "centers": [
+        [
+          -110,
+          182
+        ],
+        [
+          -72.11337991498667,
+          230.1419221084058
+        ],
+        [
+          -92.25,
+          288
+        ]
+      ],
+      "teeth": [
+        18,
+        18,
+        18
+      ],
+      "axial_mm": 319.15,
+      "axis": 2,
+      "motion": "fixed",
+      "pitch_mm": 5,
+      "length_mm": 320.0,
+      "pitch_count": 64.0,
+      "sku": "WCP-1757",
+      "wrap_deg": [
+        151.30418580184653,
+        57.39162839630693,
+        151.30418580184653
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "indexer_R_0",
+      "instance": "pt_indexer_R_0",
+      "centers": [
+        [
+          172.5,
+          74
+        ],
+        [
+          163.79495034505229,
+          141.04684626449784
+        ],
+        [
+          110,
+          182
+        ]
+      ],
+      "teeth": [
+        18,
+        18,
+        18
+      ],
+      "axial_mm": 301.15,
+      "axis": 2,
+      "motion": "fixed",
+      "pitch_mm": 5,
+      "length_mm": 350.0,
+      "pitch_count": 70.0,
+      "sku": "WCP-0619",
+      "wrap_deg": [
+        157.33950856325885,
+        45.320982873482265,
+        157.33950856325887
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "indexer_R_1",
+      "instance": "pt_indexer_R_1",
+      "centers": [
+        [
+          110,
+          182
+        ],
+        [
+          130.13662008501333,
+          239.8580778915942
+        ],
+        [
+          92.25,
+          288
+        ]
+      ],
+      "teeth": [
+        18,
+        18,
+        18
+      ],
+      "axial_mm": 319.15,
+      "axis": 2,
+      "motion": "fixed",
+      "pitch_mm": 5,
+      "length_mm": 320.0,
+      "pitch_count": 64.0,
+      "sku": "WCP-1757",
+      "wrap_deg": [
+        151.30418580184656,
+        57.39162839630693,
+        151.30418580184653
+      ],
+      "geometry_closed": true,
+      "load_qualified": false,
+      "nominal_backing_only": true
+    },
+    {
+      "id": "deployment_intermediate_chain",
+      "instance": "pt_deployment_intermediate_chain",
+      "pitch_mm": 6.35,
+      "links": 56,
+      "pitch_points": [
+        [
+          119.94754286615957,
+          248.99136838209057
+        ],
+        [
+          122.70270460955605,
+          243.2702160709102
+        ],
+        [
+          127.66733452322805,
+          239.31105582910726
+        ],
+        [
+          133.85812676558263,
+          237.89804789848466
+        ],
+        [
+          140.0489190079372,
+          239.31105582910726
+        ],
+        [
+          145.01354892160919,
+          243.2702160709102
+        ],
+        [
+          147.7687106650057,
+          248.99136838209057
+        ],
+        [
+          149.23304511094776,
+          255.17022140109236
+        ],
+        [
+          150.69737955688984,
+          261.34907442009415
+        ],
+        [
+          152.1617140028319,
+          267.52792743909595
+        ],
+        [
+          153.626048448774,
+          273.70678045809774
+        ],
+        [
+          155.09038289471607,
+          279.88563347709953
+        ],
+        [
+          156.55471734065813,
+          286.0644864961013
+        ],
+        [
+          158.0190517866002,
+          292.2433395151031
+        ],
+        [
+          159.48338623254227,
+          298.4221925341049
+        ],
+        [
+          160.94772067848436,
+          304.6010455531067
+        ],
+        [
+          162.41205512442642,
+          310.77989857210844
+        ],
+        [
+          163.8763895703685,
+          316.9587515911103
+        ],
+        [
+          165.34072401631056,
+          323.137604610112
+        ],
+        [
+          166.80505846225265,
+          329.3164576291138
+        ],
+        [
+          168.26939290819473,
+          335.4953106481156
+        ],
+        [
+          169.7337273541368,
+          341.6741636671174
+        ],
+        [
+          170.28716632058442,
+          348.0
+        ],
+        [
+          169.7337273541368,
+          354.3258363328826
+        ],
+        [
+          168.09022641773578,
+          360.45946532981816
+        ],
+        [
+          165.40660045568234,
+          366.21451977750087
+        ],
+        [
+          161.7643900848532,
+          371.416135258736
+        ],
+        [
+          157.27426202431863,
+          375.9062633192706
+        ],
+        [
+          152.07264654308352,
+          379.54847369009974
+        ],
+        [
+          146.31759209540078,
+          382.2320996521531
+        ],
+        [
+          140.1839630984652,
+          383.87560058855416
+        ],
+        [
+          133.85812676558263,
+          384.4290395550018
+        ],
+        [
+          127.53229043270005,
+          383.87560058855416
+        ],
+        [
+          121.39866143576447,
+          382.2320996521531
+        ],
+        [
+          115.64360698808173,
+          379.54847369009974
+        ],
+        [
+          110.44199150684663,
+          375.9062633192706
+        ],
+        [
+          105.95186344631206,
+          371.416135258736
+        ],
+        [
+          102.30965307548291,
+          366.21451977750087
+        ],
+        [
+          99.62602711342947,
+          360.45946532981816
+        ],
+        [
+          97.98252617702846,
+          354.3258363328826
+        ],
+        [
+          97.42908721058083,
+          348.0
+        ],
+        [
+          97.98252617702846,
+          341.6741636671174
+        ],
+        [
+          99.44686062297053,
+          335.4953106481156
+        ],
+        [
+          100.9111950689126,
+          329.31645762911387
+        ],
+        [
+          102.37552951485468,
+          323.137604610112
+        ],
+        [
+          103.83986396079675,
+          316.9587515911103
+        ],
+        [
+          105.30419840673883,
+          310.77989857210844
+        ],
+        [
+          106.76853285268089,
+          304.6010455531067
+        ],
+        [
+          108.23286729862298,
+          298.4221925341049
+        ],
+        [
+          109.69720174456505,
+          292.2433395151031
+        ],
+        [
+          111.16153619050712,
+          286.0644864961013
+        ],
+        [
+          112.62587063644919,
+          279.88563347709953
+        ],
+        [
+          114.09020508239126,
+          273.70678045809774
+        ],
+        [
+          115.55453952833334,
+          267.52792743909595
+        ],
+        [
+          117.01887397427541,
+          261.34907442009415
+        ],
+        [
+          118.4832084202175,
+          255.17022140109236
+        ]
+      ],
+      "centers": [
+        [
+          133.85812676558263,
+          252.16636838209058
+        ],
+        [
+          133.85812676558263,
+          348.0
+        ]
+      ],
+      "axial_mm": -265,
+      "geometry_closed": true,
+      "actual_chord_pitch": true,
+      "tooth_seating_qualified": false,
+      "load_qualified": false
+    },
+    {
+      "id": "deployment_final_chain",
+      "instance": "pt_deployment_final_chain",
+      "pitch_mm": 6.35,
+      "links": 90,
+      "pitch_points": [
+        [
+          137.03312676558264,
+          332.0381971125004
+        ],
+        [
+          142.8997617970293,
+          334.46823690801875
+        ],
+        [
+          147.38988985756387,
+          338.9583649685533
+        ],
+        [
+          149.8199296530822,
+          344.825
+        ],
+        [
+          149.8199296530822,
+          351.175
+        ],
+        [
+          147.38988985756387,
+          357.0416350314467
+        ],
+        [
+          142.8997617970293,
+          361.53176309198125
+        ],
+        [
+          137.03312676558264,
+          363.9618028874996
+        ],
+        [
+          130.93141025638286,
+          365.7200849016711
+        ],
+        [
+          124.8296937471831,
+          367.47836691584257
+        ],
+        [
+          118.72797723798334,
+          369.2366489300141
+        ],
+        [
+          112.62626072878358,
+          370.9949309441856
+        ],
+        [
+          106.52454421958382,
+          372.75321295835715
+        ],
+        [
+          100.42282771038404,
+          374.5114949725287
+        ],
+        [
+          94.32111120118428,
+          376.2697769867002
+        ],
+        [
+          88.21939469198452,
+          378.0280590008717
+        ],
+        [
+          82.11767818278476,
+          379.7863410150432
+        ],
+        [
+          76.015961673585,
+          381.54462302921473
+        ],
+        [
+          69.91424516438522,
+          383.30290504338626
+        ],
+        [
+          63.81252865518548,
+          385.0611870575578
+        ],
+        [
+          57.71081214598572,
+          386.81946907172926
+        ],
+        [
+          51.609095636785945,
+          388.5777510859008
+        ],
+        [
+          45.507379127586184,
+          390.3360331000723
+        ],
+        [
+          39.40566261838642,
+          392.09431511424384
+        ],
+        [
+          33.30394610918666,
+          393.85259712841537
+        ],
+        [
+          27.2022295999869,
+          395.6108791425869
+        ],
+        [
+          21.100513090787125,
+          397.36916115675837
+        ],
+        [
+          14.998796581587364,
+          399.1274431709299
+        ],
+        [
+          8.897080072387617,
+          400.8857251851014
+        ],
+        [
+          2.7953635631878124,
+          402.64400719927295
+        ],
+        [
+          -3.306352946011934,
+          404.4022892134444
+        ],
+        [
+          -9.408069455211681,
+          406.16057122761595
+        ],
+        [
+          -15.509785964411456,
+          407.9188532417875
+        ],
+        [
+          -21.82499999999998,
+          408.58260898353706
+        ],
+        [
+          -28.175000000000004,
+          408.58260898353706
+        ],
+        [
+          -34.49021403558853,
+          407.9188532417875
+        ],
+        [
+          -40.7014513002482,
+          406.5986140050947
+        ],
+        [
+          -46.74066017872243,
+          404.63635609081376
+        ],
+        [
+          -52.541673834752935,
+          402.05357840728243
+        ],
+        [
+          -58.040935148784136,
+          398.8785784072825
+        ],
+        [
+          -63.17819306306503,
+          395.14614205522525
+        ],
+        [
+          -67.8971627048465,
+          390.8971627048465
+        ],
+        [
+          -72.14614205522525,
+          386.17819306306507
+        ],
+        [
+          -75.87857840728245,
+          381.0409351487841
+        ],
+        [
+          -79.05357840728246,
+          375.54167383475294
+        ],
+        [
+          -81.63635609081379,
+          369.7406601787224
+        ],
+        [
+          -83.5986140050947,
+          363.7014513002482
+        ],
+        [
+          -84.91885324178747,
+          357.49021403558856
+        ],
+        [
+          -85.58260898353709,
+          351.175
+        ],
+        [
+          -85.58260898353709,
+          344.825
+        ],
+        [
+          -84.91885324178747,
+          338.50978596441144
+        ],
+        [
+          -83.5986140050947,
+          332.2985486997518
+        ],
+        [
+          -81.63635609081379,
+          326.2593398212776
+        ],
+        [
+          -79.05357840728246,
+          320.45832616524706
+        ],
+        [
+          -75.87857840728245,
+          314.9590648512159
+        ],
+        [
+          -72.14614205522525,
+          309.821806936935
+        ],
+        [
+          -67.8971627048465,
+          305.1028372951535
+        ],
+        [
+          -63.178193063065045,
+          300.85385794477475
+        ],
+        [
+          -58.04093514878412,
+          297.1214215927175
+        ],
+        [
+          -52.54167383475295,
+          293.94642159271757
+        ],
+        [
+          -46.74066017872244,
+          291.36364390918624
+        ],
+        [
+          -40.70145130024819,
+          289.4013859949053
+        ],
+        [
+          -34.49021403558857,
+          288.0811467582125
+        ],
+        [
+          -28.17500000000002,
+          287.41739101646294
+        ],
+        [
+          -21.825000000000024,
+          287.41739101646294
+        ],
+        [
+          -15.50978596441147,
+          288.0811467582125
+        ],
+        [
+          -9.408069455211695,
+          289.83942877238405
+        ],
+        [
+          -3.3063529460119483,
+          291.5977107865556
+        ],
+        [
+          2.7953635631878275,
+          293.35599280072705
+        ],
+        [
+          8.897080072387588,
+          295.1142748148986
+        ],
+        [
+          14.99879658158735,
+          296.8725568290701
+        ],
+        [
+          21.10051309078711,
+          298.63083884324163
+        ],
+        [
+          27.20222959998687,
+          300.3891208574131
+        ],
+        [
+          33.30394610918665,
+          302.14740287158463
+        ],
+        [
+          39.405662618386394,
+          303.90568488575616
+        ],
+        [
+          45.50737912758617,
+          305.6639668999277
+        ],
+        [
+          51.609095636785945,
+          307.4222489140992
+        ],
+        [
+          57.71081214598569,
+          309.18053092827074
+        ],
+        [
+          63.81252865518545,
+          310.9388129424422
+        ],
+        [
+          69.91424516438524,
+          312.69709495661374
+        ],
+        [
+          76.015961673585,
+          314.45537697078527
+        ],
+        [
+          82.11767818278476,
+          316.2136589849568
+        ],
+        [
+          88.21939469198452,
+          317.9719409991283
+        ],
+        [
+          94.32111120118428,
+          319.7302230132998
+        ],
+        [
+          100.42282771038406,
+          321.4885050274713
+        ],
+        [
+          106.52454421958382,
+          323.24678704164285
+        ],
+        [
+          112.62626072878356,
+          325.0050690558144
+        ],
+        [
+          118.72797723798337,
+          326.7633510699859
+        ],
+        [
+          124.82969374718311,
+          328.52163308415743
+        ],
+        [
+          130.93141025638286,
+          330.2799150983289
+        ]
+      ],
+      "centers": [
+        [
+          133.85812676558263,
+          348.0
+        ],
+        [
+          -25.0,
+          348.0
+        ]
+      ],
+      "axial_mm": -249,
+      "geometry_closed": true,
+      "actual_chord_pitch": true,
+      "tooth_seating_qualified": false,
+      "load_qualified": false
+    }
+  ],
+  "supports": [
+    {
+      "id": "pickup_stage",
+      "bearings": [
+        "pt_drive_pickup_output_bearing",
+        "pt_pickup_outer_bearing"
+      ],
+      "spacing_mm": 34
+    },
+    {
+      "id": "reverse",
+      "bearings": [
+        "pt_reverse_inner_bearing",
+        "pt_reverse_outer_bearing"
+      ],
+      "spacing_mm": 43,
+      "center_yz": [
+        -95.26116924459106,
+        318.50749084287787
+      ],
+      "carrier_motion": "fold",
+      "gear_center_mm": 76.2
+    },
+    {
+      "id": "indexer_L_0_idler",
+      "bearings": [
+        "pt_indexer_L_0_idler_lower_bearing",
+        "pt_indexer_L_0_idler_upper_bearing"
+      ],
+      "spacing_mm": 34,
+      "adjustment_slots_mm": [
+        [
+          [
+            -135.8270737653902,
+            91.35577484797682
+          ],
+          [
+            -130.6339674590168,
+            88.35050499475147
+          ]
+        ],
+        [
+          [
+            -106.77613185087861,
+            141.5558024762528
+          ],
+          [
+            -101.58302554450523,
+            138.55053262302746
+          ]
+        ]
+      ],
+      "travel_mm": 6,
+      "parent": "v1_indexer_plate_L_247"
+    },
+    {
+      "id": "indexer_L_1_idler",
+      "bearings": [
+        "pt_indexer_L_1_idler_lower_bearing",
+        "pt_indexer_L_1_idler_upper_bearing"
+      ],
+      "spacing_mm": 34,
+      "adjustment_slots_mm": [
+        [
+          [
+            -79.8616307992772,
+            202.03561306160827
+          ],
+          [
+            -73.94402339920661,
+            201.044692954521
+          ]
+        ],
+        [
+          [
+            -70.28273643076672,
+            259.2391512622906
+          ],
+          [
+            -64.36512903069614,
+            258.2482311552033
+          ]
+        ]
+      ],
+      "travel_mm": 6,
+      "parent": "v1_indexer_plate_L_247"
+    },
+    {
+      "id": "indexer_R_0_idler",
+      "bearings": [
+        "pt_indexer_R_0_idler_lower_bearing",
+        "pt_indexer_R_0_idler_upper_bearing"
+      ],
+      "spacing_mm": 34,
+      "adjustment_slots_mm": [
+        [
+          [
+            175.72386814912136,
+            114.44419752374716
+          ],
+          [
+            180.91697445549477,
+            117.4494673769725
+          ]
+        ],
+        [
+          [
+            146.6729262346098,
+            164.64422515202318
+          ],
+          [
+            151.8660325409832,
+            167.64949500524853
+          ]
+        ]
+      ],
+      "travel_mm": 6,
+      "parent": "v1_indexer_plate_R_247"
+    },
+    {
+      "id": "indexer_R_1_idler",
+      "bearings": [
+        "pt_indexer_R_1_idler_lower_bearing",
+        "pt_indexer_R_1_idler_upper_bearing"
+      ],
+      "spacing_mm": 34,
+      "adjustment_slots_mm": [
+        [
+          [
+            131.96726356923327,
+            210.7608487377094
+          ],
+          [
+            137.88487096930388,
+            211.7517688447967
+          ]
+        ],
+        [
+          [
+            122.3883692007228,
+            267.9643869383917
+          ],
+          [
+            128.3059766007934,
+            268.955307045479
+          ]
+        ]
+      ],
+      "travel_mm": 6,
+      "parent": "v1_indexer_plate_R_247"
+    },
+    {
+      "id": "deployment_first",
+      "bearings": [
+        "pt_deploy_deployment_output_bearing",
+        "pt_deployment_first_outer_bearing"
+      ],
+      "spacing_mm": 57
+    },
+    {
+      "id": "deployment_second",
+      "bearings": [
+        "pt_deployment_second_inner_bearing",
+        "pt_deployment_second_outer_bearing"
+      ],
+      "spacing_mm": 57
+    }
+  ],
+  "attachments": [
+    {
+      "id": "pickup_to_frame",
+      "parent": "coaxial_frame_plate_1",
+      "holes": [
+        [
+          -52.0,
+          191.4644014579964
+        ],
+        [
+          2.0,
+          191.4644014579964
+        ],
+        [
+          2.0,
+          291.46440145799636
+        ],
+        [
+          -52.0,
+          291.46440145799636
+        ]
+      ],
+      "through_bolts": 4,
+      "takeup_slots_mm": [
+        [
+          [
+            -52.0,
+            189.4644014579964
+          ],
+          [
+            -52.0,
+            193.4644014579964
+          ]
+        ],
+        [
+          [
+            2.0,
+            189.4644014579964
+          ],
+          [
+            2.0,
+            193.4644014579964
+          ]
+        ],
+        [
+          [
+            2.0,
+            289.46440145799636
+          ],
+          [
+            2.0,
+            293.46440145799636
+          ]
+        ],
+        [
+          [
+            -52.0,
+            289.46440145799636
+          ],
+          [
+            -52.0,
+            293.46440145799636
+          ]
+        ]
+      ],
+      "travel_mm": 4
+    },
+    {
+      "id": "reverse_to_cheek",
+      "parent": "v2_main_cheek_1",
+      "holes": [
+        [
+          -40.0,
+          293.0
+        ],
+        [
+          5.0,
+          303.0
+        ],
+        [
+          5.0,
+          393.0
+        ],
+        [
+          -55.0,
+          393.0
+        ]
+      ],
+      "through_bolts": 4,
+      "carrier_adjustment_deg": [
+        -1,
+        1
+      ],
+      "takeup_slots_mm": [
+        [
+          [
+            -40.95759778139646,
+            293.27016286295776
+          ],
+          [
+            -39.037833073295275,
+            292.74659066983924
+          ]
+        ],
+        [
+          [
+            4.210072565013979,
+            302.48328152484385
+          ],
+          [
+            5.7807891443694945,
+            303.5304259110809
+          ]
+        ],
+        [
+          [
+            5.7807891443694945,
+            392.4695740889191
+          ],
+          [
+            4.210072565013979,
+            393.51671847515615
+          ]
+        ],
+        [
+          [
+            -54.210072565013974,
+            393.51671847515615
+          ],
+          [
+            -55.78078914436949,
+            392.4695740889191
+          ]
+        ]
+      ],
+      "setup": "Gauge 76.2 mm centers while clamping; chord slots approximate angular travel, no automatic gear-center constraint"
+    },
+    {
+      "id": "indexer_L_motor_support",
+      "parent": "v1_indexer_plate_L_114",
+      "holes": [
+        [
+          -200.5,
+          34
+        ],
+        [
+          -144.5,
+          34
+        ],
+        [
+          -144.5,
+          114
+        ],
+        [
+          -200.5,
+          114
+        ]
+      ],
+      "through_bolts": 4,
+      "chassis_interface": "Parent raised-deck structure still required"
+    },
+    {
+      "id": "indexer_R_motor_support",
+      "parent": "v1_indexer_plate_R_114",
+      "holes": [
+        [
+          144.5,
+          34
+        ],
+        [
+          200.5,
+          34
+        ],
+        [
+          200.5,
+          114
+        ],
+        [
+          144.5,
+          114
+        ]
+      ],
+      "through_bolts": 4,
+      "chassis_interface": "Parent raised-deck structure still required"
+    },
+    {
+      "id": "independent_deployment_flange",
+      "parent": "v2_main_cheek_-1",
+      "center_yz": [
+        -25.0,
+        348.0
+      ],
+      "bore_mm": 36,
+      "keyed_to_rear_shaft": false,
+      "source_plate_sku": "WCP-0970",
+      "source_hole_centers_mm": [
+        [
+          21.997045256124725,
+          12.700000000000024
+        ],
+        [
+          -8.868362600661559e-14,
+          25.4
+        ],
+        [
+          -21.997045256124814,
+          12.699999999999871
+        ],
+        [
+          -21.997045256124636,
+          -12.70000000000018
+        ],
+        [
+          2.6605087801984675e-13,
+          -25.4
+        ],
+        [
+          21.997045256124903,
+          -12.699999999999715
+        ]
+      ],
+      "plate_screws": "6 x #10-32 UNF x19.05",
+      "cheek_bolts": 4,
+      "cheek_threads": "M5x25 into adapter, nominal 7.5 mm engagement, 1.5 mm tip-to-sprocket clearance",
+      "bolt_circle_mm": 50.8,
+      "documented_pattern": true,
+      "drawing_sha256": "d253b12e835ec3c2e306b3e167298539ebc2cc7c0991ba14bd69dd34532ba53c",
+      "remaining": "Pattern documented and source passages tested; fits, tolerances, bolt preload and strength not released"
+    },
+    {
+      "id": "deployment_chain_adjustment",
+      "type": "paired_clamped_eccentric_bearing_cartridges",
+      "bearing_center": [
+        133.85812676558263,
+        348.0
+      ],
+      "socket_center": [
+        132.35812676558263,
+        348.0
+      ],
+      "eccentricity_mm": 1.5,
+      "travel_diameter_mm": 3,
+      "setting": "Set both eccentrics to identical angle, gauge both chain tensions; pretension/load not approved"
+    },
+    {
+      "id": "deployment_to_frame",
+      "parent": "coaxial_frame_plate_-1",
+      "holes": [
+        [
+          93.85812676558263,
+          200.16636838209058
+        ],
+        [
+          173.85812676558263,
+          200.16636838209058
+        ],
+        [
+          188.85812676558263,
+          383.0
+        ],
+        [
+          103.85812676558263,
+          383.0
+        ]
+      ],
+      "through_bolts": 4
+    }
+  ],
+  "source_datums": {
+    "WCP-0563": {
+      "bounds_mm": [
+        -15.999999999999995,
+        -15.999999999999996,
+        -7.14375,
+        15.999999999999996,
+        15.999999999999996,
+        7.14375
+      ],
+      "clock_deg": 29.999999999999993,
+      "bore_plane_count": 6,
+      "sha256": "f537a2e5fea069da3cfcc9be17409326d0f7fe232a18eb05bb4bc1f392e11938"
+    },
+    "WCP-0990": {
+      "bounds_mm": [
+        -29.999999999999993,
+        -29.999999999999993,
+        -7.14375,
+        29.999999999999993,
+        29.999999999999996,
+        7.14375
+      ],
+      "clock_deg": 29.99999999999998,
+      "bore_plane_count": 6,
+      "sha256": "6d57ec6ca06fa09f3af922544d2f2dce5650aca5079bbe964c2003a3de976653"
+    },
+    "WCP-1420": {
+      "bounds_mm": [
+        -14.0,
+        -14.000000000000002,
+        -7.14375,
+        14.000000000000004,
+        13.999999999999998,
+        7.14375
+      ],
+      "clock_deg": 29.999999999999986,
+      "bore_plane_count": 6,
+      "sha256": "a43ae99000286d02e2e67b4c0647e1c1cc54e784a6563f22d8c41c6f59acada9"
+    },
+    "WCP-0577": {
+      "bounds_mm": [
+        -15.802035948713796,
+        -15.708940080895655,
+        -4.7625,
+        15.802035948713792,
+        15.70894008089566,
+        4.762500100000003
+      ],
+      "clock_deg": 29.999999999999993,
+      "bore_plane_count": 6,
+      "sha256": "dae878a8c078ad04347c615903d59c92e7f33576ee5ca084a7bf51ca53a2304f"
+    },
+    "WCP-2106": {
+      "bounds_mm": [
+        -38.08315393089311,
+        -38.08315393089312,
+        -4.762500000000001,
+        38.08315393089311,
+        38.08315393089311,
+        4.762500100000001
+      ],
+      "clock_deg": 29.999999999999993,
+      "bore_plane_count": 7,
+      "sha256": "ac75f61193f5976bea11ddda26519d900e26ca7247a33ac9b55d5b50dad6cdd4"
+    },
+    "WCP-0578": {
+      "bounds_mm": [
+        -17.84424713426508,
+        -17.844247134265082,
+        -4.7625,
+        17.844247134265196,
+        17.844247134265103,
+        4.762500100000003
+      ],
+      "clock_deg": 29.99999999999998,
+      "bore_plane_count": 6,
+      "sha256": "2436576fd1e88c9096b143edf3ccaa899209238bcd2ca413d3a941ec10ad0f24"
+    },
+    "WCP-0970": {
+      "bounds_mm": [
+        -62.42008941048705,
+        -62.42008941048705,
+        -1.5000001480000007,
+        62.42008941048708,
+        62.42008941048705,
+        1.500000147999999
+      ],
+      "clock_deg": 0,
+      "bore_plane_count": 0,
+      "sha256": "17e234f0c4f417f7ba494a5c65208b6682bcf8880282f6ca0c9d30986dde3140"
+    }
+  },
+  "release_status": "NOT_RELEASED",
+  "global_completion": false,
+  "ratios": {
+    "upper_motor_to_roller": -10,
+    "kicker_motor_to_roller": 4.166666666666667,
+    "fold_coupling": "Rear-to-reverse speeds are relative to moving carrier; command pickup motor during fold or keep intake disabled. Gears do not lock the frame.",
+    "indexer_each": -5,
+    "deployment_motor_to_cheek": -48.214285714285715
+  },
+  "load_screen": {
+    "output_torque_screen_Nm": 43.497,
+    "basis": "Historical assumed torque, not new mass/inertia calculation",
+    "final_chain_tension_difference_N": 716.9943586454575,
+    "efficiency_assumed": 0.7,
+    "motor_torque_screen_Nm": 1.2888,
+    "candidate_chain_sku": "WCP-0767",
+    "candidate_master_link_sku": "WCP-0768",
+    "working_load_rating_lbf": 209,
+    "working_load_rating_N": 929.6783175894444,
+    "headroom_before_pretension_and_additional_dynamic_load_N": 212.6839589439869,
+    "rating_source": "https://docs.wcproducts.com/welcome/frc-build-system/belts-chain-and-gears/sprockets-and-chain.md",
+    "rating_source_sha256": "77ef26df51b0897ad7d31cbbf427ac01a605c81197eb8ce7b92a2a2180bdb33c",
+    "shock_and_holding_qualified": false
+  },
+  "gear_meshes": [
+    {
+      "input": "pt_drive_pickup_12T",
+      "output": "pt_drive_pickup_60T",
+      "teeth": [
+        12,
+        60
+      ],
+      "centers_mm": 45.72,
+      "output_clock_deg": 2.9999999999999827,
+      "basis": "120 material samples per source tooth pitch; matched conjugate phase; exact overlap regression required",
+      "source_motor_rotor": "Fused rotor in X44 STEP is not an independently posed mechanism",
+      "measured_overlap_mm3": 0.0
+    },
+    {
+      "input": "pt_rear_reverse_60T",
+      "output": "pt_reverse_60T",
+      "teeth": [
+        60,
+        60
+      ],
+      "centers_mm": 76.2,
+      "output_clock_deg": 0.5409887058594562,
+      "basis": "120 material samples per source tooth pitch; matched conjugate phase; exact overlap regression required",
+      "source_motor_rotor": "Fused rotor in X44 STEP is not an independently posed mechanism",
+      "measured_overlap_mm3": 0.0
+    },
+    {
+      "input": "pt_deploy_deployment_12T",
+      "output": "pt_deploy_deployment_60T",
+      "teeth": [
+        12,
+        60
+      ],
+      "centers_mm": 45.72,
+      "output_clock_deg": 2.9999999999999827,
+      "basis": "120 material samples per source tooth pitch; matched conjugate phase; exact overlap regression required",
+      "source_motor_rotor": "Fused rotor in X44 STEP is not an independently posed mechanism",
+      "measured_overlap_mm3": 0.0
+    }
+  ],
+  "before_instances": 507,
+  "after_instances": 849,
+  "new_ids": [
+    "pt_drive_pickup_mount",
+    "pt_drive_pickup_X44",
+    "pt_drive_pickup_output_bearing",
+    "pt_drive_pickup_motor_screw_0",
+    "pt_drive_pickup_motor_screw_1",
+    "pt_drive_pickup_motor_screw_2",
+    "pt_drive_pickup_12T",
+    "pt_drive_pickup_60T",
+    "pt_drive_pickup_pinion_spacer",
+    "pt_drive_pickup_pinion_retention",
+    "pt_pickup_outer_plate",
+    "pt_pickup_column_0",
+    "pt_pickup_frame_gap_0",
+    "pt_pickup_box_bolt_0",
+    "pt_pickup_box_nut_0",
+    "pt_pickup_column_1",
+    "pt_pickup_frame_gap_1",
+    "pt_pickup_box_bolt_1",
+    "pt_pickup_box_nut_1",
+    "pt_pickup_column_2",
+    "pt_pickup_frame_gap_2",
+    "pt_pickup_box_bolt_2",
+    "pt_pickup_box_nut_2",
+    "pt_pickup_column_3",
+    "pt_pickup_frame_gap_3",
+    "pt_pickup_box_bolt_3",
+    "pt_pickup_box_nut_3",
+    "pt_pickup_outer_bearing",
+    "pt_pickup_inner_keeper",
+    "pt_pickup_inner_keeper_screw_0",
+    "pt_pickup_inner_keeper_nut_0",
+    "pt_pickup_inner_keeper_screw_1",
+    "pt_pickup_inner_keeper_nut_1",
+    "pt_pickup_outer_keeper",
+    "pt_pickup_outer_keeper_screw_0",
+    "pt_pickup_outer_keeper_nut_0",
+    "pt_pickup_outer_keeper_screw_1",
+    "pt_pickup_outer_keeper_nut_1",
+    "pt_pickup_18T",
+    "pt_pickup_stage_shaft",
+    "pt_pickup_stage_spacer_0",
+    "pt_pickup_stage_spacer_1",
+    "pt_pickup_stage_spacer_2",
+    "pt_pickup_stage_spacer_3",
+    "pt_pickup_stage_spacer_4",
+    "pt_pickup_stage_washer_-1",
+    "pt_pickup_stage_end_screw_-1",
+    "pt_pickup_stage_washer_1",
+    "pt_pickup_stage_end_screw_1",
+    "pt_rear_36T",
+    "pt_pickup_reduction",
+    "pt_front_middle_middle",
+    "pt_front_middle_front",
+    "pt_front_middle",
+    "pt_rear_middle_rear",
+    "pt_rear_middle_middle",
+    "pt_rear_middle",
+    "pt_front_negative_extension_spacer_0",
+    "pt_front_negative_extension_spacer_1",
+    "pt_front_negative_extension_washer_-1",
+    "pt_front_negative_extension_end_screw_-1",
+    "pt_front_bearing_interface",
+    "pt_middle_negative_extension_spacer_0",
+    "pt_middle_negative_extension_spacer_1",
+    "pt_middle_negative_extension_spacer_2",
+    "pt_middle_negative_extension_washer_-1",
+    "pt_middle_negative_extension_end_screw_-1",
+    "pt_middle_bearing_interface",
+    "pt_reverse_inner_plate",
+    "pt_reverse_outer_plate",
+    "pt_reverse_inner_gap_0",
+    "pt_reverse_column_0",
+    "pt_reverse_box_bolt_0",
+    "pt_reverse_box_nut_0",
+    "pt_reverse_inner_gap_1",
+    "pt_reverse_column_1",
+    "pt_reverse_box_bolt_1",
+    "pt_reverse_box_nut_1",
+    "pt_reverse_inner_gap_2",
+    "pt_reverse_column_2",
+    "pt_reverse_box_bolt_2",
+    "pt_reverse_box_nut_2",
+    "pt_reverse_inner_gap_3",
+    "pt_reverse_column_3",
+    "pt_reverse_box_bolt_3",
+    "pt_reverse_box_nut_3",
+    "pt_reverse_inner_bearing",
+    "pt_reverse_outer_bearing",
+    "pt_reverse_inner_keeper",
+    "pt_reverse_inner_keeper_screw_0",
+    "pt_reverse_inner_keeper_nut_0",
+    "pt_reverse_inner_keeper_screw_1",
+    "pt_reverse_inner_keeper_nut_1",
+    "pt_reverse_outer_keeper",
+    "pt_reverse_outer_keeper_screw_0",
+    "pt_reverse_outer_keeper_nut_0",
+    "pt_reverse_outer_keeper_screw_1",
+    "pt_reverse_outer_keeper_nut_1",
+    "pt_reverse_60T",
+    "pt_rear_reverse_60T",
+    "pt_reverse_36T",
+    "pt_reverse_shaft",
+    "pt_reverse_spacer_0",
+    "pt_reverse_spacer_1",
+    "pt_reverse_spacer_2",
+    "pt_reverse_spacer_3",
+    "pt_reverse_spacer_4",
+    "pt_reverse_washer_-1",
+    "pt_reverse_end_screw_-1",
+    "pt_reverse_washer_1",
+    "pt_reverse_end_screw_1",
+    "pt_kick_15T",
+    "pt_reverse_kicker",
+    "pt_kick_positive_extension_spacer_0",
+    "pt_kick_positive_extension_spacer_1",
+    "pt_kick_positive_extension_washer_1",
+    "pt_kick_positive_extension_end_screw_1",
+    "pt_rear_bridge_1_spacer_0",
+    "pt_rear_bridge_1_spacer_1",
+    "pt_rear_bridge_1_spacer_2",
+    "pt_rear_bridge_-1_spacer_0",
+    "pt_rear_bridge_-1_spacer_1",
+    "pt_indexer_L_0_station_0",
+    "pt_indexer_L_0_station_1",
+    "pt_indexer_L_0_idler_lower_plate",
+    "pt_indexer_L_0_idler_upper_plate",
+    "pt_indexer_L_0_idler_column_0_0",
+    "pt_indexer_L_0_idler_column_0_2",
+    "pt_indexer_L_0_idler_clamp_0",
+    "pt_indexer_L_0_idler_clamp_nut_0",
+    "pt_indexer_L_0_idler_column_1_0",
+    "pt_indexer_L_0_idler_column_1_2",
+    "pt_indexer_L_0_idler_clamp_1",
+    "pt_indexer_L_0_idler_clamp_nut_1",
+    "pt_indexer_L_0_idler_lower_bearing",
+    "pt_indexer_L_0_idler_upper_bearing",
+    "pt_indexer_L_0_idler_lower_keeper",
+    "pt_indexer_L_0_idler_lower_keeper_screw_0",
+    "pt_indexer_L_0_idler_lower_keeper_nut_0",
+    "pt_indexer_L_0_idler_lower_keeper_screw_1",
+    "pt_indexer_L_0_idler_lower_keeper_nut_1",
+    "pt_indexer_L_0_idler_upper_keeper",
+    "pt_indexer_L_0_idler_upper_keeper_screw_0",
+    "pt_indexer_L_0_idler_upper_keeper_nut_0",
+    "pt_indexer_L_0_idler_upper_keeper_screw_1",
+    "pt_indexer_L_0_idler_upper_keeper_nut_1",
+    "pt_indexer_L_0_idler_18T",
+    "pt_indexer_L_0_idler_shaft",
+    "pt_indexer_L_0_idler_spacer_0",
+    "pt_indexer_L_0_idler_spacer_1",
+    "pt_indexer_L_0_idler_spacer_2",
+    "pt_indexer_L_0_idler_spacer_3",
+    "pt_indexer_L_0_idler_washer_-1",
+    "pt_indexer_L_0_idler_end_screw_-1",
+    "pt_indexer_L_0_idler_washer_1",
+    "pt_indexer_L_0_idler_end_screw_1",
+    "pt_indexer_L_0",
+    "pt_indexer_L_1_station_1",
+    "pt_indexer_L_1_station_2",
+    "pt_indexer_L_1_idler_lower_plate",
+    "pt_indexer_L_1_idler_upper_plate",
+    "pt_indexer_L_1_idler_column_0_2",
+    "pt_indexer_L_1_idler_bank_gap_0",
+    "pt_indexer_L_1_idler_clamp_0",
+    "pt_indexer_L_1_idler_clamp_nut_0",
+    "pt_indexer_L_1_idler_column_1_2",
+    "pt_indexer_L_1_idler_bank_gap_1",
+    "pt_indexer_L_1_idler_clamp_1",
+    "pt_indexer_L_1_idler_clamp_nut_1",
+    "pt_indexer_L_1_idler_lower_bearing",
+    "pt_indexer_L_1_idler_upper_bearing",
+    "pt_indexer_L_1_idler_lower_keeper",
+    "pt_indexer_L_1_idler_lower_keeper_screw_0",
+    "pt_indexer_L_1_idler_lower_keeper_nut_0",
+    "pt_indexer_L_1_idler_lower_keeper_screw_1",
+    "pt_indexer_L_1_idler_lower_keeper_nut_1",
+    "pt_indexer_L_1_idler_upper_keeper",
+    "pt_indexer_L_1_idler_upper_keeper_screw_0",
+    "pt_indexer_L_1_idler_upper_keeper_nut_0",
+    "pt_indexer_L_1_idler_upper_keeper_screw_1",
+    "pt_indexer_L_1_idler_upper_keeper_nut_1",
+    "pt_indexer_L_1_idler_18T",
+    "pt_indexer_L_1_idler_shaft",
+    "pt_indexer_L_1_idler_spacer_0",
+    "pt_indexer_L_1_idler_spacer_1",
+    "pt_indexer_L_1_idler_spacer_2",
+    "pt_indexer_L_1_idler_spacer_3",
+    "pt_indexer_L_1_idler_washer_-1",
+    "pt_indexer_L_1_idler_end_screw_-1",
+    "pt_indexer_L_1_idler_washer_1",
+    "pt_indexer_L_1_idler_end_screw_1",
+    "pt_indexer_L_1",
+    "pt_indexer_L0_spacer_0",
+    "pt_indexer_L0_spacer_1",
+    "pt_indexer_L0_spacer_2",
+    "pt_indexer_L0_spacer_3",
+    "pt_indexer_L0_spacer_6",
+    "pt_indexer_L0_spacer_7",
+    "pt_indexer_L0_spacer_8",
+    "pt_indexer_L0_washer_-1",
+    "pt_indexer_L0_end_screw_-1",
+    "pt_indexer_L0_washer_1",
+    "pt_indexer_L0_end_screw_1",
+    "pt_indexer_L1_spacer_0",
+    "pt_indexer_L1_spacer_1",
+    "pt_indexer_L1_spacer_4",
+    "pt_indexer_L1_spacer_5",
+    "pt_indexer_L1_spacer_6",
+    "pt_indexer_L1_spacer_7",
+    "pt_indexer_L1_washer_-1",
+    "pt_indexer_L1_end_screw_-1",
+    "pt_indexer_L1_washer_1",
+    "pt_indexer_L1_end_screw_1",
+    "pt_indexer_L2_spacer_0",
+    "pt_indexer_L2_spacer_1",
+    "pt_indexer_L2_spacer_4",
+    "pt_indexer_L2_spacer_5",
+    "pt_indexer_L2_spacer_6",
+    "pt_indexer_L2_washer_-1",
+    "pt_indexer_L2_end_screw_-1",
+    "pt_indexer_L2_washer_1",
+    "pt_indexer_L2_end_screw_1",
+    "pt_indexer_L_mount_gap_0",
+    "pt_indexer_L_mount_bolt_0",
+    "pt_indexer_L_mount_nut_0",
+    "pt_indexer_L_mount_gap_1",
+    "pt_indexer_L_mount_bolt_1",
+    "pt_indexer_L_mount_nut_1",
+    "pt_indexer_L_mount_gap_2",
+    "pt_indexer_L_mount_bolt_2",
+    "pt_indexer_L_mount_nut_2",
+    "pt_indexer_L_mount_gap_3",
+    "pt_indexer_L_mount_bolt_3",
+    "pt_indexer_L_mount_nut_3",
+    "pt_indexer_R_0_station_0",
+    "pt_indexer_R_0_station_1",
+    "pt_indexer_R_0_idler_lower_plate",
+    "pt_indexer_R_0_idler_upper_plate",
+    "pt_indexer_R_0_idler_column_0_0",
+    "pt_indexer_R_0_idler_column_0_2",
+    "pt_indexer_R_0_idler_clamp_0",
+    "pt_indexer_R_0_idler_clamp_nut_0",
+    "pt_indexer_R_0_idler_column_1_0",
+    "pt_indexer_R_0_idler_column_1_2",
+    "pt_indexer_R_0_idler_clamp_1",
+    "pt_indexer_R_0_idler_clamp_nut_1",
+    "pt_indexer_R_0_idler_lower_bearing",
+    "pt_indexer_R_0_idler_upper_bearing",
+    "pt_indexer_R_0_idler_lower_keeper",
+    "pt_indexer_R_0_idler_lower_keeper_screw_0",
+    "pt_indexer_R_0_idler_lower_keeper_nut_0",
+    "pt_indexer_R_0_idler_lower_keeper_screw_1",
+    "pt_indexer_R_0_idler_lower_keeper_nut_1",
+    "pt_indexer_R_0_idler_upper_keeper",
+    "pt_indexer_R_0_idler_upper_keeper_screw_0",
+    "pt_indexer_R_0_idler_upper_keeper_nut_0",
+    "pt_indexer_R_0_idler_upper_keeper_screw_1",
+    "pt_indexer_R_0_idler_upper_keeper_nut_1",
+    "pt_indexer_R_0_idler_18T",
+    "pt_indexer_R_0_idler_shaft",
+    "pt_indexer_R_0_idler_spacer_0",
+    "pt_indexer_R_0_idler_spacer_1",
+    "pt_indexer_R_0_idler_spacer_2",
+    "pt_indexer_R_0_idler_spacer_3",
+    "pt_indexer_R_0_idler_washer_-1",
+    "pt_indexer_R_0_idler_end_screw_-1",
+    "pt_indexer_R_0_idler_washer_1",
+    "pt_indexer_R_0_idler_end_screw_1",
+    "pt_indexer_R_0",
+    "pt_indexer_R_1_station_1",
+    "pt_indexer_R_1_station_2",
+    "pt_indexer_R_1_idler_lower_plate",
+    "pt_indexer_R_1_idler_upper_plate",
+    "pt_indexer_R_1_idler_column_0_2",
+    "pt_indexer_R_1_idler_bank_gap_0",
+    "pt_indexer_R_1_idler_clamp_0",
+    "pt_indexer_R_1_idler_clamp_nut_0",
+    "pt_indexer_R_1_idler_column_1_2",
+    "pt_indexer_R_1_idler_bank_gap_1",
+    "pt_indexer_R_1_idler_clamp_1",
+    "pt_indexer_R_1_idler_clamp_nut_1",
+    "pt_indexer_R_1_idler_lower_bearing",
+    "pt_indexer_R_1_idler_upper_bearing",
+    "pt_indexer_R_1_idler_lower_keeper",
+    "pt_indexer_R_1_idler_lower_keeper_screw_0",
+    "pt_indexer_R_1_idler_lower_keeper_nut_0",
+    "pt_indexer_R_1_idler_lower_keeper_screw_1",
+    "pt_indexer_R_1_idler_lower_keeper_nut_1",
+    "pt_indexer_R_1_idler_upper_keeper",
+    "pt_indexer_R_1_idler_upper_keeper_screw_0",
+    "pt_indexer_R_1_idler_upper_keeper_nut_0",
+    "pt_indexer_R_1_idler_upper_keeper_screw_1",
+    "pt_indexer_R_1_idler_upper_keeper_nut_1",
+    "pt_indexer_R_1_idler_18T",
+    "pt_indexer_R_1_idler_shaft",
+    "pt_indexer_R_1_idler_spacer_0",
+    "pt_indexer_R_1_idler_spacer_1",
+    "pt_indexer_R_1_idler_spacer_2",
+    "pt_indexer_R_1_idler_spacer_3",
+    "pt_indexer_R_1_idler_washer_-1",
+    "pt_indexer_R_1_idler_end_screw_-1",
+    "pt_indexer_R_1_idler_washer_1",
+    "pt_indexer_R_1_idler_end_screw_1",
+    "pt_indexer_R_1",
+    "pt_indexer_R0_spacer_0",
+    "pt_indexer_R0_spacer_1",
+    "pt_indexer_R0_spacer_2",
+    "pt_indexer_R0_spacer_3",
+    "pt_indexer_R0_spacer_6",
+    "pt_indexer_R0_spacer_7",
+    "pt_indexer_R0_spacer_8",
+    "pt_indexer_R0_washer_-1",
+    "pt_indexer_R0_end_screw_-1",
+    "pt_indexer_R0_washer_1",
+    "pt_indexer_R0_end_screw_1",
+    "pt_indexer_R1_spacer_0",
+    "pt_indexer_R1_spacer_1",
+    "pt_indexer_R1_spacer_4",
+    "pt_indexer_R1_spacer_5",
+    "pt_indexer_R1_spacer_6",
+    "pt_indexer_R1_spacer_7",
+    "pt_indexer_R1_washer_-1",
+    "pt_indexer_R1_end_screw_-1",
+    "pt_indexer_R1_washer_1",
+    "pt_indexer_R1_end_screw_1",
+    "pt_indexer_R2_spacer_0",
+    "pt_indexer_R2_spacer_1",
+    "pt_indexer_R2_spacer_4",
+    "pt_indexer_R2_spacer_5",
+    "pt_indexer_R2_spacer_6",
+    "pt_indexer_R2_washer_-1",
+    "pt_indexer_R2_end_screw_-1",
+    "pt_indexer_R2_washer_1",
+    "pt_indexer_R2_end_screw_1",
+    "pt_indexer_R_mount_gap_0",
+    "pt_indexer_R_mount_bolt_0",
+    "pt_indexer_R_mount_nut_0",
+    "pt_indexer_R_mount_gap_1",
+    "pt_indexer_R_mount_bolt_1",
+    "pt_indexer_R_mount_nut_1",
+    "pt_indexer_R_mount_gap_2",
+    "pt_indexer_R_mount_bolt_2",
+    "pt_indexer_R_mount_nut_2",
+    "pt_indexer_R_mount_gap_3",
+    "pt_indexer_R_mount_bolt_3",
+    "pt_indexer_R_mount_nut_3",
+    "pt_deploy_deployment_mount",
+    "pt_deploy_deployment_X44",
+    "pt_deploy_deployment_output_bearing",
+    "pt_deploy_deployment_motor_screw_0",
+    "pt_deploy_deployment_motor_screw_1",
+    "pt_deploy_deployment_motor_screw_2",
+    "pt_deploy_deployment_12T",
+    "pt_deploy_deployment_60T",
+    "pt_deploy_deployment_pinion_spacer",
+    "pt_deploy_deployment_pinion_retention",
+    "pt_deployment_outer_plate",
+    "pt_deployment_column_0",
+    "pt_deployment_frame_gap_0",
+    "pt_deployment_box_bolt_0",
+    "pt_deployment_box_nut_0",
+    "pt_deployment_column_1",
+    "pt_deployment_frame_gap_1",
+    "pt_deployment_box_bolt_1",
+    "pt_deployment_box_nut_1",
+    "pt_deployment_column_2",
+    "pt_deployment_frame_gap_2",
+    "pt_deployment_box_bolt_2",
+    "pt_deployment_box_nut_2",
+    "pt_deployment_column_3",
+    "pt_deployment_frame_gap_3",
+    "pt_deployment_box_bolt_3",
+    "pt_deployment_box_nut_3",
+    "pt_deployment_first_outer_bearing",
+    "pt_deployment_first_inner_keeper",
+    "pt_deployment_first_inner_keeper_screw_0",
+    "pt_deployment_first_inner_keeper_nut_0",
+    "pt_deployment_first_inner_keeper_screw_1",
+    "pt_deployment_first_inner_keeper_nut_1",
+    "pt_deployment_first_outer_keeper",
+    "pt_deployment_first_outer_keeper_screw_0",
+    "pt_deployment_first_outer_keeper_nut_0",
+    "pt_deployment_first_outer_keeper_screw_1",
+    "pt_deployment_first_outer_keeper_nut_1",
+    "pt_deployment_second_inner_bearing",
+    "pt_deployment_second_outer_bearing",
+    "pt_deployment_14T",
+    "pt_deployment_36T",
+    "pt_deployment_16T",
+    "pt_deployment_first_shaft",
+    "pt_deployment_first_spacer_0",
+    "pt_deployment_first_spacer_1",
+    "pt_deployment_first_spacer_2",
+    "pt_deployment_first_spacer_3",
+    "pt_deployment_first_spacer_4",
+    "pt_deployment_first_washer_-1",
+    "pt_deployment_first_end_screw_-1",
+    "pt_deployment_first_washer_1",
+    "pt_deployment_first_end_screw_1",
+    "pt_deployment_second_shaft",
+    "pt_deployment_second_spacer_0",
+    "pt_deployment_second_spacer_1",
+    "pt_deployment_second_spacer_2",
+    "pt_deployment_second_spacer_3",
+    "pt_deployment_second_spacer_4",
+    "pt_deployment_second_washer_-1",
+    "pt_deployment_second_end_screw_-1",
+    "pt_deployment_second_washer_1",
+    "pt_deployment_second_end_screw_1",
+    "pt_deployment_intermediate_chain",
+    "pt_deployment_final_chain",
+    "pt_deployment_adapter",
+    "pt_deployment_60T_plate",
+    "pt_deployment_cheek_gap_0",
+    "pt_deployment_cheek_bolt_0",
+    "pt_deployment_cheek_gap_1",
+    "pt_deployment_cheek_bolt_1",
+    "pt_deployment_cheek_gap_2",
+    "pt_deployment_cheek_bolt_2",
+    "pt_deployment_cheek_gap_3",
+    "pt_deployment_cheek_bolt_3",
+    "pt_deployment_plate_bolt_0",
+    "pt_deployment_plate_nut_0",
+    "pt_deployment_plate_bolt_1",
+    "pt_deployment_plate_nut_1",
+    "pt_deployment_plate_bolt_2",
+    "pt_deployment_plate_nut_2",
+    "pt_deployment_plate_bolt_3",
+    "pt_deployment_plate_nut_3",
+    "pt_deployment_plate_bolt_4",
+    "pt_deployment_plate_nut_4",
+    "pt_deployment_plate_bolt_5",
+    "pt_deployment_plate_nut_5",
+    "pt_deployment_inner_eccentric",
+    "pt_deployment_inner_eccentric_keeper",
+    "pt_deployment_inner_eccentric_clamp_0",
+    "pt_deployment_inner_eccentric_nut_0",
+    "pt_deployment_inner_eccentric_clamp_1",
+    "pt_deployment_inner_eccentric_nut_1",
+    "pt_deployment_outer_eccentric",
+    "pt_deployment_outer_eccentric_keeper",
+    "pt_deployment_outer_eccentric_clamp_0",
+    "pt_deployment_outer_eccentric_nut_0",
+    "pt_deployment_outer_eccentric_clamp_1",
+    "pt_deployment_outer_eccentric_nut_1"
+  ],
+  "remaining": [
+    "Chain tooth seating/phase and actual pretension/dynamic working tension not qualified; WCP-0767 candidate sourced",
+    "Running gear phase/backlash, physical belt tension and load ratings unqualified; only three static source meshes tested",
+    "Kicker hub/core/tread torque attachment remains unqualified",
+    "Full-fold interference and guards pending"
+  ],
+  "path_status": {
+    "upper_rollers": "Installed geometry to all three hex shafts; real pulleys and closed nominal 350/400/450 mm belts; tension and torque capacity not qualified",
+    "indexer_L": "Installed geometry to all three retained shafts; two nominal HTD loops with two supported adjustable idlers",
+    "indexer_R": "Installed geometry to all three retained shafts; two nominal HTD loops with two supported adjustable idlers",
+    "kicker": "Installed reversing gears and HTD path to hex shaft; inherited thin hub/core/tread torque connection still BLOCKED",
+    "deployment": "Installed 48.2143:1 geometry to independent cheek flange; discrete chain pitch closes, actual tooth seating and load qualification BLOCKED"
+  },
+  "superseded_missing_records": [
+    {
+      "id": "pickup_stage_support_and_downstream",
+      "reason": "Authentic first stage retained and chassis-fixed in kinematics; plate-to-frame bracket, second output bearing, supported transmission, tension adjustment and guards NOT completed."
+    },
+    {
+      "id": "deployment_stage_support_and_downstream",
+      "reason": "Authentic first stage retained and chassis-fixed in kinematics; plate-to-frame bracket, second output bearing, supported transmission, tension adjustment and guards NOT completed."
+    },
+    {
+      "id": "upper_roller_loops",
+      "reason": "Both catalog length matches lack authenticated pulley axial datums, actual belts, pulley retention and tensioning; no fabricated COTS added."
+    }
+  ],
+  "critical_interface_checks": [
+    {
+      "pair": [
+        "pt_reverse_60T",
+        "pt_reverse_column_0"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_reverse_60T",
+        "pt_reverse_column_1"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_reverse_60T",
+        "pt_reverse_column_2"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_reverse_60T",
+        "pt_reverse_column_3"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_drive_pickup_60T",
+        "pt_pickup_inner_keeper"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_reverse_60T",
+        "pt_reverse_inner_keeper"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_reverse_36T",
+        "pt_reverse_outer_keeper"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_rear_36T",
+        "pt_reverse_outer_plate"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_deployment_adapter",
+        "v2_bearing_rear_-1_keeper"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_pickup_reduction",
+        "pt_pickup_18T"
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "pair": [
+        "pt_reverse_kicker",
+        "pt_reverse_36T"
+      ],
+      "overlap_mm3": 0.0
+    }
+  ],
+  "counts": {
+    "instances": 849,
+    "physical_instances": 846,
+    "motors": 4,
+    "new_instances": 445,
+    "removed_instances": 132,
+    "removed_original_instances": 103,
+    "discarded_temporary_installation_instances": 29,
+    "active_definitions": 205,
+    "belt_routes": 8,
+    "chain_routes": 2
+  },
+  "source_receipts": {
+    "requests": [
+      {
+        "url": "https://wcproducts.com/products/htd-timing-pulleys",
+        "file": "catalog-pulleys.html",
+        "bytes": 1761426,
+        "status": "saved",
+        "sha256": "5ac59fd1b5119092ebb92c2324488085450ca6e9ecb8d6d0b3697259b4361e27",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://wcproducts.com/products/25-sprockets",
+        "file": "catalog-sprockets.html",
+        "bytes": 1760763,
+        "status": "saved",
+        "sha256": "55f7216ea3fc39cc05ad537f5a2b85079c0ec7da1bf9325e1f4d1d3ae27ce805",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://wcproducts.com/products/htd-timing-belts-9mm-width",
+        "file": "catalog-belts.html",
+        "bytes": 1761577,
+        "status": "saved",
+        "sha256": "53bc9f0eb3aa903bf179c150980d2a52d0d97d48685a713ec41baed5b7a813ac",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0563.step",
+        "file": "WCP-0563.step",
+        "bytes": 2322000,
+        "status": "saved",
+        "sha256": "f537a2e5fea069da3cfcc9be17409326d0f7fe232a18eb05bb4bc1f392e11938",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0990.step",
+        "file": "WCP-0990.step",
+        "bytes": 3442657,
+        "status": "saved",
+        "sha256": "6d57ec6ca06fa09f3af922544d2f2dce5650aca5079bbe964c2003a3de976653",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-1420.step",
+        "file": "WCP-1420.step",
+        "bytes": 1035868,
+        "status": "saved",
+        "sha256": "a43ae99000286d02e2e67b4c0647e1c1cc54e784a6563f22d8c41c6f59acada9",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0577.step",
+        "file": "WCP-0577.step",
+        "bytes": 547361,
+        "status": "saved",
+        "sha256": "dae878a8c078ad04347c615903d59c92e7f33576ee5ca084a7bf51ca53a2304f",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0578.step",
+        "file": "WCP-0578.step",
+        "bytes": 1019774,
+        "status": "saved",
+        "sha256": "2436576fd1e88c9096b143edf3ccaa899209238bcd2ca413d3a941ec10ad0f24",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-2106.step",
+        "file": "WCP-2106.step",
+        "bytes": 2095959,
+        "status": "saved",
+        "sha256": "ac75f61193f5976bea11ddda26519d900e26ca7247a33ac9b55d5b50dad6cdd4",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0970.step",
+        "file": "WCP-0970.step",
+        "bytes": 2920765,
+        "status": "saved",
+        "sha256": "17e234f0c4f417f7ba494a5c65208b6682bcf8880282f6ca0c9d30986dde3140",
+        "content_type": "application/octet-stream"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ/pub?gid=403705519&single=true&output=csv",
+        "file": "sprockets.csv",
+        "bytes": 12064,
+        "status": "saved",
+        "sha256": "3e139f59ca687117bf2afcbd52706334a5159b318583b97f1e908c7ddef30e28",
+        "content_type": "text/csv"
+      },
+      {
+        "url": "https://wcproducts.info/files/frc/drawings/Web-%2325%20Plate%20Sprockets.pdf",
+        "file": "WCP-0970.pdf",
+        "bytes": 70281,
+        "status": "saved",
+        "sha256": "2dc8c91c1d5391e86f866c83c1a248acc54c557bd0a616ce6e3a80f55cf9b210",
+        "content_type": "application/pdf"
+      },
+      {
+        "url": "https://docs.wcproducts.com/welcome/frc-build-system/spline-and-motionx-system.md",
+        "file": "motionx.md",
+        "bytes": 6175,
+        "status": "saved",
+        "sha256": "1c56ddb9ee4f761c523fd41a0874d9b48ee72051a39f3002eaa7c1a71044a5b6",
+        "content_type": "text/markdown; charset=utf-8"
+      },
+      {
+        "url": "https://docs.wcproducts.com/welcome/frc-build-system/belts-chain-and-gears/sprockets-and-chain.md",
+        "file": "chain-ratings.md",
+        "bytes": 15579,
+        "status": "saved",
+        "sha256": "77ef26df51b0897ad7d31cbbf427ac01a605c81197eb8ce7b92a2a2180bdb33c",
+        "content_type": "text/markdown; charset=utf-8"
+      },
+      {
+        "url": "https://wcproducts.com/products/roller-chain",
+        "file": "chain-products.html",
+        "bytes": 1761285,
+        "status": "saved",
+        "sha256": "68afb3bf671b8fb5cde71a972f69e504278d92d9f5b69240c3b09cbd2d292392",
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://1911150060-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FByQLBt0bw4wTa9DDV1kH%2Fuploads%2F45WmVcr8WMz0xRshEZfE%2F2in%20Bolt%20Circle.svg?alt=media&token=c076c7c9-15d2-4853-b542-2a2409da88d1",
+        "file": "motionx-two-inch.svg",
+        "bytes": 142009,
+        "status": "saved",
+        "sha256": "d253b12e835ec3c2e306b3e167298539ebc2cc7c0991ba14bd69dd34532ba53c",
+        "content_type": "image/svg+xml"
+      }
+    ],
+    "products": {
+      "WCP-0563": {
+        "teeth": 18,
+        "type": "HTD5",
+        "width_mm": 9,
+        "bore": "half-inch hex",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0563.step",
+        "file": "WCP-0563.step",
+        "bytes": 2322000,
+        "status": "saved",
+        "sha256": "f537a2e5fea069da3cfcc9be17409326d0f7fe232a18eb05bb4bc1f392e11938",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/htd-timing-pulleys",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      },
+      "WCP-0990": {
+        "teeth": 36,
+        "type": "HTD5",
+        "width_mm": 9,
+        "bore": "half-inch hex",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0990.step",
+        "file": "WCP-0990.step",
+        "bytes": 3442657,
+        "status": "saved",
+        "sha256": "6d57ec6ca06fa09f3af922544d2f2dce5650aca5079bbe964c2003a3de976653",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/htd-timing-pulleys",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      },
+      "WCP-1420": {
+        "teeth": 15,
+        "type": "HTD5",
+        "width_mm": 9,
+        "bore": "half-inch hex",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-1420.step",
+        "file": "WCP-1420.step",
+        "bytes": 1035868,
+        "status": "saved",
+        "sha256": "a43ae99000286d02e2e67b4c0647e1c1cc54e784a6563f22d8c41c6f59acada9",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/htd-timing-pulleys",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      },
+      "WCP-0577": {
+        "teeth": 14,
+        "type": "25-chain",
+        "bore": "half-inch hex",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0577.step",
+        "file": "WCP-0577.step",
+        "bytes": 547361,
+        "status": "saved",
+        "sha256": "dae878a8c078ad04347c615903d59c92e7f33576ee5ca084a7bf51ca53a2304f",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/25-sprockets",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      },
+      "WCP-0578": {
+        "teeth": 16,
+        "type": "25-chain",
+        "bore": "half-inch hex",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0578.step",
+        "file": "WCP-0578.step",
+        "bytes": 1019774,
+        "status": "saved",
+        "sha256": "2436576fd1e88c9096b143edf3ccaa899209238bcd2ca413d3a941ec10ad0f24",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/25-sprockets",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      },
+      "WCP-2106": {
+        "teeth": 36,
+        "type": "25-chain",
+        "bore": "half-inch hex",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-2106.step",
+        "file": "WCP-2106.step",
+        "bytes": 2095959,
+        "status": "saved",
+        "sha256": "ac75f61193f5976bea11ddda26519d900e26ca7247a33ac9b55d5b50dad6cdd4",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/25-sprockets",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      },
+      "WCP-0970": {
+        "teeth": 60,
+        "type": "25-chain",
+        "bore": "SplineXL",
+        "url": "https://wcproducts.info/files/frc/cad/WCP-0970.step",
+        "file": "WCP-0970.step",
+        "bytes": 2920765,
+        "status": "saved",
+        "sha256": "17e234f0c4f417f7ba494a5c65208b6682bcf8880282f6ca0c9d30986dde3140",
+        "content_type": "application/octet-stream",
+        "catalog": "https://wcproducts.com/products/25-sprockets",
+        "catalog_observation": "Official rendered product table read 2026-09-19; dynamic SKU rows absent from raw HTML snapshot",
+        "units": "STEP unit-aware import, no scaling"
+      }
+    },
+    "charged_bytes": 20675543
+  },
+  "test_run": {
+    "tests_run": 20,
+    "passed": true,
+    "failures": [],
+    "errors": [],
+    "scope": "Focused installation CAD tests, not full-system clearance or competition release"
+  }
+}

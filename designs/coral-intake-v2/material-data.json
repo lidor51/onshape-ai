@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-18",
+  "polycarbonate": {
+    "manufacturer": "Plaskolite",
+    "grade": "TUFFAK GP sheet",
+    "selected_team_stock": false,
+    "datasheet_url": "https://plaskolite.com/docs/default-source/pds/PDS004_TUF_GP.pdf",
+    "sha256": "dd06f3e7924f2a8cab583dc7e515bcb32b933c64781719c930a6964602c5909b",
+    "bytes": 121587,
+    "pages": 2,
+    "properties_page": 1,
+    "specific_gravity": {"value": 1.2, "standard": "ASTM D792"},
+    "tensile_modulus": {"value": 340000, "unit": "psi", "standard": "ASTM D638"},
+    "flexural_modulus": {"value": 345000, "unit": "psi", "standard": "ASTM D790"},
+    "tensile_yield": {"value": 9000, "unit": "psi", "standard": "ASTM D638"},
+    "instrumented_impact": {"value": 47, "unit": "ft lb", "standard": "ASTM D3763", "sample_thickness_in": 0.125},
+    "property_warning": "Manufacturer: typical properties are not intended for specification purposes. Coupon impact result is not an FRC mechanism collision rating.",
+    "fabrication_url": "https://plaskolite.com/docs/default-source/fab/fab015_tuf_en.pdf",
+    "fabrication_sha256": "51b27e2ea5259dd8b7b881afd279dcb6a93c84289d385efac81ac8e2da0aa01d",
+    "fabrication_pages": 68,
+    "fabrication_review": "Selected drilling, fastening and chemical stress-cracking text inspected; not every page reviewed"
+  },
+  "aluminum": {
+    "candidate": "6061-T6 plate",
+    "modulus_gpa": 69,
+    "density_kg_per_m3": 2700,
+    "property_status": "Typical engineering screening assumptions; actual producer sheet/plate certificate and team stock not established"
+  },
+  "construction_policy": {
+    "protected_bearing_and_reducer_datums": "Stiff aluminum structure; current 6 mm baseline is not a released thickness",
+    "leading_replaceable_faces": "6.35 mm unfilled PC candidate, mechanically independent of shaft alignment",
+    "drive_guard": "3 mm PC partial candidate; complete retention and coverage unverified",
+    "impact_protection": "Must be supplied by a verified relieving force path, sufficient controlled travel, damping and frame-supported stops, not material substitution alone"
+  },
+  "manufacturing_release": false
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-12",
+  "season": 2025,
+  "status": "candidate_research_with_explicit_gaps",
+  "selection_made": false,
+  "units_policy": "SI for computation; preserve native fits, threads, pitch and vendor precision",
+  "scope": "Standalone intake on a blank reference chassis with a reference receiver; no CAD build, purchases or legality determination",
+  "sources": [
+    {"id": "S1", "url": "https://wcproducts.com/products/kraken", "publisher": "WestCoast Products", "kind": "manufacturer_storefront", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "public_text_read"},
+    {"id": "S2", "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x60/kraken-x60-motor/overview-and-features/motor-performance.md", "publisher": "WestCoast Products", "kind": "manufacturer_specification", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "mode_tables_read_voltage_not_established"},
+    {"id": "S3", "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x44/kraken-x44-motor/overview-and-features/motor-performance.md", "publisher": "WestCoast Products", "kind": "manufacturer_specification", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "mode_tables_read_voltage_not_established"},
+    {"id": "S4", "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x60/kraken-x60-motor/overview-and-features/physical-specifications.md", "publisher": "WestCoast Products", "kind": "manufacturer_specification", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "text_read_embedded_drawings_unread"},
+    {"id": "S5", "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x44/kraken-x44-motor/overview-and-features/physical-specifications.md", "publisher": "WestCoast Products", "kind": "manufacturer_specification", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "text_read_embedded_drawings_unread"},
+    {"id": "S6", "url": "https://wcproducts.com/products/ball-bearings", "publisher": "WestCoast Products", "kind": "manufacturer_storefront", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "public_text_read_drawings_unread"},
+    {"id": "S7", "url": "https://wcproducts.com/products/pocketed-gears", "publisher": "WestCoast Products", "kind": "manufacturer_storefront", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "public_text_read_drawings_unread"},
+    {"id": "S8", "url": "https://docs.wcproducts.com/welcome/frc-build-system/belts-chain-and-gears/gears.md", "publisher": "WestCoast Products", "kind": "manufacturer_technical_guide", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "text_read_contains_internal_inconsistencies"},
+    {"id": "S9", "url": "https://motors.ctr-electronics.com/dyno/dynometer-testing/", "publisher": "CTR Electronics", "kind": "manufacturer_dynamometer_results", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "endpoint_rows_and_dates_read_raw_CSV_not_downloaded"},
+    {"id": "S10", "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x44/misc/changelog.md", "publisher": "WestCoast Products", "kind": "manufacturer_changelog", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "dated_entries_read_not_shipping_evidence"},
+    {"id": "S11", "url": "https://andymark.com/products/compliant-wheels", "publisher": "AndyMark", "kind": "manufacturer_storefront", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "public_text_read"},
+    {"id": "S12", "url": "https://motors.ctr-electronics.com/dyno/", "publisher": "CTR Electronics", "kind": "manufacturer_test_methodology", "retrieved_on": "2026-09-12", "published_on": null, "read_status": "12V_100_percent_duty_supply_measurement_and_extrapolation_read"},
+    {"id": "S13", "url": "https://andymark.com/products/compliant-wheels.js", "publisher": "AndyMark", "kind": "public_storefront_product_JSON", "retrieved_on": "2026-09-12", "published_on": "2025-06-15", "publication_date_meaning": "migrated storefront record; not original product introduction", "read_status": "exact_variant_and_description_specifications_read"}
+  ],
+  "candidates": [
+    {
+      "id": "x60", "manufacturer": "WestCoast Products", "part_number": "WCP-0940", "name": "Kraken X60 Powered by TalonFX", "category": "motor",
+      "source_ids": ["S1", "S2", "S4", "S9", "S12"], "url": "https://wcproducts.com/products/kraken",
+      "compatibility_status": "spline_pinion_interface_matches_mounting_and_loads_pending",
+      "availability": {"observed_on": "2026-09-12", "listing": "in_stock", "lead_time_days": null, "available_by_2025_event": null},
+      "price": {"amount": 217.99, "currency": "USD", "observed_on": "2026-09-12", "basis": "each; FRC educational price; not 2025 price; tax/shipping excluded", "source_id": "S1"},
+      "mass": {"value_kg": 0.544310844, "native_value": 1.2, "native_unit": "lb", "source_id": "S4", "basis": "vendor nominal motor plus integrated Talon FX; not assembly mass"},
+      "interface": {"shaft_standard": "8 mm SplineXS", "shaft_replaceable": false, "body_diameter_m": 0.06, "effective_diameter_with_bump_m": 0.0635, "listed_length_m": 0.075, "pilot_diameter_m": 0.01905, "pilot_native_in": 0.75, "bolt_circle_diameter_m": 0.0508, "bolt_circle_native_in": 2, "hole_count": 11, "hole_spacing_deg": 30, "thread_native": "#10-32", "holes_blind": true, "shaft_extension_m": null, "thread_depth_m": null, "missing_hole_clocking_deg": null, "drawing_status": "embedded_SVG_drawings_unread"},
+      "motor_data": {
+        "dataset": "WCP_published_endpoints", "table_voltage_V": null, "voltage_status": "WCP_table_voltage_unstated_in_extraction; separate_CTRE_12V_reference_below",
+        "modes": [
+          {"mode": "trapezoidal", "source_id": "S2", "free_speed_rpm": 6000, "free_speed_rad_s": 628.318530718, "free_current_A": 2, "stall_torque_Nm": 7.09, "stall_current_A": 366, "published_peak_power_W": 1108, "derived_torque_per_stall_amp_Nm_A": 0.019371585},
+          {"mode": "FOC", "source_id": "S2", "free_speed_rpm": 5800, "free_speed_rad_s": 607.374579694, "free_current_A": 2, "stall_torque_Nm": 9.37, "stall_current_A": 483, "published_peak_power_W": 1405, "derived_torque_per_stall_amp_Nm_A": 0.019399586}
+        ],
+        "ctre_12V_reference": {
+          "dataset": "CTRE_dyno_2024-01-08", "source_ids": ["S9", "S12"], "test_date": "2024-01-08", "test_voltage_V": 12, "duty_cycle_fraction": 1, "current_limiting_enabled": false, "current_basis": "supply_current_at_100_percent_duty; stall_endpoints_extrapolated", "free_current_A": null,
+          "modes": [
+            {"mode": "trapezoidal", "free_speed_rpm": 6065, "free_speed_rad_s": 635.125314801, "stall_torque_Nm": 7.157, "stall_current_A": 374.4, "published_peak_power_W": 1136.5, "derived_torque_per_stall_amp_Nm_A": 0.019115919, "effective_locked_rotor_resistance_ohm": 0.032051282, "free_speed_per_supply_volt_rad_s_V": 52.927109567},
+            {"mode": "FOC", "free_speed_rpm": 5785, "free_speed_rad_s": 605.803783367, "stall_torque_Nm": 9.362, "stall_current_A": 476.1, "published_peak_power_W": 1417.7, "derived_torque_per_stall_amp_Nm_A": 0.019663936, "effective_locked_rotor_resistance_ohm": 0.025204789, "free_speed_per_supply_volt_rad_s_V": 50.483648614}
+          ]
+        }
+      }
+    },
+    {
+      "id": "x44", "manufacturer": "WestCoast Products", "part_number": "WCP-0941", "name": "Kraken X44 Powered by TalonFX", "category": "motor",
+      "source_ids": ["S1", "S3", "S5", "S9", "S10", "S12"], "url": "https://wcproducts.com/products/kraken",
+      "compatibility_status": "same_spline_as_x60_different_bolt_circle_not_direct_mount_swap",
+      "availability": {"observed_on": "2026-09-12", "listing": "in_stock", "lead_time_days": null, "available_by_2025_event": null},
+      "price": {"amount": 217.99, "currency": "USD", "observed_on": "2026-09-12", "basis": "each; FRC educational price; not 2025 price; tax/shipping excluded", "source_id": "S1"},
+      "mass": {"value_kg": 0.3401942775, "native_value": 0.75, "native_unit": "lb", "source_id": "S5", "basis": "vendor nominal motor plus integrated Talon FX; not assembly mass"},
+      "interface": {"shaft_standard": "8 mm SplineXS", "shaft_replaceable": false, "body_diameter_m": 0.044, "effective_diameter_with_bump_m": 0.0474, "listed_length_m": 0.075, "pilot_diameter_m": 0.01905, "pilot_native_in": 0.75, "bolt_circle_diameter_m": 0.034925, "bolt_circle_native_in": 1.375, "hole_count": 11, "hole_spacing_deg": 30, "thread_native": "#10-32", "holes_blind": true, "shaft_extension_m": null, "thread_depth_m": null, "missing_hole_clocking_deg": null, "drawing_status": "embedded_SVG_drawings_unread"},
+      "motor_data": {
+        "dataset": "WCP_published_endpoints", "table_voltage_V": null, "voltage_status": "WCP_table_voltage_unstated_in_extraction; separate_CTRE_12V_reference_below",
+        "modes": [
+          {"mode": "trapezoidal", "source_id": "S3", "free_speed_rpm": 7758, "free_speed_rad_s": 812.415860218, "free_current_A": 3, "stall_torque_Nm": 4.11, "stall_current_A": 279, "published_peak_power_W": 835, "derived_torque_per_stall_amp_Nm_A": 0.014731183},
+          {"mode": "FOC", "source_id": "S3", "free_speed_rpm": 7368, "free_speed_rad_s": 771.575155722, "free_current_A": 3, "stall_torque_Nm": 5.01, "stall_current_A": 329, "published_peak_power_W": 966, "derived_torque_per_stall_amp_Nm_A": 0.015227964}
+        ],
+        "ctre_12V_reference": {
+          "dataset": "CTRE_dyno_2025-09-26", "source_ids": ["S9", "S12"], "test_date": "2025-09-26", "test_voltage_V": 12, "duty_cycle_fraction": 1, "current_limiting_enabled": false, "current_basis": "supply_current_at_100_percent_duty; stall_endpoints_extrapolated", "free_current_A": null,
+          "modes": [
+            {"mode": "trapezoidal", "free_speed_rpm": 7758, "free_speed_rad_s": 812.415860218, "stall_torque_Nm": 4.113, "stall_current_A": 279.1, "published_peak_power_W": 835.4, "derived_torque_per_stall_amp_Nm_A": 0.014736654, "effective_locked_rotor_resistance_ohm": 0.042995342, "free_speed_per_supply_volt_rad_s_V": 67.701321685},
+            {"mode": "FOC", "free_speed_rpm": 7368, "free_speed_rad_s": 771.575155722, "stall_torque_Nm": 5.011, "stall_current_A": 329.2, "published_peak_power_W": 966.6, "derived_torque_per_stall_amp_Nm_A": 0.015221750, "effective_locked_rotor_resistance_ohm": 0.036452005, "free_speed_per_supply_volt_rad_s_V": 64.297929644}
+          ]
+        }
+      }
+    },
+    {
+      "id": "hex_bearing", "manufacturer": "WestCoast Products", "part_number": "WCP-0783", "name": "0.500 inch Hex ID x 1.125 inch OD x 0.313 inch WD Flanged Bearing", "category": "bearing",
+      "source_ids": ["S6"], "url": "https://wcproducts.com/products/ball-bearings",
+      "compatibility_status": "nominal_half_inch_hex_fit_loads_and_housing_fit_pending",
+      "availability": {"observed_on": "2026-09-12", "listing": "in_stock", "lead_time_days": null, "available_by_2025_event": null},
+      "price": {"amount": 2.99, "currency": "USD", "observed_on": "2026-09-12", "basis": "each; current listing; tax/shipping excluded", "source_id": "S6"},
+      "mass": null,
+      "interface": {"bore_standard": "1/2 inch hex", "bore_across_flats_m": 0.0127, "bore_native_in": 0.5, "body_od_m": 0.028575, "body_od_native_in": 1.125, "listed_width_m": 0.0079502, "listed_width_native_in": 0.313, "flange_od_m": null, "flange_thickness_m": null, "fit_tolerance_m": null, "dynamic_load_rating_N": null, "static_load_rating_N": null, "drawing_status": "unread"}
+    },
+    {
+      "id": "spline_pinion", "manufacturer": "WestCoast Products", "part_number": "WCP-1016", "name": "16t Steel Spur Gear (20 DP, 8mm SplineXS Bore)", "category": "gear",
+      "source_ids": ["S1", "S8"], "url": "https://wcproducts.com/products/kraken",
+      "compatibility_status": "nominal_spline_and_mesh_match_axial_stack_and_strength_pending",
+      "availability": {"observed_on": "2026-09-12", "listing": "in_stock", "lead_time_days": null, "available_by_2025_event": null},
+      "price": {"amount": 8.99, "currency": "USD", "observed_on": "2026-09-12", "basis": "each; current listing; tax/shipping excluded", "source_id": "S1"},
+      "mass": null,
+      "interface": {"bore_standard": "8 mm SplineXS", "teeth": 16, "spacing_teeth": 16, "diametral_pitch_per_in": 20, "module_m": 0.00127, "pressure_angle_deg": 14.5, "derived_pitch_diameter_m": 0.02032, "face_width_m": null, "face_width_status": "S8 says 3/8 inch generally but 3/4 inch for motor pinions; drawing confirmation required", "retention_hardware_verified": false, "drawing_status": "unread"}
+    },
+    {
+      "id": "hex_output_gear", "manufacturer": "WestCoast Products", "part_number": "WCP-0137", "name": "48t Pocketed Aluminum Spur Gear (20 DP, 1/2 inch Hex Bore)", "category": "gear",
+      "source_ids": ["S7", "S8"], "url": "https://wcproducts.com/products/pocketed-gears",
+      "compatibility_status": "nominal_half_inch_hex_and_pinion_mesh_match_loads_pending",
+      "availability": {"observed_on": "2026-09-12", "listing": "in_stock", "lead_time_days": null, "available_by_2025_event": null},
+      "price": {"amount": 17.99, "currency": "USD", "observed_on": "2026-09-12", "basis": "each; current listing; tax/shipping excluded", "source_id": "S7"},
+      "mass": null,
+      "interface": {"bore_standard": "1/2 inch hex", "bore_across_flats_m": 0.0127, "teeth": 48, "spacing_teeth": 48, "diametral_pitch_per_in": 20, "module_m": 0.00127, "pressure_angle_deg": 14.5, "derived_pitch_diameter_m": 0.06096, "overall_width_m": 0.0127, "overall_width_native_in": 0.5, "web_thickness_m": 0.002286, "web_thickness_native_in": 0.09, "material": "7075-T6 aluminum", "finish": "Type III hard anodize per S7", "drawing_status": "unread"}
+    },
+    {
+      "id": "compliant_wheel", "manufacturer": "AndyMark", "part_number": "am-3462_green", "name": "Compliant Wheel, 1/2 in Hex / 2 inch / 35A", "category": "contact_wheel",
+      "source_ids": ["S11", "S13"], "url": "https://andymark.com/products/compliant-wheels?variant=44493390807212", "storefront_variant_id": "44493390807212",
+      "compatibility_status": "intended_half_inch_hex_interference_fit_contact_performance_and_RPM_limit_pending",
+      "availability": {"observed_on": "2026-09-12", "listing": "available_true_public_variant", "lead_time_days": null, "available_by_2025_event": null},
+      "price": {"amount": 6.2, "currency": "USD", "observed_on": "2026-09-12", "basis": "each; public variant price 620 cents; current not 2025; tax/shipping excluded", "source_id": "S13"},
+      "mass": {"value_kg": 0.01587573295, "native_value": 0.035, "native_unit": "lb", "source_id": "S13", "basis": "nominal 2-inch family specification; public variant weight field is 16; not a measured inertia"},
+      "interface": {"intended_shaft_standard": "1/2 inch hex", "intended_shaft_across_flats_m": 0.0127, "actual_bore_across_flats_m": null, "fit": "intentionally_undersized_interference_per_manufacturer", "diameter_m": 0.0508, "diameter_native_in": 2, "width_m": 0.0127, "width_native_in": 0.5, "durometer": 35, "durometer_scale": "Shore A", "color": "green", "tread_material": "TPU", "core_material": "polycarbonate", "maximum_speed_rpm": null, "maximum_speed_status": "family_range_3500_to_9000_not_mapped_to_exact_variant", "friction_coefficient": null, "drawing_status": "sizing_image_unread"}
+    }
+  ],
+  "gear_stage_example": {
+    "status": "kinematic_candidate_not_selected_design_ratio_or_complete_BOM",
+    "driver_id": "spline_pinion", "driven_id": "hex_output_gear", "reduction": 3,
+    "derived_nominal_center_distance_m": 0.04064,
+    "source_ids": ["S1", "S7", "S8"],
+    "efficiency": null, "allowable_output_torque_Nm": null,
+    "missing": ["shaft SKU/length/material/tolerance", "bearing quantity/span and loads", "gear axial alignment", "spline retention screw/spacer stack", "housing fits and stiffness", "lubrication/guarding", "verified tooth stress", "current limit and duty cycle"]
+  },
+  "motor_model_policy": {
+    "dataset_policy": "WCP published endpoints and CTRE dated 12V results are separate; do not borrow free current or endpoint constants across them",
+    "torque_constant_formula": "stall_torque_Nm / stall_current_A, within one source and electrical mode",
+    "torque_constant_status": "approximate endpoint-derived torque per amp; not a measured winding constant or guaranteed current-limited output",
+    "angular_speed_formula": "free_speed_rpm * 2*pi / 60",
+    "resistance_formula": "CTRE-only effective_locked_rotor_resistance_ohm = test_voltage_V / same_mode_stall_current_A; fitted controller-plus-motor surrogate, not physical winding resistance",
+    "speed_per_volt_formula": "CTRE-only free_speed_rad_s / test_voltage_V; not loss-corrected back EMF constant",
+    "back_emf_constant_V_s_rad": null,
+    "voltage_dependent_constants_status": "CTRE 12V reference verified by S12; do not assign that voltage or its fitted constants to WCP rows without evidence",
+    "supply_current_is_stator_current": false,
+    "stall_current_is_recommended_current_limit": false,
+    "current_limit_A": null,
+    "continuous_torque_Nm": null
+  },
+  "catalog": {"preferred": "FRCDesignLib via FRCDesignApp", "subscription": "user_reported", "candidate_coverage": "unverified", "automation_API": "unverified", "versions_checked": false, "required_before_CAD": ["manufacturer part number", "catalog configuration", "source document/version", "units", "interface cross-check"]},
+  "temporal_review": {
+    "target_event_date": null, "project_deadline": null, "legality_determined": false, "all_candidates_2025_availability": "unverified", "storefront_update_08_24": "year absent; not accepted as 2025 release or guaranteed delivery evidence", "current_specs_are_2025_specs": false,
+    "dated_evidence": [
+      {"date": "2024-01-08", "source_id": "S9", "meaning": "CTRE X60 and X60 FOC test dates; not sales availability"},
+      {"date": "2024-10-19", "source_id": "S10", "meaning": "X44 changelog says Document created under manual and product updates; not shipping date"},
+      {"date": "2025-07-11", "source_id": "S10", "meaning": "X44 manual images updated"},
+      {"date": "2025-09-26", "source_id": "S9", "meaning": "CTRE X44 and X44 FOC test dates; post-Championships data, not evidence of in-season performance or shipment"},
+      {"date": "2026-07-16", "source_id": "S10", "meaning": "X44 manual adds flipped adapter board section; avoid retroactively treating it as 2025 hardware"},
+      {"date": "2025-06-15", "source_id": "S13", "meaning": "Migrated AndyMark product record published; not original wheel availability"}
+    ]
+  },
+  "research_limitations": {"source_fetch_budget_target_approx": 10, "confirmed_source_URL_fetch_attempts": 24, "budget_met": false, "explanation": "Moved/failed paths and extraction gaps caused an overrun; 13 retained evidence URLs plus contextual pages were inspected. Search/index discovery excluded. One terminal source-fetch invocation returned unrelated output and is not counted as verified execution or used as evidence.", "PDFs_read": false, "CAD_downloads": false, "authenticated_calls": false, "other_agent_reports_read": false},
+  "deferred": [
+    {"item": "custom tube plus rubber", "status": "not_a_COTS_selection", "reason": "tube size, rubber grade/hardness, friction, attachment, runout and inertia must be specified/tested"},
+    {"item": "REV MAXPlanetary / ThriftyBot cycloidal", "status": "not_needed_for_this_candidate_screen_not_verified", "reason": "no claim of Kraken compatibility, ratio, load rating or 2025 availability"},
+    {"item": "complete chain/belt transmission", "status": "not_nominated", "reason": "motor-side WCP interfaces are known; driven part, chain/belt SKU/length, tension and load rating are not verified"}
+  ]
+}

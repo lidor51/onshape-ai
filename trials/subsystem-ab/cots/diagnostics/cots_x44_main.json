@@ -1,0 +1,916 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_CERTIFICATION",
+  "role": "cots_x44_main",
+  "environment": {
+    "python": "3.10.0",
+    "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+    "OCP_module_version": "7.8.1.1",
+    "packages": {
+      "cadquery": "2.6.1",
+      "cadquery-ocp": "7.8.1.1.post1",
+      "build123d": null,
+      "vtk": "9.3.1",
+      "numpy": "2.2.6"
+    }
+  },
+  "inputSha256": {
+    "trials\\subsystem-ab\\cots\\cache\\wcp-0941.step": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+    "trials\\subsystem-ab\\shared\\packet-v3\\source-probe\\cots_x44_main.step": "4bc59063be48133e74122f06e822ce9d044a96be0d210cfe172e7020a4071e85",
+    "trials\\subsystem-ab\\shared\\packet-v3\\current\\cots-bindings.json": "03d552bc2416a58f80a1a22f6bfc0b7f01db24648d66136f886bb8c4d9690989",
+    "trials\\subsystem-ab\\shared\\packet-v3\\original-source-roundtrip-probe.json": "7195fdce1143a6d4481f5facb7e9297898fda6b1dbda5f42dcd70b5939037d5e"
+  },
+  "sourceBodyIndex": 0,
+  "originalStrictGate": {
+    "role": "cots_x44_main",
+    "sourceSha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+    "exportSha256": "4bc59063be48133e74122f06e822ce9d044a96be0d210cfe172e7020a4071e85",
+    "sourceFrameMeasured": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 112107.30835411993,
+      "boundsMm": [
+        -22.000000100000005,
+        -25.400000100000014,
+        -74.61250010000572,
+        22.000000100000005,
+        22.0000001,
+        37.357050099999995
+      ]
+    },
+    "sourceFrameReimported": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 112107.32549646271,
+      "boundsMm": [
+        -22.000000100000005,
+        -25.4000001,
+        -74.61250010000578,
+        22.000000100000005,
+        22.0000001,
+        37.3570501
+      ]
+    },
+    "volumeErrorMm3": 0.01714234278188087,
+    "volumeBudgetMm3": 0.011210730835411992,
+    "sourceFrameBoundsMaximumErrorMm": 5.684341886080802e-14,
+    "status": "FAIL"
+  },
+  "source": {
+    "valid": true,
+    "solids": 1,
+    "closed": false,
+    "boundsMm": [
+      -22.000000100000005,
+      -25.400000100000014,
+      -74.61250010000572,
+      22.000000100000005,
+      22.0000001,
+      37.357050099999995
+    ],
+    "areaMm2DefaultIntegration": 17711.0868036243,
+    "surfaceTypes": {
+      "CONE": 76,
+      "CYLINDER": 236,
+      "TORUS": 60,
+      "BSPLINE": 559,
+      "SPHERE": 36,
+      "PLANE": 879
+    },
+    "maximumKernelToleranceMm": 0.0010101561733052169
+  },
+  "readback": {
+    "valid": true,
+    "solids": 1,
+    "closed": false,
+    "boundsMm": [
+      -22.000000100000005,
+      -25.4000001,
+      -74.61250010000578,
+      22.000000100000005,
+      22.0000001,
+      37.3570501
+    ],
+    "areaMm2DefaultIntegration": 17711.089187621335,
+    "surfaceTypes": {
+      "CONE": 76,
+      "CYLINDER": 236,
+      "TORUS": 60,
+      "BSPLINE": 559,
+      "SPHERE": 36,
+      "PLANE": 879
+    },
+    "maximumKernelToleranceMm": 0.00101015617315542
+  },
+  "integrations": [
+    {
+      "source": {
+        "method": "default",
+        "requestedRelativeEpsilon": null,
+        "estimatedRelativeError": null,
+        "volumeMm3": 112107.30835411993,
+        "centroidMm": [
+          1.3727210016447584e-05,
+          -0.5855919285159062,
+          -34.06092595082367
+        ],
+        "centroidalInertiaMm5UnitDensity": [
+          [
+            64823736.55912563,
+            194.42545901450296,
+            -521.5193940194276
+          ],
+          [
+            194.42545901450296,
+            63119580.112834856,
+            1620966.173727194
+          ],
+          [
+            -521.5193940194276,
+            1620966.173727194,
+            27712363.251185946
+          ]
+        ]
+      },
+      "readback": {
+        "method": "default",
+        "requestedRelativeEpsilon": null,
+        "estimatedRelativeError": null,
+        "volumeMm3": 112107.32549646271,
+        "centroidMm": [
+          1.403307382574332e-05,
+          -0.585592306115357,
+          -34.06093082833079
+        ],
+        "centroidalInertiaMm5UnitDensity": [
+          [
+            64823752.128754705,
+            194.43130150336717,
+            -521.8983680350307
+          ],
+          [
+            194.43130150336717,
+            63119599.31250465,
+            1620964.9562567705
+          ],
+          [
+            -521.8983680350307,
+            1620964.9562567705,
+            27712368.320363726
+          ]
+        ]
+      },
+      "volumeDifferenceMm3": 0.01714234278188087,
+      "centroidDistanceMm": 4.901653770486637e-06,
+      "inertiaRelativeFrobeniusError": 2.6726747362441466e-07
+    },
+    {
+      "source": {
+        "method": "gauss",
+        "requestedRelativeEpsilon": 1e-07,
+        "estimatedRelativeError": 5.705002396765901e-07,
+        "volumeMm3": 112096.52621437893,
+        "centroidMm": [
+          -7.318495268649401e-05,
+          -0.5861484940832187,
+          -34.06508661956017
+        ],
+        "centroidalInertiaMm5UnitDensity": [
+          [
+            64802059.200525165,
+            0.09627363522882959,
+            -309.79614430608376
+          ],
+          [
+            0.09627363522882959,
+            63096928.38405758,
+            1623155.4397082285
+          ],
+          [
+            -309.79614430608376,
+            1623155.4397082285,
+            27713081.735873763
+          ]
+        ]
+      },
+      "readback": {
+        "method": "gauss",
+        "requestedRelativeEpsilon": 1e-07,
+        "estimatedRelativeError": 5.705002395348953e-07,
+        "volumeMm3": 112096.54350322035,
+        "centroidMm": [
+          -7.28680948128667e-05,
+          -0.5861488563242475,
+          -34.06509153299633
+        ],
+        "centroidalInertiaMm5UnitDensity": [
+          [
+            64802074.909747496,
+            0.08665255149058204,
+            -310.1383520461898
+          ],
+          [
+            0.08665255149058204,
+            63096947.71043466,
+            1623154.2752602505
+          ],
+          [
+            -310.1383520461898,
+            1623154.2752602505,
+            27713086.841898777
+          ]
+        ]
+      },
+      "volumeDifferenceMm3": 0.01728884142357856,
+      "centroidDistanceMm": 4.9369497008604995e-06,
+      "inertiaRelativeFrobeniusError": 2.6929034522698273e-07
+    },
+    {
+      "source": {
+        "method": "gauss",
+        "requestedRelativeEpsilon": 1e-09,
+        "estimatedRelativeError": 3.568218391349235e-08,
+        "volumeMm3": 112096.52620744689,
+        "centroidMm": [
+          -7.352062032804956e-05,
+          -0.58614875192524,
+          -34.06508661907569
+        ],
+        "centroidalInertiaMm5UnitDensity": [
+          [
+            64802058.77971412,
+            20.969792565808437,
+            -309.53259302257544
+          ],
+          [
+            20.969792565808437,
+            63096928.88348821,
+            1623155.3149682076
+          ],
+          [
+            -309.53259302257544,
+            1623155.3149682076,
+            27713081.81623122
+          ]
+        ]
+      },
+      "readback": {
+        "method": "gauss",
+        "requestedRelativeEpsilon": 1e-09,
+        "estimatedRelativeError": 3.5682183073041924e-08,
+        "volumeMm3": 112096.54349628817,
+        "centroidMm": [
+          -7.320376240606334e-05,
+          -0.5861491141662221,
+          -34.06509153251218
+        ],
+        "centroidalInertiaMm5UnitDensity": [
+          [
+            64802074.48893383,
+            20.96017148283164,
+            -309.8748005714255
+          ],
+          [
+            20.96017148283164,
+            63096948.20986301,
+            1623154.1505204074
+          ],
+          [
+            -309.8748005714255,
+            1623154.1505204074,
+            27713086.922256157
+          ]
+        ]
+      },
+      "volumeDifferenceMm3": 0.017288841278059408,
+      "centroidDistanceMm": 4.936950025827665e-06,
+      "inertiaRelativeFrobeniusError": 2.692903092923162e-07
+    }
+  ],
+  "completed": true,
+  "gaussKronrodCorpusStatus": "OMITTED_AFTER_BOUNDED_BEARING_RUN_DID_NOT_COMPLETE",
+  "bboxMaximumDifferenceMm": 5.684341886080802e-14,
+  "sourceToReadback": {
+    "faceCount": 1846,
+    "facesSampled": 1815,
+    "uncoveredFaceIndices": [
+      137,
+      138,
+      462,
+      581,
+      585,
+      590,
+      595,
+      596,
+      615,
+      635,
+      640,
+      646,
+      653,
+      657,
+      664,
+      736,
+      739,
+      836,
+      840,
+      846,
+      847,
+      852,
+      870,
+      886,
+      891,
+      900,
+      907,
+      911,
+      918,
+      989,
+      992
+    ],
+    "surfaceSamples": 13949,
+    "surfaceMaximumMm": 4.353223443933489e-11,
+    "surfacePercentile95Mm": 4.369406153903652e-12,
+    "vertexAndEdgeMidpointSamples": 7971,
+    "vertexAndEdgeMaximum": {
+      "distanceMm": 6.155075019308896e-08,
+      "pointMm": [
+        9.538893998733592,
+        10.283441440595809,
+        -74.41665186385403
+      ],
+      "closestPointMm": [
+        9.538894050307,
+        10.283441407,
+        -74.41665186385387
+      ],
+      "targetFaceIndex": 380,
+      "targetSurfaceType": "BSPLINE"
+    },
+    "worstFaces": [
+      {
+        "sourceFaceIndex": 1094,
+        "sourceSurfaceType": "CYLINDER",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 4.353223443933489e-11,
+          "pointMm": [
+            -2.9019266233847816,
+            -25.389416666666666,
+            -12.123612317334619
+          ],
+          "closestPointMm": [
+            -2.9019266233474355,
+            -25.389416666666666,
+            -12.123612317356987
+          ],
+          "targetFaceIndex": 1094,
+          "targetSurfaceType": "CYLINDER"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 300,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 4.26871013131978e-11,
+          "pointMm": [
+            -9.229412873472413,
+            11.762696938928244,
+            -70.74321065946552
+          ],
+          "closestPointMm": [
+            -9.22941287346265,
+            11.762696938886691,
+            -70.743210659465
+          ],
+          "targetFaceIndex": 300,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 418,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 2.8638747304359204e-11,
+          "pointMm": [
+            -21.515158867973415,
+            -2.675757312393801,
+            -70.66701132869507
+          ],
+          "closestPointMm": [
+            -21.515158868001087,
+            -2.675757312386443,
+            -70.66701132869561
+          ],
+          "targetFaceIndex": 418,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 403,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 2.7893934675994472e-11,
+          "pointMm": [
+            21.657585570078112,
+            -2.5488147683037976,
+            -70.66826263519029
+          ],
+          "closestPointMm": [
+            21.657585570068655,
+            -2.5488147683300384,
+            -70.66826263519052
+          ],
+          "targetFaceIndex": 403,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 416,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 1.641626504808598e-11,
+          "pointMm": [
+            -19.31240220601293,
+            -2.719953823918457,
+            -68.32965090841684
+          ],
+          "closestPointMm": [
+            -19.31240220602909,
+            -2.7199538239213377,
+            -68.32965090841675
+          ],
+          "targetFaceIndex": 416,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 508,
+        "sourceSurfaceType": "PLANE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 1.0289757937229989e-11,
+          "pointMm": [
+            -16.38130707391817,
+            14.165705845056381,
+            -10.566666653333312
+          ],
+          "closestPointMm": [
+            -16.381307073910893,
+            14.165705845049105,
+            -10.566666653333312
+          ],
+          "targetFaceIndex": 508,
+          "targetSurfaceType": "PLANE"
+        },
+        "refinedSamples": 69
+      },
+      {
+        "sourceFaceIndex": 301,
+        "sourceSurfaceType": "CONE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.953867746758257e-12,
+          "pointMm": [
+            -9.29648176633852,
+            11.872095126843503,
+            -74.00782487225551
+          ],
+          "closestPointMm": [
+            -9.29648176632958,
+            11.872095126843957,
+            -74.0078248722557
+          ],
+          "targetFaceIndex": 301,
+          "targetSurfaceType": "CONE"
+        },
+        "refinedSamples": 77
+      },
+      {
+        "sourceFaceIndex": 308,
+        "sourceSurfaceType": "CONE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.877363521046865e-12,
+          "pointMm": [
+            -9.619542327367556,
+            10.165180294643255,
+            -74.00782487225551
+          ],
+          "closestPointMm": [
+            -9.61954232735947,
+            10.165180294639596,
+            -74.0078248722557
+          ],
+          "targetFaceIndex": 308,
+          "targetSurfaceType": "CONE"
+        },
+        "refinedSamples": 69
+      },
+      {
+        "sourceFaceIndex": 372,
+        "sourceSurfaceType": "CYLINDER",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.73818800490877e-12,
+          "pointMm": [
+            6.541577527434059,
+            14.133922983814358,
+            -74.46706799933348
+          ],
+          "closestPointMm": [
+            6.541577527434059,
+            14.133922983805952,
+            -74.46706799933587
+          ],
+          "targetFaceIndex": 372,
+          "targetSurfaceType": "CYLINDER"
+        }
+      },
+      {
+        "sourceFaceIndex": 379,
+        "sourceSurfaceType": "CYLINDER",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.736479247737448e-12,
+          "pointMm": [
+            6.2867377282689,
+            10.323922983814354,
+            -74.46706799933348
+          ],
+          "closestPointMm": [
+            6.2867377282689,
+            10.32392298380595,
+            -74.46706799933587
+          ],
+          "targetFaceIndex": 379,
+          "targetSurfaceType": "CYLINDER"
+        }
+      },
+      {
+        "sourceFaceIndex": 241,
+        "sourceSurfaceType": "TORUS",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.319164784341685e-12,
+          "pointMm": [
+            -9.550863885284368,
+            10.008978621732547,
+            -67.0179320006665
+          ],
+          "closestPointMm": [
+            -9.55086388527718,
+            10.008978621729032,
+            -67.01793200066878
+          ],
+          "targetFaceIndex": 241,
+          "targetSurfaceType": "TORUS"
+        }
+      },
+      {
+        "sourceFaceIndex": 234,
+        "sourceSurfaceType": "TORUS",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.272331879064582e-12,
+          "pointMm": [
+            -9.196979219678921,
+            12.192387133105692,
+            -67.01793200066652
+          ],
+          "closestPointMm": [
+            -9.196979219671034,
+            12.19238713310675,
+            -67.01793200066878
+          ],
+          "targetFaceIndex": 234,
+          "targetSurfaceType": "TORUS"
+        }
+      }
+    ],
+    "unprunedCompoundCrosscheckErrorMm": [
+      0.0,
+      0.0
+    ]
+  },
+  "readbackToSource": {
+    "faceCount": 1846,
+    "facesSampled": 1815,
+    "uncoveredFaceIndices": [
+      137,
+      138,
+      462,
+      581,
+      585,
+      590,
+      595,
+      596,
+      615,
+      635,
+      640,
+      646,
+      653,
+      657,
+      664,
+      736,
+      739,
+      836,
+      840,
+      846,
+      847,
+      852,
+      870,
+      886,
+      891,
+      900,
+      907,
+      911,
+      918,
+      989,
+      992
+    ],
+    "surfaceSamples": 13949,
+    "surfaceMaximumMm": 7.605530387327479e-11,
+    "surfacePercentile95Mm": 4.4896406176899535e-12,
+    "vertexAndEdgeMidpointSamples": 7971,
+    "vertexAndEdgeMaximum": {
+      "distanceMm": 6.154173381965791e-08,
+      "pointMm": [
+        9.538893998733082,
+        10.283441440587199,
+        -74.41665186385387
+      ],
+      "closestPointMm": [
+        9.538894050307114,
+        10.283441407008869,
+        -74.41665186385403
+      ],
+      "targetFaceIndex": 380,
+      "targetSurfaceType": "BSPLINE"
+    },
+    "worstFaces": [
+      {
+        "sourceFaceIndex": 403,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 7.605530387327479e-11,
+          "pointMm": [
+            21.746824138490492,
+            -2.5774541847588943,
+            -67.33460423542756
+          ],
+          "closestPointMm": [
+            21.74682413847602,
+            -2.5774541848335533,
+            -67.33460423542854
+          ],
+          "targetFaceIndex": 403,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 1094,
+        "sourceSurfaceType": "CYLINDER",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 4.3522472774978983e-11,
+          "pointMm": [
+            -2.9756343089829613,
+            -25.389416666666666,
+            -12.246473299092585
+          ],
+          "closestPointMm": [
+            -2.975634309020279,
+            -25.389416666666666,
+            -12.246473299070189
+          ],
+          "targetFaceIndex": 1094,
+          "targetSurfaceType": "CYLINDER"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 300,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 4.26871013131978e-11,
+          "pointMm": [
+            -9.22941287347241,
+            11.76269693892135,
+            -70.74321065946337
+          ],
+          "closestPointMm": [
+            -9.229412873482174,
+            11.762696938962902,
+            -70.74321065946388
+          ],
+          "targetFaceIndex": 300,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 418,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 4.097120244751247e-11,
+          "pointMm": [
+            -21.494885029206674,
+            -2.6612077876893827,
+            -71.5003452663271
+          ],
+          "closestPointMm": [
+            -21.49488502924672,
+            -2.6612077876807665,
+            -71.50034526632794
+          ],
+          "targetFaceIndex": 418,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 309,
+        "sourceSurfaceType": "BSPLINE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 2.202439865857163e-11,
+          "pointMm": [
+            -9.453179943355213,
+            10.291560291270454,
+            -73.19224262829162
+          ],
+          "closestPointMm": [
+            -9.453179943334606,
+            10.291560291278225,
+            -73.19224262829171
+          ],
+          "targetFaceIndex": 309,
+          "targetSurfaceType": "BSPLINE"
+        },
+        "refinedSamples": 81
+      },
+      {
+        "sourceFaceIndex": 508,
+        "sourceSurfaceType": "PLANE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 1.0289757937229989e-11,
+          "pointMm": [
+            -16.381307073910833,
+            14.165705845049166,
+            -10.566666653333332
+          ],
+          "closestPointMm": [
+            -16.38130707391811,
+            14.165705845056442,
+            -10.566666653333332
+          ],
+          "targetFaceIndex": 508,
+          "targetSurfaceType": "PLANE"
+        },
+        "refinedSamples": 69
+      },
+      {
+        "sourceFaceIndex": 301,
+        "sourceSurfaceType": "CONE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.952965704756301e-12,
+          "pointMm": [
+            -9.296481766329293,
+            11.872095126838525,
+            -74.00782487225511
+          ],
+          "closestPointMm": [
+            -9.296481766338234,
+            11.872095126838069,
+            -74.00782487225499
+          ],
+          "targetFaceIndex": 301,
+          "targetSurfaceType": "CONE"
+        },
+        "refinedSamples": 77
+      },
+      {
+        "sourceFaceIndex": 308,
+        "sourceSurfaceType": "CONE",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.876362522246417e-12,
+          "pointMm": [
+            -9.61954232735798,
+            10.165180294642866,
+            -74.00782487225511
+          ],
+          "closestPointMm": [
+            -9.619542327366066,
+            10.165180294646525,
+            -74.00782487225499
+          ],
+          "targetFaceIndex": 308,
+          "targetSurfaceType": "CONE"
+        },
+        "refinedSamples": 69
+      },
+      {
+        "sourceFaceIndex": 372,
+        "sourceSurfaceType": "CYLINDER",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.736479247737448e-12,
+          "pointMm": [
+            6.541577527433999,
+            14.133922983805164,
+            -74.46706799933308
+          ],
+          "closestPointMm": [
+            6.541577527433999,
+            14.133922983813568,
+            -74.4670679993307
+          ],
+          "targetFaceIndex": 372,
+          "targetSurfaceType": "CYLINDER"
+        }
+      },
+      {
+        "sourceFaceIndex": 379,
+        "sourceSurfaceType": "CYLINDER",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.734770517537934e-12,
+          "pointMm": [
+            6.286737728268667,
+            10.32392298380517,
+            -74.46706799933311
+          ],
+          "closestPointMm": [
+            6.286737728268667,
+            10.323922983813572,
+            -74.46706799933072
+          ],
+          "targetFaceIndex": 379,
+          "targetSurfaceType": "CYLINDER"
+        }
+      },
+      {
+        "sourceFaceIndex": 241,
+        "sourceSurfaceType": "TORUS",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.31838073816666e-12,
+          "pointMm": [
+            -9.550863885275241,
+            10.008978621731737,
+            -67.01793200066683
+          ],
+          "closestPointMm": [
+            -9.550863885282428,
+            10.008978621735254,
+            -67.01793200066456
+          ],
+          "targetFaceIndex": 241,
+          "targetSurfaceType": "TORUS"
+        }
+      },
+      {
+        "sourceFaceIndex": 234,
+        "sourceSurfaceType": "TORUS",
+        "samples": 9,
+        "maximum": {
+          "distanceMm": 8.274025514354257e-12,
+          "pointMm": [
+            -9.196979219669485,
+            12.192387133099423,
+            -67.0179320006668
+          ],
+          "closestPointMm": [
+            -9.196979219677374,
+            12.192387133098364,
+            -67.01793200066454
+          ],
+          "targetFaceIndex": 234,
+          "targetSurfaceType": "TORUS"
+        }
+      }
+    ],
+    "unprunedCompoundCrosscheckErrorMm": [
+      0.0,
+      0.0
+    ]
+  },
+  "inputBytesUnchanged": true,
+  "elapsedSeconds": 249.76600000000008
+}

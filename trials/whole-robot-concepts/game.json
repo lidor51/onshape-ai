@@ -1,0 +1,192 @@
+{
+  "season": 2025,
+  "status": "BOUNDED_SOURCE_ANALYSIS",
+  "sources": [
+    {
+      "id": "M",
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+      "sha256": "dc6aa9ddbeba25c679c58bae746bde14dba2af79a61a65d8c5f575ca6cdfd523",
+      "pages": [23, 24, 26, 27, 28, 32, 33, 34, 41, 45, 46, 47, 48, 49, 50, 65, 66, 67, 69, 70, 71, 72, 73, 77, 78, 84, 86, 87, 88],
+      "scope": "Final official 2025 English manual; ARENA V4, Game Details V13, Game/Construction Rules V11. Relevant body text read from cached PDF; no diagram measurement or exhaustive audit. Printed pages equal PDF pages. Bumper context also from the existing bounded rules packet.",
+      "cacheFile": "../../research/2025-coral/.cache/rules/manual.pdf"
+    },
+    {
+      "id": "U",
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/TeamUpdates/TeamUpdate-Combined.pdf",
+      "sha256": "fc8c6292a5756244d1e896d01fc78bb620db9caa95913d42c02a450e379f10fb",
+      "pages": [1, 4, 28],
+      "scope": "PDF pages: TU21 2025-04-08 is final update and raises FIRST Championship thresholds; TU18 2025-03-18 retains District Championship thresholds; TU03 2025-01-14 corroborates five coral per level. Redline old/new text reconciled with final manual, not treated as simultaneous thresholds.",
+      "cacheFile": "../../research/2025-coral/.cache/rules/updates.pdf"
+    },
+    {
+      "id": "Q",
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/FRC2025REEFSCAPE-QandAExport.pdf",
+      "sha256": "8f282af8993c2c790f3e695aec365b5edfe5918e1099a9572f149ba9fa58d890",
+      "pages": [5, 6, 42, 43, 51, 52],
+      "scope": "Q18 answered 2025-01-10, Q144 2025-02-10, Q174 2025-02-18; PDF-page locators. Interpretation does not supersede manual. Export date is not answer effective date.",
+      "cacheFile": "../../research/2025-coral/.cache/rules/qa.pdf"
+    },
+    {"id": "R1690_1778", "url": "../../research/2025-coral/1690-1778.md", "pages": [], "scope": "Existing report: over-bumper transfer and centering during raise; principles only, no replica dimensions or performance."},
+    {"id": "R2056_6328", "url": "../../research/2025-coral/2056-6328.md", "pages": [], "scope": "Existing report: independent-side orientation and 6328's attributed inspiration; no measured success rates."},
+    {"id": "R2056_BINDER", "url": "../../research/2025-coral/2056-binder.md", "pages": [], "scope": "Existing selected-page report: pickup, alignment and cradle are separate functions; no new team-CAD download."},
+    {"id": "R2910", "url": "../../research/2025-coral/2910-handoff.md", "pages": [], "scope": "Existing report: articulated arm carries intake; does not prove an independent elevator handoff or our algae path."}
+  ],
+  "scoring": {
+    "sourceRefs": ["M", "U"],
+    "manualSections": ["6.1 p.41", "6.4 pp.46-47", "6.5.1-6.5.4 pp.47-50"],
+    "periodsSeconds": {"auto": 15, "teleop": 135, "activeTotal": 150, "autoToTeleopScoringDelay": 3, "postPeriodElementAssessmentMaximum": 3, "postTeleopCageAssessmentMaximum": 3},
+    "timingNotes": "The three-second transition is not extra AUTO driving time. Element assessment continues up to three seconds after each period; cage assessment is at rest or three seconds after TELEOP, whichever occurs first.",
+    "points": {
+      "leave": {"auto": 3},
+      "coral": {"L1": {"auto": 3, "teleop": 2}, "L2": {"auto": 4, "teleop": 3}, "L3": {"auto": 6, "teleop": 4}, "L4": {"auto": 7, "teleop": 5}},
+      "algae": {"processor": {"auto": 6, "teleop": 6}, "net": {"auto": 4, "teleop": 4}},
+      "barge": {"park": {"teleop": 2}, "shallow": {"teleop": 6}, "deep": {"teleop": 12}}
+    },
+    "algaeAttribution": {
+      "processorAwardedTo": "Alliance owning the scored processor; 6 points.",
+      "processorBallRecipient": "Opposing alliance HUMAN PLAYER in the adjacent PROCESSOR AREA.",
+      "netAwardedTo": "Alliance owning the scored net; 4 points, independent of whether robot or HUMAN PLAYER delivered it.",
+      "ourHumanPlayerSupply": "Opponent processor deliveries, not our processor deliveries.",
+      "humanPlayerMayEnterAlgaeInAuto": false,
+      "humanPlayerEntryLocation": "Their PROCESSOR AREA; G433 p.73, with G404 p.65 prohibiting AUTO entry.",
+      "example": {"condition": "Our processor score followed by successful opponent HP score in their net", "ourPoints": 6, "opponentPoints": 4, "scoreMargin": 2},
+      "sourceRefs": ["M"],
+      "pages": [28, 41, 48, 50, 65, 73]
+    },
+    "criteria": {
+      "leave": "Bumpers no longer overlap the robot's starting line at end of AUTO.",
+      "coralL1": "No contact with own-alliance robot, not scored on another level, and contacting trough or directly supported at least partly by coral contacting trough.",
+      "coralL2ToL4": "Branch inside coral volume; no own-alliance robot or algae contact; only one coral per branch.",
+      "processor": "Ball passes through opening and by sensor array.",
+      "net": "Above and within net perimeter, contacting net or algae contacting net, and not contacting own-alliance robot.",
+      "park": "Bumpers partly or wholly within own BARGE ZONE at match end; not qualified for cage points.",
+      "cage": "Exactly one own-alliance cage; no carpet or ANCHOR contact. Additional permitted contacts: scoring elements, another cage-qualified robot, partner contacted by opponent in violation of G428, or opponent robot. M p.49.",
+      "endgameMutuallyExclusive": ["park", "shallow", "deep"]
+    },
+    "autoCoralAccounting": "AUTO points are not added again as TELEOP points. Removal in TELEOP removes AUTO match points, not AUTO-RP credit; rescoring that branch location restores AUTO points. L1 aggregate accounting removes TELEOP coral first and restores AUTO coral first (M p.48).",
+    "rankingPoints": {
+      "qualificationOnly": true,
+      "auto": {"rp": 1, "condition": "All non-BYPASSED robots LEAVE and at least one coral scored in AUTO."},
+      "coral": {"rp": 1, "levelsRequired": 4, "levelsRequiredWithCoopertition": 3, "condition": "Threshold must be met on EACH required level, not across levels combined; alliance achievement."},
+      "barge": {"rp": 1, "condition": "Alliance barge-point sum reaches selected event-profile threshold."},
+      "eventProfiles": {
+        "regionalAndDistrict": {"coralPerRequiredLevel": 5, "bargePoints": 14, "sourceRefs": ["U"], "pages": [1, 4, 28]},
+        "districtChampionship": {"coralPerRequiredLevel": 5, "bargePoints": 14, "sourceRefs": ["U"], "pages": [1, 4, 28]},
+        "firstChampionship": {"coralPerRequiredLevel": 7, "bargePoints": 16, "sourceRefs": ["M", "U"], "manualPages": [50], "updatePages": [1]}
+      },
+      "selectedEventProfile": null,
+      "selectedEventProfileReason": "No specific event selected; do not silently use Championship thresholds for all 2025 events.",
+      "dedicatedAlgaeRp": false,
+      "win": 3,
+      "tie": 1,
+      "coopertition": {"algaePerProcessor": 2, "bothProcessorsRequired": true, "coopertitionPointsPerTeam": 1, "isRankingPoint": false},
+      "versionWarning": "Final M p.50 shows 7/16 after TU21. TU21 raises FIRST Championship only; TU18 explicitly retains District Championship thresholds. Old/new redline 5->7 and 14->16 is not a combined requirement.",
+      "bargeExamples": [
+        {"actions": ["shallow", "shallow", "park"], "points": 14, "ordinaryThresholdMet": true, "championshipThresholdMet": false},
+        {"actions": ["deep", "park", "park"], "points": 16, "ordinaryThresholdMet": true, "championshipThresholdMet": true}
+      ]
+    }
+  },
+  "dimensionsMm": {
+    "inchToMm": 25.4,
+    "interpretation": "Exact imperial-to-mm conversions of nominal references, not measured precision. No field-height entry is automatically a manipulator-center target.",
+    "coral": {"length": 301.625, "outsideDiameter": 114.3, "nominalInsideDiameter": 101.6, "sourceInches": {"length": 11.875, "outsideDiameter": 4.5, "nominalInsideDiameter": 4}, "sourceRefs": ["M"], "pages": [33], "dimensionalTolerance": null, "reason": "Manual nominal foam-core Schedule 40 PVC; no measured tolerance/ovality or guaranteed bore fit established."},
+    "algae": {"diameter": 412.75, "diameterTolerance": 6.35, "minimumDiameter": 406.4, "maximumDiameter": 419.1, "sourceInches": {"diameter": 16.25, "diameterTolerance": 0.25, "minimumDiameter": 16, "maximumDiameter": 16.5}, "sourceRefs": ["M"], "pages": [34], "note": "Inflated gauge size; shape, wall thickness and weight distribution vary. Not necessarily spherical."},
+    "reef": {
+      "sourceRefs": ["M"],
+      "pages": [23, 24, 45, 46],
+      "L1": {"height": 457.2, "sourceInches": {"height": 18}, "datum": "FIELD carpet", "heightType": "top/front edge of trough; not a branch", "toolCenterHeight": null, "reason": "Scoring trajectory depends on trough surfaces, piece pose and tool geometry."},
+      "L2": {"height": 809.625, "insetFromBase": 41.275, "sourceInches": {"height": 31.875, "insetFromBase": 1.625}, "datum": "FIELD carpet", "heightType": "highest branch point", "branchUpAngleDegrees": 35, "toolCenterHeight": null, "reason": "Branch tip is not coral center or insertion trajectory."},
+      "L3": {"height": 1209.675, "insetFromBase": 41.275, "sourceInches": {"height": 47.625, "insetFromBase": 1.625}, "datum": "FIELD carpet", "heightType": "highest branch point", "branchUpAngleDegrees": 35, "toolCenterHeight": null, "reason": "Branch tip is not coral center or insertion trajectory."},
+      "L4": {"height": 1828.8, "insetFromBase": 28.575, "sourceInches": {"height": 72, "insetFromBase": 1.125}, "datum": "FIELD carpet", "heightType": "highest point of vertical branch", "toolCenterHeight": null, "reason": "Tool/piece clearance and placement path are not established by branch height."},
+      "pipePairSpacing": 330.2,
+      "sourceInches": {"pipePairSpacing": 13},
+      "pipePairSpacingType": "Vertical pipes on same reef face, center to center.",
+      "algaeLow": {"centerHeight": null, "datum": "FIELD carpet", "heightType": "requested ball center, unverified", "reason": "M pp.45-46 stages algae on branch pairs; extracted figure/body text gives no numerical ball-center height. Cannot use L2 tip height or add a radius to it."},
+      "algaeHigh": {"centerHeight": null, "datum": "FIELD carpet", "heightType": "requested ball center, unverified", "reason": "M pp.45-46 gives no numerical ball-center height; no figure measurement or assumed L3-tip equivalence."},
+      "stagedAlgaeContactsCoralOnL4": false
+    },
+    "coralStation": {
+      "openingWidth": 1930.4, "openingHeight": 177.8, "openingBottomHeight": 952.5,
+      "sourceInches": {"openingWidth": 76, "openingHeight": 7, "openingBottomHeight": 37.5},
+      "chuteSlopeDegrees": 55, "datum": "FIELD carpet", "heightType": "bottom edge of opening", "toolCenterHeight": null,
+      "reason": "Opening bottom is not fed coral axis; receiving pose depends on chute and tool geometry.", "sourceRefs": ["M"], "pages": [32]
+    },
+    "processor": {
+      "openingWidth": 711.2, "openingHeight": 508, "openingClearance": 177.8,
+      "sourceInches": {"openingWidth": 28, "openingHeight": 20, "openingClearance": 7},
+      "datum": "FIELD carpet", "heightType": "opening-to-carpet distance; specific edge not named in prose", "openingBottomHeight": null, "openingCenterHeight": null, "toolCenterHeight": null,
+      "reason": "M p.28 says opening is 7 in from carpet but does not explicitly name the edge. Preserve clearance reference; do not promote to verified bottom/center or release pose without drawing confirmation.", "sourceRefs": ["M"], "pages": [28]
+    },
+    "net": {
+      "meshWidth": 1219.2, "meshLength": 3657.6, "lowestMeshHeight": 1930.4,
+      "sourceInches": {"meshWidth": 48, "meshLength": 144, "lowestMeshHeight": 76},
+      "datum": "FIELD carpet", "heightType": "lowest hanging mesh point, NOT rim/opening", "rimOrOpeningHeight": null, "toolReleaseHeight": null,
+      "reason": "M p.27 supplies lowest point only. Mesh dimensions are not a solved aperture or ballistic target. No net contact is allowed.", "sourceRefs": ["M"], "pages": [27]
+    },
+    "cage": {
+      "deepBottomHeight": 79.375, "shallowBottomHeight": 765.175, "bodyHeight": 609.6, "outsideWidth": 187.325,
+      "sourceInches": {"deepBottomHeight": 3.125, "shallowBottomHeight": 30.125, "bodyHeight": 24, "outsideWidth": 7.375},
+      "datum": "FIELD carpet", "heightType": "bottom of suspended cage, NOT hook contact", "deepHookTargetHeight": null, "shallowHookTargetHeight": null,
+      "reason": "Engagement geometry, ANCHOR exclusion and clearance/load path require separate design evidence; do not add body height to invent a legal hook point.", "sourceRefs": ["M"], "pages": [26, 46, 49, 69]
+    },
+    "floorIdealizations": {
+      "coralHorizontalAxisHeight": 57.15, "algaeNominalCenterHeight": 206.375, "algaeMinimumCenterHeight": 203.2, "algaeMaximumCenterHeight": 209.55,
+      "derivation": "Half OD for horizontal cylindrical coral; half diameter for spherical algae on an ideal flat plane. Derived, not independently specified field targets.",
+      "limitations": "No carpet sink, deformation, roller compression or tool-center prescription. Initial marked algae is atop coral, not on bare carpet.", "sourceRefs": ["M"], "pages": [33, 34, 45]
+    }
+  },
+  "constraints": {
+    "analysisBoundary": "Read-only cached official PDF extraction and existing local reports. Only GAME-ANALYSIS.md and game.json written. No network, credentials, authenticated API, CAD/browser CAD, team-CAD downloads, kernels, simulations, ranking discovery, commits or delegates.",
+    "startingPerimeterMaximumMm": 3048,
+    "startingHeightMaximumMm": 1066.8,
+    "extensionMaximumMm": 457.2,
+    "sourceInches": {"startingPerimeterMaximumMm": 120, "startingHeightMaximumMm": 42, "extensionMaximumMm": 18},
+    "envelopeDatum": "Fixed non-articulated ROBOT PERIMETER, taut-string outline in starting configuration excluding bumpers; not bumper face or a recess-following path. R101-R105 pp.77-78.",
+    "startingOverhang": "No robot hardware beyond perimeter projection except bumpers and stated minor protrusions.",
+    "multiSideExtensionAllowed": true,
+    "postStartHeightMaximumMm": null,
+    "postStartHeightReason": "No rule height cap after start, per Q18; not an unlimited safe operating clearance. NET, venue, transport and safety limits remain.",
+    "heldCoralIncludedInExtensionMeasurement": false,
+    "heldCoralCaveat": "Q144 exclusion from R105 does not remove controlled-piece hazards/contact restrictions; no corresponding algae measurement exclusion is asserted here.",
+    "robotMass": {"maximumLb": 115, "maximumKg": 52.16312255, "sourceRefs": ["M"], "pages": [78]},
+    "robotWithBumpersMass": {"maximumLb": 135, "maximumKg": 61.23496995, "sourceRefs": ["M"], "pages": [88]},
+    "massBasis": "R103 excludes bumpers, battery plus specified connection/cable assembly, and event-provided location tags. R408 adds bumpers on the R103 basis; not a separate 20 lb bumper limit.",
+    "bumpers": {
+      "intactPerimeterRequired": true, "intakeSizedGapAllowed": false,
+      "adjacentSegmentGapExclusiveMaximumMm": 31.75, "zoneLowerMm": 63.5, "zoneUpperMm": 146.05,
+      "sourceInches": {"adjacentSegmentGapExclusiveMaximumMm": 1.25, "zoneLowerMm": 2.5, "zoneUpperMm": 5.75},
+      "condition": "Filled corners; padding supported by backing fills nominal floor zone. Check configurations, not just stow. Do not consume inspection tolerance as design clearance. R401/R405; existing bounded bumper packet supplies broader construction context.",
+      "sourceRefs": ["M"], "pages": [84, 86, 87]
+    },
+    "occupancy": {"maximumCoral": 1, "maximumAlgae": 1, "simultaneousOneOfEachPermitted": true, "mechanicallyRequired": false, "scope": "Whole-robot direct/transitive CONTROL including supported/stuck pieces and deliberate herding. Shared-tool handoff does not create a second coral allowance. Limited L1 scored-coral pushing exception only.", "rule": "G409", "sourceRefs": ["M"], "pages": [66, 67]},
+    "guards": [
+      {"id": "coralLaunch", "rule": "G412", "pages": [67], "condition": "Launch coral only with bumpers partly in own REEF ZONE; do not treat approximate short reverse-intake guidance as a universal distance/speed allowance."},
+      {"id": "fieldBoundary", "rule": "G407", "pages": [66], "condition": "No intentional out-of-field ejection of either piece, including via ricochet, except algae through PROCESSOR; applies to jam clearing."},
+      {"id": "protectedZones", "rule": "G427", "pages": [72], "condition": "No direct or scoring-element-mediated opponent contact when opponent is partly/wholly within their own REEF/BARGE ZONE, regardless of initiator."},
+      {"id": "cageProtection", "rule": "G428", "pages": [72], "lastTeleopSeconds": 20, "condition": "No direct/piece-mediated contact with opponent contacting their cage during final 20 s, regardless of initiator; this is protection timing, not a prescribed climb duration."},
+      {"id": "autoContact", "rule": "G403", "pages": [65], "condition": "After bumpers completely cross BARGE ZONE away from own starting line, no direct or controlled-piece-mediated opponent contact in AUTO, regardless of initiator."},
+      {"id": "fieldAndClimbContact", "rule": "G405/G417-G420", "pages": [65, 69], "condition": "No opponent cage contact in AUTO/TELEOP; no NET contact or contact with algae scored in opponent NET; no prohibited field attachment outside cage exception; ANCHORS off limits except G419 inconsequential exception, which is not design permission."},
+      {"id": "opponentPlay", "rule": "G410/G411/G421-G424", "pages": [67, 70, 71], "condition": "Do not de-score opponent coral or deliberately place algae on their reef. At most one robot beyond BARGE ZONES on opponent side; respect extended-contact, damage, tipping and entanglement restrictions."},
+      {"id": "stateMachine", "rule": "Derived design guard, not a new rule", "pages": [66, 67, 78], "condition": "Independent coral/algae occupancy, shared-tool ownership, positive transfer confirmation, release-location checking, full swept-extension limits and climb/stow interlock. Unknown occupancy/location inhibits acquisition/launch pending controlled recovery."}
+    ],
+    "shop": {"accurateMetalBendsAvailable": false, "preferredConstruction": ["router-cut flat aluminum plates", "router-cut polycarbonate", "spacers and tubes", "manual machining", "printed guides"], "basis": "User shop constraint, not game rule. Preserve service/electrical volume and intact removable bumpers; redesign bend-dependent reference details."},
+    "conceptContract": {"count": 10, "eachRequires": ["complete coral acquisition-retention-scoring route", "complete algae acquisition-retention-scoring route", "explicit deep/shallow/park plan", "stow and transition hypotheses", "intact bumpers and service space"], "permittedIntentionalOmissions": ["L4", "net", "deep climb", "simultaneous mechanical carry"], "unknownHeightPolicy": "Never coerce null into a numeric field guide/tool target or substitute branch-tip/lowest-net heights. Proposed manipulator-center poses must be separately labeled design hypotheses."},
+    "unmeasured": {"cycleTimesSeconds": null, "successProbabilities": null, "manipulatorTrajectories": null, "climbLoads": null, "stability": null, "reason": "No physical measurements, mechanism proof or simulation in this bounded task."}
+  },
+  "strategyNotes": [
+    {"id": "reefAccess", "type": "evidence_plus_inference", "sourceRefs": ["M"], "pages": [45, 46, 48], "text": "Algae on branch pairs obstructs access; coral touching algae cannot score on L2-L4. Removal may unlock own/partner cycles but gives no removal points. Staged algae does not contact L4 coral; do not treat all reef access as blocked."},
+    {"id": "floorAndStation", "type": "design_implication", "sourceRefs": ["M"], "pages": [32, 45], "text": "Separate station receiving, horizontal loose coral, loose algae and initially stacked algae-on-coral cases. Source geometry is not a tool center. Multiple feeds/retained pieces must obey whole-robot occupancy."},
+    {"id": "familySeparate", "type": "conditional_recommendation", "family": "Elevator plus separate algae mechanism", "capabilityIntent": "L2-L4 coral and independent algae clearing; processor baseline; net/deep optional.", "condition": "Repeated high coral placement and task independence justify separate mechanisms.", "firstCheck": "Stow, intact-bumper floor transfer, shared reef approach, service space and cage load-path packaging.", "sourceRefs": ["R1690_1778", "R2056_6328", "R2056_BINDER"]},
+    {"id": "familyShared", "type": "conditional_recommendation", "family": "Shared articulated arm or elevator/wrist with dual-purpose tool", "capabilityIntent": "Coral and algae processor; optional L4/net; explicit climb choice. Simultaneous carrying not assumed.", "condition": "Avoiding handoffs/duplicate mechanisms outweighs serialized tasks and tool compromises.", "firstCheck": "Demonstrate both-piece retention/release and exclusive tool ownership through reconfiguration.", "sourceRefs": ["R2910", "R1690_1778"]},
+    {"id": "familyLow", "type": "conditional_recommendation", "family": "Lower-reach coral plus independent algae roller and climb", "capabilityIntent": "L1-L3 coral, algae processor and explicit deep/shallow/park plan; deliberately omit L4/net.", "condition": "Measured lower-level throughput and alliance complementarity outweigh added reach/shooting capability.", "firstCheck": "Verify low/high reef-algae capability separately; climb time/load-path budget; simplicity is not measured reliability.", "sourceRefs": ["M", "R2056_BINDER"]},
+    {"id": "referenceLimits", "type": "evidence_boundary", "text": "1690 over-bumper transfer, 1778 centering during raise, 2056 independent-side alignment and staged handoff, 6328 attributed inspiration, and 2910 arm-carried intake are principles from existing reports, not exact replicas or our performance. No new team research/CAD.", "sourceRefs": ["R1690_1778", "R2056_6328", "R2056_BINDER", "R2910"]},
+    {"id": "tenConceptCoverage", "type": "design_direction", "text": "Vary functional ownership, station/floor source, orientation/handoff, scoring omissions and climb packaging across ten concepts. Each handles both pieces; do not produce ten cosmetic rearrangements or silently assume missing heights."},
+    {"id": "autoValue", "type": "arithmetic_not_performance", "sourceRefs": ["M"], "pages": [48, 50], "autoPremiumByCoralLevel": {"L1": 1, "L2": 1, "L3": 2, "L4": 2}, "example": {"condition": "One qualifying retained AUTO L4 coral and LEAVE", "points": 10}, "text": "No AUTO+TELEOP double count. AUTO RP depends on partners' LEAVE and at least one alliance coral; coordinate baseline before adding autonomous complexity."},
+    {"id": "coralBreakEven", "type": "conditional_expected_value", "formula": "5*p4/t4 > 4*p3/t3", "variables": "p4,p3: unmeasured success probabilities; t4,t3: cycle seconds, including travel/handling.", "equalProbabilityTimeRatioBoundary": 1.25, "hypotheticalExample": {"l3Seconds": 10, "l4EqualitySeconds": 12.5}, "limitations": "Not measured times or predicted scores; excludes penalties, access conflicts and RP threshold value."},
+    {"id": "algaeBreakEven", "type": "conditional_expected_score_margin", "processorFormula": "pProcessor*(6-4*h)", "netFormula": "4*pNet", "variables": "h is probability a successfully processor-delivered ball later scores in opponent net; pProcessor and pNet are own robot delivery probabilities. All unmeasured.", "hypotheticalEqualTimeGuaranteedRobotSuccessBoundaryH": 0.5, "limitations": "Immediate one-ball comparison only. Compare rates if times differ. Excludes reef-clearing value, Coopertition, other HP recirculation effects and future possession."},
+    {"id": "climbBreakEven", "type": "conditional_expected_value", "formula": "p*C+(1-p)*f > 2+r*t", "variables": "C=12 deep or 6 shallow; f=failure points; t=incremental seconds versus park; r=forgone expected scoring points/s; p unmeasured.", "hypotheticalExample": {"incrementalSeconds": 12, "forgonePointsPerSecond": 0.4, "failurePointsAssumed": 2, "deepStrictProbabilityThreshold": 0.48, "shallowStrictProbabilityThreshold": 1.2}, "limitations": "Example assumes a failed attempt still qualifies for park; not guaranteed. f=0 changes threshold. No invented climb reliability. BARGE RP and penalties excluded; RP-critical climb can change decision."},
+    {"id": "clearingBreakEven", "type": "conditional_expected_value", "text": "Clear algae when expected incremental own/partner coral value plus algae-destination value exceeds forgone alternative and risk. Do not award fixed invented clearing points or count a partner cycle twice."},
+    {"id": "evidenceGaps", "type": "unverified", "text": "Low/high reef-algae center heights, net rim/opening height, processor edge-specific height, hook engagement/ANCHOR clearances, all manipulator-center paths, unspecified tolerances, carpet compression, performance, reach, loads and stability remain unverified. Resolve only in a separately authorized next stage; no guessed reef geometry."}
+  ]
+}

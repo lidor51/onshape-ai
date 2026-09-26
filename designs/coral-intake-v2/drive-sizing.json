@@ -1,0 +1,5566 @@
+{
+  "status": "ENGINEERING_SCREEN_NOT_SELECTED_HARDWARE",
+  "source_pickup_sha256": "221046dd031478de13c283ee6924958ae6fca61972f6654f6d3b0148a6a65d6c",
+  "motor": {
+    "source": "CTRE_dyno_2025-09-26",
+    "free_rpm": 7758,
+    "stall_torque_nm": 4.113,
+    "stall_current_a": 279.1,
+    "voltage_v": 12,
+    "current_basis": "supply_current_at_100_percent_duty; stall_endpoints_extrapolated"
+  },
+  "cad_mass": {
+    "status": "CAD_VOLUME_ESTIMATE_NOT_WEIGHED",
+    "rows": [
+      {
+        "part": "main_cheek_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.5584420160046171,
+            "first_moment_bound_kg_m": 0.1457077191516471,
+            "inertia_kg_m2": 0.04934555451164175
+          },
+          {
+            "mass_kg": 0.6005885832502484,
+            "first_moment_bound_kg_m": 0.15670452814422423,
+            "inertia_kg_m2": 0.0530697473049732
+          }
+        ]
+      },
+      {
+        "part": "floating_cheek_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.12915097222326002,
+            "first_moment_bound_kg_m": 0.04245638314968693,
+            "inertia_kg_m2": 0.014435293966166503
+          },
+          {
+            "mass_kg": 0.13889821540992114,
+            "first_moment_bound_kg_m": 0.04566063848173877,
+            "inertia_kg_m2": 0.015524750114556425
+          }
+        ]
+      },
+      {
+        "part": "main_cheek_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.5584420160046171,
+            "first_moment_bound_kg_m": 0.1457077191516471,
+            "inertia_kg_m2": 0.04934555451164175
+          },
+          {
+            "mass_kg": 0.6005885832502484,
+            "first_moment_bound_kg_m": 0.15670452814422423,
+            "inertia_kg_m2": 0.0530697473049732
+          }
+        ]
+      },
+      {
+        "part": "floating_cheek_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.12915097222326002,
+            "first_moment_bound_kg_m": 0.04245638314968693,
+            "inertia_kg_m2": 0.014435293966166503
+          },
+          {
+            "mass_kg": 0.13889821540992114,
+            "first_moment_bound_kg_m": 0.04566063848173877,
+            "inertia_kg_m2": 0.015524750114556425
+          }
+        ]
+      },
+      {
+        "part": "crossmember_0",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.16917856207890652,
+            "first_moment_bound_kg_m": 0.07711354625106846,
+            "inertia_kg_m2": 0.03516775010435402
+          },
+          {
+            "mass_kg": 0.1819467554433523,
+            "first_moment_bound_kg_m": 0.08293343653416796,
+            "inertia_kg_m2": 0.03782191992355055
+          }
+        ]
+      },
+      {
+        "part": "crossmember_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.16917856207890652,
+            "first_moment_bound_kg_m": 0.05500912374269243,
+            "inertia_kg_m2": 0.017904952238069535
+          },
+          {
+            "mass_kg": 0.1819467554433523,
+            "first_moment_bound_kg_m": 0.059160755723272986,
+            "inertia_kg_m2": 0.019256269388112517
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.030691118471914847,
+            "first_moment_bound_kg_m": 0.011891219120904297,
+            "inertia_kg_m2": 0.0046111768244431585
+          },
+          {
+            "mass_kg": 0.03188687633445698,
+            "first_moment_bound_kg_m": 0.012354513372368096,
+            "inertia_kg_m2": 0.0047908330643565275
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232773,
+            "first_moment_bound_kg_m": 0.007225691259392909,
+            "inertia_kg_m2": 0.0028100985099683727
+          },
+          {
+            "mass_kg": 0.01937604663193015,
+            "first_moment_bound_kg_m": 0.007507211698070554,
+            "inertia_kg_m2": 0.0029195828674996073
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158961,
+            "first_moment_bound_kg_m": 0.0017911228761860664,
+            "inertia_kg_m2": 0.000739740928871604
+          },
+          {
+            "mass_kg": 0.0045059466858794394,
+            "first_moment_bound_kg_m": 0.00186090688434916,
+            "inertia_kg_m2": 0.0007685620040224455
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00017420612164709438,
+            "inertia_kg_m2": 7.195209780528712e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.00018099337313983826,
+            "inertia_kg_m2": 7.475542629120738e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.000786938115056761,
+            "inertia_kg_m2": 0.0003250219329885773
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.0008175980416174139,
+            "inertia_kg_m2": 0.0003376851251829374
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00433697368515896,
+            "first_moment_bound_kg_m": 0.0015790396477790279,
+            "inertia_kg_m2": 0.0005749359288355632
+          },
+          {
+            "mass_kg": 0.004505946685879439,
+            "first_moment_bound_kg_m": 0.0016405606730171716,
+            "inertia_kg_m2": 0.0005973360299590266
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066847,
+            "first_moment_bound_kg_m": 0.000153578727972208,
+            "inertia_kg_m2": 5.592302449823318e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757762,
+            "first_moment_bound_kg_m": 0.00015956231477632,
+            "inertia_kg_m2": 5.810184363452797e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_-1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.001905469436087545,
+            "first_moment_bound_kg_m": 0.0006937583683086377,
+            "inertia_kg_m2": 0.0002526140944172504
+          },
+          {
+            "mass_kg": 0.0019797085050260203,
+            "first_moment_bound_kg_m": 0.0007207879151258572,
+            "inertia_kg_m2": 0.00026245620199194845
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.03069111847191485,
+            "first_moment_bound_kg_m": 0.011891219120898357,
+            "inertia_kg_m2": 0.004611176824438557
+          },
+          {
+            "mass_kg": 0.031886876334456984,
+            "first_moment_bound_kg_m": 0.012354513372361929,
+            "inertia_kg_m2": 0.0047908330643517474
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.01864944488323277,
+            "first_moment_bound_kg_m": 0.0072256912593929076,
+            "inertia_kg_m2": 0.0028100985099683722
+          },
+          {
+            "mass_kg": 0.019376046631930148,
+            "first_moment_bound_kg_m": 0.0075072116980705525,
+            "inertia_kg_m2": 0.002919582867499607
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158961,
+            "first_moment_bound_kg_m": 0.0017911228761860664,
+            "inertia_kg_m2": 0.000739740928871604
+          },
+          {
+            "mass_kg": 0.0045059466858794394,
+            "first_moment_bound_kg_m": 0.00186090688434916,
+            "inertia_kg_m2": 0.0007685620040224455
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00017420612164709438,
+            "inertia_kg_m2": 7.195209780528712e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.00018099337313983826,
+            "inertia_kg_m2": 7.475542629120738e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.000786938115056761,
+            "inertia_kg_m2": 0.0003250219329885773
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.0008175980416174139,
+            "inertia_kg_m2": 0.0003376851251829374
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00433697368515896,
+            "first_moment_bound_kg_m": 0.0015790396477790279,
+            "inertia_kg_m2": 0.0005749359288355632
+          },
+          {
+            "mass_kg": 0.004505946685879439,
+            "first_moment_bound_kg_m": 0.0016405606730171716,
+            "inertia_kg_m2": 0.0005973360299590266
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066847,
+            "first_moment_bound_kg_m": 0.000153578727972208,
+            "inertia_kg_m2": 5.592302449823318e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757762,
+            "first_moment_bound_kg_m": 0.00015956231477632,
+            "inertia_kg_m2": 5.810184363452797e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_kick_1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.001905469436087545,
+            "first_moment_bound_kg_m": 0.0006937583683086377,
+            "inertia_kg_m2": 0.0002526140944172504
+          },
+          {
+            "mass_kg": 0.0019797085050260203,
+            "first_moment_bound_kg_m": 0.0007207879151258572,
+            "inertia_kg_m2": 0.00026245620199194845
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.030691118471914844,
+            "first_moment_bound_kg_m": 0.007833159836708509,
+            "inertia_kg_m2": 0.002003168281933281
+          },
+          {
+            "mass_kg": 0.03188687633445698,
+            "first_moment_bound_kg_m": 0.008138347882294556,
+            "inertia_kg_m2": 0.002081213799411201
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232762,
+            "first_moment_bound_kg_m": 0.0047598118545433355,
+            "inertia_kg_m2": 0.0012253432815707834
+          },
+          {
+            "mass_kg": 0.01937604663193014,
+            "first_moment_bound_kg_m": 0.004945259069655413,
+            "inertia_kg_m2": 0.0012730839289047098
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158964,
+            "first_moment_bound_kg_m": 0.0011755615344223997,
+            "inertia_kg_m2": 0.0003186693778422213
+          },
+          {
+            "mass_kg": 0.004505946685879443,
+            "first_moment_bound_kg_m": 0.0012213626331661293,
+            "inertia_kg_m2": 0.00033108506788802214
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 0.00011433610635653505,
+            "inertia_kg_m2": 3.0998323602508576e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 0.00011879075985094548,
+            "inertia_kg_m2": 3.22060504961128e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.001905469436087547,
+            "first_moment_bound_kg_m": 0.0005164883941415841,
+            "inertia_kg_m2": 0.0001400222006549332
+          },
+          {
+            "mass_kg": 0.0019797085050260225,
+            "first_moment_bound_kg_m": 0.0005366113185886586,
+            "inertia_kg_m2": 0.00014547761107006041
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158963,
+            "first_moment_bound_kg_m": 0.001059649643617171,
+            "inertia_kg_m2": 0.0002589301281248108
+          },
+          {
+            "mass_kg": 0.004505946685879441,
+            "first_moment_bound_kg_m": 0.0011009346946671903,
+            "inertia_kg_m2": 0.0002690183149348684
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066846,
+            "first_moment_bound_kg_m": 0.00010306241809179858,
+            "inertia_kg_m2": 2.518803378836848e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757761,
+            "first_moment_bound_kg_m": 0.00010707783697849198,
+            "inertia_kg_m2": 2.6169385754149062e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_-1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.001905469436087545,
+            "first_moment_bound_kg_m": 0.0004655619691175441,
+            "inertia_kg_m2": 0.00011377548514894427
+          },
+          {
+            "mass_kg": 0.0019797085050260203,
+            "first_moment_bound_kg_m": 0.00048370074713511066,
+            "inertia_kg_m2": 0.00011820829625864338
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.030691118471914844,
+            "first_moment_bound_kg_m": 0.007833159836706438,
+            "inertia_kg_m2": 0.0020031682819322233
+          },
+          {
+            "mass_kg": 0.03188687633445698,
+            "first_moment_bound_kg_m": 0.008138347882292403,
+            "inertia_kg_m2": 0.002081213799410102
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.01864944488323277,
+            "first_moment_bound_kg_m": 0.004759811854543337,
+            "inertia_kg_m2": 0.0012253432815707839
+          },
+          {
+            "mass_kg": 0.019376046631930148,
+            "first_moment_bound_kg_m": 0.004945259069655415,
+            "inertia_kg_m2": 0.0012730839289047103
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158965,
+            "first_moment_bound_kg_m": 0.0011755615344223999,
+            "inertia_kg_m2": 0.00031866937784222137
+          },
+          {
+            "mass_kg": 0.004505946685879444,
+            "first_moment_bound_kg_m": 0.0012213626331661295,
+            "inertia_kg_m2": 0.0003310850678880222
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 0.00011433610635653505,
+            "inertia_kg_m2": 3.0998323602508576e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 0.00011879075985094548,
+            "inertia_kg_m2": 3.22060504961128e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 0.000516488394141584,
+            "inertia_kg_m2": 0.00014002220065493316
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 0.0005366113185886585,
+            "inertia_kg_m2": 0.0001454776110700604
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.0010596496436171712,
+            "inertia_kg_m2": 0.0002589301281248109
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0011009346946671906,
+            "inertia_kg_m2": 0.00026901831493486843
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668447,
+            "first_moment_bound_kg_m": 0.00010306241809179854,
+            "inertia_kg_m2": 2.5188033788368472e-05
+          },
+          {
+            "mass_kg": 0.000438252175175776,
+            "first_moment_bound_kg_m": 0.00010707783697849197,
+            "inertia_kg_m2": 2.6169385754149055e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_middle_1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875445,
+            "first_moment_bound_kg_m": 0.000465561969117544,
+            "inertia_kg_m2": 0.00011377548514894425
+          },
+          {
+            "mass_kg": 0.00197970850502602,
+            "first_moment_bound_kg_m": 0.00048370074713511055,
+            "inertia_kg_m2": 0.00011820829625864337
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.030691118471914837,
+            "first_moment_bound_kg_m": 0.003855342126503193,
+            "inertia_kg_m2": 0.0004882436903912676
+          },
+          {
+            "mass_kg": 0.03188687633445697,
+            "first_moment_bound_kg_m": 0.004005550261302017,
+            "inertia_kg_m2": 0.0005072661718350832
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.01864944488323277,
+            "first_moment_bound_kg_m": 0.0023426927154380313,
+            "inertia_kg_m2": 0.0003048011507366476
+          },
+          {
+            "mass_kg": 0.019376046631930148,
+            "first_moment_bound_kg_m": 0.002433966457597954,
+            "inertia_kg_m2": 0.0003166765202458676
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158965,
+            "first_moment_bound_kg_m": 0.0007029069525100858,
+            "inertia_kg_m2": 0.00011394903555266743
+          },
+          {
+            "mass_kg": 0.004505946685879444,
+            "first_moment_bound_kg_m": 0.0007302929376728162,
+            "inertia_kg_m2": 0.00011838860836640773
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066848,
+            "first_moment_bound_kg_m": 6.836532306276006e-05,
+            "inertia_kg_m2": 1.1087050441580065e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757763,
+            "first_moment_bound_kg_m": 7.102890707819225e-05,
+            "inertia_kg_m2": 1.1519013445797467e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 0.00030882541874872275,
+            "inertia_kg_m2": 5.007737195721698e-05
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 0.0003208575779207509,
+            "inertia_kg_m2": 5.202843839710854e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158964,
+            "first_moment_bound_kg_m": 0.0003922433281493577,
+            "inertia_kg_m2": 3.550185553551206e-05
+          },
+          {
+            "mass_kg": 0.004505946685879443,
+            "first_moment_bound_kg_m": 0.00040752553573959234,
+            "inertia_kg_m2": 3.688504471222031e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066847,
+            "first_moment_bound_kg_m": 3.8149916930517595e-05,
+            "inertia_kg_m2": 3.4572115474223473e-06
+          },
+          {
+            "mass_kg": 0.0004382521751757762,
+            "first_moment_bound_kg_m": 3.963627733040788e-05,
+            "inertia_kg_m2": 3.5919081012180224e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_-1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 0.00017233391935382798,
+            "inertia_kg_m2": 1.5611240797265428e-05
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 0.00017904822790008098,
+            "inertia_kg_m2": 1.6219470958197847e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.030691118471914837,
+            "first_moment_bound_kg_m": 0.0038553421265007017,
+            "inertia_kg_m2": 0.0004882436903906419
+          },
+          {
+            "mass_kg": 0.03188687633445697,
+            "first_moment_bound_kg_m": 0.00400555026129943,
+            "inertia_kg_m2": 0.0005072661718344331
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232773,
+            "first_moment_bound_kg_m": 0.0023426927154380317,
+            "inertia_kg_m2": 0.00030480115073664766
+          },
+          {
+            "mass_kg": 0.01937604663193015,
+            "first_moment_bound_kg_m": 0.0024339664575979544,
+            "inertia_kg_m2": 0.00031667652024586765
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158965,
+            "first_moment_bound_kg_m": 0.0007029069525100858,
+            "inertia_kg_m2": 0.00011394903555266743
+          },
+          {
+            "mass_kg": 0.004505946685879444,
+            "first_moment_bound_kg_m": 0.0007302929376728162,
+            "inertia_kg_m2": 0.00011838860836640773
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066848,
+            "first_moment_bound_kg_m": 6.836532306276006e-05,
+            "inertia_kg_m2": 1.1087050441580065e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757763,
+            "first_moment_bound_kg_m": 7.102890707819225e-05,
+            "inertia_kg_m2": 1.1519013445797467e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 0.00030882541874872275,
+            "inertia_kg_m2": 5.007737195721698e-05
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 0.0003208575779207509,
+            "inertia_kg_m2": 5.202843839710854e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158964,
+            "first_moment_bound_kg_m": 0.0003922433281493577,
+            "inertia_kg_m2": 3.550185553551206e-05
+          },
+          {
+            "mass_kg": 0.004505946685879443,
+            "first_moment_bound_kg_m": 0.00040752553573959234,
+            "inertia_kg_m2": 3.688504471222031e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066847,
+            "first_moment_bound_kg_m": 3.8149916930517595e-05,
+            "inertia_kg_m2": 3.4572115474223473e-06
+          },
+          {
+            "mass_kg": 0.0004382521751757762,
+            "first_moment_bound_kg_m": 3.963627733040788e-05,
+            "inertia_kg_m2": 3.5919081012180224e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_rear_1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 0.00017233391935382798,
+            "inertia_kg_m2": 1.5611240797265428e-05
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 0.00017904822790008098,
+            "inertia_kg_m2": 1.6219470958197847e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232766,
+            "first_moment_bound_kg_m": 7.950736552643647e-19,
+            "inertia_kg_m2": 1.0518441877001005e-05
+          },
+          {
+            "mass_kg": 0.019376046631930145,
+            "first_moment_bound_kg_m": 8.260505509240152e-19,
+            "inertia_kg_m2": 1.0928251300780262e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.00016480500003604063,
+            "inertia_kg_m2": 6.289287132261165e-06
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0001712259740634188,
+            "inertia_kg_m2": 6.534324293258353e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668414,
+            "first_moment_bound_kg_m": 1.6029073307054e-05,
+            "inertia_kg_m2": 6.15972505399117e-07
+          },
+          {
+            "mass_kg": 0.00043825217517577566,
+            "first_moment_bound_kg_m": 1.6653582656679474e-05,
+            "inertia_kg_m2": 6.399714341809007e-07
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875462,
+            "first_moment_bound_kg_m": 7.240783857132676e-05,
+            "inertia_kg_m2": 2.776563835195943e-06
+          },
+          {
+            "mass_kg": 0.0019797085050260216,
+            "first_moment_bound_kg_m": 7.522892319098883e-05,
+            "inertia_kg_m2": 2.884741646956824e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158964,
+            "first_moment_bound_kg_m": 0.00016480500003604066,
+            "inertia_kg_m2": 6.289287132261166e-06
+          },
+          {
+            "mass_kg": 0.004505946685879443,
+            "first_moment_bound_kg_m": 0.00017122597406341882,
+            "inertia_kg_m2": 6.534324293258354e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 1.602907330705398e-05,
+            "inertia_kg_m2": 6.159725053991163e-07
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 1.6653582656679457e-05,
+            "inertia_kg_m2": 6.399714341808999e-07
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 7.240783857132677e-05,
+            "inertia_kg_m2": 2.7765638351959433e-06
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 7.522892319098884e-05,
+            "inertia_kg_m2": 2.8847416469568243e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232766,
+            "first_moment_bound_kg_m": 7.950736552643647e-19,
+            "inertia_kg_m2": 1.0518441877001005e-05
+          },
+          {
+            "mass_kg": 0.019376046631930145,
+            "first_moment_bound_kg_m": 8.260505509240152e-19,
+            "inertia_kg_m2": 1.0928251300780262e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.00016480500003604063,
+            "inertia_kg_m2": 6.289287132261165e-06
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0001712259740634188,
+            "inertia_kg_m2": 6.534324293258353e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668414,
+            "first_moment_bound_kg_m": 1.6029073307054e-05,
+            "inertia_kg_m2": 6.15972505399117e-07
+          },
+          {
+            "mass_kg": 0.00043825217517577566,
+            "first_moment_bound_kg_m": 1.6653582656679474e-05,
+            "inertia_kg_m2": 6.399714341809007e-07
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875462,
+            "first_moment_bound_kg_m": 7.240783857132676e-05,
+            "inertia_kg_m2": 2.776563835195943e-06
+          },
+          {
+            "mass_kg": 0.0019797085050260216,
+            "first_moment_bound_kg_m": 7.522892319098883e-05,
+            "inertia_kg_m2": 2.884741646956824e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158964,
+            "first_moment_bound_kg_m": 0.00016480500003604066,
+            "inertia_kg_m2": 6.289287132261166e-06
+          },
+          {
+            "mass_kg": 0.004505946685879443,
+            "first_moment_bound_kg_m": 0.00017122597406341882,
+            "inertia_kg_m2": 6.534324293258354e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 1.602907330705398e-05,
+            "inertia_kg_m2": 6.159725053991163e-07
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 1.6653582656679457e-05,
+            "inertia_kg_m2": 6.399714341808999e-07
+          }
+        ]
+      },
+      {
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875466,
+            "first_moment_bound_kg_m": 7.240783857132677e-05,
+            "inertia_kg_m2": 2.7765638351959433e-06
+          },
+          {
+            "mass_kg": 0.001979708505026022,
+            "first_moment_bound_kg_m": 7.522892319098884e-05,
+            "inertia_kg_m2": 2.8847416469568243e-06
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.03069111847191485,
+            "first_moment_bound_kg_m": 0.012395936631234656,
+            "inertia_kg_m2": 0.005010580736537225
+          },
+          {
+            "mass_kg": 0.031886876334456984,
+            "first_moment_bound_kg_m": 0.012878895201282757,
+            "inertia_kg_m2": 0.005205798167830881
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232766,
+            "first_moment_bound_kg_m": 0.007532381406766858,
+            "inertia_kg_m2": 0.0030527950357512584
+          },
+          {
+            "mass_kg": 0.019376046631930145,
+            "first_moment_bound_kg_m": 0.007825850812225307,
+            "inertia_kg_m2": 0.003171735102079229
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.0015915000359112998,
+            "inertia_kg_m2": 0.0005840450814187896
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0016535065308169348,
+            "inertia_kg_m2": 0.0006068000845909501
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668414,
+            "first_moment_bound_kg_m": 0.00015479063583157397,
+            "inertia_kg_m2": 5.680898836152451e-05
+          },
+          {
+            "mass_kg": 0.00043825217517577566,
+            "first_moment_bound_kg_m": 0.00016082143982501187,
+            "inertia_kg_m2": 5.902232557041506e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.0006992328974322705,
+            "inertia_kg_m2": 0.00025661624271143806
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.0007264757375919691,
+            "inertia_kg_m2": 0.0002666142781417538
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158968,
+            "first_moment_bound_kg_m": 0.00191263422995411,
+            "inertia_kg_m2": 0.0008435111088787267
+          },
+          {
+            "mass_kg": 0.004505946685879446,
+            "first_moment_bound_kg_m": 0.0019871524467055686,
+            "inertia_kg_m2": 0.0008763751780558196
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066843,
+            "first_moment_bound_kg_m": 0.00018602441840241953,
+            "inertia_kg_m2": 8.204487303696449e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757758,
+            "first_moment_bound_kg_m": 0.00019327212301550078,
+            "inertia_kg_m2": 8.524142653191114e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_-1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.001905469436087548,
+            "first_moment_bound_kg_m": 0.0008403246900168395,
+            "inertia_kg_m2": 0.00037061384124882467
+          },
+          {
+            "mass_kg": 0.0019797085050260238,
+            "first_moment_bound_kg_m": 0.0008730646130045086,
+            "inertia_kg_m2": 0.0003850533415572204
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.03069111847191485,
+            "first_moment_bound_kg_m": 0.01239593663123158,
+            "inertia_kg_m2": 0.005010580736534742
+          },
+          {
+            "mass_kg": 0.031886876334456984,
+            "first_moment_bound_kg_m": 0.012878895201279564,
+            "inertia_kg_m2": 0.005205798167828302
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232762,
+            "first_moment_bound_kg_m": 0.007532381406766857,
+            "inertia_kg_m2": 0.003052795035751258
+          },
+          {
+            "mass_kg": 0.01937604663193014,
+            "first_moment_bound_kg_m": 0.007825850812225305,
+            "inertia_kg_m2": 0.0031717351020792285
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.0015915000359112998,
+            "inertia_kg_m2": 0.0005840450814187896
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0016535065308169348,
+            "inertia_kg_m2": 0.0006068000845909501
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668414,
+            "first_moment_bound_kg_m": 0.00015479063583157397,
+            "inertia_kg_m2": 5.680898836152451e-05
+          },
+          {
+            "mass_kg": 0.00043825217517577566,
+            "first_moment_bound_kg_m": 0.00016082143982501187,
+            "inertia_kg_m2": 5.902232557041506e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.0006992328974322705,
+            "inertia_kg_m2": 0.00025661624271143806
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.0007264757375919691,
+            "inertia_kg_m2": 0.0002666142781417538
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158968,
+            "first_moment_bound_kg_m": 0.00191263422995411,
+            "inertia_kg_m2": 0.0008435111088787267
+          },
+          {
+            "mass_kg": 0.004505946685879446,
+            "first_moment_bound_kg_m": 0.0019871524467055686,
+            "inertia_kg_m2": 0.0008763751780558196
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066843,
+            "first_moment_bound_kg_m": 0.00018602441840241953,
+            "inertia_kg_m2": 8.204487303696449e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757758,
+            "first_moment_bound_kg_m": 0.00019327212301550078,
+            "inertia_kg_m2": 8.524142653191114e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_front_1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.001905469436087548,
+            "first_moment_bound_kg_m": 0.0008403246900168395,
+            "inertia_kg_m2": 0.00037061384124882467
+          },
+          {
+            "mass_kg": 0.0019797085050260238,
+            "first_moment_bound_kg_m": 0.0008730646130045086,
+            "inertia_kg_m2": 0.0003850533415572204
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.03069111847191485,
+            "first_moment_bound_kg_m": 0.00783315983670851,
+            "inertia_kg_m2": 0.0020031682819332815
+          },
+          {
+            "mass_kg": 0.031886876334456984,
+            "first_moment_bound_kg_m": 0.008138347882294557,
+            "inertia_kg_m2": 0.0020812137994112015
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.018649444883232766,
+            "first_moment_bound_kg_m": 0.0047598118545433355,
+            "inertia_kg_m2": 0.001225343281570783
+          },
+          {
+            "mass_kg": 0.019376046631930145,
+            "first_moment_bound_kg_m": 0.004945259069655413,
+            "inertia_kg_m2": 0.0012730839289047094
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.0009546342291985984,
+            "inertia_kg_m2": 0.00021015628926472052
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0009918277705959462,
+            "inertia_kg_m2": 0.00021834419663867063
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668425,
+            "first_moment_bound_kg_m": 9.284853031097969e-05,
+            "inertia_kg_m2": 2.044424908290527e-05
+          },
+          {
+            "mass_kg": 0.00043825217517577577,
+            "first_moment_bound_kg_m": 9.646600551790095e-05,
+            "inertia_kg_m2": 2.124077826795353e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875462,
+            "first_moment_bound_kg_m": 0.00041942296136257274,
+            "inertia_kg_m2": 9.234647359035683e-05
+          },
+          {
+            "mass_kg": 0.0019797085050260216,
+            "first_moment_bound_kg_m": 0.00043576411570137415,
+            "inertia_kg_m2": 9.594438814582527e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158961,
+            "first_moment_bound_kg_m": 0.0012623295040812203,
+            "inertia_kg_m2": 0.0003674432167023114
+          },
+          {
+            "mass_kg": 0.0045059466858794394,
+            "first_moment_bound_kg_m": 0.0013115111730713977,
+            "inertia_kg_m2": 0.00038175918618421953
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00012277523226934936,
+            "inertia_kg_m2": 3.574210830797178e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.00012755868287724607,
+            "inertia_kg_m2": 3.713465798230834e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_-1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875453,
+            "first_moment_bound_kg_m": 0.0005546103026931676,
+            "inertia_kg_m2": 0.0001614512122135205
+          },
+          {
+            "mass_kg": 0.0019797085050260207,
+            "first_moment_bound_kg_m": 0.0005762184963045895,
+            "inertia_kg_m2": 0.00016774151918287842
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.03069111847191485,
+            "first_moment_bound_kg_m": 0.00783315983670644,
+            "inertia_kg_m2": 0.0020031682819322237
+          },
+          {
+            "mass_kg": 0.031886876334456984,
+            "first_moment_bound_kg_m": 0.008138347882292405,
+            "inertia_kg_m2": 0.0020812137994101025
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_keeper",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.01864944488323276,
+            "first_moment_bound_kg_m": 0.004759811854543334,
+            "inertia_kg_m2": 0.0012253432815707826
+          },
+          {
+            "mass_kg": 0.019376046631930138,
+            "first_moment_bound_kg_m": 0.004945259069655411,
+            "inertia_kg_m2": 0.001273083928904709
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_bolt_0_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0043369736851589635,
+            "first_moment_bound_kg_m": 0.0009546342291985984,
+            "inertia_kg_m2": 0.00021015628926472052
+          },
+          {
+            "mass_kg": 0.004505946685879442,
+            "first_moment_bound_kg_m": 0.0009918277705959462,
+            "inertia_kg_m2": 0.00021834419663867063
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_bolt_0_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00042181771860668404,
+            "first_moment_bound_kg_m": 9.284853031097963e-05,
+            "inertia_kg_m2": 2.044424908290526e-05
+          },
+          {
+            "mass_kg": 0.00043825217517577556,
+            "first_moment_bound_kg_m": 9.646600551790091e-05,
+            "inertia_kg_m2": 2.124077826795352e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_bolt_0_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.00041942296136257264,
+            "inertia_kg_m2": 9.23464735903568e-05
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.0004357641157013741,
+            "inertia_kg_m2": 9.594438814582524e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_bolt_1_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004336973685158961,
+            "first_moment_bound_kg_m": 0.0012623295040812203,
+            "inertia_kg_m2": 0.0003674432167023114
+          },
+          {
+            "mass_kg": 0.0045059466858794394,
+            "first_moment_bound_kg_m": 0.0013115111730713977,
+            "inertia_kg_m2": 0.00038175918618421953
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_bolt_1_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00012277523226934936,
+            "inertia_kg_m2": 3.574210830797178e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.00012755868287724607,
+            "inertia_kg_m2": 3.713465798230834e-05
+          }
+        ]
+      },
+      {
+        "part": "bearing_arm_middle_1_bolt_1_nut",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.0005546103026931677,
+            "inertia_kg_m2": 0.00016145121221352053
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.0005762184963045896,
+            "inertia_kg_m2": 0.00016774151918287844
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_-1_plug",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.009817408748784893,
+            "first_moment_bound_kg_m": 0.0044751102417018825,
+            "inertia_kg_m2": 0.0020403412054902873
+          },
+          {
+            "mass_kg": 0.010558345258127148,
+            "first_moment_bound_kg_m": 0.00481285441088693,
+            "inertia_kg_m2": 0.0021943292209989883
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_-1_axial_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004941730270975002,
+            "first_moment_bound_kg_m": 0.002252480555286485,
+            "inertia_kg_m2": 0.0010267274098232594
+          },
+          {
+            "mass_kg": 0.005134265216597404,
+            "first_moment_bound_kg_m": 0.002340239537959984,
+            "inertia_kg_m2": 0.0010667297764397502
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_-1_axial_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00019226792174745723,
+            "inertia_kg_m2": 8.764413875517437e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.00019975887973761787,
+            "inertia_kg_m2": 9.10588454599214e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_-1_top_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.003127460513526891,
+            "first_moment_bound_kg_m": 0.0014170192783651517,
+            "inertia_kg_m2": 0.0006420879787812194
+          },
+          {
+            "mass_kg": 0.0032493096244435226,
+            "first_moment_bound_kg_m": 0.0014722278216780793,
+            "inertia_kg_m2": 0.0006671043935389293
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_-1_top_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 0.00019115941775686834,
+            "inertia_kg_m2": 8.663312297146357e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 0.00019860718727986314,
+            "inertia_kg_m2": 9.000843945087124e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_1_plug",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.009817408748784893,
+            "first_moment_bound_kg_m": 0.0044751102417018825,
+            "inertia_kg_m2": 0.0020403412054902873
+          },
+          {
+            "mass_kg": 0.010558345258127148,
+            "first_moment_bound_kg_m": 0.00481285441088693,
+            "inertia_kg_m2": 0.0021943292209989883
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_1_axial_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004941730270975002,
+            "first_moment_bound_kg_m": 0.002252480555286485,
+            "inertia_kg_m2": 0.0010267274098232594
+          },
+          {
+            "mass_kg": 0.005134265216597404,
+            "first_moment_bound_kg_m": 0.002340239537959984,
+            "inertia_kg_m2": 0.0010667297764397502
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_1_axial_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00019226792174745723,
+            "inertia_kg_m2": 8.764413875517437e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.00019975887973761787,
+            "inertia_kg_m2": 9.10588454599214e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_1_top_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.003127460513526891,
+            "first_moment_bound_kg_m": 0.0014170192783651517,
+            "inertia_kg_m2": 0.0006420879787812194
+          },
+          {
+            "mass_kg": 0.0032493096244435226,
+            "first_moment_bound_kg_m": 0.0014722278216780793,
+            "inertia_kg_m2": 0.0006671043935389293
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_0_1_top_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 0.00019115941775686834,
+            "inertia_kg_m2": 8.663312297146357e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 0.00019860718727986314,
+            "inertia_kg_m2": 9.000843945087124e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_-1_plug",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.009817408748784891,
+            "first_moment_bound_kg_m": 0.0031921981605666024,
+            "inertia_kg_m2": 0.0010383983475770176
+          },
+          {
+            "mass_kg": 0.010558345258127147,
+            "first_moment_bound_kg_m": 0.003433118776458421,
+            "inertia_kg_m2": 0.0011167680341866036
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_-1_axial_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004941730270975001,
+            "first_moment_bound_kg_m": 0.001606822424402879,
+            "inertia_kg_m2": 0.0005224930198940544
+          },
+          {
+            "mass_kg": 0.005134265216597403,
+            "first_moment_bound_kg_m": 0.0016694258954835105,
+            "inertia_kg_m2": 0.0005428498907990174
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_-1_axial_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 0.00013715563822829934,
+            "inertia_kg_m2": 4.460354601942271e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 0.00014249936439303824,
+            "inertia_kg_m2": 4.6341346513685925e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_-1_top_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00312746051352689,
+            "first_moment_bound_kg_m": 0.001016428389354642,
+            "inertia_kg_m2": 0.0003303919684379569
+          },
+          {
+            "mass_kg": 0.0032493096244435218,
+            "first_moment_bound_kg_m": 0.001056029495433394,
+            "inertia_kg_m2": 0.00034326438279268245
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_-1_top_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00013709092078466046,
+            "inertia_kg_m2": 4.455807099360276e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.0001424321254905563,
+            "inertia_kg_m2": 4.629409973361324e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_1_plug",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.009817408748784891,
+            "first_moment_bound_kg_m": 0.0031921981605666024,
+            "inertia_kg_m2": 0.0010383983475770176
+          },
+          {
+            "mass_kg": 0.010558345258127147,
+            "first_moment_bound_kg_m": 0.003433118776458421,
+            "inertia_kg_m2": 0.0011167680341866036
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_1_axial_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004941730270975001,
+            "first_moment_bound_kg_m": 0.001606822424402879,
+            "inertia_kg_m2": 0.0005224930198940544
+          },
+          {
+            "mass_kg": 0.005134265216597403,
+            "first_moment_bound_kg_m": 0.0016694258954835105,
+            "inertia_kg_m2": 0.0005428498907990174
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_1_axial_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066837,
+            "first_moment_bound_kg_m": 0.00013715563822829934,
+            "inertia_kg_m2": 4.460354601942271e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757752,
+            "first_moment_bound_kg_m": 0.00014249936439303824,
+            "inertia_kg_m2": 4.6341346513685925e-05
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_1_top_screw",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00312746051352689,
+            "first_moment_bound_kg_m": 0.001016428389354642,
+            "inertia_kg_m2": 0.0003303919684379569
+          },
+          {
+            "mass_kg": 0.0032493096244435218,
+            "first_moment_bound_kg_m": 0.001056029495433394,
+            "inertia_kg_m2": 0.00034326438279268245
+          }
+        ]
+      },
+      {
+        "part": "tube_joint_1_1_top_washer",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0004218177186066842,
+            "first_moment_bound_kg_m": 0.00013709092078466046,
+            "inertia_kg_m2": 4.455807099360276e-05
+          },
+          {
+            "mass_kg": 0.0004382521751757757,
+            "first_moment_bound_kg_m": 0.0001424321254905563,
+            "inertia_kg_m2": 4.629409973361324e-05
+          }
+        ]
+      },
+      {
+        "part": "float_stop_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.006652322443976388,
+            "first_moment_bound_kg_m": 0.0022451176286424385,
+            "inertia_kg_m2": 0.0007577605050155586
+          },
+          {
+            "mass_kg": 0.006911503837897545,
+            "first_moment_bound_kg_m": 0.002332589744044092,
+            "inertia_kg_m2": 0.0007872836415746061
+          }
+        ]
+      },
+      {
+        "part": "float_stop_nut_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.000643084134575167,
+            "inertia_kg_m2": 0.00021706197892645135
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.000668139360597576,
+            "inertia_kg_m2": 0.000225518939144365
+          }
+        ]
+      },
+      {
+        "part": "float_stop_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.006652322443976388,
+            "first_moment_bound_kg_m": 0.0022451176286424385,
+            "inertia_kg_m2": 0.0007577605050155586
+          },
+          {
+            "mass_kg": 0.006911503837897545,
+            "first_moment_bound_kg_m": 0.002332589744044092,
+            "inertia_kg_m2": 0.0007872836415746061
+          }
+        ]
+      },
+      {
+        "part": "float_stop_nut_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0019054694360875458,
+            "first_moment_bound_kg_m": 0.000643084134575167,
+            "inertia_kg_m2": 0.00021706197892645135
+          },
+          {
+            "mass_kg": 0.001979708505026021,
+            "first_moment_bound_kg_m": 0.000668139360597576,
+            "inertia_kg_m2": 0.000225518939144365
+          }
+        ]
+      },
+      {
+        "part": "shaft_front",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.18404964129242649,
+            "first_moment_bound_kg_m": 0.07433637326329207,
+            "inertia_kg_m2": 0.030028089177722428
+          },
+          {
+            "mass_kg": 0.19794018025789262,
+            "first_moment_bound_kg_m": 0.07994666558504995,
+            "inertia_kg_m2": 0.032294360059059966
+          }
+        ]
+      },
+      {
+        "part": "star_front_0_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031478003,
+            "first_moment_bound_kg_m": 0.0009397236514557873,
+            "inertia_kg_m2": 0.00037971560319624044
+          },
+          {
+            "mass_kg": 0.0031022193375304006,
+            "first_moment_bound_kg_m": 0.0012529648686077164,
+            "inertia_kg_m2": 0.0005062874709283205
+          }
+        ]
+      },
+      {
+        "part": "star_front_0_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144157e-05,
+            "first_moment_bound_kg_m": 5.76580178159622e-06,
+            "inertia_kg_m2": 2.293771515572968e-06
+          },
+          {
+            "mass_kg": 1.932507915619221e-05,
+            "first_moment_bound_kg_m": 7.687735708794961e-06,
+            "inertia_kg_m2": 3.0583620207639573e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_0_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567362,
+            "first_moment_bound_kg_m": 0.012822725188943649,
+            "inertia_kg_m2": 0.005213522292063889
+          },
+          {
+            "mass_kg": 0.0412712178393757,
+            "first_moment_bound_kg_m": 0.016669542745626743,
+            "inertia_kg_m2": 0.006777578979683057
+          }
+        ]
+      },
+      {
+        "part": "star_front_1_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031478003,
+            "first_moment_bound_kg_m": 0.0009397236514557873,
+            "inertia_kg_m2": 0.00037971560319624044
+          },
+          {
+            "mass_kg": 0.0031022193375304006,
+            "first_moment_bound_kg_m": 0.0012529648686077164,
+            "inertia_kg_m2": 0.0005062874709283205
+          }
+        ]
+      },
+      {
+        "part": "star_front_1_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144156e-05,
+            "first_moment_bound_kg_m": 5.76580178159622e-06,
+            "inertia_kg_m2": 2.2937715155729675e-06
+          },
+          {
+            "mass_kg": 1.932507915619221e-05,
+            "first_moment_bound_kg_m": 7.687735708794961e-06,
+            "inertia_kg_m2": 3.058362020763957e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_1_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567361,
+            "first_moment_bound_kg_m": 0.012822725188943646,
+            "inertia_kg_m2": 0.005213522292063888
+          },
+          {
+            "mass_kg": 0.0412712178393757,
+            "first_moment_bound_kg_m": 0.016669542745626743,
+            "inertia_kg_m2": 0.0067775789796830545
+          }
+        ]
+      },
+      {
+        "part": "star_front_2_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147801,
+            "first_moment_bound_kg_m": 0.0009397236514557876,
+            "inertia_kg_m2": 0.00037971560319624066
+          },
+          {
+            "mass_kg": 0.003102219337530402,
+            "first_moment_bound_kg_m": 0.001252964868607717,
+            "inertia_kg_m2": 0.0005062874709283209
+          }
+        ]
+      },
+      {
+        "part": "star_front_2_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144039e-05,
+            "first_moment_bound_kg_m": 5.7658017815961735e-06,
+            "inertia_kg_m2": 2.293771515572949e-06
+          },
+          {
+            "mass_kg": 1.932507915619205e-05,
+            "first_moment_bound_kg_m": 7.687735708794897e-06,
+            "inertia_kg_m2": 3.0583620207639323e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_2_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0317470906456736,
+            "first_moment_bound_kg_m": 0.01282272518894364,
+            "inertia_kg_m2": 0.005213522292063887
+          },
+          {
+            "mass_kg": 0.041271217839375686,
+            "first_moment_bound_kg_m": 0.016669542745626736,
+            "inertia_kg_m2": 0.006777578979683054
+          }
+        ]
+      },
+      {
+        "part": "star_front_3_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147801,
+            "first_moment_bound_kg_m": 0.0009397236514557876,
+            "inertia_kg_m2": 0.00037971560319624066
+          },
+          {
+            "mass_kg": 0.003102219337530402,
+            "first_moment_bound_kg_m": 0.001252964868607717,
+            "inertia_kg_m2": 0.0005062874709283209
+          }
+        ]
+      },
+      {
+        "part": "star_front_3_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144039e-05,
+            "first_moment_bound_kg_m": 5.7658017815961735e-06,
+            "inertia_kg_m2": 2.293771515572949e-06
+          },
+          {
+            "mass_kg": 1.932507915619205e-05,
+            "first_moment_bound_kg_m": 7.687735708794897e-06,
+            "inertia_kg_m2": 3.0583620207639323e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_3_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673604,
+            "first_moment_bound_kg_m": 0.012822725188943644,
+            "inertia_kg_m2": 0.005213522292063887
+          },
+          {
+            "mass_kg": 0.041271217839375686,
+            "first_moment_bound_kg_m": 0.016669542745626736,
+            "inertia_kg_m2": 0.006777578979683054
+          }
+        ]
+      },
+      {
+        "part": "star_front_4_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147801,
+            "first_moment_bound_kg_m": 0.0009397236514557876,
+            "inertia_kg_m2": 0.00037971560319624066
+          },
+          {
+            "mass_kg": 0.003102219337530402,
+            "first_moment_bound_kg_m": 0.001252964868607717,
+            "inertia_kg_m2": 0.0005062874709283209
+          }
+        ]
+      },
+      {
+        "part": "star_front_4_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144156e-05,
+            "first_moment_bound_kg_m": 5.76580178159622e-06,
+            "inertia_kg_m2": 2.2937715155729675e-06
+          },
+          {
+            "mass_kg": 1.932507915619221e-05,
+            "first_moment_bound_kg_m": 7.687735708794961e-06,
+            "inertia_kg_m2": 3.058362020763957e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_4_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567364,
+            "first_moment_bound_kg_m": 0.012822725188943658,
+            "inertia_kg_m2": 0.005213522292063894
+          },
+          {
+            "mass_kg": 0.041271217839375735,
+            "first_moment_bound_kg_m": 0.016669542745626757,
+            "inertia_kg_m2": 0.0067775789796830615
+          }
+        ]
+      },
+      {
+        "part": "star_front_5_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031478003,
+            "first_moment_bound_kg_m": 0.0009397236514557873,
+            "inertia_kg_m2": 0.00037971560319624044
+          },
+          {
+            "mass_kg": 0.0031022193375304006,
+            "first_moment_bound_kg_m": 0.0012529648686077164,
+            "inertia_kg_m2": 0.0005062874709283205
+          }
+        ]
+      },
+      {
+        "part": "star_front_5_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.449380936714414e-05,
+            "first_moment_bound_kg_m": 5.765801781596214e-06,
+            "inertia_kg_m2": 2.2937715155729653e-06
+          },
+          {
+            "mass_kg": 1.932507915619219e-05,
+            "first_moment_bound_kg_m": 7.687735708794953e-06,
+            "inertia_kg_m2": 3.0583620207639535e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_5_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567363,
+            "first_moment_bound_kg_m": 0.012822725188943654,
+            "inertia_kg_m2": 0.005213522292063893
+          },
+          {
+            "mass_kg": 0.04127121783937572,
+            "first_moment_bound_kg_m": 0.01666954274562675,
+            "inertia_kg_m2": 0.006777578979683061
+          }
+        ]
+      },
+      {
+        "part": "star_front_6_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031478003,
+            "first_moment_bound_kg_m": 0.0009397236514557873,
+            "inertia_kg_m2": 0.00037971560319624044
+          },
+          {
+            "mass_kg": 0.0031022193375304006,
+            "first_moment_bound_kg_m": 0.0012529648686077164,
+            "inertia_kg_m2": 0.0005062874709283205
+          }
+        ]
+      },
+      {
+        "part": "star_front_6_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144154e-05,
+            "first_moment_bound_kg_m": 5.765801781596219e-06,
+            "inertia_kg_m2": 2.2937715155729675e-06
+          },
+          {
+            "mass_kg": 1.9325079156192206e-05,
+            "first_moment_bound_kg_m": 7.68773570879496e-06,
+            "inertia_kg_m2": 3.058362020763957e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_6_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567363,
+            "first_moment_bound_kg_m": 0.012822725188943654,
+            "inertia_kg_m2": 0.005213522292063893
+          },
+          {
+            "mass_kg": 0.04127121783937572,
+            "first_moment_bound_kg_m": 0.01666954274562675,
+            "inertia_kg_m2": 0.006777578979683061
+          }
+        ]
+      },
+      {
+        "part": "star_front_7_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147801,
+            "first_moment_bound_kg_m": 0.0009397236514557876,
+            "inertia_kg_m2": 0.00037971560319624066
+          },
+          {
+            "mass_kg": 0.003102219337530402,
+            "first_moment_bound_kg_m": 0.001252964868607717,
+            "inertia_kg_m2": 0.0005062874709283209
+          }
+        ]
+      },
+      {
+        "part": "star_front_7_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144039e-05,
+            "first_moment_bound_kg_m": 5.7658017815961735e-06,
+            "inertia_kg_m2": 2.293771515572949e-06
+          },
+          {
+            "mass_kg": 1.932507915619205e-05,
+            "first_moment_bound_kg_m": 7.687735708794897e-06,
+            "inertia_kg_m2": 3.0583620207639323e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_7_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673624,
+            "first_moment_bound_kg_m": 0.01282272518894365,
+            "inertia_kg_m2": 0.0052135222920638895
+          },
+          {
+            "mass_kg": 0.041271217839375714,
+            "first_moment_bound_kg_m": 0.016669542745626747,
+            "inertia_kg_m2": 0.006777578979683058
+          }
+        ]
+      },
+      {
+        "part": "star_front_8_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147801,
+            "first_moment_bound_kg_m": 0.0009397236514557876,
+            "inertia_kg_m2": 0.00037971560319624066
+          },
+          {
+            "mass_kg": 0.003102219337530402,
+            "first_moment_bound_kg_m": 0.001252964868607717,
+            "inertia_kg_m2": 0.0005062874709283209
+          }
+        ]
+      },
+      {
+        "part": "star_front_8_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144039e-05,
+            "first_moment_bound_kg_m": 5.7658017815961735e-06,
+            "inertia_kg_m2": 2.293771515572949e-06
+          },
+          {
+            "mass_kg": 1.932507915619205e-05,
+            "first_moment_bound_kg_m": 7.687735708794897e-06,
+            "inertia_kg_m2": 3.0583620207639323e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_8_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567362,
+            "first_moment_bound_kg_m": 0.012822725188943649,
+            "inertia_kg_m2": 0.0052135222920638895
+          },
+          {
+            "mass_kg": 0.04127121783937571,
+            "first_moment_bound_kg_m": 0.016669542745626747,
+            "inertia_kg_m2": 0.006777578979683058
+          }
+        ]
+      },
+      {
+        "part": "star_front_9_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031477995,
+            "first_moment_bound_kg_m": 0.0009397236514557869,
+            "inertia_kg_m2": 0.0003797156031962403
+          },
+          {
+            "mass_kg": 0.0031022193375303993,
+            "first_moment_bound_kg_m": 0.001252964868607716,
+            "inertia_kg_m2": 0.0005062874709283204
+          }
+        ]
+      },
+      {
+        "part": "star_front_9_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144156e-05,
+            "first_moment_bound_kg_m": 5.76580178159622e-06,
+            "inertia_kg_m2": 2.2937715155729675e-06
+          },
+          {
+            "mass_kg": 1.932507915619221e-05,
+            "first_moment_bound_kg_m": 7.687735708794961e-06,
+            "inertia_kg_m2": 3.058362020763957e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_9_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0317470906456736,
+            "first_moment_bound_kg_m": 0.01282272518894364,
+            "inertia_kg_m2": 0.005213522292063886
+          },
+          {
+            "mass_kg": 0.04127121783937568,
+            "first_moment_bound_kg_m": 0.016669542745626733,
+            "inertia_kg_m2": 0.006777578979683053
+          }
+        ]
+      },
+      {
+        "part": "star_front_10_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031478003,
+            "first_moment_bound_kg_m": 0.0009397236514557873,
+            "inertia_kg_m2": 0.00037971560319624044
+          },
+          {
+            "mass_kg": 0.0031022193375304006,
+            "first_moment_bound_kg_m": 0.0012529648686077164,
+            "inertia_kg_m2": 0.0005062874709283205
+          }
+        ]
+      },
+      {
+        "part": "star_front_10_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144156e-05,
+            "first_moment_bound_kg_m": 5.76580178159622e-06,
+            "inertia_kg_m2": 2.2937715155729675e-06
+          },
+          {
+            "mass_kg": 1.932507915619221e-05,
+            "first_moment_bound_kg_m": 7.687735708794961e-06,
+            "inertia_kg_m2": 3.058362020763957e-06
+          }
+        ]
+      },
+      {
+        "part": "star_front_10_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567362,
+            "first_moment_bound_kg_m": 0.012822725188943649,
+            "inertia_kg_m2": 0.005213522292063889
+          },
+          {
+            "mass_kg": 0.0412712178393757,
+            "first_moment_bound_kg_m": 0.016669542745626743,
+            "inertia_kg_m2": 0.006777578979683057
+          }
+        ]
+      },
+      {
+        "part": "front_between_0",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446376,
+            "first_moment_bound_kg_m": 0.002903853977666182,
+            "inertia_kg_m2": 0.001173373118557447
+          },
+          {
+            "mass_kg": 0.0077322763345744035,
+            "first_moment_bound_kg_m": 0.003123012768433441,
+            "inertia_kg_m2": 0.0012619295803353676
+          }
+        ]
+      },
+      {
+        "part": "front_between_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00718966045144638,
+            "first_moment_bound_kg_m": 0.0029038539776661838,
+            "inertia_kg_m2": 0.0011733731185574478
+          },
+          {
+            "mass_kg": 0.007732276334574409,
+            "first_moment_bound_kg_m": 0.0031230127684334433,
+            "inertia_kg_m2": 0.0012619295803353685
+          }
+        ]
+      },
+      {
+        "part": "front_between_2",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446376,
+            "first_moment_bound_kg_m": 0.002903853977666182,
+            "inertia_kg_m2": 0.001173373118557447
+          },
+          {
+            "mass_kg": 0.0077322763345744035,
+            "first_moment_bound_kg_m": 0.003123012768433441,
+            "inertia_kg_m2": 0.0012619295803353676
+          }
+        ]
+      },
+      {
+        "part": "front_between_3",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446376,
+            "first_moment_bound_kg_m": 0.002903853977666182,
+            "inertia_kg_m2": 0.001173373118557447
+          },
+          {
+            "mass_kg": 0.0077322763345744035,
+            "first_moment_bound_kg_m": 0.003123012768433441,
+            "inertia_kg_m2": 0.0012619295803353676
+          }
+        ]
+      },
+      {
+        "part": "front_between_4",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00718966045144638,
+            "first_moment_bound_kg_m": 0.0029038539776661838,
+            "inertia_kg_m2": 0.0011733731185574478
+          },
+          {
+            "mass_kg": 0.007732276334574409,
+            "first_moment_bound_kg_m": 0.0031230127684334433,
+            "inertia_kg_m2": 0.0012619295803353685
+          }
+        ]
+      },
+      {
+        "part": "front_between_5",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446378,
+            "first_moment_bound_kg_m": 0.002903853977666183,
+            "inertia_kg_m2": 0.0011733731185574474
+          },
+          {
+            "mass_kg": 0.007732276334574406,
+            "first_moment_bound_kg_m": 0.003123012768433442,
+            "inertia_kg_m2": 0.001261929580335368
+          }
+        ]
+      },
+      {
+        "part": "front_between_6",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446376,
+            "first_moment_bound_kg_m": 0.002903853977666182,
+            "inertia_kg_m2": 0.001173373118557447
+          },
+          {
+            "mass_kg": 0.0077322763345744035,
+            "first_moment_bound_kg_m": 0.003123012768433441,
+            "inertia_kg_m2": 0.0012619295803353676
+          }
+        ]
+      },
+      {
+        "part": "front_between_7",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446376,
+            "first_moment_bound_kg_m": 0.002903853977666182,
+            "inertia_kg_m2": 0.001173373118557447
+          },
+          {
+            "mass_kg": 0.0077322763345744035,
+            "first_moment_bound_kg_m": 0.003123012768433441,
+            "inertia_kg_m2": 0.0012619295803353676
+          }
+        ]
+      },
+      {
+        "part": "front_between_8",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00718966045144638,
+            "first_moment_bound_kg_m": 0.0029038539776661838,
+            "inertia_kg_m2": 0.0011733731185574478
+          },
+          {
+            "mass_kg": 0.007732276334574409,
+            "first_moment_bound_kg_m": 0.0031230127684334433,
+            "inertia_kg_m2": 0.0012619295803353685
+          }
+        ]
+      },
+      {
+        "part": "front_between_9",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00718966045144638,
+            "first_moment_bound_kg_m": 0.0029038539776661838,
+            "inertia_kg_m2": 0.0011733731185574478
+          },
+          {
+            "mass_kg": 0.007732276334574409,
+            "first_moment_bound_kg_m": 0.0031230127684334433,
+            "inertia_kg_m2": 0.0012619295803353685
+          }
+        ]
+      },
+      {
+        "part": "front_end_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.010416515929654603,
+            "first_moment_bound_kg_m": 0.004207158518823449,
+            "inertia_kg_m2": 0.0017000051481462248
+          },
+          {
+            "mass_kg": 0.011202668075288911,
+            "first_moment_bound_kg_m": 0.004524679916470502,
+            "inertia_kg_m2": 0.0018283074234780152
+          }
+        ]
+      },
+      {
+        "part": "front_outer_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0023812212026690024,
+            "first_moment_bound_kg_m": 0.000961758723902235,
+            "inertia_kg_m2": 0.0003886221007820681
+          },
+          {
+            "mass_kg": 0.002560936010417606,
+            "first_moment_bound_kg_m": 0.0010343442879703281,
+            "inertia_kg_m2": 0.0004179520706524129
+          }
+        ]
+      },
+      {
+        "part": "front_end_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.010416515929654603,
+            "first_moment_bound_kg_m": 0.004207158518823449,
+            "inertia_kg_m2": 0.0017000051481462248
+          },
+          {
+            "mass_kg": 0.011202668075288911,
+            "first_moment_bound_kg_m": 0.004524679916470502,
+            "inertia_kg_m2": 0.0018283074234780152
+          }
+        ]
+      },
+      {
+        "part": "front_outer_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0023812212026690024,
+            "first_moment_bound_kg_m": 0.000961758723902235,
+            "inertia_kg_m2": 0.0003886221007820681
+          },
+          {
+            "mass_kg": 0.002560936010417606,
+            "first_moment_bound_kg_m": 0.0010343442879703281,
+            "inertia_kg_m2": 0.0004179520706524129
+          }
+        ]
+      },
+      {
+        "part": "shaft_middle",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.18404964129242665,
+            "first_moment_bound_kg_m": 0.046974141586153456,
+            "inertia_kg_m2": 0.011993137363230181
+          },
+          {
+            "mass_kg": 0.19794018025789278,
+            "first_moment_bound_kg_m": 0.05051935981907069,
+            "inertia_kg_m2": 0.012898279805738119
+          }
+        ]
+      },
+      {
+        "part": "star_middle_0_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031477973,
+            "first_moment_bound_kg_m": 0.000593823856579498,
+            "inertia_kg_m2": 0.00015172666549388342
+          },
+          {
+            "mass_kg": 0.0031022193375303967,
+            "first_moment_bound_kg_m": 0.0007917651421059975,
+            "inertia_kg_m2": 0.00020230222065851125
+          }
+        ]
+      },
+      {
+        "part": "star_middle_0_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144206e-05,
+            "first_moment_bound_kg_m": 3.643954596548027e-06,
+            "inertia_kg_m2": 9.16213374908062e-07
+          },
+          {
+            "mass_kg": 1.9325079156192274e-05,
+            "first_moment_bound_kg_m": 4.858606128730703e-06,
+            "inertia_kg_m2": 1.2216178332107493e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_0_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673624,
+            "first_moment_bound_kg_m": 0.008102940425206324,
+            "inertia_kg_m2": 0.0021025399712260463
+          },
+          {
+            "mass_kg": 0.041271217839375714,
+            "first_moment_bound_kg_m": 0.010533822552768224,
+            "inertia_kg_m2": 0.0027333019625938606
+          }
+        ]
+      },
+      {
+        "part": "star_middle_1_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_1_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.449380936714409e-05,
+            "first_moment_bound_kg_m": 3.6439545965479975e-06,
+            "inertia_kg_m2": 9.162133749080546e-07
+          },
+          {
+            "mass_kg": 1.932507915619212e-05,
+            "first_moment_bound_kg_m": 4.858606128730664e-06,
+            "inertia_kg_m2": 1.2216178332107396e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_1_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567362,
+            "first_moment_bound_kg_m": 0.008102940425206323,
+            "inertia_kg_m2": 0.002102539971226046
+          },
+          {
+            "mass_kg": 0.0412712178393757,
+            "first_moment_bound_kg_m": 0.01053382255276822,
+            "inertia_kg_m2": 0.0027333019625938597
+          }
+        ]
+      },
+      {
+        "part": "star_middle_2_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_2_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144088e-05,
+            "first_moment_bound_kg_m": 3.643954596547997e-06,
+            "inertia_kg_m2": 9.162133749080546e-07
+          },
+          {
+            "mass_kg": 1.9325079156192118e-05,
+            "first_moment_bound_kg_m": 4.858606128730663e-06,
+            "inertia_kg_m2": 1.2216178332107396e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_2_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673604,
+            "first_moment_bound_kg_m": 0.00810294042520632,
+            "inertia_kg_m2": 0.0021025399712260454
+          },
+          {
+            "mass_kg": 0.04127121783937569,
+            "first_moment_bound_kg_m": 0.010533822552768218,
+            "inertia_kg_m2": 0.0027333019625938597
+          }
+        ]
+      },
+      {
+        "part": "star_middle_3_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_3_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144206e-05,
+            "first_moment_bound_kg_m": 3.643954596548027e-06,
+            "inertia_kg_m2": 9.16213374908062e-07
+          },
+          {
+            "mass_kg": 1.9325079156192274e-05,
+            "first_moment_bound_kg_m": 4.858606128730703e-06,
+            "inertia_kg_m2": 1.2216178332107493e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_3_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673624,
+            "first_moment_bound_kg_m": 0.008102940425206324,
+            "inertia_kg_m2": 0.0021025399712260463
+          },
+          {
+            "mass_kg": 0.041271217839375714,
+            "first_moment_bound_kg_m": 0.010533822552768224,
+            "inertia_kg_m2": 0.0027333019625938606
+          }
+        ]
+      },
+      {
+        "part": "star_middle_4_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_4_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144191e-05,
+            "first_moment_bound_kg_m": 3.6439545965480233e-06,
+            "inertia_kg_m2": 9.162133749080611e-07
+          },
+          {
+            "mass_kg": 1.9325079156192257e-05,
+            "first_moment_bound_kg_m": 4.858606128730699e-06,
+            "inertia_kg_m2": 1.2216178332107482e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_4_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567362,
+            "first_moment_bound_kg_m": 0.008102940425206323,
+            "inertia_kg_m2": 0.0021025399712260463
+          },
+          {
+            "mass_kg": 0.04127121783937571,
+            "first_moment_bound_kg_m": 0.010533822552768222,
+            "inertia_kg_m2": 0.0027333019625938606
+          }
+        ]
+      },
+      {
+        "part": "star_middle_5_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_5_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144206e-05,
+            "first_moment_bound_kg_m": 3.643954596548027e-06,
+            "inertia_kg_m2": 9.16213374908062e-07
+          },
+          {
+            "mass_kg": 1.9325079156192274e-05,
+            "first_moment_bound_kg_m": 4.858606128730703e-06,
+            "inertia_kg_m2": 1.2216178332107493e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_5_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567358,
+            "first_moment_bound_kg_m": 0.008102940425206312,
+            "inertia_kg_m2": 0.002102539971226044
+          },
+          {
+            "mass_kg": 0.041271217839375665,
+            "first_moment_bound_kg_m": 0.010533822552768211,
+            "inertia_kg_m2": 0.002733301962593858
+          }
+        ]
+      },
+      {
+        "part": "star_middle_6_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_6_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144088e-05,
+            "first_moment_bound_kg_m": 3.643954596547997e-06,
+            "inertia_kg_m2": 9.162133749080546e-07
+          },
+          {
+            "mass_kg": 1.9325079156192118e-05,
+            "first_moment_bound_kg_m": 4.858606128730663e-06,
+            "inertia_kg_m2": 1.2216178332107396e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_6_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0317470906456736,
+            "first_moment_bound_kg_m": 0.008102940425206316,
+            "inertia_kg_m2": 0.002102539971226045
+          },
+          {
+            "mass_kg": 0.041271217839375686,
+            "first_moment_bound_kg_m": 0.010533822552768217,
+            "inertia_kg_m2": 0.002733301962593859
+          }
+        ]
+      },
+      {
+        "part": "star_middle_7_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0005938238565794982,
+            "inertia_kg_m2": 0.0001517266654938835
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.0007917651421059978,
+            "inertia_kg_m2": 0.00020230222065851134
+          }
+        ]
+      },
+      {
+        "part": "star_middle_7_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.449380936714409e-05,
+            "first_moment_bound_kg_m": 3.6439545965479975e-06,
+            "inertia_kg_m2": 9.162133749080546e-07
+          },
+          {
+            "mass_kg": 1.932507915619212e-05,
+            "first_moment_bound_kg_m": 4.858606128730664e-06,
+            "inertia_kg_m2": 1.2216178332107396e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_7_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673604,
+            "first_moment_bound_kg_m": 0.00810294042520632,
+            "inertia_kg_m2": 0.002102539971226045
+          },
+          {
+            "mass_kg": 0.04127121783937569,
+            "first_moment_bound_kg_m": 0.010533822552768218,
+            "inertia_kg_m2": 0.0027333019625938593
+          }
+        ]
+      },
+      {
+        "part": "star_middle_8_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.0023266645031477973,
+            "first_moment_bound_kg_m": 0.000593823856579498,
+            "inertia_kg_m2": 0.00015172666549388342
+          },
+          {
+            "mass_kg": 0.0031022193375303967,
+            "first_moment_bound_kg_m": 0.0007917651421059975,
+            "inertia_kg_m2": 0.00020230222065851125
+          }
+        ]
+      },
+      {
+        "part": "star_middle_8_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144206e-05,
+            "first_moment_bound_kg_m": 3.643954596548027e-06,
+            "inertia_kg_m2": 9.16213374908062e-07
+          },
+          {
+            "mass_kg": 1.9325079156192274e-05,
+            "first_moment_bound_kg_m": 4.858606128730703e-06,
+            "inertia_kg_m2": 1.2216178332107493e-06
+          }
+        ]
+      },
+      {
+        "part": "star_middle_8_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673604,
+            "first_moment_bound_kg_m": 0.00810294042520632,
+            "inertia_kg_m2": 0.0021025399712260454
+          },
+          {
+            "mass_kg": 0.04127121783937569,
+            "first_moment_bound_kg_m": 0.010533822552768218,
+            "inertia_kg_m2": 0.0027333019625938597
+          }
+        ]
+      },
+      {
+        "part": "middle_between_0",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446389,
+            "first_moment_bound_kg_m": 0.0018349838969042732,
+            "inertia_kg_m2": 0.00046886112443528624
+          },
+          {
+            "mass_kg": 0.007732276334574417,
+            "first_moment_bound_kg_m": 0.0019734732476140294,
+            "inertia_kg_m2": 0.0005042468696756852
+          }
+        ]
+      },
+      {
+        "part": "middle_between_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446384,
+            "first_moment_bound_kg_m": 0.001834983896904272,
+            "inertia_kg_m2": 0.00046886112443528596
+          },
+          {
+            "mass_kg": 0.007732276334574412,
+            "first_moment_bound_kg_m": 0.001973473247614028,
+            "inertia_kg_m2": 0.0005042468696756848
+          }
+        ]
+      },
+      {
+        "part": "middle_between_2",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446384,
+            "first_moment_bound_kg_m": 0.001834983896904272,
+            "inertia_kg_m2": 0.00046886112443528596
+          },
+          {
+            "mass_kg": 0.007732276334574412,
+            "first_moment_bound_kg_m": 0.001973473247614028,
+            "inertia_kg_m2": 0.0005042468696756848
+          }
+        ]
+      },
+      {
+        "part": "middle_between_3",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446386,
+            "first_moment_bound_kg_m": 0.0018349838969042725,
+            "inertia_kg_m2": 0.00046886112443528607
+          },
+          {
+            "mass_kg": 0.007732276334574415,
+            "first_moment_bound_kg_m": 0.0019734732476140286,
+            "inertia_kg_m2": 0.000504246869675685
+          }
+        ]
+      },
+      {
+        "part": "middle_between_4",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446386,
+            "first_moment_bound_kg_m": 0.0018349838969042725,
+            "inertia_kg_m2": 0.00046886112443528607
+          },
+          {
+            "mass_kg": 0.007732276334574415,
+            "first_moment_bound_kg_m": 0.0019734732476140286,
+            "inertia_kg_m2": 0.000504246869675685
+          }
+        ]
+      },
+      {
+        "part": "middle_between_5",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446384,
+            "first_moment_bound_kg_m": 0.001834983896904272,
+            "inertia_kg_m2": 0.00046886112443528596
+          },
+          {
+            "mass_kg": 0.007732276334574412,
+            "first_moment_bound_kg_m": 0.001973473247614028,
+            "inertia_kg_m2": 0.0005042468696756848
+          }
+        ]
+      },
+      {
+        "part": "middle_between_6",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446384,
+            "first_moment_bound_kg_m": 0.001834983896904272,
+            "inertia_kg_m2": 0.00046886112443528596
+          },
+          {
+            "mass_kg": 0.007732276334574412,
+            "first_moment_bound_kg_m": 0.001973473247614028,
+            "inertia_kg_m2": 0.0005042468696756848
+          }
+        ]
+      },
+      {
+        "part": "middle_between_7",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446389,
+            "first_moment_bound_kg_m": 0.0018349838969042732,
+            "inertia_kg_m2": 0.00046886112443528624
+          },
+          {
+            "mass_kg": 0.007732276334574417,
+            "first_moment_bound_kg_m": 0.0019734732476140294,
+            "inertia_kg_m2": 0.0005042468696756852
+          }
+        ]
+      },
+      {
+        "part": "middle_end_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0178043166297629,
+            "first_moment_bound_kg_m": 0.004544113665955855,
+            "inertia_kg_m2": 0.0011610773514558852
+          },
+          {
+            "mass_kg": 0.019148038639556324,
+            "first_moment_bound_kg_m": 0.004887065640744976,
+            "inertia_kg_m2": 0.0012487058308110464
+          }
+        ]
+      },
+      {
+        "part": "middle_coaxial_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0011499210859842895,
+            "first_moment_bound_kg_m": 0.00029348905831392164,
+            "inertia_kg_m2": 7.499009126056497e-05
+          },
+          {
+            "mass_kg": 0.0012367075830397075,
+            "first_moment_bound_kg_m": 0.00031563917592251944,
+            "inertia_kg_m2": 8.064972078966422e-05
+          }
+        ]
+      },
+      {
+        "part": "middle_outer_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0023812212026690055,
+            "first_moment_bound_kg_m": 0.0006077481115239053,
+            "inertia_kg_m2": 0.00015528717359495454
+          },
+          {
+            "mass_kg": 0.0025609360104176097,
+            "first_moment_bound_kg_m": 0.0006536158935257094,
+            "inertia_kg_m2": 0.00016700696028136618
+          }
+        ]
+      },
+      {
+        "part": "middle_end_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.017804316629762906,
+            "first_moment_bound_kg_m": 0.004544113665955857,
+            "inertia_kg_m2": 0.0011610773514558858
+          },
+          {
+            "mass_kg": 0.01914803863955633,
+            "first_moment_bound_kg_m": 0.004887065640744977,
+            "inertia_kg_m2": 0.0012487058308110468
+          }
+        ]
+      },
+      {
+        "part": "middle_coaxial_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0011499210859842895,
+            "first_moment_bound_kg_m": 0.00029348905831392164,
+            "inertia_kg_m2": 7.499009126056497e-05
+          },
+          {
+            "mass_kg": 0.0012367075830397075,
+            "first_moment_bound_kg_m": 0.00031563917592251944,
+            "inertia_kg_m2": 8.064972078966422e-05
+          }
+        ]
+      },
+      {
+        "part": "middle_outer_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0023812212026690055,
+            "first_moment_bound_kg_m": 0.0006077481115239053,
+            "inertia_kg_m2": 0.00015528717359495454
+          },
+          {
+            "mass_kg": 0.0025609360104176097,
+            "first_moment_bound_kg_m": 0.0006536158935257094,
+            "inertia_kg_m2": 0.00016700696028136618
+          }
+        ]
+      },
+      {
+        "part": "shaft_rear",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.18404964129242676,
+            "first_moment_bound_kg_m": 0.023119817058061928,
+            "inertia_kg_m2": 0.0029083924801846356
+          },
+          {
+            "mass_kg": 0.19794018025789292,
+            "first_moment_bound_kg_m": 0.024864708911500562,
+            "inertia_kg_m2": 0.003127893799443853
+          }
+        ]
+      },
+      {
+        "part": "star_rear_0_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_0_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.449380936714408e-05,
+            "first_moment_bound_kg_m": 1.7598584283075617e-06,
+            "inertia_kg_m2": 2.1375461088580669e-07
+          },
+          {
+            "mass_kg": 1.9325079156192108e-05,
+            "first_moment_bound_kg_m": 2.3464779044100823e-06,
+            "inertia_kg_m2": 2.8500614784774227e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_0_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673624,
+            "first_moment_bound_kg_m": 0.00398826864983755,
+            "inertia_kg_m2": 0.0005354245064914615
+          },
+          {
+            "mass_kg": 0.041271217839375714,
+            "first_moment_bound_kg_m": 0.005184749244788815,
+            "inertia_kg_m2": 0.0006960518584389
+          }
+        ]
+      },
+      {
+        "part": "star_rear_1_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_1_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144078e-05,
+            "first_moment_bound_kg_m": 1.7598584283075615e-06,
+            "inertia_kg_m2": 2.1375461088580666e-07
+          },
+          {
+            "mass_kg": 1.9325079156192105e-05,
+            "first_moment_bound_kg_m": 2.346477904410082e-06,
+            "inertia_kg_m2": 2.8500614784774227e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_1_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567362,
+            "first_moment_bound_kg_m": 0.003988268649837549,
+            "inertia_kg_m2": 0.0005354245064914615
+          },
+          {
+            "mass_kg": 0.0412712178393757,
+            "first_moment_bound_kg_m": 0.005184749244788813,
+            "inertia_kg_m2": 0.0006960518584389
+          }
+        ]
+      },
+      {
+        "part": "star_rear_2_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_2_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144196e-05,
+            "first_moment_bound_kg_m": 1.7598584283075757e-06,
+            "inertia_kg_m2": 2.1375461088580843e-07
+          },
+          {
+            "mass_kg": 1.9325079156192264e-05,
+            "first_moment_bound_kg_m": 2.3464779044101014e-06,
+            "inertia_kg_m2": 2.850061478477446e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_2_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673645,
+            "first_moment_bound_kg_m": 0.003988268649837553,
+            "inertia_kg_m2": 0.0005354245064914621
+          },
+          {
+            "mass_kg": 0.04127121783937574,
+            "first_moment_bound_kg_m": 0.005184749244788819,
+            "inertia_kg_m2": 0.0006960518584389008
+          }
+        ]
+      },
+      {
+        "part": "star_rear_3_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_3_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144181e-05,
+            "first_moment_bound_kg_m": 1.759858428307574e-06,
+            "inertia_kg_m2": 2.1375461088580822e-07
+          },
+          {
+            "mass_kg": 1.9325079156192243e-05,
+            "first_moment_bound_kg_m": 2.346477904410099e-06,
+            "inertia_kg_m2": 2.8500614784774433e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_3_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567364,
+            "first_moment_bound_kg_m": 0.0039882686498375515,
+            "inertia_kg_m2": 0.0005354245064914619
+          },
+          {
+            "mass_kg": 0.04127121783937573,
+            "first_moment_bound_kg_m": 0.005184749244788817,
+            "inertia_kg_m2": 0.0006960518584389004
+          }
+        ]
+      },
+      {
+        "part": "star_rear_4_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_4_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144196e-05,
+            "first_moment_bound_kg_m": 1.7598584283075757e-06,
+            "inertia_kg_m2": 2.1375461088580843e-07
+          },
+          {
+            "mass_kg": 1.9325079156192264e-05,
+            "first_moment_bound_kg_m": 2.3464779044101014e-06,
+            "inertia_kg_m2": 2.850061478477446e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_4_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673645,
+            "first_moment_bound_kg_m": 0.003988268649837553,
+            "inertia_kg_m2": 0.0005354245064914621
+          },
+          {
+            "mass_kg": 0.04127121783937574,
+            "first_moment_bound_kg_m": 0.005184749244788819,
+            "inertia_kg_m2": 0.0006960518584389008
+          }
+        ]
+      },
+      {
+        "part": "star_rear_5_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_5_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.449380936714408e-05,
+            "first_moment_bound_kg_m": 1.7598584283075617e-06,
+            "inertia_kg_m2": 2.1375461088580669e-07
+          },
+          {
+            "mass_kg": 1.9325079156192108e-05,
+            "first_moment_bound_kg_m": 2.3464779044100823e-06,
+            "inertia_kg_m2": 2.8500614784774227e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_5_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.03174709064567364,
+            "first_moment_bound_kg_m": 0.0039882686498375515,
+            "inertia_kg_m2": 0.0005354245064914619
+          },
+          {
+            "mass_kg": 0.041271217839375735,
+            "first_moment_bound_kg_m": 0.0051847492447888175,
+            "inertia_kg_m2": 0.0006960518584389006
+          }
+        ]
+      },
+      {
+        "part": "star_rear_6_body_0",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.002326664503147798,
+            "first_moment_bound_kg_m": 0.0002922692882774831,
+            "inertia_kg_m2": 3.688181553325805e-05
+          },
+          {
+            "mass_kg": 0.003102219337530398,
+            "first_moment_bound_kg_m": 0.00038969238436997755,
+            "inertia_kg_m2": 4.9175754044344084e-05
+          }
+        ]
+      },
+      {
+        "part": "star_rear_6_body_1",
+        "density_kg_per_mm3": [
+          1.05e-06,
+          1.4e-06
+        ],
+        "density_basis": "polymer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 1.4493809367144081e-05,
+            "first_moment_bound_kg_m": 1.759858428307562e-06,
+            "inertia_kg_m2": 2.137546108858067e-07
+          },
+          {
+            "mass_kg": 1.9325079156192108e-05,
+            "first_moment_bound_kg_m": 2.3464779044100823e-06,
+            "inertia_kg_m2": 2.850061478477423e-07
+          }
+        ]
+      },
+      {
+        "part": "star_rear_6_body_2",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.031747090645673645,
+            "first_moment_bound_kg_m": 0.003988268649837553,
+            "inertia_kg_m2": 0.000535424506491462
+          },
+          {
+            "mass_kg": 0.04127121783937574,
+            "first_moment_bound_kg_m": 0.005184749244788818,
+            "inertia_kg_m2": 0.0006960518584389007
+          }
+        ]
+      },
+      {
+        "part": "rear_between_0",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0071896604514463825,
+            "first_moment_bound_kg_m": 0.0009031456577680547,
+            "inertia_kg_m2": 0.00011397735210923719
+          },
+          {
+            "mass_kg": 0.007732276334574411,
+            "first_moment_bound_kg_m": 0.0009713075942033796,
+            "inertia_kg_m2": 0.00012257941641936827
+          }
+        ]
+      },
+      {
+        "part": "rear_between_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0071896604514463825,
+            "first_moment_bound_kg_m": 0.0009031456577680547,
+            "inertia_kg_m2": 0.00011397735210923719
+          },
+          {
+            "mass_kg": 0.007732276334574411,
+            "first_moment_bound_kg_m": 0.0009713075942033796,
+            "inertia_kg_m2": 0.00012257941641936827
+          }
+        ]
+      },
+      {
+        "part": "rear_between_2",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446388,
+            "first_moment_bound_kg_m": 0.0009031456577680554,
+            "inertia_kg_m2": 0.00011397735210923727
+          },
+          {
+            "mass_kg": 0.0077322763345744165,
+            "first_moment_bound_kg_m": 0.0009713075942033802,
+            "inertia_kg_m2": 0.00012257941641936838
+          }
+        ]
+      },
+      {
+        "part": "rear_between_3",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.007189660451446385,
+            "first_moment_bound_kg_m": 0.000903145657768055,
+            "inertia_kg_m2": 0.00011397735210923723
+          },
+          {
+            "mass_kg": 0.007732276334574414,
+            "first_moment_bound_kg_m": 0.0009713075942033799,
+            "inertia_kg_m2": 0.00012257941641936833
+          }
+        ]
+      },
+      {
+        "part": "rear_between_4",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0071896604514463825,
+            "first_moment_bound_kg_m": 0.0009031456577680547,
+            "inertia_kg_m2": 0.00011397735210923719
+          },
+          {
+            "mass_kg": 0.007732276334574411,
+            "first_moment_bound_kg_m": 0.0009713075942033796,
+            "inertia_kg_m2": 0.00012257941641936827
+          }
+        ]
+      },
+      {
+        "part": "rear_between_5",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0071896604514463825,
+            "first_moment_bound_kg_m": 0.0009031456577680547,
+            "inertia_kg_m2": 0.00011397735210923719
+          },
+          {
+            "mass_kg": 0.007732276334574411,
+            "first_moment_bound_kg_m": 0.0009713075942033796,
+            "inertia_kg_m2": 0.00012257941641936827
+          }
+        ]
+      },
+      {
+        "part": "rear_end_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.02858880730693248,
+            "first_moment_bound_kg_m": 0.0035912484816761243,
+            "inertia_kg_m2": 0.0004532170300406678
+          },
+          {
+            "mass_kg": 0.030746453141417947,
+            "first_moment_bound_kg_m": 0.0038622861029346993,
+            "inertia_kg_m2": 0.0004874220889116616
+          }
+        ]
+      },
+      {
+        "part": "rear_outer_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.005777911179730291,
+            "first_moment_bound_kg_m": 0.000725805540913009,
+            "inertia_kg_m2": 9.159695669014984e-05
+          },
+          {
+            "mass_kg": 0.0062139799480118215,
+            "first_moment_bound_kg_m": 0.0007805833175856889,
+            "inertia_kg_m2": 9.850993455355736e-05
+          }
+        ]
+      },
+      {
+        "part": "rear_end_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.02858880730693248,
+            "first_moment_bound_kg_m": 0.0035912484816761243,
+            "inertia_kg_m2": 0.0004532170300406678
+          },
+          {
+            "mass_kg": 0.030746453141417947,
+            "first_moment_bound_kg_m": 0.0038622861029346993,
+            "inertia_kg_m2": 0.0004874220889116616
+          }
+        ]
+      },
+      {
+        "part": "rear_outer_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.005777911179730291,
+            "first_moment_bound_kg_m": 0.000725805540913009,
+            "inertia_kg_m2": 9.159695669014984e-05
+          },
+          {
+            "mass_kg": 0.0062139799480118215,
+            "first_moment_bound_kg_m": 0.0007805833175856889,
+            "inertia_kg_m2": 9.850993455355736e-05
+          }
+        ]
+      },
+      {
+        "part": "shaft_kick",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.18404964129242654,
+            "first_moment_bound_kg_m": 0.07130967665298994,
+            "inertia_kg_m2": 0.027632939681695414
+          },
+          {
+            "mass_kg": 0.19794018025789267,
+            "first_moment_bound_kg_m": 0.07669153904189482,
+            "inertia_kg_m2": 0.029718444563332804
+          }
+        ]
+      },
+      {
+        "part": "kick_core",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.15385007543159926,
+            "first_moment_bound_kg_m": 0.05960891341610509,
+            "inertia_kg_m2": 0.023114127632692612
+          },
+          {
+            "mass_kg": 0.1654614018792671,
+            "first_moment_bound_kg_m": 0.0641076993343017,
+            "inertia_kg_m2": 0.024858590095537335
+          }
+        ]
+      },
+      {
+        "part": "kick_rubber",
+        "density_kg_per_mm3": [
+          1e-06,
+          1.3e-06
+        ],
+        "density_basis": "elastomer density unconfirmed",
+        "bounds": [
+          {
+            "mass_kg": 0.66798113796953,
+            "first_moment_bound_kg_m": 0.25880799671443594,
+            "inertia_kg_m2": 0.10053992851685012
+          },
+          {
+            "mass_kg": 0.868375479360389,
+            "first_moment_bound_kg_m": 0.33645039572876667,
+            "inertia_kg_m2": 0.13070190707190515
+          }
+        ]
+      },
+      {
+        "part": "kick_hub_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.010401355993839484,
+            "first_moment_bound_kg_m": 0.004029985211950822,
+            "inertia_kg_m2": 0.0015621971268408588
+          },
+          {
+            "mass_kg": 0.011186363993374538,
+            "first_moment_bound_kg_m": 0.004334135039267865,
+            "inertia_kg_m2": 0.0016800987967911121
+          }
+        ]
+      },
+      {
+        "part": "kick_outer_-1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.005777911179730291,
+            "first_moment_bound_kg_m": 0.0022386404834205827,
+            "inertia_kg_m2": 0.0008677801466503077
+          },
+          {
+            "mass_kg": 0.0062139799480118215,
+            "first_moment_bound_kg_m": 0.0024075944821693057,
+            "inertia_kg_m2": 0.0009332729879069346
+          }
+        ]
+      },
+      {
+        "part": "kick_hub_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.010401355993839486,
+            "first_moment_bound_kg_m": 0.004029985211950823,
+            "inertia_kg_m2": 0.001562197126840859
+          },
+          {
+            "mass_kg": 0.01118636399337454,
+            "first_moment_bound_kg_m": 0.004334135039267866,
+            "inertia_kg_m2": 0.0016800987967911124
+          }
+        ]
+      },
+      {
+        "part": "kick_outer_1",
+        "density_kg_per_mm3": [
+          2.65e-06,
+          2.85e-06
+        ],
+        "density_basis": "aluminum stock density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.005777911179730291,
+            "first_moment_bound_kg_m": 0.0022386404834205827,
+            "inertia_kg_m2": 0.0008677801466503077
+          },
+          {
+            "mass_kg": 0.0062139799480118215,
+            "first_moment_bound_kg_m": 0.0024075944821693057,
+            "inertia_kg_m2": 0.0009332729879069346
+          }
+        ]
+      },
+      {
+        "part": "middle_end_washer_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00447217495210958,
+            "first_moment_bound_kg_m": 0.0011414125989230536,
+            "inertia_kg_m2": 0.00029155799553956123
+          },
+          {
+            "mass_kg": 0.004646415534659303,
+            "first_moment_bound_kg_m": 0.0011858832196603153,
+            "inertia_kg_m2": 0.0003029173979631804
+          }
+        ]
+      },
+      {
+        "part": "middle_end_screw_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429283,
+            "first_moment_bound_kg_m": 0.0009525565669331828,
+            "inertia_kg_m2": 0.00024314142911775928
+          },
+          {
+            "mass_kg": 0.003877628155161483,
+            "first_moment_bound_kg_m": 0.0009896691604500598,
+            "inertia_kg_m2": 0.000252614471810659
+          }
+        ]
+      },
+      {
+        "part": "middle_end_washer_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00447217495210958,
+            "first_moment_bound_kg_m": 0.0011414125989230536,
+            "inertia_kg_m2": 0.00029155799553956123
+          },
+          {
+            "mass_kg": 0.004646415534659303,
+            "first_moment_bound_kg_m": 0.0011858832196603153,
+            "inertia_kg_m2": 0.0003029173979631804
+          }
+        ]
+      },
+      {
+        "part": "middle_end_screw_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429283,
+            "first_moment_bound_kg_m": 0.0009525565669331828,
+            "inertia_kg_m2": 0.00024314142911775928
+          },
+          {
+            "mass_kg": 0.003877628155161483,
+            "first_moment_bound_kg_m": 0.0009896691604500598,
+            "inertia_kg_m2": 0.000252614471810659
+          }
+        ]
+      },
+      {
+        "part": "front_end_washer_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004472174952109579,
+            "first_moment_bound_kg_m": 0.0018062804371922613,
+            "inertia_kg_m2": 0.0007297846565691601
+          },
+          {
+            "mass_kg": 0.004646415534659302,
+            "first_moment_bound_kg_m": 0.0018766549996802712,
+            "inertia_kg_m2": 0.0007582178250069195
+          }
+        ]
+      },
+      {
+        "part": "front_end_screw_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429322,
+            "first_moment_bound_kg_m": 0.0015074165939589575,
+            "inertia_kg_m2": 0.0006088599117793372
+          },
+          {
+            "mass_kg": 0.003877628155161487,
+            "first_moment_bound_kg_m": 0.0015661471106067086,
+            "inertia_kg_m2": 0.0006325817265239865
+          }
+        ]
+      },
+      {
+        "part": "front_end_washer_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004472174952109579,
+            "first_moment_bound_kg_m": 0.0018062804371922613,
+            "inertia_kg_m2": 0.0007297846565691601
+          },
+          {
+            "mass_kg": 0.004646415534659302,
+            "first_moment_bound_kg_m": 0.0018766549996802712,
+            "inertia_kg_m2": 0.0007582178250069195
+          }
+        ]
+      },
+      {
+        "part": "front_end_screw_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429322,
+            "first_moment_bound_kg_m": 0.0015074165939589575,
+            "inertia_kg_m2": 0.0006088599117793372
+          },
+          {
+            "mass_kg": 0.003877628155161487,
+            "first_moment_bound_kg_m": 0.0015661471106067086,
+            "inertia_kg_m2": 0.0006325817265239865
+          }
+        ]
+      },
+      {
+        "part": "rear_end_washer_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004472174952109579,
+            "first_moment_bound_kg_m": 0.0005617824953004939,
+            "inertia_kg_m2": 7.081011346295661e-05
+          },
+          {
+            "mass_kg": 0.004646415534659302,
+            "first_moment_bound_kg_m": 0.000583670124987526,
+            "inertia_kg_m2": 7.356894905242244e-05
+          }
+        ]
+      },
+      {
+        "part": "rear_end_screw_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429288,
+            "first_moment_bound_kg_m": 0.00046883099555016417,
+            "inertia_kg_m2": 5.891808612412128e-05
+          },
+          {
+            "mass_kg": 0.0038776281551614836,
+            "first_moment_bound_kg_m": 0.0004870971382339367,
+            "inertia_kg_m2": 6.121359597311301e-05
+          }
+        ]
+      },
+      {
+        "part": "rear_end_washer_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.004472174952109579,
+            "first_moment_bound_kg_m": 0.0005617824953004939,
+            "inertia_kg_m2": 7.081011346295661e-05
+          },
+          {
+            "mass_kg": 0.004646415534659302,
+            "first_moment_bound_kg_m": 0.000583670124987526,
+            "inertia_kg_m2": 7.356894905242244e-05
+          }
+        ]
+      },
+      {
+        "part": "rear_end_screw_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429288,
+            "first_moment_bound_kg_m": 0.00046883099555016417,
+            "inertia_kg_m2": 5.891808612412128e-05
+          },
+          {
+            "mass_kg": 0.0038776281551614836,
+            "first_moment_bound_kg_m": 0.0004870971382339367,
+            "inertia_kg_m2": 6.121359597311301e-05
+          }
+        ]
+      },
+      {
+        "part": "kick_end_washer_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00447217495210958,
+            "first_moment_bound_kg_m": 0.0017327355138054145,
+            "inertia_kg_m2": 0.000671585534270025
+          },
+          {
+            "mass_kg": 0.004646415534659303,
+            "first_moment_bound_kg_m": 0.0018002446896679624,
+            "inertia_kg_m2": 0.0006977512044363895
+          }
+        ]
+      },
+      {
+        "part": "kick_end_screw_-1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429257,
+            "first_moment_bound_kg_m": 0.001446040278503143,
+            "inertia_kg_m2": 0.0005602903093515237
+          },
+          {
+            "mass_kg": 0.0038776281551614806,
+            "first_moment_bound_kg_m": 0.0015023795101331355,
+            "inertia_kg_m2": 0.0005821198019236609
+          }
+        ]
+      },
+      {
+        "part": "kick_end_washer_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.00447217495210958,
+            "first_moment_bound_kg_m": 0.0017327355138054145,
+            "inertia_kg_m2": 0.000671585534270025
+          },
+          {
+            "mass_kg": 0.004646415534659303,
+            "first_moment_bound_kg_m": 0.0018002446896679624,
+            "inertia_kg_m2": 0.0006977512044363895
+          }
+        ]
+      },
+      {
+        "part": "kick_end_screw_1",
+        "density_kg_per_mm3": [
+          7.7e-06,
+          8e-06
+        ],
+        "density_basis": "steel density assumption",
+        "bounds": [
+          {
+            "mass_kg": 0.0037322170993429257,
+            "first_moment_bound_kg_m": 0.001446040278503143,
+            "inertia_kg_m2": 0.0005602903093515237
+          },
+          {
+            "mass_kg": 0.0038776281551614806,
+            "first_moment_bound_kg_m": 0.0015023795101331355,
+            "inertia_kg_m2": 0.0005821198019236609
+          }
+        ]
+      }
+    ],
+    "totals": [
+      {
+        "mass_kg": 5.382184258840329,
+        "first_moment_bound_kg_m": 1.6281669677602872,
+        "inertia_kg_m2": 0.5698980382164505
+      },
+      {
+        "mass_kg": 6.1175876218369964,
+        "first_moment_bound_kg_m": 1.8600742292024575,
+        "inertia_kg_m2": 0.652327521636832
+      }
+    ],
+    "limitations": [
+      "Unconfirmed density and mixed materials",
+      "No omitted drives, guards, connectors or wiring included in CAD subtotal",
+      "Conservative sum of each component radial first moment, not angle-specific gravity torque"
+    ]
+  },
+  "additional_drive_wiring_guard_reserve": {
+    "mass_kg": 1.5,
+    "point_radius_m": 0.3,
+    "basis": "design allowance, not measured or sufficient by default"
+  },
+  "fold_model": {
+    "mass_kg": 7.6175876218369964,
+    "first_moment_kg_m": 2.310074229202457,
+    "inertia_kg_m2": 0.7873275216368321,
+    "no_coral": "Normal sequence clears acquisition cassette before folding; jammed-piece load is a separate unresolved case"
+  },
+  "pickup": [
+    {
+      "ratio": 5,
+      "diameter_mm": 127,
+      "target_surface_mps": 3,
+      "assumed_combined_tangential_force_n": 40,
+      "assumed_efficiency": 0.8,
+      "roller_rpm": 451.1478701817506,
+      "motor_rpm": 2255.739350908753,
+      "free_speed_fraction": 0.29076299960154073,
+      "motor_torque_nm": 0.635,
+      "endpoint_current_proxy_a": 43.089837101872114,
+      "ideal_12v_linear_speed_torque_margin_nm": 2.2820917826388634,
+      "no_load_surface_mps": 10.31768142477267,
+      "hardware_qualified": false
+    },
+    {
+      "ratio": 9,
+      "diameter_mm": 127,
+      "target_surface_mps": 3,
+      "assumed_combined_tangential_force_n": 40,
+      "assumed_efficiency": 0.8,
+      "roller_rpm": 451.1478701817506,
+      "motor_rpm": 4060.330831635755,
+      "free_speed_fraction": 0.5233733992827733,
+      "motor_torque_nm": 0.3527777777777778,
+      "endpoint_current_proxy_a": 23.93879838992895,
+      "ideal_12v_linear_speed_torque_margin_nm": 1.6075874309721758,
+      "no_load_surface_mps": 5.732045235984817,
+      "hardware_qualified": false
+    },
+    {
+      "ratio": 10,
+      "diameter_mm": 127,
+      "target_surface_mps": 3,
+      "assumed_combined_tangential_force_n": 40,
+      "assumed_efficiency": 0.8,
+      "roller_rpm": 451.1478701817506,
+      "motor_rpm": 4511.478701817506,
+      "free_speed_fraction": 0.5815259992030815,
+      "motor_torque_nm": 0.3175,
+      "endpoint_current_proxy_a": 21.544918550936057,
+      "ideal_12v_linear_speed_torque_margin_nm": 1.403683565277726,
+      "no_load_surface_mps": 5.158840712386335,
+      "hardware_qualified": false
+    },
+    {
+      "ratio": 12,
+      "diameter_mm": 127,
+      "target_surface_mps": 3,
+      "assumed_combined_tangential_force_n": 40,
+      "assumed_efficiency": 0.8,
+      "roller_rpm": 451.1478701817506,
+      "motor_rpm": 5413.7744421810075,
+      "free_speed_fraction": 0.6978311990436978,
+      "motor_torque_nm": 0.2645833333333333,
+      "endpoint_current_proxy_a": 17.954098792446707,
+      "ideal_12v_linear_speed_torque_margin_nm": 0.9782369449999376,
+      "no_load_surface_mps": 4.299033926988613,
+      "hardware_qualified": false
+    }
+  ],
+  "fold": [
+    {
+      "ratio": 5,
+      "travel_degrees": 140,
+      "duration_s": 1.2,
+      "motion": "triangular rest-to-rest speed; conservative peak torque combined with peak speed",
+      "assumed_efficiency": 0.7,
+      "load_factor": 1.5,
+      "friction_torque_nm": 1.0,
+      "gravity_torque_bound_nm": 22.654089439808274,
+      "required_output_torque_nm": 43.49698439378802,
+      "motor_rpm_peak": 194.44444444444446,
+      "required_motor_torque_nm": 12.427709826796576,
+      "endpoint_current_proxy_a": 843.3196724188973,
+      "ideal_speed_torque_margin_nm": -8.417796962656332,
+      "holding_approved": false,
+      "physical_duty_validated": false
+    },
+    {
+      "ratio": 36,
+      "travel_degrees": 140,
+      "duration_s": 1.2,
+      "motion": "triangular rest-to-rest speed; conservative peak torque combined with peak speed",
+      "assumed_efficiency": 0.7,
+      "load_factor": 1.5,
+      "friction_torque_nm": 1.0,
+      "gravity_torque_bound_nm": 22.654089439808274,
+      "required_output_torque_nm": 43.49698439378802,
+      "motor_rpm_peak": 1400.0000000000002,
+      "required_motor_torque_nm": 1.7260708092773023,
+      "endpoint_current_proxy_a": 117.1277322804024,
+      "ideal_speed_torque_margin_nm": 1.6447018125324429,
+      "holding_approved": false,
+      "physical_duty_validated": false
+    },
+    {
+      "ratio": 50,
+      "travel_degrees": 140,
+      "duration_s": 1.2,
+      "motion": "triangular rest-to-rest speed; conservative peak torque combined with peak speed",
+      "assumed_efficiency": 0.7,
+      "load_factor": 1.5,
+      "friction_torque_nm": 1.0,
+      "gravity_torque_bound_nm": 22.654089439808274,
+      "required_output_torque_nm": 43.49698439378802,
+      "motor_rpm_peak": 1944.4444444444448,
+      "required_motor_torque_nm": 1.2427709826796576,
+      "endpoint_current_proxy_a": 84.33196724188971,
+      "ideal_speed_torque_margin_nm": 1.839357658722766,
+      "holding_approved": false,
+      "physical_duty_validated": false
+    },
+    {
+      "ratio": 64,
+      "travel_degrees": 140,
+      "duration_s": 1.2,
+      "motion": "triangular rest-to-rest speed; conservative peak torque combined with peak speed",
+      "assumed_efficiency": 0.7,
+      "load_factor": 1.5,
+      "friction_torque_nm": 1.0,
+      "gravity_torque_bound_nm": 22.654089439808274,
+      "required_output_torque_nm": 43.49698439378802,
+      "motor_rpm_peak": 2488.888888888889,
+      "required_motor_torque_nm": 0.9709148302184826,
+      "endpoint_current_proxy_a": 65.88434940772635,
+      "ideal_speed_torque_margin_nm": 1.8225698307766196,
+      "holding_approved": false,
+      "physical_duty_validated": false
+    }
+  ],
+  "ratio_policy": "Size pickup and deployment separately; motor endpoint model is not continuous rating or a controller stator-current calibration",
+  "required_before_selection": [
+    "Measured contact force/speed",
+    "Motor and controller current/thermal duty",
+    "Gear tooth/shaft/bearing loads",
+    "Transmission efficiency",
+    "Holding latch/stop and backdrive behavior",
+    "Current-limited collision behavior"
+  ]
+}

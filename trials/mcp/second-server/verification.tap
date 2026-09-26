@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: saved live baseline and revision have measured geometry, owned identity and intact MCP artifacts
+ok 1 - saved live baseline and revision have measured geometry, owned identity and intact MCP artifacts
+  ---
+  duration_ms: 1087.8506
+  type: 'test'
+  ...
+# Subtest: requires explicit public authorization and limits stages
+ok 2 - requires explicit public authorization and limits stages
+  ---
+  duration_ms: 47.9934
+  type: 'test'
+  ...
+# Subtest: child environment excludes unrelated credentials and disables dotenv search
+ok 3 - child environment excludes unrelated credentials and disables dotenv search
+  ---
+  duration_ms: 2.3043
+  type: 'test'
+  ...
+# Subtest: decodes server FeatureScript typed maps
+ok 4 - decodes server FeatureScript typed maps
+  ---
+  duration_ms: 6.5997
+  type: 'test'
+  ...
+# Subtest: decodes the real Jarvis response wrapper and Onshape btType encoding
+ok 5 - decodes the real Jarvis response wrapper and Onshape btType encoding
+  ---
+  duration_ms: 1.9993
+  type: 'test'
+  ...
+# Subtest: translation hook refreshes current state before persisting translation IDs
+ok 6 - translation hook refreshes current state before persisting translation IDs
+  ---
+  duration_ms: 233.7235
+  type: 'test'
+  ...
+# Subtest: measurement script requests tight bounds, cylindrical faces and BOM property
+ok 7 - measurement script requests tight bounds, cylindrical faces and BOM property
+  ---
+  duration_ms: 7.0093
+  type: 'test'
+  ...
+# Subtest: accepts measured through-hole geometry within tolerance
+ok 8 - accepts measured through-hole geometry within tolerance
+  ---
+  duration_ms: 3.8485
+  type: 'test'
+  ...
+# Subtest: rejects missing holes, blind holes, incorrect bounds and missing BOM exclusion
+ok 9 - rejects missing holes, blind holes, incorrect bounds and missing BOM exclusion
+  ---
+  duration_ms: 22.3626
+  type: 'test'
+  ...
+# Subtest: identifies export bytes independent of filenames and rejects error pages
+ok 10 - identifies export bytes independent of filenames and rejects error pages
+  ---
+  duration_ms: 13.1112
+  type: 'test'
+  ...
+# Subtest: trial reports link existing evidence and state actual public MCP results
+ok 11 - trial reports link existing evidence and state actual public MCP results
+  ---
+  duration_ms: 217.6457
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5171.3628

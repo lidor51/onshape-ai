@@ -1,0 +1,370 @@
+{
+  "status": "BLOCKED_LOCAL_CAD_DEMONSTRATOR",
+  "localCADApproved": false,
+  "manufacturingRelease": false,
+  "nativeAdmitted": false,
+  "networkCalls": 0,
+  "apiCalls": 0,
+  "geometryRepairCyclesThisContinuation": 3,
+  "stopReason": "Three geometry repair cycles completed; original bolt/mount slice repaired but full-motion and physical-attachment blockers remain",
+  "counts": {
+    "modeledOccurrencesIncludingReferences": 510,
+    "modeledNonReferenceOccurrences": 505,
+    "referenceOccurrences": 5,
+    "uniqueDefinitions": 58,
+    "logicalMotionGroups": 28,
+    "pickupLowerRollers": 11,
+    "fixedTransferRollers": 4,
+    "upperRollers": 1,
+    "originalVendorFiles": 4,
+    "originalVendorBodies": 5,
+    "originalVendorOccurrences": 56
+  },
+  "fixedSlice": {
+    "mountHubTrunnion": "PASS",
+    "synchronizedGearMesh": "PASS",
+    "inletSamples": 13,
+    "inletFailures": 0,
+    "maximumRequiredFloatMm": 7.840458948386029
+  },
+  "fullSweep": {
+    "status": "INCOMPLETE_FAIL_TIMEOUT",
+    "expectedPoses": 126,
+    "completedPoses": 38,
+    "exitCode": 124,
+    "hardWallLimitSeconds": 600.0,
+    "minimumForwardCoordinateMm": -501.70103076104203,
+    "forwardLimitMm": -457.2,
+    "forwardExcessMm": 44.501030761042045,
+    "worstUnexpectedPairs": [
+      {
+        "pair": [
+          "deploy_motor_pinion_0",
+          "pickup_roll_10_rubber"
+        ],
+        "intersectionMm3": 979.1097041006285,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_10_shaft"
+        ],
+        "intersectionMm3": 838.0874242583529,
+        "angleDeg": -78.38709677419354
+      },
+      {
+        "pair": [
+          "pickup_roll_10_end_L",
+          "tower_-1"
+        ],
+        "intersectionMm3": 628.3185307179588,
+        "angleDeg": -21.774193548387096
+      },
+      {
+        "pair": [
+          "pickup_roll_10_end_R",
+          "tower_1"
+        ],
+        "intersectionMm3": 628.3185307179588,
+        "angleDeg": -21.774193548387096
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "pickup_roll_10_shaft"
+        ],
+        "intersectionMm3": 517.1922863692505,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_9_shaft"
+        ],
+        "intersectionMm3": 424.0018146122159,
+        "angleDeg": -45.7258064516129
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_10_retainer_L"
+        ],
+        "intersectionMm3": 305.14262420534885,
+        "angleDeg": -71.85483870967741
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "pickup_left_cheek"
+        ],
+        "intersectionMm3": 255.44274870762774,
+        "angleDeg": -76.20967741935483
+      },
+      {
+        "pair": [
+          "deploy_motor_pinion_0",
+          "pickup_roll_10_tube"
+        ],
+        "intersectionMm3": 244.00589279390812,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_9_retainer_L"
+        ],
+        "intersectionMm3": 209.96350721538474,
+        "angleDeg": -58.79032258064516
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_10_retainer_screw_L120"
+        ],
+        "intersectionMm3": 166.50441064025927,
+        "angleDeg": -37.016129032258064
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_9_retainer_screw_L120"
+        ],
+        "intersectionMm3": 166.50441064025924,
+        "angleDeg": -30.483870967741932
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_9_retainer_screw_L0"
+        ],
+        "intersectionMm3": 166.5044106402592,
+        "angleDeg": -56.61290322580645
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "pickup_roll_10_end_L"
+        ],
+        "intersectionMm3": 144.97070128143775,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_screw_120",
+          "pickup_roll_10_bearing_L_0"
+        ],
+        "intersectionMm3": 124.85237344382365,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_pinion_0",
+          "pickup_roll_10_plug_L"
+        ],
+        "intersectionMm3": 113.2241608271031,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_mount",
+          "pickup_roll_10_retainer_screw_L240"
+        ],
+        "intersectionMm3": 101.00721692451216,
+        "angleDeg": -76.20967741935483
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "pickup_roll_10_retainer_screw_L120"
+        ],
+        "intersectionMm3": 99.78824741957867,
+        "angleDeg": -78.38709677419354
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "pickup_roll_10_rubber"
+        ],
+        "intersectionMm3": 94.97591880169249,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_screw_240",
+          "pickup_left_cheek"
+        ],
+        "intersectionMm3": 76.4537988177612,
+        "angleDeg": -65.32258064516128
+      },
+      {
+        "pair": [
+          "deploy_motor_screw_120",
+          "pickup_left_cheek"
+        ],
+        "intersectionMm3": 76.45379881776118,
+        "angleDeg": -65.32258064516128
+      },
+      {
+        "pair": [
+          "deploy_motor_screw_0",
+          "pickup_left_cheek"
+        ],
+        "intersectionMm3": 76.3885258534691,
+        "angleDeg": -80.56451612903226
+      },
+      {
+        "pair": [
+          "deploy_motor_screw_120",
+          "pickup_roll_10_retainer_L"
+        ],
+        "intersectionMm3": 76.07374742373587,
+        "angleDeg": -71.85483870967741
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "deploy_motor_pinion_0"
+        ],
+        "intersectionMm3": 57.60989657463847,
+        "angleDeg": -76.20967741935483
+      },
+      {
+        "pair": [
+          "deploy_motor_screw_120",
+          "pickup_roll_9_retainer_L"
+        ],
+        "intersectionMm3": 38.981467633025595,
+        "angleDeg": -52.258064516129025
+      },
+      {
+        "pair": [
+          "deploy_motor_0",
+          "pickup_roll_10_retainer_L"
+        ],
+        "intersectionMm3": 17.264384314264536,
+        "angleDeg": -80.56451612903226
+      }
+    ]
+  },
+  "hardCoralBlockers": [
+    {
+      "pose": "transfer_330",
+      "blockers": [
+        {
+          "part": "orienter_1_0_shaft",
+          "intersectionMm3": 1875.4664695880583
+        }
+      ]
+    }
+  ],
+  "originalCotsPreservation": "PASS",
+  "originalVendorFilesReexported": false,
+  "generatedExports": {
+    "baseline": {
+      "status": "PASS",
+      "uniqueChecks": 53,
+      "assemblyReadback": {
+        "status": "PASS",
+        "sha256": "dc8682a99909732174f2c7632ccaf0ca88a84b4983a86eb4093959bd596a2c60",
+        "expectedBodies": 454,
+        "actualBodies": 454,
+        "volumeErrorMm3": 9.998679161071777e-06,
+        "boundsErrorMm": 7.02016222930979e-11,
+        "allBodiesValidClosed": true
+      }
+    },
+    "revision": {
+      "status": "PASS",
+      "uniqueChecks": 53,
+      "assemblyReadback": {
+        "status": "PASS",
+        "sha256": "ee7d21830908ce7416e7a444d9f914b4be5d1ea5facdc7728c0769d2645c7d04",
+        "expectedBodies": 454,
+        "actualBodies": 454,
+        "volumeErrorMm3": 1.0065734386444092e-05,
+        "boundsErrorMm": 7.02016222930979e-11,
+        "allBodiesValidClosed": true
+      }
+    }
+  },
+  "localSourceRecipeParity": {
+    "checks": 106,
+    "failures": 0,
+    "nativeCompilation": "UNVERIFIED_NO_NETWORK"
+  },
+  "controls": {
+    "mouthWidth": {
+      "default": 500.0,
+      "min": 500.0,
+      "max": 520.0,
+      "unit": "mm"
+    },
+    "receiverHeight": {
+      "default": 447.15,
+      "min": 437.15,
+      "max": 467.15,
+      "unit": "mm"
+    },
+    "topFloat": {
+      "default": 0.0,
+      "min": 0.0,
+      "max": 12.0,
+      "unit": "mm"
+    }
+  },
+  "datums": {
+    "deploymentPivotMm": [
+      0,
+      140,
+      435
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "receiverDefaultMm": [
+      0,
+      560,
+      447.15
+    ],
+    "topFloatAxis": [
+      0,
+      -0.7525766947068778,
+      0.6585046078685182
+    ]
+  },
+  "blockingAttachments": [
+    "Pickup and fixed transfer have sprocket blanks but no chain loops, tensioners or connected motor-output shaft; no powered handoff claim",
+    "Independent orienter motor gears are not connected to the contact shafts",
+    "Deployment gear hex bore lacks a mechanically retained adapter to the round trunnion/flange",
+    "Roller plug cross-pin and tube drill retention are incomplete",
+    "Upper guides and floating carriage lack complete anchored supports, return/preload and screws",
+    "Frame/chassis, motor brackets, stops, anti-bounce fingers and sensor mounting connections are incomplete",
+    "Guards and guard fasteners are absent"
+  ],
+  "originalMotorPresentationBlocker": "Original X44 body includes fixed housing and nonseparable shaft. Rotating pinion overlaps source shaft; no splitting, reexport or blanket exemption used.",
+  "simplificationAssessment": "11 lower rollers are not proven necessary. Current continuity test assumes adjacent roller contact patches; replacing intermediate stations with a powered belt/guide span is a topology and support redesign, not permission to remove coverage assertions. No rollers added this continuation; no such redesign validated.",
+  "physicalTests": {
+    "friction": "UNVERIFIED",
+    "thermalDuty": "UNVERIFIED",
+    "tractionAndCapture": "UNVERIFIED",
+    "torqueAndBrake": "UNVERIFIED",
+    "materialStockTolerances": "TEST_ONLY_ASSUMPTIONS_NOT_RELEASE"
+  },
+  "previews": [
+    "previews/baseline-deployed.png",
+    "previews/baseline-stowed.png",
+    "previews/revision-deployed.png",
+    "previews/revision-stowed.png",
+    "previews/side-contact.png",
+    "previews/plan-contact.png"
+  ],
+  "regressions": {
+    "count": 11,
+    "exitCode": 0,
+    "evidence": "test_layout.exit.json"
+  },
+  "previewPixelChecks": "PASS"
+}

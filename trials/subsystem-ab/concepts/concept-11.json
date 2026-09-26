@@ -1,0 +1,106 @@
+{
+  "id": "11",
+  "title": "1690 / 2056 reference clone",
+  "family": "Reference hybrid: floating pickup -> powered V banks -> stopped cradle",
+  "notice": "Architecture clone; dimensions are provisional, not measured team CAD.",
+  "summary": "508 mm floating pickup and kicker feed a retained rear drive, two independent straightener banks, then a two-event stopped cradle. UNTESTED Stage-2 hybrid.",
+  "advantage": "Independent side drives separate yaw control from pickup; retaining a rear powered contact and a stopped cradle targets low-momentum transfer and delayed handoff.",
+  "risk": "Steep pickup, wheel preload, yaw and cradle sensor sequencing may stall or overrun; projected clearance is not a 3D or physical pass.",
+  "firstTest": "Hand-crank a flat-plate fixture from rest at skewed entries; inspect every contact handover, full-coral bumper margin, two beams and absent-gripper hold.",
+  "complexity": "high",
+  "inspiration": "Reference chain, not a dimensional reconstruction: research/2025-coral/2056-binder.md records inspected binder PDF p.7: 20-inch acquisition, floating top roller, kicker and smooth ramp; p.9: opposing vertical-axis straightener banks with independent drives; p.11: stopped cradle, anti-bounce feature, gripper cutouts and two distinct beam events. Drawing OPR25-A11 versus A11-R1, PDF pp.7/8, supports the shared-to-independent drive change; A20-R1, p.22, supports split cradle and sensor mounting. P209, p.139, includes precision bends, so this proposal replaces those brackets with located flat plates and machined blocks. research/2025-coral/1690-1778.md E03, Korny's 1690 post 35, reports separating flexible acquisition from an internal orienter and restoring a rear roller after a static ceiling caused an installed dead spot. This is author-reported, not our test. Unlike 03's generic four-bar nose and single index-wheel pair, 11 explicitly follows this reference chain through seven wheels per independently driven side bank and a separately stopped, two-event cradle. 508 mm is the exact conversion of 2056's reported nominal 20-inch acquisition width, used here as mouth intent, not a measured clear opening. All other mechanism coordinates, wheel sizes, compression, bank pitch, sensor spacing and receiver geometry are our untested hypotheses. No team CAD, 1690 images or videos were inspected for this concept. The local 2056 report covers selected PDF pages, not the complete packages; no native CAD was measured. No reference establishes these dimensions, successful contact continuity, timing, motor sizing, deployment date, manufacture or legality.",
+  "side": {
+    "guides": [
+      {"points": [[-450,0],[-418,32],[-394,74],[-340,141],[-331,159],[-300,178],[-261,170],[-222,178],[-168,188],[285,188],[285,182],[-168,182],[-222,172],[-261,164],[-300,172],[-331,153],[-340,135],[-394,68],[-418,26],[-450,0]], "label": "Supported faceted ramp; flat PC fingers between wheel packets, 6 mm sketch thickness"},
+      {"points": [[-200,205],[390,205],[390,285],[-200,285],[-200,205]], "label": "Side-bank height envelope only, outside coral lane; vertical axes shown in plan"},
+      {"points": [[285,188],[325,193],[340,193],[340,188],[651,188],[651,182],[340,182],[325,187],[285,182],[285,188]], "label": "Split cradle support; 5 mm anti-bounce drop at y340, not a bent sheet"},
+      {"points": [[650.8125,188],[650.8125,213],[657,213],[657,182],[650.8125,182],[650.8125,188]], "label": "Cradle stop lip; nominal y651, 25 mm high, coral-center target y500"},
+      {"points": [[540,223],[540,268]], "label": "D1 optical plane y540: first detection slows or stops; not a solid barrier"},
+      {"points": [[644,223],[644,268]], "label": "D2 optical plane y644: second detection requests handoff; not a solid barrier"},
+      {"points": [[460,205],[460,312],[540,312],[540,205]], "label": "Open side access y460..540 for gripper approach; clearance outline, not material"}
+    ],
+    "rollers": [
+      {"center": [-380,45], "radius": 38, "label": "Powered lower acquisition row, OD76 envelope of separate compliant wheel packets"},
+      {"center": [-423,285], "radius": 32, "label": "Floating powered top pickup, OD64 packet envelope; short swing, preload UNTESTED"},
+      {"center": [-300,151], "radius": 37, "label": "Powered kicker row, OD74 packet envelope; lifts into supported crest"},
+      {"center": [-222,151], "radius": 37, "label": "Retained rear powered row, OD74 packet envelope; 78 mm kicker spacing, not a ceiling"}
+    ],
+    "links": [
+      {"points": [[-350,334],[-423,285]], "label": "Short floating-top carrier; fixed acquisition frame separate from orienter"},
+      {"points": [[-423,285],[-431,300]], "label": "Approximate 15 mm vertical float intent; not a solved travel or stow sweep"}
+    ],
+    "pivot": [-350,334],
+    "ghost": [],
+    "path": [[-480,57.15],[-474,64],[-453,107],[-426,128],[-398,138.4],[-394,144],[-390,178],[-365,219.1],[-335,238.4],[-300,245.15],[-261,236.69],[-222,245.15],[-150,245.15],[-50,245.15],[60,245.15],[160,245.15],[270,245.15],[330,250.15],[400,245.15],[500,245.15]],
+    "receiver": {"center": [500,245.15], "label": "Stopped one-coral cradle; low gripper target, not a complete scoring mechanism"},
+    "labels": [
+      {"at": [-380,500], "text": "508 mm pickup / rear drive"},
+      {"at": [-80,430], "text": "Two powered side banks"},
+      {"at": [360,380], "text": "Cradle z245; two beams"}
+    ]
+  },
+  "plan": {
+    "guides": [
+      {"points": [[-254,-450],[-254,-325],[-200,-235],[-196,-150]], "label": "Left 508 mm mouth boundary to fixed straightener entry; flat located plate"},
+      {"points": [[254,-450],[254,-325],[200,-235],[196,-150]], "label": "Right 508 mm mouth boundary to fixed straightener entry; flat located plate"},
+      {"points": [[-254,-383],[254,-383],[254,-377],[-254,-377],[-254,-383]], "label": "Lower row shaft datum strip only; not a continuous OD76 cylinder"},
+      {"points": [[-240,-418],[-176,-418],[-176,-342],[-240,-342],[-240,-418]], "label": "Lower pickup packet 1"},
+      {"points": [[-142,-418],[-78,-418],[-78,-342],[-142,-342],[-142,-418]], "label": "Lower pickup packet 2"},
+      {"points": [[-32,-418],[32,-418],[32,-342],[-32,-342],[-32,-418]], "label": "Lower pickup packet 3"},
+      {"points": [[78,-418],[142,-418],[142,-342],[78,-342],[78,-418]], "label": "Lower pickup packet 4"},
+      {"points": [[176,-418],[240,-418],[240,-342],[176,-342],[176,-418]], "label": "Lower pickup packet 5"},
+      {"points": [[-254,-426],[254,-426],[254,-420],[-254,-420],[-254,-426]], "label": "Floating top shaft datum at z285; plan overlap with lower row is vertical separation"},
+      {"points": [[-220,-455],[-156,-455],[-156,-391],[-220,-391],[-220,-455]], "label": "Floating top left packet"},
+      {"points": [[-32,-455],[32,-455],[32,-391],[-32,-391],[-32,-455]], "label": "Floating top center packet"},
+      {"points": [[156,-455],[220,-455],[220,-391],[156,-391],[156,-455]], "label": "Floating top right packet"},
+      {"points": [[-235,-303],[235,-303],[235,-297],[-235,-297],[-235,-303]], "label": "Kicker shaft datum only; discrete OD74 wheels, not a solid full-width roller"},
+      {"points": [[-220,-337],[-140,-337],[-140,-263],[-220,-263],[-220,-337]], "label": "Kicker left packet"},
+      {"points": [[-40,-337],[40,-337],[40,-263],[-40,-263],[-40,-337]], "label": "Kicker center packet"},
+      {"points": [[140,-337],[220,-337],[220,-263],[140,-263],[140,-337]], "label": "Kicker right packet"},
+      {"points": [[-205,-225],[205,-225],[205,-219],[-205,-219],[-205,-225]], "label": "Retained rear shaft datum only; fixed powered overlap into first straightener station"},
+      {"points": [[-192,-259],[-120,-259],[-120,-185],[-192,-185],[-192,-259]], "label": "Retained rear left packet at z151"},
+      {"points": [[-36,-259],[36,-259],[36,-185],[-36,-185],[-36,-259]], "label": "Retained rear center packet at z151"},
+      {"points": [[120,-259],[192,-259],[192,-185],[120,-185],[120,-259]], "label": "Retained rear right packet at z151"},
+      {"points": [[-204,-205],[-176,-115],[-148,-25],[-120,65],[-113,155],[-113,395]], "label": "Left bank L: own motor and timing drive outside wheels; no cross-coupling"},
+      {"points": [[204,-205],[176,-115],[148,-25],[120,65],[113,155],[113,395]], "label": "Right bank R: own motor and timing drive outside wheels; no cross-coupling"},
+      {"points": [[-40,305],[-40,650.8125],[40,650.8125],[40,305]], "label": "Central lower support between two removable cradle side halves; open above"},
+      {"points": [[-78,325],[-78,335],[-66,335],[-66,325],[-78,325]], "label": "Left cradle entry lip; wheel-access window y335..395 follows"},
+      {"points": [[78,325],[78,335],[66,335],[66,325],[78,325]], "label": "Right cradle entry lip; final drive wheel occupies open window"},
+      {"points": [[-78,395],[-78,460],[-66,460],[-66,395],[-78,395]], "label": "Left cradle half after drive window; gripper opening y460..540 follows"},
+      {"points": [[78,395],[78,460],[66,460],[66,395],[78,395]], "label": "Right cradle half after drive window; replaceable printed guide"},
+      {"points": [[-78,540],[-78,665],[-66,665],[-66,540],[-78,540]], "label": "Left rear cradle half and sensor support"},
+      {"points": [[78,540],[78,665],[66,665],[66,540],[78,540]], "label": "Right rear cradle half and sensor support"},
+      {"points": [[-66,335],[66,335]], "label": "Anti-bounce step datum; 5 mm proposal, not a crossbar at coral height"},
+      {"points": [[-66,540],[66,540]], "label": "D1 beam across lane: first event slow/stop, two optical endpoints"},
+      {"points": [[-66,644],[66,644]], "label": "D2 beam across lane: second event handoff request, not four detection channels"},
+      {"points": [[-66,650.8125],[66,650.8125],[66,657],[-66,657],[-66,650.8125]], "label": "Stopped cradle lip at nominal y651; cut from flat stock"}
+    ],
+    "rollers": [
+      {"center": [-171,-175], "radius": 25, "label": "L1 independent left drive: crosswise entry capture, z205..285 envelope"},
+      {"center": [171,-175], "radius": 25, "label": "R1 independent right drive: entry pair, 292 mm inner-face gap"},
+      {"center": [-143,-85], "radius": 25, "label": "L2 yaw stage; same left bank drive, not a separate motor"},
+      {"center": [143,-85], "radius": 25, "label": "R2 yaw stage; same right bank drive"},
+      {"center": [-115,5], "radius": 25, "label": "L3 converging yaw contact"},
+      {"center": [115,5], "radius": 25, "label": "R3 converging yaw contact"},
+      {"center": [-87,95], "radius": 25, "label": "L4 near-aligned capture"},
+      {"center": [87,95], "radius": 25, "label": "R4 near-aligned capture"},
+      {"center": [-80,185], "radius": 25, "label": "L5 final straight lane; proposed 110 mm inner-face gap"},
+      {"center": [80,185], "radius": 25, "label": "R5 final straight lane; 4.3 mm total compliant squeeze intent"},
+      {"center": [-80,275], "radius": 25, "label": "L6 transfer drive into cradle; 90 mm station pitch"},
+      {"center": [80,275], "radius": 25, "label": "R6 transfer drive into cradle; overlaps final powered station"},
+      {"center": [-80,365], "radius": 25, "label": "L7 through cradle side window; retains drive through D2 and final stop"},
+      {"center": [80,365], "radius": 25, "label": "R7 through cradle side window; same independent bank drive, no extra motor"}
+    ],
+    "movingOutline": [[-268,-455],[268,-455],[268,-260],[218,-185],[-218,-185],[-268,-260],[-268,-455]],
+    "path": [[0,-480],[0,-474],[0,-453],[0,-426],[0,-398],[0,-394],[0,-390],[0,-365],[0,-335],[0,-300],[0,-261],[0,-222],[0,-150],[0,-50],[0,60],[0,160],[0,270],[0,330],[0,400],[0,500]],
+    "receiver": {"center": [0,500], "label": "Along-robot coral in stopped cradle; side jaw access at y460..540"},
+    "coralYawDeg": 0,
+    "labels": [
+      {"at": [-520,-300], "text": "508 mm mouth"},
+      {"at": [285,90], "text": "L/R drives independent"},
+      {"at": [-520,400], "text": "Two beams -> stop -> grip"}
+    ]
+  },
+  "mouthWidthMm": 508,
+  "states": "UNTESTED Stage-2 napkin CAD; every cheap dimensional/contact hypothesis remains untested, including the source-nominal mouth width as our clear opening. Blank chassis is 700 x 760 mm, x=-350..350, y=0..760. Keep the full bumper ring intact, including side-section front band y=-85..0, z=45..165; any recess is internal chassis/bellypan only. Nominal coral is L301.625 x OD114.3 mm. For a horizontal coral at any yaw, use the deliberately conservative longitudinal half-envelope L/2+R=207.9625 mm. Therefore the entire crossing interval for its center is y=-292.9625..207.9625, not just y=-85..0. The piece-center polyline stays at z>=236.69 throughout that interval, exceeding the required 165+57.15+10=232.15 mm; the drawn minimum bottom-to-bumper margin is 14.54 mm. This is an arithmetic 2D horizontal-envelope hypothesis, not measured clearance; pitched/vertical entries, flex and complete swept volumes remain unverified. Acquisition: powered lower packets lift toward the OD74 kicker under an individually floating OD64 top row. Supported flat PC fingers bridge packet gaps; retain the OD74 rear powered row at y=-222, 78 mm behind the kicker, with 4 mm between their drawn envelopes. Approximate 15 mm top float, 6 mm plate thickness, packet dimensions and shaft datum strips are placeholders; thin plan strips locate shafts and do not claim continuous wheel-diameter cylinders. Side ramp and roller projections can overlap only as interleaved guide fingers at different x; shaft/rib holes and actual fits remain unsolved. Plan transverse rows match side y, with lower/kicker/rear axes at z45/151/151 and floating top at z285. Bank wheels have vertical axes and proposed z205..285 contact envelopes, above the rear-wheel top z188 where plan footprints overlap. Orientation: L and R each power all seven wheels on their own bank; first pair x=+/-171,y=-175 overlaps the rear acquisition contact region, then 90 mm station spacing converges to x=+/-80 and continues to y365 through cradle side windows y335..395. Capture crosswise/skewed coral, yaw toward +y and retain a nominal 110 mm lane against OD114.3; rotation sign, offsets, contact force and all intermediate yaw envelopes need tests. The centerline does not prove an orientation trajectory. A deliberate skew test must expose the symmetric crosswise jam case. Current-detected brief opposed bank commands are a reference-inspired recovery proposal, not a tested threshold, speed or retry policy. Cradle: supported entry rises 5 mm then drops behind an anti-bounce step, with open top and side access y460..540 for a gripper. D1 at y540 first slows/stops the piece; a controlled creep proposal resumes only if the receiver is ready and D1 remains valid. For nominal along-y coral, D1 is reached near center y389.19 while its tail is near y238.38, still between powered stations. D2 at y644 is reached near center y493.19 and requests, rather than blindly executes, handoff. The final bank pair at y365 retains drive through both events and the stop: at final center y500, the trailing end is y349.1875, still 15.8125 mm forward of that station. No unpowered coast or early gripper traction is assumed. Stop the banks and retain one coral in the supported stopped cradle while the gripper approaches, confirms capture and takes ownership. Receiver-absent hold can remain at D1; the physical stop also bounds the final offer pose. The stop at y650.8125 is simply receiver center y500 plus nominal L/2, not a measured team dimension or a tolerance. Final target is x0,y500,z245.15 with yaw0, one coral only. Require receiver-ready, pose/capture confirmation and valid D1/D2 ordering before release; blocked/missing beams, timeout, overrun or failed capture stop motion and require bounded retry or driver abort. Beam count is two events, not four endpoint channels. Whole-robot occupancy inhibits a second coral from acquisition until confirmed release. Flat router-cut aluminum/PC plates, located tabs, turned spacers and machined support blocks replace accurate bends; printed guides remain replaceable nonqualified parts. The plan movingOutline is only an acquisition-module envelope; it is not a whole-nose floating four-bar, a swept volume or a verified stow. No deployment, loads, speed/torque, stock/process, adhesive, sensor, friction, reliability, retention duration, full 3D geometry or rules approval is claimed. No APIs, CAD imports, kernels, network research or physical trials were used for this concept."
+}

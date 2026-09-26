@@ -1,0 +1,154 @@
+{
+  "status": "ILLUSTRATIVE_MECHANISM_REVISION",
+  "apiCalls": 0,
+  "cadKernelRuns": 0,
+  "modelCount": 10,
+  "poses": 7,
+  "bundleSha256": "ee65aa790ebe81a342ae6c40ad2330f15a613eb3224cc020969acacf760cf61c",
+  "engine": "Three.js 0.180.0",
+  "screenshotsVerified": true,
+  "files": [
+    {
+      "file": "robot-R01.png",
+      "bytes": 227823,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "8f1c286301336921b7e05033a6fc11083a2c3d2566b2546761071708b098c64f"
+    },
+    {
+      "file": "robot-R01-score.png",
+      "bytes": 170468,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "e100519ba21145cd9e518360044fe7c170b688e73dae29a4b2574fe4ad85bd95"
+    },
+    {
+      "file": "robot-R02.png",
+      "bytes": 177253,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "5ad7fc96c544c1cfdcab8197862ece4e8ff253e64e54875c025a760705503a32"
+    },
+    {
+      "file": "robot-R02-score.png",
+      "bytes": 134366,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "9607ce025dce7848a09a8b2a34f7bc0c733839e86540b2c8a8e2e8a7654bc0f2"
+    },
+    {
+      "file": "robot-R03.png",
+      "bytes": 220507,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "d3e2f2a5538609d26ff3449a994b3a9b586c8bf49468ff0265856c69a2b899a4"
+    },
+    {
+      "file": "robot-R03-score.png",
+      "bytes": 159308,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "85a2613996b549eebe920d2f19da67269ae56d5316068907d000c673cbe34c63"
+    },
+    {
+      "file": "robot-R04.png",
+      "bytes": 156219,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "c33967290dd53dbc92c6b51aa842d2cca5f92e3cb672fec5bd374ee391b48d2e"
+    },
+    {
+      "file": "robot-R04-score.png",
+      "bytes": 109755,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "c18e83c43f1db44ff9f4351a9eab0c633c4adc24aa767aa4d11a467049b90e25"
+    },
+    {
+      "file": "robot-R05.png",
+      "bytes": 220943,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "927071074d3b83c15b8ca26f67efac90e94655d3e79fd63562ce04d5ce03c0b2"
+    },
+    {
+      "file": "robot-R05-score.png",
+      "bytes": 167328,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "1b6cfa377cbb21a099a7279e373ee159f4d1427187779a8baff073e87d041d76"
+    },
+    {
+      "file": "robot-R06.png",
+      "bytes": 140501,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "f33ddc685dac5a5c5591e3c3d6801fd032e961c656615e4800480b2d5ebe13fe"
+    },
+    {
+      "file": "robot-R06-score.png",
+      "bytes": 107612,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "e16b8409f4fd066541a3ae72b6bbc452a43acf1e5fd07f3b2bda706d9db658a0"
+    },
+    {
+      "file": "robot-R07.png",
+      "bytes": 212317,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "1d748ac63681433d013387315289193fd8bd20865dad387d7eb682eae0486b50"
+    },
+    {
+      "file": "robot-R07-score.png",
+      "bytes": 193420,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "4de9773111d160c0b7633d86ac5667daf175a244f8970a5d00d90122489c7883"
+    },
+    {
+      "file": "robot-R08.png",
+      "bytes": 206255,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "37f2b2ff8f46cec21a77aad9dcccc4e71f5b2841d6146938a43450535a42c0c4"
+    },
+    {
+      "file": "robot-R08-score.png",
+      "bytes": 226608,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "9ca8cb02c7f18c8321d30df787416cd77d26ec3b45042981e0a4e58aabab42d2"
+    },
+    {
+      "file": "robot-R09.png",
+      "bytes": 183777,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "35cc3c2f8a88ec375b5b1f7f078fa4399e63a75d5188d4b90d091e59c31c8e04"
+    },
+    {
+      "file": "robot-R09-score.png",
+      "bytes": 180050,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "8eb779b9973621eeb24a34214e47d0be234ba0c27a416b3c015001fb0fcdde28"
+    },
+    {
+      "file": "robot-R10.png",
+      "bytes": 207987,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "3d6dced2fe3067e7684b7afc700693d13f23e1875647b28c34c649f64bf07c01"
+    },
+    {
+      "file": "robot-R10-score.png",
+      "bytes": 154603,
+      "width": 1375,
+      "height": 1062,
+      "sha256": "3acd875e35706652eae79aa8866c0bea8ca52a15bd535eb3e7f496084d387398"
+    }
+  ],
+  "exportMethod": "Direct WebGL canvas PNG; browser checks separately recorded",
+  "interactionRevision": "CAPABILITY_FILTERED_TASK_SOLUTIONS"
+}

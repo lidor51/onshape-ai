@@ -1,0 +1,76 @@
+{
+  "status": "PASS_CONCEPT_CONSISTENCY_ONLY",
+  "meaning": "Static hardware envelopes and tool-link endpoint consistency; NOT piece clearance, collision, kinematics, loads or field reach",
+  "robots": [
+    {
+      "id": "R01",
+      "maximumStowHeightMm": 1020,
+      "maximumHardwareExtensionMm": 405,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R02",
+      "maximumStowHeightMm": 1035,
+      "maximumHardwareExtensionMm": 405,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R03",
+      "maximumStowHeightMm": 1035,
+      "maximumHardwareExtensionMm": 405,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R04",
+      "maximumStowHeightMm": 1050,
+      "maximumHardwareExtensionMm": 405,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R05",
+      "maximumStowHeightMm": 1010,
+      "maximumHardwareExtensionMm": 390,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R06",
+      "maximumStowHeightMm": 995,
+      "maximumHardwareExtensionMm": 455,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R07",
+      "maximumStowHeightMm": 1008,
+      "maximumHardwareExtensionMm": 390,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R08",
+      "maximumStowHeightMm": 970,
+      "maximumHardwareExtensionMm": 385,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R09",
+      "maximumStowHeightMm": 1030,
+      "maximumHardwareExtensionMm": 395,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    },
+    {
+      "id": "R10",
+      "maximumStowHeightMm": 1020,
+      "maximumHardwareExtensionMm": 395,
+      "toolCentersLinked": true,
+      "scope": "Static coordinates only"
+    }
+  ]
+}

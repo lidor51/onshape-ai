@@ -1,0 +1,500 @@
+{
+  "status": "CONTEXTUAL_POSE_ILLUSTRATIONS",
+  "robots": 10,
+  "statesPerRobot": 6,
+  "apiCalls": 0,
+  "cadKernelRuns": 0,
+  "contactProven": false,
+  "files": [
+    {
+      "file": "robot-R01-floor.png",
+      "bytes": 96204,
+      "width": 1100,
+      "height": 850,
+      "sha256": "b0421fd7a0aaafe96107d5749b3823da2b157ff8824abd3c3924b3f2877f3155"
+    },
+    {
+      "file": "robot-R01-coral.png",
+      "bytes": 134995,
+      "width": 1100,
+      "height": 850,
+      "sha256": "ce1f20306cfa97ac5ed97260d9b2316a6a61f37382783033e34b608f4756bbc1"
+    },
+    {
+      "file": "robot-R01-stow.png",
+      "bytes": 180166,
+      "width": 1100,
+      "height": 850,
+      "sha256": "4a7c4fb874dcdb9dd078f412f98f5836af75dd3beaf90fc4f90ef78e8cd69f49"
+    },
+    {
+      "file": "robot-R01-station.png",
+      "bytes": 113052,
+      "width": 1100,
+      "height": 850,
+      "sha256": "0ea901ca8cfe0fc8df6af95b6b46ae35cafcc43313896d77c087ac3993c2ad72"
+    },
+    {
+      "file": "robot-R01-algae.png",
+      "bytes": 138872,
+      "width": 1100,
+      "height": 850,
+      "sha256": "68aedc33bf5e6a01796a7d5366b3dfb8be405f671c3963a695fdff0023822782"
+    },
+    {
+      "file": "robot-R01-climb.png",
+      "bytes": 106540,
+      "width": 1100,
+      "height": 850,
+      "sha256": "4a2efcc63ad310ae68ea810f83a3305c98153228a4ccdff8502f5b589af07d8a"
+    },
+    {
+      "file": "robot-R01-states.png",
+      "bytes": 804464,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "0cac5704fa162d9538deb6372780fddbb01cd817899a5c01fccdff3bbb09328f"
+    },
+    {
+      "file": "robot-R02-stow.png",
+      "bytes": 132134,
+      "width": 1100,
+      "height": 850,
+      "sha256": "ccc76a1e4d7f4bcc3e15831415fcf36abd1b103e643e9cec15b41b7c47db46b0"
+    },
+    {
+      "file": "robot-R02-floor.png",
+      "bytes": 93974,
+      "width": 1100,
+      "height": 850,
+      "sha256": "848fea4c9647a5633542dd6c57aa528445aa3e0bf570c8a8b55ebff5683a9eb0"
+    },
+    {
+      "file": "robot-R02-station.png",
+      "bytes": 94630,
+      "width": 1100,
+      "height": 850,
+      "sha256": "83208184cc81cf2c159de9af8458a10ba48c4436120a127ce21585c044a91b84"
+    },
+    {
+      "file": "robot-R02-coral.png",
+      "bytes": 118466,
+      "width": 1100,
+      "height": 850,
+      "sha256": "51eb0627a8658e7cd6fe28692cd3298f81b340268a30dc241b0f85c1e4c538d0"
+    },
+    {
+      "file": "robot-R02-algae.png",
+      "bytes": 118455,
+      "width": 1100,
+      "height": 850,
+      "sha256": "8a9db5f60e9e58a9c36147cb37eb9b20fa8300912e78d7c0cf7e43f88394e4ba"
+    },
+    {
+      "file": "robot-R02-climb.png",
+      "bytes": 95046,
+      "width": 1100,
+      "height": 850,
+      "sha256": "59e51d8287e8109e0caaecb4e3c309b903d285ddd9c21fd2da30c3c1c05bc6c5"
+    },
+    {
+      "file": "robot-R02-states.png",
+      "bytes": 700875,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "cd5148477b667f1ef42b5643e03540ddf93fe5330730b1bb0f677ee8561d547c"
+    },
+    {
+      "file": "robot-R03-stow.png",
+      "bytes": 164611,
+      "width": 1100,
+      "height": 850,
+      "sha256": "352d654fc2e2df4ec2af7c0230fdc0ea13ad12e992a0e47ebd34a6f716d299ff"
+    },
+    {
+      "file": "robot-R03-floor.png",
+      "bytes": 100140,
+      "width": 1100,
+      "height": 850,
+      "sha256": "17e8d13b05c08cc325f6c6754e96a6bb99589e11af37690865f06758a45df7d3"
+    },
+    {
+      "file": "robot-R03-station.png",
+      "bytes": 105090,
+      "width": 1100,
+      "height": 850,
+      "sha256": "ec43dfe35d1bfad4f87dda0fbe34dca4e0ebd7db153aea24bbf05af07e1cf7b7"
+    },
+    {
+      "file": "robot-R03-coral.png",
+      "bytes": 131187,
+      "width": 1100,
+      "height": 850,
+      "sha256": "1bb3ba86bff25fefbfb3b4beb1f2d55b1b74201f799d8688a6cb6debd02dbfda"
+    },
+    {
+      "file": "robot-R03-algae.png",
+      "bytes": 137455,
+      "width": 1100,
+      "height": 850,
+      "sha256": "ef459dc9dade3b127ba3b4e1995d5405dae6c07d56dcd3e925beec47a9c1d1d8"
+    },
+    {
+      "file": "robot-R03-climb.png",
+      "bytes": 101017,
+      "width": 1100,
+      "height": 850,
+      "sha256": "5d57624eac19c5590b6f6e794b8e175ecf2294000c27f7a1de6e42605b585a42"
+    },
+    {
+      "file": "robot-R03-states.png",
+      "bytes": 784952,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "c930e4e994760a9abf5738a3915318eb13513980d192cbffa2393170c549bcb4"
+    },
+    {
+      "file": "robot-R04-stow.png",
+      "bytes": 114735,
+      "width": 1100,
+      "height": 850,
+      "sha256": "6cb407d599167d7de6c93d3246a3a120faef3cb971570f8002d156767083cf8a"
+    },
+    {
+      "file": "robot-R04-station.png",
+      "bytes": 87056,
+      "width": 1100,
+      "height": 850,
+      "sha256": "634eedec3e908d51ff58f2ce6092a6632fa6b335bee8885106e00290f5a2d60b"
+    },
+    {
+      "file": "robot-R04-floor.png",
+      "bytes": 78011,
+      "width": 1100,
+      "height": 850,
+      "sha256": "888ad619905993e5913a6820bea5fa4c35b9dd903f3f121e1c006b72396215fc"
+    },
+    {
+      "file": "robot-R04-coral.png",
+      "bytes": 110410,
+      "width": 1100,
+      "height": 850,
+      "sha256": "794ba5c7c0d2077f1245771b0ce7e25e1b267926878526ce13df01c52ec561ad"
+    },
+    {
+      "file": "robot-R04-algae.png",
+      "bytes": 125367,
+      "width": 1100,
+      "height": 850,
+      "sha256": "465c4371ac73792c637b1eca12f46a9d46e4d079ead77ae918b3aecdc76787d2"
+    },
+    {
+      "file": "robot-R04-climb.png",
+      "bytes": 80662,
+      "width": 1100,
+      "height": 850,
+      "sha256": "e83e459d8e935e7813527ec8b00fe8c0f5c256f6baefd6db0da6dc66f05f618d"
+    },
+    {
+      "file": "robot-R04-states.png",
+      "bytes": 645365,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "515b24dc6da93722d3e296947dc5debc675113773c325febaaf10dd6be99b803"
+    },
+    {
+      "file": "robot-R05-station.png",
+      "bytes": 110062,
+      "width": 1100,
+      "height": 850,
+      "sha256": "78fa249d060005708c8c68d0ba45a1df067cd870994f902aa8b9b28c5af4bf7e"
+    },
+    {
+      "file": "robot-R05-floor.png",
+      "bytes": 96114,
+      "width": 1100,
+      "height": 850,
+      "sha256": "f550a150fbffd05e5ea3c40abe96e362b212b2e52e1a5f55b751a8c56d3dc204"
+    },
+    {
+      "file": "robot-R05-stow.png",
+      "bytes": 173606,
+      "width": 1100,
+      "height": 850,
+      "sha256": "f1838ef3987ae1ed75cb9eb86b230651e2a7d628fb90894ce1136a5e26f882ad"
+    },
+    {
+      "file": "robot-R05-algae.png",
+      "bytes": 134840,
+      "width": 1100,
+      "height": 850,
+      "sha256": "5e1d1a8411dbaca8df1d5a66ca27c7f112177d2b9b5b5d44f7d7a209b60f48dd"
+    },
+    {
+      "file": "robot-R05-coral.png",
+      "bytes": 133325,
+      "width": 1100,
+      "height": 850,
+      "sha256": "7d7fe93303750ca513c844be0020b87c6d6153caf1b16a08dc5eac1a3f44fdbb"
+    },
+    {
+      "file": "robot-R05-climb.png",
+      "bytes": 108564,
+      "width": 1100,
+      "height": 850,
+      "sha256": "59970ded779f47f1eb30277e0b26780a9f33f6c398d0c8502d9fcc3cc90e98f2"
+    },
+    {
+      "file": "robot-R05-states.png",
+      "bytes": 787846,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "40f03201b95a56e8cf5d20c2e0da85b2d97d53042d401f3f812f4f2c1f21ea63"
+    },
+    {
+      "file": "robot-R06-stow.png",
+      "bytes": 103406,
+      "width": 1100,
+      "height": 850,
+      "sha256": "960e889f89d7636edc61dfd21421d76b991a03f0fcd84689f51bfff999bf97bc"
+    },
+    {
+      "file": "robot-R06-floor.png",
+      "bytes": 73988,
+      "width": 1100,
+      "height": 850,
+      "sha256": "eaea5986484ff9c1659e298d29887a51a394baa4de2375b2886ab9c034d850fd"
+    },
+    {
+      "file": "robot-R06-station.png",
+      "bytes": 81938,
+      "width": 1100,
+      "height": 850,
+      "sha256": "c8cf98b6e05ed8d6172daea1da10e37f10e6b02611a4dd64468976be0e712b56"
+    },
+    {
+      "file": "robot-R06-coral.png",
+      "bytes": 106216,
+      "width": 1100,
+      "height": 850,
+      "sha256": "2121fb6202ea2e455f6f7b434e853316594a383fe00eff61559ca6cf4b1f81bf"
+    },
+    {
+      "file": "robot-R06-algae.png",
+      "bytes": 108015,
+      "width": 1100,
+      "height": 850,
+      "sha256": "fd63a7baf09eb66877c397dc9c478c2d6220a96895e0e26348a232a005e3e12f"
+    },
+    {
+      "file": "robot-R06-climb.png",
+      "bytes": 66124,
+      "width": 1100,
+      "height": 850,
+      "sha256": "6065d280a4eccf6fb30d73483241f563ecf31fab002e6d7f458d3f9a0bb43f31"
+    },
+    {
+      "file": "robot-R06-states.png",
+      "bytes": 572068,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "4790b31a62daaecee59738033ef98ae5035f2f6fdce2f3c44d1d342c277db1cf"
+    },
+    {
+      "file": "robot-R07-stow.png",
+      "bytes": 165015,
+      "width": 1100,
+      "height": 850,
+      "sha256": "cf6677fe40a2293664ce1193fc8166b876a61a87094f16262a7ffecba860aaa6"
+    },
+    {
+      "file": "robot-R07-floor.png",
+      "bytes": 93556,
+      "width": 1100,
+      "height": 850,
+      "sha256": "799e5948b07a40b93a4ff80275b54199b3414802f9a153d0638267357658f75c"
+    },
+    {
+      "file": "robot-R07-station.png",
+      "bytes": 106344,
+      "width": 1100,
+      "height": 850,
+      "sha256": "2d3e050c14377b32d132d2a7a46a3b2216e76498bf16a076db6a354566e5229c"
+    },
+    {
+      "file": "robot-R07-coral.png",
+      "bytes": 133209,
+      "width": 1100,
+      "height": 850,
+      "sha256": "3f5073932b8f570d5a0e065e70e04506c710da56132084c299f2c2d907514ff3"
+    },
+    {
+      "file": "robot-R07-algae.png",
+      "bytes": 138051,
+      "width": 1100,
+      "height": 850,
+      "sha256": "5f34383c54bfb1fe6722652fbce275a26b749923f18fd654b1131ca601bd5a1c"
+    },
+    {
+      "file": "robot-R07-climb.png",
+      "bytes": 101883,
+      "width": 1100,
+      "height": 850,
+      "sha256": "0eea66cb5efc415e8ba9f610c753935bceb8e91ce6bc1e2e011c236d2a1799b0"
+    },
+    {
+      "file": "robot-R07-states.png",
+      "bytes": 744988,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "eb7b8cd9dcbab2b260408eacd5e492ea3d4895b1c51e6b847c03676f5ec11939"
+    },
+    {
+      "file": "robot-R08-stow.png",
+      "bytes": 175404,
+      "width": 1100,
+      "height": 850,
+      "sha256": "e3128a7875f039ea812b66e3e2b9245c7292177757095ed94c3341ab939a3820"
+    },
+    {
+      "file": "robot-R08-station.png",
+      "bytes": 105266,
+      "width": 1100,
+      "height": 850,
+      "sha256": "d032fc6d65bcb616519903c8edbc54a77a03344cb8145373695af0a3a7cf52e2"
+    },
+    {
+      "file": "robot-R08-floor.png",
+      "bytes": 89847,
+      "width": 1100,
+      "height": 850,
+      "sha256": "c4ef6193c0d2ecb8209eb3e1d3bdbfe644f79de0aa73785e765fcd0051bd31be"
+    },
+    {
+      "file": "robot-R08-coral.png",
+      "bytes": 128413,
+      "width": 1100,
+      "height": 850,
+      "sha256": "6ec1dac28df377d88a05b3af4944040c2dfefa7ee9be3a7c0916a3aa7e78832d"
+    },
+    {
+      "file": "robot-R08-algae.png",
+      "bytes": 131054,
+      "width": 1100,
+      "height": 850,
+      "sha256": "bd9bb10e67464dd26989b93af8faa12b530755c508b9d48cf0a47bb1309ca745"
+    },
+    {
+      "file": "robot-R08-climb.png",
+      "bytes": 103573,
+      "width": 1100,
+      "height": 850,
+      "sha256": "9c1eaae4877386d66b430cd6ecd027a986865970ed78b8567bfb70d9f5ad6c15"
+    },
+    {
+      "file": "robot-R08-states.png",
+      "bytes": 743278,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "21ed89c087b215481030b19285d763178fe327339beb0334e72053d3ae625612"
+    },
+    {
+      "file": "robot-R09-floor.png",
+      "bytes": 94164,
+      "width": 1100,
+      "height": 850,
+      "sha256": "279859167e1977f3c33425c69ebb5fb406dba8251f3145eb72baaa863752c55e"
+    },
+    {
+      "file": "robot-R09-stow.png",
+      "bytes": 140354,
+      "width": 1100,
+      "height": 850,
+      "sha256": "75db373cf253f4167879f85fc6320cee44524ec1e8fad10746425202c4245811"
+    },
+    {
+      "file": "robot-R09-station.png",
+      "bytes": 97510,
+      "width": 1100,
+      "height": 850,
+      "sha256": "8eea3d853ef41d1f48f810da6f0614f1811e081790d6a7fc77945d8a7e03acaf"
+    },
+    {
+      "file": "robot-R09-coral.png",
+      "bytes": 109917,
+      "width": 1100,
+      "height": 850,
+      "sha256": "e7020ed72d8161bdcb9b7561071989772572d400d559e8e73cfeb0578128351d"
+    },
+    {
+      "file": "robot-R09-algae.png",
+      "bytes": 144656,
+      "width": 1100,
+      "height": 850,
+      "sha256": "c6fd7cc7241beb4b04a49dff64add1582a18e361d0c4fc3200caffd90f5d3856"
+    },
+    {
+      "file": "robot-R09-climb.png",
+      "bytes": 91628,
+      "width": 1100,
+      "height": 850,
+      "sha256": "b08ab3ba0cc5cc0e86432684b5d8ee8f553d240017c4e8bf2d8c6a56afe23650"
+    },
+    {
+      "file": "robot-R09-states.png",
+      "bytes": 709167,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "2cf39767c396530c4beb5a6ebe8c5a6e75be473650704e306612d14c06cfd775"
+    },
+    {
+      "file": "robot-R10-stow.png",
+      "bytes": 157884,
+      "width": 1100,
+      "height": 850,
+      "sha256": "c1e59f20210239d6769e95ccb59e16b09a4d2a6a7fcdae3ae4d39ca38965bd8c"
+    },
+    {
+      "file": "robot-R10-floor.png",
+      "bytes": 99518,
+      "width": 1100,
+      "height": 850,
+      "sha256": "623d756ec4785db511a4ce6669ee6e6add28da74d7b9e2edce8546c7eb4774f0"
+    },
+    {
+      "file": "robot-R10-station.png",
+      "bytes": 101309,
+      "width": 1100,
+      "height": 850,
+      "sha256": "789de3288fe985a3bb049040581bbb4b3ae616d469f329d7178a5e6a9d016e75"
+    },
+    {
+      "file": "robot-R10-climb.png",
+      "bytes": 100347,
+      "width": 1100,
+      "height": 850,
+      "sha256": "3d4b59cf125c9061e1d479516cf8cc2916a03d8116c7ab57186f4b391a787e9d"
+    },
+    {
+      "file": "robot-R10-algae.png",
+      "bytes": 128386,
+      "width": 1100,
+      "height": 850,
+      "sha256": "03c4052d80a8bb188701be24337beba6dc2e1e60798a6c5328e7edfffc2639bf"
+    },
+    {
+      "file": "robot-R10-coral.png",
+      "bytes": 126467,
+      "width": 1100,
+      "height": 850,
+      "sha256": "785736905ac52f4df05a2519eb13b12808e0d8d1b8d6a85932975d4beeac584b"
+    },
+    {
+      "file": "robot-R10-states.png",
+      "bytes": 767432,
+      "width": 3000,
+      "height": 1800,
+      "sha256": "f39d354d3f10aabb368fe3743365188ea830731d391dd5bac7e1f4e116567102"
+    }
+  ]
+}

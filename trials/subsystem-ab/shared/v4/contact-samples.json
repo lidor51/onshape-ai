@@ -1,0 +1,394 @@
+{
+  "scope": "15 chosen exact tube-BRep poses, NOT simulation, not a continuous transport/centering proof",
+  "nominalCoralMm": {
+    "OD": 114.3,
+    "ID": 101.6,
+    "length": 301.625
+  },
+  "tolerances": {
+    "booleanVolumeMm3": 0.01,
+    "nominalCompressionMm": 5,
+    "topFloatTravelMm": 12
+  },
+  "supportedAngleCoverage": "Chosen transverse, 30/60 degree intermediate and longitudinal poses only; off-axis, end-on, tipped and adverse floor cases UNVERIFIED",
+  "samples": [
+    {
+      "pose": "floor",
+      "centerMm": [
+        0,
+        -316.81796664843455,
+        57.15000000000002
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_0_rubber",
+          "intersectionMm3": 26089.077269365305,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "pickup_top_entry_rubber",
+          "intersectionMm3": 26089.077269366597,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_0",
+      "centerMm": [
+        0,
+        -298.06129199663565,
+        100.80363049705619
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_0_rubber",
+          "intersectionMm3": 26089.077269366353,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "pickup_top_entry_rubber",
+          "intersectionMm3": 26089.07726936659,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_1",
+      "centerMm": [
+        0,
+        -263.06129199663565,
+        140.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_1_rubber",
+          "intersectionMm3": 26089.077269366346,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_2",
+      "centerMm": [
+        0,
+        -228.06129199663565,
+        180.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_2_rubber",
+          "intersectionMm3": 26089.07726936615,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_3",
+      "centerMm": [
+        0,
+        -193.06129199663565,
+        220.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_3_rubber",
+          "intersectionMm3": 26089.07726936635,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_4",
+      "centerMm": [
+        0,
+        -158.06129199663565,
+        260.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_4_rubber",
+          "intersectionMm3": 26089.077269366,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_5",
+      "centerMm": [
+        0,
+        -123.06129199663563,
+        300.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_5_rubber",
+          "intersectionMm3": 26089.077269366415,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_6",
+      "centerMm": [
+        0,
+        -88.06129199663563,
+        340.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_6_rubber",
+          "intersectionMm3": 26089.07726936607,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_7",
+      "centerMm": [
+        0,
+        -53.06129199663563,
+        380.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_7_rubber",
+          "intersectionMm3": 26089.077269366408,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "incline_8",
+      "centerMm": [
+        0,
+        -18.06129199663563,
+        420.8036304970562
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_8_rubber",
+          "intersectionMm3": 26089.077269366408,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "transfer_140",
+      "centerMm": [
+        0,
+        140,
+        447.15
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "pickup_roll_10_rubber",
+          "intersectionMm3": 26089.077269366415,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "transfer_250",
+      "centerMm": [
+        0,
+        250,
+        447.15
+      ],
+      "axisYawDegFromX": 0,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "fixed_roll_1_rubber",
+          "intersectionMm3": 26089.07726936642,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "transfer_330",
+      "centerMm": [
+        0,
+        330,
+        447.15
+      ],
+      "axisYawDegFromX": 30,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "fixed_roll_1_rubber",
+          "intersectionMm3": 1999.3663055351562,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "fixed_roll_2_rubber",
+          "intersectionMm3": 5719.664048273088,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "fixed_roll_3_rubber",
+          "intersectionMm3": 5719.404172758526,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_1_0_drum",
+          "intersectionMm3": 21571.567316616212,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [
+        {
+          "part": "orienter_1_0_shaft",
+          "intersectionMm3": 1875.4664695880583
+        }
+      ],
+      "status": "FAIL"
+    },
+    {
+      "pose": "transfer_400",
+      "centerMm": [
+        0,
+        400,
+        447.15
+      ],
+      "axisYawDegFromX": 60,
+      "nearestSupportGapMm": 0.0,
+      "compliantCandidates": [
+        {
+          "part": "fixed_roll_2_rubber",
+          "intersectionMm3": 3303.809177348702,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "fixed_roll_3_rubber",
+          "intersectionMm3": 3303.824682375412,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_-1_0_drum",
+          "intersectionMm3": 22021.62869814473,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_1_0_drum",
+          "intersectionMm3": 22021.98847839028,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_1_1_drum",
+          "intersectionMm3": 897.0554674690975,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    },
+    {
+      "pose": "transfer_560",
+      "centerMm": [
+        0,
+        560,
+        447.15
+      ],
+      "axisYawDegFromX": 90,
+      "nearestSupportGapMm": 8.940178648384964e-16,
+      "compliantCandidates": [
+        {
+          "part": "orienter_-1_0_drum",
+          "intersectionMm3": 428.79459638873095,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_-1_1_drum",
+          "intersectionMm3": 3411.0452988720363,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_1_0_drum",
+          "intersectionMm3": 428.7943610762898,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        },
+        {
+          "part": "orienter_1_1_drum",
+          "intersectionMm3": 3411.0214153590487,
+          "intent": "candidate compliant roller contact; volume is not acceptance; compression/normal/reaction require fixture verification"
+        }
+      ],
+      "hardBlockers": [],
+      "status": "GEOMETRY_SAMPLE_ONLY"
+    }
+  ],
+  "velocityCommands": [
+    {
+      "stage": "pickup_lower",
+      "positiveAxis": "+X",
+      "omegaSignForRearwardFeed": -1
+    },
+    {
+      "stage": "pickup_top",
+      "positiveAxis": "+X",
+      "omegaSignForRearwardFeed": 1
+    },
+    {
+      "stage": "orienter_left",
+      "positiveAxis": "+Z",
+      "omegaSignForRearwardFeed": 1
+    },
+    {
+      "stage": "orienter_right",
+      "positiveAxis": "+Z",
+      "omegaSignForRearwardFeed": -1
+    }
+  ],
+  "captureCenterRetainRelease": [
+    "capture: floor and roller constraints must coexist",
+    "center: independent banks, no convergence proof",
+    "retain: stop and anti-bounce candidate, insufficient attachment/qualification",
+    "release: receiver grip acknowledgement required before lift; no sensor success fabricated"
+  ]
+}

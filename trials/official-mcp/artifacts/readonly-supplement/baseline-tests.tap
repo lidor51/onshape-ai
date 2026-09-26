@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: synthetic baseline records round-trip and validate without claiming persistence
+ok 1 - synthetic baseline records round-trip and validate without claiming persistence
+  ---
+  duration_ms: 11.6523
+  type: 'test'
+  ...
+# Subtest: synthetic revision records round-trip and validate without claiming persistence
+ok 2 - synthetic revision records round-trip and validate without claiming persistence
+  ---
+  duration_ms: 1.8615
+  type: 'test'
+  ...
+# Subtest: all required geometric failure conditions remain enforced
+ok 3 - all required geometric failure conditions remain enforced
+  ---
+  duration_ms: 13.6817
+  type: 'test'
+  ...
+# Subtest: parser rejects absent, incomplete, duplicate, malformed and non-finite records
+ok 4 - parser rejects absent, incomplete, duplicate, malformed and non-finite records
+  ---
+  duration_ms: 2.7856
+  type: 'test'
+  ...
+# Subtest: compiler/runtime failures cannot pass even with valid records; warnings alone may pass
+ok 5 - compiler/runtime failures cannot pass even with valid records; warnings alone may pass
+  ---
+  duration_ms: 1.8758
+  type: 'test'
+  ...
+# Subtest: baseline ledger binds eleven actual requests, including failed export, to the exact retained branch
+ok 6 - baseline ledger binds eleven actual requests, including failed export, to the exact retained branch
+  ---
+  duration_ms: 52.0564
+  type: 'test'
+  ...
+# Subtest: actual before/after snapshots, measurement response, PNG bytes and STEP members agree with saved baseline
+ok 7 - actual before/after snapshots, measurement response, PNG bytes and STEP members agree with saved baseline
+  ---
+  duration_ms: 29.7577
+  type: 'test'
+  ...
+# Subtest: explicit phase, current-key and quiescent-branch acknowledgement precede credential access
+ok 8 - explicit phase, current-key and quiescent-branch acknowledgement precede credential access
+  ---
+  duration_ms: 2.4143
+  type: 'test'
+  ...
+# Subtest: only exact pinned branch reads and immutable measurement source are accepted
+ok 9 - only exact pinned branch reads and immutable measurement source are accepted
+  ---
+  duration_ms: 5.9302
+  type: 'test'
+  ...
+# Subtest: measurement contains literal retained feature query and no geometry-generating operations
+ok 10 - measurement contains literal retained feature query and no geometry-generating operations
+  ---
+  duration_ms: 0.6668
+  type: 'test'
+  ...
+# Subtest: attempts consume non-resetting per-phase and cumulative budgets including failures
+ok 11 - attempts consume non-resetting per-phase and cumulative budgets including failures
+  ---
+  duration_ms: 3.1914
+  type: 'test'
+  ...
+# Subtest: actual downloaded archive contains exactly nine valid original STEP members with correct CRCs
+ok 12 - actual downloaded archive contains exactly nine valid original STEP members with correct CRCs
+  ---
+  duration_ms: 26.765
+  type: 'test'
+  ...
+# Subtest: source guard: runtime reads current credentials without logging them, no modeling or credential exports
+ok 13 - source guard: runtime reads current credentials without logging them, no modeling or credential exports
+  ---
+  duration_ms: 9.6696
+  type: 'test'
+  ...
+# Subtest: transport checkpoints before dispatch, permits only observed snapshots, does not log auth
+ok 14 - transport checkpoints before dispatch, permits only observed snapshots, does not log auth
+  ---
+  duration_ms: 35.7869
+  type: 'test'
+  ...
+# Subtest: redirects, transport failures and echoed secrets cannot leak, retry or evade request counting
+ok 15 - redirects, transport failures and echoed secrets cannot leak, retry or evade request counting
+  ---
+  duration_ms: 2.6529
+  type: 'test'
+  ...
+# Subtest: typed JSON decoder preserves numeric geometry and rejects unknown types and duplicate keys
+ok 16 - typed JSON decoder preserves numeric geometry and rejects unknown types and duplicate keys
+  ---
+  duration_ms: 1.6491
+  type: 'test'
+  ...
+# Subtest: feature snapshot requires actual retained feature ID, namespace, microversion and OK state
+ok 17 - feature snapshot requires actual retained feature ID, namespace, microversion and OK state
+  ---
+  duration_ms: 0.3783
+  type: 'test'
+  ...
+# Subtest: saved live legacy feature envelope is decoded locally without a repeated request
+ok 18 - saved live legacy feature envelope is decoded locally without a repeated request
+  ---
+  duration_ms: 7.3106
+  type: 'test'
+  ...
+# Subtest: saved live legacy measurement map entries pass complete geometry and BOM validation locally
+ok 19 - saved live legacy measurement map entries pass complete geometry and BOM validation locally
+  ---
+  duration_ms: 7.4684
+  type: 'test'
+  ...
+# Subtest: synthetic full capture fits twelve requests with three polls and unchanged snapshot; no files saved
+ok 20 - synthetic full capture fits twelve requests with three polls and unchanged snapshot; no files saved
+  ---
+  duration_ms: 13.8641
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 300.9781

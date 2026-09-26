@@ -1,0 +1,72 @@
+{
+  "renderer": "VTK offscreen OpenGL depth-buffered BRep tessellation",
+  "scope": "Pixel-content verification; guide/contact overlays show alternative single-coral poses, not simultaneous inventory",
+  "images": [
+    {
+      "path": "previews/baseline-deployed.png",
+      "sha256": "2e6cc3bfba1145a4385d3be42f5b58ef5ff1cd2c3ad5b1c64820c6c8746512b9",
+      "dimensions": [
+        1800,
+        1300,
+        1
+      ],
+      "chromaticPixels": 300219,
+      "status": "PASS_NONBLANK"
+    },
+    {
+      "path": "previews/baseline-stowed.png",
+      "sha256": "11f87d8649717895063ac3d8562feb742ef3d89531bd48153e103609e1da7a9b",
+      "dimensions": [
+        1800,
+        1300,
+        1
+      ],
+      "chromaticPixels": 267591,
+      "status": "PASS_NONBLANK"
+    },
+    {
+      "path": "previews/plan-contact.png",
+      "sha256": "8a073033e2a48be3ab14df6dec547ca7dbd0ea72704117cfe22bff01ea17a4e5",
+      "dimensions": [
+        1800,
+        1300,
+        1
+      ],
+      "chromaticPixels": 412332,
+      "status": "PASS_NONBLANK"
+    },
+    {
+      "path": "previews/revision-deployed.png",
+      "sha256": "c384ce052f4d5b82dcfbfca812f26fcced8a82111f01b2cb93d14cbbb6da4e49",
+      "dimensions": [
+        1800,
+        1300,
+        1
+      ],
+      "chromaticPixels": 304425,
+      "status": "PASS_NONBLANK"
+    },
+    {
+      "path": "previews/revision-stowed.png",
+      "sha256": "f46d1572377cc98e1770bba03278f5837b56c3650669d88b928217b72d08f4ae",
+      "dimensions": [
+        1800,
+        1300,
+        1
+      ],
+      "chromaticPixels": 268372,
+      "status": "PASS_NONBLANK"
+    },
+    {
+      "path": "previews/side-contact.png",
+      "sha256": "5eeb7e9880a49f8ee3c2c42fab8726237c4b8a8617f87578d4fc04485fa73e61",
+      "dimensions": [
+        1800,
+        1300,
+        1
+      ],
+      "chromaticPixels": 117313,
+      "status": "PASS_NONBLANK"
+    }
+  ]
+}

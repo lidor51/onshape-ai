@@ -1,0 +1,1921 @@
+{
+  "status": "VERIFIED_RECORDED_CAD_AND_EXTRACTED_SERVER_EXPORTS",
+  "startedAt": "2026-09-11T12:40:30.164Z",
+  "documentId": "8ed4380f4a245838e95aa4a5",
+  "workspaceId": "fb131c088194dac823c29de4",
+  "elementId": "4e3c0ad9b4c4e0b31dcc3875",
+  "documentUrl": "https://cad.onshape.com/documents/8ed4380f4a245838e95aa4a5/w/fb131c088194dac823c29de4/e/4e3c0ad9b4c4e0b31dcc3875",
+  "phaseCreationAttempts": 2,
+  "maximumCreationAttempts": 3,
+  "confirmedCreatedDocuments": 1,
+  "newRequestsThisFinalization": 0,
+  "newDocumentsThisFinalization": 0,
+  "sources": [
+    {
+      "filename": "observations.json",
+      "sha256": "0d007cd13b87ab0d6a9153eb0eedf9dc17d221e9e104b4a2ccd9f607182f80b2"
+    },
+    {
+      "filename": "media-discovery.json",
+      "sha256": "9141f705b12b5c94fdc94158be57ce8fb5e9be7dd67fc6d3c064b350e478e6ec"
+    },
+    {
+      "filename": "media-recovery.json",
+      "sha256": "45cc5d6703d128d176cd89a1623eb3c5830f6f66d0cee2eab78ba0e509197a8f"
+    }
+  ],
+  "sourceStatusPreserved": "BASELINE_AND_REVISION_GEOMETRY_CHECKS_PASSED",
+  "originalFullAcceptance": false,
+  "bomExclusion": "CONFIRMED_AFTER_REVISION",
+  "visualReview": {
+    "reviewer": "Coding assistant via local image viewer in finalization invocation",
+    "files": [
+      "baseline-right.png",
+      "baseline-isometric.png",
+      "revision-right.png",
+      "revision-isometric.png"
+    ],
+    "result": "All four are nonblank API renders. Isometric views show intake and separate coral reference; right views show five-hole plate pattern and shifted rear hole. Visual review is not dimensional measurement."
+  },
+  "limitations": [
+    "STEP validation is named solid records, X endpoints and cylindrical radii, not a CAD-kernel reimport or manufacturing certification.",
+    "Baseline BOM exclusion was not confirmed at capture; metadata was set and read back only after revision.",
+    "Baseline derived bounds, cylindrical faces and feature checks are preserved; full raw baseline body/feature responses were overwritten by revision in the original journal.",
+    "No versioned baseline document link or baseline source microversion was retained; the workspace link shows revision.",
+    "Previous public code-repair counts and interrupted process durations were not durably retained; no exact count or timing is inferred."
+  ],
+  "exportAssociation": "Unique match of all nine product names and exported X endpoints to recorded stage bounds; corroborated by translation ordering. Original start responses did not retain stage-to-translation IDs.",
+  "timestampCaveat": "STEP FILE_NAME server timestamps precede local export request timestamps; they are retained, not treated as synchronized clocks or the sole stage identity.",
+  "combinedStepCreated": false,
+  "stages": {
+    "baseline": {
+      "partCount": 9,
+      "featureCount": 18,
+      "innerWidthMm": 340,
+      "rollerGapMm": 99.99999999999999,
+      "throughBoresVerified": 13,
+      "parts": [
+        {
+          "key": "leftPlate",
+          "partId": "JHD",
+          "boundsMm": {
+            "low": [
+              -176.35,
+              0,
+              12.699999999999989
+            ],
+            "high": [
+              -170,
+              320,
+              162.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JHa",
+              "radiusMm": 6.4499999999999975,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -176.35,
+              "highX": -170,
+              "areaMm2": 257.34356221880756
+            },
+            {
+              "faceId": "JHe",
+              "radiusMm": 6.4499999999999975,
+              "centerYMm": 246.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -176.35,
+              "highX": -170,
+              "areaMm2": 257.34356221880756
+            },
+            {
+              "faceId": "JHi",
+              "radiusMm": 3.299999999999997,
+              "centerYMm": 140,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -176.35,
+              "highX": -170,
+              "areaMm2": 131.664148111948
+            },
+            {
+              "faceId": "JHm",
+              "radiusMm": 3.300000000000025,
+              "centerYMm": 300,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -176.35,
+              "highX": -170,
+              "areaMm2": 131.66414811194912
+            },
+            {
+              "faceId": "JHq",
+              "radiusMm": 6.449999999999999,
+              "centerYMm": 25,
+              "centerZMm": 130,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -176.35,
+              "highX": -170,
+              "areaMm2": 257.3435622188076
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  70,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHa"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  246.2,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHe"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  140,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHi"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  300,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHm"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  25,
+                  130
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHq"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "rightPlate",
+          "partId": "JKD",
+          "boundsMm": {
+            "low": [
+              170,
+              0,
+              12.699999999999989
+            ],
+            "high": [
+              176.35,
+              320,
+              162.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JKa",
+              "radiusMm": 6.4499999999999975,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 170,
+              "highX": 176.35,
+              "areaMm2": 257.34356221880756
+            },
+            {
+              "faceId": "JKe",
+              "radiusMm": 6.4499999999999975,
+              "centerYMm": 246.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 170,
+              "highX": 176.35,
+              "areaMm2": 257.34356221880756
+            },
+            {
+              "faceId": "JKi",
+              "radiusMm": 3.299999999999997,
+              "centerYMm": 140,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 170,
+              "highX": 176.35,
+              "areaMm2": 131.664148111948
+            },
+            {
+              "faceId": "JKm",
+              "radiusMm": 3.300000000000025,
+              "centerYMm": 300,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 170,
+              "highX": 176.35,
+              "areaMm2": 131.66414811194912
+            },
+            {
+              "faceId": "JKq",
+              "radiusMm": 6.449999999999999,
+              "centerYMm": 25,
+              "centerZMm": 130,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 170,
+              "highX": 176.35,
+              "areaMm2": 257.3435622188076
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  70,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKa"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  246.2,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKe"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  140,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKi"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  300,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKm"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  25,
+                  130
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKq"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "frontRoller",
+          "partId": "JND",
+          "boundsMm": {
+            "low": [
+              -165,
+              31.900000000000013,
+              26.900000000000006
+            ],
+            "high": [
+              165,
+              108.10000000000001,
+              103.1
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JNO",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -165,
+              "highX": 165,
+              "areaMm2": 13166.414811194813
+            },
+            {
+              "faceId": "JNC",
+              "radiusMm": 38.099999999999994,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -165,
+              "highX": 165,
+              "areaMm2": 78998.48886716893
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  70,
+                  65
+                ],
+                "diameterMm": 12.7
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JNO"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "rearRoller",
+          "partId": "JQD",
+          "boundsMm": {
+            "low": [
+              -165,
+              208.1,
+              26.900000000000006
+            ],
+            "high": [
+              165,
+              284.3,
+              103.1
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JQO",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 246.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -165,
+              "highX": 165,
+              "areaMm2": 13166.414811194813
+            },
+            {
+              "faceId": "JQC",
+              "radiusMm": 38.099999999999994,
+              "centerYMm": 246.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -165,
+              "highX": 165,
+              "areaMm2": 78998.48886716893
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  246.2,
+                  65
+                ],
+                "diameterMm": 12.7
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JQO"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "frontShaft",
+          "partId": "JTD",
+          "boundsMm": {
+            "low": [
+              -189.05,
+              63.65000000000001,
+              58.650000000000006
+            ],
+            "high": [
+              189.05,
+              76.35,
+              71.35
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JTC",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -189.05,
+              "highX": 189.05,
+              "areaMm2": 15085.519515493208
+            }
+          ],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "rearShaft",
+          "partId": "JWD",
+          "boundsMm": {
+            "low": [
+              -189.05,
+              239.85,
+              58.650000000000006
+            ],
+            "high": [
+              189.05,
+              252.54999999999998,
+              71.35
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JWC",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 246.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -189.05,
+              "highX": 189.05,
+              "areaMm2": 15085.519515493208
+            }
+          ],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "frontCrossmember",
+          "partId": "JZD",
+          "boundsMm": {
+            "low": [
+              -170,
+              127.3,
+              122.3
+            ],
+            "high": [
+              170,
+              152.7,
+              147.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "rearCrossmember",
+          "partId": "JcD",
+          "boundsMm": {
+            "low": [
+              -170,
+              287.3,
+              122.3
+            ],
+            "high": [
+              170,
+              312.7,
+              147.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "coralReference",
+          "partId": "JfD",
+          "boundsMm": {
+            "low": [
+              -150.81250000000003,
+              -167.15,
+              1.3877787807814457e-14
+            ],
+            "high": [
+              150.81250000000003,
+              -52.85000000000001,
+              114.3
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JfO",
+              "radiusMm": 50.8,
+              "centerYMm": -110,
+              "centerZMm": 57.150000000000006,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -150.81250000000003,
+              "highX": 150.81250000000003,
+              "areaMm2": 96274.42102852456
+            },
+            {
+              "faceId": "JfC",
+              "radiusMm": 57.14999999999999,
+              "centerYMm": -110,
+              "centerZMm": 57.150000000000006,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -150.81250000000003,
+              "highX": 150.81250000000003,
+              "areaMm2": 108308.72365709014
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  -110,
+                  57.15
+                ],
+                "diameterMm": 101.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JfO"
+              ]
+            }
+          ],
+          "holesMatch": true
+        }
+      ],
+      "features": [
+        {
+          "key": "leftPlate.profile",
+          "featureId": "FPOVXZDgIDVm84O_0",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "leftPlate.solid",
+          "featureId": "FCeLqZDli5frDCF_0",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rightPlate.profile",
+          "featureId": "FBPjbakhf9lDjTx_1",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rightPlate.solid",
+          "featureId": "FdEQlmpNdYI66Cc_1",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontRoller.profile",
+          "featureId": "FvNy4qUKIqdADzq_2",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontRoller.solid",
+          "featureId": "Fc46ywv1T1bBsaW_2",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearRoller.profile",
+          "featureId": "FY7fJqd8KAb4LLO_3",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearRoller.solid",
+          "featureId": "FLq1ly9CJ2vLdC3_3",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontShaft.profile",
+          "featureId": "FT8tkWoa7JhCNBw_4",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontShaft.solid",
+          "featureId": "FffCPwdBzIhwHix_4",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearShaft.profile",
+          "featureId": "FZ3HTXKEi3j55m3_5",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearShaft.solid",
+          "featureId": "FDa52hULbRdXsvB_5",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontCrossmember.profile",
+          "featureId": "FjutlAIiSHlWHVj_6",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontCrossmember.solid",
+          "featureId": "FrswhmWzdEY3GWw_6",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearCrossmember.profile",
+          "featureId": "Foa01YuCL3WSrkR_7",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearCrossmember.solid",
+          "featureId": "Fg6soWottX4DUMm_7",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "coralReference.profile",
+          "featureId": "FoutXvZCYDhzKwt_8",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "coralReference.solid",
+          "featureId": "FdGUXUiGjgyL3Iv_8",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        }
+      ],
+      "originalExportRequest": {
+        "request": 36,
+        "operation": "startStepExport",
+        "method": "POST",
+        "status": 200,
+        "retry": false,
+        "elapsedMs": 664,
+        "at": "2026-09-11T12:15:46.393Z"
+      },
+      "translation": {
+        "id": "6aa3f0d0948340d21a67d98f",
+        "requestState": "DONE",
+        "requestElementId": "4e3c0ad9b4c4e0b31dcc3875",
+        "documentId": "8ed4380f4a245838e95aa4a5",
+        "resultDocumentId": "8ed4380f4a245838e95aa4a5",
+        "workspaceId": "fb131c088194dac823c29de4",
+        "resultWorkspaceId": "fb131c088194dac823c29de4",
+        "resultExternalDataIds": [
+          "6aa3f0d310aba5a04b23889d"
+        ],
+        "name": "Native REST intake"
+      },
+      "originalDownload": {
+        "translationId": "6aa3f0d0948340d21a67d98f",
+        "foreignId": "6aa3f0d310aba5a04b23889d",
+        "filename": "export-6aa3f0d0948340d21a67d98f.bin",
+        "bytes": 23376,
+        "first16Hex": "504b0304140008080800e7612b5d0000",
+        "sha256": "8eec2aaa9395d1780a70f7a0cab9f3ff1d6219dd8cc8df2691b1e056ddcb2d3c"
+      },
+      "archive": {
+        "filename": "baseline-server-export.zip",
+        "bytes": 23376,
+        "sha256": "8eec2aaa9395d1780a70f7a0cab9f3ff1d6219dd8cc8df2691b1e056ddcb2d3c",
+        "byteIdenticalToOriginalDownload": true
+      },
+      "extractedStepFiles": [
+        {
+          "filename": "baseline-step/coralReference.step",
+          "archiveEntry": "Native REST intake - coralReference [REFERENCE - NON-BOM].step",
+          "productName": "coralReference [REFERENCE - NON-BOM]",
+          "bytes": 5805,
+          "sha256": "7cc98fce0b520db8b7005886e57c5c40e7345224a490ba7193f06d982c7fbcd1",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            50.8,
+            57.15
+          ]
+        },
+        {
+          "filename": "baseline-step/frontRoller.step",
+          "archiveEntry": "Native REST intake - frontRoller.step",
+          "productName": "frontRoller",
+          "bytes": 5558,
+          "sha256": "f9e20a2b9d1bd5727c17624b04ed1bce07e77f6ab11f5f5d902d6192e58363f9",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35,
+            38.1
+          ]
+        },
+        {
+          "filename": "baseline-step/rearCrossmember.step",
+          "archiveEntry": "Native REST intake - rearCrossmember.step",
+          "productName": "rearCrossmember",
+          "bytes": 7935,
+          "sha256": "5667f2174a8535193c77e2697584de95546068e927f44968d83bedbf8fb2d191",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": []
+        },
+        {
+          "filename": "baseline-step/rearShaft.step",
+          "archiveEntry": "Native REST intake - rearShaft.step",
+          "productName": "rearShaft",
+          "bytes": 4374,
+          "sha256": "933150bcf787a750a8b43b0266dd0716d627ea17064845164ad6978caba0b12c",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35
+          ]
+        },
+        {
+          "filename": "baseline-step/frontShaft.step",
+          "archiveEntry": "Native REST intake - frontShaft.step",
+          "productName": "frontShaft",
+          "bytes": 4365,
+          "sha256": "f67de63a7649a531f1761b9aa5321444dffb340840aeaa0fa962b13cb5838d41",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35
+          ]
+        },
+        {
+          "filename": "baseline-step/frontCrossmember.step",
+          "archiveEntry": "Native REST intake - frontCrossmember.step",
+          "productName": "frontCrossmember",
+          "bytes": 7948,
+          "sha256": "1e821d997b20747a61d9bace30a5a6fac66dd3311ac3aeb22a37456af2a1f850",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": []
+        },
+        {
+          "filename": "baseline-step/rightPlate.step",
+          "archiveEntry": "Native REST intake - rightPlate.step",
+          "productName": "rightPlate",
+          "bytes": 14037,
+          "sha256": "195c229c68852b3eb5365369219ab4393c9bce5bb6dd418fcb18ae26a7e59c32",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.45,
+            6.45,
+            3.3,
+            3.3,
+            6.45
+          ]
+        },
+        {
+          "filename": "baseline-step/rearRoller.step",
+          "archiveEntry": "Native REST intake - rearRoller.step",
+          "productName": "rearRoller",
+          "bytes": 5575,
+          "sha256": "e78c55114d57eb2cad923b4f4e8344fb12aa7dacf992d94c4a00e53f59633d4e",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35,
+            38.1
+          ]
+        },
+        {
+          "filename": "baseline-step/leftPlate.step",
+          "archiveEntry": "Native REST intake - leftPlate.step",
+          "productName": "leftPlate",
+          "bytes": 14042,
+          "sha256": "c74b866e426123c05755d9765b9e15891d178c00e9031a09356db819e38f8302",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:13Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.45,
+            6.45,
+            3.3,
+            3.3,
+            6.45
+          ]
+        }
+      ],
+      "images": [
+        {
+          "view": "right",
+          "status": "DOWNLOADED_NOT_VISUALLY_INSPECTED",
+          "filename": "baseline-right.png",
+          "bytes": 38143,
+          "width": 1024,
+          "height": 768,
+          "sha256": "fbe10c2a1d618bde3f5481bd8b5cc6a9b97fceeeb8fcd7199a4668793c3f4668",
+          "hashVerified": true
+        },
+        {
+          "view": "isometric",
+          "status": "DOWNLOADED_NOT_VISUALLY_INSPECTED",
+          "filename": "baseline-isometric.png",
+          "bytes": 146586,
+          "width": 1024,
+          "height": 768,
+          "sha256": "9cae70457c287fa651321e070928fad7f71fc8dc681dfce48ae598537bf2a600",
+          "hashVerified": true
+        }
+      ]
+    },
+    "revision": {
+      "partCount": 9,
+      "featureCount": 18,
+      "innerWidthMm": 360,
+      "rollerGapMm": 94.99999999999999,
+      "throughBoresVerified": 13,
+      "parts": [
+        {
+          "key": "leftPlate",
+          "partId": "JHD",
+          "boundsMm": {
+            "low": [
+              -186.35,
+              0,
+              12.699999999999989
+            ],
+            "high": [
+              -180,
+              320,
+              162.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JHa",
+              "radiusMm": 6.4499999999999975,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -186.35,
+              "highX": -180,
+              "areaMm2": 257.34356221880756
+            },
+            {
+              "faceId": "JHe",
+              "radiusMm": 6.450000000000012,
+              "centerYMm": 241.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -186.35,
+              "highX": -180,
+              "areaMm2": 257.34356221880813
+            },
+            {
+              "faceId": "JHi",
+              "radiusMm": 3.299999999999997,
+              "centerYMm": 140,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -186.35,
+              "highX": -180,
+              "areaMm2": 131.664148111948
+            },
+            {
+              "faceId": "JHm",
+              "radiusMm": 3.300000000000025,
+              "centerYMm": 300,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -186.35,
+              "highX": -180,
+              "areaMm2": 131.66414811194912
+            },
+            {
+              "faceId": "JHq",
+              "radiusMm": 6.449999999999999,
+              "centerYMm": 25,
+              "centerZMm": 130,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -186.35,
+              "highX": -180,
+              "areaMm2": 257.3435622188076
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  70,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHa"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  241.2,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHe"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  140,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHi"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  300,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHm"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  25,
+                  130
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JHq"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "rightPlate",
+          "partId": "JKD",
+          "boundsMm": {
+            "low": [
+              180,
+              0,
+              12.699999999999989
+            ],
+            "high": [
+              186.35,
+              320,
+              162.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JKa",
+              "radiusMm": 6.4499999999999975,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 180,
+              "highX": 186.35,
+              "areaMm2": 257.34356221880756
+            },
+            {
+              "faceId": "JKe",
+              "radiusMm": 6.450000000000012,
+              "centerYMm": 241.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 180,
+              "highX": 186.35,
+              "areaMm2": 257.34356221880813
+            },
+            {
+              "faceId": "JKi",
+              "radiusMm": 3.299999999999997,
+              "centerYMm": 140,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 180,
+              "highX": 186.35,
+              "areaMm2": 131.664148111948
+            },
+            {
+              "faceId": "JKm",
+              "radiusMm": 3.300000000000025,
+              "centerYMm": 300,
+              "centerZMm": 135,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 180,
+              "highX": 186.35,
+              "areaMm2": 131.66414811194912
+            },
+            {
+              "faceId": "JKq",
+              "radiusMm": 6.449999999999999,
+              "centerYMm": 25,
+              "centerZMm": 130,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": 180,
+              "highX": 186.35,
+              "areaMm2": 257.3435622188076
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  70,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKa"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  241.2,
+                  65
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKe"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  140,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKi"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  300,
+                  135
+                ],
+                "diameterMm": 6.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKm"
+              ]
+            },
+            {
+              "expected": {
+                "centerYZMm": [
+                  25,
+                  130
+                ],
+                "diameterMm": 12.9
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JKq"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "frontRoller",
+          "partId": "JND",
+          "boundsMm": {
+            "low": [
+              -175.00000000000003,
+              31.900000000000013,
+              26.900000000000006
+            ],
+            "high": [
+              175.00000000000003,
+              108.10000000000001,
+              103.1
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JNO",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -175.00000000000003,
+              "highX": 175.00000000000003,
+              "areaMm2": 13964.379345206618
+            },
+            {
+              "faceId": "JNC",
+              "radiusMm": 38.099999999999994,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -175.00000000000003,
+              "highX": 175.00000000000003,
+              "areaMm2": 83786.27607123979
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  70,
+                  65
+                ],
+                "diameterMm": 12.7
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JNO"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "rearRoller",
+          "partId": "JQD",
+          "boundsMm": {
+            "low": [
+              -175.00000000000003,
+              203.1,
+              26.900000000000006
+            ],
+            "high": [
+              175.00000000000003,
+              279.3,
+              103.1
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JQO",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 241.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -175.00000000000003,
+              "highX": 175.00000000000003,
+              "areaMm2": 13964.379345206618
+            },
+            {
+              "faceId": "JQC",
+              "radiusMm": 38.099999999999994,
+              "centerYMm": 241.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -175.00000000000003,
+              "highX": 175.00000000000003,
+              "areaMm2": 83786.27607123979
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  241.2,
+                  65
+                ],
+                "diameterMm": 12.7
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JQO"
+              ]
+            }
+          ],
+          "holesMatch": true
+        },
+        {
+          "key": "frontShaft",
+          "partId": "JTD",
+          "boundsMm": {
+            "low": [
+              -199.05,
+              63.65000000000001,
+              58.650000000000006
+            ],
+            "high": [
+              199.05,
+              76.35,
+              71.35
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JTC",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 70,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -199.05,
+              "highX": 199.05,
+              "areaMm2": 15883.484049505014
+            }
+          ],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "rearShaft",
+          "partId": "JWD",
+          "boundsMm": {
+            "low": [
+              -199.05,
+              234.85,
+              58.650000000000006
+            ],
+            "high": [
+              199.05,
+              247.54999999999998,
+              71.35
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JWC",
+              "radiusMm": 6.349999999999994,
+              "centerYMm": 241.2,
+              "centerZMm": 65,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -199.05,
+              "highX": 199.05,
+              "areaMm2": 15883.484049505014
+            }
+          ],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "frontCrossmember",
+          "partId": "JZD",
+          "boundsMm": {
+            "low": [
+              -180,
+              127.3,
+              122.3
+            ],
+            "high": [
+              180,
+              152.7,
+              147.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "rearCrossmember",
+          "partId": "JcD",
+          "boundsMm": {
+            "low": [
+              -180,
+              287.3,
+              122.3
+            ],
+            "high": [
+              180,
+              312.7,
+              147.7
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [],
+          "holes": [],
+          "holesMatch": true
+        },
+        {
+          "key": "coralReference",
+          "partId": "JfD",
+          "boundsMm": {
+            "low": [
+              -150.81250000000003,
+              -167.15,
+              1.3877787807814457e-14
+            ],
+            "high": [
+              150.81250000000003,
+              -52.85000000000001,
+              114.3
+            ]
+          },
+          "boundsMatch": true,
+          "cylinders": [
+            {
+              "faceId": "JfO",
+              "radiusMm": 50.8,
+              "centerYMm": -110,
+              "centerZMm": 57.150000000000006,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -150.81250000000003,
+              "highX": 150.81250000000003,
+              "areaMm2": 96274.42102852456
+            },
+            {
+              "faceId": "JfC",
+              "radiusMm": 57.14999999999999,
+              "centerYMm": -110,
+              "centerZMm": 57.150000000000006,
+              "axisX": -1,
+              "axisY": 0,
+              "axisZ": 0,
+              "lowX": -150.81250000000003,
+              "highX": 150.81250000000003,
+              "areaMm2": 108308.72365709014
+            }
+          ],
+          "holes": [
+            {
+              "expected": {
+                "centerYZMm": [
+                  -110,
+                  57.15
+                ],
+                "diameterMm": 101.6
+              },
+              "throughBoreVerified": true,
+              "matchingFaceIds": [
+                "JfO"
+              ]
+            }
+          ],
+          "holesMatch": true
+        }
+      ],
+      "features": [
+        {
+          "key": "leftPlate.profile",
+          "featureId": "FPOVXZDgIDVm84O_0",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "leftPlate.solid",
+          "featureId": "FCeLqZDli5frDCF_0",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rightPlate.profile",
+          "featureId": "FBPjbakhf9lDjTx_1",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rightPlate.solid",
+          "featureId": "FdEQlmpNdYI66Cc_1",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontRoller.profile",
+          "featureId": "FvNy4qUKIqdADzq_2",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontRoller.solid",
+          "featureId": "Fc46ywv1T1bBsaW_2",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearRoller.profile",
+          "featureId": "FY7fJqd8KAb4LLO_3",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearRoller.solid",
+          "featureId": "FLq1ly9CJ2vLdC3_3",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontShaft.profile",
+          "featureId": "FT8tkWoa7JhCNBw_4",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontShaft.solid",
+          "featureId": "FffCPwdBzIhwHix_4",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearShaft.profile",
+          "featureId": "FZ3HTXKEi3j55m3_5",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearShaft.solid",
+          "featureId": "FDa52hULbRdXsvB_5",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontCrossmember.profile",
+          "featureId": "FjutlAIiSHlWHVj_6",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "frontCrossmember.solid",
+          "featureId": "FrswhmWzdEY3GWw_6",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearCrossmember.profile",
+          "featureId": "Foa01YuCL3WSrkR_7",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "rearCrossmember.solid",
+          "featureId": "Fg6soWottX4DUMm_7",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "coralReference.profile",
+          "featureId": "FoutXvZCYDhzKwt_8",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        },
+        {
+          "key": "coralReference.solid",
+          "featureId": "FdGUXUiGjgyL3Iv_8",
+          "status": "OK",
+          "parameterReadback": "MATCH"
+        }
+      ],
+      "originalExportRequest": {
+        "request": 78,
+        "operation": "startStepExport",
+        "method": "POST",
+        "status": 200,
+        "retry": false,
+        "elapsedMs": 663,
+        "at": "2026-09-11T12:16:06.569Z"
+      },
+      "translation": {
+        "id": "6aa3f0e4948340d21a67da05",
+        "requestState": "DONE",
+        "requestElementId": "4e3c0ad9b4c4e0b31dcc3875",
+        "documentId": "8ed4380f4a245838e95aa4a5",
+        "resultDocumentId": "8ed4380f4a245838e95aa4a5",
+        "workspaceId": "fb131c088194dac823c29de4",
+        "resultWorkspaceId": "fb131c088194dac823c29de4",
+        "resultExternalDataIds": [
+          "6aa3f0e79c721ffaa584ebe8"
+        ],
+        "name": "Native REST intake"
+      },
+      "originalDownload": {
+        "translationId": "6aa3f0e4948340d21a67da05",
+        "foreignId": "6aa3f0e79c721ffaa584ebe8",
+        "filename": "export-6aa3f0e4948340d21a67da05.bin",
+        "bytes": 23378,
+        "first16Hex": "504b0304140008080800f1612b5d0000",
+        "sha256": "b79a2a4b13c9e23c0a354ef97b98b168c11b0159465fae7c9d1e319129ff8344"
+      },
+      "archive": {
+        "filename": "revision-server-export.zip",
+        "bytes": 23378,
+        "sha256": "b79a2a4b13c9e23c0a354ef97b98b168c11b0159465fae7c9d1e319129ff8344",
+        "byteIdenticalToOriginalDownload": true
+      },
+      "extractedStepFiles": [
+        {
+          "filename": "revision-step/rightPlate.step",
+          "archiveEntry": "Native REST intake - rightPlate.step",
+          "productName": "rightPlate",
+          "bytes": 14037,
+          "sha256": "f6e6694feba55bb8c0fcaf2693128326fe174f3cf5655be5500b7c032ba7aa32",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.45,
+            6.45,
+            3.3,
+            3.3,
+            6.45
+          ]
+        },
+        {
+          "filename": "revision-step/coralReference.step",
+          "archiveEntry": "Native REST intake - coralReference [REFERENCE - NON-BOM].step",
+          "productName": "coralReference [REFERENCE - NON-BOM]",
+          "bytes": 5805,
+          "sha256": "e580277aac16d35c06980aa2c543e08bc09ad0ff4c937166735155c0ffc12132",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            50.8,
+            57.15
+          ]
+        },
+        {
+          "filename": "revision-step/leftPlate.step",
+          "archiveEntry": "Native REST intake - leftPlate.step",
+          "productName": "leftPlate",
+          "bytes": 14042,
+          "sha256": "431f5365f3bf5b670beee9e0e7fb573948bc22162f622a09ca6021bbc0b24693",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.45,
+            6.45,
+            3.3,
+            3.3,
+            6.45
+          ]
+        },
+        {
+          "filename": "revision-step/frontShaft.step",
+          "archiveEntry": "Native REST intake - frontShaft.step",
+          "productName": "frontShaft",
+          "bytes": 4365,
+          "sha256": "655c84a350b37ed0d9f671093e09017ff5270b9297933bd8ba3f2403cb7ae743",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35
+          ]
+        },
+        {
+          "filename": "revision-step/frontRoller.step",
+          "archiveEntry": "Native REST intake - frontRoller.step",
+          "productName": "frontRoller",
+          "bytes": 5558,
+          "sha256": "b8e06f322fffea05f7425fefce386efb522a8831d0e01cfb7870a346482b0a12",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35,
+            38.1
+          ]
+        },
+        {
+          "filename": "revision-step/rearCrossmember.step",
+          "archiveEntry": "Native REST intake - rearCrossmember.step",
+          "productName": "rearCrossmember",
+          "bytes": 7935,
+          "sha256": "44ca687c04e84fd3b1606de82e0671d566b1c7b842c143dbafd34e2cb8af8082",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": []
+        },
+        {
+          "filename": "revision-step/frontCrossmember.step",
+          "archiveEntry": "Native REST intake - frontCrossmember.step",
+          "productName": "frontCrossmember",
+          "bytes": 7948,
+          "sha256": "3aa86230d3e23f715595de98dce78e5fc79f7691a19a1b01949f343f2addc4bf",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": []
+        },
+        {
+          "filename": "revision-step/rearShaft.step",
+          "archiveEntry": "Native REST intake - rearShaft.step",
+          "productName": "rearShaft",
+          "bytes": 4374,
+          "sha256": "a89c70dccfd8fdc677273ce2372216d746263eaf601547a07c13666412914b4c",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35
+          ]
+        },
+        {
+          "filename": "revision-step/rearRoller.step",
+          "archiveEntry": "Native REST intake - rearRoller.step",
+          "productName": "rearRoller",
+          "bytes": 5575,
+          "sha256": "5fe1323ae150115db0313e1a67ce48915f8571b87685e14a5535082c92e491a8",
+          "solidRecordCount": 1,
+          "serverTimestamp": "2026-09-11T12:15:33Z",
+          "lengthUnit": "metre",
+          "xEndpointsMatchRecordedCad": true,
+          "cylinderRadiiMm": [
+            6.35,
+            38.1
+          ]
+        }
+      ],
+      "images": [
+        {
+          "view": "right",
+          "status": "DOWNLOADED_NOT_VISUALLY_INSPECTED",
+          "filename": "revision-right.png",
+          "bytes": 38500,
+          "width": 1024,
+          "height": 768,
+          "sha256": "30e84a8b3f8b60f6e4de184edd864bf1468846376f444b073cc7e94ef4c690be",
+          "hashVerified": true
+        },
+        {
+          "view": "isometric",
+          "status": "DOWNLOADED_NOT_VISUALLY_INSPECTED",
+          "filename": "revision-isometric.png",
+          "bytes": 144055,
+          "width": 1024,
+          "height": 768,
+          "sha256": "ad86ca2cea0f11e4d30189641ff7ee63916890aea605c764ea3edd613c2c145f",
+          "hashVerified": true
+        }
+      ]
+    }
+  },
+  "featureIdentitiesPreserved": true,
+  "partIdentitiesPreserved": true,
+  "nativeFeatureAdds": 18,
+  "nativeFeatureUpdates": 12,
+  "requests": {
+    "modelingAndResume": {
+      "count": 162,
+      "failed": 0,
+      "retries": 0,
+      "elapsedSumMs": 70466
+    },
+    "mediaDiscovery": {
+      "count": 3,
+      "failed": 0,
+      "retries": 0,
+      "elapsedSumMs": 1581
+    },
+    "mediaRecovery": {
+      "count": 7,
+      "failed": 0,
+      "retries": 0,
+      "elapsedSumMs": 4049
+    }
+  },
+  "requestAccounting": {
+    "knownCompletedPublicRequests": 173,
+    "reconciliationRequests": 1,
+    "interruptedCreationDispatchesCountedConservatively": 1,
+    "conservativePublicAttemptedRequests": 174
+  },
+  "timings": {
+    "modelingCalendarStart": "2026-09-11T12:12:56.158Z",
+    "modelingCalendarFinish": "2026-09-11T12:16:13.144Z",
+    "modelingCalendarMs": 196986,
+    "finalModelingInvocationMs": 42691,
+    "invocations": [
+      {
+        "startedAt": "2026-09-11T12:12:56.158Z",
+        "resumed": false,
+        "requestCount": 18,
+        "lastActualResponseAt": "2026-09-11T12:13:09.611Z",
+        "elapsedWallMs": null,
+        "requestElapsedSumMs": 12742
+      },
+      {
+        "startedAt": "2026-09-11T12:13:32.941Z",
+        "resumed": true,
+        "requestCount": 38,
+        "lastActualResponseAt": "2026-09-11T12:13:49.786Z",
+        "elapsedWallMs": null,
+        "requestElapsedSumMs": 16694
+      },
+      {
+        "startedAt": "2026-09-11T12:14:34.882Z",
+        "resumed": true,
+        "requestCount": 21,
+        "lastActualResponseAt": "2026-09-11T12:14:45.543Z",
+        "elapsedWallMs": null,
+        "requestElapsedSumMs": 10332
+      },
+      {
+        "startedAt": "2026-09-11T12:15:06.656Z",
+        "resumed": true,
+        "requestCount": 4,
+        "lastActualResponseAt": "2026-09-11T12:15:08.780Z",
+        "elapsedWallMs": null,
+        "requestElapsedSumMs": 2088
+      },
+      {
+        "startedAt": "2026-09-11T12:15:30.450Z",
+        "resumed": true,
+        "requestCount": 81,
+        "lastActualResponseAt": "2026-09-11T12:16:13.111Z",
+        "elapsedWallMs": 42691,
+        "requestElapsedSumMs": 28610
+      }
+    ],
+    "mediaDiscovery": {
+      "startedAt": "2026-09-11T12:17:24.197Z",
+      "finishedAt": "2026-09-11T12:17:25.784Z",
+      "calendarMs": 1587
+    },
+    "mediaRecovery": {
+      "startedAt": "2026-09-11T12:18:47.069Z",
+      "finishedAt": "2026-09-11T12:18:51.274Z",
+      "elapsedWallMs": 4194
+    },
+    "reconciliationRequestMs": 2142
+  },
+  "finishedAt": "2026-09-11T12:40:30.949Z",
+  "elapsedLocalFinalizationMs": 734
+}

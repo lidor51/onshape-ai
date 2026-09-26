@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED",
+  "apiCalls": 0,
+  "localGeometry": "PASS",
+  "nonVendorGeometry": "PASS",
+  "nonVendorBuild": "UNVERIFIED_BUILD",
+  "partBudget": "FAIL_CONSERVATIVE_NATIVE_INSTANCE_LIMIT",
+  "authenticCots": "PENDING_PARENT_MANIFEST",
+  "nativeSourceCompilation": "UNVERIFIED_ZERO_LIVE_CALLS",
+  "nativeAssemblyExecution": "UNVERIFIED_ZERO_LIVE_CALLS",
+  "provisionalAssemblySubset": "GEOMETRY_CANDIDATE_ONLY_NOT_ADMITTED",
+  "mechanicallyReleased": false,
+  "reasons": [
+    "Full native assembly has 48 instances, exceeding the conservative 45-instance budget",
+    "Deployment tooth manufacture, material/load ratings, joints and retention remain UNVERIFIED_BUILD",
+    "Authentic COTS manifest remains PENDING and was not read; binding requires a fresh fit and collision gate"
+  ],
+  "scope": "Geometry PASS is separate from COTS and build acceptance. No full-pass or upload authorization is inferred."
+}

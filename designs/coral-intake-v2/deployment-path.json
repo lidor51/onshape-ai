@@ -1,0 +1,203 @@
+{
+  "status": "REJECTED_AS_PASSIVE_IMPACT_RELIEF_AT_DEPLOYED_POSE",
+  "results": [
+    {
+      "config": {
+        "horizontal": 360,
+        "vertical": 10,
+        "stowAngle": 78
+      },
+      "unit": "mm/degrees",
+      "motion": "parallel translation from equal rocker links; no compliance or drive hardware implied",
+      "minimumBumperClearanceMm": -1.3757211572614843,
+      "betweenSampleTravelBoundMm": 0.3142804454079831,
+      "bumperClearanceLowerBoundMm": -1.6900016026694673,
+      "minimumFloorMm": 8.5,
+      "minimumInwardJacobianMm": 10,
+      "minimumUpJacobianMm": 65.06673268705535,
+      "stowBoundsMm": [
+        -257,
+        -58.06673268705538,
+        352.7122531723476,
+        257,
+        451.9332673129446,
+        697.5678116560125
+      ],
+      "sampledAngles": 781,
+      "fullAssemblyClearance": false,
+      "impactSurvival": false,
+      "pass": false
+    },
+    {
+      "config": {
+        "horizontal": 400,
+        "vertical": 10,
+        "stowAngle": 78
+      },
+      "unit": "mm/degrees",
+      "motion": "parallel translation from equal rocker links; no compliance or drive hardware implied",
+      "minimumBumperClearanceMm": 1.9240330411399391,
+      "betweenSampleTravelBoundMm": 0.3491749164382089,
+      "bumperClearanceLowerBoundMm": 1.5748581247017301,
+      "minimumFloorMm": 8.5,
+      "minimumInwardJacobianMm": 10,
+      "minimumUpJacobianMm": 73.38320031976572,
+      "stowBoundsMm": [
+        -257,
+        -26.383200319765706,
+        391.8381572016998,
+        257,
+        483.6167996802343,
+        736.6937156853649
+      ],
+      "sampledAngles": 781,
+      "fullAssemblyClearance": false,
+      "impactSurvival": false,
+      "pass": false
+    },
+    {
+      "config": {
+        "horizontal": 450,
+        "vertical": 10,
+        "stowAngle": 78
+      },
+      "unit": "mm/degrees",
+      "motion": "parallel translation from equal rocker links; no compliance or drive hardware implied",
+      "minimumBumperClearanceMm": 5.200360109269155,
+      "betweenSampleTravelBoundMm": 0.3927960324671927,
+      "bumperClearanceLowerBoundMm": 4.807564076801962,
+      "minimumFloorMm": 8.5,
+      "minimumInwardJacobianMm": 10,
+      "minimumUpJacobianMm": 83.7787848606537,
+      "stowBoundsMm": [
+        -257,
+        13.221215139346327,
+        440.7455372383901,
+        257,
+        523.2212151393463,
+        785.6010957220551
+      ],
+      "sampledAngles": 781,
+      "fullAssemblyClearance": false,
+      "impactSurvival": false,
+      "pass": true
+    },
+    {
+      "config": {
+        "horizontal": 500,
+        "vertical": 10,
+        "stowAngle": 78
+      },
+      "unit": "mm/degrees",
+      "motion": "parallel translation from equal rocker links; no compliance or drive hardware implied",
+      "minimumBumperClearanceMm": 7.797289266957762,
+      "betweenSampleTravelBoundMm": 0.4364195707362807,
+      "bumperClearanceLowerBoundMm": 7.3608696962214815,
+      "minimumFloorMm": 8.5,
+      "minimumInwardJacobianMm": 10,
+      "minimumUpJacobianMm": 94.17436940154167,
+      "stowBoundsMm": [
+        -257,
+        52.825630598458304,
+        489.65291727508037,
+        257,
+        562.8256305984582,
+        834.5084757587454
+      ],
+      "sampledAngles": 781,
+      "fullAssemblyClearance": false,
+      "impactSurvival": false,
+      "pass": true
+    },
+    {
+      "config": {
+        "horizontal": 550,
+        "vertical": 10,
+        "stowAngle": 78
+      },
+      "unit": "mm/degrees",
+      "motion": "parallel translation from equal rocker links; no compliance or drive hardware implied",
+      "minimumBumperClearanceMm": 9.90286287559433,
+      "betweenSampleTravelBoundMm": 0.48004487089088355,
+      "bumperClearanceLowerBoundMm": 9.422818004703446,
+      "minimumFloorMm": 8.5,
+      "minimumInwardJacobianMm": 10,
+      "minimumUpJacobianMm": 104.56995394242965,
+      "stowBoundsMm": [
+        -257,
+        92.43004605757034,
+        538.5602973117707,
+        257,
+        602.4300460575703,
+        883.4158557954356
+      ],
+      "sampledAngles": 781,
+      "fullAssemblyClearance": false,
+      "impactSurvival": false,
+      "pass": true
+    }
+  ],
+  "forceScreen": [
+    {
+      "angleDeg": 0,
+      "massKg": 7.6175876218369964,
+      "inwardJacobianMm": 10,
+      "upJacobianMm": 500,
+      "gravityGeneralizedNm": 37.35150782584389,
+      "frontalForceForGravityN": 3735.1507825843887,
+      "assumptions": "Rigid parallelogram translation, gravity only, no counterbalance, friction, preload or actuator resistance",
+      "impactSurvival": false
+    },
+    {
+      "angleDeg": 5,
+      "massKg": 7.6175876218369964,
+      "inwardJacobianMm": 53.53981835474654,
+      "upJacobianMm": 497.22579161839616,
+      "gravityGeneralizedNm": 37.14426609369189,
+      "frontalForceForGravityN": 693.7689972644237,
+      "assumptions": "Rigid parallelogram translation, gravity only, no counterbalance, friction, preload or actuator resistance",
+      "impactSurvival": false
+    },
+    {
+      "angleDeg": 10,
+      "massKg": 7.6175876218369964,
+      "inwardJacobianMm": 96.67216636358725,
+      "upJacobianMm": 490.6673947294347,
+      "gravityGeneralizedNm": 36.65433406824583,
+      "frontalForceForGravityN": 379.1611944475068,
+      "assumptions": "Rigid parallelogram translation, gravity only, no counterbalance, friction, preload or actuator resistance",
+      "impactSurvival": false
+    },
+    {
+      "angleDeg": 20,
+      "massKg": 7.6175876218369964,
+      "inwardJacobianMm": 180.40699787069343,
+      "upJacobianMm": 466.4261089596975,
+      "gravityGeneralizedNm": 34.84343691797211,
+      "frontalForceForGravityN": 193.13794547452156,
+      "assumptions": "Rigid parallelogram translation, gravity only, no counterbalance, friction, preload or actuator resistance",
+      "impactSurvival": false
+    },
+    {
+      "angleDeg": 40,
+      "massKg": 7.6175876218369964,
+      "inwardJacobianMm": 329.0542492744594,
+      "upJacobianMm": 376.5943454626236,
+      "gravityGeneralizedNm": 28.132733283431484,
+      "frontalForceForGravityN": 85.49573009758151,
+      "assumptions": "Rigid parallelogram translation, gravity only, no counterbalance, friction, preload or actuator resistance",
+      "impactSurvival": false
+    },
+    {
+      "angleDeg": 78,
+      "massKg": 7.6175876218369964,
+      "inwardJacobianMm": 491.15291727508037,
+      "upJacobianMm": 94.17436940154167,
+      "gravityGeneralizedNm": 7.0351093913911935,
+      "frontalForceForGravityN": 14.323664064589144,
+      "assumptions": "Rigid parallelogram translation, gravity only, no counterbalance, friction, preload or actuator resistance",
+      "impactSurvival": false
+    }
+  ],
+  "reason": "Positive kinematic direction is insufficient; the near-horizontal deployed links have poor frontal-force leverage against gravity."
+}

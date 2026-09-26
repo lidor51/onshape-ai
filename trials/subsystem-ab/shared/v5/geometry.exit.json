@@ -1,0 +1,12 @@
+{
+  "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "entry": "geometry.py",
+  "started": "2026-09-13T10:16:56.632Z",
+  "seconds": 511.808,
+  "limitSeconds": 600,
+  "timedOut": false,
+  "signal": null,
+  "exitCode": 0,
+  "networkAllowed": false,
+  "installs": 0
+}

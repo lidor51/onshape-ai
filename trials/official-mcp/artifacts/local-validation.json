@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-09-11T16:37:06.130Z",
+  "nodeVersion": "v24.15.0",
+  "elapsedMs": 396,
+  "command": "node --test --test-reporter=tap protocol.test.mjs probe.test.mjs generate.test.mjs evidence.test.mjs managed-discovery.test.mjs dispatch.test.mjs compact.test.mjs",
+  "workingDirectory": "trials/official-mcp",
+  "status": "PASS_LOCAL_ONLY",
+  "exitCode": 0,
+  "tests": 38,
+  "passed": 38,
+  "failed": 0,
+  "stderrPresent": false,
+  "sourceSha256": "ba386e09952f2661ed18a9e932514434b74aca88b386672af1d66cf8818a956a",
+  "fixtureSha256": "8b0c26084c7176e98c9196c01e89c73ff41bc0443830aee18d1050f5e1dbe392",
+  "fixtureProvenance": "LOCAL_OFFICIAL_SNAPSHOTS_ORIGINAL_FIXTURE_NOT_REREAD",
+  "liveRequestsMadeByVerifier": 0,
+  "onshapeCompilation": "UNVERIFIED",
+  "serverMeasurements": null
+}

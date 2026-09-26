@@ -1,0 +1,168 @@
+{
+  "features" : [ {
+    "type" : 134,
+    "typeName" : "BTMFeature",
+    "message" : {
+      "featureType" : "officialIntakeFinal",
+      "featureId" : "FQxpC8Q8LkpIQvt_0",
+      "name" : "OfficialIntakeFinal",
+      "parameters" : [ ],
+      "suppressed" : false,
+      "namespace" : "e66e03cc911623af502c718c4::mf3fe3ec444fb32385ab49edc",
+      "subFeatures" : [ ],
+      "returnAfterSubfeatures" : false,
+      "suppressionState" : {
+        "type" : 0
+      },
+      "parameterLibraries" : [ ],
+      "hasUserCode" : false,
+      "nodeId" : "M1dSPmt7tO9ETqHPa"
+    }
+  } ],
+  "imports" : [ {
+    "type" : 136,
+    "typeName" : "BTMImport",
+    "message" : {
+      "path" : "onshape/std/geometry.fs",
+      "version" : "3070.0",
+      "namespace" : "",
+      "hasUserCode" : false,
+      "nodeId" : "M3qKgMuvqqCM23XR0"
+    }
+  } ],
+  "featureStates" : [ {
+    "key" : "Origin",
+    "value" : {
+      "type" : 1688,
+      "typeName" : "BTFeatureState",
+      "message" : {
+        "featureStatus" : "OK",
+        "inactive" : false
+      }
+    }
+  }, {
+    "key" : "Top",
+    "value" : {
+      "type" : 1688,
+      "typeName" : "BTFeatureState",
+      "message" : {
+        "featureStatus" : "OK",
+        "inactive" : false
+      }
+    }
+  }, {
+    "key" : "Front",
+    "value" : {
+      "type" : 1688,
+      "typeName" : "BTFeatureState",
+      "message" : {
+        "featureStatus" : "OK",
+        "inactive" : false
+      }
+    }
+  }, {
+    "key" : "Right",
+    "value" : {
+      "type" : 1688,
+      "typeName" : "BTFeatureState",
+      "message" : {
+        "featureStatus" : "OK",
+        "inactive" : false
+      }
+    }
+  }, {
+    "key" : "FQxpC8Q8LkpIQvt_0",
+    "value" : {
+      "type" : 1688,
+      "typeName" : "BTFeatureState",
+      "message" : {
+        "featureStatus" : "OK",
+        "inactive" : false
+      }
+    }
+  } ],
+  "isComplete" : true,
+  "rollbackIndex" : 1,
+  "defaultFeatures" : [ {
+    "type" : 134,
+    "typeName" : "BTMFeature",
+    "message" : {
+      "featureType" : "origin",
+      "featureId" : "Origin",
+      "name" : "Origin",
+      "parameters" : [ ],
+      "suppressed" : false,
+      "namespace" : "",
+      "subFeatures" : [ ],
+      "returnAfterSubfeatures" : false,
+      "suppressionState" : {
+        "type" : 0
+      },
+      "parameterLibraries" : [ ],
+      "hasUserCode" : false,
+      "nodeId" : "Mcf8AMka/armuHU/z"
+    }
+  }, {
+    "type" : 134,
+    "typeName" : "BTMFeature",
+    "message" : {
+      "featureType" : "defaultPlane",
+      "featureId" : "Top",
+      "name" : "Top",
+      "parameters" : [ ],
+      "suppressed" : false,
+      "namespace" : "",
+      "subFeatures" : [ ],
+      "returnAfterSubfeatures" : false,
+      "suppressionState" : {
+        "type" : 0
+      },
+      "parameterLibraries" : [ ],
+      "hasUserCode" : false,
+      "nodeId" : "MNDF3N06DdiVt9qVZ"
+    }
+  }, {
+    "type" : 134,
+    "typeName" : "BTMFeature",
+    "message" : {
+      "featureType" : "defaultPlane",
+      "featureId" : "Front",
+      "name" : "Front",
+      "parameters" : [ ],
+      "suppressed" : false,
+      "namespace" : "",
+      "subFeatures" : [ ],
+      "returnAfterSubfeatures" : false,
+      "suppressionState" : {
+        "type" : 0
+      },
+      "parameterLibraries" : [ ],
+      "hasUserCode" : false,
+      "nodeId" : "MmLQ98AzhcCXero4T"
+    }
+  }, {
+    "type" : 134,
+    "typeName" : "BTMFeature",
+    "message" : {
+      "featureType" : "defaultPlane",
+      "featureId" : "Right",
+      "name" : "Right",
+      "parameters" : [ ],
+      "suppressed" : false,
+      "namespace" : "",
+      "subFeatures" : [ ],
+      "returnAfterSubfeatures" : false,
+      "suppressionState" : {
+        "type" : 0
+      },
+      "parameterLibraries" : [ ],
+      "hasUserCode" : false,
+      "nodeId" : "MQOc1XTN4iGYARQOA"
+    }
+  } ],
+  "serializationVersion" : "1.2.21",
+  "sourceMicroversion" : "4bcde993e8baf4730d3a12db",
+  "rejectMicroversionSkew" : false,
+  "microversionSkew" : false,
+  "libraryVersion" : 3070
+}

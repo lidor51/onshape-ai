@@ -1,0 +1,2688 @@
+{
+  "schema": "Internal construction recipe, NOT Onshape API JSON",
+  "parts": {
+    "chassis_reference": {
+      "id": "chassis_reference",
+      "category": "reference",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              380,
+              95
+            ],
+            "size": [
+              700,
+              760,
+              50
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              380,
+              95
+            ],
+            "size": [
+              650,
+              710,
+              52
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              100,
+              95
+            ],
+            "size": [
+              660,
+              25,
+              50
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              440,
+              95
+            ],
+            "size": [
+              660,
+              25,
+              50
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              -220,
+              440,
+              173.5
+            ],
+            "size": [
+              30,
+              30,
+              107
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              220,
+              440,
+              173.5
+            ],
+            "size": [
+              30,
+              30,
+              107
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              440,
+              224
+            ],
+            "size": [
+              500,
+              330,
+              6
+            ]
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [],
+      "geometryProvenance": "ROUGH_REFERENCE_NOT_MANUFACTURED"
+    },
+    "bumper_keepout": {
+      "id": "bumper_keepout",
+      "category": "reference",
+      "material": "FULL_BUMPER_KEEP_OUT_NO_NOTCH",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              870,
+              930,
+              120
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              700,
+              760,
+              122
+            ]
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [],
+      "geometryProvenance": "ROUGH_REFERENCE_NOT_MANUFACTURED"
+    },
+    "receiver_reference": {
+      "id": "receiver_reference",
+      "category": "reference",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              "receiverHeight - 110"
+            ],
+            "size": [
+              320,
+              30,
+              20
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              -150,
+              0,
+              "(receiverHeight - 110) / 2"
+            ],
+            "size": [
+              20,
+              30,
+              "receiverHeight - 110"
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              150,
+              0,
+              "(receiverHeight - 110) / 2"
+            ],
+            "size": [
+              20,
+              30,
+              "receiverHeight - 110"
+            ]
+          }
+        }
+      ],
+      "notes": "Rough open fork, not a modeled capture actuator; height control changes fork geometry and placement, independently of mouthWidth.",
+      "holeInterfaces": [],
+      "geometryProvenance": "ROUGH_REFERENCE_NOT_MANUFACTURED"
+    },
+    "coral_reference": {
+      "id": "coral_reference",
+      "category": "reference",
+      "material": "NOMINAL_PVC_NOT_MEASURED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 57.15,
+            "length": 301.625,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 50.8,
+            "length": 303.625,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [],
+      "geometryProvenance": "ROUGH_REFERENCE_NOT_MANUFACTURED"
+    },
+    "stage_deck": {
+      "id": "stage_deck",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              500,
+              380,
+              6
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -220,
+              -150,
+              0
+            ],
+            "radius": 3.3,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -220,
+              150,
+              0
+            ],
+            "radius": 3.3,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              220,
+              -150,
+              0
+            ],
+            "radius": 3.3,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              220,
+              150,
+              0
+            ],
+            "radius": 3.3,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -88,
+              0,
+              0
+            ],
+            "radius": 7.45,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              88,
+              0,
+              0
+            ],
+            "radius": 7.45,
+            "length": 8,
+            "axis": "z"
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [
+        {
+          "id": "mount_0",
+          "centerMm": [
+            -220,
+            -150,
+            0
+          ],
+          "diameterMm": 6.6,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "mount_1",
+          "centerMm": [
+            -220,
+            150,
+            0
+          ],
+          "diameterMm": 6.6,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "mount_2",
+          "centerMm": [
+            220,
+            -150,
+            0
+          ],
+          "diameterMm": 6.6,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "mount_3",
+          "centerMm": [
+            220,
+            150,
+            0
+          ],
+          "diameterMm": 6.6,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "shaft_clearance_left",
+          "centerMm": [
+            -88,
+            0,
+            0
+          ],
+          "diameterMm": 14.9,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "shaft_clearance_right",
+          "centerMm": [
+            88,
+            0,
+            0
+          ],
+          "diameterMm": 14.9,
+          "axis": "z",
+          "throughLengthMm": 6
+        }
+      ],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "cradle": {
+      "id": "cradle",
+      "category": "custom",
+      "material": "MACHINED_POLYMER_STOCK_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "polygon",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "points": [
+              [
+                -50,
+                -87
+              ],
+              [
+                50,
+                -87
+              ],
+              [
+                50,
+                -30.822305
+              ],
+              [
+                0,
+                -80.822305
+              ],
+              [
+                -50,
+                -30.822305
+              ]
+            ],
+            "length": 330,
+            "start": -165,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Straight V trough, nominal tangent contact; router stock/travel and split construction require review.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "transfer_ramp": {
+      "id": "transfer_ramp",
+      "category": "custom",
+      "material": "FLAT_POLYCARBONATE_RAMP_RIGID_MODULE",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "polygon",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "points": [
+              [
+                145,
+                317
+              ],
+              [
+                270,
+                250
+              ],
+              [
+                273,
+                253
+              ],
+              [
+                148,
+                320
+              ]
+            ],
+            "length": 390,
+            "start": -195,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              -170,
+              271,
+              244
+            ],
+            "size": [
+              8,
+              8,
+              22
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              -170,
+              292,
+              236
+            ],
+            "size": [
+              30,
+              50,
+              6
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              170,
+              271,
+              244
+            ],
+            "size": [
+              8,
+              8,
+              22
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              170,
+              292,
+              236
+            ],
+            "size": [
+              30,
+              50,
+              6
+            ]
+          }
+        }
+      ],
+      "notes": "V2 lower-profile 390 mm wide flat polycarbonate transfer surface with separate foot blocks; no bend or bumper notch. Entry top Z=320 mm; pickup belt crest Z=440 mm. The 120 mm gravity drop and capture dynamics are UNVERIFIED, not a transfer success claim.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "hex_bearing_envelope": {
+      "id": "hex_bearing_envelope",
+      "category": "cots-envelope",
+      "material": "BEARING_ENVELOPE",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 14.2875,
+            "length": 7.9502,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": 10,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "WCP-0783 nominal body only. Flange/races/loads pending. Whole envelope follows inner hex; circular OD does not imply race locking.",
+      "holeInterfaces": [],
+      "geometryProvenance": "NOT_VENDOR_GEOMETRY"
+    },
+    "x44_envelope": {
+      "id": "x44_envelope",
+      "category": "cots-envelope",
+      "material": "MOTOR_ENVELOPE",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              37.5,
+              0,
+              0
+            ],
+            "radius": 23.7,
+            "length": 75,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -1,
+              0,
+              0
+            ],
+            "radius": 9.525,
+            "length": 2,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -11,
+              0,
+              0
+            ],
+            "radius": 4,
+            "length": 22,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "WCP-0941 body 47.4 x 75; 8 mm cylindrical spline envelope. Shaft extension assumed 22 mm; catalog drawing confirmation required.",
+      "holeInterfaces": [],
+      "geometryProvenance": "NOT_VENDOR_GEOMETRY"
+    },
+    "pinion_16_envelope": {
+      "id": "pinion_16_envelope",
+      "category": "cots-envelope",
+      "material": "STEEL_GEAR_ENVELOPE",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 11.43,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 4.05,
+            "length": 10,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "16 teeth, 20 DP, 14.5 deg; teeth omitted, addendum envelope. Assumed face width 8 mm, NOT vendor gear geometry.",
+      "holeInterfaces": [],
+      "geometryProvenance": "NOT_VENDOR_GEOMETRY"
+    },
+    "gear_48_envelope": {
+      "id": "gear_48_envelope",
+      "category": "cots-envelope",
+      "material": "GEAR_ENVELOPE",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 31.75,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": 10,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "48 teeth, 20 DP, 14.5 deg. Simplified solid addendum envelope; actual WCP width/retention pending.",
+      "holeInterfaces": [],
+      "geometryProvenance": "NOT_VENDOR_GEOMETRY"
+    },
+    "orienter_hex_shaft": {
+      "id": "orienter_hex_shaft",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": 194,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "1/2 inch AF native interface; collars/axial retention in omitted hardware BOM.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "orienter_contact_drum": {
+      "id": "orienter_contact_drum",
+      "category": "custom",
+      "material": "CUSTOM_ELASTOMER_CONTACT_DRUM",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 35,
+            "length": 144,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": 146,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Custom 70 mm OD contact drum, not AndyMark am-3462. Tire compliance/friction and hub construction unverified.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "orienter_housing": {
+      "id": "orienter_housing",
+      "category": "custom",
+      "material": "PRINTED_HOUSING_MATERIAL_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              35,
+              0
+            ],
+            "size": [
+              60,
+              140,
+              8
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              35,
+              160
+            ],
+            "size": [
+              74,
+              140,
+              8
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              101,
+              80
+            ],
+            "size": [
+              60,
+              8,
+              168
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              65,
+              173.5
+            ],
+            "size": [
+              48,
+              8,
+              31
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              40.64,
+              187
+            ],
+            "size": [
+              48,
+              48,
+              6
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              -35.5,
+              35,
+              174
+            ],
+            "size": [
+              3,
+              140,
+              28
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              35.5,
+              35,
+              174
+            ],
+            "size": [
+              3,
+              140,
+              28
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              80
+            ],
+            "radius": 14.3375,
+            "length": 174,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              40.64,
+              187
+            ],
+            "radius": 9.575,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              17.4625,
+              40.64,
+              187
+            ],
+            "radius": 2.75,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -8.731249999999996,
+              55.76296861358576,
+              187
+            ],
+            "radius": 2.75,
+            "length": 8,
+            "axis": "z"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -8.731250000000006,
+              25.517031386414246,
+              187
+            ],
+            "radius": 2.75,
+            "length": 8,
+            "axis": "z"
+          }
+        }
+      ],
+      "notes": "One printable U support plus open-bottom gear side guards; no precision bend. Motor clocking and top access guard still require vendor and safety review.",
+      "holeInterfaces": [
+        {
+          "id": "lower_bearing",
+          "centerMm": [
+            0,
+            0,
+            0
+          ],
+          "diameterMm": 28.675,
+          "axis": "z",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "upper_bearing",
+          "centerMm": [
+            0,
+            0,
+            160
+          ],
+          "diameterMm": 28.675,
+          "axis": "z",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "motor_pilot",
+          "centerMm": [
+            0,
+            40.64,
+            187
+          ],
+          "diameterMm": 19.15,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_bolt_0",
+          "centerMm": [
+            17.4625,
+            40.64,
+            187
+          ],
+          "diameterMm": 5.5,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_bolt_120",
+          "centerMm": [
+            -8.731249999999996,
+            55.76296861358576,
+            187
+          ],
+          "diameterMm": 5.5,
+          "axis": "z",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_bolt_240",
+          "centerMm": [
+            -8.731250000000006,
+            25.517031386414246,
+            187
+          ],
+          "diameterMm": 5.5,
+          "axis": "z",
+          "throughLengthMm": 6
+        }
+      ],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pickup_left_plate": {
+      "id": "pickup_left_plate",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 21,
+            "length": 8,
+            "second": [
+              -360,
+              -370
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 14.3375,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -360,
+              -370
+            ],
+            "radius": 14.3375,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              12.020815280171309,
+              12.020815280171309
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -12.020815280171307,
+              12.020815280171309
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -12.02081528017131,
+              -12.020815280171307
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              12.020815280171306,
+              -12.02081528017131
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [
+        {
+          "id": "upper_bearing",
+          "centerMm": [
+            0,
+            0,
+            0
+          ],
+          "diameterMm": 28.675,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "lower_bearing",
+          "centerMm": [
+            0,
+            -360,
+            -370
+          ],
+          "diameterMm": 28.675,
+          "axis": "x",
+          "throughLengthMm": 8
+        }
+      ],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pickup_side_plate": {
+      "id": "pickup_side_plate",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 21,
+            "length": 8,
+            "second": [
+              -360,
+              -370
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 24,
+            "length": 8,
+            "second": [
+              71.12,
+              0
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -14.5,
+              88.58250000000001,
+              0.0
+            ],
+            "radius": 4.5,
+            "length": 21,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -14.5,
+              79.85125000000001,
+              15.122968613585758
+            ],
+            "radius": 4.5,
+            "length": 21,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -14.5,
+              79.85125000000001,
+              -15.122968613585758
+            ],
+            "radius": 4.5,
+            "length": 21,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 14.3375,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -360,
+              -370
+            ],
+            "radius": 14.3375,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              88.58250000000001,
+              0.0
+            ],
+            "radius": 2.75,
+            "length": 62,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              79.85125000000001,
+              15.122968613585758
+            ],
+            "radius": 2.75,
+            "length": 62,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              79.85125000000001,
+              -15.122968613585758
+            ],
+            "radius": 2.75,
+            "length": 62,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              71.12,
+              0
+            ],
+            "radius": 9.575,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              12.020815280171309,
+              12.020815280171309
+            ],
+            "radius": 2.2,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -12.020815280171307,
+              12.020815280171309
+            ],
+            "radius": 2.2,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -12.02081528017131,
+              -12.020815280171307
+            ],
+            "radius": 2.2,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              12.020815280171306,
+              -12.02081528017131
+            ],
+            "radius": 2.2,
+            "length": 10,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [
+        {
+          "id": "upper_bearing",
+          "centerMm": [
+            0,
+            0,
+            0
+          ],
+          "diameterMm": 28.675,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "lower_bearing",
+          "centerMm": [
+            0,
+            -360,
+            -370
+          ],
+          "diameterMm": 28.675,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "motor_bolt_0",
+          "centerMm": [
+            0,
+            88.58250000000001,
+            0.0
+          ],
+          "diameterMm": 5.5,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "motor_bolt_60",
+          "centerMm": [
+            0,
+            79.85125000000001,
+            15.122968613585758
+          ],
+          "diameterMm": 5.5,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "motor_bolt_-60",
+          "centerMm": [
+            0,
+            79.85125000000001,
+            -15.122968613585758
+          ],
+          "diameterMm": 5.5,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "motor_pilot",
+          "centerMm": [
+            0,
+            71.12,
+            0
+          ],
+          "diameterMm": 19.15,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "deploy_hub_bolt_45",
+          "centerMm": [
+            0,
+            12.020815280171309,
+            12.020815280171309
+          ],
+          "diameterMm": 4.4,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "deploy_hub_bolt_135",
+          "centerMm": [
+            0,
+            -12.020815280171307,
+            12.020815280171309
+          ],
+          "diameterMm": 4.4,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "deploy_hub_bolt_225",
+          "centerMm": [
+            0,
+            -12.02081528017131,
+            -12.020815280171307
+          ],
+          "diameterMm": 4.4,
+          "axis": "x",
+          "throughLengthMm": 8
+        },
+        {
+          "id": "deploy_hub_bolt_315",
+          "centerMm": [
+            0,
+            12.020815280171306,
+            -12.02081528017131
+          ],
+          "diameterMm": 4.4,
+          "axis": "x",
+          "throughLengthMm": 8
+        }
+      ],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pickup_cross_tube": {
+      "id": "pickup_cross_tube",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              "mouthWidth + 4",
+              20,
+              20
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              "mouthWidth + 6",
+              16,
+              16
+            ]
+          }
+        }
+      ],
+      "notes": "20 x 20 x 2 metric tube; end fasteners omitted, end holes pending.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pivot_spine": {
+      "id": "pivot_spine",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": 612,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Fixed 1/2 inch hex spine supports independent frame and upper-drum bearings; separate frame/drum outer races.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "lower_hex_shaft": {
+      "id": "lower_hex_shaft",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": "mouthWidth + 28",
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "upper_pickup_drum": {
+      "id": "upper_pickup_drum",
+      "category": "custom",
+      "material": "TUBE_RUBBER_ASSEMBLY",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 27,
+            "length": "mouthWidth - 30",
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 14.3375,
+            "length": "mouthWidth - 28",
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Continuous bored tube with end bearing seats. Rubber/hub retention and stiffness pending.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "lower_pickup_drum": {
+      "id": "lower_pickup_drum",
+      "category": "custom",
+      "material": "TUBE_RUBBER_ASSEMBLY",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 27,
+            "length": "mouthWidth - 30",
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": "mouthWidth - 28",
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Hex-driven lower drum and end hubs treated as one rigid custom part; detailed hub build pending.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pickup_belt": {
+      "id": "pickup_belt",
+      "category": "custom",
+      "material": "BELT_ENVELOPE_NOT_VENDOR",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 30,
+            "length": "mouthWidth - 60",
+            "second": [
+              -360,
+              -370
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 27,
+            "length": "mouthWidth - 58",
+            "second": [
+              -360,
+              -370
+            ]
+          }
+        }
+      ],
+      "notes": "Actual closed 3 mm belt envelope with two tangent spans and wrap. Flexible belt represented fixed for clearance only, not a rigid native transmission simulation.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pickup_output_gear": {
+      "id": "pickup_output_gear",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 62.23,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -5,
+              0,
+              0
+            ],
+            "radius": 20,
+            "length": 10,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 14.4,
+            "length": 20,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Custom 96t gear with bearing-clearance hub; 6:1 reduction, teeth simplified to addendum envelope. Bolted drum flange retention pending.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pickup_gear_guard": {
+      "id": "pickup_gear_guard",
+      "category": "custom",
+      "material": "POLYCARBONATE_GUARD",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 67,
+            "length": 13,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              71.12,
+              0
+            ],
+            "radius": 25,
+            "length": 13,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 65,
+            "length": 15,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              71.12,
+              0
+            ],
+            "radius": 23,
+            "length": 15,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "V2 radial relief: 23 mm inner radius exceeds 17.4625 mm bolt-circle radius plus 4.5 mm standoff radius by 1.0375 mm. Side cover and attachment remain unverified.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "pivot_tower": {
+      "id": "pivot_tower",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              -145
+            ],
+            "size": [
+              12,
+              60,
+              290
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 35,
+            "length": 12,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              -286
+            ],
+            "size": [
+              36,
+              90,
+              8
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 7.45,
+            "length": 16,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Flat tower with machined/bolted foot represented as a rigid contiguous module; joining and spine clamp hardware pending.",
+      "holeInterfaces": [
+        {
+          "id": "fixed_hex_spine_clearance",
+          "centerMm": [
+            0,
+            0,
+            0
+          ],
+          "diameterMm": 14.9,
+          "axis": "x",
+          "throughLengthMm": 12
+        }
+      ],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "deploy_output_gear": {
+      "id": "deploy_output_gear",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 62.23,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              "(281 - (mouthWidth / 2 + 10)) / 2",
+              0,
+              0
+            ],
+            "radius": 20,
+            "length": "281 - (mouthWidth / 2 + 10)",
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 14.4,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              12.020815280171309,
+              12.020815280171309
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -12.020815280171307,
+              12.020815280171309
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              -12.02081528017131,
+              -12.020815280171307
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              12.020815280171306,
+              -12.02081528017131
+            ],
+            "radius": 2.2,
+            "length": 50,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Custom 96t output, 20 DP/14.5 deg, 6:1 mesh at 71.12 mm centers; 4 M4 bolt pattern to left carrier. Axial hub shortens under mouth revision.",
+      "holeInterfaces": [],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "deploy_support_module": {
+      "id": "deploy_support_module",
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              -145
+            ],
+            "size": [
+              12,
+              60,
+              290
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 35,
+            "length": 12,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              0,
+              0,
+              -286
+            ],
+            "size": [
+              36,
+              90,
+              8
+            ]
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 7.45,
+            "length": 16,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              -38,
+              71.12,
+              0
+            ],
+            "radius": 92,
+            "length": 6,
+            "second": [
+              91.44,
+              0
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "capsule",
+            "center": [
+              -12,
+              71.12,
+              0
+            ],
+            "radius": 92,
+            "length": 6,
+            "second": [
+              91.44,
+              0
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "box",
+            "center": [
+              -8,
+              0,
+              0
+            ],
+            "size": [
+              12,
+              20,
+              20
+            ]
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -25,
+              71.12,
+              -88
+            ],
+            "radius": 3,
+            "length": 22,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -25,
+              71.12,
+              88
+            ],
+            "radius": 3,
+            "length": 22,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -25,
+              162.56,
+              -88
+            ],
+            "radius": 3,
+            "length": 22,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -25,
+              162.56,
+              88
+            ],
+            "radius": 3,
+            "length": 22,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 7.45,
+            "length": 100,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              71.12,
+              0
+            ],
+            "radius": 14.3375,
+            "length": 100,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -12,
+              162.56,
+              0
+            ],
+            "radius": 9.575,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -12,
+              180.0225,
+              0.0
+            ],
+            "radius": 2.75,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -12,
+              153.82875,
+              15.12296861358576
+            ],
+            "radius": 2.75,
+            "length": 8,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "cut",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -12,
+              153.82874999999999,
+              -15.122968613585757
+            ],
+            "radius": 2.75,
+            "length": 8,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "Flat tower plus two 6 mm gearbox cheeks, four turned spacers and a bolted bridge, represented as one rigid module. No bending. Plates are at world X=-333/-307; 1/2-inch hex bearing centers Y=171.12,Z=410; motor at Y=262.56,Z=410. Joining bolt lengths/stock grade and cheek bending are UNVERIFIED_BUILD.",
+      "holeInterfaces": [
+        {
+          "id": "spine_clearance",
+          "centerMm": [
+            0,
+            0,
+            0
+          ],
+          "diameterMm": 14.9,
+          "axis": "x",
+          "throughLengthMm": 12
+        },
+        {
+          "id": "compound_bearing_-38",
+          "centerMm": [
+            -38,
+            71.12,
+            0
+          ],
+          "diameterMm": 28.675,
+          "axis": "x",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "compound_bearing_-12",
+          "centerMm": [
+            -12,
+            71.12,
+            0
+          ],
+          "diameterMm": 28.675,
+          "axis": "x",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_pilot",
+          "centerMm": [
+            -12,
+            162.56,
+            0
+          ],
+          "diameterMm": 19.15,
+          "axis": "x",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_bolt_0",
+          "centerMm": [
+            -12,
+            180.0225,
+            0.0
+          ],
+          "diameterMm": 5.5,
+          "axis": "x",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_bolt_120",
+          "centerMm": [
+            -12,
+            153.82875,
+            15.12296861358576
+          ],
+          "diameterMm": 5.5,
+          "axis": "x",
+          "throughLengthMm": 6
+        },
+        {
+          "id": "motor_bolt_240",
+          "centerMm": [
+            -12,
+            153.82874999999999,
+            -15.122968613585757
+          ],
+          "diameterMm": 5.5,
+          "axis": "x",
+          "throughLengthMm": 6
+        }
+      ],
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM"
+    },
+    "deploy_compound_shaft_module": {
+      "id": "deploy_compound_shaft_module",
+      "category": "custom",
+      "material": "STEEL_SHAFT_AND_GEARS_GRADES_UNSELECTED",
+      "geometryProvenance": "LOCAL_PARAMETRIC_CUSTOM",
+      "holeInterfaces": [],
+      "recipe": [
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "hex",
+            "center": [
+              -25,
+              0,
+              0
+            ],
+            "acrossFlats": 12.7,
+            "length": 64,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              -37,
+              0,
+              0
+            ],
+            "radius": 82.55,
+            "length": 12.7,
+            "axis": "x"
+          }
+        },
+        {
+          "operation": "add",
+          "primitive": {
+            "kind": "cylinder",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 11.43,
+            "length": 8,
+            "axis": "x"
+          }
+        }
+      ],
+      "notes": "128t driven gear, 64 mm long 1/2-inch hex shaft and 16t final pinion, joined as one rigid module, NOT one purchasable box. Gear centers share Y=171.12,Z=410; faces at X=-318 and -281. Disks are addendum envelopes, NOT cuttable involute teeth. Three physical items plus retention; exact broach/key, tooth form, joining and load rating UNVERIFIED_BUILD."
+    }
+  },
+  "parameters": {
+    "packetVersion": "concept-a-local-v2",
+    "units": "mm",
+    "status": "ENGINEERING_STUDY_NOT_MECHANICALLY_RELEASED",
+    "baseline": {
+      "mouthWidth": 500,
+      "receiverHeight": 320
+    },
+    "revision": {
+      "mouthWidth": 520,
+      "receiverHeight": 320
+    },
+    "receiverControlProbe": {
+      "mouthWidth": 500,
+      "receiverHeight": 350
+    },
+    "controls": {
+      "mouthWidth": {
+        "min": 480,
+        "max": 520
+      },
+      "receiverHeight": {
+        "min": 300,
+        "max": 360
+      }
+    },
+    "pivotOriginMm": [
+      0,
+      100,
+      410
+    ],
+    "lowerDrumLocalMm": [
+      0,
+      -360,
+      -370
+    ],
+    "deployLimitsDeg": [
+      -145,
+      0
+    ],
+    "sampleIncrementDeg": 5,
+    "chassisMm": {
+      "width": 700,
+      "length": 760,
+      "bottom": 70,
+      "height": 50,
+      "rail": 25
+    },
+    "bumperMm": {
+      "outwardDepth": 85,
+      "bottom": 45,
+      "top": 165
+    },
+    "drumRadiusMm": 27,
+    "beltThicknessMm": 3,
+    "shaftHexAcrossFlatsMm": 12.7,
+    "bearingBodyDiameterMm": 28.575,
+    "bearingWidthMm": 7.9502,
+    "bearingSeatDiameterMm": 28.675,
+    "x44BoltCircleMm": 34.925,
+    "x44PilotDiameterMm": 19.05,
+    "gearModuleMm": 1.27,
+    "gearPressureAngleDeg": 14.5,
+    "gearTeeth": [
+      16,
+      48
+    ],
+    "coralMm": {
+      "length": 301.625,
+      "outerDiameter": 114.3,
+      "innerDiameter": 101.6
+    },
+    "receiverOriginXYMm": [
+      0,
+      440
+    ],
+    "assumptions": [
+      "Pivot and receiver Y differ from provisional research datums to clear a complete bumper and separate stow from handoff.",
+      "Full 85 mm deep, 120 mm high uninterrupted bumper keepout fills the nominal 63.5-146.05 mm zone with extra height; not certified bumper construction.",
+      "Initial 127 mm drum straight belt path collided with bumper. Revised 54 mm drum plus 3 mm belt and relocated pivot passed the focused swept-volume screen; grip remains unverified.",
+      "Belt/drum contact, gear teeth, bearing races, spline form, fasteners, fits, electrical controls and load capacity are not released.",
+      "All purchased envelopes are NOT_VENDOR_GEOMETRY; parent must bind authentic source/version before the paired trial is frozen."
+    ]
+  },
+  "partStudioLayoutOffsetsMm": {
+    "chassis_reference": [
+      0,
+      0,
+      0
+    ],
+    "bumper_keepout": [
+      1200,
+      0,
+      0
+    ],
+    "receiver_reference": [
+      2400,
+      0,
+      0
+    ],
+    "coral_reference": [
+      3600,
+      0,
+      0
+    ],
+    "stage_deck": [
+      4800,
+      0,
+      0
+    ],
+    "cradle": [
+      6000,
+      0,
+      0
+    ],
+    "transfer_ramp": [
+      0,
+      1500,
+      0
+    ],
+    "hex_bearing_envelope": [
+      1200,
+      1500,
+      0
+    ],
+    "x44_envelope": [
+      2400,
+      1500,
+      0
+    ],
+    "pinion_16_envelope": [
+      3600,
+      1500,
+      0
+    ],
+    "gear_48_envelope": [
+      4800,
+      1500,
+      0
+    ],
+    "orienter_hex_shaft": [
+      6000,
+      1500,
+      0
+    ],
+    "orienter_contact_drum": [
+      0,
+      3000,
+      0
+    ],
+    "orienter_housing": [
+      1200,
+      3000,
+      0
+    ],
+    "pickup_left_plate": [
+      2400,
+      3000,
+      0
+    ],
+    "pickup_side_plate": [
+      3600,
+      3000,
+      0
+    ],
+    "pickup_cross_tube": [
+      4800,
+      3000,
+      0
+    ],
+    "pivot_spine": [
+      6000,
+      3000,
+      0
+    ],
+    "lower_hex_shaft": [
+      0,
+      4500,
+      0
+    ],
+    "upper_pickup_drum": [
+      1200,
+      4500,
+      0
+    ],
+    "lower_pickup_drum": [
+      2400,
+      4500,
+      0
+    ],
+    "pickup_belt": [
+      3600,
+      4500,
+      0
+    ],
+    "pickup_output_gear": [
+      4800,
+      4500,
+      0
+    ],
+    "pickup_gear_guard": [
+      6000,
+      4500,
+      0
+    ],
+    "pivot_tower": [
+      0,
+      6000,
+      0
+    ],
+    "deploy_output_gear": [
+      1200,
+      6000,
+      0
+    ],
+    "deploy_support_module": [
+      2400,
+      6000,
+      0
+    ],
+    "deploy_compound_shaft_module": [
+      3600,
+      6000,
+      0
+    ]
+  },
+  "sourceToNeutral": "Subtract the role layout offset, then apply its neutral-to-world instance matrix; translations in millimeters",
+  "featureScriptCompilation": "UNVERIFIED_OFFLINE_EMITTER_ONLY"
+}

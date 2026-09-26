@@ -1,0 +1,75 @@
+{
+  "retrievedDate": "2026-09-11",
+  "serverClassification": "Official Onshape vendor-hosted experimental Labs service",
+  "serverImplementationRevision": null,
+  "serverImplementationLicense": "Not established; no public OSS implementation assumed",
+  "continuationInspection": {
+    "asOf": "2026-09-11",
+    "toolContracts": "continuation-tool-contracts.json",
+    "contractEvidenceKind": "Session-exposed definitions; no fresh tools/list or tool_search invocation",
+    "retrievedAgain": [
+      "https://www.onshape.com/en/blog/get-started-featurescript-mcp-server",
+      "https://www.onshape.com/en/blog/featurescript-mcp-server-enables-text-code-cad"
+    ],
+    "retrievalTool": "fetch_webpage",
+    "result": "Both returned public guide content. Official endpoint/provenance confirmed; dedicated public managed sandbox visibility not established by returned text.",
+    "liveServerRevision": null,
+    "liveLibraryVersion": null
+  },
+  "sources": [
+    {
+      "url": "https://www.onshape.com/en/blog/featurescript-mcp-server-enables-text-code-cad",
+      "title": "From Onshape Labs, the FeatureScript MCP Server: The Fastest Path to AI-Driven Design",
+      "author": "Cody Armstrong",
+      "publicationDate": "2026-08-11",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["Official Onshape Labs provenance", "Hosted HTTP MCP endpoint", "App Store subscription", "Experimental early access"]
+    },
+    {
+      "url": "https://www.onshape.com/en/blog/get-started-featurescript-mcp-server",
+      "title": "How to Get Started with the Onshape FeatureScript MCP Server",
+      "author": "Michael LaFleche",
+      "publicationDate": "2026-09-03",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["Sign in and subscribe", "Connect, authenticate and verify", "Part Studio and Feature Studio workflow", "Engineering validation remains necessary"]
+    },
+    {
+      "url": "https://cad.onshape.com/appstore/apps/Onshape%20Labs/6a29aea7c03f8bf659841734",
+      "retrieval": "Linked by both fetched official articles; not opened or subscribed by agent",
+      "supports": ["User-managed subscription target"]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["POST JSON-RPC", "Accept JSON and SSE", "Session header", "Negotiated protocol header"]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["Initialize first", "Capabilities and version", "Initialized notification before tools"]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["Bearer challenge", "Protected resource discovery", "Issuer metadata", "Standard client OAuth and PKCE", "No token passthrough"]
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/copilot/customization/mcp-servers",
+      "resolvedDocumentationUrl": "https://code.visualstudio.com/docs/agent-customization/mcp-servers",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["HTTP configuration", "Server trust/start commands", "Configure Tools"]
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/agents/reference/mcp-configuration",
+      "retrieval": "fetch_webpage succeeded",
+      "supports": ["Minimal HTTP server entry", "Client-managed OAuth", "Reset Cached Tools command", "No guessed OAuth client ID"]
+    },
+    {
+      "url": "https://cad.onshape.com/FsDoc/library.html",
+      "retrieval": "fetch_webpage extraction failed; two public Node fetches succeeded with HTTP 200",
+      "bytesFirstNodeFetch": 1786199,
+      "supports": ["fCuboid corner1/corner2", "fCylinder bottomCenter/topCenter/radius", "opBoolean subtraction", "PropertyType.EXCLUDE_FROM_BOM boolean", "evBox3d", "evVolume", "Cylinder coordSystem/radius"],
+      "limitation": "Current public signatures only, not compilation evidence for FeatureScript 2500"
+    }
+  ]
+}

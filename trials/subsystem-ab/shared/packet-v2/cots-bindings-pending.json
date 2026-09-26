@@ -1,0 +1,82 @@
+{
+  "status": "PENDING_PARENT_COTS_BINDINGS",
+  "doNotRelabelEnvelopesAsVendor": true,
+  "localGeometryFrozen": true,
+  "pairedTrialAdmission": "BLOCKED",
+  "roles": [
+    {
+      "partRole": "hex_bearing_envelope",
+      "instances": [
+        "orienter_left_bearing_lower",
+        "orienter_left_bearing_upper",
+        "orienter_right_bearing_lower",
+        "orienter_right_bearing_upper",
+        "frame_bearing_left",
+        "upper_drum_bearing_left",
+        "lower_drum_bearing_left",
+        "frame_bearing_right",
+        "upper_drum_bearing_right",
+        "lower_drum_bearing_right",
+        "deploy_bearing_outboard",
+        "deploy_bearing_inboard"
+      ],
+      "researchCandidateId": "hex_bearing",
+      "authenticFile": null,
+      "sourceUrl": null,
+      "sourceVersion": null,
+      "sha256": null,
+      "interfaceCrossCheck": "PENDING",
+      "geometryStatus": "NOT_VENDOR_GEOMETRY",
+      "substitutionPolicy": "Parent must bind approved vendor geometry and rerun fit/motion; no silent scale, mirror, or mechanical release."
+    },
+    {
+      "partRole": "x44_envelope",
+      "instances": [
+        "orienter_left_motor",
+        "orienter_right_motor",
+        "pickup_motor",
+        "deploy_motor"
+      ],
+      "researchCandidateId": "x44",
+      "authenticFile": null,
+      "sourceUrl": null,
+      "sourceVersion": null,
+      "sha256": null,
+      "interfaceCrossCheck": "PENDING",
+      "geometryStatus": "NOT_VENDOR_GEOMETRY",
+      "substitutionPolicy": "Parent must bind approved vendor geometry and rerun fit/motion; no silent scale, mirror, or mechanical release."
+    },
+    {
+      "partRole": "pinion_16_envelope",
+      "instances": [
+        "orienter_left_pinion",
+        "orienter_right_pinion",
+        "pickup_pinion",
+        "deploy_motor_pinion"
+      ],
+      "researchCandidateId": "spline_pinion",
+      "authenticFile": null,
+      "sourceUrl": null,
+      "sourceVersion": null,
+      "sha256": null,
+      "interfaceCrossCheck": "PENDING",
+      "geometryStatus": "NOT_VENDOR_GEOMETRY",
+      "substitutionPolicy": "Parent must bind approved vendor geometry and rerun fit/motion; no silent scale, mirror, or mechanical release."
+    },
+    {
+      "partRole": "gear_48_envelope",
+      "instances": [
+        "orienter_left_gear",
+        "orienter_right_gear"
+      ],
+      "researchCandidateId": "hex_output_gear",
+      "authenticFile": null,
+      "sourceUrl": null,
+      "sourceVersion": null,
+      "sha256": null,
+      "interfaceCrossCheck": "PENDING",
+      "geometryStatus": "NOT_VENDOR_GEOMETRY",
+      "substitutionPolicy": "Parent must bind approved vendor geometry and rerun fit/motion; no silent scale, mirror, or mechanical release."
+    }
+  ]
+}

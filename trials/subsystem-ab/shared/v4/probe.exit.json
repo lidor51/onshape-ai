@@ -1,0 +1,14 @@
+{
+  "entry": "probe.py",
+  "args": [
+    "--mechanical"
+  ],
+  "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "started": "2026-09-13T09:29:38.844Z",
+  "ended": "2026-09-13T09:31:24.560Z",
+  "wallSeconds": 105.716,
+  "wallLimitMs": 300000,
+  "timedOut": false,
+  "signal": null,
+  "exitCode": 1
+}

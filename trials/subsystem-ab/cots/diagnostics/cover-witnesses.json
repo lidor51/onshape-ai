@@ -1,0 +1,151 @@
+{
+  "status": "DIAGNOSTIC_WITNESSES_NOT_CERTIFICATION",
+  "environment": {
+    "python": "3.10.0",
+    "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+    "OCP_module_version": "7.8.1.1",
+    "packages": {
+      "cadquery": "2.6.1",
+      "cadquery-ocp": "7.8.1.1.post1",
+      "build123d": null,
+      "vtk": "9.3.1",
+      "numpy": "2.2.6"
+    }
+  },
+  "inputSha256": {
+    "trials\\subsystem-ab\\cots\\cache\\wcp-0941.step": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+    "trials\\subsystem-ab\\shared\\packet-v3\\source-probe\\cots_x44_rear_cover.step": "11e637da767f6137fbf9e58b73b8cd4a332e14e2ccbe78b36885ec0d4523b184",
+    "trials\\subsystem-ab\\shared\\packet-v3\\current\\cots-bindings.json": "03d552bc2416a58f80a1a22f6bfc0b7f01db24648d66136f886bb8c4d9690989",
+    "trials\\subsystem-ab\\shared\\packet-v3\\original-source-roundtrip-probe.json": "7195fdce1143a6d4481f5facb7e9297898fda6b1dbda5f42dcd70b5939037d5e"
+  },
+  "rows": [
+    {
+      "direction": "sourceToReadback",
+      "faceIndex": 843,
+      "pointMm": [
+        11.23045923490788,
+        -17.71295232079593,
+        -74.42871385393873
+      ],
+      "ownSurfaceType": "TORUS",
+      "oppositeCandidateSurfaceType": "REVOLUTION",
+      "ownTrimmedFaceDistanceMm": 1.7763568394002505e-15,
+      "oppositeTrimmedFaceDistanceMm": 0.06620304949417774,
+      "oppositeWholeBoundaryDistanceMm": 0.06620304949417774,
+      "oppositeSupportProjections": [
+        {
+          "distanceMm": 1.4538437790490652e-09,
+          "uv": [
+            5.890486225479062,
+            0.7061781752832542
+          ],
+          "trimState": "TopAbs_State.TopAbs_OUT"
+        },
+        {
+          "distanceMm": 0.07123392379815044,
+          "uv": [
+            0.0,
+            0.8321170051276665
+          ],
+          "trimState": "TopAbs_State.TopAbs_OUT"
+        },
+        {
+          "distanceMm": 0.1685538125329532,
+          "uv": [
+            0.0,
+            1.5629975620175827
+          ],
+          "trimState": "TopAbs_State.TopAbs_IN"
+        },
+        {
+          "distanceMm": 0.39760606709538465,
+          "uv": [
+            2.7221528793828282,
+            0.373632803075
+          ],
+          "trimState": "TopAbs_State.TopAbs_ON"
+        }
+      ],
+      "ownUvBounds": [
+        5.497787143782144,
+        6.283185307179586,
+        0.3736328030752354,
+        1.5707963267949059
+      ],
+      "oppositeUvBounds": [
+        -0.7853981634231184,
+        6.28318530718,
+        0.3736328030732025,
+        1.570796326795
+      ],
+      "ownFaceToleranceMm": 1e-07,
+      "oppositeFaceToleranceMm": 1e-07,
+      "ownMaximumEdgeToleranceMm": 1e-07,
+      "oppositeMaximumEdgeToleranceMm": 0.4276012684629671
+    },
+    {
+      "direction": "readbackToSource",
+      "faceIndex": 843,
+      "pointMm": [
+        10.871715199268802,
+        -17.723961650138378,
+        -74.473286447449
+      ],
+      "ownSurfaceType": "REVOLUTION",
+      "oppositeCandidateSurfaceType": "TORUS",
+      "ownTrimmedFaceDistanceMm": 0.0,
+      "oppositeTrimmedFaceDistanceMm": 0.24865461985968756,
+      "oppositeWholeBoundaryDistanceMm": 0.11478644744900635,
+      "oppositeSupportProjections": [
+        {
+          "distanceMm": 1.0968211633440825e-08,
+          "uv": [
+            3.534291735278461,
+            0.4401417832204092
+          ],
+          "trimState": "TopAbs_State.TopAbs_OUT"
+        },
+        {
+          "distanceMm": 0.051037423221459655,
+          "uv": [
+            0.39269908168866774,
+            2.7952651976031397
+          ],
+          "trimState": "TopAbs_State.TopAbs_OUT"
+        },
+        {
+          "distanceMm": 0.40000001096821575,
+          "uv": [
+            3.534291735278461,
+            3.581734436810202
+          ],
+          "trimState": "TopAbs_State.TopAbs_OUT"
+        },
+        {
+          "distanceMm": 0.4510374232214604,
+          "uv": [
+            0.39269908168866774,
+            5.936857851192934
+          ],
+          "trimState": "TopAbs_State.TopAbs_OUT"
+        }
+      ],
+      "ownUvBounds": [
+        -0.7853981634231184,
+        6.28318530718,
+        0.3736328030732025,
+        1.570796326795
+      ],
+      "oppositeUvBounds": [
+        5.497787143782144,
+        6.283185307179586,
+        0.3736328030752354,
+        1.5707963267949059
+      ],
+      "ownFaceToleranceMm": 1e-07,
+      "oppositeFaceToleranceMm": 1e-07,
+      "ownMaximumEdgeToleranceMm": 0.4276012684629671,
+      "oppositeMaximumEdgeToleranceMm": 1e-07
+    }
+  ]
+}

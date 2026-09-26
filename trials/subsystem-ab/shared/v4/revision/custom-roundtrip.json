@@ -1,0 +1,1871 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "part": "chassis_reference",
+      "sha256": "b80d2ff9f308beada5807e35777c8557dfe49be36cf7d75b1933bc4d702fc148",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3524999.9999999986,
+        "boundsMm": [
+          -350.0,
+          0.0,
+          70.0,
+          350.0,
+          760.0,
+          120.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3525000.0000000023,
+        "boundsMm": [
+          -350.0,
+          0.0,
+          70.0,
+          350.0,
+          760.0,
+          120.0
+        ]
+      },
+      "volumeErrorMm3": 3.725290298461914e-09,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "bumper_keepout",
+      "sha256": "26ac9156807c854ed00557c943d77ae7d6dcd0b70090882edd33b983256477cf",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 33252000.0,
+        "boundsMm": [
+          -435.0,
+          -85.0,
+          45.0,
+          435.0,
+          845.0,
+          165.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 33252000.0,
+        "boundsMm": [
+          -435.0,
+          -85.0,
+          45.0,
+          435.0,
+          845.0,
+          165.0
+        ]
+      },
+      "volumeErrorMm3": 0.0,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x20",
+      "sha256": "726f5e63847f2db8f59bf67a8d53bf56da979bbf16cd7da70ce4602b4048f656",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1036.7255756846318,
+        "boundsMm": [
+          -20.0,
+          -5.0,
+          -5.0,
+          6.0,
+          5.0,
+          5.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1036.7255756846278,
+        "boundsMm": [
+          -20.0,
+          -5.0,
+          -5.0,
+          6.0,
+          5.0,
+          5.0
+        ]
+      },
+      "volumeErrorMm3": 4.092726157978177e-12,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x16",
+      "sha256": "73f32e908a6397d1df1064b08d60a86d41ad5eccd34b0009cfadd2745779bb01",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 923.628240155399,
+        "boundsMm": [
+          -16.0,
+          -5.0,
+          -5.0,
+          6.0,
+          5.0,
+          5.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 923.6282401553966,
+        "boundsMm": [
+          -16.0,
+          -5.0,
+          -5.0,
+          6.0,
+          5.0,
+          5.0
+        ]
+      },
+      "volumeErrorMm3": 2.3874235921539366e-12,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "bolt_M6x50",
+      "sha256": "f6f183fb62693415df51f169db00eefee9b5edf5852746c69810a9b8eefdfc0b",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1884.955592153876,
+        "boundsMm": [
+          -50.0,
+          -5.0,
+          -5.0,
+          6.0,
+          5.0,
+          5.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1884.9555921538595,
+        "boundsMm": [
+          -50.0,
+          -5.0,
+          -5.0,
+          6.0,
+          5.0,
+          5.0
+        ]
+      },
+      "volumeErrorMm3": 1.659827830735594e-11,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "nut_M6",
+      "sha256": "cb2581dd8700f0a18a2f06ad0172b2c25a402be03932770ef5446cef7b737ad7",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 286.88937359212423,
+        "boundsMm": [
+          -2.5000000000000004,
+          -5.773502691896258,
+          -5.0,
+          2.5,
+          5.773502691896258,
+          5.000000000000001
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 286.8893735921191,
+        "boundsMm": [
+          -2.5,
+          -5.7735026918971935,
+          -5.000000000000001,
+          2.5,
+          5.7735026918971935,
+          5.000000000000001
+        ]
+      },
+      "volumeErrorMm3": 5.115907697472721e-12,
+      "boundsErrorMm": 9.352518759442319e-13,
+      "status": "PASS"
+    },
+    {
+      "part": "washer_M6",
+      "sha256": "88ff47aad3f3ab7d5f915908995e2bdf4b30e6f8fe5ee218c69c4f0bfc583f0c",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 129.4838828103569,
+        "boundsMm": [
+          -0.8,
+          -6.0,
+          -6.0,
+          0.8,
+          6.0,
+          6.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 129.48388281035977,
+        "boundsMm": [
+          -0.8,
+          -6.0,
+          -6.0,
+          0.8,
+          6.0,
+          6.0
+        ]
+      },
+      "volumeErrorMm3": 2.8705926524708048e-12,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "collar_half_hex",
+      "sha256": "61eca06ec9c5f0e0970a2161a52db2c31fb2060c1e37f1316da827dd768d3ab0",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2393.968136587193,
+        "boundsMm": [
+          -4.0000001,
+          -12.0000001,
+          -12.0000001,
+          4.0000001,
+          12.0000001,
+          11.989578908281798
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2393.9681365870615,
+        "boundsMm": [
+          -4.0000001,
+          -12.0000001,
+          -12.0000001,
+          4.0000001,
+          12.0000001,
+          11.989578908281999
+        ]
+      },
+      "volumeErrorMm3": 1.3142198440618813e-10,
+      "boundsErrorMm": 2.007283228522283e-13,
+      "status": "PASS"
+    },
+    {
+      "part": "end_retainer_M5",
+      "sha256": "6d17583e616d39d13a2c59d79cf3730c5421b89d58b9841cca0c73ca7599d4ad",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 805.0331174823845,
+        "boundsMm": [
+          -10.0,
+          -10.0,
+          -10.0,
+          1.0,
+          10.0,
+          10.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 805.0331174823833,
+        "boundsMm": [
+          -10.0,
+          -10.0,
+          -10.0,
+          1.0,
+          10.0,
+          10.0
+        ]
+      },
+      "volumeErrorMm3": 1.1368683772161603e-12,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "bearing_retainer",
+      "sha256": "3c1a83794fa2cdcd074512a61c8cbd4f56871798bdc8c65287f130948e2501fc",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1979.1405399084974,
+        "boundsMm": [
+          -1.0,
+          -24.0,
+          -24.0,
+          1.0,
+          24.0,
+          24.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1979.1405399085802,
+        "boundsMm": [
+          -1.0,
+          -24.0,
+          -24.0,
+          1.0,
+          24.0,
+          24.0
+        ]
+      },
+      "volumeErrorMm3": 8.276401786133647e-11,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "M4_retainer_screw",
+      "sha256": "b79af2fa358840ee8255fe4feedd8005156946b6b56c306239764867b351439e",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 279.6017461694916,
+        "boundsMm": [
+          -10.0,
+          -3.5,
+          -3.5,
+          4.0,
+          3.5,
+          3.5
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 279.601746169491,
+        "boundsMm": [
+          -10.0,
+          -3.5,
+          -3.5,
+          4.0,
+          3.5,
+          3.5
+        ]
+      },
+      "volumeErrorMm3": 6.252776074688882e-13,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_cheek",
+      "sha256": "876dc620017f22d5135f1aaee741ceed28fef7a802a5ac0bd82a70b10106d4a4",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 132648.35209804768,
+        "boundsMm": [
+          -3.0000000000000004,
+          -264.0,
+          26.0,
+          3.000000000000001,
+          168.0,
+          463.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 132648.35209800742,
+        "boundsMm": [
+          -3.0,
+          -264.0,
+          26.0,
+          3.0,
+          168.0,
+          463.0
+        ]
+      },
+      "volumeErrorMm3": 4.025059752166271e-08,
+      "boundsErrorMm": 8.881784197001252e-16,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_tube",
+      "sha256": "3c93ff4d09e5bc59f90162649e55b5bb593ec3170e6ea42fe83fdc739ae9d834",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 110835.38881864795,
+        "boundsMm": [
+          -245.0,
+          -19.0,
+          -19.0,
+          245.0,
+          19.0,
+          19.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 110835.38881865039,
+        "boundsMm": [
+          -245.0,
+          -19.0,
+          -19.0,
+          245.0,
+          19.0,
+          19.0
+        ]
+      },
+      "volumeErrorMm3": 2.444721758365631e-09,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_rubber",
+      "sha256": "d3956e63071c3a705c603257c4c1221fa365f4be204f747cea74391bb04ef4a3",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 403078.9038261849,
+        "boundsMm": [
+          -243.0,
+          -25.0,
+          -25.0,
+          243.0,
+          25.0,
+          25.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 403078.9038261938,
+        "boundsMm": [
+          -243.0,
+          -25.0,
+          -25.0,
+          243.0,
+          25.0,
+          25.0
+        ]
+      },
+      "volumeErrorMm3": 8.905772119760513e-09,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_hex_shaft",
+      "sha256": "f233aeec6a6915fada3eed6b2683e1ba968a7fa2813f33b1c8196d4d38f5a364",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 82945.22015707844,
+        "boundsMm": [
+          -298.0,
+          -7.332348418708248,
+          -6.35,
+          298.00000000000006,
+          7.332348418708247,
+          6.3500000000000005
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 82945.22015707937,
+        "boundsMm": [
+          -298.0,
+          -7.332348418709485,
+          -6.3500000000000005,
+          298.0,
+          7.332348418709486,
+          6.3500000000000005
+        ]
+      },
+      "volumeErrorMm3": 9.313225746154785e-10,
+      "boundsErrorMm": 1.2390088954816747e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_end_plug",
+      "sha256": "2de50d2ccb081c6c9e0a89851c6aec29c089ca8920435d31c71c4c2d6c123819",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 10446.49104373483,
+        "boundsMm": [
+          -7.0000001,
+          -17.0000001,
+          -17.0000001,
+          7.0000001,
+          17.0000001,
+          17.0000001
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 10446.491043734692,
+        "boundsMm": [
+          -7.0000001,
+          -17.0000001,
+          -17.0000001,
+          7.0000001,
+          17.0000001,
+          17.0000001
+        ]
+      },
+      "volumeErrorMm3": 1.382431946694851e-10,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "roller_cross_pin",
+      "sha256": "d53397bd2a7700b7799a39744d1974ce64e441b71f9e46daf0a375daab8e76fd",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 502.6548245743668,
+        "boundsMm": [
+          -2.0,
+          -2.0,
+          -20.0,
+          2.0,
+          2.0,
+          20.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 502.6548245743668,
+        "boundsMm": [
+          -2.0,
+          -2.0,
+          -20.0,
+          2.0,
+          2.0,
+          20.0
+        ]
+      },
+      "volumeErrorMm3": 0.0,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "chain_sprocket_12t",
+      "sha256": "88a823a280cbcb0bb112b2e11fe698b9878fe62ba66ced876ff95e94acb36089",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1051.9808002657892,
+        "boundsMm": [
+          -1.5,
+          -13.777993356158813,
+          -13.777993356158813,
+          1.5,
+          13.777993356158811,
+          13.777993356158813
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 1051.9808002658506,
+        "boundsMm": [
+          -1.5,
+          -13.777993356158783,
+          -13.777993356158783,
+          1.5,
+          13.777993356159,
+          13.777993356159
+        ]
+      },
+      "volumeErrorMm3": 6.139089236967266e-11,
+      "boundsErrorMm": 1.8829382497642655e-13,
+      "status": "PASS"
+    },
+    {
+      "part": "fixed_transfer_cheek",
+      "sha256": "56ec3d8b78117472bb5b715b79613df31e42351727d37265cc1f9c895c6f7955",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 38801.68033216985,
+        "boundsMm": [
+          -3.0,
+          175.0,
+          347.5,
+          3.0,
+          380.0,
+          392.5
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 38801.68033216941,
+        "boundsMm": [
+          -3.0,
+          175.0,
+          347.5,
+          3.0,
+          380.0,
+          392.5
+        ]
+      },
+      "volumeErrorMm3": 4.43833414465189e-10,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_0",
+      "sha256": "543afd8c898aae3eabb5d46fe07d285db3ba84ed8144c4927a765a661bf070a8",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979779246,
+        "boundsMm": [
+          -235.0,
+          -241.22293712889868,
+          76.99868892260925,
+          235.0,
+          -231.6224005752558,
+          87.36598156852592
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.52797965457,
+        "boundsMm": [
+          -235.0,
+          -241.2229371288086,
+          76.998688922609,
+          235.0,
+          -231.6224005751914,
+          87.365981568526
+        ]
+      },
+      "volumeErrorMm3": 1.246771716978401e-07,
+      "boundsErrorMm": 9.00683971849503e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_1",
+      "sha256": "e376b18847ff088df3ca84ba2ba35446254f6eb91a5292ea443e9cef5f21e86f",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979779246,
+        "boundsMm": [
+          -235.0,
+          -206.22293712889868,
+          116.99868892260925,
+          235.0,
+          -196.6224005752558,
+          127.36598156852592
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979656246,
+        "boundsMm": [
+          -235.0,
+          -206.2229371288106,
+          116.9986889226,
+          235.0,
+          -196.62240057519438,
+          127.36598156852
+        ]
+      },
+      "volumeErrorMm3": 1.2300006346777081e-07,
+      "boundsErrorMm": 8.807887752482202e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_2",
+      "sha256": "cbcc8baf33b8fa2fa27eabd2a86a963cbfcc930ab73d41aa204ee8cf984f6e36",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979779275,
+        "boundsMm": [
+          -235.0,
+          -171.22293712889868,
+          156.99868892260923,
+          235.0,
+          -161.6224005752558,
+          167.36598156852594
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979656334,
+        "boundsMm": [
+          -235.0,
+          -171.2229371288106,
+          156.9986889226,
+          235.0,
+          -161.62240057519435,
+          167.36598156852
+        ]
+      },
+      "volumeErrorMm3": 1.2294185580685735e-07,
+      "boundsErrorMm": 8.807887752482202e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_3",
+      "sha256": "39e74252a0167fdfca477fa2360959437087714a0bb7acac0d59fe2fa74bd47e",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.52797977928,
+        "boundsMm": [
+          -235.0,
+          -136.22293712889868,
+          196.99868892260923,
+          235.0,
+          -126.62240057525581,
+          207.36598156852594
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979656323,
+        "boundsMm": [
+          -235.0,
+          -136.2229371288106,
+          196.9986889226,
+          235.0,
+          -126.62240057519436,
+          207.36598156852
+        ]
+      },
+      "volumeErrorMm3": 1.2295640772208571e-07,
+      "boundsErrorMm": 8.807887752482202e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_4",
+      "sha256": "3d21ad204871ed0b70ea91ec465ea664d46182a0ed3efd856a712296899798b5",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979779308,
+        "boundsMm": [
+          -235.0,
+          -101.22293712889868,
+          236.99868892260923,
+          235.0,
+          -91.62240057525581,
+          247.36598156852594
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.52797950847,
+        "boundsMm": [
+          -235.0,
+          -101.22293712884095,
+          236.9986889226,
+          235.0,
+          -91.62240057525,
+          247.36598156852
+        ]
+      },
+      "volumeErrorMm3": 2.708384272409603e-07,
+      "boundsErrorMm": 5.772449185315054e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_5",
+      "sha256": "cfcab2c4591a152d3a4935604cbb768665da66793699f026d6b5f0aa9ba8c130",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979779386,
+        "boundsMm": [
+          -235.0,
+          -66.22293712889868,
+          276.99868892260923,
+          235.0,
+          -56.62240057525581,
+          287.36598156852597
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.52797976671,
+        "boundsMm": [
+          -235.0,
+          -66.2229371288919,
+          276.9986889226,
+          235.0,
+          -56.62240057525,
+          287.36598156852
+        ]
+      },
+      "volumeErrorMm3": 1.2676537153311074e-08,
+      "boundsErrorMm": 9.208633855450898e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_6",
+      "sha256": "da276a93cc647728d6d5188cfb5aaa0108516ea05d510933c7a606706143600e",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.5279797794,
+        "boundsMm": [
+          -235.0,
+          -31.222937128898675,
+          316.99868892260923,
+          235.0,
+          -21.622400575255803,
+          327.36598156852597
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979766735,
+        "boundsMm": [
+          -235.0,
+          -31.2229371288919,
+          316.9986889226,
+          235.0,
+          -21.62240057525,
+          327.36598156852
+        ]
+      },
+      "volumeErrorMm3": 1.2663804227486253e-08,
+      "boundsErrorMm": 9.208633855450898e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_lower_guide_7",
+      "sha256": "d606165bae10bc3942c8694bd36678f71736c1b151e34160290fb550f7b4b43d",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.527979779396,
+        "boundsMm": [
+          -235.0,
+          3.777062871101325,
+          356.99868892260923,
+          235.0,
+          13.377599424744197,
+          367.36598156852597
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15722.52797977487,
+        "boundsMm": [
+          -235.0,
+          3.7770628710995338,
+          356.9986889226,
+          235.0,
+          13.377599424744,
+          367.36598156852
+        ]
+      },
+      "volumeErrorMm3": 4.525645636022091e-09,
+      "boundsErrorMm": 9.208633855450898e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_0",
+      "sha256": "563afa03cd8a5cda688cf32a0e04aa3a713b1d1e4b50e83637da7b69fff7e6a6",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 135785.05595955817,
+        "boundsMm": [
+          -235.0,
+          -336.74373410456917,
+          145.96293578381076,
+          235.0,
+          -271.07105009913374,
+          220.41268266034757
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 135785.0559579433,
+        "boundsMm": [
+          -235.0,
+          -336.7437341045056,
+          145.96293578381,
+          235.0,
+          -271.07105009909435,
+          220.41268266034
+        ]
+      },
+      "volumeErrorMm3": 1.614884240552783e-06,
+      "boundsErrorMm": 6.355094228638336e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_1",
+      "sha256": "7fe0b09dfe6f09711fbf42f4d5683ec4ba36ee02ee7684cd9bee02a4f82f0717",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 149885.0559595588,
+        "boundsMm": [
+          -235.0,
+          -273.32878018325437,
+          218.43716883674202,
+          235.0,
+          -201.0710500991337,
+          300.41268266034757
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 149885.0559579684,
+        "boundsMm": [
+          -235.0,
+          -273.32878018320565,
+          218.43716883674,
+          235.0,
+          -201.07105009909435,
+          300.41268266034
+        ]
+      },
+      "volumeErrorMm3": 1.59040791913867e-06,
+      "boundsErrorMm": 4.871480996371247e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_2",
+      "sha256": "6b807bea8ef3da20a51264fb49123a1d36b72f5e95e8cef78414acf6d5803c3e",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 149885.05595955913,
+        "boundsMm": [
+          -235.0,
+          -203.32878018325434,
+          298.437168836742,
+          235.0,
+          -131.0710500991337,
+          380.41268266034757
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 149885.05595796744,
+        "boundsMm": [
+          -235.0,
+          -203.32878018320565,
+          298.43716883674,
+          235.0,
+          -131.07105009909435,
+          380.41268266034
+        ]
+      },
+      "volumeErrorMm3": 1.5916884876787663e-06,
+      "boundsErrorMm": 4.8686388254282065e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "pickup_upper_guide_3",
+      "sha256": "fed77f0f893b7f14973af1fa47276babcd1b41589c287de3c28b8bd5434d7ba3",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 149885.05595955922,
+        "boundsMm": [
+          -235.0,
+          -133.32878018325434,
+          378.437168836742,
+          235.0,
+          -61.07105009913371,
+          460.41268266034757
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 149885.05595751884,
+        "boundsMm": [
+          -235.0,
+          -133.32878018320565,
+          378.43716883674,
+          235.0,
+          -61.07105009913,
+          460.41268266034
+        ]
+      },
+      "volumeErrorMm3": 2.0403822418302298e-06,
+      "boundsErrorMm": 4.8686388254282065e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "float_carriage",
+      "sha256": "8a18507c5ab03ff7927aba3ed5d7f0335a0fbbdcad42bcfe80599751ebf26361",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 9917.689063934817,
+        "boundsMm": [
+          -3.0,
+          -37.26803686294814,
+          -24.0,
+          3.000000000000001,
+          49.03092033648254,
+          24.054589359588682
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 9917.68906393469,
+        "boundsMm": [
+          -3.0,
+          -37.26803686294,
+          -24.0,
+          3.000000000000001,
+          49.030920336483,
+          24.05458935959534
+        ]
+      },
+      "volumeErrorMm3": 1.2732925824820995e-10,
+      "boundsErrorMm": 8.142819751810748e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "cross_tube",
+      "sha256": "e725d2a7685a67f35ba2c64a37c1823f82a5238f7fa24f9435e48db4cf5d1ccf",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 94575.99999999997,
+        "boundsMm": [
+          -257.0,
+          -12.5,
+          -12.5,
+          257.0,
+          12.5,
+          12.5
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 94575.99999999997,
+        "boundsMm": [
+          -257.0,
+          -12.5,
+          -12.5,
+          257.0,
+          12.5,
+          12.5
+        ]
+      },
+      "volumeErrorMm3": 0.0,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "cross_tube_plug",
+      "sha256": "5492e283bb3dfd98a02dd22d690a70a44bb0a73cf23d8d64e07afd5f4a24be9e",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 8260.100918301276,
+        "boundsMm": [
+          -10.0,
+          -10.4,
+          -10.4,
+          10.0,
+          10.4,
+          10.4
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 8260.100918301261,
+        "boundsMm": [
+          -10.0,
+          -10.4,
+          -10.4,
+          10.0,
+          10.4,
+          10.4
+        ]
+      },
+      "volumeErrorMm3": 1.4551915228366852e-11,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_spine",
+      "sha256": "6c80a782a069fe6d75a3edd9c3bd802c1b9548a4bf65804b3946f5ec6e1ce738",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 14778.051842486382,
+        "boundsMm": [
+          -28.0,
+          -12.5,
+          -12.5,
+          28.0,
+          12.5,
+          12.5
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 14778.051842486708,
+        "boundsMm": [
+          -28.0,
+          -12.5,
+          -12.5,
+          28.0,
+          12.5,
+          12.5
+        ]
+      },
+      "volumeErrorMm3": 3.255991032347083e-10,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_hub",
+      "sha256": "c30972d5215f68d2a5afc0c7a93857bb4c4a1ef4b0cbf44871f0ed828cf31567",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 11121.175161854795,
+        "boundsMm": [
+          -4.0,
+          -25.0,
+          -25.0,
+          4.0,
+          25.0,
+          25.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 11121.175161855264,
+        "boundsMm": [
+          -4.0,
+          -25.0,
+          -25.0,
+          4.0,
+          25.0,
+          25.0
+        ]
+      },
+      "volumeErrorMm3": 4.69299266114831e-10,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "pivot_bush",
+      "sha256": "86bf7f1a7706b29d5b9aa56fd9a144d29ef16a70a620e5a28baf84e81939f127",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3273.288217628278,
+        "boundsMm": [
+          -4.0,
+          -17.0,
+          -17.0,
+          4.0,
+          17.0,
+          17.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3273.2882176283497,
+        "boundsMm": [
+          -4.0,
+          -17.0,
+          -17.0,
+          4.0,
+          17.0,
+          17.0
+        ]
+      },
+      "volumeErrorMm3": 7.185008144006133e-11,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "tower",
+      "sha256": "5052ca8e9ce1a3bff0c168291ba56a2986ce2aa30826aff579ffb1b6c148f4b7",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 170605.09776615145,
+        "boundsMm": [
+          -4.0,
+          105.0,
+          120.0,
+          4.0,
+          175.0,
+          463.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 170605.09776615363,
+        "boundsMm": [
+          -4.0,
+          104.99999999999639,
+          120.0,
+          4.0,
+          175.0,
+          463.0
+        ]
+      },
+      "volumeErrorMm3": 2.1827872842550278e-09,
+      "boundsErrorMm": 3.609557097661309e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "chassis_mount_block",
+      "sha256": "d8b1f1acadc0df579fea0a202b85aeb7e39f86ba59409aaa26cebefc57e959ce",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 121894.56672028889,
+        "boundsMm": [
+          -15.0,
+          -35.0,
+          -30.0,
+          15.0,
+          35.0,
+          30.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 121894.56672028886,
+        "boundsMm": [
+          -15.0,
+          -35.0,
+          -30.0,
+          15.0,
+          35.0,
+          30.0
+        ]
+      },
+      "volumeErrorMm3": 2.9103830456733704e-11,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "cradle_floor",
+      "sha256": "d365f6a45098eefa9b810e048468f5d1fa9b4ce5f912ca2be79851db540922d6",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 879085.7726656097,
+        "boundsMm": [
+          -235.0,
+          394.9999999999999,
+          384.0,
+          235.0,
+          725.0,
+          390.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 879085.7726656261,
+        "boundsMm": [
+          -235.0,
+          394.999999999991,
+          384.0,
+          235.0,
+          725.0,
+          390.0
+        ]
+      },
+      "volumeErrorMm3": 1.641456037759781e-08,
+      "boundsErrorMm": 8.86757334228605e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "cradle_stop",
+      "sha256": "c705ffdf94e1655a497143be50bdc99b5118a702bb806bd5d20f15be769b6f47",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 59470.37245568425,
+        "boundsMm": [
+          -62.5,
+          717.0,
+          390.0,
+          62.5,
+          723.0,
+          470.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 59470.37245568432,
+        "boundsMm": [
+          -62.5,
+          716.9999999999975,
+          390.0,
+          62.5,
+          723.0000000000025,
+          470.0
+        ]
+      },
+      "volumeErrorMm3": 7.275957614183426e-11,
+      "boundsErrorMm": 2.5011104298755527e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "anti_bounce_finger",
+      "sha256": "efc6916ceb7957b52596f55d2ed0150b85ccdd3a0c3b56ec889ceb1aac10cfad",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2654.384074669876,
+        "boundsMm": [
+          -7.5,
+          -30.0,
+          -1.5,
+          7.5,
+          30.0,
+          1.5
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2654.3840746698747,
+        "boundsMm": [
+          -7.5,
+          -30.0,
+          -1.5,
+          7.5,
+          30.0,
+          1.5
+        ]
+      },
+      "volumeErrorMm3": 1.3642420526593924e-12,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "sensor_bracket",
+      "sha256": "fe2f5982878f8b74b67ff691f14eb6c2760d3e15d5b67998d7e739559f5dae86",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 13779.717019674423,
+        "boundsMm": [
+          -15.0,
+          -9.0,
+          -15.0,
+          15.0,
+          9.0,
+          15.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 13779.717019674266,
+        "boundsMm": [
+          -15.0,
+          -9.0,
+          -15.0,
+          15.0,
+          9.0,
+          15.0
+        ]
+      },
+      "volumeErrorMm3": 1.5643308870494366e-10,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "frame_post",
+      "sha256": "3c6bcaf3e9ee20f7d72feba3be51b2757c591500c9a373efa329aaed6bdd2727",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 48576.0,
+        "boundsMm": [
+          -12.5,
+          -12.5,
+          -132.0,
+          12.5,
+          12.5,
+          132.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 48576.0,
+        "boundsMm": [
+          -12.5,
+          -12.5,
+          -132.0,
+          12.5,
+          12.5,
+          132.0
+        ]
+      },
+      "volumeErrorMm3": 0.0,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_drum",
+      "sha256": "13495c5406e46e4309b461e5c817c496dbaf0f03cc95fbccff2b0de6a6743a1d",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 333690.0971350311,
+        "boundsMm": [
+          -45.0,
+          -35.0,
+          -35.0,
+          45.0,
+          35.0,
+          35.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 333690.097135043,
+        "boundsMm": [
+          -45.0,
+          -35.0,
+          -35.0,
+          45.0,
+          35.0,
+          35.0
+        ]
+      },
+      "volumeErrorMm3": 1.1932570487260818e-08,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_shaft",
+      "sha256": "f4aae50106cd67d8ee0855b085977b144c18673b47d766fcbb2c38d881a8f71c",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 26539.4351015145,
+        "boundsMm": [
+          -95.0,
+          -7.332348418708248,
+          -6.35,
+          95.0,
+          7.332348418708247,
+          6.3500000000000005
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 26539.435101514806,
+        "boundsMm": [
+          -95.0,
+          -7.332348418709485,
+          -6.3500000000000005,
+          95.0,
+          7.332348418709486,
+          6.3500000000000005
+        ]
+      },
+      "volumeErrorMm3": 3.055902197957039e-10,
+      "boundsErrorMm": 1.2390088954816747e-12,
+      "status": "PASS"
+    },
+    {
+      "part": "orienter_deck",
+      "sha256": "2acd8acf2de5cf7a1268892b5b7a2e282faae4264a0b54a22ab8f40d110975f9",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 172559.13115695043,
+        "boundsMm": [
+          -60.0,
+          -95.0,
+          -4.0,
+          60.0,
+          95.0,
+          4.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 172559.13115694848,
+        "boundsMm": [
+          -60.0,
+          -95.00000000000058,
+          -4.0,
+          60.0,
+          95.0,
+          4.0
+        ]
+      },
+      "volumeErrorMm3": 1.949956640601158e-09,
+      "boundsErrorMm": 5.826450433232822e-13,
+      "status": "PASS"
+    },
+    {
+      "part": "motor_mount",
+      "sha256": "b37149ebcab17dbf9a8fb0c68f6978d47ab483ac6230f549a80bb3b5b73215d2",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 22420.211632170962,
+        "boundsMm": [
+          -3.0,
+          -32.0,
+          -32.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 22420.2116321709,
+        "boundsMm": [
+          -3.0,
+          -32.0,
+          -32.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      "volumeErrorMm3": 6.184563972055912e-11,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "deployment_motor_mount",
+      "sha256": "f137207d1a41a900bc2a0784c88642be5e21c08f5b10b1ddf2ecb4ebcc76f5f7",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 17893.861998474604,
+        "boundsMm": [
+          -3.0,
+          -32.0,
+          -32.0,
+          3.0,
+          32.0,
+          32.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 17893.86199847384,
+        "boundsMm": [
+          -3.0,
+          -32.0,
+          -32.0,
+          3.0,
+          32.000000000011354,
+          32.0
+        ]
+      },
+      "volumeErrorMm3": 7.639755494892597e-10,
+      "boundsErrorMm": 1.1354472917446401e-11,
+      "status": "PASS"
+    },
+    {
+      "part": "motor_screw_10_32",
+      "sha256": "6e34c50d09503bd41e219091a4abade398e67ae231631c96ededd8a2dd5954f3",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 394.03730505743573,
+        "boundsMm": [
+          -9.525,
+          -3.9,
+          -3.9,
+          4.6,
+          3.9,
+          3.9
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 394.03730505743533,
+        "boundsMm": [
+          -9.525,
+          -3.9,
+          -3.9,
+          4.6,
+          3.9,
+          3.9
+        ]
+      },
+      "volumeErrorMm3": 3.979039320256561e-13,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "receiver_bridge_reference",
+      "sha256": "373fd96f18ab68bdcf86c4279de853bb447e097e0fbec42e85642f77d3dfdfe5",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 234079.99999999994,
+        "boundsMm": [
+          -95.0,
+          -17.5,
+          -22.0,
+          95.0,
+          17.5,
+          108.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 234079.99999999994,
+        "boundsMm": [
+          -95.0,
+          -17.5,
+          -22.0,
+          95.0,
+          17.5,
+          108.0
+        ]
+      },
+      "volumeErrorMm3": 0.0,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "receiver_finger_reference",
+      "sha256": "6a3b00af83f16622cd92c3dd6f0ea567c16373872dc005002d5615b79c0572b8",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 10800.0,
+        "boundsMm": [
+          -6.0,
+          -15.0,
+          -15.0,
+          6.0,
+          15.0,
+          15.0
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 10800.0,
+        "boundsMm": [
+          -6.0,
+          -15.0,
+          -15.0,
+          6.0,
+          15.0,
+          15.0
+        ]
+      },
+      "volumeErrorMm3": 0.0,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    },
+    {
+      "part": "coral_reference",
+      "sha256": "2bee60ffaf6a37fb320391a65792e62cfc56fab4a5d7cfc200e84361f88e91f6",
+      "before": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 649551.4843768263,
+        "boundsMm": [
+          -150.8125,
+          -57.15,
+          -57.15,
+          150.8125,
+          57.15,
+          57.15
+        ]
+      },
+      "readback": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 649551.4843768408,
+        "boundsMm": [
+          -150.8125,
+          -57.15,
+          -57.15,
+          150.8125,
+          57.15,
+          57.15
+        ]
+      },
+      "volumeErrorMm3": 1.4435499906539917e-08,
+      "boundsErrorMm": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "generatedAssemblyReadback": {
+    "status": "PASS",
+    "sha256": "ee7d21830908ce7416e7a444d9f914b4be5d1ea5facdc7728c0769d2645c7d04",
+    "expectedBodies": 454,
+    "actualBodies": 454,
+    "volumeErrorMm3": 1.0065734386444092e-05,
+    "boundsErrorMm": 7.02016222930979e-11,
+    "allBodiesValidClosed": true
+  },
+  "cotsReexported": false,
+  "scope": "Generated neutral solids and generated-only assembly independently reimported; scalar/bounds/topological validity, no pointwise face-equivalence claim"
+}

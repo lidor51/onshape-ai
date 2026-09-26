@@ -1,0 +1,446 @@
+{
+  "schema": "reference-geometry-inspection/1",
+  "date": "2026-09-18",
+  "status": "PARTIAL_NATIVE_HIERARCHY_AND_SOURCE_MESH_INSPECTION",
+  "source": {
+    "team": "1690",
+    "documentId": "76609fe05a6594c5f9c4062a",
+    "microversion": "1d118c30ab4c3c15bc9b4ab0",
+    "configuration": "default",
+    "rootElementId": "465d3a35c190dab8355f1e5c",
+    "partDefinitions": 1341,
+    "subassemblies": 84,
+    "occurrences": 2684
+  },
+  "local": {
+    "sourceBodies": 493,
+    "placedOccurrences": 955,
+    "groups": {
+      "pickup": 309,
+      "indexer": 354,
+      "receiver": 7,
+      "chassis": 285
+    },
+    "viewer": "../../.cache/reference-cad/1690-inspection.html",
+    "measurements": "../../.cache/reference-cad/1690/measurements.json",
+    "units": "mm",
+    "method": "World-axis bounding boxes of source mesh vertices after native occurrence transforms; not analytic fits or machining dimensions",
+    "sha256": "293bd2dccf92300775d57de347eab27db99c3c990343d905d71a61def8be8cf0"
+  },
+  "measurements": {
+    "pickupShafts": [
+      {
+        "partId": "LF7YB",
+        "name": "1690-25-2600 <1> / 1690-25-2610 <1> / 1690-25-2611 <1>",
+        "spanXMm": 441.1999881267548,
+        "centerMm": [
+          -2.7755575615628914e-14,
+          159.21678623197698,
+          637.6811000142797
+        ]
+      },
+      {
+        "partId": "LFLZB",
+        "name": "1690-25-2600 <1> / 1690-25-2620 <1> / 1690-25-2621 <1>",
+        "spanXMm": 457.78000354766846,
+        "centerMm": [
+          0.002500000000071889,
+          260.08228118713686,
+          513.4790832577921
+        ]
+      },
+      {
+        "partId": "LFnbB",
+        "name": "1690-25-2600 <1> / 1690-25-2770 <1> / 1690-25-2771 <1>",
+        "spanXMm": 307.61998891830444,
+        "centerMm": [
+          1.1102230246251565e-13,
+          285.0533201166697,
+          385.8998977562951
+        ]
+      }
+    ],
+    "pickupStarCounts": [
+      {
+        "elementId": "4888016cc0c501d628b0d02c",
+        "count": 11
+      },
+      {
+        "elementId": "70304876d78dd05d432b8c72",
+        "count": 8
+      },
+      {
+        "elementId": "a2c88465a85cdff33c34d83b",
+        "count": 5
+      }
+    ],
+    "indexerTyreOccurrences": 10,
+    "indexerTyreCentersMm": [
+      [
+        172.4835684715284,
+        151.66250064483194,
+        302.90000106837357
+      ],
+      [
+        172.4835688423681,
+        177.06250064483186,
+        302.9000009795316
+      ],
+      [
+        172.48356882045945,
+        202.46249935516857,
+        302.8999989461565
+      ],
+      [
+        -109.98522739947096,
+        149.6375006448319,
+        194.6496958541862
+      ],
+      [
+        109.98522740692306,
+        149.63250064483145,
+        194.64969434957058
+      ],
+      [
+        -172.4835697451536,
+        200.43249935516795,
+        302.90000001846926
+      ],
+      [
+        -172.4835677778486,
+        175.03249935516803,
+        302.9000006976702
+      ],
+      [
+        -172.48356803798913,
+        149.6325006448313,
+        302.9000003890401
+      ],
+      [
+        -92.25000114184985,
+        191.0325006448319,
+        88.62611711924364
+      ],
+      [
+        92.25000114185204,
+        191.0325006448319,
+        88.62611732987263
+      ]
+    ],
+    "indexerTyreThicknessRangeMm": [
+      25.400001555681257,
+      25.400001555681396
+    ]
+  },
+  "analytic": {
+    "status": "BAD_GEOMETRY",
+    "bodyCount": 0
+  },
+  "nativeMotion": {
+    "pickupFeatures": 0,
+    "subassemblies": 25,
+    "subassemblyFeatures": 0,
+    "status": "NO_NATIVE_MATES_OBSERVED"
+  },
+  "availability": {
+    "1778": {
+      "status": "SOURCE_ACCESS_CLOSED_FOR_THIS_RUN",
+      "assemblyHttpErrors": [
+        26,
+        33
+      ],
+      "blobReadFailure": 31,
+      "geometryInspected": false
+    },
+    "2056": {
+      "status": "TEAM_WITHHOLDS_NATIVE_2025_ROBOT_CAD",
+      "report": "2056-NATIVE-INSPECTION.md",
+      "geometryInspected": false
+    }
+  },
+  "decision": {
+    "architecture": "Separate compliant pickup and independently powered horizontal-plan V indexer with upright wheel shafts",
+    "status": "FUNCTIONAL_ARCHITECTURE_SELECTED_NOT_GEOMETRY_FROZEN",
+    "receiver": "Reference dual-seal vacuum head inspected in static pose; adaptation grip and receiving pose not frozen",
+    "priorPassiveVEquivalent": false,
+    "liveCad": "BLOCKED_CURRENT_ANNUAL_ALLOWANCE_UNVERIFIED",
+    "manufacturingRelease": false,
+    "fieldReliability": "UNMEASURED"
+  },
+  "accounting": {
+    "referenceAttempts": 18,
+    "referenceCap": 18,
+    "totalDirectAttempts": 41,
+    "directCap": 140,
+    "annualAllowance": "UNKNOWN",
+    "reserveRequired": 500
+  },
+  "requests": [
+    {
+      "attempt": 24,
+      "operation": "getDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 2395,
+      "cache": "1778/getDocument-7865e993dcac.json",
+      "sha256": "7865e993dcac220664790fcdc07c4172841140834f6a076214364edbc42413b2"
+    },
+    {
+      "attempt": 25,
+      "operation": "getCurrentMicroversion",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 1119,
+      "cache": "1778/getCurrentMicroversion-233ff615a499.json",
+      "sha256": "233ff615a4999dcd0b7b83a25f860e43cdd169959672514726f4b18f3844d3f2"
+    },
+    {
+      "attempt": 26,
+      "operation": "getAssemblyDefinition",
+      "status": "STOPPED",
+      "httpStatus": 500,
+      "elapsedMs": 9492
+    },
+    {
+      "attempt": 27,
+      "operation": "getElementsInDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 1997,
+      "cache": "1778/getElementsInDocument-1715741fad65.json",
+      "sha256": "1715741fad65286e67f33ba3eecd9897f05324fd4035ee7053a82a59ab33db40"
+    },
+    {
+      "attempt": 28,
+      "operation": "getDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 941,
+      "cache": "1690/getDocument-037b6bd24e53.json",
+      "sha256": "037b6bd24e53fd57dcf6b90b6926bac982124308f0764c10b66a19a1f994446d"
+    },
+    {
+      "attempt": 29,
+      "operation": "getCurrentMicroversion",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 1286,
+      "cache": "1690/getCurrentMicroversion-4a81367faeec.json",
+      "sha256": "4a81367faeec96d37c333ebe41bdd6177b49d5734bb7929e9630efb18f2c0379"
+    },
+    {
+      "attempt": 30,
+      "operation": "getElementsInDocument",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 1057,
+      "cache": "1690/getElementsInDocument-1c1d9307c320.json",
+      "sha256": "1c1d9307c320ec8b1312f8bc187292268beb277e4207dc751982a9a7e7d45730"
+    },
+    {
+      "attempt": 31,
+      "operation": "downloadFileWorkspace",
+      "status": "STOPPED",
+      "elapsedMs": 38266
+    },
+    {
+      "attempt": 32,
+      "operation": "getAssemblyDefinition",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 1432,
+      "cache": "1690/getAssemblyDefinition-e089e2abbd17.json",
+      "sha256": "e089e2abbd17a833077221d308d027c84a2235f718f04109f7846c3ec59c0bd9"
+    },
+    {
+      "attempt": 33,
+      "operation": "getAssemblyDefinition",
+      "status": "STOPPED",
+      "httpStatus": 500,
+      "elapsedMs": 2934
+    },
+    {
+      "attempt": 34,
+      "operation": "exportPartStudioGltf",
+      "status": "STOPPED",
+      "httpStatus": 406,
+      "elapsedMs": 411
+    },
+    {
+      "attempt": 35,
+      "operation": "exportPartStudioGltf",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 16174,
+      "cache": "1690/exportPartStudioGltf-0b448603b671.json",
+      "sha256": "0b448603b6714c533ab064dab8411d9dfbdc193a86894930644232e2d43dc4d2"
+    },
+    {
+      "attempt": 36,
+      "operation": "getPartStudioBodyDetails",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 13454,
+      "cache": "1690/getPartStudioBodyDetails-eebd0ec2a0dc.json",
+      "sha256": "eebd0ec2a0dc78d3cd10982d3e8530d452378f3c6ef4944c9243eddea18d38e5"
+    },
+    {
+      "attempt": 37,
+      "operation": "exportPartStudioGltf",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 12681,
+      "cache": "1690/exportPartStudioGltf-6366e0fcc2de.json",
+      "sha256": "6366e0fcc2deadd9d826bbbced87f06ce91c2446f8bb6ffa7f37ae1d665e0344"
+    },
+    {
+      "attempt": 38,
+      "operation": "getAssemblyDefinition",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 1517,
+      "cache": "1690/getAssemblyDefinition-84498176e1b3.json",
+      "sha256": "84498176e1b34cc8077bf11030a7d77f61a856d81236e511c805ebe5bcd71404"
+    },
+    {
+      "attempt": 39,
+      "operation": "exportPartStudioGltf",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 12255,
+      "cache": "1690/exportPartStudioGltf-564af202850c.json",
+      "sha256": "564af202850c3ae4502dd0407be4e972721ee5694bc3b8936c98b4c343e895ed"
+    },
+    {
+      "attempt": 40,
+      "operation": "exportPartStudioGltf",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 19594,
+      "cache": "1690/exportPartStudioGltf-13bb8dd85c15.json",
+      "sha256": "13bb8dd85c1564f510264588f89fde8d18fe1fb68927544aa0c4e0f4e547ec73"
+    },
+    {
+      "attempt": 41,
+      "operation": "exportPartStudioGltf",
+      "status": "SUCCESS",
+      "httpStatus": 200,
+      "elapsedMs": 15022,
+      "cache": "1690/exportPartStudioGltf-8109624e05dd.json",
+      "sha256": "8109624e05ddb2911ab1d74a683ac8b7544b47d49a7216c63d63fd719247c663"
+    }
+  ],
+  "sourceFrame": {
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "widthAxis": "X",
+    "foreAftAxis": "Z",
+    "evidenceParts": [
+      "JFv",
+      "JFz",
+      "JFr",
+      "JF3",
+      "KF3n"
+    ],
+    "frameRails": [
+      {
+        "partId": "JFv",
+        "centerMm": [
+          364.5000010728836,
+          36.999999545514584,
+          0
+        ],
+        "sizeMm": [
+          25.000005960464478,
+          49.99999888241291,
+          754.0000081062317
+        ]
+      },
+      {
+        "partId": "JFz",
+        "centerMm": [
+          0,
+          36.999999545514584,
+          364.5000010728836
+        ],
+        "sizeMm": [
+          754.0000081062317,
+          49.99999888241291,
+          25.000005960464478
+        ]
+      },
+      {
+        "partId": "JFr",
+        "centerMm": [
+          0,
+          36.999999545514584,
+          -364.5000010728836
+        ],
+        "sizeMm": [
+          754.0000081062317,
+          49.99999888241291,
+          25.000005960464478
+        ]
+      },
+      {
+        "partId": "JF3",
+        "centerMm": [
+          -364.5000010728836,
+          36.999999545514584,
+          0
+        ],
+        "sizeMm": [
+          25.000005960464478,
+          49.99999888241291,
+          754.0000081062317
+        ]
+      }
+    ],
+    "floorDatum": "Not verified; lowest selected tire mesh is about native Y=-2.11 mm. Do not equate Y=0 with loaded carpet."
+  },
+  "kinematicProbe": {
+    "status": "SIMPLE_PINNED_FOUR_BAR_HYPOTHESIS_REJECTED",
+    "source": "1690/bore-observations.json",
+    "sha256": "1a0e4718c1bf330525f5a12f9e8c9243a6ec31b635edb39cd670848a9985b827",
+    "couplerPart": "LFfVB",
+    "lowerRockerPart": "LFPYB",
+    "contactBearingPart": "KFP2",
+    "bearingCenterYZMm": [
+      185.62051331514752,
+      593.8393597077888
+    ],
+    "slotOutlineSizeMm": [
+      52.933624267578125,
+      35.916259765625
+    ],
+    "slotEndFit": {
+      "center": [
+        185.6205106423837,
+        593.8393633166837
+      ],
+      "radius": 6.00000952459233,
+      "maximumResidual": 0.0000331447670571805,
+      "samples": 13
+    },
+    "reason": "The front bearing is in a shaped slot, not a corresponding round pivot hole. Motion needs slot/contact freedom and independently verified drive coupling."
+  },
+  "duplicateOccurrences": {
+    "partId": "KFD+",
+    "count": 2,
+    "paths": [
+      [
+        "M7T5IJdCYkpY0uL1M",
+        "MUnwfVhi0XQQJA+eF"
+      ],
+      [
+        "Mhn/xfwXiocM6oV8y",
+        "MYXMrX5sHnuEOMrGM",
+        "MvEHuZMz31VtnApRc"
+      ]
+    ],
+    "status": "COINCIDENT_SOURCE_OCCURRENCES_NOT_TWO_PROVEN_PHYSICAL_PLATES"
+  }
+}

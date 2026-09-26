@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-09-18",
+  "team": 1690,
+  "season": 2025,
+  "robot": "Whisper",
+  "status": "BLOCKED_BEFORE_NATIVE_INSPECTION",
+  "constraints": {
+    "cadDownloadCapBytes": 200000000,
+    "onshapeBrowserAutomation": false,
+    "authenticatedApiOrMcpCalls": 0,
+    "onshapeRequests": 0,
+    "modelCopiesOrMutations": 0,
+    "delegates": 0
+  },
+  "release": {
+    "postUrl": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057/1",
+    "postId": 3609473,
+    "author": "manash",
+    "authorDisplayName": "yotam manash",
+    "createdAt": "2025-05-02T10:52:58.814Z",
+    "updatedAt": "2025-05-02T10:52:58.814Z",
+    "forumPostRevision": 1,
+    "onshapeUrl": "https://cad.onshape.com/documents/76609fe05a6594c5f9c4062a/w/437a97728f1629348e9dd7cf/e/465d3a35c190dab8355f1e5c",
+    "documentId": "76609fe05a6594c5f9c4062a",
+    "workspaceId": "437a97728f1629348e9dd7cf",
+    "elementId": "465d3a35c190dab8355f1e5c",
+    "immutableCadRevision": null,
+    "configuration": null,
+    "driveUrl": "https://drive.google.com/file/d/18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O/view?usp=sharing",
+    "driveFileId": "18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O",
+    "driveLinkLabel": "Top level x_t files",
+    "stepLinkInOpeningPost": false
+  },
+  "driveMetadata": {
+    "publicViewerStatus": "VERIFIED_ANONYMOUS_HTTP_200",
+    "filename": "1690-25-0000 Post.x_t",
+    "reportedFormat": "PARASOLID_TEXT_X_T",
+    "formatBasis": "Team release link label and public filename; NOT payload header inspection.",
+    "mimeType": "application/octet-stream",
+    "reportedFileSizeBytes": 372129700,
+    "sizeEvidence": "Parsed public viewer window.viewerData.itemJson[25][2] equals string 372129700; undocumented viewer metadata, not measured payload size.",
+    "filenameEvidence": "HTML title and window.viewerData.itemJson[1].",
+    "mimeTypeEvidence": "window.viewerData.itemJson[11].",
+    "ordinaryDownloadUrlEvidence": "window.viewerData.itemJson[18].",
+    "ordinaryDownloadUrl": "https://drive.usercontent.google.com/uc?id=18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O&export=download",
+    "redirectTarget": "https://drive.usercontent.google.com/download?id=18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O&export=download",
+    "exceedsDownloadCap": true,
+    "payloadDownloadAvailability": "UNVERIFIED",
+    "finalHeadMeaning": "HTTP 200 text/html with no Content-Disposition filename; not a CAD attachment check. Declared zero Content-Length is not CAD file size. Final HTML body was not read.",
+    "fileRevision": null,
+    "filenameRevisionCaution": "The filename word Post does not establish a frozen CAD revision."
+  },
+  "revisionContext": [
+    {
+      "postUrl": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057/35",
+      "postId": 3614179,
+      "author": "Korny",
+      "createdAt": "2025-05-06T17:59:29.367Z",
+      "updatedAt": "2025-05-06T18:02:39.164Z",
+      "forumPostRevision": 1,
+      "evidenceClass": "AUTHOR_REPORTED_NOT_CAD_INSPECTED",
+      "summary": "Acquisition and orientation were separated; a rear roller was added on 2025-02-14 after a dead spot; the front roller later changed to stars only after ISR event 3. The downloaded-file revision was not established."
+    },
+    {
+      "postUrl": "https://www.chiefdelphi.com/t/self-collapsing-4-bar-intakes/501428/19",
+      "postId": 3617031,
+      "author": "Korny",
+      "createdAt": "2025-05-08T17:55:17.777Z",
+      "updatedAt": "2025-05-08T18:04:18.970Z",
+      "forumPostRevision": 2,
+      "evidenceClass": "AUTHOR_REPORTED_NOT_CAD_INSPECTED",
+      "summary": "The pictured linkage is explicitly an earlier, more-roller version. Surgical tubing assists lifting; main pivot is described below the lower front pivot. No geometry was measured.",
+      "additionalUnopenedLink": "https://drive.google.com/file/d/1QJrddWZYCMFoX7r7Is6cA_FesbnDkVun/view?usp=drivesdk",
+      "additionalUnopenedLinkLabel": "intake four bar geometry",
+      "additionalUnopenedLinkFormat": "UNKNOWN"
+    }
+  ],
+  "alternativeFormatSearch": {
+    "stepCandidatesFound": [],
+    "scope": "Complete relevant cooked bodies for release posts 1 and 35 and collapse post 19, plus local STEP-labelled-anchor and .step/.stp href scan of the three already-fetched post windows.",
+    "limitation": "Not a complete topic/site/edit-history or opaque-file-ID search. No broad crawl or additional CAD destination opened."
+  },
+  "nativeInspection": {
+    "status": "NOT_PERFORMED",
+    "localNativeFile": null,
+    "nativeFileSha256": null,
+    "nativeHeader": null,
+    "parasolidVersion": null,
+    "units": null,
+    "bodyCount": null,
+    "readerOrConverterRun": false,
+    "localReadableFileProduced": null,
+    "geometryMeasurements": [],
+    "blockers": [
+      "Reported 372129700-byte file exceeds the 200000000-byte cap; no CAD payload GET was attempted.",
+      "Parasolid .x_t is not directly readable by the existing CadQuery/OpenCascade route; no unsupported-format parse or paid conversion was attempted.",
+      "No bounded STEP alternative was identified in the fetched sources.",
+      "The final ordinary download HEAD served HTML rather than CAD attachment headers; actual payload availability remains unverified."
+    ]
+  },
+  "nearestReadableRoute": {
+    "status": "PARENT_HANDOFF_NOT_EXECUTED",
+    "source": "Released Onshape document/workspace/element in release above; destination not accessed by this task.",
+    "action": "Parent uses its authorized API budget to establish a version/microversion and configuration, identify intake plus indexer/receiver interface occurrences, and export a bounded STEP subset preserving placement information.",
+    "availabilityOfBoundedExport": "UNVERIFIED",
+    "requiredChecks": [
+      "Record selected assembly/occurrences, immutable revision/configuration and export settings.",
+      "Enforce 200000000-byte cap and record actual file SHA-256.",
+      "Read STEP header and successfully import with CadQuery/OpenCascade before reporting native geometry measurements."
+    ],
+    "fallback": "Team-supplied STEP if a bounded authorized Onshape export cannot be obtained."
+  },
+  "requests": [
+    {
+      "number": 1,
+      "method": "GET",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057.json",
+      "status": 200,
+      "responseBytes": 64484,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "e367ac3dff7ea6dc39f3f3a1807b7d31d8f6b5e0b7faeda07c902942e4c6010d",
+      "reviewed": "Complete post-1 cooked HTML including href destinations; not all returned posts."
+    },
+    {
+      "number": 2,
+      "method": "GET",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057.json?page=2",
+      "status": 200,
+      "responseBytes": 95375,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "a77c4429cd7f4c31c0e32ce04072064b1d110c985b43e392e92bad4177b290b6",
+      "reviewed": "Complete post-35 cooked HTML read untruncated as multiline text; not all returned posts."
+    },
+    {
+      "number": 3,
+      "method": "GET",
+      "url": "https://www.chiefdelphi.com/t/self-collapsing-4-bar-intakes/501428.json",
+      "status": 200,
+      "responseBytes": 66665,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "6ab2c59b8a3a830221abd0dca22bd4a70409ff1a21e957c438a6366e0fe0fc06",
+      "reviewed": "Complete post-19 cooked HTML read untruncated as multiline text; not all returned posts."
+    },
+    {
+      "number": 4,
+      "method": "GET",
+      "url": "https://drive.google.com/file/d/18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O/view?usp=sharing",
+      "status": 200,
+      "responseBytes": 79236,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "1292e6c5bc193970545a41a9bd8d36e2f7971f5d82409a432a8995650afabfc3",
+      "reviewed": "Complete raw HTTP HTML received in memory; title and selected parsed embedded itemJson metadata reviewed; scripts not executed."
+    },
+    {
+      "number": 5,
+      "method": "HEAD",
+      "url": "https://drive.usercontent.google.com/uc?id=18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O&export=download",
+      "status": 303,
+      "responseBytes": 0,
+      "contentLength": 0,
+      "contentType": "application/binary",
+      "contentDisposition": "",
+      "location": "https://drive.usercontent.google.com/download?id=18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O&export=download",
+      "sha256": null,
+      "reviewed": "Headers only; ordinary redirect followed once with HEAD."
+    },
+    {
+      "number": 6,
+      "method": "HEAD",
+      "url": "https://drive.usercontent.google.com/download?id=18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O&export=download",
+      "status": 200,
+      "responseBytes": 0,
+      "contentLength": 0,
+      "contentType": "text/html; charset=utf-8",
+      "contentDisposition": "",
+      "location": "",
+      "lastModified": "",
+      "etag": "",
+      "sha256": null,
+      "reviewed": "Headers only; HTML body not read; no CAD attachment or binary payload verified."
+    }
+  ],
+  "requestTotals": {
+    "publicHttpRequests": 6,
+    "logicalSourceRoutes": 5,
+    "getRequests": 4,
+    "headRequests": 2,
+    "followedRedirects": 1,
+    "sourceBodyBytesRead": 305760,
+    "cadPayloadGetRequests": 0,
+    "cadPayloadDownloads": 0,
+    "imageDownloads": 0,
+    "savedCacheDownloads": 0
+  },
+  "bodyReadLimitation": "Raw JSON/HTML responses were received in memory, not stripped webpage summaries. The complete relevant cooked post HTML was reviewed after correcting initial display truncation; other posts were only link-scanned. Discourse raw Markdown/edit history was not requested. Only selected Drive metadata was reviewed; scripts were not executed. The final download-endpoint HTML body and all CAD payload bytes were unread.",
+  "hashScope": "Hashes describe received public source bodies only. No native CAD file hash exists from this task."
+}

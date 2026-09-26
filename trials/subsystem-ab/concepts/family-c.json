@@ -1,0 +1,183 @@
+[
+  {
+    "id": "07",
+    "title": "Side Door",
+    "family": "Side pickup with sideways feed above an intact bumper",
+    "summary": "Approach coral from the left side, raise it above the bumper, then feed sideways into a low tray. The side receiver needs its own chassis recess.",
+    "advantage": "Leaves the front free and offers coral sideways without turning it. Flat side plates and small guide wheels suit the team's tools.",
+    "risk": "Side pickup changes the driving approach and consumes side space. The lift, retention, and swept clearance remain unresolved.",
+    "firstTest": "Mock up the full side bumper and one tube. Test floor reach, lifting outside the band, then sideways feed at 240 mm; reject any bumper overlap.",
+    "complexity": "moderate",
+    "inspiration": "Independent side-access sketch; no team geometry copied. Flat aluminum plates, polycarbonate guards and simple shafts are provisional.",
+    "mouthWidthMm": 350,
+    "states": "Pickup at left side; hold one tube above the band; offer sideways. Whole-robot occupancy blocks a second. Lift drive, stow and jam release remain open.",
+    "side": {
+      "guides": [
+        { "points": [[125, 182.85], [475, 182.85]], "label": "Tray above bumper; side entry projects here" },
+        { "points": [[125, 190], [125, 315]], "label": "Front end guide" },
+        { "points": [[475, 190], [475, 315]], "label": "Rear end guide" }
+      ],
+      "rollers": [],
+      "links": [],
+      "pivot": null,
+      "ghost": [],
+      "path": [[300, 57.15], [300, 145], [300, 240], [300, 240], [300, 240], [300, 240]],
+      "receiver": { "center": [300, 240], "label": "New side-fed tray; center 240 mm" },
+      "labels": [
+        { "at": [40, 400], "text": "SIDE ACCESS: travel is across this view, not through the front" },
+        { "at": [300, 350], "text": "Same y=300; lift projects vertically as x changes" },
+        { "at": [300, 30], "text": "Start outside side bumper; lift before moving inward" },
+        { "at": [320, 205], "text": "Keep full band; tray uses an internal recess" },
+        { "at": [320, 285], "text": "240 center: 17.85 mm above top plus tube radius" }
+      ]
+    },
+    "plan": {
+      "guides": [
+        { "points": [[-595, 125], [-350, 125], [80, 125]], "label": "350 mm side approach span, measured along y" },
+        { "points": [[-595, 475], [-350, 475], [80, 475]], "label": "End guide; above protective band" },
+        { "points": [[-350, 145], [80, 145], [80, 455], [-350, 455]], "label": "Raised side shelf and chassis recess" }
+      ],
+      "rollers": [
+        { "center": [-285, 125], "radius": 25, "label": "Vertical guide wheel drives sideways" },
+        { "center": [-285, 475], "radius": 25, "label": "Opposed vertical guide wheel" },
+        { "center": [-150, 125], "radius": 25, "label": "Side-feed wheel" },
+        { "center": [-150, 475], "radius": 25, "label": "Side-feed wheel" }
+      ],
+      "movingOutline": [[-595, 125], [-470, 125], [-470, 475], [-595, 475], [-595, 125]],
+      "path": [[-535, 300], [-530, 300], [-500, 300], [-350, 300], [-180, 300], [0, 300]],
+      "receiver": { "center": [0, 300], "label": "Side-fed tray; tube points rearward" },
+      "coralYawDeg": 0,
+      "labels": [
+        { "at": [-440, 70], "text": "Left-side approach only; no front entry" },
+        { "at": [-450, 540], "text": "Side extension is measured from x=-350, not x=0" },
+        { "at": [-420, 600], "text": "Floor 57 -> 145 -> raised 240 mm; see side projection" },
+        { "at": [-320, 660], "text": "Full bumper ring remains; side opening is above it" },
+        { "at": [30, 540], "text": "0 deg yaw; sideways motion, no turn" }
+      ]
+    }
+  },
+  {
+    "id": "08",
+    "title": "Grab and Lift",
+    "family": "Short two-link arm carries a single coral in jaws",
+    "summary": "Small jaws grab a centered tube, lift it over the full bumper, and place it into a raised receiver. Two short links replace a continuous feed path.",
+    "advantage": "Keeps hold of one tube through the transfer and avoids a long intake deck. Router-cut links and printed jaw pads are plausible starting points.",
+    "risk": "Capture width is small; arbitrary tube angles may miss. Joint control and level jaws add work, and the new receiver must accept coral at 387 mm.",
+    "firstTest": "Use two 220 mm mock links and simple jaws. Try offset and angled tubes, then carry one over a full bumper while checking grip and wrist clearance.",
+    "complexity": "high",
+    "inspiration": "Independent pick-and-place sketch, not a team's arm replica. Flat links and turned pivots fit the shop; drive ratios and jaw materials are unselected.",
+    "mouthWidthMm": 350,
+    "states": "Pickup only a centered crosswise tube; hold in closed jaws; offer to a raised dock. Whole-robot occupancy blocks a second. Wrist leveling and stow are unproven.",
+    "side": {
+      "guides": [
+        { "points": [[-235, 85], [-235, 35], [-215, 35]], "label": "Front jaw at pickup" },
+        { "points": [[-105, 85], [-105, 35], [-125, 35]], "label": "Rear jaw at pickup" },
+        { "points": [[175, 405], [175, 330], [305, 330], [305, 405]], "label": "New raised receiving jaws" }
+      ],
+      "rollers": [],
+      "links": [
+        { "points": [[50, 277.15], [-170, 277.15], [-170, 57.15]], "label": "Pickup: two 220 mm links" },
+        { "points": [[50, 277.15], [50, 497.15], [240.525589, 387.15]], "label": "Offer: same two links" }
+      ],
+      "pivot": [50, 277.15],
+      "ghost": [
+        [[175.525589, 415], [175.525589, 365], [195.525589, 365]],
+        [[305.525589, 415], [305.525589, 365], [285.525589, 365]]
+      ],
+      "path": [[-170, 57.15], [-195, 145], [-175, 245], [-85, 300], [65, 355], [240.525589, 387.15]],
+      "receiver": { "center": [240.525589, 387.15], "label": "New crosswise dock; center 387 mm" },
+      "labels": [
+        { "at": [-250, 530], "text": "Link angles from rearward: pickup 180/-90 deg" },
+        { "at": [-250, 575], "text": "Offer 90/-30 deg; wrist leveling not designed" },
+        { "at": [-180, 215], "text": "Lift outside bumper before moving rearward" },
+        { "at": [20, 225], "text": "Carry center above 222.15 mm plus clearance" },
+        { "at": [315, 455], "text": "Higher receiver is the tradeoff; not a proven motion" }
+      ]
+    },
+    "plan": {
+      "guides": [
+        { "points": [[-175, -285], [-175, -110]], "label": "350 mm approach span, not jaw opening" },
+        { "points": [[175, -285], [175, -110]], "label": "Sketch approach boundary only" },
+        { "points": [[-65, -235], [65, -235]], "label": "Small front jaw grips tube middle" },
+        { "points": [[-65, -105], [65, -105]], "label": "Small rear jaw; about 130 mm open gap" },
+        { "points": [[-190, 175.525589], [-190, 305.525589], [190, 305.525589], [190, 175.525589]], "label": "Raised crosswise receiving dock" }
+      ],
+      "rollers": [],
+      "movingOutline": [[-75, -235], [75, -235], [75, 305.525589], [-75, 305.525589], [-75, -235]],
+      "path": [[0, -170], [0, -195], [0, -175], [0, -85], [0, 65], [0, 240.525589]],
+      "receiver": { "center": [0, 240.525589], "label": "New dock accepts crosswise coral" },
+      "coralYawDeg": 90,
+      "labels": [
+        { "at": [-260, -345], "text": "Approach span 350 mm; actual capture window is small" },
+        { "at": [-240, -400], "text": "Crosswise tube only; skewed pickup may fail" },
+        { "at": [110, 60], "text": "Arm projection; two poses in side view" },
+        { "at": [-230, 420], "text": "90 deg yaw stays fixed while carried" },
+        { "at": [-230, 475], "text": "One tube total; receiver must confirm hold before release" }
+      ]
+    }
+  },
+  {
+    "id": "09",
+    "title": "Wheel Deck",
+    "family": "Short front pickup and two powered wheel banks turn coral",
+    "summary": "Low front rollers lift coral over the bumper onto a small powered deck. Two wheel banks run at different speeds to turn it for a rearward handoff.",
+    "advantage": "Turns coral without swinging the whole intake. A short plate deck and separate wheel banks keep the turning job apart from the front pickup.",
+    "risk": "The two banks may lose grip as coral turns. Added drives and sensing need tests; the receiver changes to a centered tray that accepts lengthwise coral.",
+    "firstTest": "On a short two-bank deck, film one tube turning from 70 to 35 to 0 degrees. Try slips and offsets; then test the front lift over a full bumper.",
+    "complexity": "moderate",
+    "inspiration": "Independent differential-drive deck sketch, not a team reproduction. Flat deck, compliant wheels and simple shafts; motor and reduction choices remain open.",
+    "mouthWidthMm": 500,
+    "states": "Pickup one tube; hold and turn on the powered deck; offer lengthwise. Whole-robot occupancy blocks a second. Speeds, sensing, reverse clearing and stow are open.",
+    "side": {
+      "guides": [
+        { "points": [[-410, 0], [-330, 0], [-285, 110], [-240, 192.85], [510, 192.85]], "label": "Short lift lip then low powered deck" },
+        { "points": [[-390, 120], [-335, 145], [-300, 235], [-240, 310], [-140, 310]], "label": "Compliant upper guide; contact needs testing" },
+        { "points": [[280, 192.85], [590, 192.85]], "label": "New receiver tray at deck height" }
+      ],
+      "rollers": [
+        { "center": [-335, 140], "radius": 40, "label": "Front pickup roll" },
+        { "center": [-200, 155], "radius": 38, "label": "Short kick-up roll below crest" },
+        { "center": [80, 164.85], "radius": 28, "label": "Both powered banks overlap in side projection" },
+        { "center": [180, 164.85], "radius": 28, "label": "Short deck wheels" },
+        { "center": [280, 164.85], "radius": 28, "label": "Short deck wheels" }
+      ],
+      "links": [],
+      "pivot": null,
+      "ghost": [],
+      "path": [[-390, 57.15], [-330, 75], [-270, 240], [-120, 250], [80, 250], [200, 250], [320, 250], [435, 250]],
+      "receiver": { "center": [435, 250], "label": "New lengthwise tray; center 250 mm" },
+      "labels": [
+        { "at": [-320, 370], "text": "Short front lift; no bumper gap" },
+        { "at": [-80, 220], "text": "250 center: 27.85 mm above top plus tube radius" },
+        { "at": [70, 335], "text": "Tube turns in plan; center stays at 250 mm" },
+        { "at": [300, 405], "text": "Level handoff requires a different receiver tray" }
+      ]
+    },
+    "plan": {
+      "guides": [
+        { "points": [[-250, -395], [-250, -130], [-210, 30], [-210, 375]], "label": "500 mm pickup mouth into compact deck" },
+        { "points": [[250, -395], [250, -130], [210, 30], [210, 375]], "label": "Opposed edge guide" },
+        { "points": [[-250, -375], [250, -375], [250, -295], [-250, -295], [-250, -375]], "label": "Transverse pickup roll band, not vertical wheels" },
+        { "points": [[-250, -238], [250, -238], [250, -162], [-250, -162], [-250, -238]], "label": "Transverse kick-up roll band" },
+        { "points": [[-85, 40], [-25, 40], [-25, 320], [-85, 320], [-85, 40]], "label": "Left powered wheel bank; horizontal axles" },
+        { "points": [[25, 40], [85, 40], [85, 320], [25, 320], [25, 40]], "label": "Right powered wheel bank; separate speed" },
+        { "points": [[-75, 340], [-75, 610], [75, 610], [75, 340]], "label": "New narrow receiver tray" },
+        { "points": [[-141.718, 28.418], [141.718, 131.582]], "label": "One tube axis at center (0,80): yaw 70 deg" },
+        { "points": [[-86.502, 76.46], [86.502, 323.54]], "label": "Same tube at center (0,200): yaw 35 deg" },
+        { "points": [[0, 169.1875], [0, 470.8125]], "label": "Same tube at center (0,320): yaw 0 deg" }
+      ],
+      "rollers": [],
+      "movingOutline": [[-210, 20], [210, 20], [210, 375], [-210, 375], [-210, 20]],
+      "path": [[0, -390], [0, -330], [0, -270], [0, -120], [0, 80], [0, 200], [0, 320], [0, 435]],
+      "receiver": { "center": [0, 435], "label": "Centered lengthwise receiver" },
+      "coralYawDeg": 0,
+      "labels": [
+        { "at": [-230, -440], "text": "Crosswise front pickup; turn happens on deck" },
+        { "at": [-240, 450], "text": "Three axis lines are one tube at successive times" },
+        { "at": [-230, 500], "text": "70 -> 35 -> 0 deg is a target, not measured motion" },
+        { "at": [-230, 550], "text": "Feeding rearward: right bank faster for this turn; grip unproven" },
+        { "at": [-230, 665], "text": "Short wheel deck, not a full-length conveyor" }
+      ]
+    }
+  }
+]

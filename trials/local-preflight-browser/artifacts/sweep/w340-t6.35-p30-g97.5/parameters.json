@@ -1,0 +1,34 @@
+{
+  "innerWidthMm": 340,
+  "plateThicknessMm": 6.35,
+  "plateLengthMm": 320,
+  "plateHeightMm": 150,
+  "plateBottomZMm": 12.7,
+  "rollerDiameterMm": 76.2,
+  "rollerGapMm": 97.5,
+  "rollerSideClearanceMm": 5,
+  "frontRollerYMm": 70,
+  "rollerZMm": 65,
+  "shaftDiameterMm": 12.7,
+  "shaftHoleDiameterMm": 12.9,
+  "shaftEndExtensionMm": 12.7,
+  "crossmemberSizeMm": 25.4,
+  "crossmemberCentersYZMm": [
+    [
+      140,
+      135
+    ],
+    [
+      300,
+      135
+    ]
+  ],
+  "mountHoleDiameterMm": 6.6,
+  "pivotCenterYZMm": [
+    30,
+    130
+  ],
+  "pivotHoleDiameterMm": 12.9,
+  "units": "mm",
+  "downstreamHole": false
+}

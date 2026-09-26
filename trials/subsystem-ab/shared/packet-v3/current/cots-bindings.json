@@ -1,0 +1,764 @@
+{
+  "status": "SOURCE_GEOMETRY_UNCHANGED_STEP_EQUIVALENCE_BLOCKED",
+  "bindings": {
+    "cots_x44_main": {
+      "product": "x44",
+      "sourceFile": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "sourceBodyIndex": 0,
+      "sourceBodySignature": {
+        "index": 0,
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 112107.30835411993,
+        "boundsMm": [
+          -22.000000100000005,
+          -25.400000100000014,
+          -74.61250010000572,
+          22.000000100000005,
+          22.0000001,
+          37.357050099999995
+        ],
+        "axialSections": [
+          {
+            "zMm": -65,
+            "volumeIn1mmSlabMm3": 1359.6553733173528
+          },
+          {
+            "zMm": -35,
+            "volumeIn1mmSlabMm3": 1591.520512323185
+          },
+          {
+            "zMm": -5,
+            "volumeIn1mmSlabMm3": 1450.0217319412784
+          },
+          {
+            "zMm": 0,
+            "volumeIn1mmSlabMm3": 843.5725480041408
+          },
+          {
+            "zMm": 3,
+            "volumeIn1mmSlabMm3": 285.0229569923426
+          },
+          {
+            "zMm": 8,
+            "volumeIn1mmSlabMm3": 42.573791451255886
+          },
+          {
+            "zMm": 20,
+            "volumeIn1mmSlabMm3": 42.573791451255886
+          },
+          {
+            "zMm": 35,
+            "volumeIn1mmSlabMm3": 29.76371967219205
+          }
+        ]
+      },
+      "sourceToAttachmentRowMajorMm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceUnits": "inch",
+      "importedUnits": "mm",
+      "scaleAfterImport": 1,
+      "nativePartId": null,
+      "nativeConnectorIds": null,
+      "sourceFunction": "FIXED_VENDOR_PRESENTATION_BODY_CONTAINS_HOUSING_AND_SHAFT_NOT_SEPARABLE_ROTOR"
+    },
+    "cots_x44_rear_cover": {
+      "product": "x44",
+      "sourceFile": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "sourceBodyIndex": 1,
+      "sourceBodySignature": {
+        "index": 1,
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2515.771152335832,
+        "boundsMm": [
+          -21.70064380615926,
+          -25.179381151360936,
+          -74.61250010000002,
+          21.700643806159235,
+          -1.4717827362660396,
+          -53.276499899999976
+        ],
+        "axialSections": [
+          {
+            "zMm": -65,
+            "volumeIn1mmSlabMm3": 24.850815641721734
+          },
+          {
+            "zMm": -35,
+            "volumeIn1mmSlabMm3": 0.0
+          },
+          {
+            "zMm": -5,
+            "volumeIn1mmSlabMm3": 0.0
+          },
+          {
+            "zMm": 0,
+            "volumeIn1mmSlabMm3": 0.0
+          },
+          {
+            "zMm": 3,
+            "volumeIn1mmSlabMm3": 0.0
+          },
+          {
+            "zMm": 8,
+            "volumeIn1mmSlabMm3": 0.0
+          },
+          {
+            "zMm": 20,
+            "volumeIn1mmSlabMm3": 0.0
+          },
+          {
+            "zMm": 35,
+            "volumeIn1mmSlabMm3": 0.0
+          }
+        ]
+      },
+      "sourceToAttachmentRowMajorMm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceUnits": "inch",
+      "importedUnits": "mm",
+      "scaleAfterImport": 1,
+      "nativePartId": null,
+      "nativeConnectorIds": null,
+      "sourceFunction": "FIXED_REAR_COVER_NOT_ROTOR"
+    },
+    "cots_hex_bearing": {
+      "product": "hex_bearing",
+      "sourceFile": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "sourceBodyIndex": 0,
+      "sourceBodySignature": {
+        "index": 0,
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3985.8595418071227,
+        "boundsMm": [
+          -15.557500099999997,
+          0.0,
+          -15.557500099999997,
+          15.557500099999997,
+          7.937500000000001,
+          15.557500099999997
+        ]
+      },
+      "sourceToAttachmentRowMajorMm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -6.35
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceToNeutralRowMajorMm": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -6.35
+        ],
+        [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.0,
+          -0.8660254037844387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceUnits": "inch",
+      "importedUnits": "mm",
+      "scaleAfterImport": 1,
+      "nativePartId": null,
+      "nativeConnectorIds": null,
+      "sourceFunction": "RACE_UNSPLIT_HEX_BEARING_PRESENTATION"
+    },
+    "cots_spline_pinion": {
+      "product": "spline_pinion",
+      "sourceFile": "trials/subsystem-ab/cots/cache/wcp-1016.step",
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "sourceBodyIndex": 0,
+      "sourceBodySignature": {
+        "index": 0,
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 5071.75742022078,
+        "boundsMm": [
+          -11.295059806652704,
+          -11.295059806643067,
+          -9.525000100000003,
+          11.295059806691508,
+          11.295059806701152,
+          9.525000100000003
+        ]
+      },
+      "sourceToAttachmentRowMajorMm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceUnits": "inch",
+      "importedUnits": "mm",
+      "scaleAfterImport": 1,
+      "nativePartId": null,
+      "nativeConnectorIds": null,
+      "sourceFunction": "ROTATING_DRIVEN_MEMBER"
+    },
+    "cots_hex_output_gear": {
+      "product": "hex_output_gear",
+      "sourceFile": "trials/subsystem-ab/cots/cache/wcp-0137.step",
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "sourceBodyIndex": 0,
+      "sourceBodySignature": {
+        "index": 0,
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 13726.909690794935,
+        "boundsMm": [
+          -31.714166254708342,
+          -31.714166254708363,
+          -6.324599999999999,
+          31.714166254708307,
+          31.71416625470835,
+          6.324599999999999
+        ]
+      },
+      "sourceToAttachmentRowMajorMm": [
+        [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0,
+          0.0
+        ],
+        [
+          -0.49999999999999994,
+          0.8660254037844387,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          -7.437084071668725e-18,
+          0.0,
+          0.0
+        ],
+        [
+          -7.437084071668725e-18,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceUnits": "inch",
+      "importedUnits": "mm",
+      "scaleAfterImport": 1,
+      "nativePartId": null,
+      "nativeConnectorIds": null,
+      "sourceFunction": "ROTATING_DRIVEN_MEMBER"
+    },
+    "cots_wheel": {
+      "product": "wheel",
+      "sourceFile": "trials/subsystem-ab/cots/cache/am-3462-rev2.step",
+      "sha256": "52389c35842755f9c6f77598cba5df751cbf2fda3671ae44da95fa9adf489910",
+      "sourceBodyIndex": 0,
+      "sourceBodySignature": {
+        "index": 0,
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15092.582068992442,
+        "boundsMm": [
+          -25.390975300297193,
+          -25.390975400297194,
+          -1.000000001110223e-07,
+          25.390975300297193,
+          25.390975400297194,
+          12.700000100000006
+        ]
+      },
+      "sourceToAttachmentRowMajorMm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -6.35
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceToNeutralRowMajorMm": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -6.35
+        ],
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceUnits": "inch",
+      "importedUnits": "mm",
+      "scaleAfterImport": 1,
+      "nativePartId": null,
+      "nativeConnectorIds": null,
+      "sourceFunction": "ROTATING_DRIVEN_MEMBER"
+    }
+  },
+  "sourceInputHashes": {
+    "manifest.json": "3f77aedd9404865f23ed4c8754e61dd21dad0f9c192627c79025f7e306a8ac5a",
+    "import-packet.json": "096e39a15cb59a858a38fc309e94781750e30b4582ccc86bbe4aa7057fd6fd60",
+    "attachment-points.json": "7fbca1220fb2fbd68be80f67d81afb1007b25f5e5d1f84922c0066579fbb3442",
+    "../PROTOCOL.md": "6ca62935083198ffd9d51b37a537bed246e25f577bd72df1c8a2b6f22f7bbcdd",
+    "cache/wcp-0941.step": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+    "cache/wcp-0783.step": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+    "cache/wcp-1016.step": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+    "cache/wcp-0137.step": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+    "cache/am-3462-rev2.step": "52389c35842755f9c6f77598cba5df751cbf2fda3671ae44da95fa9adf489910"
+  },
+  "sourceTopologyIdentity": {
+    "cots_x44_main": true,
+    "cots_x44_rear_cover": true,
+    "cots_hex_bearing": true,
+    "cots_spline_pinion": true,
+    "cots_hex_output_gear": true,
+    "cots_wheel": true
+  },
+  "x44SourceSolids": 2,
+  "inventedRotors": 0,
+  "x60": "QUARANTINED_EXCLUDED",
+  "stepExports": [
+    {
+      "role": "cots_x44_main",
+      "path": "../source-probe/cots_x44_main.step",
+      "sha256": "4bc59063be48133e74122f06e822ce9d044a96be0d210cfe172e7020a4071e85",
+      "status": "FAIL"
+    },
+    {
+      "role": "cots_x44_rear_cover",
+      "path": "../source-probe/cots_x44_rear_cover.step",
+      "sha256": "11e637da767f6137fbf9e58b73b8cd4a332e14e2ccbe78b36885ec0d4523b184",
+      "status": "FAIL"
+    },
+    {
+      "role": "cots_hex_bearing",
+      "path": "../source-probe/cots_hex_bearing.step",
+      "sha256": "695704d31c1d2eff200d56e596c8b723c8795b3ecb3d1f3406b34ee53bcc51ff",
+      "status": "PASS"
+    },
+    {
+      "role": "cots_spline_pinion",
+      "path": "../source-probe/cots_spline_pinion.step",
+      "sha256": "668ae0c72967d0601132b8011b0101284689da12b63ddd3aadb1a3b448e1198f",
+      "status": "PASS"
+    },
+    {
+      "role": "cots_hex_output_gear",
+      "path": "../source-probe/cots_hex_output_gear.step",
+      "sha256": "a93a51238642b2e6607b4b4f657c1460f933e3ef996abdf98c7fbfaa8f5890ee",
+      "status": "PASS"
+    },
+    {
+      "role": "cots_wheel",
+      "path": "../source-probe/cots_wheel.step",
+      "sha256": "b0e32e7bfc5fabd3013161a4db702b3a31f354ba178190fe5ff02a341e5e8e5f",
+      "status": "PASS"
+    }
+  ],
+  "redistributionLicense": "NOT_ESTABLISHED_LOCAL_CACHE_ONLY"
+}

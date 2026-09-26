@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-13",
+  "status": "PASS_RENDERING_AND_PACKAGE_CHECKS_ONLY",
+  "nodeTests": {"passed": 5, "failed": 0, "recipeConfigurationsConstructed": 70},
+  "canvasExports": {"count": 20, "width": 1375, "height": 1062, "allNonblank": true, "minimumColoredPixels": 65713, "minimumDarkPixels": 7383, "method": "WebGL canvas buffer, not an element screenshot"},
+  "framing": {"robotsChecked": ["R01","R02","R03","R04","R05","R06","R07","R08","R09","R10"], "configuration": "travel", "allBoundingCornersInsideCamera": true},
+  "interaction": {"configurationSelectionChangesImage": true, "cameraSelectionChangesImage": true, "renderLoopAdvances": true},
+  "responsive": [
+    {"name": "desktop", "cssViewportWidth": 1280, "canvasPixels": [1160,925], "pageOverflow": false, "imagesLoaded": 10, "framed": true, "coloredPixels": 165530, "darkPixels": 14324},
+    {"name": "mobile", "cssViewportWidth": 312, "canvasPixels": [375,612], "pageOverflow": false, "imagesLoaded": 10, "framed": true, "coloredPixels": 28098, "darkPixels": 2509}
+  ],
+  "captureLimitation": "Integrated-browser screen/element screenshots included browser framing or wrong crop. Published model previews use actual canvas PNG buffers; native UI captures are supplementary only.",
+  "temporaryLoopbackExporterStopped": true,
+  "onshapeCalls": 0,
+  "cadKernelRuns": 0,
+  "notVerified": ["contact", "starting-envelope compliance", "full mechanism interference", "swept motion", "continuous kinematics", "physical loads", "net ballistics", "cage engagement", "autonomous execution", "cycle performance", "elite effectiveness"]
+}

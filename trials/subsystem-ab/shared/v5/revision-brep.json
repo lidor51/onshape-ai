@@ -1,0 +1,1840 @@
+{
+  "solids": {
+    "pickup_1_tube": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.1202394364,
+      "boundsMm": [
+        -260.0,
+        -427.0,
+        129.0,
+        -5.0,
+        -347.0,
+        209.0
+      ]
+    },
+    "pickup_1_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819124,
+      "boundsMm": [
+        -260.0,
+        -450.5,
+        105.5,
+        -5.0,
+        -323.5,
+        232.5
+      ]
+    },
+    "pickup_1_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.601792465455,
+      "boundsMm": [
+        -260.0,
+        -393.35,
+        162.65,
+        -5.0,
+        -380.65,
+        175.35
+      ]
+    },
+    "pickup_2_tube": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.1202394364,
+      "boundsMm": [
+        5.0,
+        -348.0,
+        203.74992983365254,
+        260.0,
+        -268.0,
+        283.7499298336526
+      ]
+    },
+    "pickup_2_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819124,
+      "boundsMm": [
+        5.0,
+        -371.5,
+        180.24992983365254,
+        260.0,
+        -244.5,
+        307.2499298336526
+      ]
+    },
+    "pickup_2_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.60179246545,
+      "boundsMm": [
+        5.0,
+        -314.35,
+        237.39992983365255,
+        260.0,
+        -301.65,
+        250.09992983365254
+      ]
+    },
+    "pickup_3_tube": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.1202394363,
+      "boundsMm": [
+        -260.0,
+        -280.0,
+        254.74992983365257,
+        -5.0,
+        -200.0,
+        334.7499298336526
+      ]
+    },
+    "pickup_3_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819124,
+      "boundsMm": [
+        -260.0,
+        -303.5,
+        231.24992983365257,
+        -5.0,
+        -176.5,
+        358.2499298336526
+      ]
+    },
+    "pickup_3_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.601792465473,
+      "boundsMm": [
+        -260.0,
+        -246.35,
+        288.39992983365255,
+        -5.0,
+        -233.65,
+        301.0999298336526
+      ]
+    },
+    "pickup_4_tube": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.12023943616,
+      "boundsMm": [
+        5.0,
+        -211.0,
+        298.46461776964605,
+        260.0,
+        -131.0,
+        378.46461776964605
+      ]
+    },
+    "pickup_4_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.376581912,
+      "boundsMm": [
+        5.0,
+        -234.5,
+        274.96461776964605,
+        260.0,
+        -107.5,
+        401.96461776964605
+      ]
+    },
+    "pickup_4_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.601792465473,
+      "boundsMm": [
+        5.0,
+        -177.35,
+        332.11461776964603,
+        260.0,
+        -164.65,
+        344.8146177696461
+      ]
+    },
+    "pickup_5_tube": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 355691.12023943604,
+      "boundsMm": [
+        -260.0,
+        -117.0,
+        309.8,
+        -5.0,
+        -37.0,
+        389.8
+      ]
+    },
+    "pickup_5_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1948490.3765819122,
+      "boundsMm": [
+        -260.0,
+        -140.5,
+        286.3,
+        -5.0,
+        -13.5,
+        413.3
+      ]
+    },
+    "pickup_5_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 32302.60179246547,
+      "boundsMm": [
+        -260.0,
+        -83.35,
+        343.45,
+        -5.0,
+        -70.65,
+        356.15000000000003
+      ]
+    },
+    "pickup_flat_ramp_mitered_toe": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 615333.3333333344,
+      "boundsMm": [
+        -260.0,
+        -350.0,
+        0.0,
+        260.0,
+        -110.0,
+        180.0
+      ]
+    },
+    "fixed_flat_deck_receiver_slots": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1630623.9999999995,
+      "boundsMm": [
+        -260.0,
+        -110.0,
+        176.0,
+        260.0,
+        680.0,
+        180.0
+      ]
+    },
+    "orienter_entry_left_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        -192.7,
+        17.3,
+        180.0,
+        -167.3,
+        42.7,
+        320.0
+      ]
+    },
+    "orienter_entry_left_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        -215.0,
+        -5.0,
+        180.0,
+        -145.0,
+        65.0,
+        320.0
+      ]
+    },
+    "orienter_entry_right_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        167.3,
+        17.3,
+        180.0,
+        192.7,
+        42.7,
+        320.0
+      ]
+    },
+    "orienter_entry_right_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        145.0,
+        -5.0,
+        180.0,
+        215.0,
+        65.0,
+        320.0
+      ]
+    },
+    "orienter_middle_left_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        -142.7,
+        152.3,
+        180.0,
+        -117.29999999999998,
+        177.7,
+        320.0
+      ]
+    },
+    "orienter_middle_left_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        -165.0,
+        130.0,
+        180.0,
+        -94.99999999999999,
+        200.0,
+        320.0
+      ]
+    },
+    "orienter_middle_right_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364966,
+      "boundsMm": [
+        117.3,
+        152.3,
+        180.0,
+        142.7,
+        177.7,
+        320.0
+      ]
+    },
+    "orienter_middle_right_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        95.0,
+        130.0,
+        180.0,
+        165.0,
+        200.0,
+        320.0
+      ]
+    },
+    "orienter_exit_left_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        -97.85000000000001,
+        292.3,
+        180.0,
+        -72.45,
+        317.7,
+        320.0
+      ]
+    },
+    "orienter_exit_left_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.09301699983,
+      "boundsMm": [
+        -120.15,
+        270.0,
+        180.0,
+        -50.15,
+        340.0,
+        320.0
+      ]
+    },
+    "orienter_exit_right_shaft": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 70939.04707364968,
+      "boundsMm": [
+        72.45,
+        292.3,
+        180.0,
+        97.85000000000001,
+        317.7,
+        320.0
+      ]
+    },
+    "orienter_exit_right_rubber": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 467844.0930169999,
+      "boundsMm": [
+        50.150000000000006,
+        270.0,
+        180.0,
+        120.15,
+        340.0,
+        320.0
+      ]
+    },
+    "cradle_back_stop": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 12000.0,
+      "boundsMm": [
+        -50.0,
+        617.8125,
+        180.0,
+        50.0,
+        621.8125,
+        210.0
+      ]
+    },
+    "cradle_side_rail_-1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 48600.0,
+      "boundsMm": [
+        -76.0,
+        350.0,
+        180.0,
+        -70.0,
+        620.0,
+        210.0
+      ]
+    },
+    "cradle_side_rail_1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 48600.0,
+      "boundsMm": [
+        70.0,
+        350.0,
+        180.0,
+        76.0,
+        620.0,
+        210.0
+      ]
+    },
+    "front_stop_antibounce_flexible_tab": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 1440.0,
+      "boundsMm": [
+        -20.0,
+        310.0,
+        174.0,
+        20.0,
+        328.0,
+        176.0
+      ]
+    },
+    "bumper_reference": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 8874000.0,
+      "boundsMm": [
+        -435.0,
+        -85.0,
+        45.0,
+        435.0,
+        0.0,
+        165.0
+      ]
+    },
+    "chassis_side_reference_-1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 684000.0,
+      "boundsMm": [
+        -350.0,
+        0.0,
+        50.0,
+        -320.0,
+        760.0,
+        80.0
+      ]
+    },
+    "chassis_side_reference_1": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 684000.0,
+      "boundsMm": [
+        320.0,
+        0.0,
+        50.0,
+        350.0,
+        760.0,
+        80.0
+      ]
+    },
+    "chassis_end_reference_15": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 576000.0,
+      "boundsMm": [
+        -320.0,
+        0.0,
+        50.0,
+        320.0,
+        30.0,
+        80.0
+      ]
+    },
+    "chassis_end_reference_745": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 576000.0,
+      "boundsMm": [
+        -320.0,
+        730.0,
+        50.0,
+        320.0,
+        760.0,
+        80.0
+      ]
+    },
+    "floor_reference": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 22399999.999999996,
+      "boundsMm": [
+        -700.0,
+        -700.0,
+        -10.0,
+        700.0,
+        900.0,
+        0.0
+      ]
+    },
+    "receiver_finger_reference_-40": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 2499.9999999999995,
+      "boundsMm": [
+        -45.0,
+        440.0,
+        162.5,
+        -35.0,
+        490.0,
+        167.5
+      ]
+    },
+    "receiver_finger_reference_40": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 2499.9999999999995,
+      "boundsMm": [
+        35.0,
+        440.0,
+        162.5,
+        45.0,
+        490.0,
+        167.5
+      ]
+    },
+    "coral_reference": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volumeMm3": 649551.4843768268,
+      "boundsMm": [
+        -57.15,
+        314.1875,
+        180.0,
+        57.15,
+        615.8125,
+        294.3
+      ]
+    }
+  },
+  "modeledOccurrences": 42,
+  "customOccurrences": 33,
+  "deployment": {
+    "samples": 126,
+    "pairVisits": 108486,
+    "cacheHits": 72044,
+    "broadphaseRejections": 36353,
+    "fullBrepBooleans": 91,
+    "intentionalCompliantContacts": 2,
+    "unexpectedCount": 0,
+    "witnesses": []
+  },
+  "entry": [
+    {
+      "yaw": 0,
+      "samples": 63,
+      "pairVisits": 54243,
+      "cacheHits": 50726,
+      "broadphaseRejections": 3073,
+      "fullBrepBooleans": 654,
+      "intentionalCompliantContacts": 210,
+      "unexpectedCount": 344,
+      "witnesses": [
+        {
+          "sample": "entry:0:0",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 4850.811759386664
+        },
+        {
+          "sample": "entry:0:0",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 22974.272965941025,
+          "compliantIntersection": 25757.658823430284,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:1",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 5221.008662278615
+        },
+        {
+          "sample": "entry:0:1",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 27704.101002966043,
+          "compliantIntersection": 26769.542949615505,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:2",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 5494.093554374738
+        },
+        {
+          "sample": "entry:0:2",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 32312.258005050397,
+          "compliantIntersection": 27789.16370177722,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:3",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 5753.187053350235
+        },
+        {
+          "sample": "entry:0:3",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 36785.88252672891,
+          "compliantIntersection": 28854.708847258888,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:4",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 6020.013309755435
+        },
+        {
+          "sample": "entry:0:4",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 41112.54496351031,
+          "compliantIntersection": 29992.048102963476,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:5",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 6304.187496009719
+        },
+        {
+          "sample": "entry:0:5",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 45282.154185184205,
+          "compliantIntersection": 31222.657369716093,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:5",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 508.6759925753757
+        },
+        {
+          "sample": "entry:0:5",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 750.3043887007308,
+          "compliantIntersection": 7918.396337010146,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:6",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 6618.321983227765
+        },
+        {
+          "sample": "entry:0:6",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 49284.2638256474,
+          "compliantIntersection": 32564.708177244072,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:6",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 1618.9152956526445
+        },
+        {
+          "sample": "entry:0:6",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 4772.314533665454,
+          "compliantIntersection": 13270.52882639918,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:7",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 6970.846214095407
+        },
+        {
+          "sample": "entry:0:7",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 53105.34230717209,
+          "compliantIntersection": 34067.15340311269,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:7",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 1856.9874263990048
+        },
+        {
+          "sample": "entry:0:7",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 9698.27576577031,
+          "compliantIntersection": 18622.65230640407,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:8",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 7374.758445049098
+        },
+        {
+          "sample": "entry:0:8",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 56738.08636560008,
+          "compliantIntersection": 35762.81828871977,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:8",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 1356.8034326501595
+        },
+        {
+          "sample": "entry:0:8",
+          "pair": [
+            "pickup_2_tube",
+            "coral_reference"
+          ],
+          "volume": 704.9865745814169
+        },
+        {
+          "sample": "entry:0:8",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 14649.229880148861,
+          "compliantIntersection": 23221.470043563146,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:9",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 7855.442437158024
+        },
+        {
+          "sample": "entry:0:9",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 60153.50754117992,
+          "compliantIntersection": 37694.859048332546,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:0:9",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 1128.947874074257
+        }
+      ]
+    },
+    {
+      "yaw": 30,
+      "samples": 63,
+      "pairVisits": 54243,
+      "cacheHits": 50726,
+      "broadphaseRejections": 3062,
+      "fullBrepBooleans": 618,
+      "intentionalCompliantContacts": 163,
+      "unexpectedCount": 286,
+      "witnesses": [
+        {
+          "sample": "entry:30:0",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 4409.709518018208,
+          "compliantIntersection": 11227.075286378837,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:1",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 143.70060268898519
+        },
+        {
+          "sample": "entry:30:1",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 9948.635661185937,
+          "compliantIntersection": 17923.302939502228,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:2",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 2553.987546053946
+        },
+        {
+          "sample": "entry:30:2",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 16372.5886253983,
+          "compliantIntersection": 22786.06830573168,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:3",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 4548.131742528369
+        },
+        {
+          "sample": "entry:30:3",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 23353.65822269068,
+          "compliantIntersection": 25973.336053551746,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:4",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 5457.969889993768
+        },
+        {
+          "sample": "entry:30:4",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 30693.506668451853,
+          "compliantIntersection": 28725.73205022155,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:5",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 6162.236270692983
+        },
+        {
+          "sample": "entry:30:5",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 38250.04157670811,
+          "compliantIntersection": 31336.512740328555,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:6",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 6807.361144113107
+        },
+        {
+          "sample": "entry:30:6",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 45909.96726860381,
+          "compliantIntersection": 33939.85627369562,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:7",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 7445.297192935686
+        },
+        {
+          "sample": "entry:30:7",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 53575.93273274723,
+          "compliantIntersection": 36637.56206595518,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:7",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 532.1942716802741
+        },
+        {
+          "sample": "entry:30:7",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 1781.3636681224202,
+          "compliantIntersection": 20622.130405581618,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:8",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 8118.240793138131
+        },
+        {
+          "sample": "entry:30:8",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 61151.633679291386,
+          "compliantIntersection": 39474.13077431286,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:8",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 2241.421353694268
+        },
+        {
+          "sample": "entry:30:8",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 12534.49342300179,
+          "compliantIntersection": 31271.305901632903,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:9",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 8860.296235149028
+        },
+        {
+          "sample": "entry:30:9",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 68561.58965965254,
+          "compliantIntersection": 42581.20845897005,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:9",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 2592.1255914665885
+        },
+        {
+          "sample": "entry:30:9",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 23032.675980187876,
+          "compliantIntersection": 39133.44242435502,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:10",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 9698.584215764386
+        },
+        {
+          "sample": "entry:30:10",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 75728.91959651337,
+          "compliantIntersection": 46001.11137660625,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:30:10",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 1632.7795536265041
+        },
+        {
+          "sample": "entry:30:10",
+          "pair": [
+            "pickup_2_tube",
+            "coral_reference"
+          ],
+          "volume": 1691.9397668351526
+        },
+        {
+          "sample": "entry:30:10",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 30410.331280360984,
+          "compliantIntersection": 43850.899085916804,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        }
+      ]
+    },
+    {
+      "yaw": 60,
+      "samples": 63,
+      "pairVisits": 54243,
+      "cacheHits": 50384,
+      "broadphaseRejections": 3466,
+      "fullBrepBooleans": 520,
+      "intentionalCompliantContacts": 127,
+      "unexpectedCount": 175,
+      "witnesses": [
+        {
+          "sample": "entry:60:4",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 292.4366445189164,
+          "compliantIntersection": 9509.113237839418,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:5",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 7256.481574307392,
+          "compliantIntersection": 22709.3301308932,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:6",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 20029.423349142922,
+          "compliantIntersection": 38106.65906899744,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:7",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 2391.475339619742
+        },
+        {
+          "sample": "entry:60:7",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 34867.940102087785,
+          "compliantIntersection": 52488.72468246917,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:8",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 11819.390463259808
+        },
+        {
+          "sample": "entry:60:8",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 51018.764797087395,
+          "compliantIntersection": 56288.09141273564,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:9",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 14082.815189634714
+        },
+        {
+          "sample": "entry:60:9",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 64826.02313884653,
+          "compliantIntersection": 53501.85746023117,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:10",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 14972.993204868928
+        },
+        {
+          "sample": "entry:60:10",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 74528.85860521803,
+          "compliantIntersection": 47693.172525870876,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:11",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 12612.518389177
+        },
+        {
+          "sample": "entry:60:11",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 82130.02993378419,
+          "compliantIntersection": 44503.87557822889,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:12",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 11302.890463816108
+        },
+        {
+          "sample": "entry:60:12",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 88168.9369597185,
+          "compliantIntersection": 43731.14163293762,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:13",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 10920.933587037318
+        },
+        {
+          "sample": "entry:60:13",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 92857.3603387494,
+          "compliantIntersection": 43985.93702245067,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:13",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 314.9724452723639
+        },
+        {
+          "sample": "entry:60:13",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 0.49567085164900193,
+          "compliantIntersection": 21323.605281567874,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:14",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 10892.871739309077
+        },
+        {
+          "sample": "entry:60:14",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 96263.76676707223,
+          "compliantIntersection": 44802.30706198231,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:14",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 4727.912337149796
+        },
+        {
+          "sample": "entry:60:14",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 8994.320830929035,
+          "compliantIntersection": 36085.533797249744,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:15",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 11043.531953896625
+        },
+        {
+          "sample": "entry:60:15",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 98363.69192063264,
+          "compliantIntersection": 45900.65737665523,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:15",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 7480.7607339810265
+        },
+        {
+          "sample": "entry:60:15",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 23286.948755197198,
+          "compliantIntersection": 46304.57689971116,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:16",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 11270.848005380227
+        },
+        {
+          "sample": "entry:60:16",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 99058.23645627391,
+          "compliantIntersection": 47039.94885990795,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:60:16",
+          "pair": [
+            "pickup_1_shaft",
+            "coral_reference"
+          ],
+          "volume": 3847.107872725996
+        }
+      ]
+    },
+    {
+      "yaw": 75,
+      "samples": 63,
+      "pairVisits": 54243,
+      "cacheHits": 50156,
+      "broadphaseRejections": 3783,
+      "fullBrepBooleans": 408,
+      "intentionalCompliantContacts": 104,
+      "unexpectedCount": 100,
+      "witnesses": [
+        {
+          "sample": "entry:75:9",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 13673.027305102376,
+          "compliantIntersection": 43368.442549377156,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:10",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 34328.78285401206,
+          "compliantIntersection": 54279.89504599504,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:11",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 45269.98016260495,
+          "compliantIntersection": 62447.10077398025,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:12",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 7827.751614597903
+        },
+        {
+          "sample": "entry:75:12",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 52838.870889085694,
+          "compliantIntersection": 61996.90833323017,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:13",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 16419.987809042697
+        },
+        {
+          "sample": "entry:75:13",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 58276.87595164428,
+          "compliantIntersection": 53828.817762623985,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:14",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 16460.005505454257
+        },
+        {
+          "sample": "entry:75:14",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 62040.19007345463,
+          "compliantIntersection": 49900.29870267015,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:15",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 15857.208741211898
+        },
+        {
+          "sample": "entry:75:15",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 64339.65995495222,
+          "compliantIntersection": 48429.75096642267,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:16",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 15012.209071054898
+        },
+        {
+          "sample": "entry:75:16",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 65283.148041117835,
+          "compliantIntersection": 47785.708398355695,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:17",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 13895.045630281074
+        },
+        {
+          "sample": "entry:75:17",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 64928.157434814675,
+          "compliantIntersection": 47308.93401167967,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:18",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 12594.855521496018
+        },
+        {
+          "sample": "entry:75:18",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 63299.36096903658,
+          "compliantIntersection": 47273.27892256355,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:18",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 428.5502849926264,
+          "compliantIntersection": 24794.217939346625,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:19",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 11601.545046288287
+        },
+        {
+          "sample": "entry:75:19",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 60379.75427055231,
+          "compliantIntersection": 48570.71842756507,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:19",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 8249.054507445699,
+          "compliantIntersection": 37004.59401044037,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:20",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 10216.143552371042
+        },
+        {
+          "sample": "entry:75:20",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 56063.4162745409,
+          "compliantIntersection": 48885.68063740713,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:20",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 18679.947653881634,
+          "compliantIntersection": 45264.797996844565,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:21",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 8820.089397316726
+        },
+        {
+          "sample": "entry:75:21",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 49978.21459009091,
+          "compliantIntersection": 49029.79002064587,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:21",
+          "pair": [
+            "pickup_2_rubber",
+            "coral_reference"
+          ],
+          "volume": 25925.145473028424,
+          "compliantIntersection": 50688.03534711685,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:22",
+          "pair": [
+            "pickup_1_tube",
+            "coral_reference"
+          ],
+          "volume": 7911.624255989424
+        },
+        {
+          "sample": "entry:75:22",
+          "pair": [
+            "pickup_1_rubber",
+            "coral_reference"
+          ],
+          "volume": 45539.33149918932,
+          "compliantIntersection": 48256.93698084604,
+          "allowanceMm": 8,
+          "assumptionNotPhysicalPass": true
+        },
+        {
+          "sample": "entry:75:22",
+          "pair": [
+            "pickup_2_tube",
+            "coral_reference"
+          ],
+          "volume": 203.8001037761747
+        }
+      ]
+    },
+    {
+      "yaw": 90,
+      "samples": 63,
+      "pairVisits": 54243,
+      "cacheHits": 48788,
+      "broadphaseRejections": 5224,
+      "fullBrepBooleans": 307,
+      "intentionalCompliantContacts": 76,
+      "unexpectedCount": 0,
+      "witnesses": []
+    }
+  ],
+  "yaw": {
+    "samples": 136,
+    "pairVisits": 117096,
+    "cacheHits": 110660,
+    "broadphaseRejections": 5972,
+    "fullBrepBooleans": 687,
+    "intentionalCompliantContacts": 223,
+    "unexpectedCount": 0,
+    "witnesses": []
+  },
+  "receiver": {
+    "samples": 63,
+    "liftMm": 180,
+    "pairVisits": 54243,
+    "cacheHits": 46215,
+    "broadphaseRejections": 7794,
+    "fullBrepBooleans": 302,
+    "intentionalCompliantContacts": 68,
+    "unexpectedCount": 0,
+    "witnesses": []
+  },
+  "allModeledPairsVisited": true,
+  "omittedHardwareNotClaimedTested": true,
+  "status": "PASS_MODELED_CORE_ONLY",
+  "frozen": false,
+  "geometrySecondsCumulative": 491.93700000000536
+}

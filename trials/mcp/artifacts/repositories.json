@@ -1,0 +1,82 @@
+[
+  {
+    "project": "ReshefElisha/jarvis-onshape-mcp",
+    "url": "https://github.com/ReshefElisha/jarvis-onshape-mcp",
+    "description": "Jarvis Onshape MCP — Claude Code plugin for driving real Onshape CAD. Vision-decomposition skill + truth-telling + parametric iteration + FeatureScript.",
+    "branch": "main",
+    "license": "NOASSERTION",
+    "stars": 169,
+    "pushedAt": "2026-04-22T07:19:32Z",
+    "archived": false
+  },
+  {
+    "project": "hedless/onshape-mcp",
+    "url": "https://github.com/hedless/onshape-mcp",
+    "description": "mcp server for interacting with onshape",
+    "branch": "develop",
+    "license": null,
+    "stars": 136,
+    "pushedAt": "2026-09-10T18:31:07Z",
+    "archived": false
+  },
+  {
+    "project": "altendky/onshape-mcp",
+    "url": "https://github.com/altendky/onshape-mcp",
+    "description": "AI-assisted access to your Onshape CAD documents",
+    "branch": "main",
+    "license": "Apache-2.0",
+    "stars": 18,
+    "pushedAt": "2026-09-11T11:15:49Z",
+    "archived": false
+  },
+  {
+    "project": "BLamy/onshape-mcp",
+    "url": "https://github.com/BLamy/onshape-mcp",
+    "description": "MCP server or onshape CAD",
+    "branch": "main",
+    "license": null,
+    "stars": 14,
+    "pushedAt": "2025-04-21T15:43:25Z",
+    "archived": false
+  },
+  {
+    "project": "Mbvjdev/onshape-mcp",
+    "url": "https://github.com/Mbvjdev/onshape-mcp",
+    "description": "Secure, rate-limited MCP server for controlling Onshape CAD from Hermes Agent.",
+    "branch": "main",
+    "license": "MIT",
+    "stars": 1,
+    "pushedAt": "2026-09-04T08:04:34Z",
+    "archived": false
+  },
+  {
+    "project": "Bennyco86/ultron-onshape-mcp",
+    "url": "https://github.com/Bennyco86/ultron-onshape-mcp",
+    "description": "Performance-tuned fork of jarvis-onshape-mcp: Claude drives real Onshape CAD. 3.2x faster verify loop, ~46% fewer tokens, working circular patterns. MIT.",
+    "branch": "main",
+    "license": "NOASSERTION",
+    "stars": 1,
+    "pushedAt": "2026-08-23T21:43:43Z",
+    "archived": false
+  },
+  {
+    "project": "ricokahler/onshape-cadscript",
+    "url": "https://github.com/ricokahler/onshape-cadscript",
+    "description": "A local-first, script-driven Onshape CAD workflow for Codex and printable parts.",
+    "branch": "main",
+    "license": "MIT",
+    "stars": 1,
+    "pushedAt": "2026-09-10T20:43:20Z",
+    "archived": false
+  },
+  {
+    "project": "nisheshnath-spec/OnshapeMCP",
+    "url": "https://github.com/nisheshnath-spec/OnshapeMCP",
+    "description": null,
+    "branch": "main",
+    "license": null,
+    "stars": 0,
+    "pushedAt": "2025-11-12T18:50:17Z",
+    "archived": false
+  }
+]

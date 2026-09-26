@@ -1,0 +1,3373 @@
+{
+  "tools": [
+    {
+      "name": "create_sketch_rectangle",
+      "description": "Create a rectangular sketch in a Part Studio. Sketch location: pass either `plane` (standard datum: Front/Top/Right) or `faceId` (deterministic ID of a face from `list_entities`). Pass `faceId` to sketch on an existing part face; if both are given, `faceId` wins and a warning is returned.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sketch name",
+            "default": "Sketch"
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane. Defaults to Front if neither plane nor faceId is given."
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Deterministic ID of an existing face to sketch on (get from `list_entities`). Mutually exclusive with `plane`; wins if both given."
+          },
+          "corner1": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "First corner [x, y]. Bare numbers are mm; use strings like \"10 mm\" or \"0.5 in\" for explicit units."
+          },
+          "corner2": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Opposite corner [x, y]. Same convention as corner1."
+          },
+          "variableWidth": {
+            "type": "string",
+            "description": "Optional variable name for width"
+          },
+          "variableHeight": {
+            "type": "string",
+            "description": "Optional variable name for height"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "corner1",
+          "corner2"
+        ]
+      }
+    },
+    {
+      "name": "create_rounded_rectangle_sketch",
+      "description": "Create a rounded rectangle sketch (4 lines + 4 tangent corner arcs) in ONE feature. Use instead of hand-rolling 4 lines + 4 arcs with the per-primitive tools -- fewer turns and no radians/degrees mistakes. Sketch location: pass either `plane` (Front/Top/Right) or `faceId` (from `list_entities`). `faceId` wins when both are given. `cornerRadius` must be > 0 and no more than half the short side of the bounding rect (otherwise there'd be no straight segments left).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sketch name",
+            "default": "Sketch"
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane. Defaults to Front if neither plane nor faceId is given."
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Deterministic ID of an existing face (from `list_entities`). Mutually exclusive with `plane`; wins if both given."
+          },
+          "corner1": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "First corner of the bounding rect [x, y]. Bare numbers are mm; use \"10 mm\" / \"0.5 in\" for explicit units."
+          },
+          "corner2": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Opposite corner of the bounding rect [x, y]. Same convention as corner1."
+          },
+          "cornerRadius": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Fillet radius at each corner. Bare numbers are mm; use explicit units for in/cm/m."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "corner1",
+          "corner2",
+          "cornerRadius"
+        ]
+      }
+    },
+    {
+      "name": "create_extrude",
+      "description": "Create an extrude feature from a sketch",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Extrude name",
+            "default": "Extrude"
+          },
+          "sketchFeatureId": {
+            "type": "string",
+            "description": "ID of sketch to extrude"
+          },
+          "depth": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Extrude depth. Bare numbers are mm (CAD default); use \"15 mm\", \"0.5 in\", \"0.03 m\" etc. for explicit units."
+          },
+          "variableDepth": {
+            "type": "string",
+            "description": "Optional variable name for depth"
+          },
+          "operationType": {
+            "type": "string",
+            "enum": [
+              "NEW",
+              "ADD",
+              "REMOVE",
+              "INTERSECT"
+            ],
+            "description": "Extrude operation type",
+            "default": "NEW"
+          },
+          "oppositeDirection": {
+            "type": "boolean",
+            "description": "If true, extrude in the direction OPPOSITE the sketch normal. For REMOVE on a sketched picked face this tool auto-flips to true regardless of what you pass — because the default (sketch-normal direction) cuts AWAY from the material and silently removes nothing (Onshape returns featureStatus=INFO). Use `forceOppositeDirection: false` to override the auto-flip if you actually need the non-default direction (rare)."
+          },
+          "forceOppositeDirection": {
+            "type": "boolean",
+            "description": "Escape hatch that disables the REMOVE+faceId auto-flip. Pass true/false to bypass the heuristic entirely. Only use this for the unusual case of deliberately cutting away from the picked face (e.g. through from underneath). Leaving this absent is correct 99% of the time."
+          },
+          "endType": {
+            "type": "string",
+            "enum": [
+              "BLIND",
+              "SYMMETRIC"
+            ],
+            "description": "End condition. BLIND: extrude one direction, `depth` is the length. SYMMETRIC: extrude both sides of the sketch plane, `depth` is the TOTAL length (depth/2 each side). Use SYMMETRIC to avoid building two mirrored BLIND extrudes for features that should straddle their sketch plane.",
+            "default": "BLIND"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "sketchFeatureId",
+          "depth"
+        ]
+      }
+    },
+    {
+      "name": "create_thicken",
+      "description": "Create a thicken feature from a sketch",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Thicken name",
+            "default": "Thicken"
+          },
+          "sketchFeatureId": {
+            "type": "string",
+            "description": "ID of sketch to thicken"
+          },
+          "thickness": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Thickness. Bare numbers are mm; use \"0.25 in\" / \"6 mm\" for explicit units."
+          },
+          "variableThickness": {
+            "type": "string",
+            "description": "Optional variable name for thickness"
+          },
+          "operationType": {
+            "type": "string",
+            "enum": [
+              "NEW",
+              "ADD",
+              "REMOVE",
+              "INTERSECT"
+            ],
+            "description": "Thicken operation type",
+            "default": "NEW"
+          },
+          "midplane": {
+            "type": "boolean",
+            "description": "Thicken symmetrically from sketch plane",
+            "default": false
+          },
+          "oppositeDirection": {
+            "type": "boolean",
+            "description": "Thicken in opposite direction",
+            "default": false
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "sketchFeatureId",
+          "thickness"
+        ]
+      }
+    },
+    {
+      "name": "get_variables",
+      "description": "Get all variables from a Variable Studio (or Part Studio). Modern Onshape stores variables in dedicated Variable Studio elements; pass a Variable Studio elementId here to read its variables. Pass a Part Studio elementId to read the (usually empty) variables owned by that PS.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Variable Studio (preferred) or Part Studio element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "create_variable_studio",
+      "description": "Create a Variable Studio element in a workspace. Required before set_variable on modern Onshape docs -- the legacy Part Studio /variables write path is read-only. Returns the new VS element id; use it as elementId for set_variable / get_variables.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name for the new Variable Studio element"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "set_variable",
+      "description": "Write or update a variable in a Variable Studio. `elementId` MUST be a Variable Studio element id (from `create_variable_studio`); writing to a Part Studio /variables endpoint 404s on modern docs. Other Part Studios in the same workspace can reference this variable as `#name` in any expression (sketch dimensions, extrude depths, etc.).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Variable Studio element ID (from create_variable_studio)"
+          },
+          "name": {
+            "type": "string",
+            "description": "Variable name (FS identifier rules)"
+          },
+          "expression": {
+            "type": "string",
+            "description": "Variable expression (e.g., '30 mm', '0.75 in', '90 deg')"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "LENGTH",
+              "ANGLE",
+              "NUMBER",
+              "ANY"
+            ],
+            "description": "FeatureScript variable type. Defaults to LENGTH."
+          },
+          "description": {
+            "type": "string",
+            "description": "Optional variable description"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "name",
+          "expression"
+        ]
+      }
+    },
+    {
+      "name": "get_features",
+      "description": "Get all features from a Part Studio",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "delete_feature",
+      "description": "Delete a feature from a Part Studio or Assembly",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio or Assembly element ID"
+          },
+          "featureId": {
+            "type": "string",
+            "description": "Feature ID to delete"
+          },
+          "elementType": {
+            "type": "string",
+            "enum": [
+              "PARTSTUDIO",
+              "ASSEMBLY"
+            ],
+            "description": "Type of element containing the feature",
+            "default": "PARTSTUDIO"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "featureId"
+        ]
+      }
+    },
+    {
+      "name": "delete_feature_by_name",
+      "description": "Delete a Part Studio feature by its display name (e.g. 'Extrude 10mm', 'Sketch 1') without having to look up the feature ID first. Returns ERROR if zero or multiple features match the name so the caller can disambiguate.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Exact feature name (case-sensitive)"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "update_feature",
+      "description": "Modify parameters on an existing Part Studio feature (for iteration: 'change the extrude depth from 10mm to 15mm', 'swap the fillet radius to 2mm', 'flip oppositeDirection'). Updates are keyed by the feature's parameterId (e.g. 'depth', 'radius', 'operationType', 'oppositeDirection'). For quantity params, set `expression` (\"15 mm\", \"0.5 in\", \"90 deg\"). For boolean/enum params, set `value`. Returns the standard {ok, status, feature_id, ...} contract so you can tell if the patched feature still regenerates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "featureId": {
+            "type": "string",
+            "description": "ID of the feature to update"
+          },
+          "updates": {
+            "type": "array",
+            "description": "Per-parameter patches to apply",
+            "items": {
+              "type": "object",
+              "properties": {
+                "parameterId": {
+                  "type": "string",
+                  "description": "Parameter key (e.g. 'depth')"
+                },
+                "expression": {
+                  "type": "string",
+                  "description": "Dimensional expression (quantity params)"
+                },
+                "value": {
+                  "description": "Literal value (enum/boolean params)"
+                }
+              },
+              "required": [
+                "parameterId"
+              ]
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "featureId",
+          "updates"
+        ]
+      }
+    },
+    {
+      "name": "list_documents",
+      "description": "List documents in your Onshape account with optional filtering and sorting",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filterType": {
+            "type": "string",
+            "enum": [
+              "all",
+              "owned",
+              "created",
+              "shared"
+            ],
+            "description": "Filter documents by type",
+            "default": "all"
+          },
+          "sortBy": {
+            "type": "string",
+            "enum": [
+              "name",
+              "modifiedAt",
+              "createdAt"
+            ],
+            "description": "Sort field",
+            "default": "modifiedAt"
+          },
+          "sortOrder": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "description": "Sort order",
+            "default": "desc"
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of documents to return",
+            "default": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "search_documents",
+      "description": "Search for documents by name or description",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query string"
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of results",
+            "default": 20
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    {
+      "name": "get_document",
+      "description": "Get detailed information about a specific document",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          }
+        },
+        "required": [
+          "documentId"
+        ]
+      }
+    },
+    {
+      "name": "get_document_summary",
+      "description": "Get a comprehensive summary of a document including all workspaces and elements",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          }
+        },
+        "required": [
+          "documentId"
+        ]
+      }
+    },
+    {
+      "name": "find_part_studios",
+      "description": "Find Part Studio elements in a specific workspace, optionally filtered by name",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "namePattern": {
+            "type": "string",
+            "description": "Optional name pattern to filter by (case-insensitive)"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId"
+        ]
+      }
+    },
+    {
+      "name": "get_parts",
+      "description": "Get all parts from a Part Studio element",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "get_elements",
+      "description": "Get all elements (Part Studios, Assemblies, etc.) in a workspace",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementType": {
+            "type": "string",
+            "description": "Optional filter by element type (e.g., 'PARTSTUDIO', 'ASSEMBLY')"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId"
+        ]
+      }
+    },
+    {
+      "name": "get_assembly",
+      "description": "Get assembly structure including instances and occurrences",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "create_document",
+      "description": "Create a new Onshape document. Returns the documentId AND the main workspaceId AND the default Part Studio elementId in one shot — no need to follow up with get_document_summary + find_part_studios before you start building.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name for the new document"
+          },
+          "description": {
+            "type": "string",
+            "description": "Optional description for the document"
+          },
+          "isPublic": {
+            "type": "boolean",
+            "description": "Whether the document should be public",
+            "default": false
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "delete_document",
+      "description": "Move an Onshape document to the trash. Irreversible via the API; intended for cleanup of throwaway docs created by an agent (test/iteration runs). Returns {ok, status, document_id}.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID to delete"
+          }
+        },
+        "required": [
+          "documentId"
+        ]
+      }
+    },
+    {
+      "name": "create_part_studio",
+      "description": "Create a new Part Studio in an existing document. Returns the new Part Studio's elementId AND a list of other Part Studios in the same workspace (so callers don't accidentally target the empty default 'Part Studio 1' that most fresh Onshape documents ship with). Prefer this tool's returned elementId over re-enumerating via find_part_studios.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name for the new Part Studio"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "create_assembly",
+      "description": "Create a new Assembly in an existing document",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name for the new Assembly"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "add_assembly_instance",
+      "description": "Add a part or sub-assembly instance to an assembly",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "partStudioElementId": {
+            "type": "string",
+            "description": "Element ID of the Part Studio or Assembly to instance"
+          },
+          "partId": {
+            "type": "string",
+            "description": "Optional specific part ID. If omitted, instances entire Part Studio."
+          },
+          "isAssembly": {
+            "type": "boolean",
+            "description": "Whether to instance an assembly (vs a part studio)",
+            "default": false
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "partStudioElementId"
+        ]
+      }
+    },
+    {
+      "name": "transform_instance",
+      "description": "Apply a RELATIVE transform to an assembly instance. Translations: bare numbers = mm; strings like \"20 mm\" / \"0.5 in\" for explicit units. Rotations: degrees. Note: fails on fixed/grounded instances — use get_assembly_positions to check the 'fixed' flag first.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "instanceId": {
+            "type": "string",
+            "description": "Instance ID to transform"
+          },
+          "translateX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "X translation. Bare numbers = mm; strings like \"10 mm\" / \"0.5 in\" respected.",
+            "default": 0
+          },
+          "translateY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Y translation. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "translateZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Z translation. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "rotateX": {
+            "type": "number",
+            "description": "X rotation in degrees",
+            "default": 0
+          },
+          "rotateY": {
+            "type": "number",
+            "description": "Y rotation in degrees",
+            "default": 0
+          },
+          "rotateZ": {
+            "type": "number",
+            "description": "Z rotation in degrees",
+            "default": 0
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "instanceId"
+        ]
+      }
+    },
+    {
+      "name": "create_fastened_mate",
+      "description": "Create a fastened (rigid) mate between two assembly instances. Requires face IDs from Part Studio body details to place mate connectors on specific faces. Optional offsets shift connectors from face centers (in the face's local XY plane + Z along normal).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mate name",
+            "default": "Fastened mate"
+          },
+          "firstInstanceId": {
+            "type": "string",
+            "description": "First instance ID"
+          },
+          "secondInstanceId": {
+            "type": "string",
+            "description": "Second instance ID"
+          },
+          "firstFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the first instance (from body details)"
+          },
+          "secondFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the second instance (from body details)"
+          },
+          "firstOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector X offset from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "firstOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Y offset from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "firstOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Z offset (along face normal). Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector X offset from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Y offset from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Z offset (along face normal). Bare = mm; unit-strings respected.",
+            "default": 0
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "firstInstanceId",
+          "secondInstanceId",
+          "firstFaceId",
+          "secondFaceId"
+        ]
+      }
+    },
+    {
+      "name": "create_revolute_mate",
+      "description": "Create a revolute (rotation) mate between two assembly instances. The first instance rotates relative to the second around the mate connector Z-axis. Requires face IDs from Part Studio body details. Optional offsets shift connectors from face centers.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mate name",
+            "default": "Revolute mate"
+          },
+          "firstInstanceId": {
+            "type": "string",
+            "description": "First instance ID"
+          },
+          "secondInstanceId": {
+            "type": "string",
+            "description": "Second instance ID"
+          },
+          "firstFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the first instance"
+          },
+          "secondFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the second instance"
+          },
+          "minLimit": {
+            "type": "number",
+            "description": "Optional minimum rotation limit in degrees"
+          },
+          "maxLimit": {
+            "type": "number",
+            "description": "Optional maximum rotation limit in degrees"
+          },
+          "firstOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector X offset. Bare numbers = mm; strings like \"10 mm\" / \"0.5 in\" respected.",
+            "default": 0
+          },
+          "firstOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Y offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "firstOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Z offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector X offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Y offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Z offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "firstInstanceId",
+          "secondInstanceId",
+          "firstFaceId",
+          "secondFaceId"
+        ]
+      }
+    },
+    {
+      "name": "create_slider_mate",
+      "description": "Create a slider (linear motion) mate between two assembly instances. The first instance slides relative to the second — positive travel moves the first instance along the face normal direction away from the second. Swap instance order to reverse slide direction. Requires face IDs from Part Studio body details. Optional offsets shift connectors from face centers.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mate name",
+            "default": "Slider mate"
+          },
+          "firstInstanceId": {
+            "type": "string",
+            "description": "First instance ID"
+          },
+          "secondInstanceId": {
+            "type": "string",
+            "description": "Second instance ID"
+          },
+          "firstFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the first instance"
+          },
+          "secondFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the second instance"
+          },
+          "minLimit": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Optional minimum travel limit. Bare = mm; unit-strings respected."
+          },
+          "maxLimit": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Optional maximum travel limit. Bare = mm; unit-strings respected."
+          },
+          "firstOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector X offset. Bare numbers = mm; strings like \"10 mm\" / \"0.5 in\" respected.",
+            "default": 0
+          },
+          "firstOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Y offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "firstOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Z offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector X offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Y offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Z offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "firstInstanceId",
+          "secondInstanceId",
+          "firstFaceId",
+          "secondFaceId"
+        ]
+      }
+    },
+    {
+      "name": "create_cylindrical_mate",
+      "description": "Create a cylindrical (slide + rotate) mate between two assembly instances. The first instance slides and rotates relative to the second along the mate connector Z-axis. Requires face IDs from Part Studio body details. Optional offsets shift connectors from face centers.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mate name",
+            "default": "Cylindrical mate"
+          },
+          "firstInstanceId": {
+            "type": "string",
+            "description": "First instance ID"
+          },
+          "secondInstanceId": {
+            "type": "string",
+            "description": "Second instance ID"
+          },
+          "firstFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the first instance"
+          },
+          "secondFaceId": {
+            "type": "string",
+            "description": "Face deterministic ID on the second instance"
+          },
+          "minLimit": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Optional minimum axial travel limit. Bare = mm; unit-strings respected."
+          },
+          "maxLimit": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Optional maximum axial travel limit. Bare = mm; unit-strings respected."
+          },
+          "firstOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector X offset. Bare numbers = mm; strings like \"10 mm\" / \"0.5 in\" respected.",
+            "default": 0
+          },
+          "firstOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Y offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "firstOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "First connector Z offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector X offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Y offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "secondOffsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Second connector Z offset. Bare = mm; unit-strings respected.",
+            "default": 0
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "firstInstanceId",
+          "secondInstanceId",
+          "firstFaceId",
+          "secondFaceId"
+        ]
+      }
+    },
+    {
+      "name": "create_mate_connector",
+      "description": "Create an explicit mate connector on a face of an assembly instance. The connector is placed at the face center with its Z-axis along the face normal. Offsets are in the connector's LOCAL coordinate system (X/Y in-plane, Z along normal). Flipping the Z-axis also reverses the other axes via the right-hand rule, which affects how offset translations map to world space.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "instanceId": {
+            "type": "string",
+            "description": "Instance ID to attach the connector to"
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Face deterministic ID (from Part Studio body details)"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mate connector name",
+            "default": "Mate connector"
+          },
+          "flipPrimary": {
+            "type": "boolean",
+            "description": "Flip the primary (Z) axis direction",
+            "default": false
+          },
+          "secondaryAxisType": {
+            "type": "string",
+            "enum": [
+              "PLUS_X",
+              "PLUS_Y",
+              "MINUS_X",
+              "MINUS_Y"
+            ],
+            "description": "Reorient secondary axis",
+            "default": "PLUS_X"
+          },
+          "offsetX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "X offset from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "offsetY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Y offset from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          },
+          "offsetZ": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Z offset (along face normal) from face center. Bare = mm; unit-strings respected.",
+            "default": 0
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "instanceId",
+          "faceId"
+        ]
+      }
+    },
+    {
+      "name": "create_sketch_circle",
+      "description": "Create a circular sketch. Pass either `plane` (Front/Top/Right) or `faceId` (from `list_entities`) to choose the sketch surface. `faceId` wins when both are given.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sketch name",
+            "default": "Sketch"
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane. Defaults to Front if neither plane nor faceId is given."
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Deterministic ID of an existing face to sketch on (get from `list_entities`). Mutually exclusive with `plane`; wins if both given."
+          },
+          "center": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Center point [x, y]. Bare numbers are mm; use \"10 mm\" / \"0.5 in\" for explicit units. Preferred over centerX/centerY."
+          },
+          "centerX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Center X (bare=mm). Legacy; prefer `center`.",
+            "default": 0
+          },
+          "centerY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Center Y (bare=mm). Legacy; prefer `center`.",
+            "default": 0
+          },
+          "radius": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Radius. Bare=mm; use \"5 mm\" / \"0.125 in\" for explicit units."
+          },
+          "variableRadius": {
+            "type": "string",
+            "description": "Optional variable-table name to drive the radius parametrically. Emits a RADIUS dimensional constraint with expression `#<name>` so a later set_variable call resizes the hole without touching this sketch."
+          },
+          "variableCenter": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Optional [x_var, y_var] variable names. Emits HORIZONTAL + VERTICAL DISTANCE constraints from the sketch origin to the circle center, driven by `#x_var` / `#y_var`."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "radius"
+        ]
+      }
+    },
+    {
+      "name": "create_sketch_line",
+      "description": "Create a line sketch. Pass either `plane` (Front/Top/Right) or `faceId` (from `list_entities`) to choose the sketch surface. `faceId` wins when both are given.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sketch name",
+            "default": "Sketch"
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane. Defaults to Front if neither plane nor faceId is given."
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Deterministic ID of an existing face to sketch on (get from `list_entities`). Mutually exclusive with `plane`; wins if both given."
+          },
+          "startPoint": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Start point [x, y]. Bare numbers are mm; use \"10 mm\" / \"0.5 in\" for explicit units."
+          },
+          "endPoint": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "End point [x, y]. Same convention as startPoint."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "startPoint",
+          "endPoint"
+        ]
+      }
+    },
+    {
+      "name": "create_sketch_arc",
+      "description": "Create an arc sketch. Pass either `plane` (Front/Top/Right) or `faceId` (from `list_entities`) to choose the sketch surface. `faceId` wins when both are given.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sketch name",
+            "default": "Sketch"
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane. Defaults to Front if neither plane nor faceId is given."
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Deterministic ID of an existing face to sketch on (get from `list_entities`). Mutually exclusive with `plane`; wins if both given."
+          },
+          "center": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Center point [x, y]. Bare numbers are mm; use \"10 mm\" / \"0.5 in\" for explicit units. Preferred over centerX/centerY."
+          },
+          "centerX": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Center X (bare=mm). Legacy; prefer `center`.",
+            "default": 0
+          },
+          "centerY": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Center Y (bare=mm). Legacy; prefer `center`.",
+            "default": 0
+          },
+          "radius": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Radius. Bare=mm; use \"5 mm\" / \"0.125 in\" for explicit units."
+          },
+          "variableRadius": {
+            "type": "string",
+            "description": "Optional variable-table name to drive the arc radius parametrically. Emits a RADIUS constraint with expression `#<name>`."
+          },
+          "variableCenter": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Optional [x_var, y_var] variable names. HORIZONTAL + VERTICAL DISTANCE constraints from sketch origin to arc center."
+          },
+          "startAngle": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Start angle. Bare number = DEGREES (0 = positive X, the CAD convention); pass \"45 deg\" or \"1.5 rad\" for explicit units. Bare radians will NOT be detected — use the string form to avoid silent near-zero arcs.",
+            "default": 0
+          },
+          "endAngle": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "End angle. Bare number = DEGREES; pass \"180 deg\" or \"3.14 rad\" for explicit units.",
+            "default": 180
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "radius"
+        ]
+      }
+    },
+    {
+      "name": "create_sketch",
+      "description": "Create ONE sketch feature atomically. Two surfaces in one tool:\n\n**Coordinate-first** (legacy, for simple sketches): pass entity dicts without `id` and no `constraints`. The builder hand-computes positions from your coordinates. Fast for 1–3 primitives where you already know where everything goes.\n\n**Constraint-first** (for drawing transcription): give each entity a user-level `id`, list real-world `constraints` between them, and let Onshape's solver resolve positions. This is how the UI works and how engineering drawings are specified.\n\nSketch location: pass either `plane` (Front/Top/Right) or `faceId` (from `list_entities` or the feature_id of a create_offset_plane). `faceId` wins when both are given.\n\n### Coordinate-first entity types\n  rectangle:         {type, corner1:[x,y], corner2:[x,y], variableWidth?, variableHeight?}\n  rounded_rectangle: {type, corner1:[x,y], corner2:[x,y], cornerRadius}\n  circle:            {type, center:[x,y], radius, variableRadius?, variableCenter?:[xv,yv]}\n  line:              {type, start:[x,y], end:[x,y]}\n  arc:               {type, center:[x,y], radius, startAngle?, endAngle?, variableRadius?, variableCenter?:[xv,yv]}\n\n### Constraint-first entity types (require `id`)\n  line:   {type:'line',   id, start:[x,y]?, end:[x,y]?, construction?}\n  circle: {type:'circle', id, center:[x,y], radius, construction?}\n  arc:    {type:'arc',    id, center:[x,y], radius, start_angle?, end_angle?, short_arc?, construction?}\n           — `short_arc` defaults true: if CCW sweep > 180° the builder silently swaps endpoints so the arc goes the short way (matches Onshape UI's three-point-arc default). Set false for the explicit long-way case.\n  point:  {type:'point',  id, at:[x,y]?, construction?}\n\nCircle / arc SEEDS (center + radius) are required even when a DIAMETER or RADIUS constraint will drive the final value — Onshape's solver needs a starting guess. Line start/end are optional; seed to [0,0] when omitted and let COINCIDENT / TANGENT constraints pull endpoints into position.\n\n### Constraints (constraint-first surface only)\nEach item: {type, entities?:[id,...] | entity?:id, value?, direction?}.\nEntity refs are ids, optionally with a sub-point suffix:\n  `line.start`, `line.end`, `circle.center`, `arc.center`\nSupported types:\n  Entity-ref only: HORIZONTAL, VERTICAL (LINES ONLY — not points), COINCIDENT, TANGENT, CONCENTRIC, PARALLEL, PERPENDICULAR, EQUAL, MIDPOINT\n  Dimensioned: DIAMETER, RADIUS, DISTANCE (add `direction: HORIZONTAL|VERTICAL|MINIMUM`), ANGLE (value in degrees by default — string \"90 deg\" / \"1.57 rad\" for explicit units)\n  Binary pair: OFFSET (offset entity + master — pair it with a DISTANCE constraint on the same two for the offset length)\nAliases: HORIZONTAL_DISTANCE → DISTANCE(direction=HORIZONTAL), VERTICAL_DISTANCE → DISTANCE(direction=VERTICAL), LENGTH → DISTANCE(direction=MINIMUM) (for line-length or slot end-to-end dimensions).\nPOINT_ON is NOT a separate type — use COINCIDENT with a point sub-ref.\n\n### Pinning to the sketch origin\nThere is no magic `origin` keyword. To anchor geometry to the sketch plane origin (prevents drift on parametric resize), add a point entity at [0,0] and COINCIDENT to it:\n  entities: [{id:'origin', type:'point', at:[0,0]}, ...]\n  constraints: [{type:'COINCIDENT', entities:['hub.center', 'origin']}, ...]\nThis gives you a sketch-local anchor the solver treats as fixed.\n\nBare numbers are mm; pass strings like \"10 mm\" / \"0.5 in\" for explicit units.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sketch name",
+            "default": "Sketch"
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane. Defaults to Front if neither plane nor faceId is given."
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Deterministic ID of an existing face (from `list_entities`). Mutually exclusive with `plane`; wins if both given."
+          },
+          "entities": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Mixed list of sketch primitives. Presence of `id` on an entity switches to the constraint-first surface (single-entity circles / arcs / lines + solver-driven positions). See tool description for per-type fields.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "rectangle",
+                    "rounded_rectangle",
+                    "circle",
+                    "line",
+                    "arc",
+                    "point"
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type"
+              ]
+            }
+          },
+          "constraints": {
+            "type": "array",
+            "description": "Constraint-first sketch solver directives. Each item: {type, entities?:[id,...] | entity?:id, value?, direction?}. See tool description for supported types + entity-ref syntax.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "entities": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "entity": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": [
+                    "string",
+                    "number"
+                  ]
+                },
+                "direction": {
+                  "type": "string",
+                  "enum": [
+                    "MINIMUM",
+                    "HORIZONTAL",
+                    "VERTICAL"
+                  ]
+                }
+              },
+              "required": [
+                "type"
+              ]
+            }
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "entities"
+        ]
+      }
+    },
+    {
+      "name": "edit_sketch",
+      "description": "Iterate on an existing sketch without rebuilding it. Pass any of `addEntities`, `addConstraints`, `removeIds` and the server fetches the current BTMSketch-151, splices the lists, and re-POSTs. Use this for the second/third pass on a sketch (adding a hole pattern after the outline lands; tightening a constraint after a regen check) instead of delete+recreate.\n\nAdd semantics are STRICT: every entity/constraint dict must carry a non-empty `id` string and ids may not collide with anything already on the wire. To retarget an id, removeIds it first and then addEntities it back.\n\nremoveIds is a single bag matched against entity ids AND constraint ids. Cascade: any constraint whose `entities`/`entity` (or sub-point ref like `line1.start`) names an entity in removeIds is auto-dropped and reported back in `cascaded_removals` so you see exactly what got pulled.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "sketchFeatureId": {
+            "type": "string",
+            "description": "featureId of the sketch to edit (from a prior create_sketch)."
+          },
+          "addEntities": {
+            "type": "array",
+            "default": [],
+            "description": "Entity dicts to append. Each must carry a unique `id` plus the type-specific fields the constraint-first sketch surface accepts.",
+            "items": {
+              "type": "object"
+            }
+          },
+          "addConstraints": {
+            "type": "array",
+            "default": [],
+            "description": "Constraint dicts to append. Each must carry a unique `id`. Reference entities by user-supplied `id` (e.g. `\"entities\": [\"line1\", \"circle1\"]`) or sub-points (`\"line1.start\"`).",
+            "items": {
+              "type": "object"
+            }
+          },
+          "removeIds": {
+            "type": "array",
+            "default": [],
+            "items": {
+              "type": "string"
+            },
+            "description": "User ids to drop. Matches entities AND constraints. Constraints referencing a removed entity cascade out and are reported in cascaded_removals."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "sketchFeatureId"
+        ]
+      }
+    },
+    {
+      "name": "inspect_sketch",
+      "description": "Return a compact, structured view of a BTMSketch-151's entities and constraints. Use before calling `edit_sketch` to learn the entity ids + sub-points (`<id>.start` / `.end` / `.center`) that constraint refs target. Cheaper and easier to scan than `get_features`; includes a human-readable text block plus machine-readable lists.\n\nLocate the sketch by `sketchFeatureId` (preferred), by `sketchName`, or — if the element has exactly one sketch — omit both.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "sketchFeatureId": {
+            "type": "string",
+            "description": "featureId of the target BTMSketch-151 (preferred)."
+          },
+          "sketchName": {
+            "type": "string",
+            "description": "Sketch name as shown in the feature tree. Used when sketchFeatureId is not given."
+          },
+          "includeRaw": {
+            "type": "boolean",
+            "description": "When true, also include the raw BTMSketch-151 JSON under `raw`.",
+            "default": false
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "render_sketch",
+      "description": "Render a BTMSketch-151 to a 2D PNG (sketch-local mm, looking down the sketch normal). Onshape's /shadedviews shows solids but not sketch geometry — this plots each line / arc / circle / point directly and overlays constraint badges: FIX = red square, LENGTH / DIAMETER / RADIUS / DISTANCE = green label, HORIZONTAL / VERTICAL = H/V tag.\n\nComplements `inspect_sketch` (structured text). Same entity ids are labeled on the drawing. Returns an image_id that `crop_image` can zoom into.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "sketchFeatureId": {
+            "type": "string",
+            "description": "featureId of the target BTMSketch-151 (preferred)."
+          },
+          "sketchName": {
+            "type": "string",
+            "description": "Sketch name. Used when sketchFeatureId is not given."
+          },
+          "width": {
+            "type": "integer",
+            "default": 1000
+          },
+          "height": {
+            "type": "integer",
+            "default": 800
+          },
+          "showLabels": {
+            "type": "boolean",
+            "default": true,
+            "description": "Label each entity with its id on the drawing."
+          },
+          "showConstraints": {
+            "type": "boolean",
+            "default": true,
+            "description": "Overlay FIX / dimension / H / V badges."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "list_sketches",
+      "description": "List every sketch in a Part Studio with featureId, name, status, and entity / constraint counts. Use to pick the right sketch before drilling in with `inspect_sketch`.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "create_fillet",
+      "description": "Create a fillet (rounded edge) on one or more edges",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Fillet name",
+            "default": "Fillet"
+          },
+          "radius": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Fillet radius. Bare numbers are mm (CAD default); use \"2 mm\" / \"0.125 in\" for explicit units."
+          },
+          "edgeIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Deterministic IDs of edges to fillet"
+          },
+          "variableRadius": {
+            "type": "string",
+            "description": "Optional variable name for radius"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "radius",
+          "edgeIds"
+        ]
+      }
+    },
+    {
+      "name": "create_chamfer",
+      "description": "Create a chamfer (beveled edge) on one or more edges",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Chamfer name",
+            "default": "Chamfer"
+          },
+          "distance": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Chamfer distance. Bare numbers are mm; use \"2 mm\" / \"0.125 in\" for explicit units."
+          },
+          "edgeIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Deterministic IDs of edges to chamfer"
+          },
+          "variableDistance": {
+            "type": "string",
+            "description": "Optional variable name for distance"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "distance",
+          "edgeIds"
+        ]
+      }
+    },
+    {
+      "name": "create_shell",
+      "description": "Hollow out a solid body into a thin-walled shell. Pass the face IDs (from `list_entities`) you want REMOVED; the remaining faces become the shell wall. Inward by default — the outer bounding box is preserved and material is eaten inside. Returns the standard {ok, status, feature_id, changes?} contract.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Shell name",
+            "default": "Shell"
+          },
+          "thickness": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Wall thickness. Bare numbers are mm; use \"1.5 mm\" / \"0.0625 in\" for explicit units."
+          },
+          "faceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "description": "Deterministic IDs of faces to REMOVE. Everything else keeps the shell wall."
+          },
+          "outward": {
+            "type": "boolean",
+            "default": false,
+            "description": "If true, offset the shell OUTSIDE the original surface (grows bbox). Default false (inward, preserves bbox) — the common enclosure case."
+          },
+          "variableThickness": {
+            "type": "string",
+            "description": "Optional variable name for thickness"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "thickness",
+          "faceIds"
+        ]
+      }
+    },
+    {
+      "name": "create_offset_plane",
+      "description": "Create an offset construction plane: a datum plane parallel to a reference plane or face, shifted by a signed distance. Use when you need to sketch at a specific Z (e.g. 2.5 mm above the Top plane) without an existing face there. Pass a `plane` (Front/Top/Right) to offset from a standard datum, OR a `referenceFaceId` (from `list_entities`) to offset from a face. The new plane becomes a sketch target — pass its `feature_id` as the `faceId` arg to any sketch primitive.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Plane name",
+            "default": "Offset Plane"
+          },
+          "offset": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Signed offset. Bare numbers are mm; use \"2.5 mm\" / \"0.1 in\" for explicit units. Positive follows the reference outward normal; negate or set `flip` to invert."
+          },
+          "plane": {
+            "type": "string",
+            "enum": [
+              "Front",
+              "Top",
+              "Right"
+            ],
+            "description": "Standard datum plane to offset from. Mutually exclusive with `referenceFaceId`."
+          },
+          "referenceFaceId": {
+            "type": "string",
+            "description": "Deterministic face ID to offset from (from `list_entities`). Mutually exclusive with `plane`."
+          },
+          "flip": {
+            "type": "boolean",
+            "default": false,
+            "description": "Invert the offset direction."
+          },
+          "variableOffset": {
+            "type": "string",
+            "description": "Optional variable name for offset"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "offset"
+        ]
+      }
+    },
+    {
+      "name": "create_revolve",
+      "description": "Create a revolve feature by rotating a sketch around an axis",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Revolve name",
+            "default": "Revolve"
+          },
+          "sketchFeatureId": {
+            "type": "string",
+            "description": "ID of sketch to revolve"
+          },
+          "axis": {
+            "type": "string",
+            "enum": [
+              "X",
+              "Y",
+              "Z"
+            ],
+            "description": "Axis of revolution",
+            "default": "Y"
+          },
+          "angle": {
+            "type": "number",
+            "description": "Revolve angle in degrees",
+            "default": 360
+          },
+          "operationType": {
+            "type": "string",
+            "enum": [
+              "NEW",
+              "ADD",
+              "REMOVE",
+              "INTERSECT"
+            ],
+            "description": "Revolve operation type",
+            "default": "NEW"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "sketchFeatureId"
+        ]
+      }
+    },
+    {
+      "name": "create_linear_pattern",
+      "description": "Create a linear pattern of features. Requires a deterministic edge id whose direction the pattern will follow — Onshape has no implicit world-X axis usable here. Workflow: create a reference (a sketch line on any plane pointing the direction you want, or pick an existing body edge via list_entities), then pass its id as directionEdgeId.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Pattern name",
+            "default": "Linear pattern"
+          },
+          "featureIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Feature IDs to pattern"
+          },
+          "distance": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Distance between pattern instances. Bare numbers are mm; use \"10 mm\" / \"0.5 in\" for explicit units."
+          },
+          "count": {
+            "type": "integer",
+            "description": "Total number of instances",
+            "default": 2
+          },
+          "directionEdgeId": {
+            "type": "string",
+            "description": "Deterministic id of an edge whose direction the pattern follows. Get from list_entities(kinds=['edges']) on an existing body, or from a sketch line you drew specifically as a reference. Required."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "featureIds",
+          "distance",
+          "directionEdgeId"
+        ]
+      }
+    },
+    {
+      "name": "create_circular_pattern",
+      "description": "Create a circular pattern of features around an axis",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Pattern name",
+            "default": "Circular pattern"
+          },
+          "featureIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Feature IDs to pattern"
+          },
+          "count": {
+            "type": "integer",
+            "description": "Total number of instances"
+          },
+          "angle": {
+            "type": "number",
+            "description": "Total angle spread in degrees",
+            "default": 360
+          },
+          "axis": {
+            "type": "string",
+            "enum": [
+              "X",
+              "Y",
+              "Z"
+            ],
+            "description": "Pattern axis",
+            "default": "Z"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "featureIds",
+          "count"
+        ]
+      }
+    },
+    {
+      "name": "create_boolean",
+      "description": "Perform a boolean operation (union, subtract, intersect) on bodies",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Boolean name",
+            "default": "Boolean"
+          },
+          "booleanType": {
+            "type": "string",
+            "enum": [
+              "UNION",
+              "SUBTRACT",
+              "INTERSECT"
+            ],
+            "description": "Boolean operation type"
+          },
+          "toolBodyIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Deterministic IDs of tool bodies"
+          },
+          "targetBodyIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Deterministic IDs of target bodies (for SUBTRACT/INTERSECT)"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "booleanType",
+          "toolBodyIds"
+        ]
+      }
+    },
+    {
+      "name": "eval_featurescript",
+      "description": "Evaluate a FeatureScript expression in a Part Studio (read-only, for querying geometry)",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "script": {
+            "type": "string",
+            "description": "FeatureScript lambda expression to evaluate"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "script"
+        ]
+      }
+    },
+    {
+      "name": "get_bounding_box",
+      "description": "Get the tight bounding box of all parts in a Part Studio",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "export_part_studio",
+      "description": "Export a Part Studio to STL, STEP, PARASOLID, GLTF, or OBJ. Blocks until Onshape finishes the translation, downloads the bytes, and writes them to /tmp/onshape-mcp-exports/. Returns the on-disk path, size, and final state so the user can open the file. Raises an explicit error on FAILED or timeout.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "STL",
+              "STEP",
+              "PARASOLID",
+              "GLTF",
+              "OBJ"
+            ],
+            "description": "Export format",
+            "default": "STL"
+          },
+          "partId": {
+            "type": "string",
+            "description": "Optional specific part ID to export"
+          },
+          "timeoutSeconds": {
+            "type": "number",
+            "description": "Max seconds to wait for translation",
+            "default": 120
+          },
+          "pollIntervalSeconds": {
+            "type": "number",
+            "description": "Seconds between status polls",
+            "default": 1
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "export_assembly",
+      "description": "Export an Assembly to STL, STEP, or GLTF. Blocks until Onshape finishes the translation, downloads the bytes, and writes them to /tmp/onshape-mcp-exports/. Returns on-disk path, size, and final state.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "STL",
+              "STEP",
+              "GLTF"
+            ],
+            "description": "Export format",
+            "default": "STL"
+          },
+          "timeoutSeconds": {
+            "type": "number",
+            "description": "Max seconds to wait for translation",
+            "default": 120
+          },
+          "pollIntervalSeconds": {
+            "type": "number",
+            "description": "Seconds between status polls",
+            "default": 1
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "check_assembly_interference",
+      "description": "Check for overlapping/interfering parts in an assembly using bounding box detection. Returns which parts overlap and by how much.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "get_assembly_positions",
+      "description": "Get positions, sizes, and world-space bounds of all instances in an assembly (in mm).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "set_instance_position",
+      "description": "Set an instance to an ABSOLUTE position (bare numbers = mm; strings like \"20 mm\" / \"0.5 in\" for explicit units). Unlike transform_instance this sets absolute coords and resets rotation to identity. Note: fails on fixed/grounded instances (API returns 400).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "instanceId": {
+            "type": "string",
+            "description": "Instance ID to position"
+          },
+          "x": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Absolute X position. Bare = mm; unit-strings like \"20 mm\" / \"0.5 in\" respected."
+          },
+          "y": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Absolute Y position. Bare = mm; unit-strings respected."
+          },
+          "z": {
+            "type": [
+              "number",
+              "string"
+            ],
+            "description": "Absolute Z position. Bare = mm; unit-strings respected."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "instanceId",
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    },
+    {
+      "name": "align_instance_to_face",
+      "description": "Position source instance flush against a face of target instance. Faces: front (min Y), back (max Y), left (min X), right (max X), bottom (min Z), top (max Z). Only moves the perpendicular axis; other axes stay unchanged.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "sourceInstanceId": {
+            "type": "string",
+            "description": "Instance ID to move"
+          },
+          "targetInstanceId": {
+            "type": "string",
+            "description": "Instance ID to align against"
+          },
+          "face": {
+            "type": "string",
+            "enum": [
+              "front",
+              "back",
+              "left",
+              "right",
+              "top",
+              "bottom"
+            ],
+            "description": "Face of target to align source against"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "sourceInstanceId",
+          "targetInstanceId",
+          "face"
+        ]
+      }
+    },
+    {
+      "name": "get_body_details",
+      "description": "Get face-level geometry details for all parts in a Part Studio. Returns face deterministic IDs, surface types (PLANE, CYLINDER, etc.), and for planar faces: normal vectors and origin points. Use face IDs with mate connector tools.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "get_assembly_features",
+      "description": "Get all features (mates, mate connectors, etc.) from an assembly with their current state (OK, ERROR, SUPPRESSED). Useful for inspecting existing mates and debugging assembly issues.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "get_face_coordinate_system",
+      "description": "Query the true outward-facing coordinate system for a face on an assembly instance. Returns the guaranteed outward normal (Z-axis), tangent axes (X/Y), and origin. More reliable than body details normals. Use this to verify face orientations before creating mates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "instanceId": {
+            "type": "string",
+            "description": "Instance ID containing the face"
+          },
+          "faceId": {
+            "type": "string",
+            "description": "Face deterministic ID (from body details)"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "instanceId",
+          "faceId"
+        ]
+      }
+    },
+    {
+      "name": "render_part_studio_views",
+      "description": "Render one or more shaded views of a Part Studio and return the PNGs so Claude can actually see the 3D result. Use this after every feature that creates or modifies visible geometry. The returned image_ids can be passed to crop_image to zoom into suspicious regions. Claude Opus 4.7 spatial reasoning is weak — always render the view you need rather than mentally rotating. Default views: iso, top, front, right.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "views": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of named views (iso, top, front, back, left, right, bottom) or raw comma-separated 12-float viewMatrix strings.",
+            "default": [
+              "iso",
+              "top",
+              "front",
+              "right"
+            ]
+          },
+          "width": {
+            "type": "integer",
+            "default": 1200,
+            "description": "Output width in pixels"
+          },
+          "height": {
+            "type": "integer",
+            "default": 800,
+            "description": "Output height in pixels"
+          },
+          "edges": {
+            "type": "boolean",
+            "default": true,
+            "description": "Render feature/silhouette edges"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "render_assembly_views",
+      "description": "Render shaded views of an Assembly. Same semantics as render_part_studio_views.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Assembly element ID"
+          },
+          "views": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": [
+              "iso",
+              "top",
+              "front",
+              "right"
+            ]
+          },
+          "width": {
+            "type": "integer",
+            "default": 1200
+          },
+          "height": {
+            "type": "integer",
+            "default": 800
+          },
+          "edges": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "extract_drawing_dimensions",
+      "description": "OCR a drawing PNG and return every numeric callout it can read, grouped by kind: length / radius / diameter / thread / angle / count / scale. Each callout includes pixel-position so you can map it to a specific feature in the drawing (compare against your view of the image). USE THIS BEFORE READING DIMS BY EYE — Tesseract is more reliable than your vision pass on small text. Known limit: Ø often misreads as '9' (e.g. 'Ø50' → '950'); cross-check high-significance dims with crop_image at native resolution.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "imagePath": {
+            "type": "string",
+            "description": "Filesystem path to a drawing PNG."
+          }
+        },
+        "required": [
+          "imagePath"
+        ]
+      }
+    },
+    {
+      "name": "load_local_image",
+      "description": "Read a PNG from disk (e.g. the brief's reference drawing) into the image cache so you can crop_image into it at native resolution. Returns image_id + dimensions. Without this, the reference image lives only in the prompt as inline base64 — no way to zoom into a dimension callout. Use this ONCE per brief on the reference path you were given, then crop_image to read small text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "imagePath": {
+            "type": "string",
+            "description": "Filesystem path to a PNG readable by the MCP server."
+          }
+        },
+        "required": [
+          "imagePath"
+        ]
+      }
+    },
+    {
+      "name": "compare_to_reference",
+      "description": "Render your current Part Studio at iso/top/front/right and COMPOSITE the result directly under a reference image from disk. Returns a single side-by-side PNG: reference on top, your build's 4 views on the bottom row, both at the same horizontal extent so silhouettes line up visually. Use this whenever you want to cross-check feature count / placement / proportion against the brief's reference figure — it removes the need to squint back and forth across separate images. The reference path you pass is a filesystem path readable by the MCP server (typically the brief's iso or drawing PNG).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string"
+          },
+          "referenceImagePath": {
+            "type": "string",
+            "description": "Absolute or cwd-relative filesystem path to the reference PNG."
+          },
+          "views": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Views to render for the agent row. Default: iso,top,front,right."
+          },
+          "width": {
+            "type": "integer",
+            "default": 800
+          },
+          "height": {
+            "type": "integer",
+            "default": 600
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "referenceImagePath"
+        ]
+      }
+    },
+    {
+      "name": "crop_image",
+      "description": "Zoom into a region of a cached image by normalized 0..1 bounding box. Use after render_* when you need to inspect a detail — a specific face, a feature edge, a suspicious fillet. (0,0) is top-left, (1,1) is bottom-right. Returns a new image keyed by its own image_id. This is the pattern behind Anthropic's CharXiv 84.7 -> 91.0% 'with tools' benchmark result; use it liberally.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "imageId": {
+            "type": "string",
+            "description": "image_id from a previous render_* or crop_image call"
+          },
+          "x1": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Left edge (0..1)"
+          },
+          "y1": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Top edge (0..1)"
+          },
+          "x2": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Right edge (0..1), must be > x1"
+          },
+          "y2": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Bottom edge (0..1), must be > y1"
+          }
+        },
+        "required": [
+          "imageId",
+          "x1",
+          "y1",
+          "x2",
+          "y2"
+        ]
+      }
+    },
+    {
+      "name": "list_entities",
+      "description": "Enumerate every face, edge, and vertex of every body in a Part Studio with deterministic IDs you can drop into subsequent feature payloads. Each entity has a human-readable 'description' like 'plane / outward +Z / origin (0.0,0.0,15.0) mm' or 'cylinder / radius 5.00 mm / origin ... mm' so you can pick the right one by reading rather than geometric reasoning. Call this after ANY feature that creates or modifies bodies, before sketching on a face, filleting an edge, mating to a face, or otherwise referencing picked geometry. IDs (JHK, JNC, JHl, ...) are the 'deterministicIds' you put in a BTMIndividualQuery-138 query entry.\n\nFILTERS (all optional; prune BEFORE serialization so responses stay small on complex parts): `geometry_type` (PLANE/CYLINDER/LINE/ARC/...), `outward_axis` (+X/-X/+Y/-Y/+Z/-Z), `at_z_mm` + `at_z_tol_mm` (faces pick by origin Z; edges pick by midpoint Z), `radius_range_mm` ([min,max] mm; cylinders/arcs/circles), `length_range_mm` ([min,max] mm; edges only). The response echoes `filters` and reports both `original_counts` and `filtered_counts` per body so you can see how much pruning happened.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "description": "Document ID"
+          },
+          "workspaceId": {
+            "type": "string",
+            "description": "Workspace ID"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "kinds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "faces",
+                "edges",
+                "vertices"
+              ]
+            },
+            "description": "Subset to return; defaults to all three.",
+            "default": [
+              "faces",
+              "edges",
+              "vertices"
+            ]
+          },
+          "bodyIndex": {
+            "type": "integer",
+            "description": "0-based body index to limit output. Omit for all bodies."
+          },
+          "geometryType": {
+            "type": "string",
+            "description": "Case-insensitive type filter. For faces: PLANE, CYLINDER, CONE, TORUS, SPHERE, B_SURFACE. For edges: LINE, CIRCLE, ARC, B_CURVE. Entities without the named type are pruned."
+          },
+          "outwardAxis": {
+            "type": "string",
+            "enum": [
+              "+X",
+              "-X",
+              "+Y",
+              "-Y",
+              "+Z",
+              "-Z"
+            ],
+            "description": "Face filter: keep only faces whose body-outward normal is this world axis. Falls back to `normal_axis` for faces the FS probe couldn't evaluate."
+          },
+          "atZmm": {
+            "type": "number",
+            "description": "Z cut in mm. Keep only faces whose origin Z (planar) is within `atZtolMm` of this value, and edges whose midpoint Z is within tolerance."
+          },
+          "atZtolMm": {
+            "type": "number",
+            "description": "Tolerance around atZmm in mm; default 0.5.",
+            "default": 0.5
+          },
+          "radiusRangeMm": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "[min_mm, max_mm] inclusive. Keeps only entities with a radius in range (cylinders/cones/tori for faces; circles/arcs for edges)."
+          },
+          "lengthRangeMm": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Edges only: [min_mm, max_mm] inclusive edge length."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "describe_part_studio",
+      "description": "One-shot snapshot of a Part Studio's entire design state. Returns BOTH a structured text representation (feature tree with statuses, body topology with every face and edge classified by type + deterministic ID + coordinates, bounding box, mass properties) AND the multi-view rendered images (iso/top/front/right by default). Use this INSTEAD OF chaining get_features + list_entities + render_part_studio_views + get_mass_properties after every mutation. The text is what you reason over (reliable for you). The images catch visual regressions the text misses. Image_ids returned in the text can be cropped via crop_image.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "views": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": [
+              "iso",
+              "top",
+              "front",
+              "right"
+            ],
+            "description": "Named views to render (iso/top/front/back/left/right/bottom)."
+          },
+          "renderWidth": {
+            "type": "integer",
+            "default": 1200
+          },
+          "renderHeight": {
+            "type": "integer",
+            "default": 800
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "measure",
+      "description": "Numeric distance + angle between two entities (faces/edges/vertices) picked by deterministic ID. Use this instead of eyeballing a render when you need precise geometric facts: 'are these faces parallel?', 'what's the distance between the top face and the hole floor?', 'is this edge perpendicular to that plane?'. Input: two IDs from list_entities. Returns point_distance_m, angle_deg, parallel/perpendicular flags, and when applicable a projected plane-to-plane or point-to-plane distance. Always prefer this over visual inspection for precision-sensitive decisions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "entityAId": {
+            "type": "string",
+            "description": "Deterministic ID of entity A"
+          },
+          "entityBId": {
+            "type": "string",
+            "description": "Deterministic ID of entity B"
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "entityAId",
+          "entityBId"
+        ]
+      }
+    },
+    {
+      "name": "get_mass_properties",
+      "description": "Mass properties (volume, mass, center of mass, principal inertia, bbox) for every body in a Part Studio, or a specific part if partId is given. Values come as [min, mean, max] uncertainty triples. Mass is zero unless a material is assigned; volume and centroid are always meaningful.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Part Studio element ID"
+          },
+          "partId": {
+            "type": "string",
+            "description": "Optional specific part ID. Omit for all parts."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId"
+        ]
+      }
+    },
+    {
+      "name": "list_cached_images",
+      "description": "List every image currently in the in-process render cache with its metadata (view, source part studio, dimensions, crop lineage). Use to recover an image_id you need to crop or re-render, or to audit what you've looked at so far.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "write_featurescript_feature",
+      "description": "Paradigm escape hatch. Author an arbitrary FeatureScript custom feature (threads, helices, shells, drafts, sweeps along a path, patterns along a curve -- anything our primitives can't express) and apply it to a Part Studio in one call. The system creates a Feature Studio element in the same workspace, uploads your source, confirms it compiles, fetches the sourceMicroversionId, and instantiates a BTMFeature-134 with the correct `e{fs_eid}::m{microversion}` namespace.\n\n`featureScript` is a COMPLETE FS source file. Prelude: `FeatureScript 2909;\\nimport(path:\"onshape/std/geometry.fs\",version:\"2909.0\");`. Export exactly one `defineFeature(...)` whose binding name matches the `featureType` arg. Minimal worked example (offset plane):\n```\nFeatureScript 2909;\nimport(path:\"onshape/std/geometry.fs\",version:\"2909.0\");\nannotation { \"Feature Type Name\" : \"My feat\" }\nexport const myFeat = defineFeature(function(context is Context, id is Id, definition is map)\n    precondition { annotation{\"Name\":\"Offset\"} isLength(definition.offset, LENGTH_BOUNDS); }\n    {\n        opPlane(context, id + \"p\", {\"plane\": plane(vector(0,0,definition.offset), vector(0,0,1), vector(1,0,0))});\n    });\n```\n`parameters` is a list of `{id, type, value}` dicts to bind precondition variables. type ∈ {quantity, string, boolean, real}. For quantity, value is a unit-tagged string like \"25 mm\" or \"0.5 in\".",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string"
+          },
+          "workspaceId": {
+            "type": "string"
+          },
+          "elementId": {
+            "type": "string",
+            "description": "Target Part Studio element ID"
+          },
+          "featureType": {
+            "type": "string",
+            "description": "The exported defineFeature binding name. MUST match the `export const <name> = ...` in featureScript."
+          },
+          "featureScript": {
+            "type": "string",
+            "description": "Complete FS source. Must start with `FeatureScript <N>;` where N is the current std library version (currently 2909)."
+          },
+          "featureName": {
+            "type": "string",
+            "description": "Human-readable name that shows up in the Onshape feature tree."
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "quantity",
+                    "string",
+                    "boolean",
+                    "real"
+                  ]
+                },
+                "value": {}
+              },
+              "required": [
+                "id",
+                "type"
+              ]
+            },
+            "description": "Bind precondition variables. Omit if the custom feature takes no inputs."
+          },
+          "fsElementName": {
+            "type": "string",
+            "description": "Optional name for the Feature Studio element that carries the source. Defaults to ClaudeFS_<featureType>."
+          }
+        },
+        "required": [
+          "documentId",
+          "workspaceId",
+          "elementId",
+          "featureType",
+          "featureScript",
+          "featureName"
+        ]
+      }
+    }
+  ]
+}

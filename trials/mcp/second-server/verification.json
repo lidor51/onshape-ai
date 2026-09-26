@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exitCode": 0,
+  "elapsedMs": 5972.9828,
+  "testFiles": [
+    "evidence.test.mjs",
+    "live.test.mjs",
+    "measure.test.mjs",
+    "outputs.test.mjs",
+    "report.test.mjs"
+  ],
+  "tests": 11,
+  "passed": 11,
+  "failed": 0
+}

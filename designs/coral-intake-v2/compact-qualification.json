@@ -1,0 +1,200 @@
+{
+  "schema": "compact-coral-qualification/v1",
+  "date": "2026-09-18",
+  "status": "PROPOSED_NOT_QUALIFIED",
+  "scope": "Independent drive topology and qualification contract; no changes to CAD, historical exports or source evidence",
+  "applicability": "Prior noncoaxial drive layout proposal, not current installed CAD. Coaxial motor location, 450/400mm upper loops, kicker placement and independent deployment flange require redesign; numerical qualification targets remain proposed and every gate remains OPEN.",
+  "current_coaxial_installation": false,
+  "cad_complete": false,
+  "physical_field_ready": false,
+  "physical_tests_executed": 0,
+  "threshold_policy": "New numerical acceptance thresholds below are proposed engineering targets, not user-supplied requirements or observed results. Approve them before qualification; do not relax them after a failure without versioning and rerunning affected tests.",
+  "local_evidence": [
+    {"path": "SINGLE-PIVOT.md", "sha256": "6c05da4496b41d7745f3dcf0d40dbe03b956e5d0f543dcad6ea70e0594fdd2b0", "original_review_sha256": "14c73560ac9b501dde299df21474150199f15ad0948d7e1e7ab4902595627c2f", "update_reason": "Added superseding full-system collision/coaxial status; original calculation prose retained as history"},
+    {"path": "system.py", "sha256": "891715409faed4dac631a40176a836c8a3e65d58f03110ad73b9270dafb3a6b1"},
+    {"path": "transmission-candidates.json", "sha256": "db7e10d3a0a4b2dae93e0b496c3ce0cfe7b645e298d923131c753b4c8aafc43d"},
+    {"path": "drive-sizing.json", "sha256": "ee9b29272ec5aae33d7f742a970bf67fab280c003d4ca6ddaea00995dd908255"},
+    {"path": "IMPACT-MATERIALS.md", "sha256": "5b66b65a050096e2b2cd47c34a56262924b43f3b84647630fcf44e0ca38fa9a0"},
+    {"path": "../../docs/TEAM-PROFILE.md", "sha256": "e197ed8d8e59b70c72dcb1f4d18b18802b2858831701588a865003a1b21c5fa0"},
+    {"path": "../coral-intake-v1/model.py", "sha256": "bea6509771aff7e8827d22eef2d4d40dc6a0fdcab5c1703f2f9ac059ec81dc80"},
+    {"path": "../coral-intake-v1/drive_completion.py", "sha256": "be5f63d12f185e6e5eb41a31f4f817a22f02b8a2eb89a01174ec92f9d9bdbfa2"},
+    {"path": "../coral-intake-v1/params.json", "sha256": "c8fafac063515884c789cec070297eb0e13f6ff462199a1bf5c5bd31bbae1910"},
+    {"path": "../coral-intake-v1/cots/sourcebindings.json", "sha256": "719243c3ca45c4805f1d32d1bb28cd466a399631114a5f4bc0c7ad7d9b25d3cb"},
+    {"path": "../coral-intake-v1/cots/load_vendor.py", "sha256": "fce054690eeb6c39e50272297cd6777bfb472c6bc3054c8b5b02c5650c50666b"}
+  ],
+  "public_sources": [
+    {"id": "pulleys", "url": "https://wcproducts.com/products/htd-timing-pulleys", "observed_on": "2026-09-18", "facts": "WCP-0563 18T, WCP-0990 36T, WCP-1420 15T: HTD 5mm, 9mm wide, 1/2 inch hex; listed In Stock", "limitation": "Page text only; drawings, axial dimensions, load ratings and delivered stock not verified"},
+    {"id": "belts", "url": "https://wcproducts.com/products/htd-timing-belts-9mm-width", "observed_on": "2026-09-18", "facts": "WCP-1757 64T, WCP-0619 70T, WCP-0621 80T, WCP-0632 130T: HTD 5mm, 9mm wide; listed In Stock", "limitation": "Pitch lengths are teeth times 5mm, not outside lengths or installed pretension settings"},
+    {"id": "sprockets", "url": "https://wcproducts.com/products/25-sprockets", "observed_on": "2026-09-18", "facts": "WCP-0576 12T steel DOUBLE HUB has 1/2 inch ROUNDED hex bore; WCP-2106 36T aluminum double hub has 1/2 inch hex bore; both listed In Stock; page specifies compatibility with #25/#25H chain. WCP-0970 60T plate sprocket is SplineXL, not hex", "limitation": "No chain working-load/RPM rating or exact rounded-corner fit established"},
+    {"id": "failed_gear_pages", "urls": ["https://wcproducts.com/products/20dp-gears", "https://wcproducts.com/products/20-dp-gears"], "observed_on": "2026-09-18", "facts": "Both returned extraction errors; no specifications inferred; existing sourcebindings used for 12T/60T gears"}
+  ],
+  "season_scope": "Modernized 2025-game design using catalog observations in 2026. Availability during the 2025 competition season remains unverified, including WCP-2106.",
+  "components": [
+    {"id": "x44", "sku": "WCP-0941", "binding_key": "x44", "geometry_sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1", "interface": "8mm SplineXS; 19.05mm pilot; 34.925mm bolt circle; #10-32 UNF mounting and shaft-end threads"},
+    {"id": "pinion12", "sku": "WCP-1010", "teeth": 12, "bore": "SplineXS", "binding_key": "spline_pinion", "geometry_sha256": "f8f26ea01566c74727766733b896cbbd881d0887b35d527b060e31fd0730a486", "interface": "20 DP; motor only, NOT a hex-shaft pinion"},
+    {"id": "gear60", "sku": "WCP-0121", "teeth": 60, "bore": "half_inch_hex", "binding_key": "hex_output_gear", "geometry_sha256": "06509b998bc9676cf54a057e944e46c643428a1b8b9c6e78d172f932bbad2cf6", "interface": "20 DP; tooth face width 9.525mm; overall axial width 12.6492mm"},
+    {"id": "hex_bearing", "sku": "WCP-0783", "binding_key": "hex_bearing", "geometry_sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b", "interface": "Nominal 1/2 inch hex and 1.125 inch OD; source CAD body OD 28.5496mm is NOT a housing-fit tolerance"},
+    {"id": "star", "sku": "am-5123_green", "binding_key": "intake_star", "geometry_sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869", "interface": "127mm nominal diameter, 12.7mm nominal hex; green 35A source selection, contact behavior untested"},
+    {"id": "indexer_wheel", "sku": "am-3945_green", "binding_key": "indexer_wheel", "geometry_sha256": "60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd", "interface": "76.2mm diameter, 25.4mm width, 1/2 inch hex"},
+    {"id": "htd18", "sku": "WCP-0563", "teeth": 18, "bore": "half_inch_hex", "source": "pulleys"},
+    {"id": "htd36", "sku": "WCP-0990", "teeth": 36, "bore": "half_inch_hex", "source": "pulleys"},
+    {"id": "htd15", "sku": "WCP-1420", "teeth": 15, "bore": "half_inch_hex", "source": "pulleys"},
+    {"id": "sprocket12", "sku": "WCP-0576", "teeth": 12, "bore": "half_inch_rounded_hex", "source": "sprockets", "fit_approved": false},
+    {"id": "sprocket36", "sku": "WCP-2106", "teeth": 36, "bore": "half_inch_hex", "source": "sprockets"},
+    {"id": "belt320", "sku": "WCP-1757", "teeth": 64, "pitch_length_mm": 320, "source": "belts"},
+    {"id": "belt350", "sku": "WCP-0619", "teeth": 70, "pitch_length_mm": 350, "source": "belts"},
+    {"id": "belt400", "sku": "WCP-0621", "teeth": 80, "pitch_length_mm": 400, "source": "belts"},
+    {"id": "belt650", "sku": "WCP-0632", "teeth": 130, "pitch_length_mm": 650, "source": "belts"}
+  ],
+  "motors": [
+    {"id": "pickup", "component": "x44", "mount": "moving cassette, not floating front cheek"},
+    {"id": "indexer_left", "component": "x44", "mount": "fixed left bank"},
+    {"id": "indexer_right", "component": "x44", "mount": "fixed right bank"},
+    {"id": "deployment", "component": "x44", "mount": "chassis"}
+  ],
+  "paths": [
+    {
+      "id": "pickup_upper", "motor": "pickup", "outputs": ["rear_roller", "middle_roller", "front_roller"], "reduction": 10, "rotation_relative_to_motor": -1, "hardware_qualified": false,
+      "stages": [
+        {"kind": "external_spur", "driver_component": "pinion12", "driver_teeth": 12, "driven_component": "gear60", "driven_teeth": 60, "output_shaft": "pickup_A", "center_mm": 45.72},
+        {"kind": "open_htd", "driver_component": "htd18", "driver_teeth": 18, "driven_component": "htd36", "driven_teeth": 36, "output_shaft": "rear_roller", "belt_component": "belt350", "nominal_center_mm": 106.535598542}
+      ],
+      "support": "Two separated WCP-0783 bearing seats on shaft A, with gear and pulley between supports; retain two supports per roller; stiff flat aluminum datum plates",
+      "retention": "Hex transmits torque. Shaft-end screws, washers and faced spacers capture inner-race/hub stacks with measured end float; outer races held by shoulders and removable keeper plates, never clamped through rolling elements",
+      "tension_or_mesh": "45.72mm gear centers; whole reducer carrier adjusts for 350mm belt without altering gear mesh. Two independent 18:18 loops below drive rear-middle-front; middle pulleys need separate axial lanes",
+      "release_blockers": ["Original pulley drawings and flange widths", "All shaft lengths, axial lanes, installed belt tension and removal path", "Sum reflected kicker and upper-roller loads; 40N prior screen is not measured", "Gear tooth phase/backlash, rotor-reference artifact and motor-mount strength"]
+    },
+    {
+      "id": "pickup_kicker", "motor": "pickup", "outputs": ["kicker"], "reduction": 4.166666666666667, "rotation_relative_to_motor": 1, "hardware_qualified": false,
+      "stages": [
+        {"kind": "external_spur", "driver_component": "pinion12", "driver_teeth": 12, "driven_component": "gear60", "driven_teeth": 60, "output_shaft": "pickup_A", "shared_with": "pickup_upper"},
+        {"kind": "external_spur", "driver_component": "gear60", "driver_teeth": 60, "driven_component": "gear60", "driven_teeth": 60, "output_shaft": "pickup_B", "center_mm": 76.2},
+        {"kind": "open_htd", "driver_component": "htd18", "driver_teeth": 18, "driven_component": "htd15", "driven_teeth": 15, "output_shaft": "kicker", "belt_component": "belt650", "nominal_center_mm": 283.740}
+      ],
+      "support": "One added reverse shaft B with two WCP-0783 bearings in the same paired reducer plates; two separated kicker bearings. Both shafts move with the rigid pickup cassette",
+      "retention": "Share the actual first 60T gear, not an extra pickoff gear. Capture B gear and pulley by hex and end stack. Replace fragile kicker hubs with sized machined, mechanically fastened end flanges; their core/sleeve torque interface is still unqualified",
+      "tension_or_mesh": "Keep 76.2mm gear centers fixed; choose carrier orientation for both belts and add a supported take-up if needed. 650mm belt is a packaging starting point, not a clearance result. No crossed HTD belt or friction sleeve drive",
+      "release_blockers": ["Kicker hub minimum wall under 1mm in existing evidence", "Core-to-hub and tread-to-core anti-slip attachment", "650mm full-span guard and belt route through all fold poses", "Capture testing must validate coupled kicker speed and reversal; no independent kicker control"]
+    },
+    {
+      "id": "indexer_left", "motor": "indexer_left", "outputs": ["L0", "L1", "L2"], "reduction": 5, "rotation_relative_to_motor": -1, "hardware_qualified": false,
+      "stages": [{"kind": "external_spur", "driver_component": "pinion12", "driver_teeth": 12, "driven_component": "gear60", "driven_teeth": 60, "output_shaft": "L0", "center_mm": 45.72}],
+      "support": "Retain two separated bearings on each vertical shaft; first-station reducer bearing requires coaxial alignment with the bank seats, not three independently located press fits",
+      "retention": "Replace round-cord pulley with hex HTD pulleys. Recompute captured axial stack for actual flange widths and two pulleys on L1; do not reuse 192mm shaft length blindly",
+      "tension_or_mesh": "L0-L1: 18:18, 350mm belt at existing 124.780808mm center. L1-L2: 18:18, 320mm belt at 107.475869mm. Each needs an independently adjustable, bearing-supported idler; no wheel-center shift to consume slack",
+      "release_blockers": ["10.438384mm and 15.048261mm nominal excess belt path need designed take-up", "Idler bearings, retention, minimum bend radius, wrap and axial lanes", "Bank wheel torque, side-to-side command signs, capture and hold control untested"]
+    },
+    {
+      "id": "indexer_right", "motor": "indexer_right", "outputs": ["R0", "R1", "R2"], "reduction": 5, "rotation_relative_to_motor": -1, "hardware_qualified": false,
+      "stages": [{"kind": "external_spur", "driver_component": "pinion12", "driver_teeth": 12, "driven_component": "gear60", "driven_teeth": 60, "output_shaft": "R0", "center_mm": 45.72}],
+      "support": "Mirror the left bank mechanically with two separated bearings per shaft and one coherent datum for first-station reducer support",
+      "retention": "Same positive hex and captured shaft stack as left, including a second pulley on R1 and clearance to all nine wheels per bank",
+      "tension_or_mesh": "Mirror L0-L1 and L1-L2 belt selections and independently adjustable idlers; command opposite angular signs about world +Z for same forward feed at inward-facing contacts",
+      "release_blockers": ["Same unbuilt belt/idler interfaces as left", "Differential orientation, stall recovery and sensor logic not verified", "Independent current limits are not a substitute for aggregate battery sizing"]
+    },
+    {
+      "id": "deployment", "motor": "deployment", "outputs": ["single_pivot"], "reduction": 45, "rotation_relative_to_motor": -1, "hardware_qualified": false,
+      "selection": "Compact kinematically feasible prototype topology; rating, packaging and final ratio release remain blocked",
+      "stages": [
+        {"kind": "external_spur", "driver_component": "pinion12", "driver_teeth": 12, "driven_component": "gear60", "driven_teeth": 60, "output_shaft": "deployment_A", "center_mm": 45.72},
+        {"kind": "open_chain", "driver_component": "sprocket12", "driver_teeth": 12, "driven_component": "sprocket36", "driven_teeth": 36, "output_shaft": "deployment_B", "chain": "#25H, proposed 56-pitch closed loop; supplier working-load rating and exact SKU unselected"},
+        {"kind": "open_chain", "driver_component": "sprocket12", "driver_teeth": 12, "driven_component": "sprocket36", "driven_teeth": 36, "output_shaft": "single_pivot", "chain": "#25H, proposed 56-pitch closed loop; supplier working-load rating and exact SKU unselected"}
+      ],
+      "support": "Chassis-fixed paired plates support both reducer jackshafts with two bearings each. Final sprocket sits close to a separately supported pivot bearing; two widely spaced chassis pivot supports carry impact and racking, not the motor bearings",
+      "retention": "12T rounded-hex fit must be measured against shaft corner radius; do not force ordinary sharp hex into it. Final hex hub/flange must positively bolt to both pickup sides/cross-tube with a sized torque path; no friction-only clamp or loose end plug",
+      "tension_or_mesh": "Two guarded 12:36 loops in separate axial lanes, nominal 56 pitches each, approximate center 98.617176mm before discrete-chain/vendor allowance. Adjust whole reducer and B bearing carrier with jacking screws while keeping gear mesh fixed; two positive endpoint stops plus service pin and operational stow retention",
+      "release_blockers": ["Low-axis mass, COM and inertia must be recalculated; saved 140-degree high-pivot sizing is not transferable", "Old 43.497Nm screen would imply about 1.19kN final chain tension difference before pretension/shock; #25H may be inadequate", "Chain exact SKU, allowable working tension, pin fatigue, lubrication, speed and guarding", "Rounded-hex fit, pivot shaft strength, flange bolt group and bearing ratings", "Power-loss and mid-stroke fall control; motor brake/current limit is not a holding latch or crash protector"]
+    }
+  ],
+  "front_float_axis": "middle_roller_axis",
+  "kicker_surface_speed_ratio": 0.963779527559055,
+  "belt_qualification": false,
+  "equal_pulley_loops": [
+    {"rows": ["front", "middle"], "pulley_sku": "WCP-0563", "belt_sku": "WCP-0621", "teeth": 18, "pitch_mm": 5, "center_mm": 155, "pitch_length_mm": 400},
+    {"rows": ["middle", "rear"], "pulley_sku": "WCP-0563", "belt_sku": "WCP-0619", "teeth": 18, "pitch_mm": 5, "center_mm": 130, "pitch_length_mm": 350}
+  ],
+  "indexer_loops_per_bank": [
+    {"stations": [0, 1], "driver_component": "htd18", "driven_component": "htd18", "reduction": 1, "belt_component": "belt350", "center_mm": 124.78080781915142, "nominal_extra_path_mm": 10.43838436169716},
+    {"stations": [1, 2], "driver_component": "htd18", "driven_component": "htd18", "reduction": 1, "belt_component": "belt320", "center_mm": 107.4758693847135, "nominal_extra_path_mm": 15.048261230573}
+  ],
+  "current_limits": {"supply_a": null, "stator_a": null, "minimum_bus_voltage_v": null, "basis": "Commission from selected controller mode, physical torque/current measurements and whole-robot battery budget; endpoint current proxy is not a controller setting"},
+  "unknown_inputs": ["actual_robot_mass_kg", "moving_mass_com_inertia_at_low_pivot", "stock_grades_and_tolerances", "battery_and_aggregate_current_budget", "controller_mode_and_current_limits", "receiver_acceptance_pose_and_grip", "chassis_mounts_and_available_volume", "impact_speeds_contacts_and_required_survival_energy", "competition_duty_and_service_life", "physical_test_evidence"],
+  "blockers": [
+    "B1: Parent must build actual downstream drives, pulley lanes, bearings, axial retention and guards; an envelope is not hardware.",
+    "B2: Recalculate loaded single-pivot dynamics at Y110/Z170 and -110 degrees with all drives/wiring and trapped-coral load case; release ratio only after current, torque and duty tests.",
+    "B3: Obtain chain working ratings and exact #25H SKU; verify 12T rounded hex. Change transmission family or load requirement if ratings fail, not just the visual model.",
+    "B4: Replace thin kicker hubs and specify a manufacturable mechanical core/sleeve torque attachment.",
+    "B5: Finish chassis-supported stops, positive stow retention, separated side-load supports and containment of replaceable impact faces; no passive-collapse claim.",
+    "B6: Define receiver-owned grip and escape envelope, actual sensors and loss-of-power behavior; retained tray/stop/sensor envelopes do not prove handoff or holding.",
+    "B7: Close every qualification gate with linked raw evidence and approved inputs; software tests do not close physical gates."
+  ],
+  "gates": [
+    {
+      "id": "inputs", "status": "OPEN", "evidence": [],
+      "procedure": "Freeze revision, chassis/receiver datums, actual weighed mass/COM/inertia, stock certificates, machine capability, battery budget, motor mode, intended season and physical test plan before release testing.",
+      "acceptance": "Every unknown input has a measured value or an explicitly approved bounded requirement; no null electrical or impact limit at qualification release.",
+      "record": "Revision hashes, BOM/source receipts, scale/COM data, tolerances, wiring protection, requirement-owner approval and instrument calibration."
+    },
+    {
+      "id": "drive_interfaces", "status": "OPEN", "evidence": [],
+      "procedure": "Inspect all five output paths with power isolated; measure bores, gear phase/backlash, seats, thread engagement, inner-race stacks, end float, belt wrap/tension and chain alignment. Spin unloaded at low speed, then rated speed/load in both directions with guards.",
+      "acceptance": "Measured tooth ratios/signs match contract; no missing driven output, tight spot, tooth skip, derailment, axial migration or fastener loosening. Every load/fit/tension value is inside a verified supplier/design limit, including jam reversal and pivot chain. No improvised SplineXS-to-hex or SplineXL-to-hex substitution.",
+      "record": "As-built dimension sheet, selected chain/shaft/fastener specifications, shaft/bearing/bolt/tooth calculations, rpm/current traces and pre/post witness marks."
+    },
+    {
+      "id": "capture", "status": "OPEN", "evidence": [],
+      "matrix": {"yaw_deg": [0, 30, 60, 90], "yaw_zero": "Coral long axis parallel to pickup roller shafts (+X); entry is +Y", "offset_mm": [-100, 0, 100], "approach_mps": [0.5, 1.0], "surface_conditions": ["clean_dry", "representative_worn_dusty"], "trials_per_cell": 20, "wall_cases": ["horizontal_parallel_to_wall", "horizontal_end_against_wall", "upright_against_wall", "upright_free_standing"], "wall_trials_per_case": 20},
+      "procedure": "Run the floor matrix with actual regulation-size coral and field carpet; then each wall/upright case at measured starting clearance with both left/right approach biases. Record any wall-pushing, tipping or extra chassis maneuver as part of the cycle. Extend speeds and offsets to the approved match envelope before release.",
+      "acceptance": "Proposed: 20/20 successful captures per cell/case without human intervention, no earlier hard snag or field damage, indexed within 3s of first soft contact. Record autonomous retries; exclude no difficult orientation silently. This sample is not proof of 99% field reliability.",
+      "record": "Per-trial yaw, offset, speed, coral dimensions/wear, wall distance, float travel, video, timestamps, current, failure type and final pose."
+    },
+    {
+      "id": "jam_eject", "status": "OPEN", "evidence": [],
+      "procedure": "Safely fixture a wedged entry, stopped kicker, blocked middle/rear roller and blocked bank separately. Test diagonal coral, reversed command, repeated retry and sensor-stuck states with remote stop and commissioned electrical limits.",
+      "acceptance": "Proposed: detect sustained commanded-motion mismatch within 250ms after the approved transient filter; stop/reverse and eject within 2s in 20/20 recoverable trials per location. Unrecoverable fault latches motor output off after at most two retries. Never fold a trapped coral automatically; no tread slip, belt tooth jump or damage.",
+      "record": "Fault thresholds/delays, rpm, supply/stator current separately, bus voltage, recovery time, retry count, temperature and damage inspection."
+    },
+    {
+      "id": "indexed_held_handoff", "status": "OPEN", "evidence": [],
+      "procedure": "Identify entry, oriented/seated, held, receiver-gripped, intake-released and receiver-clear states using actual sourced sensors. Run every capture orientation through alignment and receiver transfer, including blocked receiver, early sensor trigger and loss of power.",
+      "acceptance": "Proposed: final pose within +/-10mm position and +/-5deg yaw of agreed receiver datum, hold for 10s over approved robot tilt/acceleration envelope, and 20/20 handoffs without drop. Receiver confirms positive grip before intake releases or folds; receiver clears before re-acquisition. Loss of power must retain or safely contain coral; no indefinite stalled-motor holding.",
+      "record": "Receiver envelope/ownership, pose errors, hold loads, sensor part numbers and logic traces, transfer timing, power-loss response and video."
+    },
+    {
+      "id": "fold_stow", "status": "OPEN", "evidence": [],
+      "procedure": "Check complete hardware/coral/cable swept solids through 0 to -110 degrees and full front-float range at the low pivot. Then perform 200 loaded/unloaded physical cycles, interrupted moves, power loss at mid-stroke and service-pin insertion; test trapped-coral fault without forcing a fold.",
+      "acceptance": "No collision or pinch, rule-envelope violation, harness tension, belt/chain derailment or unsupported transfer during sweep. Proposed rigid clearance floor is 5mm AFTER tolerance/deflection allowance, larger where required by harness/vendor/rules. Endpoint forces enter chassis-supported stops, not reducer teeth. Operational stow retention and service pin work without electrical holding.",
+      "record": "Full swept model and tolerance budget, current/position traces, measured clearances, latch/stop loads, cable bend radii and post-cycle inspection."
+    },
+    {
+      "id": "front_hits", "status": "OPEN", "evidence": [], "approved_energy_j": null, "static_screen_qualifies_dynamic_impact": false,
+      "procedure": "After structural review approve effective collision mass, contact normals, speed, allowed damage and stopping travel. Instrument bounded energy steps at 25/50/75/100% of approved energy, three repetitions per step, at kicker, leading face and corner in deployed and mid-fold states. Stop on damage or unexpected load path.",
+      "acceptance": "Measured peak force/deflection/stop reaction stays within approved nonlinear/fastener/shaft limits; no detached debris, loss of coral containment or damaged roller datums. Replaceable-face damage only within a preapproved, contained service criterion. Re-run capture and drive-interface checks after each series. Low frontal force may oppose stow: do not assume passive folding.",
+      "record": "Mass/velocity/contact geometry, force-time and displacement-time records, peak vs average force, rebound, high-speed video, dimensional checks and sacrificial-part replacement."
+    },
+    {
+      "id": "side_hits", "status": "OPEN", "evidence": [], "approved_energy_j": null, "static_screen_qualifies_dynamic_impact": false,
+      "procedure": "Repeat independently approved energy ladder from front_hits on left/right outboard cheek and corner contacts, including asymmetric and stowed cases. Instrument both pivot supports and crossmembers for racking.",
+      "acceptance": "Separated pivot supports and chassis fasteners carry asymmetric side load within approved limits; no permanent bearing-axis misalignment or roller/guard intrusion. No credit for pivot rotation under pure X force, and no automatic half-load sharing between cheeks. Pass capture/drive checks afterward.",
+      "record": "Side contact position/normal, support reactions, shaft/plate strains or deflections, residual alignment, fastener witness marks and post-impact function."
+    },
+    {
+      "id": "thermal_duty", "status": "OPEN", "evidence": [],
+      "procedure": "Use the approved full-robot battery and match duty profile with all four motors and representative drivetrain load, fresh and sagged battery, high ambient and scheduled jam recoveries. Proposed minimum: three 150s runs with 60s breaks; extend to actual event/service demand.",
+      "acceptance": "No brownout, thermal derating, protective trip or performance loss. Measured motor/controller/wiring/bearing/tread temperatures remain at least proposed 10C below their verified applicable limits; voltage and aggregate current remain inside approved budget. No holding by continuous stall. Additional endurance: 300 mixed complete acquisition/handoff/stow cycles with zero unrecovered failures, not a statistical field-reliability guarantee.",
+      "record": "Time-synchronized supply/stator currents, duty, rpm, bus voltage, temperatures, actual cycle distribution, battery state, ambient, faults and post-endurance wear."
+    },
+    {
+      "id": "repair", "status": "OPEN", "evidence": [],
+      "procedure": "With power isolated and service pin installed, time replacement of a front contact, kicker sleeve/hub, belt/chain and removable pickup cassette using the listed pit tools and spares. Repeat assembly three times by two technicians.",
+      "acceptance": "Proposed: contact or belt/chain replacement <=5min; complete cassette <=10min. No motor or indexer removal for routine front service, no forced bending, uncontrolled falling mass or dropped captive hardware. Reassembled geometry and tension pass the same inspection and capture checks.",
+      "record": "Timed work instructions, tool and spare list, removal paths, retorque marks, tension/end-float measurements and recovery run."
+    },
+    {
+      "id": "manufacturing", "status": "OPEN", "evidence": [],
+      "procedure": "Make bearing-seat, hex-relief, end-tap and PC-fastener coupons before full fabrication. Use router-cut flat aluminum/PC, saw-cut tube and manual lathe/mill finishing; inspect first articles and source certificates. No accurate metal bending assumed.",
+      "acceptance": "All critical fits meet tolerances derived from actual supplier drawings/load calculations and demonstrated machine capability. No hidden broaching, splining or gear cutting. PC fasteners use compatible flat-underhead washers/standoffs and thermal allowance; respect verified guide edge/hole rules, no conical countersinks or ordinary threadlocker. The old sub-1mm kicker hub wall is not released. Every custom part has a drawing and an achievable inspection method.",
+      "record": "Stock grade/thickness certificates, coupon measurements, tools/setups, bearing fits, coaxiality/runout, torque settings, dimensional inspection and revision-bound manufacturing files."
+    }
+  ]
+}

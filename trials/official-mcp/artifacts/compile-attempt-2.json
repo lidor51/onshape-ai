@@ -1,0 +1,19 @@
+{
+  "status": "PARENT_REPORTED_REPAIR_1_SUBMISSION_FAILED",
+  "attribution": "PARENT_REPORTED_NOT_INDEPENDENTLY_RETRIEVED",
+  "tool": "mcp_featurescript_test_feature",
+  "sourceVersion": 3070,
+  "reportedSourceRelationship": "Parent submitted repaired 3070 source with the same semantics and slightly different whitespace.",
+  "submittedSource": null,
+  "submittedSourceSha256": null,
+  "localRepair1ReferenceSha256": "85cf69c4b3088aec37a28dce5db60d004dde584648f1b3a3b9f284a37569f402",
+  "localReferenceIsNotSubmittedByteIdentity": true,
+  "reportedErrorText": "Error: could not find Trojan feature spec: no features found. This may indicate syntax errors in the FeatureScript.",
+  "rawResponse": null,
+  "rawResponseLimitation": "Only the exact error text was supplied in this continuation; no enclosing response object or exact submitted bytes were provided.",
+  "syntaxDiagnostic": null,
+  "serverTestsRan": false,
+  "serverMeasurements": null,
+  "compilerRepairsUsed": 1,
+  "compilerRepairCap": 2
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "deployed.png",
+    "foregroundDepthPixels": 184905,
+    "depthMin": 0.2872713506221771,
+    "depthMax": 1.0,
+    "renderer": "VTK per-pixel depth buffer"
+  },
+  {
+    "file": "side.png",
+    "foregroundDepthPixels": 57575,
+    "depthMin": 0.2268601804971695,
+    "depthMax": 1.0,
+    "renderer": "VTK per-pixel depth buffer"
+  },
+  {
+    "file": "plan.png",
+    "foregroundDepthPixels": 277691,
+    "depthMin": 0.23363037407398224,
+    "depthMax": 1.0,
+    "renderer": "VTK per-pixel depth buffer"
+  },
+  {
+    "file": "stowed.png",
+    "foregroundDepthPixels": 222872,
+    "depthMin": 0.2914166748523712,
+    "depthMax": 1.0,
+    "renderer": "VTK per-pixel depth buffer"
+  },
+  {
+    "file": "receiver-probe.png",
+    "foregroundDepthPixels": 190627,
+    "depthMin": 0.29395076632499695,
+    "depthMax": 1.0,
+    "renderer": "VTK per-pixel depth buffer"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "phase": "offline-featurescript-poc",
+  "nodeVersionObserved": "v24.15.0",
+  "verification": {
+    "localTestsPassed": 22,
+    "localTestsFailed": 0,
+    "localTestEvidence": "tests.tap",
+    "testScope": "Analytic, lexical, and synthetic request/response contracts only; no local FeatureScript compiler",
+    "credentialFilesRead": false,
+    "authenticatedOnshapeCalls": 0,
+    "onshapeCompilation": "NOT_RUN",
+    "onshapeFeatureInstantiation": "NOT_RUN",
+    "serverMeasurements": "NOT_RUN",
+    "parameterRevisionInOnshape": "NOT_RUN",
+    "onshapeImage": "NOT_RUN",
+    "stepExport": "NOT_RUN",
+    "serverBomReadback": "NOT_IMPLEMENTED"
+  },
+  "baselineArtifact": "baseline.json",
+  "revisionArtifact": "revision.json",
+  "liveCommandPreparedNotExecuted": "node trials/featurescript/deploy.mjs --live --confirm-private",
+  "cadElapsedMs": null,
+  "tokenUsage": null,
+  "cost": null
+}

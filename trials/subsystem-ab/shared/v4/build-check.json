@@ -1,0 +1,820 @@
+{
+  "badSolids": {},
+  "parts": 58,
+  "physicalInstances": 510,
+  "rigidGroups": 28,
+  "checks": {
+    "chassis_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 3524999.9999999986,
+      "boundsMm": [
+        -350.0,
+        0.0,
+        70.0,
+        350.0,
+        760.0,
+        120.0
+      ]
+    },
+    "bumper_keepout": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 33252000.0,
+      "boundsMm": [
+        -435.0,
+        -85.0,
+        45.0,
+        435.0,
+        845.0,
+        165.0
+      ]
+    },
+    "bolt_M6x20": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1036.7255756846318,
+      "boundsMm": [
+        -20.0,
+        -5.0,
+        -5.0,
+        6.0,
+        5.0,
+        5.0
+      ]
+    },
+    "bolt_M6x16": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 923.628240155399,
+      "boundsMm": [
+        -16.0,
+        -5.0,
+        -5.0,
+        6.0,
+        5.0,
+        5.0
+      ]
+    },
+    "bolt_M6x50": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1884.955592153876,
+      "boundsMm": [
+        -50.0,
+        -5.0,
+        -5.0,
+        6.0,
+        5.0,
+        5.0
+      ]
+    },
+    "nut_M6": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 286.88937359212423,
+      "boundsMm": [
+        -2.5000000000000004,
+        -5.773502691896258,
+        -5.0,
+        2.5,
+        5.773502691896258,
+        5.000000000000001
+      ]
+    },
+    "washer_M6": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 129.4838828103569,
+      "boundsMm": [
+        -0.8,
+        -6.0,
+        -6.0,
+        0.8,
+        6.0,
+        6.0
+      ]
+    },
+    "collar_half_hex": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 2393.968136587193,
+      "boundsMm": [
+        -4.0000001,
+        -12.0000001,
+        -12.0000001,
+        4.0000001,
+        12.0000001,
+        11.989578908281798
+      ]
+    },
+    "end_retainer_M5": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 805.0331174823845,
+      "boundsMm": [
+        -10.0,
+        -10.0,
+        -10.0,
+        1.0,
+        10.0,
+        10.0
+      ]
+    },
+    "bearing_retainer": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1979.1405399084974,
+      "boundsMm": [
+        -1.0,
+        -24.0,
+        -24.0,
+        1.0,
+        24.0,
+        24.0
+      ]
+    },
+    "M4_retainer_screw": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 279.6017461694916,
+      "boundsMm": [
+        -10.0,
+        -3.5,
+        -3.5,
+        4.0,
+        3.5,
+        3.5
+      ]
+    },
+    "pickup_cheek": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 132648.35209804768,
+      "boundsMm": [
+        -3.0000000000000004,
+        -264.0,
+        26.0,
+        3.000000000000001,
+        168.0,
+        463.0
+      ]
+    },
+    "roller_tube": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 106311.49539747869,
+      "boundsMm": [
+        -235.0,
+        -19.0,
+        -19.0,
+        235.0,
+        19.0,
+        19.0
+      ]
+    },
+    "roller_rubber": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 386491.2946152309,
+      "boundsMm": [
+        -233.0,
+        -25.0,
+        -25.0,
+        233.0,
+        25.0,
+        25.0
+      ]
+    },
+    "roller_hex_shaft": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 80151.59540955057,
+      "boundsMm": [
+        -288.0,
+        -7.332348418708248,
+        -6.35,
+        288.0,
+        7.332348418708247,
+        6.3500000000000005
+      ]
+    },
+    "roller_end_plug": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 10446.49104373483,
+      "boundsMm": [
+        -7.0000001,
+        -17.0000001,
+        -17.0000001,
+        7.0000001,
+        17.0000001,
+        17.0000001
+      ]
+    },
+    "roller_cross_pin": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 502.6548245743668,
+      "boundsMm": [
+        -2.0,
+        -2.0,
+        -20.0,
+        2.0,
+        2.0,
+        20.0
+      ]
+    },
+    "chain_sprocket_12t": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1051.9808002657892,
+      "boundsMm": [
+        -1.5,
+        -13.777993356158813,
+        -13.777993356158813,
+        1.5,
+        13.777993356158811,
+        13.777993356158813
+      ]
+    },
+    "hex_bearing_body_0": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 3985.8595418071227,
+      "boundsMm": [
+        -15.557500099999997,
+        0.0,
+        -15.557500099999997,
+        15.557500099999997,
+        7.937500000000001,
+        15.557500099999997
+      ]
+    },
+    "fixed_transfer_cheek": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 38801.68033216985,
+      "boundsMm": [
+        -3.0,
+        175.0,
+        347.5,
+        3.0,
+        380.0,
+        392.5
+      ]
+    },
+    "pickup_lower_guide_0": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958851,
+      "boundsMm": [
+        -225.0,
+        -241.22293712889868,
+        76.99868892260925,
+        225.0,
+        -231.6224005752558,
+        87.36598156852592
+      ]
+    },
+    "pickup_lower_guide_1": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958851,
+      "boundsMm": [
+        -225.0,
+        -206.22293712889868,
+        116.99868892260925,
+        225.0,
+        -196.6224005752558,
+        127.36598156852592
+      ]
+    },
+    "pickup_lower_guide_2": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.48423595888,
+      "boundsMm": [
+        -225.0,
+        -171.22293712889868,
+        156.99868892260923,
+        225.0,
+        -161.6224005752558,
+        167.36598156852594
+      ]
+    },
+    "pickup_lower_guide_3": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958884,
+      "boundsMm": [
+        -225.0,
+        -136.22293712889868,
+        196.99868892260923,
+        225.0,
+        -126.62240057525581,
+        207.36598156852594
+      ]
+    },
+    "pickup_lower_guide_4": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958913,
+      "boundsMm": [
+        -225.0,
+        -101.22293712889868,
+        236.99868892260923,
+        225.0,
+        -91.62240057525581,
+        247.36598156852594
+      ]
+    },
+    "pickup_lower_guide_5": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958984,
+      "boundsMm": [
+        -225.0,
+        -66.22293712889868,
+        276.99868892260923,
+        225.0,
+        -56.62240057525581,
+        287.36598156852597
+      ]
+    },
+    "pickup_lower_guide_6": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958998,
+      "boundsMm": [
+        -225.0,
+        -31.222937128898675,
+        316.99868892260923,
+        225.0,
+        -21.622400575255803,
+        327.36598156852597
+      ]
+    },
+    "pickup_lower_guide_7": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 15053.484235958993,
+      "boundsMm": [
+        -225.0,
+        3.777062871101325,
+        356.99868892260923,
+        225.0,
+        13.377599424744197,
+        367.36598156852597
+      ]
+    },
+    "pickup_upper_guide_0": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 130006.96847191741,
+      "boundsMm": [
+        -225.0,
+        -336.74373410456917,
+        145.96293578381076,
+        225.0,
+        -271.07105009913374,
+        220.41268266034757
+      ]
+    },
+    "pickup_upper_guide_1": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 143506.9684719179,
+      "boundsMm": [
+        -225.0,
+        -273.32878018325437,
+        218.43716883674202,
+        225.0,
+        -201.0710500991337,
+        300.41268266034757
+      ]
+    },
+    "pickup_upper_guide_2": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 143506.96847191814,
+      "boundsMm": [
+        -225.0,
+        -203.32878018325434,
+        298.437168836742,
+        225.0,
+        -131.0710500991337,
+        380.41268266034757
+      ]
+    },
+    "pickup_upper_guide_3": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 143506.9684719182,
+      "boundsMm": [
+        -225.0,
+        -133.32878018325434,
+        378.437168836742,
+        225.0,
+        -61.07105009913371,
+        460.41268266034757
+      ]
+    },
+    "float_carriage": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 9917.689063934817,
+      "boundsMm": [
+        -3.0,
+        -37.26803686294814,
+        -24.0,
+        3.000000000000001,
+        49.03092033648254,
+        24.054589359588682
+      ]
+    },
+    "cross_tube": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 90895.99999999997,
+      "boundsMm": [
+        -247.0,
+        -12.5,
+        -12.5,
+        247.0,
+        12.5,
+        12.5
+      ]
+    },
+    "cross_tube_plug": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 8260.100918301276,
+      "boundsMm": [
+        -10.0,
+        -10.4,
+        -10.4,
+        10.0,
+        10.4,
+        10.4
+      ]
+    },
+    "pivot_spine": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 14778.051842486382,
+      "boundsMm": [
+        -28.0,
+        -12.5,
+        -12.5,
+        28.0,
+        12.5,
+        12.5
+      ]
+    },
+    "pivot_hub": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 11121.175161854795,
+      "boundsMm": [
+        -4.0,
+        -25.0,
+        -25.0,
+        4.0,
+        25.0,
+        25.0
+      ]
+    },
+    "pivot_bush": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 3273.288217628278,
+      "boundsMm": [
+        -4.0,
+        -17.0,
+        -17.0,
+        4.0,
+        17.0,
+        17.0
+      ]
+    },
+    "tower": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 170605.09776615145,
+      "boundsMm": [
+        -4.0,
+        105.0,
+        120.0,
+        4.0,
+        175.0,
+        463.0
+      ]
+    },
+    "chassis_mount_block": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 121894.56672028889,
+      "boundsMm": [
+        -15.0,
+        -35.0,
+        -30.0,
+        15.0,
+        35.0,
+        30.0
+      ]
+    },
+    "cradle_floor": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 839485.7726656097,
+      "boundsMm": [
+        -225.0,
+        394.9999999999999,
+        384.0,
+        225.0,
+        725.0,
+        390.0
+      ]
+    },
+    "cradle_stop": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 59470.37245568425,
+      "boundsMm": [
+        -62.5,
+        717.0,
+        390.0,
+        62.5,
+        723.0,
+        470.0
+      ]
+    },
+    "anti_bounce_finger": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 2654.384074669876,
+      "boundsMm": [
+        -7.5,
+        -30.0,
+        -1.5,
+        7.5,
+        30.0,
+        1.5
+      ]
+    },
+    "sensor_bracket": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 13779.717019674423,
+      "boundsMm": [
+        -15.0,
+        -9.0,
+        -15.0,
+        15.0,
+        9.0,
+        15.0
+      ]
+    },
+    "frame_post": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 48576.0,
+      "boundsMm": [
+        -12.5,
+        -12.5,
+        -132.0,
+        12.5,
+        12.5,
+        132.0
+      ]
+    },
+    "orienter_drum": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 333690.0971350311,
+      "boundsMm": [
+        -45.0,
+        -35.0,
+        -35.0,
+        45.0,
+        35.0,
+        35.0
+      ]
+    },
+    "orienter_shaft": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 26539.4351015145,
+      "boundsMm": [
+        -95.0,
+        -7.332348418708248,
+        -6.35,
+        95.0,
+        7.332348418708247,
+        6.3500000000000005
+      ]
+    },
+    "orienter_deck": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 172559.13115695043,
+      "boundsMm": [
+        -60.0,
+        -95.0,
+        -4.0,
+        60.0,
+        95.0,
+        4.0
+      ]
+    },
+    "motor_mount": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 22420.211632170962,
+      "boundsMm": [
+        -3.0,
+        -32.0,
+        -32.0,
+        3.0,
+        32.0,
+        32.0
+      ]
+    },
+    "deployment_motor_mount": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 17893.861998474604,
+      "boundsMm": [
+        -3.0,
+        -32.0,
+        -32.0,
+        3.0,
+        32.0,
+        32.0
+      ]
+    },
+    "motor_screw_10_32": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 394.03730505743573,
+      "boundsMm": [
+        -9.525,
+        -3.9,
+        -3.9,
+        4.6,
+        3.9,
+        3.9
+      ]
+    },
+    "x44_body_0": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 112107.30835411993,
+      "boundsMm": [
+        -22.000000100000005,
+        -25.400000100000014,
+        -74.61250010000572,
+        22.000000100000005,
+        22.0000001,
+        37.357050099999995
+      ]
+    },
+    "x44_body_1": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 2515.771152335832,
+      "boundsMm": [
+        -21.70064380615926,
+        -25.179381151360936,
+        -74.61250010000002,
+        21.700643806159235,
+        -1.4717827362660396,
+        -53.276499899999976
+      ]
+    },
+    "spline_pinion_body_0": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 5071.75742022078,
+      "boundsMm": [
+        -11.295059806652704,
+        -11.295059806643067,
+        -9.525000100000003,
+        11.295059806691508,
+        11.295059806701152,
+        9.525000100000003
+      ]
+    },
+    "hex_output_gear_body_0": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 13726.909690794935,
+      "boundsMm": [
+        -31.714166254708342,
+        -31.714166254708363,
+        -6.324599999999999,
+        31.714166254708307,
+        31.71416625470835,
+        6.324599999999999
+      ]
+    },
+    "receiver_bridge_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 234079.99999999994,
+      "boundsMm": [
+        -95.0,
+        -17.5,
+        -22.0,
+        95.0,
+        17.5,
+        108.0
+      ]
+    },
+    "receiver_finger_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 10800.0,
+      "boundsMm": [
+        -6.0,
+        -15.0,
+        -15.0,
+        6.0,
+        15.0,
+        15.0
+      ]
+    },
+    "coral_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 649551.4843768263,
+      "boundsMm": [
+        -150.8125,
+        -57.15,
+        -57.15,
+        150.8125,
+        57.15,
+        57.15
+      ]
+    }
+  }
+}

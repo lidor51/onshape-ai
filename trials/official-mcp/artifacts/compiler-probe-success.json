@@ -1,0 +1,23 @@
+{
+  "status": "PARENT_REPORTED_COMPILER_AND_EXECUTION_SUCCESS_NOT_GEOMETRY",
+  "attribution": "PARENT_REPORTED_NOT_INDEPENDENTLY_RETRIEVED",
+  "tool": "mcp_featurescript_test_feature",
+  "reportedSourceDescription": "Minimal pure println defineFeature PROBE, FeatureScript 3070, common.fs 3070.0, empty parameters and explicit defaults {}.",
+  "submittedSource": null,
+  "submittedSourceSha256": null,
+  "rawResponse": null,
+  "rawResponseLimitation": "The following are separately reported observations, not a reconstructed server response.",
+  "parentReportedFields": {
+    "passed": true,
+    "notices": "none",
+    "consoleMarker": "OFFICIAL_COMPILER_PROBE_OK",
+    "sourceMicroversion": "14a9aeceee5d7c8401552b42",
+    "libraryVersion": 3070,
+    "serializationVersion": "1.2.21"
+  },
+  "serverTestsRan": true,
+  "geometryTestsRan": false,
+  "serverMeasurements": null,
+  "persistedGeometryVerified": false,
+  "doesNotDescribePendingDeclarationProbe": true
+}

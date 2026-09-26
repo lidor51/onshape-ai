@@ -1,0 +1,117 @@
+{
+  "schema_version": 2,
+  "parser": "Python standard library csv.DictReader",
+  "native_links_are_discovery_only": true,
+  "sources": [
+    {
+      "id": "x60",
+      "sku": "WCP-0940",
+      "table_cache": "cache/wcp-kraken-cad-fresh.csv",
+      "table_sha256": "08dc7c2da81811a9bfc9285cf0fa7b5ffee5e195e1d55e7c3b94128bc4ed14be",
+      "csv_record_number": 2,
+      "row": {
+        "P/N": "WCP-0940",
+        "Description": "Kraken X60 Powered by TalonFX",
+        "Material": "-",
+        "CAD": "https://wcproducts.info/files/frc/cad/WCP-0940.STEP",
+        "Onshape": "https://cad.onshape.com/documents/5091aed5aac050d7b67eb12a/w/e5aea56ecb84c715518d37c4/e/5a92e6396d5dfdb4a7be07b1",
+        "Drawings": "https://wcproducts.info/files/frc/drawings/Web-WCP-0940.pdf",
+        "Weight": "1.200 lbs",
+        "LIVE": "TRUE",
+        "DATA": "P/N",
+        "LINK NAMES": ""
+      },
+      "cad_url": "https://wcproducts.info/files/frc/cad/WCP-0940.STEP",
+      "drawing_url": "https://wcproducts.info/files/frc/drawings/Web-WCP-0940.pdf",
+      "cad_cache": "cache/wcp-0940.step"
+    },
+    {
+      "id": "x44",
+      "sku": "WCP-0941",
+      "table_cache": "cache/wcp-kraken-cad-fresh.csv",
+      "table_sha256": "08dc7c2da81811a9bfc9285cf0fa7b5ffee5e195e1d55e7c3b94128bc4ed14be",
+      "csv_record_number": 3,
+      "row": {
+        "P/N": "WCP-0941",
+        "Description": "Kraken X44 Powered by TalonFX",
+        "Material": "-",
+        "CAD": "https://wcproducts.info/files/frc/cad/WCP-0941.STEP",
+        "Onshape": "https://cad.onshape.com/documents/b010b64fda684aacd8a86186/w/1074b21917b9d25806d6ac00/e/ac5a620f69925504a4ed5e95",
+        "Drawings": "https://wcproducts.info/files/frc/drawings/Web-WCP-0941.pdf",
+        "Weight": "0.750 lbs",
+        "LIVE": "TRUE",
+        "DATA": "Description",
+        "LINK NAMES": ""
+      },
+      "cad_url": "https://wcproducts.info/files/frc/cad/WCP-0941.STEP",
+      "drawing_url": "https://wcproducts.info/files/frc/drawings/Web-WCP-0941.pdf",
+      "cad_cache": "cache/wcp-0941.step"
+    },
+    {
+      "id": "spline_pinion",
+      "sku": "WCP-1016",
+      "table_cache": "cache/wcp-kraken-cad-fresh.csv",
+      "table_sha256": "08dc7c2da81811a9bfc9285cf0fa7b5ffee5e195e1d55e7c3b94128bc4ed14be",
+      "csv_record_number": 40,
+      "row": {
+        "P/N": "WCP-1016",
+        "Description": "16t Steel Spur Gear (20 DP, 8mm SplineXS Bore)",
+        "Material": "4140 Steel",
+        "CAD": "https://wcproducts.info/files/frc/cad/WCP-1016.step",
+        "Onshape": "https://cad.onshape.com/documents/c7ba0021d1579d4c9bbed2c6/w/dd9fd3a769bed01d59e5ac99/e/9a75b313b5428349df58af37",
+        "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Steel%20SplineXS%20Pinions.pdf",
+        "Weight": "0.087 lbs",
+        "LIVE": "TRUE",
+        "DATA": "",
+        "LINK NAMES": ""
+      },
+      "cad_url": "https://wcproducts.info/files/frc/cad/WCP-1016.step",
+      "drawing_url": "https://wcproducts.info/files/frc/drawings/Web-Steel%20SplineXS%20Pinions.pdf",
+      "cad_cache": "cache/wcp-1016.step"
+    },
+    {
+      "id": "hex_bearing",
+      "sku": "WCP-0783",
+      "table_cache": "cache/wcp-bearing-cad.csv",
+      "table_sha256": "4bf3ec55b878e2aca8896308050fcbb8bd71a80b54e11012133115403e220cda",
+      "csv_record_number": 10,
+      "row": {
+        "P/N": "WCP-0783",
+        "Description": "0.500\" Hex ID x 1.125\" OD x 0.313\" WD (Flanged Bearing)",
+        "Material": "-",
+        "CAD": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+        "Onshape": "https://cad.onshape.com/documents/c1f95feab8b05f8a109a1d0d/w/26d8a345656ac5ccdc822964/e/16929312ff4a72805c6398f8",
+        "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+        "Weight": "0.052 lbs",
+        "LIVE": "TRUE",
+        "DATA": "",
+        "LINK NAMES": ""
+      },
+      "cad_url": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+      "drawing_url": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+      "cad_cache": "cache/wcp-0783.step"
+    },
+    {
+      "id": "hex_output_gear",
+      "sku": "WCP-0137",
+      "table_cache": "cache/wcp-gear-cad.csv",
+      "table_sha256": "a78c913441ddac5dd989edc2d8eea85c90d88be73550bbea2d4869d174d5ed49",
+      "csv_record_number": 6,
+      "row": {
+        "P/N": "WCP-0137",
+        "Description": "48t Pocketed Aluminum Spur Gear (20 DP, 1/2\" Hex Bore)",
+        "Material": "7075-T6 Aluminum",
+        "CAD": "https://wcproducts.info/files/frc/cad/WCP-0137.step",
+        "Onshape": "https://cad.onshape.com/documents/c66b2b646150ce419560e178/w/debab5fd83fde701314c579f/e/13614a76ae994f2cea591b1a",
+        "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Pocketed%20Gears.PDF",
+        "Weight": "0.076 lbs",
+        "LIVE": "TRUE",
+        "DATA": "Onshape",
+        "LINK NAMES": "LINK"
+      },
+      "cad_url": "https://wcproducts.info/files/frc/cad/WCP-0137.step",
+      "drawing_url": "https://wcproducts.info/files/frc/drawings/Web-Pocketed%20Gears.PDF",
+      "cad_cache": "cache/wcp-0137.step"
+    }
+  ]
+}

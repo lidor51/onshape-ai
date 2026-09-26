@@ -1,0 +1,4383 @@
+[
+ {
+  "id": "SF1",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "724 mm (28.5 in), top part: intake lip kicker roller; margin 343 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "116.0 in (30 x 28 in frame)"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake side plate L at 500 mm; margin 313 mm (field tolerance is +/-25 mm)."
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: climber hook bar L at 705 mm; margin 108 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Reaches an under-board cube",
+        "status": "pass",
+        "detail": "Target cube is 12+ in inside the board edge; robot passes under it."
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "vgFender",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 3; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 4,
+      "pass": 11,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "845 mm (33.3 in), top part: barrel side plate L; margin 1136 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 3; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 111 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "58 deg launch, 8.17 m/s, 882 mm to plane, crossing 49 deg, apex 126.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "pass",
+        "detail": "Shot still scores from -13.6% to +13.8% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -344 mm / +90 mm (~5.8 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "flag",
+        "detail": "Robot may be 42 mm closer / 54 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1221 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 111 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "58 deg launch, 8.17 m/s, 882 mm to plane, crossing 49 deg, apex 126.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "pass",
+        "detail": "Shot still scores from -13.6% to +13.8% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -90 mm / +344 mm (~5.8 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "flag",
+        "detail": "Robot may be 42 mm closer / 54 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1221 mm; the G416 duck height is 1219 mm."
+       }
+      ],
+      "barrel": 58
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 4,
+      "pass": 11,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "845 mm (33.3 in), top part: barrel side plate L; margin 1136 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 3; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 111 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "58 deg launch, 8.17 m/s, 882 mm to plane, crossing 49 deg, apex 126.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "pass",
+        "detail": "Shot still scores from -13.6% to +13.8% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -344 mm / +90 mm (~5.8 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "flag",
+        "detail": "Robot may be 42 mm closer / 54 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1221 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 111 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "58 deg launch, 8.17 m/s, 882 mm to plane, crossing 49 deg, apex 126.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "pass",
+        "detail": "Shot still scores from -13.6% to +13.8% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -90 mm / +344 mm (~5.8 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "flag",
+        "detail": "Robot may be 42 mm closer / 54 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1221 mm; the G416 duck height is 1219 mm."
+       }
+      ],
+      "barrel": 58
+     }
+    ]
+   },
+   {
+    "task": "vgZone",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "705 mm (27.8 in), top part: climber hook bar L; margin 1276 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 2,
+      "pass": 13,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "847 mm (33.4 in), top part: barrel side plate L; margin 1134 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 694 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "60 deg launch, 5.63 m/s, 1533 mm to plane, crossing -9 deg, apex 77.7 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "pass",
+        "detail": "Shot still scores from -3.7% to +6.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -364 mm / +98 mm (~3.7 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "pass",
+        "detail": "Robot may be 600 mm closer / 276 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1239 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 619 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "60 deg launch, 5.61 m/s, 1455 mm to plane, crossing -5 deg, apex 77.4 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "pass",
+        "detail": "Shot still scores from -5.4% to +7.7% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -98 mm / +364 mm (~3.9 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "pass",
+        "detail": "Robot may be 458 mm closer / 390 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1238 mm; the G416 duck height is 1219 mm."
+       }
+      ],
+      "barrel": 60
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 2,
+      "pass": 13,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "847 mm (33.4 in), top part: barrel side plate L; margin 1134 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 694 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "60 deg launch, 5.63 m/s, 1533 mm to plane, crossing -9 deg, apex 77.7 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "pass",
+        "detail": "Shot still scores from -3.7% to +6.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -364 mm / +98 mm (~3.7 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "pass",
+        "detail": "Robot may be 600 mm closer / 276 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1239 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 619 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "60 deg launch, 5.61 m/s, 1455 mm to plane, crossing -5 deg, apex 77.4 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "pass",
+        "detail": "Shot still scores from -5.4% to +7.7% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -98 mm / +364 mm (~3.9 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "pass",
+        "detail": "Robot may be 458 mm closer / 390 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1238 mm; the G416 duck height is 1219 mm."
+       }
+      ],
+      "barrel": 60
+     }
+    ]
+   },
+   {
+    "task": "g1",
+    "supported": false
+   },
+   {
+    "task": "g2",
+    "supported": false
+   },
+   {
+    "task": "g3",
+    "supported": false
+   },
+   {
+    "task": "hang",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "724 mm (28.5 in), top part: intake lip kicker roller; margin 1258 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake side plate L at 708 mm; margin 105 mm (field tolerance is +/-25 mm)."
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "reach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "930 mm (36.6 in), top part: climber hook bar L; margin 1051 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake lip kicker roller at 724 mm; margin 89 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks above rail before engaging",
+        "status": "pass",
+        "detail": "Hook seat 46 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 318 mm and -318 mm from the rail midpoint."
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "hang",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "884 mm (34.8 in), top part: climber hook bar L; margin 1097 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake lip kicker roller at 774 mm; margin 39 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks seated on rail top",
+        "status": "pass",
+        "detail": "Hook seat 0 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 318 mm and -318 mm from the rail midpoint."
+       },
+       {
+        "label": "HANG: not touching the carpet",
+        "status": "pass",
+        "detail": "Lowest part swerve wheel 11 at 50 mm."
+       },
+       {
+        "label": "Level hang: rail over centre of mass",
+        "status": "flag",
+        "detail": "Assumes the COM sits within about 50 mm of the rail line. Loads, swing and hook retention are not checked."
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "under",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "park",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "724 mm (28.5 in), top part: intake lip kicker roller; margin 1258 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake lip kicker roller at 724 mm; margin 89 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "UNDER: bumper outline inside board projection",
+        "status": "pass",
+        "detail": "All 4 bumper corners tested against the red triangle."
+       },
+       {
+        "label": "UNDER: height under 32 in",
+        "status": "pass",
+        "detail": "724 mm; margin 89 mm."
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SF2",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "724 mm (28.5 in), top part: intake lip kicker roller; margin 343 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "116.0 in (30 x 28 in frame)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake side plate L at 500 mm; margin 313 mm (field tolerance is +/-25 mm)."
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: shooter side plate L at 699 mm; margin 114 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Reaches an under-board cube",
+        "status": "pass",
+        "detail": "Target cube is 12+ in inside the board edge; robot passes under it."
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "vgFender",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 3; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 15,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 3; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 45 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.56 m/s, 816 mm to plane, crossing 20 deg, apex 78.1 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "pass",
+        "detail": "Shot still scores from -6.4% to +6.3% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -394 mm / +138 mm (~9.6 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "pass",
+        "detail": "Robot may be 126 mm closer / 348 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1261 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 45 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.56 m/s, 816 mm to plane, crossing 20 deg, apex 78.1 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "pass",
+        "detail": "Shot still scores from -6.4% to +6.3% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -138 mm / +394 mm (~9.6 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "pass",
+        "detail": "Robot may be 126 mm closer / 348 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1261 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 15,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 3; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 45 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.56 m/s, 816 mm to plane, crossing 20 deg, apex 78.1 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "pass",
+        "detail": "Shot still scores from -6.4% to +6.3% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -394 mm / +138 mm (~9.6 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "pass",
+        "detail": "Robot may be 126 mm closer / 348 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1261 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 45 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.56 m/s, 816 mm to plane, crossing 20 deg, apex 78.1 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "pass",
+        "detail": "Shot still scores from -6.4% to +6.3% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -138 mm / +394 mm (~9.6 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "pass",
+        "detail": "Robot may be 126 mm closer / 348 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1261 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "vgZone",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "aim",
+      "fail": 2,
+      "flag": 4,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 621 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.95 m/s, 1456 mm to plane, crossing -49 deg, apex 86.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "fail",
+        "detail": "Shot still scores from 0.0% to +1.7% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -344 mm / +6 mm (~0.2 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "flag",
+        "detail": "Robot may be 146 mm closer / 2 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1282 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 546 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.86 m/s, 1378 mm to plane, crossing -46 deg, apex 84.4 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "fail",
+        "detail": "Shot still scores from -0.8% to +1.2% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -98 mm / +296 mm (~4.1 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "flag",
+        "detail": "Robot may be 118 mm closer / 38 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1278 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 2,
+      "flag": 4,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "699 mm (27.5 in), top part: shooter side plate L; margin 1282 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "419 mm (16.5 in) at intake front compliant roller wheel 1; margin 38 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane L)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 621 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane L)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.95 m/s, 1456 mm to plane, crossing -49 deg, apex 86.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane L)",
+        "status": "fail",
+        "detail": "Shot still scores from 0.0% to +1.7% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane L)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -344 mm / +6 mm (~0.2 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane L)",
+        "status": "flag",
+        "detail": "Robot may be 146 mm closer / 2 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane L)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1282 mm; the G416 duck height is 1219 mm."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (lane R)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 546 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (lane R)",
+        "status": "pass",
+        "detail": "72 deg launch, 5.86 m/s, 1378 mm to plane, crossing -46 deg, apex 84.4 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (lane R)",
+        "status": "fail",
+        "detail": "Shot still scores from -0.8% to +1.2% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (lane R)",
+        "status": "flag",
+        "detail": "Lateral miss allowed at the plane: -98 mm / +296 mm (~4.1 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (lane R)",
+        "status": "flag",
+        "detail": "Robot may be 118 mm closer / 38 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (lane R)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1278 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g1",
+    "supported": false
+   },
+   {
+    "task": "g2",
+    "supported": false
+   },
+   {
+    "task": "g3",
+    "supported": false
+   },
+   {
+    "task": "hang",
+    "supported": false
+   },
+   {
+    "task": "under",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "park",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "724 mm (28.5 in), top part: intake lip kicker roller; margin 1258 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: intake lip kicker roller at 724 mm; margin 89 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "UNDER: bumper outline inside board projection",
+        "status": "pass",
+        "detail": "All 4 bumper corners tested against the red triangle."
+       },
+       {
+        "label": "UNDER: height under 32 in",
+        "status": "pass",
+        "detail": "724 mm; margin 89 mm."
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SF3",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "1045 mm (41.1 in), top part: drawer motor; margin 22 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "116.0 in (30 x 28 in frame)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": false
+   },
+   {
+    "task": "vgFender",
+    "supported": false
+   },
+   {
+    "task": "vgZone",
+    "supported": false
+   },
+   {
+    "task": "g1",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "G416 duck in opponent LAUNCH ZONE <= 48 in",
+        "status": "pass",
+        "detail": "1020 mm vs 1219 mm"
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "G416 duck in opponent LAUNCH ZONE <= 48 in",
+        "status": "pass",
+        "detail": "1020 mm vs 1219 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 18.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "G416 duck in opponent LAUNCH ZONE <= 48 in",
+        "status": "pass",
+        "detail": "1020 mm vs 1219 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 18.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g2",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1335 mm (52.6 in), top part: drawer motor; margin 646 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1335 mm (52.6 in), top part: drawer motor; margin 646 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1335 mm (52.6 in), top part: drawer motor; margin 646 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g3",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1894 mm (74.6 in), top part: drawer motor; margin 87 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1894 mm (74.6 in), top part: drawer motor; margin 87 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 60.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1894 mm (74.6 in), top part: drawer motor; margin 87 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 60.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "hang",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: tray side wall L at 580 mm; margin 233 mm (field tolerance is +/-25 mm)."
+       }
+      ]
+     },
+     {
+      "phase": "reach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: tray side wall L at 580 mm; margin 233 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks above rail before engaging",
+        "status": "pass",
+        "detail": "Hook seat 46 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at -318 mm and 318 mm from the rail midpoint."
+       }
+      ]
+     },
+     {
+      "phase": "hang",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1070 mm (42.1 in), top part: elevator stage 0 rail L; margin 911 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: tray side wall L at 630 mm; margin 183 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks seated on rail top",
+        "status": "pass",
+        "detail": "Hook seat 0 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at -318 mm and 318 mm from the rail midpoint."
+       },
+       {
+        "label": "HANG: not touching the carpet",
+        "status": "pass",
+        "detail": "Lowest part swerve wheel 11 at 50 mm."
+       },
+       {
+        "label": "Level hang: rail over centre of mass",
+        "status": "flag",
+        "detail": "Assumes the COM sits within about 50 mm of the rail line. Loads, swing and hook retention are not checked."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "under",
+    "supported": false
+   }
+  ]
+ },
+ {
+  "id": "SF4",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "1052 mm (41.4 in), top part: kicker side plate L; margin 15 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "116.0 in (30 x 28 in frame)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "400 mm (15.8 in) at intake front compliant roller wheel 1; margin 57 mm"
+       }
+      ],
+      "barrel": 0
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": false
+   },
+   {
+    "task": "vgFender",
+    "supported": false
+   },
+   {
+    "task": "vgZone",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1052 mm (41.4 in), top part: kicker side plate L; margin 929 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ],
+      "barrel": 0
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1137 mm (44.8 in), top part: kicker side plate L; margin 844 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 606 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "60 deg launch, 5.17 m/s, 1440 mm to plane, crossing -21 deg, apex 79.3 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -4.7% to +9.0% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~9.1 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 766 mm closer / 248 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1386 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1137 mm (44.8 in), top part: kicker side plate L; margin 844 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 606 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "60 deg launch, 5.17 m/s, 1440 mm to plane, crossing -21 deg, apex 79.3 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -4.7% to +9.0% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~9.1 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 766 mm closer / 248 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1386 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g1",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "G416 duck in opponent LAUNCH ZONE <= 48 in",
+        "status": "pass",
+        "detail": "1020 mm vs 1219 mm"
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "G416 duck in opponent LAUNCH ZONE <= 48 in",
+        "status": "pass",
+        "detail": "1020 mm vs 1219 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 18.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "G416 duck in opponent LAUNCH ZONE <= 48 in",
+        "status": "pass",
+        "detail": "1020 mm vs 1219 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 18.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g2",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1342 mm (52.9 in), top part: kicker side plate L; margin 639 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1342 mm (52.9 in), top part: kicker side plate L; margin 639 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1342 mm (52.9 in), top part: kicker side plate L; margin 639 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g3",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1901 mm (74.9 in), top part: kicker side plate L; margin 80 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1901 mm (74.9 in), top part: kicker side plate L; margin 80 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 60.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1901 mm (74.9 in), top part: kicker side plate L; margin 80 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "450 mm (17.7 in) at tray side wall L; margin 7 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "42 mm above the 60.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "hang",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: swerve steer motor -11 at 160 mm; margin 653 mm (field tolerance is +/-25 mm)."
+       }
+      ]
+     },
+     {
+      "phase": "reach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1020 mm (40.2 in), top part: elevator stage 0 rail L; margin 961 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: kicker side plate L at 667 mm; margin 146 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks above rail before engaging",
+        "status": "pass",
+        "detail": "Hook seat 46 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at -318 mm and 318 mm from the rail midpoint."
+       }
+      ]
+     },
+     {
+      "phase": "hang",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1070 mm (42.1 in), top part: elevator stage 0 rail L; margin 911 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: kicker side plate L at 717 mm; margin 96 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks seated on rail top",
+        "status": "pass",
+        "detail": "Hook seat 0 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at -318 mm and 318 mm from the rail midpoint."
+       },
+       {
+        "label": "HANG: not touching the carpet",
+        "status": "pass",
+        "detail": "Lowest part swerve wheel 11 at 50 mm."
+       },
+       {
+        "label": "Level hang: rail over centre of mass",
+        "status": "flag",
+        "detail": "Assumes the COM sits within about 50 mm of the rail line. Loads, swing and hook retention are not checked."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "under",
+    "supported": false
+   }
+  ]
+ },
+ {
+  "id": "SF5",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "1062 mm (41.8 in), top part: column backbone tube L; margin 5 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "120.0 in (34 x 26 in frame)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1293 mm (50.9 in), top part: column side plate L; margin 688 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1293 mm (50.9 in), top part: column side plate L; margin 688 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1293 mm (50.9 in), top part: column side plate L; margin 688 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1293 mm (50.9 in), top part: column side plate L; margin 688 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": false
+   },
+   {
+    "task": "vgFender",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1062 mm (41.8 in), top part: column backbone tube L; margin 919 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1283 mm (50.5 in), top part: column side plate L; margin 699 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "242 mm (9.5 in) at column side plate L; margin 216 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Shoulder -42 deg, column tilted 40 deg up toward the rear. The joint path from the load pose to this pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 202 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "40 deg launch, 7.88 m/s, 973 mm to plane, crossing 30 deg, apex 101.6 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -30.1% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -266 mm / +266 mm (~15.3 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 296 mm closer / 396 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1531 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1283 mm (50.5 in), top part: column side plate L; margin 699 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "242 mm (9.5 in) at column side plate L; margin 216 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Shoulder -42 deg, column tilted 40 deg up toward the rear. The joint path from the load pose to this pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 202 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "40 deg launch, 7.88 m/s, 973 mm to plane, crossing 30 deg, apex 101.6 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -30.1% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -266 mm / +266 mm (~15.3 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 296 mm closer / 396 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1531 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "vgZone",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1062 mm (41.8 in), top part: column backbone tube L; margin 919 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1243 mm (48.9 in), top part: column side plate L; margin 738 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "232 mm (9.1 in) at column side plate L; margin 225 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Shoulder -42 deg, column tilted 36 deg up toward the rear. The joint path from the load pose to this pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 637 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "36 deg launch, 6.96 m/s, 1473 mm to plane, crossing 15 deg, apex 82.0 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -23.0% to +30.0% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~8.9 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 524 mm closer / 900 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1397 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1243 mm (48.9 in), top part: column side plate L; margin 738 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "232 mm (9.1 in) at column side plate L; margin 225 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Shoulder -42 deg, column tilted 36 deg up toward the rear. The joint path from the load pose to this pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 637 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "36 deg launch, 6.96 m/s, 1473 mm to plane, crossing 15 deg, apex 82.0 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -23.0% to +30.0% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~8.9 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 524 mm closer / 900 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1397 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g1",
+    "supported": false
+   },
+   {
+    "task": "g2",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 2,
+      "pass": 0,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "flag",
+        "detail": "1945 mm (76.6 in), top part: column side plate L; margin 36 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "456 mm (17.9 in) at column side plate L; margin 2 mm"
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 2,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "flag",
+        "detail": "1945 mm (76.6 in), top part: column side plate L; margin 36 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "456 mm (17.9 in) at column side plate L; margin 2 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "40 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact and the fork arms straddle the base (lateral and yaw). The shoulder holds its GOAL 2 angle on an absolute encoder, not a hard stop, so arm deflection and chain backlash add to the THROAT error."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 2,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "flag",
+        "detail": "1945 mm (76.6 in), top part: column side plate L; margin 36 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "456 mm (17.9 in) at column side plate L; margin 2 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "40 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact and the fork arms straddle the base (lateral and yaw). The shoulder holds its GOAL 2 angle on an absolute encoder, not a hard stop, so arm deflection and chain backlash add to the THROAT error."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g3",
+    "supported": false
+   },
+   {
+    "task": "hang",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 3,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1554 mm (61.2 in), top part: column side plate L; margin 427 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "272 mm (10.7 in) at wrist sprocket; margin 186 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: fork arm at 645 mm; margin 168 mm (field tolerance is +/-25 mm)."
+       }
+      ]
+     },
+     {
+      "phase": "reach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1554 mm (61.2 in), top part: column side plate L; margin 427 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "272 mm (10.7 in) at wrist sprocket; margin 186 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: fork arm at 645 mm; margin 168 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks above rail before engaging",
+        "status": "pass",
+        "detail": "Hook seat 46 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 290 mm and -290 mm from the rail midpoint."
+       }
+      ]
+     },
+     {
+      "phase": "hang",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1604 mm (63.1 in), top part: column side plate L; margin 377 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "272 mm (10.7 in) at wrist sprocket; margin 186 mm"
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: fork arm at 695 mm; margin 118 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks seated on rail top",
+        "status": "pass",
+        "detail": "Hook seat 0 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 290 mm and -290 mm from the rail midpoint."
+       },
+       {
+        "label": "HANG: not touching the carpet",
+        "status": "pass",
+        "detail": "Lowest part swerve wheel 11 at 50 mm."
+       },
+       {
+        "label": "Level hang: rail over centre of mass",
+        "status": "flag",
+        "detail": "Assumes the COM sits within about 50 mm of the rail line. Loads, swing and hook retention are not checked."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "under",
+    "supported": false
+   }
+  ]
+ },
+ {
+  "id": "SF6",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "1065 mm (41.9 in), top part: tray floor plate (slots 2-4); margin 1 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "116.0 in (30 x 28 in frame)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": false
+   },
+   {
+    "task": "vgFender",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1065 mm (41.9 in), top part: tray floor plate (slots 2-4); margin 916 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1486 mm (58.5 in), top part: tray side plate L; margin 495 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "280 mm (11.0 in) at tray side plate L; margin 177 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Carriage 275 mm up the 725 mm lift, tray tilted 36 deg up toward the rear. The path from the load pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 84 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "36 deg launch, 12.83 m/s, 855 mm to plane, crossing 33 deg, apex 168.3 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -30.1% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -266 mm / +266 mm (~17.3 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 274 mm closer / 296 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1517 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1486 mm (58.5 in), top part: tray side plate L; margin 495 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "280 mm (11.0 in) at tray side plate L; margin 177 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Carriage 275 mm up the 725 mm lift, tray tilted 36 deg up toward the rear. The path from the load pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 84 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "36 deg launch, 12.83 m/s, 855 mm to plane, crossing 33 deg, apex 168.3 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -30.1% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -266 mm / +266 mm (~17.3 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 274 mm closer / 296 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1517 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "vgZone",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1065 mm (41.9 in), top part: tray floor plate (slots 2-4); margin 916 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1317 mm (51.9 in), top part: tray side plate L; margin 664 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "234 mm (9.2 in) at tray side plate L; margin 223 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Carriage 100 mm up the 725 mm lift, tray tilted 36 deg up toward the rear. The path from the load pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 576 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "36 deg launch, 7.46 m/s, 1409 mm to plane, crossing 19 deg, apex 86.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -26.9% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~9.3 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 444 mm closer / 900 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1307 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1317 mm (51.9 in), top part: tray side plate L; margin 664 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "234 mm (9.2 in) at tray side plate L; margin 223 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose is a static solution",
+        "status": "info",
+        "detail": "Carriage 100 mm up the 725 mm lift, tray tilted 36 deg up toward the rear. The path from the load pose is not checked."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 576 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "36 deg launch, 7.46 m/s, 1409 mm to plane, crossing 19 deg, apex 86.2 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -26.9% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~9.3 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 444 mm closer / 900 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1307 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g1",
+    "supported": false
+   },
+   {
+    "task": "g2",
+    "supported": false
+   },
+   {
+    "task": "g3",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 1,
+      "pass": 1,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1868 mm (73.6 in), top part: tray side plate L; margin 113 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "455 mm (17.9 in) at trapdoor plate; margin 2 mm"
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1868 mm (73.6 in), top part: tray side plate L; margin 113 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "455 mm (17.9 in) at trapdoor plate; margin 2 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "40 mm above the 60.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact and the fork arms straddle the base. The carriage sits on its top hard stop and the tray on its level stop, so the front slot position is fixed by stops, not by servo accuracy."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1868 mm (73.6 in), top part: tray side plate L; margin 113 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "455 mm (17.9 in) at tray side plate L; margin 2 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "40 mm above the 60.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact and the fork arms straddle the base. The carriage sits on its top hard stop and the tray on its level stop, so the front slot position is fixed by stops, not by servo accuracy."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "hang",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1057 mm (41.6 in), top part: tray floor plate (slots 2-4); margin 925 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "reach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1057 mm (41.6 in), top part: tray floor plate (slots 2-4); margin 925 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: fork arm at 645 mm; margin 168 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks above rail before engaging",
+        "status": "pass",
+        "detail": "Hook seat 46 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 318 mm and -318 mm from the rail midpoint."
+       }
+      ]
+     },
+     {
+      "phase": "hang",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1107 mm (43.6 in), top part: tray floor plate (slots 2-4); margin 875 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: fork arm at 695 mm; margin 118 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks seated on rail top",
+        "status": "pass",
+        "detail": "Hook seat 0 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 318 mm and -318 mm from the rail midpoint."
+       },
+       {
+        "label": "HANG: not touching the carpet",
+        "status": "pass",
+        "detail": "Lowest part swerve wheel 11 at 50 mm."
+       },
+       {
+        "label": "Level hang: rail over centre of mass",
+        "status": "flag",
+        "detail": "Assumes the COM sits within about 50 mm of the rail line. Loads, swing and hook retention are not checked."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "under",
+    "supported": false
+   }
+  ]
+ },
+ {
+  "id": "SF7",
+  "tasks": [
+   {
+    "task": "start",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "start",
+      "fail": 0,
+      "flag": 0,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R104 start height <= 42 in",
+        "status": "pass",
+        "detail": "1030 mm (40.6 in), top part: tray floor plate (slots 2-4); margin 37 mm"
+       },
+       {
+        "label": "R102 nothing outside the frame perimeter",
+        "status": "pass",
+        "detail": "All non-bumper parts are inside the frame projection."
+       },
+       {
+        "label": "G303 bumpers inside STARTING ZONE",
+        "status": "pass",
+        "detail": "All 4 bumper corners checked."
+       },
+       {
+        "label": "R104 frame perimeter <= 120 in",
+        "status": "pass",
+        "detail": "116.0 in (30 x 28 in frame)"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "floor",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "safe",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     },
+     {
+      "phase": "intake",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1216 mm (47.9 in), top part: tray side plate L; margin 765 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "352 mm (13.9 in) at intake front compliant roller wheel 1; margin 105 mm"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "underCube",
+    "supported": false
+   },
+   {
+    "task": "vgFender",
+    "supported": false
+   },
+   {
+    "task": "vgZone",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1030 mm (40.6 in), top part: tray floor plate (slots 2-4); margin 951 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "aim",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1305 mm (51.4 in), top part: tray side plate L; margin 676 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "304 mm (12.0 in) at tray side plate L; margin 153 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose lies on the one-DOF path",
+        "status": "info",
+        "detail": "Crank 29.5 deg of 47, tray 32 deg up toward the rear. The linkage passes this pose on every load-to-GOAL 2 swing, and that path is checked in feasibility.json."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 612 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "32 deg launch, 11.50 m/s, 1447 mm to plane, crossing 25 deg, apex 119.3 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -30.1% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~9.0 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 366 mm closer / 426 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1277 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 0,
+      "pass": 9,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1305 mm (51.4 in), top part: tray side plate L; margin 676 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "304 mm (12.0 in) at tray side plate L; margin 153 mm"
+       },
+       {
+        "label": "G410 bumpers intersect own LAUNCH ZONE",
+        "status": "pass",
+        "detail": "Bumper outline tested against the 90 x 72 in zone."
+       },
+       {
+        "label": "Shot pose lies on the one-DOF path",
+        "status": "info",
+        "detail": "Crank 29.5 deg of 47, tray 32 deg up toward the rear. The linkage passes this pose on every load-to-GOAL 2 swing, and that path is checked in feasibility.json."
+       },
+       {
+        "label": "G410 cube behind RELEASE LINE (single lane)",
+        "status": "pass",
+        "detail": "Cube far corner (any yaw) 612 mm fieldward of the line."
+       },
+       {
+        "label": "Ballistic solution (single lane)",
+        "status": "pass",
+        "detail": "32 deg launch, 11.50 m/s, 1447 mm to plane, crossing 25 deg, apex 119.3 in. Drag-free, non-rotating cube."
+       },
+       {
+        "label": "Speed tolerance (single lane)",
+        "status": "pass",
+        "detail": "Shot still scores from -30.1% to +30.1% of nominal speed."
+       },
+       {
+        "label": "Aim tolerance (single lane)",
+        "status": "pass",
+        "detail": "Lateral miss allowed at the plane: -230 mm / +230 mm (~9.0 deg yaw)."
+       },
+       {
+        "label": "Distance tolerance at fixed speed (single lane)",
+        "status": "pass",
+        "detail": "Robot may be 366 mm closer / 426 mm farther without re-tuning speed."
+       },
+       {
+        "label": "Legal defender cannot touch shot (single lane)",
+        "status": "pass",
+        "detail": "When the cube clears our bumper outline its underside is at 1277 mm; the G416 duck height is 1219 mm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g1",
+    "supported": false
+   },
+   {
+    "task": "g2",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 1,
+      "pass": 1,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1310 mm (51.6 in), top part: tray side plate L; margin 672 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "455 mm (17.9 in) at trapdoor plate; margin 2 mm"
+       }
+      ]
+     },
+     {
+      "phase": "engage",
+      "fail": 0,
+      "flag": 1,
+      "pass": 4,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1310 mm (51.6 in), top part: tray side plate L; margin 672 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "455 mm (17.9 in) at trapdoor plate; margin 2 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "40 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact and the fork arms straddle the base. The crank sits on its end-of-travel hard stop, which fixes the whole linkage, so the front slot is set by one stop."
+       }
+      ]
+     },
+     {
+      "phase": "release",
+      "fail": 0,
+      "flag": 1,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1310 mm (51.6 in), top part: tray side plate L; margin 672 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "flag",
+        "detail": "455 mm (17.9 in) at tray side plate L; margin 2 mm"
+       },
+       {
+        "label": "Cube over THROAT (1 in clearance per side)",
+        "status": "pass",
+        "detail": "Offset x 0 mm, y 0 mm; per-side clearance 25 mm. Fork centring is 5 mm per side."
+       },
+       {
+        "label": "Cube bottom above RIM before drop",
+        "status": "pass",
+        "detail": "40 mm above the 38.0 in rim."
+       },
+       {
+        "label": "No robot part inside the goal body",
+        "status": "pass",
+        "detail": "Axis-aligned box test against the 24 in base; parts over the roof sit above the rim."
+       },
+       {
+        "label": "Registration: bumper stop + fork",
+        "status": "info",
+        "detail": "Depth is set by bumper contact and the fork arms straddle the base. The crank sits on its end-of-travel hard stop, which fixes the whole linkage, so the front slot is set by one stop."
+       },
+       {
+        "label": "Cube passes the sensor plane (RIM - 3 in)",
+        "status": "pass",
+        "detail": "Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "g3",
+    "supported": false
+   },
+   {
+    "task": "hang",
+    "supported": true,
+    "phases": [
+     {
+      "phase": "approach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 2,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1030 mm (40.6 in), top part: tray floor plate (slots 2-4); margin 951 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       }
+      ]
+     },
+     {
+      "phase": "reach",
+      "fail": 0,
+      "flag": 0,
+      "pass": 5,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1030 mm (40.6 in), top part: tray floor plate (slots 2-4); margin 951 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: link A ground tower L at 694 mm; margin 119 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks above rail before engaging",
+        "status": "pass",
+        "detail": "Hook seat 46 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 318 mm and -318 mm from the rail midpoint."
+       }
+      ]
+     },
+     {
+      "phase": "hang",
+      "fail": 0,
+      "flag": 1,
+      "pass": 6,
+      "checks": [
+       {
+        "label": "R106 height <= 78 in",
+        "status": "pass",
+        "detail": "1080 mm (42.5 in), top part: tray floor plate (slots 2-4); margin 901 mm"
+       },
+       {
+        "label": "R105 extension <= 18 in",
+        "status": "pass",
+        "detail": "Inside the frame projection."
+       },
+       {
+        "label": "Board underside clearance (32 in)",
+        "status": "pass",
+        "detail": "Highest robot point inside a board projection: link A ground tower L at 744 mm; margin 69 mm (field tolerance is +/-25 mm)."
+       },
+       {
+        "label": "Hooks seated on rail top",
+        "status": "pass",
+        "detail": "Hook seat 0 mm from the rail top (33.8 in)."
+       },
+       {
+        "label": "Hooks within rail length",
+        "status": "pass",
+        "detail": "Hooks at 318 mm and -318 mm from the rail midpoint."
+       },
+       {
+        "label": "HANG: not touching the carpet",
+        "status": "pass",
+        "detail": "Lowest part swerve wheel 11 at 50 mm."
+       },
+       {
+        "label": "Level hang: rail over centre of mass",
+        "status": "flag",
+        "detail": "Assumes the COM sits within about 50 mm of the rail line. Loads, swing and hook retention are not checked."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "task": "under",
+    "supported": false
+   }
+  ]
+ }
+]

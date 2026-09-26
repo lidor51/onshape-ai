@@ -1,0 +1,881 @@
+{
+  "schema": 1,
+  "target": {
+    "did": "f92dc90f7c052de045dd2c4f",
+    "wid": "b60d9355149429c9c55f69c8",
+    "eid": "d0a579bf1b84bc1e68e06e90",
+    "fsid": "66e03cc911623af502c718c4",
+    "featureId": "FQxpC8Q8LkpIQvt_0",
+    "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb"
+  },
+  "phaseCap": 12,
+  "totalCap": 24,
+  "mode": "READ_ONLY_REST_SUPPLEMENT_TO_OFFICIAL_MCP_MODELING",
+  "officialPlanningReserve": 100,
+  "parentApproximatePriorRequests": 59,
+  "priorManagedDiscoveryRequests": 8,
+  "requests": [
+    {
+      "sequence": 1,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/features",
+      "startedAt": "2026-09-11T17:11:29.250Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-01-features.json",
+        "bytes": 3985,
+        "sha256": "dd2948b89f8bcc0ce5f3fe62923038de4bd296dc0e7a6ee1832b8d2673ec877b"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "failure": "RETAINED_FEATURE_NOT_FOUND",
+      "completedAt": "2026-09-11T17:15:29.559Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.559Z"
+    },
+    {
+      "sequence": 2,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/featurestudios/d/f92dc90f7c052de045dd2c4f/m/dd5d804ab7aa470518d44acc/e/66e03cc911623af502c718c4",
+      "startedAt": "2026-09-11T17:12:37.251Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-02-source.json",
+        "bytes": 4980,
+        "sha256": "f8230be30c06b06562a6b0f08d3a233097cdfe2caa406eeee1dca64e99bbf2bf"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:29.567Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.567Z"
+    },
+    {
+      "sequence": 3,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/parts/d/f92dc90f7c052de045dd2c4f/m/dd5d804ab7aa470518d44acc/e/d0a579bf1b84bc1e68e06e90",
+      "startedAt": "2026-09-11T17:12:37.930Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-03-parts.json",
+        "bytes": 11108,
+        "sha256": "c31b941936cf3fc42f67877c685e4f52040133d0e1531384ffde1f2b249ee72e"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:29.577Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.577Z"
+    },
+    {
+      "sequence": 4,
+      "phase": "baseline",
+      "method": "POST",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/m/dd5d804ab7aa470518d44acc/e/d0a579bf1b84bc1e68e06e90/featurescript",
+      "startedAt": "2026-09-11T17:12:40.047Z",
+      "status": 200,
+      "requestBodySha256": "3b21ec491f662b12ff5f19a03e67a4a7d1fb01d646409579d262604dd0413da6",
+      "response": {
+        "file": "baseline-04-measure.json",
+        "bytes": 256891,
+        "sha256": "935b84dff5658ee62469b3411bc282671a2c327ec79c7b4ae1427dfe9e92fb28"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:29.587Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.587Z"
+    },
+    {
+      "sequence": 5,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/m/dd5d804ab7aa470518d44acc/e/d0a579bf1b84bc1e68e06e90/shadedviews?viewMatrix=0.7071067812%2C-0.4082482905%2C0.5773502692%2C0%2C0.7071067812%2C0.4082482905%2C-0.5773502692%2C0%2C0%2C0.8164965809%2C0.5773502692%2C0&outputWidth=1200&outputHeight=900&pixelSize=0.00065",
+      "startedAt": "2026-09-11T17:13:01.334Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-05-png.json",
+        "bytes": 64251,
+        "sha256": "70ed4f75264b25f7b4ab1508ca7c172b455837833cca2aa3b93191e8330532f1"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:29.599Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.599Z"
+    },
+    {
+      "sequence": 6,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/features",
+      "startedAt": "2026-09-11T17:13:02.459Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-06-features.json",
+        "bytes": 3985,
+        "sha256": "dd2948b89f8bcc0ce5f3fe62923038de4bd296dc0e7a6ee1832b8d2673ec877b"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:29.609Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.609Z"
+    },
+    {
+      "sequence": 7,
+      "phase": "baseline",
+      "method": "POST",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/translations",
+      "startedAt": "2026-09-11T17:13:03.789Z",
+      "status": 400,
+      "requestBodySha256": "661f30d954442a6fafd40b1e524fddb6f65c56d8e5350c7a5a6a91eb532459d4",
+      "response": {
+        "file": "baseline-07-step.json",
+        "bytes": 127,
+        "sha256": "8c3ccad399b3f4260e52a68b6e399bd87d486d71ae338a8092cb26321a266f7c"
+      },
+      "contentType": "application/json",
+      "failure": "HTTP_400",
+      "completedAt": "2026-09-11T17:13:04.273Z"
+    },
+    {
+      "sequence": 8,
+      "phase": "baseline",
+      "method": "POST",
+      "url": "https://cad.onshape.com/api/v11/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/export/step",
+      "startedAt": "2026-09-11T17:14:01.963Z",
+      "status": 200,
+      "requestBodySha256": "e8ca129b2a6bad476f8f9dc9664ae4a0bf4c78703ef26380e48c884bbc58e16c",
+      "response": {
+        "file": "baseline-08-step.json",
+        "bytes": 593,
+        "sha256": "5e1222513304a04ef7623eb1d2940db694281e7bf2bab6aa72d4638ebe329064"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:29.615Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:29.615Z"
+    },
+    {
+      "sequence": 9,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/translations/6aa436b9d8c18d7508c4b4cd",
+      "startedAt": "2026-09-11T17:14:07.413Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-09-poll.json",
+        "bytes": 616,
+        "sha256": "e22e9d67350f4b3e78a45265c473d434c9579095e26f097e05bdbd4ee855da52"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:32.636Z",
+      "replayedSuccessfullyAt": "2026-09-11T17:15:32.636Z"
+    },
+    {
+      "sequence": 10,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents/d/f92dc90f7c052de045dd2c4f/externaldata/6aa436bdc2971d26c4a84235",
+      "startedAt": "2026-09-11T17:14:07.624Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-10-download.step",
+        "bytes": 23326,
+        "sha256": "0dfb200e4ec5fbaaf54f0a78273e479608933b32c028dd5d3ad479e2867cd42a"
+      },
+      "contentType": "application/zip;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:32.647Z"
+    },
+    {
+      "sequence": 11,
+      "phase": "baseline",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/features",
+      "startedAt": "2026-09-11T17:15:32.674Z",
+      "status": 200,
+      "response": {
+        "file": "baseline-11-features.json",
+        "bytes": 3985,
+        "sha256": "dd2948b89f8bcc0ce5f3fe62923038de4bd296dc0e7a6ee1832b8d2673ec877b"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:15:34.528Z"
+    },
+    {
+      "sequence": 12,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/features",
+      "startedAt": "2026-09-11T17:18:02.102Z",
+      "status": 200,
+      "response": {
+        "file": "revision-12-features.json",
+        "bytes": 3985,
+        "sha256": "b87af658f6850c6bf2bcfbf748a1ff1b4a272b09d9fe781f661f018ff5b085c8"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:03.380Z"
+    },
+    {
+      "sequence": 13,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/featurestudios/d/f92dc90f7c052de045dd2c4f/m/4bcde993e8baf4730d3a12db/e/66e03cc911623af502c718c4",
+      "startedAt": "2026-09-11T17:18:03.383Z",
+      "status": 200,
+      "response": {
+        "file": "revision-13-source.json",
+        "bytes": 4979,
+        "sha256": "a9360023223f8b9108cf01fc154fc8f4094972526ddefc1416e86621aa6fd8a4"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:03.722Z"
+    },
+    {
+      "sequence": 14,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/parts/d/f92dc90f7c052de045dd2c4f/m/4bcde993e8baf4730d3a12db/e/d0a579bf1b84bc1e68e06e90",
+      "startedAt": "2026-09-11T17:18:03.752Z",
+      "status": 200,
+      "response": {
+        "file": "revision-14-parts.json",
+        "bytes": 11108,
+        "sha256": "7b50258765d830d2b3e1453c52445be8dd9ef274e55ad86ac95b845d8384aa8b"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:05.540Z"
+    },
+    {
+      "sequence": 15,
+      "phase": "revision",
+      "method": "POST",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/m/4bcde993e8baf4730d3a12db/e/d0a579bf1b84bc1e68e06e90/featurescript",
+      "startedAt": "2026-09-11T17:18:05.543Z",
+      "status": 200,
+      "requestBodySha256": "3b21ec491f662b12ff5f19a03e67a4a7d1fb01d646409579d262604dd0413da6",
+      "response": {
+        "file": "revision-15-measure.json",
+        "bytes": 257016,
+        "sha256": "7f387cac680fc7bc71684839b12ed49c904890a9cf1e0d4e83af5be7bbfa84f8"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:07.294Z"
+    },
+    {
+      "sequence": 16,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/m/4bcde993e8baf4730d3a12db/e/d0a579bf1b84bc1e68e06e90/shadedviews?viewMatrix=0.7071067812%2C-0.4082482905%2C0.5773502692%2C0%2C0.7071067812%2C0.4082482905%2C-0.5773502692%2C0%2C0%2C0.8164965809%2C0.5773502692%2C0&outputWidth=1200&outputHeight=900&pixelSize=0.00065",
+      "startedAt": "2026-09-11T17:18:07.312Z",
+      "status": 200,
+      "response": {
+        "file": "revision-16-png.json",
+        "bytes": 66007,
+        "sha256": "b78594d98994df6c1c53d258c02eb92ff42f15ba099ece078b617e577287d70e"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:07.931Z"
+    },
+    {
+      "sequence": 17,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/features",
+      "startedAt": "2026-09-11T17:18:07.943Z",
+      "status": 200,
+      "response": {
+        "file": "revision-17-features.json",
+        "bytes": 3985,
+        "sha256": "b87af658f6850c6bf2bcfbf748a1ff1b4a272b09d9fe781f661f018ff5b085c8"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:08.289Z"
+    },
+    {
+      "sequence": 18,
+      "phase": "revision",
+      "method": "POST",
+      "url": "https://cad.onshape.com/api/v11/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/export/step",
+      "startedAt": "2026-09-11T17:18:08.295Z",
+      "status": 200,
+      "requestBodySha256": "e8ca129b2a6bad476f8f9dc9664ae4a0bf4c78703ef26380e48c884bbc58e16c",
+      "response": {
+        "file": "revision-18-step.json",
+        "bytes": 593,
+        "sha256": "8488cf4e1042521e8ec3de5ef2033a16853407ab5d65db79215e6c9cb0155ee6"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:09.335Z"
+    },
+    {
+      "sequence": 19,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/translations/6aa437b0a9afc4404b203914",
+      "startedAt": "2026-09-11T17:18:12.346Z",
+      "status": 200,
+      "response": {
+        "file": "revision-19-poll.json",
+        "bytes": 616,
+        "sha256": "b896572790526ff56af97e53691d854c9ef3d68f099d8464b1a017acf0b22617"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:12.559Z"
+    },
+    {
+      "sequence": 20,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/documents/d/f92dc90f7c052de045dd2c4f/externaldata/6aa437b269825a017abad3d5",
+      "startedAt": "2026-09-11T17:18:12.565Z",
+      "status": 200,
+      "response": {
+        "file": "revision-20-download.step",
+        "bytes": 23318,
+        "sha256": "858039345b2e7f4131aff4d6f73c94b93ddbb63a2f6ee5aa7079db620e7b4fe8"
+      },
+      "contentType": "application/zip;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:12.928Z"
+    },
+    {
+      "sequence": 21,
+      "phase": "revision",
+      "method": "GET",
+      "url": "https://cad.onshape.com/api/partstudios/d/f92dc90f7c052de045dd2c4f/w/b60d9355149429c9c55f69c8/e/d0a579bf1b84bc1e68e06e90/features",
+      "startedAt": "2026-09-11T17:18:12.984Z",
+      "status": 200,
+      "response": {
+        "file": "revision-21-features.json",
+        "bytes": 3985,
+        "sha256": "b87af658f6850c6bf2bcfbf748a1ff1b4a272b09d9fe781f661f018ff5b085c8"
+      },
+      "contentType": "application/json;charset=utf-8",
+      "completedAt": "2026-09-11T17:18:13.536Z"
+    }
+  ],
+  "phases": {
+    "baseline": {
+      "phase": "baseline",
+      "status": "PASS_BASELINE",
+      "startedAt": "2026-09-11T17:11:29.241Z",
+      "target": {
+        "did": "f92dc90f7c052de045dd2c4f",
+        "wid": "b60d9355149429c9c55f69c8",
+        "eid": "d0a579bf1b84bc1e68e06e90",
+        "fsid": "66e03cc911623af502c718c4",
+        "featureId": "FQxpC8Q8LkpIQvt_0",
+        "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb"
+      },
+      "provenance": "../parent-retained-baseline.json",
+      "evidenceClass": "AUTHENTICATED_READ_ONLY_REST_SUPPLEMENT",
+      "explicitCurrentKeyAuthorization": true,
+      "keyRotationAttested": false,
+      "modelWrites": 0,
+      "exportJobsStoreInDocument": false,
+      "maxPollRequests": 3,
+      "officialToolInvocationsByThisScript": 0,
+      "completedAt": "2026-09-11T17:15:34.530Z",
+      "phaseRequests": 11,
+      "cumulativeRequests": 11,
+      "resumes": [
+        {
+          "resumedAt": "2026-09-11T17:12:37.208Z",
+          "priorBlocker": "RETAINED_FEATURE_NOT_FOUND",
+          "requestsBefore": 1
+        },
+        {
+          "resumedAt": "2026-09-11T17:13:01.259Z",
+          "priorBlocker": "MEASUREMENT_KEY_INVALID",
+          "requestsBefore": 4
+        },
+        {
+          "resumedAt": "2026-09-11T17:14:01.864Z",
+          "priorBlocker": "HTTP_400",
+          "requestsBefore": 7
+        },
+        {
+          "resumedAt": "2026-09-11T17:15:29.507Z",
+          "priorBlocker": "STEP_SIGNATURE_INVALID",
+          "requestsBefore": 10
+        }
+      ],
+      "before": {
+        "microversion": "dd5d804ab7aa470518d44acc",
+        "featureId": "FQxpC8Q8LkpIQvt_0",
+        "featureType": "officialIntakeFinal",
+        "name": "OfficialIntakeFinal",
+        "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb",
+        "state": {
+          "featureStatus": "OK",
+          "inactive": false
+        },
+        "suppressed": false
+      },
+      "source": {
+        "file": "baseline-persisted.fs",
+        "bytes": 4641,
+        "sha256": "7cd0ac34fd4eb1d800caa64a39fdd50356e4c7b116895d68dcb6b417178691ec",
+        "tokenEquivalentToLocalArtifact": true
+      },
+      "parts": [
+        {
+          "partId": "JHD",
+          "name": "leftPlate",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "JgD",
+          "name": "rightPlate",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "J5D",
+          "name": "frontRoller",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RCBD",
+          "name": "rearRoller",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RLBD",
+          "name": "frontShaft",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RPBD",
+          "name": "rearShaft",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RTBD",
+          "name": "frontCrossmember",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RXBD",
+          "name": "rearCrossmember",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RbBD",
+          "name": "coralReference",
+          "bodyType": "solid"
+        }
+      ],
+      "measurements": {
+        "file": "baseline-measured.json",
+        "bytes": 11607,
+        "sha256": "51ba0cde0ce48746d88601697ce237abfc701966207130a70018868765e9006d"
+      },
+      "validation": {
+        "status": "PASS_PERSISTED_READ_ONLY_REST_MEASUREMENTS",
+        "phase": "baseline",
+        "partCount": 9,
+        "holesPerPlate": [
+          5,
+          5
+        ],
+        "lengthToleranceMm": 0.00001,
+        "axisTolerance": 1e-8,
+        "volumeToleranceMm3": "max(0.001, expectedVolume * 1e-8)",
+        "inputOriginAuthenticated": true,
+        "persistedGeometryVerified": true,
+        "caveat": "Authenticated read-only REST supplement, not an official MCP modeling/export capability. Numeric parameters are derived from measured geometry, not editable UI parameters."
+      },
+      "bom": [
+        {
+          "name": "leftPlate",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rightPlate",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "frontRoller",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rearRoller",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "frontShaft",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rearShaft",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "frontCrossmember",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rearCrossmember",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "coralReference",
+          "excludeFromBOM": true
+        }
+      ],
+      "png": {
+        "file": "baseline.png",
+        "bytes": 48171,
+        "sha256": "7a6a127e2b5b4a398f2510e036ccd2d342e70736577b43698d3f01ba9a3e11d2"
+      },
+      "translation": {
+        "id": "6aa436b9d8c18d7508c4b4cd",
+        "requestState": "DONE",
+        "resultExternalDataIds": [
+          "6aa436bdc2971d26c4a84235"
+        ]
+      },
+      "step": {
+        "file": "baseline-step-original.zip",
+        "bytes": 23326,
+        "sha256": "0dfb200e4ec5fbaaf54f0a78273e479608933b32c028dd5d3ad479e2867cd42a",
+        "format": "ZIP_OF_NINE_STEP_FILES",
+        "originalDownloadBytes": true,
+        "memberBytesUnmodified": true,
+        "members": [
+          {
+            "role": "rearShaft",
+            "originalName": "Part Studio 1 - rearShaft.step",
+            "crc32": "74aa8f33",
+            "file": "baseline-rearShaft.step",
+            "bytes": 4367,
+            "sha256": "7185887d11afb6cf6af7883eb015ba75e155572220a5492558ebb6fa46dd6f3f"
+          },
+          {
+            "role": "rearCrossmember",
+            "originalName": "Part Studio 1 - rearCrossmember.step",
+            "crc32": "aa808e23",
+            "file": "baseline-rearCrossmember.step",
+            "bytes": 7914,
+            "sha256": "20a2f743e8a7d41d65a179e6f35a9834873362f66bf30ffffd438c64724c7f7b"
+          },
+          {
+            "role": "frontShaft",
+            "originalName": "Part Studio 1 - frontShaft.step",
+            "crc32": "fa556c0e",
+            "file": "baseline-frontShaft.step",
+            "bytes": 4360,
+            "sha256": "64812e6647239ea416a0abcb090ee9b91b26dddc38f8582671069033a45bed28"
+          },
+          {
+            "role": "rightPlate",
+            "originalName": "Part Studio 1 - rightPlate.step",
+            "crc32": "618a912b",
+            "file": "baseline-rightPlate.step",
+            "bytes": 14055,
+            "sha256": "8a5d72793f62f8723bed59ff9d39b3e88eb1336fc9949fa0ec65d805ffd4bb7a"
+          },
+          {
+            "role": "coralReference",
+            "originalName": "Part Studio 1 - coralReference.step",
+            "crc32": "ab65c5a7",
+            "file": "baseline-coralReference.step",
+            "bytes": 5642,
+            "sha256": "106948dd930ca271001817173852d41b96afe5bb6f138243ee46404b6094892a"
+          },
+          {
+            "role": "leftPlate",
+            "originalName": "Part Studio 1 - leftPlate.step",
+            "crc32": "60ed2208",
+            "file": "baseline-leftPlate.step",
+            "bytes": 14089,
+            "sha256": "f87f198dfa127689bd3dd6aa37d1f0d3b573ad3739dcfae52bdfe2fbd6773ab3"
+          },
+          {
+            "role": "rearRoller",
+            "originalName": "Part Studio 1 - rearRoller.step",
+            "crc32": "a4bef804",
+            "file": "baseline-rearRoller.step",
+            "bytes": 5570,
+            "sha256": "cbce25dedf0eb592c64dba6d322bb054e33cc6782c6ac40565a7c10438f0d8ce"
+          },
+          {
+            "role": "frontCrossmember",
+            "originalName": "Part Studio 1 - frontCrossmember.step",
+            "crc32": "030a33c7",
+            "file": "baseline-frontCrossmember.step",
+            "bytes": 7929,
+            "sha256": "bf227e93d56069677827d3c3e253f0a7e84d7f9eaed14f6af605f2b8e06701a4"
+          },
+          {
+            "role": "frontRoller",
+            "originalName": "Part Studio 1 - frontRoller.step",
+            "crc32": "4e9e0ae9",
+            "file": "baseline-frontRoller.step",
+            "bytes": 5553,
+            "sha256": "ac37db90ca6af5c8af533d5d0c65aa3a0efdac6552e56472ef19d86e07540fea"
+          }
+        ]
+      },
+      "after": {
+        "microversion": "dd5d804ab7aa470518d44acc",
+        "featureId": "FQxpC8Q8LkpIQvt_0",
+        "featureType": "officialIntakeFinal",
+        "name": "OfficialIntakeFinal",
+        "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb",
+        "state": {
+          "featureStatus": "OK",
+          "inactive": false
+        },
+        "suppressed": false
+      },
+      "consistency": "Parts, source, evaluation and PNG pinned to microversion; workspace STEP bracketed by equal before/after microversions."
+    },
+    "revision": {
+      "phase": "revision",
+      "status": "PASS_REVISION",
+      "startedAt": "2026-09-11T17:18:02.093Z",
+      "target": {
+        "did": "f92dc90f7c052de045dd2c4f",
+        "wid": "b60d9355149429c9c55f69c8",
+        "eid": "d0a579bf1b84bc1e68e06e90",
+        "fsid": "66e03cc911623af502c718c4",
+        "featureId": "FQxpC8Q8LkpIQvt_0",
+        "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb"
+      },
+      "provenance": "../parent-retained-baseline.json",
+      "evidenceClass": "AUTHENTICATED_READ_ONLY_REST_SUPPLEMENT",
+      "explicitCurrentKeyAuthorization": true,
+      "keyRotationAttested": false,
+      "modelWrites": 0,
+      "exportJobsStoreInDocument": false,
+      "maxPollRequests": 3,
+      "officialToolInvocationsByThisScript": 0,
+      "before": {
+        "microversion": "4bcde993e8baf4730d3a12db",
+        "featureId": "FQxpC8Q8LkpIQvt_0",
+        "featureType": "officialIntakeFinal",
+        "name": "OfficialIntakeFinal",
+        "namespace": "e66e03cc911623af502c718c4::mf3fe3ec444fb32385ab49edc",
+        "state": {
+          "featureStatus": "OK",
+          "inactive": false
+        },
+        "suppressed": false
+      },
+      "source": {
+        "file": "revision-persisted.fs",
+        "bytes": 4640,
+        "sha256": "c2dde13d448cdf311821b18b8ce33a0d8dbe4eb721c0bf99a728a755e11b0a3e",
+        "tokenEquivalentToLocalArtifact": true
+      },
+      "parts": [
+        {
+          "partId": "JHD",
+          "name": "leftPlate",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "JgD",
+          "name": "rightPlate",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "J5D",
+          "name": "frontRoller",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RCBD",
+          "name": "rearRoller",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RLBD",
+          "name": "frontShaft",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RPBD",
+          "name": "rearShaft",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RTBD",
+          "name": "frontCrossmember",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RXBD",
+          "name": "rearCrossmember",
+          "bodyType": "solid"
+        },
+        {
+          "partId": "RbBD",
+          "name": "coralReference",
+          "bodyType": "solid"
+        }
+      ],
+      "measurements": {
+        "file": "revision-measured.json",
+        "bytes": 11756,
+        "sha256": "6da3022a74109ddff3ff7ebf568e5a6cc51013ae1e187dbdd9fcf105da6c19fb"
+      },
+      "validation": {
+        "status": "PASS_PERSISTED_READ_ONLY_REST_MEASUREMENTS",
+        "phase": "revision",
+        "partCount": 9,
+        "holesPerPlate": [
+          5,
+          5
+        ],
+        "lengthToleranceMm": 0.00001,
+        "axisTolerance": 1e-8,
+        "volumeToleranceMm3": "max(0.001, expectedVolume * 1e-8)",
+        "inputOriginAuthenticated": true,
+        "persistedGeometryVerified": true,
+        "caveat": "Authenticated read-only REST supplement, not an official MCP modeling/export capability. Numeric parameters are derived from measured geometry, not editable UI parameters."
+      },
+      "bom": [
+        {
+          "name": "leftPlate",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rightPlate",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "frontRoller",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rearRoller",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "frontShaft",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rearShaft",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "frontCrossmember",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "rearCrossmember",
+          "excludeFromBOM": false
+        },
+        {
+          "name": "coralReference",
+          "excludeFromBOM": true
+        }
+      ],
+      "png": {
+        "file": "revision.png",
+        "bytes": 49488,
+        "sha256": "8b06ce3023b94b3b4687479917af77a6340babbe0d0ed8741d1195121e000b90"
+      },
+      "translation": {
+        "id": "6aa437b0a9afc4404b203914",
+        "requestState": "DONE",
+        "resultExternalDataIds": [
+          "6aa437b269825a017abad3d5"
+        ]
+      },
+      "step": {
+        "file": "revision-step-original.zip",
+        "bytes": 23318,
+        "sha256": "858039345b2e7f4131aff4d6f73c94b93ddbb63a2f6ee5aa7079db620e7b4fe8",
+        "format": "ZIP_OF_NINE_STEP_FILES",
+        "originalDownloadBytes": true,
+        "memberBytesUnmodified": true,
+        "members": [
+          {
+            "role": "leftPlate",
+            "originalName": "Part Studio 1 - leftPlate.step",
+            "crc32": "4f5bf033",
+            "file": "revision-leftPlate.step",
+            "bytes": 14089,
+            "sha256": "cafbdd382eb8887ab94e71a29215f6d609f6e1405e313aa6f267a65fa9f1fa62"
+          },
+          {
+            "role": "frontRoller",
+            "originalName": "Part Studio 1 - frontRoller.step",
+            "crc32": "edbb82ee",
+            "file": "revision-frontRoller.step",
+            "bytes": 5553,
+            "sha256": "7079c3a31bf79d979d0717174bfdaa355b9b233ea4527c5f60379d23eeba8181"
+          },
+          {
+            "role": "frontShaft",
+            "originalName": "Part Studio 1 - frontShaft.step",
+            "crc32": "7c1677a9",
+            "file": "revision-frontShaft.step",
+            "bytes": 4360,
+            "sha256": "43eac46e38fd9815ee9ef62086bb27c716b774b28d8667951f0e63ab4b999244"
+          },
+          {
+            "role": "frontCrossmember",
+            "originalName": "Part Studio 1 - frontCrossmember.step",
+            "crc32": "3984b8dd",
+            "file": "revision-frontCrossmember.step",
+            "bytes": 7929,
+            "sha256": "10a140a5eabb18efe1b37702ed3988b44937b2afe04f3fae6aad8f78fdbc381f"
+          },
+          {
+            "role": "rearCrossmember",
+            "originalName": "Part Studio 1 - rearCrossmember.step",
+            "crc32": "d40a198f",
+            "file": "revision-rearCrossmember.step",
+            "bytes": 7914,
+            "sha256": "ff9805d8cd91d3f1608748943b6f8da8b208cbaab9162dbcc6671c30f04a0067"
+          },
+          {
+            "role": "rearRoller",
+            "originalName": "Part Studio 1 - rearRoller.step",
+            "crc32": "e952ad8a",
+            "file": "revision-rearRoller.step",
+            "bytes": 5570,
+            "sha256": "0f520c321b01814597e26253970083db8346a93f0ba4c7897483000ed1e84c5e"
+          },
+          {
+            "role": "rightPlate",
+            "originalName": "Part Studio 1 - rightPlate.step",
+            "crc32": "1ff5f7e9",
+            "file": "revision-rightPlate.step",
+            "bytes": 14055,
+            "sha256": "621030586a3e99672740ca2d1f13885908f08d42cabb2a17638c039af8a8c59f"
+          },
+          {
+            "role": "coralReference",
+            "originalName": "Part Studio 1 - coralReference.step",
+            "crc32": "847e9139",
+            "file": "revision-coralReference.step",
+            "bytes": 5642,
+            "sha256": "e671a1db5e280a120ab967a365255557f11f0176a97367b0dff95530f48f5dd7"
+          },
+          {
+            "role": "rearShaft",
+            "originalName": "Part Studio 1 - rearShaft.step",
+            "crc32": "ff8b1ff4",
+            "file": "revision-rearShaft.step",
+            "bytes": 4367,
+            "sha256": "d41df97913d314c64a8352b1319843f345573893a6c9e502110e3642544e72f5"
+          }
+        ]
+      },
+      "after": {
+        "microversion": "4bcde993e8baf4730d3a12db",
+        "featureId": "FQxpC8Q8LkpIQvt_0",
+        "featureType": "officialIntakeFinal",
+        "name": "OfficialIntakeFinal",
+        "namespace": "e66e03cc911623af502c718c4::mf3fe3ec444fb32385ab49edc",
+        "state": {
+          "featureStatus": "OK",
+          "inactive": false
+        },
+        "suppressed": false
+      },
+      "consistency": "Parts, source, evaluation and PNG pinned to microversion; workspace STEP bracketed by equal before/after microversions.",
+      "completedAt": "2026-09-11T17:18:13.539Z",
+      "phaseRequests": 10,
+      "cumulativeRequests": 21
+    }
+  }
+}

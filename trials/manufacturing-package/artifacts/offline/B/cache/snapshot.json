@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "revision": "B",
+  "step_sha256": "5ffdd2f7b3ddb5dfd00ca04320b26f3007128cf54b4e23482776fc2d7dace744",
+  "state": {
+    "kind": "LOCAL_SYNTHETIC",
+    "immutable_id": "5ffdd2f7b3ddb5dfd00ca04320b26f3007128cf54b4e23482776fc2d7dace744",
+    "configuration": "default",
+    "part": "synthetic-left-plate"
+  },
+  "measurement_state": {
+    "kind": "LOCAL_SYNTHETIC",
+    "immutable_id": "5ffdd2f7b3ddb5dfd00ca04320b26f3007128cf54b4e23482776fc2d7dace744",
+    "configuration": "default",
+    "part": "synthetic-left-plate"
+  },
+  "export_state": {
+    "kind": "LOCAL_SYNTHETIC",
+    "immutable_id": "5ffdd2f7b3ddb5dfd00ca04320b26f3007128cf54b4e23482776fc2d7dace744",
+    "configuration": "default",
+    "part": "synthetic-left-plate"
+  },
+  "measurement_origin": "LOCAL_OPEN_CASCADE_NOT_ONSHAPE",
+  "measurements": {
+    "units": "mm",
+    "solid_count": 1,
+    "thickness": 8.0,
+    "width": 320.0,
+    "height": 150.0,
+    "volume": 380215.3233302202,
+    "world_bounds": [
+      -188.0,
+      0.0,
+      12.7,
+      -180.0,
+      320.0,
+      162.7
+    ],
+    "outer": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        320.0,
+        0.0
+      ],
+      [
+        320.0,
+        150.0
+      ],
+      [
+        0.0,
+        150.0
+      ]
+    ],
+    "holes": [
+      {
+        "u": 30.0,
+        "v": 117.3,
+        "diameter": 12.9,
+        "key": "H1"
+      },
+      {
+        "u": 70.0,
+        "v": 52.3,
+        "diameter": 12.9,
+        "key": "H2"
+      },
+      {
+        "u": 140.0,
+        "v": 122.3,
+        "diameter": 6.6,
+        "key": "H3"
+      },
+      {
+        "u": 200.0,
+        "v": 27.3,
+        "diameter": 4.0,
+        "key": "H4"
+      },
+      {
+        "u": 241.2,
+        "v": 52.3,
+        "diameter": 12.9,
+        "key": "H5"
+      },
+      {
+        "u": 300.0,
+        "v": 122.3,
+        "diameter": 6.6,
+        "key": "H6"
+      }
+    ],
+    "transform": "u=Y; v=Z-12.7; normal=+X"
+  }
+}

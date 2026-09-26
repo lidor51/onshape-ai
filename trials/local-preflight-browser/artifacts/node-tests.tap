@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: published policy blocker prevents even a stub browser with explicit public authorization
+ok 1 - published policy blocker prevents even a stub browser with explicit public authorization
+  ---
+  duration_ms: 4.3378
+  type: 'test'
+  ...
+# Subtest: missing public confirmation cannot authorize a document
+ok 2 - missing public confirmation cannot authorize a document
+  ---
+  duration_ms: 0.3465
+  type: 'test'
+  ...
+# Subtest: missing live authorization cannot be inferred from a session
+ok 3 - missing live authorization cannot be inferred from a session
+  ---
+  duration_ms: 0.7199
+  type: 'test'
+  ...
+# Subtest: invalid hole prevents invocation even with matching hashes and a claimed PASS
+ok 4 - invalid hole prevents invocation even with matching hashes and a claimed PASS
+  ---
+  duration_ms: 52.7909
+  type: 'test'
+  ...
+# Subtest: every changed bound input prevents adapter invocation
+ok 5 - every changed bound input prevents adapter invocation
+  ---
+  duration_ms: 15.3029
+  type: 'test'
+  ...
+# Subtest: failed B-rep check cannot invoke browser stub
+ok 6 - failed B-rep check cannot invoke browser stub
+  ---
+  duration_ms: 1.7945
+  type: 'test'
+  ...
+# Subtest: valid stub passes once; this is control-flow evidence only
+ok 7 - valid stub passes once; this is control-flow evidence only
+  ---
+  duration_ms: 1.3535
+  type: 'test'
+  ...
+# Subtest: each required binding must be present
+ok 8 - each required binding must be present
+  ---
+  duration_ms: 3.1668
+  type: 'test'
+  ...
+# Subtest: negative parameter sweep
+ok 9 - negative parameter sweep
+  ---
+  duration_ms: 2.4972
+  type: 'test'
+  ...
+# Subtest: single-plate source exposes all ten live dimensions and pinned import
+ok 10 - single-plate source exposes all ten live dimensions and pinned import
+  ---
+  duration_ms: 2.4113
+  type: 'test'
+  ...
+# Subtest: all intermediate candidates and deterministic sweep satisfy local parameter contracts
+ok 11 - all intermediate candidates and deterministic sweep satisfy local parameter contracts
+  ---
+  duration_ms: 21.2903
+  type: 'test'
+  ...
+# Subtest: revision preserves thickness/pivot and the final downstream hole stays separate
+ok 12 - revision preserves thickness/pivot and the final downstream hole stays separate
+  ---
+  duration_ms: 2.4359
+  type: 'test'
+  ...
+# Subtest: source mutation and unsupported fixed geometry are rejected
+ok 13 - source mutation and unsupported fixed geometry are rejected
+  ---
+  duration_ms: 1.1509
+  type: 'test'
+  ...
+# Subtest: invalid units, non-finite values, bounds and overlapping bores never enter sweep
+ok 14 - invalid units, non-finite values, bounds and overlapping bores never enter sweep
+  ---
+  duration_ms: 0.8613
+  type: 'test'
+  ...
+# Subtest: retained STEP and preview must match local oracle hashes and provenance
+ok 15 - retained STEP and preview must match local oracle hashes and provenance
+  ---
+  duration_ms: 47.1336
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 336.9848

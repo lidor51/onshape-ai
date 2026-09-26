@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\Scripts\\python.exe",
+  "arguments": [
+    "-I",
+    "-X",
+    "faulthandler",
+    "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\evidence.py"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "{\"status\": \"PASS\", \"packages\": 42, \"previews\": 31, \"baselineRepeat\": \"PASS\", \"wallTimeMs\": 5253.8603000002695}\r\n",
+  "stderr": "",
+  "wallTimeMs": 6023.0634,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0
+}

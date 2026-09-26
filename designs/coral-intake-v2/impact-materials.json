@@ -1,0 +1,1356 @@
+{
+  "schema": "pickup-impact-material-screen/1",
+  "date": "2026-09-18",
+  "status": "PROVISIONAL_DESIGN_POLICY_NOT_COMPETITION_READY",
+  "physical_validation": false,
+  "source_sha256": {
+    "output/pickup-mesh.json": "ed39742afd3f9e878eb7e3a90dbf7b22128cfe9ec3a9cc43ef164c187f581a79",
+    "pickup-report.json": "2423ebd8e39a50fcbe452d2365ee0d694ff8674640e89ccdd3eab0d1582ddb49",
+    "drive-sizing.json": "ee9b29272ec5aae33d7f742a970bf67fab280c003d4ca6ddaea00995dd908255",
+    "pickup.py": "221046dd031478de13c283ee6924958ae6fca61972f6654f6d3b0148a6a65d6c"
+  },
+  "analysis_sha256": "9b74358208070e17397a4a5a41df587f39f3ef31f99d5b1e291b654d5e36dd98",
+  "network_calls_by_generator": 0,
+  "cad_rebuild": false,
+  "source_lookup": {
+    "url_limit": 4,
+    "attempts": [
+      {
+        "url": "https://www.kaiseraluminum.com/wp-content/uploads/2016/02/Kaiser_Aluminum_6061_Sheet_Coil_Plate.pdf",
+        "result": "HTTP_404",
+        "numeric_datasheet_verified": false
+      },
+      {
+        "url": "https://solutions.covestro.com/en/products/makrolon/makrolon-2405",
+        "result": "HTTP_404",
+        "numeric_datasheet_verified": false
+      },
+      {
+        "url": "https://www.hydro.com/globalassets/01-products-services/extruded-profiles/north-america/hydro_extrusion_na_alloy_6061.pdf",
+        "result": "HTTP_404",
+        "numeric_datasheet_verified": false
+      },
+      {
+        "url": "https://solutions.covestro.com/en/brands/makrolon",
+        "result": "FIRST_PARTY_BRAND_PAGE_ONLY; multiple resin grades and PDF links, no numeric property table extracted",
+        "numeric_datasheet_verified": false
+      }
+    ],
+    "first_party_numeric_datasheets_verified": false,
+    "limitation": "Four named URLs exhausted; no usable numerical PDF extraction. No assumed property is manufacturer-guaranteed."
+  },
+  "materials": {
+    "6061_T6": {
+      "modulus_pa": 69000000000.0,
+      "density_kg_m3": 2700,
+      "nominal_yield_mpa": 276,
+      "temperature_c": 23,
+      "numeric_basis": "PROVISIONAL typical screening assumptions, not extracted producer values",
+      "qualification": "Actual sheet/plate temper, thickness, direction, mill certificate and minimum yield required"
+    },
+    "unfilled_PC": {
+      "modulus_pa": 2300000000.0,
+      "density_kg_m3": 1200,
+      "nominal_yield_mpa": 60,
+      "temperature_c": 23,
+      "numeric_basis": "PROVISIONAL typical screening assumptions, not extracted producer values",
+      "qualification": "Specify unfilled extruded sheet grade; resin data alone does not qualify sheet, holes, creep or impact"
+    }
+  },
+  "coordinate_frame": "X width, Y inward, Z up",
+  "source_reference_1690": {
+    "status": "SOURCE_MESH_AXIS_ORDERING_ONLY",
+    "source": ".cache/reference-cad/1690/bore-observations.json",
+    "sha256": "1a0e4718c1bf330525f5a12f9e8c9243a6ec31b635edb39cd670848a9985b827",
+    "part": "LFPYB",
+    "native_frame": "X width, Y up, +Z out toward pickup",
+    "rear_axis_interface_native_yz_mm": [
+      52,
+      226.99999237060547
+    ],
+    "front_pin_native_yz_mm": [
+      179.5352494166298,
+      577.1329917919046
+    ],
+    "rear_axis_basis": "Noncircular outline center, not an analytic round-bore fit or independent proof of drive coupling",
+    "front_pin_height_above_rear_mm": 127.5352494166298,
+    "illustrative_front_pin_wall_torque_x_nm_at_150n": -19.130287412494468,
+    "d_front_height_d_positive_x_radian_mm": -350.13299942129913,
+    "motion_qualified": false,
+    "limitation": "Isolated rocker tendency at front pin only; full linkage has shaped-slot contact, not a proven pinned four-bar. Actual roller force transmission unresolved."
+  },
+  "geometry": {
+    "pivot_yz_mm": [
+      110.0,
+      330.0
+    ],
+    "front_yz_mm": [
+      -261.0,
+      170.3484861008832
+    ],
+    "kick_yz_mm": [
+      -140.0,
+      34.0
+    ],
+    "main_cheek_x_mm": 225.0,
+    "floating_cheek_x_mm": 237.0,
+    "front_roller_coverage_mm": 393.7,
+    "coverage_basis": "11 discs at 38.1 mm pitch plus nominal 12.7 mm disc width, not capture guarantee",
+    "instances": 279,
+    "plates": [
+      {
+        "part": "main_cheek_-1",
+        "definition": "main_cheek",
+        "volume_mm3": 210732.83622815736,
+        "net_area_mm2": 35122.13937135956,
+        "area_basis": "Exact exported CAD solid volume / nominal uniform 6 mm extrusion, including holes/slots",
+        "triangle_volume_relative_error": -5.0851290860354226e-06,
+        "triangle_inertia_relative_error": -0.00010701689585135288,
+        "cad_volume_inertia_about_pivot_mm5": 18620963966.657265,
+        "cad_mass_bounds_kg": [
+          0.5584420160046171,
+          0.6005885832502484
+        ],
+        "cad_inertia_bounds_kg_m2": [
+          0.04934555451164175,
+          0.0530697473049732
+        ],
+        "matrix": [
+          [
+            -0.0,
+            0.0,
+            1.0,
+            -225.0
+          ],
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "part": "floating_cheek_-1",
+        "definition": "floating_cheek",
+        "volume_mm3": 48736.21593330567,
+        "net_area_mm2": 8122.702655550945,
+        "area_basis": "Exact exported CAD solid volume / nominal uniform 6 mm extrusion, including holes/slots",
+        "triangle_volume_relative_error": -3.5698629256009085e-06,
+        "triangle_inertia_relative_error": -1.2058321224528434e-05,
+        "cad_volume_inertia_about_pivot_mm5": 5447280741.949623,
+        "cad_mass_bounds_kg": [
+          0.12915097222326002,
+          0.13889821540992114
+        ],
+        "cad_inertia_bounds_kg_m2": [
+          0.014435293966166503,
+          0.015524750114556425
+        ],
+        "matrix": [
+          [
+            -0.0,
+            0.0,
+            1.0,
+            -237.0
+          ],
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "part": "main_cheek_1",
+        "definition": "main_cheek",
+        "volume_mm3": 210732.83622815736,
+        "net_area_mm2": 35122.13937135956,
+        "area_basis": "Exact exported CAD solid volume / nominal uniform 6 mm extrusion, including holes/slots",
+        "triangle_volume_relative_error": -5.085129029192004e-06,
+        "triangle_inertia_relative_error": -0.00010701689578107576,
+        "cad_volume_inertia_about_pivot_mm5": 18620963966.657265,
+        "cad_mass_bounds_kg": [
+          0.5584420160046171,
+          0.6005885832502484
+        ],
+        "cad_inertia_bounds_kg_m2": [
+          0.04934555451164175,
+          0.0530697473049732
+        ],
+        "matrix": [
+          [
+            -0.0,
+            0.0,
+            1.0,
+            225.0
+          ],
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "part": "floating_cheek_1",
+        "definition": "floating_cheek",
+        "volume_mm3": 48736.21593330567,
+        "net_area_mm2": 8122.702655550945,
+        "area_basis": "Exact exported CAD solid volume / nominal uniform 6 mm extrusion, including holes/slots",
+        "triangle_volume_relative_error": -3.569862854213568e-06,
+        "triangle_inertia_relative_error": -1.2058321178121112e-05,
+        "cad_volume_inertia_about_pivot_mm5": 5447280741.949623,
+        "cad_mass_bounds_kg": [
+          0.12915097222326002,
+          0.13889821540992114
+        ],
+        "cad_inertia_bounds_kg_m2": [
+          0.014435293966166503,
+          0.015524750114556425
+        ],
+        "matrix": [
+          [
+            -0.0,
+            0.0,
+            1.0,
+            237.0
+          ],
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "total_net_plate_area_mm2": 86489.68405382101
+  },
+  "existing_assembly": {
+    "mass_bounds_kg": [
+      5.382184258840329,
+      6.1175876218369964
+    ],
+    "inertia_bounds_kg_m2": [
+      0.5698980382164505,
+      0.652327521636832
+    ],
+    "scope": "Moving CAD subtotal; no omitted drives, wiring, guards or actual scale measurement"
+  },
+  "plate_candidates": [
+    {
+      "thickness_mm": 6,
+      "mass_kg": 1.4011328816719004,
+      "weak_axis_Et3_relative_to_6mm_al": 1.0,
+      "strong_axis_Et_relative_to_6mm_al": 1.0,
+      "material": "6061_T6",
+      "four_plate_inertia_about_pivot_kg_m2": 0.1299685214264772,
+      "assembly_mass_bounds_kg": [
+        5.408131164056476,
+        6.039746906188558
+      ],
+      "assembly_inertia_bounds_kg_m2": [
+        0.5723048626873112,
+        0.64510704822425
+      ],
+      "mass_saved_vs_nominal_al_kg": -2.220446049250313e-16,
+      "qualified": false
+    },
+    {
+      "thickness_mm": 6.35,
+      "mass_kg": 0.6590513924901161,
+      "weak_axis_Et3_relative_to_6mm_al": 0.03951356095679013,
+      "strong_axis_Et_relative_to_6mm_al": 0.035277777777777776,
+      "material": "unfilled_PC",
+      "four_plate_inertia_about_pivot_kg_m2": 0.061133341559861505,
+      "assembly_mass_bounds_kg": [
+        4.666049674874691,
+        5.297665417006773
+      ],
+      "assembly_inertia_bounds_kg_m2": [
+        0.5034696828206955,
+        0.5762718683576343
+      ],
+      "mass_saved_vs_nominal_al_kg": 0.7420814891817841,
+      "qualified": false
+    },
+    {
+      "thickness_mm": 9.525,
+      "mass_kg": 0.9885770887351742,
+      "weak_axis_Et3_relative_to_6mm_al": 0.13335826822916672,
+      "strong_axis_Et_relative_to_6mm_al": 0.05291666666666667,
+      "material": "unfilled_PC",
+      "four_plate_inertia_about_pivot_kg_m2": 0.09170001233979226,
+      "assembly_mass_bounds_kg": [
+        4.99557537111975,
+        5.627191113251832
+      ],
+      "assembly_inertia_bounds_kg_m2": [
+        0.5340363536006263,
+        0.6068385391375651
+      ],
+      "mass_saved_vs_nominal_al_kg": 0.41255579293672595,
+      "qualified": false
+    },
+    {
+      "thickness_mm": 12.7,
+      "mass_kg": 1.3181027849802323,
+      "weak_axis_Et3_relative_to_6mm_al": 0.31610848765432104,
+      "strong_axis_Et_relative_to_6mm_al": 0.07055555555555555,
+      "material": "unfilled_PC",
+      "four_plate_inertia_about_pivot_kg_m2": 0.12226668311972301,
+      "assembly_mass_bounds_kg": [
+        5.325101067364808,
+        5.95671680949689
+      ],
+      "assembly_inertia_bounds_kg_m2": [
+        0.564603024380557,
+        0.6374052099174958
+      ],
+      "mass_saved_vs_nominal_al_kg": 0.08303009669166794,
+      "qualified": false
+    }
+  ],
+  "candidate_scope": "Identical YZ contours and pivot, uniform thickness along X; no new hole/shaft/belt stack or stock tolerance validation",
+  "equivalent_pc_weak_axis_thickness_mm": 18.643395035723152,
+  "equivalent_pc_thickness_sensitivity_mm": [
+    18.291548547541673,
+    19.626397861131537
+  ],
+  "doubler_budget": {
+    "basis": "Illustrative gross 60x60x3 mm aluminum pads, not designed bearing mounts",
+    "one_pad_mass_kg": 0.02916,
+    "12_pad_mass_kg": 0.34992,
+    "24_pad_mass_kg": 0.69984,
+    "pc6p35_plus_24_pads_kg": 1.3588913924901163,
+    "saving_before_extra_hardware_kg": 0.042241489181784275,
+    "extra_hardware_mass_kg": null,
+    "shaft_alignment_qualified": false
+  },
+  "contact_cases": [
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": 0,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -261.0,
+        170.3484861008832
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0.0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.1596515138991168,
+        -0.371
+      ],
+      "torque_x_nm": 23.94772708486752,
+      "work_per_stow_radian_j": -23.94772708486752,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -20,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -293.22999597750794,
+        306.8661236655241
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -0.3490658503988659,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.023133876334475872,
+        -0.4032299959775079
+      ],
+      "torque_x_nm": 3.4700814501713806,
+      "work_per_stow_radian_j": -3.4700814501713806,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -40,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -276.8245033991914,
+        446.1740481357554
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -0.6981317007977318,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.11617404813575541,
+        -0.38682450339919144
+      ],
+      "torque_x_nm": -17.42610722036331,
+      "work_per_stow_radian_j": 17.42610722036331,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -60,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -213.76226678927955,
+        571.4696678544683
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -1.0471975511965976,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.2414696678544683,
+        -0.32376226678927955
+      ],
+      "torque_x_nm": -36.220450178170246,
+      "work_per_stow_radian_j": 36.220450178170246,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -80,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -111.64952258241769,
+        667.640481917181
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -1.3962634015954636,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.337640481917181,
+        -0.22164952258241769
+      ],
+      "torque_x_nm": -50.64607228757715,
+      "work_per_stow_radian_j": 50.64607228757715,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -100,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        17.197425246444652,
+        723.0868708178775
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -1.7453292519943295,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.3930868708178775,
+        -0.09280257475355534
+      ],
+      "torque_x_nm": -58.96303062268163,
+      "work_per_stow_radian_j": 58.96303062268163,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -120,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        157.23773321072034,
+        731.1211817535851
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -2.0943951023931953,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.40112118175358513,
+        0.047237733210720334
+      ],
+      "torque_x_nm": -60.16817726303777,
+      "work_per_stow_radian_j": 60.16817726303777,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "front_frontal_wall",
+      "fold_deg": -140,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        291.5804733950902,
+        690.7743582516568
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -2.443460952792061,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.3607743582516568,
+        0.18158047339509023
+      ],
+      "torque_x_nm": -54.116153737748526,
+      "work_per_stow_radian_j": 54.116153737748526,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": 0,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -140.0,
+        34.0
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0.0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.296,
+        -0.25
+      ],
+      "torque_x_nm": 44.4,
+      "work_per_stow_radian_j": -44.4,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -20,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -226.16111762087502,
+        137.35602007878828
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -0.3490658503988659,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.1926439799212117,
+        -0.336161117620875
+      ],
+      "torque_x_nm": 28.896596988181756,
+      "work_per_stow_radian_j": -28.896596988181756,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -40,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -271.7762432469601,
+        263.94774725841734
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -0.6981317007977318,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.06605225274158266,
+        -0.38177624324696013
+      ],
+      "torque_x_nm": 9.907837911237399,
+      "work_per_stow_radian_j": -9.907837911237399,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -60,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -271.3435195201938,
+        398.5063509461097
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -1.0471975511965976,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.06850635094610971,
+        -0.3813435195201938
+      ],
+      "torque_x_nm": -10.275952641916456,
+      "work_per_stow_radian_j": 10.275952641916456,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -80,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -224.91513930834617,
+        524.8020776636406
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -1.3962634015954636,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.1948020776636406,
+        -0.33491513930834615
+      ],
+      "torque_x_nm": -29.22031164954609,
+      "work_per_stow_radian_j": 29.22031164954609,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -100,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -138.09105047488097,
+        627.6017988424634
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -1.7453292519943295,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.2976017988424634,
+        -0.24809105047488098
+      ],
+      "torque_x_nm": -44.64026982636951,
+      "work_per_stow_radian_j": 44.64026982636951,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -120,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        -21.343519520193922,
+        694.5063509461097
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -2.0943951023931953,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.3645063509461097,
+        -0.13134351952019394
+      ],
+      "torque_x_nm": -54.67595264191646,
+      "work_per_stow_radian_j": 54.67595264191646,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "kick_frontal_wall",
+      "fold_deg": -140,
+      "contact_basis": "Representative roller-height +Y load; not first-contact or persistent wall contact proof",
+      "point_mm": [
+        0,
+        111.24597831252882,
+        717.4460575848523
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": -2.443460952792061,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.3874460575848523,
+        0.0012459783125288197
+      ],
+      "torque_x_nm": -58.116908637727846,
+      "work_per_stow_radian_j": 58.116908637727846,
+      "assists_negative_fold_stow": true
+    },
+    {
+      "name": "main_cheek_-1_corner_wall",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        -228.0,
+        -352.9917534806026,
+        211.615850539659
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.11838414946034101,
+        -0.4629917534806026
+      ],
+      "torque_x_nm": 17.757622419051152,
+      "work_per_stow_radian_j": -17.757622419051152,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "main_cheek_-1_side_hit",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        -228.0,
+        -352.9917534806026,
+        211.615850539659
+      ],
+      "force_n": [
+        150,
+        0,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.11838414946034101,
+        -0.4629917534806026
+      ],
+      "torque_x_nm": 0.0,
+      "work_per_stow_radian_j": -0.0,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "floating_cheek_-1_corner_wall",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        -240.0,
+        -300.63659993704607,
+        147.48661478103062
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.18251338521896937,
+        -0.4106365999370461
+      ],
+      "torque_x_nm": 27.377007782845407,
+      "work_per_stow_radian_j": -27.377007782845407,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "floating_cheek_-1_side_hit",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        -240.0,
+        -300.63659993704607,
+        147.48661478103062
+      ],
+      "force_n": [
+        150,
+        0,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.18251338521896937,
+        -0.4106365999370461
+      ],
+      "torque_x_nm": 0.0,
+      "work_per_stow_radian_j": -0.0,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "main_cheek_1_corner_wall",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        228.0,
+        -352.9917534806026,
+        211.615850539659
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.11838414946034101,
+        -0.4629917534806026
+      ],
+      "torque_x_nm": 17.757622419051152,
+      "work_per_stow_radian_j": -17.757622419051152,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "main_cheek_1_side_hit",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        228.0,
+        -352.9917534806026,
+        211.615850539659
+      ],
+      "force_n": [
+        -150,
+        0,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.11838414946034101,
+        -0.4629917534806026
+      ],
+      "torque_x_nm": 0.0,
+      "work_per_stow_radian_j": -0.0,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "floating_cheek_1_corner_wall",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        240.0,
+        -300.63659993704607,
+        147.48661478103062
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.18251338521896937,
+        -0.4106365999370461
+      ],
+      "torque_x_nm": 27.377007782845407,
+      "work_per_stow_radian_j": -27.377007782845407,
+      "assists_negative_fold_stow": false
+    },
+    {
+      "name": "floating_cheek_1_side_hit",
+      "contact_basis": "Full exported plate mesh frontmost vertex; not full assembly first-contact proof",
+      "point_mm": [
+        240.0,
+        -300.63659993704607,
+        147.48661478103062
+      ],
+      "force_n": [
+        -150,
+        0,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.18251338521896937,
+        -0.4106365999370461
+      ],
+      "torque_x_nm": 0.0,
+      "work_per_stow_radian_j": -0.0,
+      "assists_negative_fold_stow": false
+    }
+  ],
+  "stow_contact_gate": {
+    "status": "FAIL_FOR_LOW_FRONTAL_WALL_NORMAL_AT_DEPLOYED_POSE",
+    "convention": "q is right-hand +X fold angle in radians; stow is negative q",
+    "equation": "J=[0,-(z-zp),(y-yp)] metres/radian; Q=J dot F; stow work per positive stow radian=-Q",
+    "full_swept_unilateral_contact_solution": false,
+    "low_pivot_z40_front": {
+      "point_mm": [
+        0,
+        -261.0,
+        170.3484861008832
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        -0.1303484861008832,
+        -0.371
+      ],
+      "torque_x_nm": -19.55227291513248,
+      "work_per_stow_radian_j": 19.55227291513248,
+      "assists_negative_fold_stow": true
+    },
+    "low_pivot_z40_kick": {
+      "point_mm": [
+        0,
+        -140.0,
+        34.0
+      ],
+      "force_n": [
+        0,
+        150,
+        0
+      ],
+      "fold_radians": 0,
+      "dpoint_dfold_m_per_rad": [
+        0.0,
+        0.006,
+        -0.25
+      ],
+      "torque_x_nm": 0.9,
+      "work_per_stow_radian_j": -0.9,
+      "assists_negative_fold_stow": false
+    },
+    "required": "Every active unilateral wall/reef/floor contact needs a feasible separating or compliant motion; no claimed passive stow if J dot F opposes it"
+  },
+  "load_targets": {
+    "acquisition_aggregate_n": 40,
+    "quasistatic_operating_contact_n": 150,
+    "basis": "Design targets, not measurements, not simultaneous per-roller loads and not collision qualification",
+    "collision_250n_qualification": false
+  },
+  "beam_examples": [
+    {
+      "material": "6061_T6",
+      "force_n": 40,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 6,
+      "second_moment_m4": 1.08e-09,
+      "root_moment_nm": 12.0,
+      "elastic_tip_deflection_mm": 4.8309178743961345,
+      "elastic_nominal_stress_mpa": 33.333333333333336,
+      "elastic_strain_proxy": 0.00048309178743961357,
+      "deflection_over_length": 0.01610305958132045,
+      "small_deflection_screen_exceeded": false,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "6061_T6",
+      "force_n": 150,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 6,
+      "second_moment_m4": 1.08e-09,
+      "root_moment_nm": 45.0,
+      "elastic_tip_deflection_mm": 18.115942028985508,
+      "elastic_nominal_stress_mpa": 125.00000000000001,
+      "elastic_strain_proxy": 0.001811594202898551,
+      "deflection_over_length": 0.060386473429951695,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "6061_T6",
+      "force_n": 40,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 6,
+      "second_moment_m4": 1.08e-09,
+      "root_moment_nm": 18.0,
+      "elastic_tip_deflection_mm": 16.30434782608696,
+      "elastic_nominal_stress_mpa": 50.0,
+      "elastic_strain_proxy": 0.0007246376811594203,
+      "deflection_over_length": 0.03623188405797102,
+      "small_deflection_screen_exceeded": false,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "6061_T6",
+      "force_n": 150,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 6,
+      "second_moment_m4": 1.08e-09,
+      "root_moment_nm": 67.5,
+      "elastic_tip_deflection_mm": 61.141304347826086,
+      "elastic_nominal_stress_mpa": 187.5,
+      "elastic_strain_proxy": 0.002717391304347826,
+      "deflection_over_length": 0.1358695652173913,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 40,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 6.35,
+      "second_moment_m4": 1.2802393749999997e-09,
+      "root_moment_nm": 12.0,
+      "elastic_tip_deflection_mm": 122.25974469066364,
+      "elastic_nominal_stress_mpa": 29.76005952011904,
+      "elastic_strain_proxy": 0.012939156313095236,
+      "deflection_over_length": 0.4075324823022122,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 150,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 6.35,
+      "second_moment_m4": 1.2802393749999997e-09,
+      "root_moment_nm": 45.0,
+      "elastic_tip_deflection_mm": 458.47404258998876,
+      "elastic_nominal_stress_mpa": 111.60022320044642,
+      "elastic_strain_proxy": 0.048521836174107144,
+      "deflection_over_length": 1.5282468086332959,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 40,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 6.35,
+      "second_moment_m4": 1.2802393749999997e-09,
+      "root_moment_nm": 18.0,
+      "elastic_tip_deflection_mm": 412.6266383309899,
+      "elastic_nominal_stress_mpa": 44.64008928017857,
+      "elastic_strain_proxy": 0.019408734469642856,
+      "deflection_over_length": 0.9169480851799776,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 150,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 6.35,
+      "second_moment_m4": 1.2802393749999997e-09,
+      "root_moment_nm": 67.5,
+      "elastic_tip_deflection_mm": 1547.3498937412123,
+      "elastic_nominal_stress_mpa": 167.40033480066964,
+      "elastic_strain_proxy": 0.07278275426116071,
+      "deflection_over_length": 3.438555319424916,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 40,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 9.525,
+      "second_moment_m4": 4.320807890625001e-09,
+      "root_moment_nm": 12.0,
+      "elastic_tip_deflection_mm": 36.2251095379744,
+      "elastic_nominal_stress_mpa": 13.226693120052905,
+      "elastic_strain_proxy": 0.005750736139153437,
+      "deflection_over_length": 0.12075036512658134,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 150,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 9.525,
+      "second_moment_m4": 4.320807890625001e-09,
+      "root_moment_nm": 45.0,
+      "elastic_tip_deflection_mm": 135.84416076740402,
+      "elastic_nominal_stress_mpa": 49.6000992001984,
+      "elastic_strain_proxy": 0.02156526052182539,
+      "deflection_over_length": 0.4528138692246801,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 40,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 9.525,
+      "second_moment_m4": 4.320807890625001e-09,
+      "root_moment_nm": 18.0,
+      "elastic_tip_deflection_mm": 122.25974469066364,
+      "elastic_nominal_stress_mpa": 19.84003968007936,
+      "elastic_strain_proxy": 0.008626104208730157,
+      "deflection_over_length": 0.2716883215348081,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 150,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 9.525,
+      "second_moment_m4": 4.320807890625001e-09,
+      "root_moment_nm": 67.5,
+      "elastic_tip_deflection_mm": 458.4740425899886,
+      "elastic_nominal_stress_mpa": 74.40014880029759,
+      "elastic_strain_proxy": 0.03234789078273808,
+      "deflection_over_length": 1.0188312057555302,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 40,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 12.7,
+      "second_moment_m4": 1.0241914999999998e-08,
+      "root_moment_nm": 12.0,
+      "elastic_tip_deflection_mm": 15.282468086332955,
+      "elastic_nominal_stress_mpa": 7.44001488002976,
+      "elastic_strain_proxy": 0.003234789078273809,
+      "deflection_over_length": 0.05094156028777652,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 150,
+      "length_mm": 300,
+      "height_mm": 60,
+      "thickness_mm": 12.7,
+      "second_moment_m4": 1.0241914999999998e-08,
+      "root_moment_nm": 45.0,
+      "elastic_tip_deflection_mm": 57.309255323748594,
+      "elastic_nominal_stress_mpa": 27.900055800111605,
+      "elastic_strain_proxy": 0.012130459043526786,
+      "deflection_over_length": 0.19103085107916198,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 40,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 12.7,
+      "second_moment_m4": 1.0241914999999998e-08,
+      "root_moment_nm": 18.0,
+      "elastic_tip_deflection_mm": 51.57832979137374,
+      "elastic_nominal_stress_mpa": 11.160022320044643,
+      "elastic_strain_proxy": 0.004852183617410714,
+      "deflection_over_length": 0.1146185106474972,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    },
+    {
+      "material": "unfilled_PC",
+      "force_n": 150,
+      "length_mm": 450,
+      "height_mm": 60,
+      "thickness_mm": 12.7,
+      "second_moment_m4": 1.0241914999999998e-08,
+      "root_moment_nm": 67.5,
+      "elastic_tip_deflection_mm": 193.41873671765154,
+      "elastic_nominal_stress_mpa": 41.85008370016741,
+      "elastic_strain_proxy": 0.018195688565290177,
+      "deflection_over_length": 0.4298194149281145,
+      "small_deflection_screen_exceeded": true,
+      "scope": "Uniform isolated rectangular cantilever, no holes, no plate FEA or dynamic qualification"
+    }
+  ],
+  "collision_cases": [
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 0.5,
+      "stopping_travel_mm": 10,
+      "energy_j": 6.875,
+      "average_force_n": 687.5,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 0.5,
+      "stopping_travel_mm": 50,
+      "energy_j": 6.875,
+      "average_force_n": 137.5,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 1,
+      "stopping_travel_mm": 10,
+      "energy_j": 27.5,
+      "average_force_n": 2750.0,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 1,
+      "stopping_travel_mm": 50,
+      "energy_j": 27.5,
+      "average_force_n": 550.0,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 2,
+      "stopping_travel_mm": 10,
+      "energy_j": 110.0,
+      "average_force_n": 11000.0,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 2,
+      "stopping_travel_mm": 50,
+      "energy_j": 110.0,
+      "average_force_n": 2200.0,
+      "peak_force_n": null,
+      "qualified": false
+    }
+  ],
+  "reduced_mass_sensitivity": [
+    {
+      "effective_mass_kg": 5,
+      "speed_mps": 1,
+      "stopping_travel_mm": 50,
+      "energy_j": 2.5,
+      "average_force_n": 50.0,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 15,
+      "speed_mps": 1,
+      "stopping_travel_mm": 50,
+      "energy_j": 7.5,
+      "average_force_n": 150.0,
+      "peak_force_n": null,
+      "qualified": false
+    },
+    {
+      "effective_mass_kg": 55,
+      "speed_mps": 1,
+      "stopping_travel_mm": 50,
+      "energy_j": 27.5,
+      "average_force_n": 550.0,
+      "peak_force_n": null,
+      "qualified": false
+    }
+  ],
+  "collision_scope": "55 kg finite single-robot energy illustration, not universal maximum. 5..55 kg reduced mass is assumed sensitivity only; other robots, rotation and continued drive can add energy.",
+  "policy": {
+    "preferred": "Protected stiff 6061-T6 bearing/reducer skeleton with replaceable 6.35 mm unfilled PC leading guides/face",
+    "alternate": "6.35 mm PC outboard cheeks with local aluminum bearing doublers are a prototype candidate only; global flex/shaft and timing-belt compatibility unresolved",
+    "force_path": "Sacrificial face -> directionally verified reversible compliance/link/translation -> spring or dissipative travel -> mechanical stop -> chassis frame, bypassing reducer teeth",
+    "forbidden_assumptions": [
+      "Motor brake/high ratio is impact protection",
+      "Local bearing pads restore global stiffness",
+      "Rigid shaft and timing belt can tolerate independent cheek flex without alignment checks",
+      "Printed stock is qualified",
+      "A static 250 N check qualifies a collision"
+    ],
+    "final_kinematics_selected": false,
+    "manufacturing_release": false
+  },
+  "release_gates": {
+    "datasheet_and_stock": false,
+    "stow_direction_unilateral_contacts": false,
+    "shaft_belt_alignment": false,
+    "stop_frame_energy_capacity": false,
+    "physical_coupon_and_fixture_tests": false,
+    "human_machine_review": false
+  }
+}

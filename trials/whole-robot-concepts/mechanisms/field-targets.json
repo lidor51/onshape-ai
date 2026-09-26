@@ -1,0 +1,234 @@
+{
+  "season": 2025,
+  "schemaVersion": 1,
+  "reviewedOn": "2026-09-13",
+  "units": {"length": "mm", "angle": "deg", "inchToMm": 25.4},
+  "evidencePolicy": {
+    "verified": "Supplied nominal datums are supported by cited text, dimension arrows, or explicit arithmetic. Not measured field accuracy or a solved robot interaction.",
+    "mixed": "Contains verified references alongside explicit unknowns or engineering hypotheses. Consult verifiedFields, unknownFields and assumedFields.",
+    "assumed": "The requested target is an engineering hypothesis, not an authoritative field dimension.",
+    "null": "Unknown. Never coerce to zero or substitute an unrelated datum.",
+    "hypothesis": "Only explicitly named Hypothesis fields may supply illustrative fallback geometry. Their source is unknown; using one makes the interaction assumed.",
+    "precedence": "Use final English manual imperial nominal values for shared datums. Preserve drawing differences separately; do not splice different endpoints or reference frames into an exact model."
+  },
+  "sources": {
+    "M": {
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+      "cacheFile": "../../../research/2025-coral/.cache/rules/manual.pdf",
+      "sha256": "dc6aa9ddbeba25c679c58bae746bde14dba2af79a61a65d8c5f575ca6cdfd523",
+      "pageCount": 164,
+      "figurePagesInspected": [23, 24, 25, 26, 27, 28, 32, 45, 46],
+      "additionalTextPagesInspected": [33, 34],
+      "version": "ARENA V4; Game Details V13; cached final English manual dated 2025-04-08. Printed pages equal PDF pages."
+    },
+    "D": {
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/FieldAssets/2025FieldDrawings.pdf",
+      "discoveredAt": "https://www.firstinspires.org/resources/library/frc/archived-games",
+      "cacheFile": "../../../.cache/interaction-field/2025FieldDrawings.pdf",
+      "sha256": "85659c846ec94909d399ed0b29c9ea0a2fbb57dd8e21f77eaf613fcdd5401015",
+      "pageCount": 215,
+      "figurePagesInspected": [91, 125, 143, 157, 162, 163, 164],
+      "additionalTextPagesInspected": [1, 2, 3, 90, 124, 144, 145, 161],
+      "scope": "One public drawing PDF; sheet labels indexed, selected sheets read. No CAD archive, image scaling, or exhaustive assembly reconstruction.",
+      "locators": {
+        "processor": "PDF p.91, GE-25100 sheet 2/2, 2024-10-28",
+        "barge": "PDF p.125, GE-25200 sheet 3/3, 2024-12-16",
+        "netTube": "PDF p.143, GE-25215 sheet 1/1, 2024-12-16",
+        "net": "PDF p.157, GE-25228 sheet 1/1, 2024-12-16",
+        "reef": "PDF p.162, GE-25300 sheet 2/2, 2024-12-06",
+        "scoringPipe": "PDF p.163, GE-25301 rev D, sheet 1/1, last revision 2025-02-18",
+        "smallScoringPipe": "PDF p.164, GE-25301-01 rev B, sheet 1/1, 2024-05-03"
+      }
+    }
+  },
+  "sceneContract": {
+    "heightDatum": "FIELD carpet, z = 0; all height datums remain fixed across robots.",
+    "localAxes": "Right-handed task-local frame: x lateral along interface; y outward toward approaching robot; z up. Not official full-field coordinates.",
+    "reefOrigin": "On carpet at midpoint of selected reef base face; y = 0 at outer base face, negative y into reef. Positive-x branch is the reference branch; mirror x for its partner.",
+    "openingOrigin": "On carpet beneath midpoint of the station or processor opening; y = 0 at field-facing opening plane.",
+    "netOrigin": "On carpet beneath the selected net center; x along long rails, y across the net toward the approaching robot. Clear-aperture origin remains an idealization.",
+    "fieldFixed": true,
+    "robotApproachTranslationOnly": true,
+    "robotApproachAxes": ["x", "y"],
+    "robotBaseZMm": 0,
+    "fitFieldHeightToTool": false,
+    "fitFieldScaleToRobot": false,
+    "hypothesesFixedAcrossRobots": true,
+    "contactAndReachVerified": false,
+    "requirements": [
+      "Instantiate the requested task interface, full-size piece and actual mechanism pose together; a generic nearby reef/station/net is insufficient.",
+      "Keep selected field pose and robot heading fixed; approach alignment translates the robot on carpet only. Mechanism articulation is separate and must not move field targets.",
+      "Use real tool and piece datums to report remaining position/orientation error. Unreachable targets remain unreachable; do not vertically translate the chassis or field.",
+      "Show one physical configuration per view. Assumed contact, insertion, feeding or release remains labeled assumed, even when some field dimensions are verified.",
+      "L1 needs trough contact; L2/L3 need an inclined capped branch and coral bore insertion; L4 needs vertical placement and the compound supporting pipe.",
+      "Station needs the opening and descending chute plus receiving piece; processor needs the opening, lip and outgoing ball; net needs rails, end panels and sagging mesh, not a box at the mesh minimum.",
+      "Low/high algae removal needs the appropriate branch pair and staged ball; loose floor coral, loose floor algae and initial algae-on-upright-coral are different tasks.",
+      "Static alignment does not prove swept clearance, retention, scoring, strength, stability, ballistics, rules compliance or cycle performance."
+    ]
+  },
+  "pieces": {
+    "coral": {
+      "status": "verified", "assumedFields": [],
+      "source": "M section 5.7.1 p.33; nominal imperial dimensions, not guaranteed bore fit.",
+      "lengthMm": 301.625, "outsideDiameterMm": 114.3, "nominalInsideDiameterMm": 101.6,
+      "sourceInches": {"lengthMm": 11.875, "outsideDiameterMm": 4.5, "nominalInsideDiameterMm": 4}
+    },
+    "algae": {
+      "status": "verified", "assumedFields": [],
+      "source": "M section 5.7.2 p.34; inflated gauge diameter, not guaranteed spherical geometry.",
+      "diameterMm": 412.75, "diameterToleranceMm": 6.35,
+      "minimumDiameterMm": 406.4, "maximumDiameterMm": 419.1,
+      "sourceInches": {"diameterMm": 16.25, "diameterToleranceMm": 0.25, "minimumDiameterMm": 16, "maximumDiameterMm": 16.5}
+    }
+  },
+  "interfaces": {
+    "l1": {
+      "status": "mixed",
+      "source": "M p.23 section 5.3 and pp.23-24 Figures 5-6/5-7: front edge at 18 in; highlighted angled, vertical and top-edge trough surfaces. D p.162 GE-25300 gives a different nominal assembly edge, 17.88 in.",
+      "verifiedFields": ["frontEdgeMm"],
+      "assumedFields": ["troughDepthHypothesisMm", "troughWidthHypothesisMm"],
+      "unknownFields": ["troughDepthMm", "troughWidthMm", "troughProfileMm"],
+      "frontEdgeMm": 457.2,
+      "troughDepthMm": null, "troughWidthMm": null, "troughProfileMm": null,
+      "troughDepthHypothesisMm": 200, "troughWidthHypothesisMm": 900,
+      "hypothesisSource": "unknown",
+      "sourceInches": {"frontEdgeMm": 18},
+      "note": "L1 is not a branch. A trough bounding box or its front-edge height alone does not establish a scoring/contact pose. Hypothesis dimensions are independent sketch choices, not measured from Figure 5-7."
+    },
+    "l2": {
+      "status": "mixed",
+      "source": "M p.24 section 5.3: 31 7/8 in highest branch point, 1 5/8 in inset, 35 deg upward, 13 in pipe-pair centers. D p.164 GE-25301-01 rev B explicitly dimensions OD 1.66 in; p.163 GE-25301 rev D shows capped welded branches at 55 deg to vertical.",
+      "verifiedFields": ["tipHeightMm", "upAngleDeg", "branchRadiusMm", "branchOutsideDiameterMm", "tipInsetFromBaseMm", "pairSpacingMm", "componentMaxLengthMm"],
+      "assumedFields": ["branchLengthHypothesisMm", "tipCenterHypothesisMm"],
+      "unknownFields": ["branchLengthMm", "tipCenterMm"],
+      "tipHeightMm": 809.625, "upAngleDeg": 35,
+      "branchRadiusMm": 21.082, "branchOutsideDiameterMm": 42.164,
+      "tipInsetFromBaseMm": 41.275, "pairSpacingMm": 330.2,
+      "branchLengthMm": null, "branchLengthHypothesisMm": 280,
+      "componentMaxLengthMm": 304.8,
+      "tipCenterMm": null, "tipCenterHypothesisMm": [165.1, -55, 790],
+      "hypothesisSource": "unknown",
+      "sourceInches": {"tipHeightMm": 31.875, "branchRadiusMm": 0.83, "branchOutsideDiameterMm": 1.66, "tipInsetFromBaseMm": 1.625, "pairSpacingMm": 13, "componentMaxLengthMm": 12},
+      "note": "tipHeightMm is the highest physical point, NOT the center of a cylindrical end face. Hypothesis center is a coarse capped-cylinder sketch, not exact field coordinates. branchLengthMm means usable straight protrusion tip-to-weld, unresolved here; the dimensioned 12 in maximum component length includes its coped attachment end and is not this length."
+    },
+    "l3": {
+      "status": "mixed",
+      "source": "M p.24 section 5.3: 47 5/8 in highest branch point, 1 5/8 in inset, 35 deg upward, 13 in pipe-pair centers. D pp.163-164 GE-25301 rev D / GE-25301-01 rev B establishes the same small-pipe component as L2, OD 1.66 in.",
+      "verifiedFields": ["tipHeightMm", "upAngleDeg", "branchRadiusMm", "branchOutsideDiameterMm", "tipInsetFromBaseMm", "pairSpacingMm", "componentMaxLengthMm"],
+      "assumedFields": ["branchLengthHypothesisMm", "tipCenterHypothesisMm"],
+      "unknownFields": ["branchLengthMm", "tipCenterMm"],
+      "tipHeightMm": 1209.675, "upAngleDeg": 35,
+      "branchRadiusMm": 21.082, "branchOutsideDiameterMm": 42.164,
+      "tipInsetFromBaseMm": 41.275, "pairSpacingMm": 330.2,
+      "branchLengthMm": null, "branchLengthHypothesisMm": 280,
+      "componentMaxLengthMm": 304.8,
+      "tipCenterMm": null, "tipCenterHypothesisMm": [165.1, -55, 1190],
+      "hypothesisSource": "unknown",
+      "sourceInches": {"tipHeightMm": 47.625, "branchRadiusMm": 0.83, "branchOutsideDiameterMm": 1.66, "tipInsetFromBaseMm": 1.625, "pairSpacingMm": 13, "componentMaxLengthMm": 12},
+      "note": "Same tip-surface versus axis-center distinction as L2. The coarse hypothesis and 280 mm protrusion are not drawing dimensions; do not promote them to exact insertion targets."
+    },
+    "l4": {
+      "status": "mixed",
+      "source": "M p.24 section 5.3: 72 in highest vertical branch point, 1 1/8 in inset, 13 in pipe-pair centers. D p.163 GE-25301 rev D specifies 1.25 in Schedule 40 steel for scoring pipes; p.164 documents that pipe specification's nominal 1.66 in OD. Radius is derived from the shared pipe specification, not a measured cap envelope.",
+      "verifiedFields": ["tipHeightMm", "upAngleDeg", "branchRadiusMm", "branchOutsideDiameterMm", "tipInsetFromBaseMm", "pairSpacingMm"],
+      "assumedFields": ["branchLengthHypothesisMm", "tipCenterHypothesisMm"],
+      "unknownFields": ["branchLengthMm", "tipCenterMm", "compoundSupportPathMm"],
+      "tipHeightMm": 1828.8, "upAngleDeg": 90,
+      "branchRadiusMm": 21.082, "branchOutsideDiameterMm": 42.164,
+      "tipInsetFromBaseMm": 28.575, "pairSpacingMm": 330.2,
+      "branchLengthMm": null, "branchLengthHypothesisMm": 180,
+      "tipCenterMm": null, "tipCenterHypothesisMm": [165.1, -50, 1828.8],
+      "compoundSupportPathMm": null,
+      "hypothesisSource": "unknown",
+      "sourceInches": {"tipHeightMm": 72, "branchRadiusMm": 0.83, "branchOutsideDiameterMm": 1.66, "tipInsetFromBaseMm": 1.125, "pairSpacingMm": 13},
+      "note": "Vertical upper segment is real; lower compound bends must not be replaced by an inclined L2/L3 branch. Exposed straight length, cap/weld envelope and complete pipe centerline remain unresolved."
+    },
+    "station": {
+      "status": "verified",
+      "source": "M p.32 section 5.6.2, Figure 5-18 side and field views: opening 76 x 7 in, bottom 37.5 in, chute descending 55 deg toward FIELD.",
+      "verifiedFields": ["bottomMm", "openingHeightMm", "openingWidthMm", "chuteAngleDeg", "topMm"],
+      "assumedFields": [], "unknownFields": [],
+      "bottomMm": 952.5, "openingHeightMm": 177.8, "openingWidthMm": 1930.4,
+      "chuteAngleDeg": 55, "topMm": 1130.3,
+      "sourceInches": {"bottomMm": 37.5, "openingHeightMm": 7, "openingWidthMm": 76, "topMm": 44.5},
+      "derivation": "topMm = bottomMm + openingHeightMm; chuteAngleDeg is downward from horizontal along feed direction.",
+      "note": "Verified opening datums do not specify coral axis, tool-center height, feed orientation, chute length or receiver offset. No assumption that a tilted coral must fit as a static vertical silhouette."
+    },
+    "processor": {
+      "status": "verified",
+      "source": "M p.28 section 5.5 / Figure 5-13 plus D p.91 GE-25100 sheet 2/2: front-view arrows explicitly connect floor/base datum to the opening's lower straight edge with 7.00 in; 20.00 in spans lower to upper opening edge; width is 28.00 in.",
+      "verifiedFields": ["bottomMm", "openingWidthMm", "openingHeightMm", "topMm", "centerMm"],
+      "assumedFields": [], "unknownFields": [],
+      "bottomMm": 177.8, "openingWidthMm": 711.2, "openingHeightMm": 508,
+      "topMm": 685.8, "centerMm": 431.8,
+      "sourceInches": {"bottomMm": 7, "openingWidthMm": 28, "openingHeightMm": 20, "topMm": 27, "centerMm": 17},
+      "derivation": "topMm = bottomMm + openingHeightMm; centerMm = bottomMm + openingHeightMm / 2, geometric aperture center only.",
+      "note": "The 7 in dimension is the lower opening edge, not its center or sensor. Opening has rounded corners in the drawing; width/height are bounding dimensions, not a complete rectangular clearance guarantee. Ramp, lip, sensors, compression and release path still need checking."
+    },
+    "net": {
+      "status": "mixed",
+      "source": "M p.27 section 5.4.2 / Figure 5-12: 48 x 144 in mesh and 76 in lowest mesh point. D p.125 GE-25200 sheet 3/3 separately dimensions side-rail/support levels 88.01 / 88.93 in, end-panel top 100.99 in and top-view outer span 41.16 in. D p.157 GE-25228 identifies 48 x 144 in as net material size, not clear aperture.",
+      "verifiedFields": ["lowestMeshMm", "meshWidthMm", "meshLengthMm", "sideRailDrawingHeightMm", "sideSupportDrawingHeightMm", "endPanelTopDrawingMm", "outerWidthDrawingMm"],
+      "assumedFields": ["rimHypothesisMm", "openingWidthHypothesisMm", "openingLengthHypothesisMm"],
+      "unknownFields": ["rimMm", "openingWidthMm", "openingLengthMm", "perimeterProfileMm"],
+      "rimMm": null, "openingWidthMm": null, "openingLengthMm": null,
+      "perimeterProfileMm": null,
+      "rimHypothesisMm": 2260, "openingWidthHypothesisMm": 1000, "openingLengthHypothesisMm": 3500,
+      "lowestMeshMm": 1930.4, "meshWidthMm": 1219.2, "meshLengthMm": 3657.6,
+      "sideRailDrawingHeightMm": 2235.454, "sideSupportDrawingHeightMm": 2258.822,
+      "endPanelTopDrawingMm": 2565.146, "outerWidthDrawingMm": 1045.464,
+      "hypothesisSource": "unknown",
+      "sourceInches": {"lowestMeshMm": 76, "meshWidthMm": 48, "meshLengthMm": 144, "sideRailDrawingHeightMm": 88.01, "sideSupportDrawingHeightMm": 88.93, "endPanelTopDrawingMm": 100.99, "outerWidthDrawingMm": 41.16},
+      "note": "No unique horizontal mesh-rim plane or clear rectangular opening was established. 2260 mm is an assumed long-side entry reference rounded from the upper side-support envelope, NOT an all-sides rim or measured cord height. Retain the higher end panels. The assumed 1000 x 3500 mm aperture is a sketch choice, not a certified clear window. Never substitute 1930.4 mm or the unverified 98 in guess for rimMm."
+    },
+    "algaeLow": {
+      "status": "assumed",
+      "source": "unknown; M pp.45-46 section 6.3.4.2 / Figure 6-3 verifies lower-pair staging, but no numeric ball-center height. D p.162 GE-25300 has no staged-ball center dimension.",
+      "verifiedFields": [],
+      "assumedFields": ["centerHypothesisMm", "normalOffsetHypothesisMm"],
+      "unknownFields": ["centerMm", "normalOffsetMm"],
+      "centerMm": null, "centerHypothesisMm": 900,
+      "normalOffsetMm": null, "normalOffsetHypothesisMm": 0,
+      "hypothesisSource": "unknown",
+      "note": "centerMm means ball-center z above carpet; lateral center is between the supporting pair. 900 mm and y = 0 are independent fixed scene assumptions, not tip height plus radius, drawing-derived centers, or a seated-contact solution. Use full-size algae from pieces.algae."
+    },
+    "algaeHigh": {
+      "status": "assumed",
+      "source": "unknown; M pp.45-46 section 6.3.4.2 / Figure 6-3 verifies upper-pair staging, but no numeric ball-center height. D p.162 GE-25300 has no staged-ball center dimension.",
+      "verifiedFields": [],
+      "assumedFields": ["centerHypothesisMm", "normalOffsetHypothesisMm"],
+      "unknownFields": ["centerMm", "normalOffsetMm"],
+      "centerMm": null, "centerHypothesisMm": 1300,
+      "normalOffsetMm": null, "normalOffsetHypothesisMm": 0,
+      "hypothesisSource": "unknown",
+      "note": "1300 mm and y = 0 are independent fixed scene assumptions, not a measured center or branch-contact solution. Do not move the ball vertically to meet a robot hand. Staged algae does not contact coral on L4 per M p.45."
+    },
+    "floorCoral": {
+      "status": "assumed",
+      "source": "unknown for actual carpet-supported axis; nominal piece OD from M p.33.",
+      "verifiedFields": [], "assumedFields": ["axisHypothesisMm"], "unknownFields": ["axisMm"],
+      "axisMm": null, "axisHypothesisMm": 57.15,
+      "hypothesisSource": "unknown",
+      "derivation": "Horizontal ideal circular cylinder on flat carpet: pieces.coral.outsideDiameterMm / 2. No sink, deformation or roller compression.",
+      "note": "Loose horizontal coral pickup, not the initial upright coral supporting algae shown in Figure 6-2. Plan yaw and robot receiver orientation must be explicit."
+    },
+    "floorAlgae": {
+      "status": "assumed",
+      "source": "unknown for actual carpet-supported center; gauge dimensions from M p.34.",
+      "verifiedFields": [], "assumedFields": ["centerHypothesisMm"], "unknownFields": ["centerMm"],
+      "centerMm": null, "centerHypothesisMm": 206.375,
+      "hypothesisSource": "unknown",
+      "derivation": "Ideal sphere on flat carpet: pieces.algae.diameterMm / 2. Actual shape, sink and compression unresolved.",
+      "note": "Loose algae pickup is separate from initial algae-on-coral staging."
+    },
+    "stagedFloorAlgae": {
+      "status": "assumed",
+      "source": "unknown for numerical center; M p.45 Figure 6-2 visually shows algae atop upright coral and section 6.3.4.2 specifies algae atop each marked coral.",
+      "verifiedFields": [], "assumedFields": ["centerHypothesisMm"], "unknownFields": ["centerMm"],
+      "centerMm": null, "centerHypothesisMm": 508,
+      "hypothesisSource": "unknown",
+      "derivation": "Coarse upper-tangent sketch only: pieces.coral.lengthMm + pieces.algae.diameterMm / 2. A sphere can seat into the pipe opening; the actual contact solution and center are NOT established by this sum.",
+      "note": "Show upright full-length coral and the supported ball as distinct pieces; do not represent this starting condition as an independent ball on carpet."
+    }
+  }
+}

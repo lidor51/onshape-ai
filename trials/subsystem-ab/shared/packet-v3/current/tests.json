@@ -1,0 +1,21 @@
+{
+  "status": "PASS_REGRESSIONS_NOT_GEOMETRY_RELEASE",
+  "run": 6,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "staticContractChecks": {
+    "status": "PASS",
+    "connectorFrameChecks": 306,
+    "sourceConnectorCount": 102,
+    "cotsBindingChecks": 6,
+    "preservedV1AndV2": "PASS",
+    "v2FreezeSha256": "8a4b8237b219f9b3d2a37fc5094cffbceeec79f16db6e8b2d4b33ba3ca12a0e8",
+    "v1FreezeSha256": "44535e9050267020e37f4cb738be78f55e46673e342d3f323a1faee39f982851",
+    "nativeCompilation": "UNVERIFIED"
+  },
+  "sourceRoundTrip": "FAIL",
+  "sourceBrepCorrespondence": "FAIL",
+  "newDeploymentSamples": 0,
+  "newFullAssemblyRoundTrips": 0
+}

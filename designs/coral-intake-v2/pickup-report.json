@@ -1,0 +1,6214 @@
+{
+  "schema": "local-pickup-structure-report/1",
+  "units": "mm",
+  "cad_ready": false,
+  "scope": "New integrated pickup structure only, inspired/source-grounded geometry, not literal 1690 CAD and not a completed subsystem",
+  "network_calls": 0,
+  "settings": {
+    "cheek_x": 225.0,
+    "arm_x": 237.0,
+    "plate_thickness": 6.0,
+    "bearing_seat": 28.57,
+    "pivot_yz": [
+      110.0,
+      330.0
+    ],
+    "middle_yz": [
+      -136.0,
+      262.0
+    ],
+    "front_dy": 125.0,
+    "front_distance": 155.0,
+    "rear_dy": 127.0,
+    "rear_distance": 130.0,
+    "kick_yz": [
+      -140.0,
+      34.0
+    ],
+    "kick_width": 420.0,
+    "crossmembers_yz": [
+      [
+        -330.0,
+        211.0
+      ],
+      [
+        -215.0,
+        320.0
+      ]
+    ],
+    "shaft_length": 500.0,
+    "star_pitch": 38.1,
+    "star_counts": {
+      "front": 11,
+      "middle": 9,
+      "rear": 7
+    },
+    "fold_angles": [
+      0,
+      -20,
+      -40,
+      -60,
+      -80,
+      -100,
+      -120,
+      -140
+    ],
+    "float_angles": [
+      0,
+      -8
+    ],
+    "stow_angle": -140.0,
+    "extension_limit": 457.2,
+    "minimum_floor": 5.0,
+    "custom_definition_target": 15
+  },
+  "roller_centers_yz": {
+    "middle": [
+      -136.0,
+      262.0
+    ],
+    "front": [
+      -261.0,
+      170.3484861008832
+    ],
+    "rear": [
+      -9.0,
+      289.7668867538296
+    ],
+    "kick": [
+      -140.0,
+      34.0
+    ]
+  },
+  "previous_generated_baseline": {
+    "receipt": "output/history/baseline-d8646f87ff04af92/receipt.json",
+    "sha256": "676567a744eedaf244a8b38569c65384d40a6e3a404498d6bbc42a59e82d35b5",
+    "file_count": 31,
+    "report": "output/history/baseline-d8646f87ff04af92/pickup-report.json"
+  },
+  "inventory": {
+    "instances": 279,
+    "definitions": 29,
+    "custom_definitions": 17,
+    "custom_definition_names": [
+      "main_cheek",
+      "floating_cheek",
+      "crossmember",
+      "bearing_keeper",
+      "tube_end_plug",
+      "roller_hex_shaft",
+      "spacer_25p4000",
+      "spacer_36p8000",
+      "spacer_8p4125",
+      "spacer_62p9000",
+      "spacer_4p0625",
+      "spacer_101p0000",
+      "spacer_20p4125",
+      "kick_core",
+      "kick_rubber",
+      "kick_end_hub",
+      "pivot_stub"
+    ],
+    "unique_machined_definitions": 8,
+    "machined_definition_names": [
+      "main_cheek",
+      "floating_cheek",
+      "crossmember",
+      "bearing_keeper",
+      "tube_end_plug",
+      "roller_hex_shaft",
+      "kick_end_hub",
+      "pivot_stub"
+    ],
+    "cut_only_definitions": [
+      "spacer_25p4000",
+      "spacer_36p8000",
+      "spacer_8p4125",
+      "spacer_62p9000",
+      "spacer_4p0625",
+      "spacer_101p0000",
+      "spacer_20p4125",
+      "kick_core",
+      "kick_rubber"
+    ],
+    "machined_definition_target": 15,
+    "machined_definition_status": "PASS",
+    "strict_all_custom_under_15": false,
+    "physical_solid_occurrences": 279,
+    "by_category": {
+      "structure": 10,
+      "bearing": 12,
+      "retainer": 12,
+      "fastener": 112,
+      "hard_shaft": 4,
+      "hard_hub": 30,
+      "hard_marking_unqualified": 27,
+      "outer_elastomer": 28,
+      "spacer": 42,
+      "pivot_support": 2
+    },
+    "bom": [
+      {
+        "definition": "M5_end_washer",
+        "quantity": 10,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "M5_flanged_nut",
+        "quantity": 26,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "M5_washer",
+        "quantity": 32,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "M5x12",
+        "quantity": 10,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "M5x16",
+        "quantity": 24,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "M5x20",
+        "quantity": 4,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "M5x8",
+        "quantity": 4,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "WCP_0783",
+        "quantity": 12,
+        "category": "authentic_vendor"
+      },
+      {
+        "definition": "am5123_body_0",
+        "quantity": 27,
+        "category": "authentic_vendor"
+      },
+      {
+        "definition": "am5123_body_1",
+        "quantity": 27,
+        "category": "authentic_vendor"
+      },
+      {
+        "definition": "am5123_body_2",
+        "quantity": 27,
+        "category": "authentic_vendor"
+      },
+      {
+        "definition": "bearing_keeper",
+        "quantity": 12,
+        "category": "custom"
+      },
+      {
+        "definition": "crossmember",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "float_stop_shoulder_screw",
+        "quantity": 2,
+        "category": "nominal_hardware"
+      },
+      {
+        "definition": "floating_cheek",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "kick_core",
+        "quantity": 1,
+        "category": "custom"
+      },
+      {
+        "definition": "kick_end_hub",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "kick_rubber",
+        "quantity": 1,
+        "category": "custom"
+      },
+      {
+        "definition": "main_cheek",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "pivot_stub",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "roller_hex_shaft",
+        "quantity": 4,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_101p0000",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_20p4125",
+        "quantity": 6,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_25p4000",
+        "quantity": 24,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_36p8000",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_4p0625",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_62p9000",
+        "quantity": 2,
+        "category": "custom"
+      },
+      {
+        "definition": "spacer_8p4125",
+        "quantity": 4,
+        "category": "custom"
+      },
+      {
+        "definition": "tube_end_plug",
+        "quantity": 4,
+        "category": "custom"
+      }
+    ],
+    "comparison": {
+      "requested_old_pickup_baseline": 330,
+      "new_instances": 279,
+      "reduction_from_330": 51,
+      "percent_reduction_from_330": 15.454545454545455,
+      "frozen_manifest_pickup_all": 348,
+      "frozen_manifest_pickup_moving": 348,
+      "whole_old_551_not_used_as_baseline": true,
+      "scope_caveat": "New inventory includes extra 5 stars (15 source bodies), structural retention and all modeled hardware, but excludes drive transmission/motors and chassis-fixed brackets; not like-for-like powered-system completion"
+    }
+  },
+  "local_geometry": {
+    "status": "PASS",
+    "custom": [
+      {
+        "definition": "main_cheek",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 210732.83622815736
+      },
+      {
+        "definition": "floating_cheek",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 48736.21593330567
+      },
+      {
+        "definition": "crossmember",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 63840.96682222886
+      },
+      {
+        "definition": "bearing_keeper",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 2422.0058289912677
+      },
+      {
+        "definition": "tube_end_plug",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 3704.682546711282
+      },
+      {
+        "definition": "roller_hex_shaft",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 69452.69482733076
+      },
+      {
+        "definition": "spacer_25p4000",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 2713.079415640145
+      },
+      {
+        "definition": "spacer_36p8000",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 3930.760728171552
+      },
+      {
+        "definition": "spacer_8p4125",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 898.5740387430203
+      },
+      {
+        "definition": "spacer_62p9000",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 6718.610048967135
+      },
+      {
+        "definition": "spacer_4p0625",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 433.93248527709017
+      },
+      {
+        "definition": "spacer_101p0000",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 10788.229172427356
+      },
+      {
+        "definition": "spacer_20p4125",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 2180.3438414076563
+      },
+      {
+        "definition": "kick_core",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 58056.6322383394
+      },
+      {
+        "definition": "kick_rubber",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 667981.1379695297
+      },
+      {
+        "definition": "kick_end_hub",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 3925.039997675275
+      },
+      {
+        "definition": "pivot_stub",
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volume_mm3": 5975.3575987516415
+      }
+    ],
+    "bearing_fits": [
+      {
+        "bearing": "bearing_kick_-1",
+        "cheek": "main_cheek_-1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_kick_1",
+        "cheek": "main_cheek_1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_middle_-1",
+        "cheek": "main_cheek_-1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_middle_1",
+        "cheek": "main_cheek_1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_rear_-1",
+        "cheek": "main_cheek_-1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_rear_1",
+        "cheek": "main_cheek_1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_pivot_-1",
+        "cheek": "main_cheek_-1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_pivot_1",
+        "cheek": "main_cheek_1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_arm_front_-1",
+        "cheek": "floating_cheek_-1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_arm_front_1",
+        "cheek": "floating_cheek_1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_arm_middle_-1",
+        "cheek": "floating_cheek_-1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      },
+      {
+        "bearing": "bearing_arm_middle_1",
+        "cheek": "floating_cheek_1",
+        "overlap_mm3": 0.0,
+        "diametral_clearance_mm": 0.02039999999999864,
+        "status": "PASS",
+        "manufacturing_fit": "UNQUALIFIED; finish-bore coupon required"
+      }
+    ],
+    "floating_bearing_fits": [
+      {
+        "bearing": "bearing_arm_middle_-1",
+        "float_deg": -8,
+        "overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "bearing": "bearing_arm_front_-1",
+        "float_deg": -8,
+        "overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "bearing": "bearing_arm_middle_1",
+        "float_deg": -8,
+        "overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "bearing": "bearing_arm_front_1",
+        "float_deg": -8,
+        "overlap_mm3": 0.0,
+        "status": "PASS"
+      }
+    ],
+    "bearing_kinematics": "Unmodified source bearing bores follow shaft frames: middle-arm bearings fold but do not float; pivot bearings stay fixed on stubs. Circular outer race seats permit independent cheek rotation; loaded bearing function unqualified."
+  },
+  "brace_clearance": {
+    "status": "PASS",
+    "old_tube_collision_mm3": 8270.256146848002,
+    "old_witness": {
+      "center": [
+        0,
+        -365,
+        57.15
+      ],
+      "yaw": 90
+    },
+    "minimum_certified_structure_gap_mm": 2.8175437917593342,
+    "scope": "Horizontal full finite coral, continuous Y=-450..-190; unpowered cheeks and overhead tubes only. Not all-angle capture or powered traversal.",
+    "samples": [
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 104.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 116.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 224.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 236.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 208.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": -60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 208.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 164.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 176.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 164.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 176.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 148.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 148.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 0,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 224.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 236.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 104.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 116.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 208.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 208.85,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 0,
+        "x_offset": 60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 37.100398173719356,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 49.100398173719356,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 157.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 169.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 141.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": -60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 97.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 109.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 97.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 109.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 0,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 157.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 169.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 37.100398173719356,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 49.100398173719356,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 141.10039817371936,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 30,
+        "x_offset": 60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 2.8175437917593342,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 24.57908269335779,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 122.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 134.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 106.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": -60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 62.817543791759334,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 74.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 62.817543791759334,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 74.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 0,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 122.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 134.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 2.8175437917593342,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 24.57908269335779,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 106.81754379175933,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 60,
+        "x_offset": 60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 11.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 24.57908269335779,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 131.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 143.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 115.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": -60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 71.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 83.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 71.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 83.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 0,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "main_cheek_-1",
+        "conservative_separation_mm": 131.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "floating_cheek_-1",
+        "conservative_separation_mm": 143.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "main_cheek_1",
+        "conservative_separation_mm": 11.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "floating_cheek_1",
+        "conservative_separation_mm": 24.57908269335779,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "crossmember_0",
+        "conservative_separation_mm": 86.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "crossmember_1",
+        "conservative_separation_mm": 195.7,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "tube_joint_0_-1_plug",
+        "conservative_separation_mm": 115.1875,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "tube_joint_0_1_plug",
+        "conservative_separation_mm": 88.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "tube_joint_1_-1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      },
+      {
+        "yaw": 90,
+        "x_offset": 60,
+        "part": "tube_joint_1_1_plug",
+        "conservative_separation_mm": 197.8,
+        "status": "CERTIFIED_SEPARATED"
+      }
+    ]
+  },
+  "sampled_contact": {
+    "status": "NO_WITNESS",
+    "samples": [
+      {
+        "center_y_mm": -335,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 16.908731560393015
+      },
+      {
+        "center_y_mm": -330,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 15.06317933409624
+      },
+      {
+        "center_y_mm": -325,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 13.518058161960475
+      },
+      {
+        "center_y_mm": -320,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 12.293039893811859
+      },
+      {
+        "center_y_mm": -315,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 11.404952970722753
+      },
+      {
+        "center_y_mm": -310,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 10.866737953300053
+      },
+      {
+        "center_y_mm": -305,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 8.824726932462433
+      },
+      {
+        "center_y_mm": -300,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 5.669101489682973
+      },
+      {
+        "center_y_mm": -295,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 2.759481297785179
+      },
+      {
+        "center_y_mm": -290,
+        "overlap_mm3": 0.0,
+        "minimum_distance_mm": 0.13249619352652076
+      }
+    ],
+    "minimum_sample_distance_mm": 0.13249619352652076,
+    "scope": "Crosswise central star at source phase only, Y=-335..-290; larger Y and rotating star phase unvalidated, no capture claim"
+  },
+  "attachments": {
+    "status": "PASS",
+    "hole_coaxiality": [
+      {
+        "joint": "bearing_kick_-1_bolt_0",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_kick_-1_bolt_1",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_kick_1_bolt_0",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_kick_1_bolt_1",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_middle_-1_bolt_0",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_middle_-1_bolt_1",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_middle_1_bolt_0",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_middle_1_bolt_1",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_rear_-1_bolt_0",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_rear_-1_bolt_1",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_rear_1_bolt_0",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_rear_1_bolt_1",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_pivot_-1_bolt_0",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_pivot_-1_bolt_1",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_pivot_1_bolt_0",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_pivot_1_bolt_1",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_front_-1_bolt_0",
+        "owner": "floating_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_front_-1_bolt_1",
+        "owner": "floating_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_front_1_bolt_0",
+        "owner": "floating_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_front_1_bolt_1",
+        "owner": "floating_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_middle_-1_bolt_0",
+        "owner": "floating_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_middle_-1_bolt_1",
+        "owner": "floating_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_middle_1_bolt_0",
+        "owner": "floating_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "bearing_arm_middle_1_bolt_1",
+        "owner": "floating_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_0_-1_axial",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_0_-1_top",
+        "owner": "crossmember_0",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_0_1_axial",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_0_1_top",
+        "owner": "crossmember_0",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_1_-1_axial",
+        "owner": "main_cheek_-1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_1_-1_top",
+        "owner": "crossmember_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_1_1_axial",
+        "owner": "main_cheek_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      },
+      {
+        "joint": "tube_joint_1_1_top",
+        "owner": "crossmember_1",
+        "hole_probe_overlap_mm3": 0.0,
+        "status": "PASS"
+      }
+    ],
+    "nut_access": [
+      {
+        "joint": "bearing_kick_-1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_kick_-1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_kick_1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_kick_1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_middle_-1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_middle_-1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_middle_1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_middle_1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_rear_-1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_rear_-1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_rear_1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_rear_1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_pivot_-1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_pivot_-1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_pivot_1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_pivot_1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_front_-1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_front_-1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_front_1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_front_1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_middle_-1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_middle_-1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_middle_1_bolt_0",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      },
+      {
+        "joint": "bearing_arm_middle_1_bolt_1",
+        "status": "CLEAR_OF_MODELED_PARTS",
+        "blockers": [],
+        "tool": "OD14 x15 socket approach, inside nut face",
+        "service": "Float=0 service ports expose inner nuts; remove complete cheek for roller replacement; no shaft sliding through adjacent indexer"
+      }
+    ],
+    "retention_qualification": "UNQUALIFIED loads, loosening, thread engagement and service sequence; no thread helix modeled"
+  },
+  "self_structure": {
+    "status": "PASS_SCOPED",
+    "scope": "Main cheeks versus all floating structural/hardware parts at 0/-8 degrees only; not exhaustive all-pair or swept self-collision proof",
+    "pairs": []
+  },
+  "poses": {
+    "status": "UNCERTAIN",
+    "scope": "All new pickup hardware; orientation-specific actual BRep bounds translated by rigid fold/float transforms, fixed frozen indexer manifest bounds. AABB separation certifies only the sampled poses, not the intervals.",
+    "continuous_motion": "NOT_CERTIFIED; no interval motion bound between the 20-degree fold samples",
+    "reference_indexer_instances": 164,
+    "reference_manifest_sha256": "59afe22061bce98d2a27cd5e75c45406e2fe5d3e09914839ab6a21f948ccc378",
+    "pair_tests": 763344,
+    "certified_separated_pairs": 763180,
+    "exact_test_limit": 20,
+    "exact_tests": 20,
+    "minimum_margins_mm": {
+      "floor_mm": 3.5,
+      "stow_rear_mm": 366.43217058034793,
+      "left_width_mm": 93.0,
+      "stow_front_mm": 71.89031116147883,
+      "stow_height_mm": 312.6737739562584,
+      "right_width_mm": 93.0,
+      "extension_mm": 90.03484979844569
+    },
+    "poses": [
+      {
+        "fold_deg": 0,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -353.0,
+          8.5,
+          257.0,
+          157.0,
+          353.355558483665
+        ],
+        "margins": {
+          "floor_mm": 3.5,
+          "extension_mm": 104.19999999999999,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47679,
+        "pair_outcomes": {
+          "EXACT_CLEAR_AT_SAMPLE": 12,
+          "UNCERTAIN": 18
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": 0,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -353.0,
+          8.5,
+          257.0,
+          157.0,
+          353.355558483665
+        ],
+        "margins": {
+          "floor_mm": 3.5,
+          "extension_mm": 104.19999999999999,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47679,
+        "pair_outcomes": {
+          "UNCERTAIN": 30
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -20,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -367.1651502015543,
+          111.8560200787883,
+          257.0,
+          154.7083195898645,
+          454.7596203729833
+        ],
+        "margins": {
+          "floor_mm": 106.8560200787883,
+          "extension_mm": 90.03484979844569,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47695,
+        "pair_outcomes": {
+          "EXACT_CLEAR_AT_SAMPLE": 6,
+          "UNCERTAIN": 8
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -20,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -367.1651502015543,
+          111.8560200787883,
+          257.0,
+          154.7083195898645,
+          454.7596203729833
+        ],
+        "margins": {
+          "floor_mm": 106.8560200787883,
+          "extension_mm": 90.03484979844569,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47695,
+        "pair_outcomes": {
+          "UNCERTAIN": 14
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -40,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -340.176371191276,
+          230.52181809032885,
+          257.0,
+          148.1096888385212,
+          554.2455287169355
+        ],
+        "margins": {
+          "floor_mm": 225.52181809032885,
+          "extension_mm": 117.02362880872397,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47697,
+        "pair_outcomes": {
+          "EXACT_CLEAR_AT_SAMPLE": 2,
+          "UNCERTAIN": 10
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -40,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -337.4115522397211,
+          230.52181809032885,
+          257.0,
+          148.1096888385212,
+          554.2455287169355
+        ],
+        "margins": {
+          "floor_mm": 225.52181809032885,
+          "extension_mm": 119.78844776027887,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47697,
+        "pair_outcomes": {
+          "UNCERTAIN": 12
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -60,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -299.34351952019387,
+          288.09103465619137,
+          257.0,
+          138.0,
+          674.551177665153
+        ],
+        "margins": {
+          "floor_mm": 283.09103465619137,
+          "extension_mm": 157.85648047980612,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47703,
+        "pair_outcomes": {
+          "UNCERTAIN": 6
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -60,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -299.34351952019387,
+          288.09103465619137,
+          257.0,
+          138.0,
+          674.551177665153
+        ],
+        "margins": {
+          "floor_mm": 283.09103465619137,
+          "extension_mm": 157.85648047980612,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47703,
+        "pair_outcomes": {
+          "UNCERTAIN": 6
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -80,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -250.4151393083462,
+          283.5773053855361,
+          257.0,
+          133.0,
+          765.6512781830069
+        ],
+        "margins": {
+          "floor_mm": 278.5773053855361,
+          "extension_mm": 206.7848606916538,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47707,
+        "pair_outcomes": {
+          "UNCERTAIN": 2
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -80,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -250.4151393083462,
+          283.5773053855361,
+          257.0,
+          133.0,
+          765.6512781830069
+        ],
+        "margins": {
+          "floor_mm": 278.5773053855361,
+          "extension_mm": 206.7848606916538,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47707,
+        "pair_outcomes": {
+          "UNCERTAIN": 2
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -100,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -163.591050474881,
+          283.577305385536,
+          257.0,
+          179.58758021163032,
+          806.9795444677362
+        ],
+        "margins": {
+          "floor_mm": 278.577305385536,
+          "extension_mm": 293.608949525119,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47707,
+        "pair_outcomes": {
+          "UNCERTAIN": 2
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -100,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -163.591050474881,
+          283.577305385536,
+          257.0,
+          179.58758021163032,
+          806.9795444677362
+        ],
+        "margins": {
+          "floor_mm": 278.577305385536,
+          "extension_mm": 293.608949525119,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47707,
+        "pair_outcomes": {
+          "UNCERTAIN": 2
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -120,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          -49.34351952019388,
+          288.09103465619137,
+          257.0,
+          286.8397459621556,
+          793.5511776651531
+        ],
+        "margins": {
+          "floor_mm": 283.09103465619137,
+          "extension_mm": 407.8564804798061,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47703,
+        "pair_outcomes": {
+          "UNCERTAIN": 6
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -120,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          -49.34351952019388,
+          288.09103465619137,
+          257.0,
+          286.8397459621556,
+          795.0947185412472
+        ],
+        "margins": {
+          "floor_mm": 283.09103465619137,
+          "extension_mm": 407.8564804798061,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47703,
+        "pair_outcomes": {
+          "UNCERTAIN": 6
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -140,
+        "float_deg": 0,
+        "bounds_mm": [
+          -257.0,
+          71.89031116147883,
+          296.57407083191146,
+          257.0,
+          393.56782941965207,
+          754.1262260437416
+        ],
+        "margins": {
+          "floor_mm": 291.57407083191146,
+          "extension_mm": 529.0903111614788,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0,
+          "stow_front_mm": 71.89031116147883,
+          "stow_rear_mm": 366.43217058034793,
+          "stow_height_mm": 312.6737739562584
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47699,
+        "pair_outcomes": {
+          "UNCERTAIN": 10
+        },
+        "collision_status": "UNCERTAIN"
+      },
+      {
+        "fold_deg": -140,
+        "float_deg": -8,
+        "bounds_mm": [
+          -257.0,
+          71.89031116147883,
+          296.57407083191146,
+          257.0,
+          393.56782941965207,
+          750.8719867529408
+        ],
+        "margins": {
+          "floor_mm": 291.57407083191146,
+          "extension_mm": 529.0903111614788,
+          "left_width_mm": 93.0,
+          "right_width_mm": 93.0,
+          "stow_front_mm": 71.89031116147883,
+          "stow_rear_mm": 366.43217058034793,
+          "stow_height_mm": 315.9280132470592
+        },
+        "envelope_status": "PASS",
+        "certified_separated_pairs": 47699,
+        "pair_outcomes": {
+          "UNCERTAIN": 10
+        },
+        "collision_status": "UNCERTAIN"
+      }
+    ],
+    "overlapping_pairs": [
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_114",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_mount",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 2592.0,
+        "aabb_gap_mm": -30.22,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_X44",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 31385.54518086846,
+        "aabb_gap_mm": -18.220000099999993,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_motor_screw_1",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 813.7460015369996,
+        "aabb_gap_mm": -5.874750000000006,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_motor_screw_2",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 813.7460015369969,
+        "aabb_gap_mm": -5.8747499999999775,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_12T",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 2717.5290624309655,
+        "aabb_gap_mm": -8.107703560369544,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 339.6813093359999,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 144.88758119199872,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 61200.0,
+        "aabb_gap_mm": -154.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "frame_front",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 6000.0,
+        "aabb_gap_mm": -54.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_114",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_mount",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 2592.0,
+        "aabb_gap_mm": -30.22,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_X44",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 31385.54518086846,
+        "aabb_gap_mm": -18.220000099999993,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_12T",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 2717.5290624309655,
+        "aabb_gap_mm": -8.107703560369544,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 339.6813093359999,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 144.88758119199872,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 61200.0,
+        "aabb_gap_mm": -154.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "frame_front",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 6000.0,
+        "aabb_gap_mm": -54.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_0_body_2",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_0_body_2",
+        "reference": "v1/indexer_belt_L",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 121.05679746868108,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_1_body_2",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_1_body_2",
+        "reference": "v1/indexer_belt_L",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 107.7119546064391,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_5_body_2",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_5_body_2",
+        "reference": "v1/indexer_belt_R",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 107.7119546064391,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_6_body_2",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "star_rear_6_body_2",
+        "reference": "v1/indexer_belt_R",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 121.05679746868108,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 0,
+        "fold_deg": 0,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_114",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_mount",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2592.0,
+        "aabb_gap_mm": -30.22,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_X44",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 31385.54518086846,
+        "aabb_gap_mm": -18.220000099999993,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_motor_screw_1",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 813.7460015369996,
+        "aabb_gap_mm": -5.874750000000006,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_motor_screw_2",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 813.7460015369969,
+        "aabb_gap_mm": -5.8747499999999775,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_12T",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2717.5290624309655,
+        "aabb_gap_mm": -8.107703560369544,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 339.6813093359999,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 144.88758119199872,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 61200.0,
+        "aabb_gap_mm": -154.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "frame_front",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 6000.0,
+        "aabb_gap_mm": -54.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_114",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 4068.0,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_mount",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2592.0,
+        "aabb_gap_mm": -30.22,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_X44",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 31385.54518086846,
+        "aabb_gap_mm": -18.220000099999993,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_12T",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2717.5290624309655,
+        "aabb_gap_mm": -8.107703560369544,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 339.6813093359999,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 144.88758119199872,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 61200.0,
+        "aabb_gap_mm": -154.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "frame_front",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 6000.0,
+        "aabb_gap_mm": -54.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_0_body_2",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_0_body_2",
+        "reference": "v1/indexer_belt_L",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 121.05679746868108,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_1_body_2",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_1_body_2",
+        "reference": "v1/indexer_belt_L",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 107.7119546064391,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_5_body_2",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_5_body_2",
+        "reference": "v1/indexer_belt_R",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 107.7119546064391,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_6_body_2",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 806.8567858134546,
+        "aabb_gap_mm": -10.588671729835347,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "star_rear_6_body_2",
+        "reference": "v1/indexer_belt_R",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 121.05679746868108,
+        "aabb_gap_mm": -1.5886718298353486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 1,
+        "fold_deg": 0,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_114",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 1756.2634446401346,
+        "aabb_gap_mm": -2.6439799212116952,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 3985.499505235122,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_X44",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 1991.0929464338408,
+        "aabb_gap_mm": -7.00103002121169,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 186.5074371010795,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 129.5015914683127,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 25828.429759817966,
+        "aabb_gap_mm": -50.643979921211695,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_114",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 1756.2634446401346,
+        "aabb_gap_mm": -2.6439799212116952,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 3985.499505235122,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_X44",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 1991.0929464338408,
+        "aabb_gap_mm": -7.00103002121169,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 186.5074371010795,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 129.5015914683127,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 25828.429759817966,
+        "aabb_gap_mm": -50.643979921211695,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 2,
+        "fold_deg": -20,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_114",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 1756.2634446401346,
+        "aabb_gap_mm": -2.6439799212116952,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 3985.499505235122,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_X44",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 1991.0929464338408,
+        "aabb_gap_mm": -7.00103002121169,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 186.5074371010795,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_drive_L_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 129.5015914683127,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 25828.429759817966,
+        "aabb_gap_mm": -50.643979921211695,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_114",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 1756.2634446401346,
+        "aabb_gap_mm": -2.6439799212116952,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 3985.499505235122,
+        "aabb_gap_mm": -58.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_X44",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 1991.0929464338408,
+        "aabb_gap_mm": -7.00103002121169,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_spacer",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 186.5074371010795,
+        "aabb_gap_mm": -2.219999999999999,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_drive_R_pinion_retention",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 129.5015914683127,
+        "aabb_gap_mm": -1.0459999999999923,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "bumper",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 25828.429759817966,
+        "aabb_gap_mm": -50.643979921211695,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 3,
+        "fold_deg": -20,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 3747.9487981867633,
+        "aabb_gap_mm": -19.47818190967115,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "EXACT_CLEAR_AT_SAMPLE",
+        "aabb_overlap_mm3": 3747.9487981867633,
+        "aabb_gap_mm": -19.47818190967115,
+        "intended_attachment": false,
+        "exact_overlap_mm3": 0.0
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_0_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_1_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_0_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_1_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 4,
+        "fold_deg": -40,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "main_cheek_-1",
+        "reference": "v1/indexer_plate_L_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 3747.9487981867633,
+        "aabb_gap_mm": -19.47818190967115,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "main_cheek_1",
+        "reference": "v1/indexer_plate_R_247",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 3747.9487981867633,
+        "aabb_gap_mm": -19.47818190967115,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_0_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_1_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_0_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_1_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 5,
+        "fold_deg": -40,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 6,
+        "fold_deg": -60,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 6,
+        "fold_deg": -60,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 6,
+        "fold_deg": -60,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 6,
+        "fold_deg": -60,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 6,
+        "fold_deg": -60,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 6,
+        "fold_deg": -60,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 7,
+        "fold_deg": -60,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 7,
+        "fold_deg": -60,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 7,
+        "fold_deg": -60,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 7,
+        "fold_deg": -60,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 7,
+        "fold_deg": -60,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 7,
+        "fold_deg": -60,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 8,
+        "fold_deg": -80,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 8,
+        "fold_deg": -80,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 9,
+        "fold_deg": -80,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 9,
+        "fold_deg": -80,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 10,
+        "fold_deg": -100,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 10,
+        "fold_deg": -100,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 11,
+        "fold_deg": -100,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 11,
+        "fold_deg": -100,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 12,
+        "fold_deg": -120,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654311406,
+        "aabb_gap_mm": -0.5910346561912547,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 12,
+        "fold_deg": -120,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 12,
+        "fold_deg": -120,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654311406,
+        "aabb_gap_mm": -0.5910346561912547,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 12,
+        "fold_deg": -120,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 12,
+        "fold_deg": -120,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 12,
+        "fold_deg": -120,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 13,
+        "fold_deg": -120,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654311406,
+        "aabb_gap_mm": -0.5910346561912547,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 13,
+        "fold_deg": -120,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 13,
+        "fold_deg": -120,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654311406,
+        "aabb_gap_mm": -0.5910346561912547,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 13,
+        "fold_deg": -120,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 19.504143654315158,
+        "aabb_gap_mm": -0.5910346561913684,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 13,
+        "fold_deg": -120,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 13,
+        "fold_deg": -120,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_0_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_1_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.61668203355693,
+        "aabb_gap_mm": -3.1403111614788344,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.5139833601712,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_0_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_1_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.61668203355693,
+        "aabb_gap_mm": -3.1403111614788344,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.5139833601712,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 14,
+        "fold_deg": -140,
+        "float_deg": 0,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_0_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_0_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_1_screw",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.61668203355693,
+        "aabb_gap_mm": -3.1403111614788344,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_-1_bolt_1_nut",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.5139833601712,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_0_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.6166820335579,
+        "aabb_gap_mm": -3.1403111614788486,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_0_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.51398336017233,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_1_screw",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 82.61668203355693,
+        "aabb_gap_mm": -3.1403111614788344,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "bearing_pivot_1_bolt_1_nut",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 119.5139833601712,
+        "aabb_gap_mm": -3.0,
+        "intended_attachment": false
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "pivot_stub_-1",
+        "reference": "pivot_bracket_left",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      },
+      {
+        "pose_index": 15,
+        "fold_deg": -140,
+        "float_deg": -8,
+        "part": "pivot_stub_1",
+        "reference": "pivot_bracket_right",
+        "status": "UNCERTAIN",
+        "aabb_overlap_mm3": 2400.0,
+        "aabb_gap_mm": -6.0,
+        "intended_attachment": true
+      }
+    ]
+  },
+  "candidate_belts": [
+    {
+      "rows": [
+        "front",
+        "middle"
+      ],
+      "centers_mm": 155.0,
+      "candidate_sku": "WCP-0621",
+      "candidate_belt_teeth": 80,
+      "candidate_length_mm": 400,
+      "pulley_candidate_sku": "WCP-0563",
+      "teeth_each": 18,
+      "pitch_mm": 5,
+      "belt_width_mm": 9,
+      "profile": "HTD",
+      "pulley_bore": "1/2 inch hex",
+      "pitch_radius_mm": 14.32394487827058,
+      "equal_pulley_pitch_length_mm": 400.0,
+      "catalog_center_distance_mm": 155.0,
+      "catalog_length_matches_geometry": true,
+      "plane_x_mm": -253,
+      "axial_envelope_mm": [
+        -259,
+        -247
+      ],
+      "axial_envelope_basis": "Provisional 12 mm pulley allowance, not downloaded CAD dimensions",
+      "middle_pulleys_axially_separate": true,
+      "catalog_seen": "2026-09-18",
+      "catalog_evidence": "Official catalog read by parent; supplied facts, no network in this build",
+      "belt_source_url": "https://wcproducts.com/products/htd-timing-belts-9mm-width",
+      "pulley_source_url": "https://wcproducts.com/products/htd-timing-pulleys",
+      "superseded_unlisted_lengths_mm": [
+        440,
+        380
+      ],
+      "status": "CATALOG_CANDIDATE_ENVELOPE_ONLY",
+      "selected_product": null,
+      "authentic_belt_cad": false,
+      "authentic_pulley_cad": false,
+      "torque_qualified": false,
+      "end_washer_axial_conflict": "UNRESOLVED: washer/head reaches X=-257; separated loop planes do not establish washer clearance, shaft engagement or torque transfer"
+    },
+    {
+      "rows": [
+        "middle",
+        "rear"
+      ],
+      "centers_mm": 130.0,
+      "candidate_sku": "WCP-0619",
+      "candidate_belt_teeth": 70,
+      "candidate_length_mm": 350,
+      "pulley_candidate_sku": "WCP-0563",
+      "teeth_each": 18,
+      "pitch_mm": 5,
+      "belt_width_mm": 9,
+      "profile": "HTD",
+      "pulley_bore": "1/2 inch hex",
+      "pitch_radius_mm": 14.32394487827058,
+      "equal_pulley_pitch_length_mm": 350.0,
+      "catalog_center_distance_mm": 130.0,
+      "catalog_length_matches_geometry": true,
+      "plane_x_mm": -267,
+      "axial_envelope_mm": [
+        -273,
+        -261
+      ],
+      "axial_envelope_basis": "Provisional 12 mm pulley allowance, not downloaded CAD dimensions",
+      "middle_pulleys_axially_separate": true,
+      "catalog_seen": "2026-09-18",
+      "catalog_evidence": "Official catalog read by parent; supplied facts, no network in this build",
+      "belt_source_url": "https://wcproducts.com/products/htd-timing-belts-9mm-width",
+      "pulley_source_url": "https://wcproducts.com/products/htd-timing-pulleys",
+      "superseded_unlisted_lengths_mm": [
+        440,
+        380
+      ],
+      "status": "CATALOG_CANDIDATE_ENVELOPE_ONLY",
+      "selected_product": null,
+      "authentic_belt_cad": false,
+      "authentic_pulley_cad": false,
+      "torque_qualified": false,
+      "end_washer_axial_conflict": "UNRESOLVED: washer/head reaches X=-257; separated loop planes do not establish washer clearance, shaft engagement or torque transfer"
+    }
+  ],
+  "retention_stacks": [
+    {
+      "id": "front_between_0",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -184.15,
+        -158.75
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "front_between_1",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -146.05,
+        -120.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "front_between_2",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -107.95000000000002,
+        -82.55
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.40000000000002
+    },
+    {
+      "id": "front_between_3",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -69.85000000000001,
+        -44.45
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "front_between_4",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -31.75,
+        -6.35
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.4
+    },
+    {
+      "id": "front_between_5",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        6.35,
+        31.75
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.4
+    },
+    {
+      "id": "front_between_6",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        44.45,
+        69.85000000000001
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "front_between_7",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        82.55,
+        107.95000000000002
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.40000000000002
+    },
+    {
+      "id": "front_between_8",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        120.65,
+        146.05
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "front_between_9",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        158.75,
+        184.15
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "front_end_-1",
+      "definition": "spacer_36p8000",
+      "x_interval_mm": [
+        -233.65,
+        -196.85
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 36.80000000000001
+    },
+    {
+      "id": "front_outer_-1",
+      "definition": "spacer_8p4125",
+      "x_interval_mm": [
+        -250.0,
+        -241.5875
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 8.412499999999994
+    },
+    {
+      "id": "front_end_1",
+      "definition": "spacer_36p8000",
+      "x_interval_mm": [
+        196.85,
+        233.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 36.80000000000001
+    },
+    {
+      "id": "front_outer_1",
+      "definition": "spacer_8p4125",
+      "x_interval_mm": [
+        241.5875,
+        250.0
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 8.412499999999994
+    },
+    {
+      "id": "middle_between_0",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -146.05,
+        -120.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "middle_between_1",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -107.95000000000002,
+        -82.55
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.40000000000002
+    },
+    {
+      "id": "middle_between_2",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -69.85000000000001,
+        -44.45
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "middle_between_3",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -31.75,
+        -6.35
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.4
+    },
+    {
+      "id": "middle_between_4",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        6.35,
+        31.75
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.4
+    },
+    {
+      "id": "middle_between_5",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        44.45,
+        69.85000000000001
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "middle_between_6",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        82.55,
+        107.95000000000002
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.40000000000002
+    },
+    {
+      "id": "middle_between_7",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        120.65,
+        146.05
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "middle_end_-1",
+      "definition": "spacer_62p9000",
+      "x_interval_mm": [
+        -221.65,
+        -158.75
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 62.900000000000006
+    },
+    {
+      "id": "middle_coaxial_-1",
+      "definition": "spacer_4p0625",
+      "x_interval_mm": [
+        -233.65,
+        -229.5875
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 4.0625
+    },
+    {
+      "id": "middle_outer_-1",
+      "definition": "spacer_8p4125",
+      "x_interval_mm": [
+        -250.0,
+        -241.5875
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 8.412499999999994
+    },
+    {
+      "id": "middle_end_1",
+      "definition": "spacer_62p9000",
+      "x_interval_mm": [
+        158.75,
+        221.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 62.900000000000006
+    },
+    {
+      "id": "middle_coaxial_1",
+      "definition": "spacer_4p0625",
+      "x_interval_mm": [
+        229.5875,
+        233.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 4.0625
+    },
+    {
+      "id": "middle_outer_1",
+      "definition": "spacer_8p4125",
+      "x_interval_mm": [
+        241.5875,
+        250.0
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 8.412499999999994
+    },
+    {
+      "id": "rear_between_0",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -107.95000000000002,
+        -82.55
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.40000000000002
+    },
+    {
+      "id": "rear_between_1",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -69.85000000000001,
+        -44.45
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "rear_between_2",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        -31.75,
+        -6.35
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.4
+    },
+    {
+      "id": "rear_between_3",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        6.35,
+        31.75
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.4
+    },
+    {
+      "id": "rear_between_4",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        44.45,
+        69.85000000000001
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.400000000000006
+    },
+    {
+      "id": "rear_between_5",
+      "definition": "spacer_25p4000",
+      "x_interval_mm": [
+        82.55,
+        107.95000000000002
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 25.40000000000002
+    },
+    {
+      "id": "rear_end_-1",
+      "definition": "spacer_101p0000",
+      "x_interval_mm": [
+        -221.65,
+        -120.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 101.0
+    },
+    {
+      "id": "rear_outer_-1",
+      "definition": "spacer_20p4125",
+      "x_interval_mm": [
+        -250.0,
+        -229.5875
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 20.412499999999994
+    },
+    {
+      "id": "rear_end_1",
+      "definition": "spacer_101p0000",
+      "x_interval_mm": [
+        120.65,
+        221.65
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 101.0
+    },
+    {
+      "id": "rear_outer_1",
+      "definition": "spacer_20p4125",
+      "x_interval_mm": [
+        229.5875,
+        250.0
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 20.412499999999994
+    },
+    {
+      "id": "kick_outer_-1",
+      "definition": "spacer_20p4125",
+      "x_interval_mm": [
+        -250.0,
+        -229.5875
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 20.412499999999994
+    },
+    {
+      "id": "kick_outer_1",
+      "definition": "spacer_20p4125",
+      "x_interval_mm": [
+        229.5875,
+        250.0
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 20.412499999999994
+    },
+    {
+      "id": "pivot_outer_-1",
+      "definition": "spacer_20p4125",
+      "x_interval_mm": [
+        -250,
+        -229.5875
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 20.412499999999994
+    },
+    {
+      "id": "pivot_outer_1",
+      "definition": "spacer_20p4125",
+      "x_interval_mm": [
+        229.5875,
+        250
+      ],
+      "purpose": "Axial stack; ID15 clears 14.6647 mm hex corners",
+      "length_mm": 20.412499999999994
+    }
+  ],
+  "joints": [
+    {
+      "id": "bearing_kick_-1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -178.0,
+        34.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_kick_-1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -102.0,
+        34.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_kick_1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -178.0,
+        34.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_kick_1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -102.0,
+        34.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_middle_-1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -158.46940340752542,
+        292.64516129032256
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_middle_-1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -113.5305965924746,
+        231.3548387096774
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_middle_1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -158.46940340752542,
+        292.64516129032256
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_middle_1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -113.5305965924746,
+        231.3548387096774
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_rear_-1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -47.0,
+        289.7668867538296
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_rear_-1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        29.0,
+        289.7668867538296
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_rear_1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -47.0,
+        289.7668867538296
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_rear_1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        29.0,
+        289.7668867538296
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_pivot_-1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        72.0,
+        330.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_pivot_-1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        148.0,
+        330.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_pivot_1_bolt_0",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        72.0,
+        330.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_pivot_1_bolt_1",
+      "type": "through_fastener",
+      "plate": "main_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        148.0,
+        330.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "fold"
+    },
+    {
+      "id": "bearing_arm_front_-1_bolt_0",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -237.0,
+        -230.3548387096774,
+        192.81788950840863
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_front_-1_bolt_1",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -237.0,
+        -291.64516129032256,
+        147.8790826933578
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_front_1_bolt_0",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        237.0,
+        -230.3548387096774,
+        192.81788950840863
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_front_1_bolt_1",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        237.0,
+        -291.64516129032256,
+        147.8790826933578
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_middle_-1_bolt_0",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -237.0,
+        -105.35483870967742,
+        284.4694034075254
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_middle_-1_bolt_1",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -237.0,
+        -166.6451612903226,
+        239.53059659247458
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_middle_1_bolt_0",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        237.0,
+        -105.35483870967742,
+        284.4694034075254
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "bearing_arm_middle_1_bolt_1",
+      "type": "through_fastener",
+      "plate": "floating_cheek",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        237.0,
+        -166.6451612903226,
+        239.53059659247458
+      ],
+      "hole_diameter_mm": 5.5,
+      "bolt_diameter_mm": 5,
+      "grip_mm": 10.6375,
+      "nut_height_mm": 5,
+      "length_mm": 16,
+      "thread_protrusion_mm": 0.3625,
+      "nut_tool_radius_mm": 7,
+      "tool_access": "whole cheek removable; approach envelope checked separately",
+      "motion": "float"
+    },
+    {
+      "id": "tube_joint_0_-1_axial",
+      "type": "tapped_joint",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -330.0,
+        211.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "length_mm": 20,
+      "thread_engagement_mm": 13,
+      "drill_mm": 4.2,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_0_-1_top",
+      "type": "tube_wall_pin",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_world_center": [
+        -214.0,
+        -330.0,
+        220.0
+      ],
+      "length_mm": 8,
+      "hole_diameter_mm": 5.5,
+      "thread_engagement_mm": 4.9,
+      "tap_bottom_clearance_mm": 0.1,
+      "strength_qualified": false,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_0_1_axial",
+      "type": "tapped_joint",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -330.0,
+        211.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "length_mm": 20,
+      "thread_engagement_mm": 13,
+      "drill_mm": 4.2,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_0_1_top",
+      "type": "tube_wall_pin",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_world_center": [
+        214.0,
+        -330.0,
+        220.0
+      ],
+      "length_mm": 8,
+      "hole_diameter_mm": 5.5,
+      "thread_engagement_mm": 4.9,
+      "tap_bottom_clearance_mm": 0.1,
+      "strength_qualified": false,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_1_-1_axial",
+      "type": "tapped_joint",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        -225.0,
+        -215.0,
+        320.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "length_mm": 20,
+      "thread_engagement_mm": 13,
+      "drill_mm": 4.2,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_1_-1_top",
+      "type": "tube_wall_pin",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_world_center": [
+        -214.0,
+        -215.0,
+        329.0
+      ],
+      "length_mm": 8,
+      "hole_diameter_mm": 5.5,
+      "thread_engagement_mm": 4.9,
+      "tap_bottom_clearance_mm": 0.1,
+      "strength_qualified": false,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_1_1_axial",
+      "type": "tapped_joint",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "hole_world_center": [
+        225.0,
+        -215.0,
+        320.0
+      ],
+      "hole_diameter_mm": 5.5,
+      "length_mm": 20,
+      "thread_engagement_mm": 13,
+      "drill_mm": 4.2,
+      "motion": "fold"
+    },
+    {
+      "id": "tube_joint_1_1_top",
+      "type": "tube_wall_pin",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_world_center": [
+        214.0,
+        -215.0,
+        329.0
+      ],
+      "length_mm": 8,
+      "hole_diameter_mm": 5.5,
+      "thread_engagement_mm": 4.9,
+      "tap_bottom_clearance_mm": 0.1,
+      "strength_qualified": false,
+      "motion": "fold"
+    },
+    {
+      "id": "float_stops",
+      "type": "shoulder_pin_in_arc_slot",
+      "radius_mm": 85,
+      "slot_width_mm": 6.4,
+      "pin_od_mm": 6,
+      "nominal_angles": [
+        -8,
+        0
+      ],
+      "end_clearance_mm": 0.2,
+      "mechanical_limit_qualified": false,
+      "note": "One-degree chordal slot construction; load, tolerance and stop impact unqualified"
+    }
+  ],
+  "sources": {
+    "star": {
+      "sku": "am-5123_green",
+      "url": "https://s3.amazonaws.com/docusync-files/d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.STEP",
+      "pathrepoRelative": "designs/coral-intake-v1/cots/originals/am-5123.step",
+      "sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869",
+      "bytes": 4544081,
+      "receiptAttempt": 8,
+      "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 3,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_AND_DATUMS_VERIFIED_CAD_DRAWING_BORE_DISCREPANCY",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.am-5123.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -67.88961229202417,
+        -66.91563658776884,
+        -3.090161460673357,
+        59.28773116764653,
+        60.261706871901865,
+        9.609838539326649
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 2215.8709553788576,
+          "bounds_mm": [
+            -14.300940562188819,
+            -13.32696485793349,
+            -3.090161460673354,
+            5.699059437811181,
+            6.67303514206651,
+            9.609838539326645
+          ]
+        },
+        {
+          "index": 1,
+          "valid": true,
+          "volume_mm3": 13.80362796870875,
+          "bounds_mm": [
+            -7.060521377688949,
+            9.710337681375247,
+            8.277459516459245,
+            -1.5192067258751525,
+            16.36330975025157,
+            9.039459516459244
+          ]
+        },
+        {
+          "index": 2,
+          "valid": true,
+          "volume_mm3": 31747.090645673656,
+          "bounds_mm": [
+            -67.88961229202417,
+            -66.91563658776884,
+            -3.090161460673357,
+            59.28773116764653,
+            60.261706871901865,
+            9.609838539326649
+          ]
+        }
+      ],
+      "discrepancies": [
+        {
+          "field": "hex bore across flats",
+          "cadMm": 12.700000000000001,
+          "drawingRangeMm": [
+            12.827,
+            13.081
+          ],
+          "resolution": "Preserve CAD, use drawing for hardware fit; no fit approval"
+        }
+      ],
+      "catalog": {
+        "url": "https://andymark.com/products/compliant-stars",
+        "pathrepoRelative": "designs/coral-intake-v1/cots/originals/compliant-stars.html",
+        "sha256": "a5cf0d680dd5c550930eb33bdec80641fd850cad0d67fdcac01c396fd7b8ed99",
+        "bytes": 1015008,
+        "receiptAttempt": 7,
+        "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json"
+      },
+      "drawing": {
+        "url": "https://s3.amazonaws.com/docusync-files/8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.pdf",
+        "pathrepoRelative": "designs/coral-intake-v1/cots/originals/am-5123.pdf",
+        "sha256": "8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5",
+        "bytes": 84283,
+        "receiptAttempt": 9,
+        "receiptLedger": "designs/coral-intake-v1/cots/request-ledger.json"
+      },
+      "variant": {
+        "sku": "am-5123_green",
+        "title": "1/2 in Hex / 35A / 5 in.",
+        "manufacturerVariantId": 44493450477740,
+        "durometerShoreA": 35,
+        "evidence": "Explicit manufacturer variant SKU/title; never CAD appearance",
+        "stepScope": "Manufacturer publishes one family geometry, not a durometer-specific STEP"
+      },
+      "axis": {
+        "originMm": [
+          -4.300940562188819,
+          -3.3269648579334894,
+          3.259838539326646
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "faceIndices": [
+          0
+        ]
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            4.300940562188819,
+            3.3269648579334894,
+            -3.259838539326646
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              4.300940562188819
+            ],
+            [
+              0,
+              1,
+              0,
+              3.3269648579334894
+            ],
+            [
+              0,
+              0,
+              1,
+              -3.259838539326646
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "translationMm": [
+            -4.300940562188819,
+            -3.3269648579334894,
+            3.259838539326646
+          ]
+        },
+        "originInSourceMm": [
+          -4.300940562188819,
+          -3.3269648579334894,
+          3.259838539326646
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "datums": {
+        "origin": "Bore axial midplane",
+        "endPlanes": [
+          {
+            "sourceZmm": -3.090161460673354,
+            "faceIndices": [
+              2,
+              1212
+            ]
+          },
+          {
+            "sourceZmm": 9.609838539326645,
+            "faceIndices": [
+              1,
+              256
+            ]
+          }
+        ],
+        "overallWidthMm": 12.7,
+        "hex": {
+          "cadAcrossFlatsMm": 12.700000000000001,
+          "nominalShaftAcrossFlatsMm": 12.7,
+          "faceIndices": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "axialEngagementEnvelopeMm": 12.7,
+          "shaftFitApproved": false,
+          "drawingAcrossFlatsLimitsMm": [
+            12.827,
+            13.081
+          ]
+        },
+        "clocking": "Source and attachment +X point to a hex corner",
+        "nominalDiameterMmFromDrawing": 127,
+        "profile": "Unmodified original vendor profile, including all solids; no custom tyre approximation",
+        "spokeBodyWidthMm": 10.16,
+        "spokeBodyPlaneIndices": [
+          172,
+          174
+        ],
+        "spokeCountFromDrawing": 8,
+        "spokeSpacingDegreesFromDrawing": 45,
+        "sourceXYEnvelopeMm": [
+          127.1773434596707,
+          127.17734345967071
+        ],
+        "rotationalSweptEnvelopeVerified": false,
+        "includedSolids": "Core spacer, small separate marking solid, star body; retain all three",
+        "catalogWidthInterpretation": "0.40 inch is spoke thickness; drawing hub width is 0.50 inch",
+        "profileDifference": "CAD XY envelope is 127.17734346 mm; drawing diameter is nominal 127 mm. No scaling applied."
+      }
+    },
+    "bearing": {
+      "sku": "WCP-0783",
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+      "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "bytes": 95572,
+      "receiptAttempt": 22,
+      "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+      "sourceunits": [
+        "INCH"
+      ],
+      "importUnits": "mm",
+      "importsolids": 1,
+      "sourceRootCount": 1,
+      "status": "ORIGINAL_VERIFIED_GEOMETRY_DATUMS_VERIFIED_FIT_NOT_APPROVED",
+      "datumsverified": true,
+      "nativeOnshapeImportVerified": false,
+      "geometryEvidence": "designs/coral-intake-v1/cots/geometry-report.json",
+      "faceIndexReference": "assets.wcp-0783.root_geometry[0].analytic_faces; zero-based, hash-specific",
+      "boundsMm": [
+        -15.557500099999997,
+        0.0,
+        -15.557500099999997,
+        15.557500099999997,
+        7.937500000000001,
+        15.557500099999997
+      ],
+      "solidEnvelopes": [
+        {
+          "index": 0,
+          "valid": true,
+          "volume_mm3": 3985.8595418071227,
+          "bounds_mm": [
+            -15.557500099999997,
+            0.0,
+            -15.557500099999997,
+            15.557500099999997,
+            7.937500000000001,
+            15.557500099999997
+          ]
+        }
+      ],
+      "discrepancies": [],
+      "catalog": {
+        "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=1959540314&single=true&output=csv",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-bearing-cad.csv",
+        "sha256": "4bf3ec55b878e2aca8896308050fcbb8bd71a80b54e11012133115403e220cda",
+        "bytes": 7425,
+        "receiptAttempt": 18,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json",
+        "csvLine": 10,
+        "description": "0.500\" Hex ID x 1.125\" OD x 0.313\" WD (Flanged Bearing)",
+        "row": {
+          "P/N": "WCP-0783",
+          "Description": "0.500\" Hex ID x 1.125\" OD x 0.313\" WD (Flanged Bearing)",
+          "Material": "-",
+          "CAD": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+          "Onshape": "https://cad.onshape.com/documents/c1f95feab8b05f8a109a1d0d/w/26d8a345656ac5ccdc822964/e/16929312ff4a72805c6398f8",
+          "Drawings": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+          "Weight": "0.052 lbs",
+          "LIVE": "TRUE",
+          "DATA": "",
+          "LINK NAMES": ""
+        }
+      },
+      "drawing": {
+        "url": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+        "pathrepoRelative": "trials/subsystem-ab/cots/cache/wcp-0783.pdf",
+        "sha256": "7d5fe4274dd72b261391705406227bfe7290180bfc3513973fcb8feb65cf7f39",
+        "bytes": 49832,
+        "receiptAttempt": 31,
+        "receiptLedger": "trials/subsystem-ab/cots/public-fetch-log.json"
+      },
+      "attachment": {
+        "convention": "attachmentPointMm = rotation * sourcePointMm + translationMm",
+        "units": "mm after STEP unit-aware import; never scale vendor geometry",
+        "sourceToAttachment": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "translationMm": [
+            -0.0,
+            -0.0,
+            -6.35
+          ],
+          "matrix4x4": [
+            [
+              1,
+              0,
+              0,
+              -0.0
+            ],
+            [
+              0,
+              0,
+              -1,
+              -0.0
+            ],
+            [
+              0,
+              1,
+              0,
+              -6.35
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "attachmentToSource": {
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "translationMm": [
+            -0.0,
+            6.35,
+            -0.0
+          ]
+        },
+        "originInSourceMm": [
+          -0.0,
+          6.35,
+          -0.0
+        ],
+        "shaftAxisInAttachment": [
+          0,
+          0,
+          1
+        ],
+        "placement": "worldPoint = worldRotation * (rotation * sourcePointMm + translationMm) + worldOriginMm"
+      },
+      "axis": {
+        "originMm": [
+          0,
+          0,
+          0
+        ],
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "evidence": "Hash-matched cached geometry and face-index derivation"
+      },
+      "datums": {
+        "status": "SOURCE_GEOMETRY_DERIVED_NOT_NATIVE_MATE_CONNECTORS",
+        "units": "mm",
+        "source_sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+        "source_coordinate_system": "Unchanged STEP root coordinates",
+        "face_index_reference": "root_geometry[0].analytic_faces; zero-based, hash-specific local indices, not native IDs",
+        "source_to_attachment": {
+          "convention": "attachment_point = rotation * source_point + translation_mm",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "translation_mm": [
+            0,
+            0,
+            -6.35
+          ]
+        },
+        "shaft_axis": {
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ]
+        },
+        "assembly_fit_validated": false,
+        "operating_clearance_validated": false,
+        "mounting_plane": {
+          "origin": [
+            0,
+            6.35,
+            0
+          ],
+          "normal": [
+            0,
+            -1,
+            0
+          ],
+          "face_indices": [
+            12
+          ]
+        },
+        "rotation_description": "+90 degrees about source X maps source +Y to attachment +Z; origin is flange underside.",
+        "bore_across_flats_mm": 12.72,
+        "bore_face_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "hex_corner_direction": [
+          1,
+          0,
+          0
+        ],
+        "body_od_mm": 28.5496,
+        "body_od_face_indices": [
+          5,
+          24
+        ],
+        "flange_od_mm": 31.115,
+        "flange_face_indices": [
+          2,
+          10
+        ],
+        "overall_width_mm": 7.9375,
+        "flange_thickness_mm": 1.5875,
+        "journal_depth_to_seat_mm": 6.35,
+        "caution": "CAD bore 12.72 mm and journal OD 28.5496 mm differ from nominal 0.500-inch hex / 1.125-inch OD. Preserve geometry; bearing fit class and press-fit allowance are not established."
+      }
+    },
+    "star_body_mapping": [
+      {
+        "source_body_index": 0,
+        "definition": "am5123_body_0",
+        "role": "hard_hub",
+        "volume_mm3": 2215.8709553788576,
+        "bounds_mm": [
+          -10.0,
+          -10.0,
+          -6.349999999999999,
+          10.0,
+          10.0,
+          6.3500000000000005
+        ],
+        "v1_mapping": "vendor_intake_star_solid_0"
+      },
+      {
+        "source_body_index": 1,
+        "definition": "am5123_body_1",
+        "role": "hard_marking_unqualified",
+        "volume_mm3": 13.80362796870875,
+        "bounds_mm": [
+          -2.7595808155001302,
+          13.037302539308737,
+          5.0176209771326,
+          2.7817338363136663,
+          19.69027460818506,
+          5.779620977132598
+        ],
+        "v1_mapping": "vendor_intake_star_solid_1"
+      },
+      {
+        "source_body_index": 2,
+        "definition": "am5123_body_2",
+        "role": "outer_elastomer",
+        "volume_mm3": 31747.090645673663,
+        "bounds_mm": [
+          -63.58867172983535,
+          -63.588671729835355,
+          -6.350000000000003,
+          63.58867172983535,
+          63.588671729835355,
+          6.350000000000002
+        ],
+        "v1_mapping": "vendor_intake_star_solid_2"
+      }
+    ],
+    "reference_x44": {
+      "sku": "WCP-0941",
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "valid": true,
+      "source_solids": 2,
+      "new_motor_instances": 0,
+      "scope": "Authentic loader check only; existing indexer X44 placements remain reference-only"
+    }
+  },
+  "exports": {
+    "status": "PASS",
+    "assembly_step": "output/assembly.step",
+    "assembly_sha256": "f197f58808e3abea2a9d3f86bc97c7a4c04d2d7671d3d24b65a56467033a6637",
+    "custom_roundtrips": [
+      {
+        "definition": "main_cheek",
+        "status": "PASS",
+        "volume_difference_mm3": 5.375477485358715e-08,
+        "sha256": "92b3573c9f621a5dd76de7421a117558ac8def9b3c5504118c451405ec8f5f2b"
+      },
+      {
+        "definition": "floating_cheek",
+        "status": "PASS",
+        "volume_difference_mm3": 2.941669663414359e-08,
+        "sha256": "390e410cf4dccc0f77547895630c0c13765bc00b7b0bafe2df38a23a47969e4e"
+      },
+      {
+        "definition": "crossmember",
+        "status": "PASS",
+        "volume_difference_mm3": 2.9103830456733704e-11,
+        "sha256": "d9b78460d25e884b8f97537d22674e3a402cb9f0e07ca0f01762572d02860c5f"
+      },
+      {
+        "definition": "bearing_keeper",
+        "status": "PASS",
+        "volume_difference_mm3": -6.093614501878619e-11,
+        "sha256": "831724713b85f91c3e4ddff5efbf894fd9e6c9c976f52da96834ed4fd52baa6b"
+      },
+      {
+        "definition": "tube_end_plug",
+        "status": "PASS",
+        "volume_difference_mm3": -1.0459189070388675e-11,
+        "sha256": "85675457419564bd2dbb9a8bb96e3a834e5a5c56090591f7f9c6be2fc34e157b"
+      },
+      {
+        "definition": "roller_hex_shaft",
+        "status": "PASS",
+        "volume_difference_mm3": -5.486072041094303e-09,
+        "sha256": "1cc8e43387b24cc69773e3df6c8cf87c481ed7f5e21afc9592a4d1e75ee8ce21"
+      },
+      {
+        "definition": "spacer_25p4000",
+        "status": "PASS",
+        "volume_difference_mm3": 6.139089236967266e-11,
+        "sha256": "2432bbd21d8ebf882cd7098a86af6a1bb3e0aadd982999e6ed70a4b8fce05a5e"
+      },
+      {
+        "definition": "spacer_36p8000",
+        "status": "PASS",
+        "volume_difference_mm3": 8.458300726488233e-11,
+        "sha256": "001be98d337b0a93e489052bcb5d5037730d08a223b8c79b9b857601b2f18f6b"
+      },
+      {
+        "definition": "spacer_8p4125",
+        "status": "PASS",
+        "volume_difference_mm3": 2.034994395216927e-11,
+        "sha256": "08c5c8b72b2d1b9590402d2269e59fa180b009f75bf9aca186a29ba576d82448"
+      },
+      {
+        "definition": "spacer_62p9000",
+        "status": "PASS",
+        "volume_difference_mm3": 1.4642864698544145e-10,
+        "sha256": "62f70c37acf085fb4cd76ab60cdc497e643bcbf00bf36cb4d0ce2cf92544cb67"
+      },
+      {
+        "definition": "spacer_4p0625",
+        "status": "PASS",
+        "volume_difference_mm3": 9.606537787476555e-12,
+        "sha256": "72eb01792f88c6b9042e3b9ab49b12015932e336bda3beaefdc838cf1b39b994"
+      },
+      {
+        "definition": "spacer_101p0000",
+        "status": "PASS",
+        "volume_difference_mm3": 2.3646862246096134e-10,
+        "sha256": "6c069b64111d7609a8aba010a391e83043a82aae50eb68042ef1b1050d04100d"
+      },
+      {
+        "definition": "spacer_20p4125",
+        "status": "PASS",
+        "volume_difference_mm3": 5.002220859751105e-11,
+        "sha256": "c94a2696eac0e566274a9d37d145904af9bb5f342df9d2a5ce9b6a59d2366fa6"
+      },
+      {
+        "definition": "kick_core",
+        "status": "PASS",
+        "volume_difference_mm3": 1.280568540096283e-09,
+        "sha256": "bf5a95fa3cf9ef08fd9d9df027cff1034c0752b98a7b0b2f72058ae0aca03722"
+      },
+      {
+        "definition": "kick_rubber",
+        "status": "PASS",
+        "volume_difference_mm3": 1.4668330550193787e-08,
+        "sha256": "ea56f5039b785abe42eec083dcd8fc9c469b69fb1404d3c2a526d78ed3bf298c"
+      },
+      {
+        "definition": "kick_end_hub",
+        "status": "PASS",
+        "volume_difference_mm3": 6.039044819772243e-10,
+        "sha256": "8d3832c87ac84d0bdeff1207203a00583a13c20758b7a24691972bf0fd77995e"
+      },
+      {
+        "definition": "pivot_stub",
+        "status": "PASS",
+        "volume_difference_mm3": -2.0099832909181714e-10,
+        "sha256": "f280fbbe4d8500f76e36affc413428f694803acf207bc5c32f5a3604a3914cd9"
+      }
+    ],
+    "vendor_roundtrip_fidelity": "NOT_CLAIMED; original source STEP files remain authoritative; no native Onshape validation",
+    "scope": "New pickup structure only; no reference indexer, motors, candidate belts or chassis brackets exported as new parts"
+  },
+  "v1_frozen": {
+    "file_count": 305,
+    "baseline": "output/frozen-v1.json",
+    "unchanged": true
+  },
+  "completion_boundary": [
+    "Direct-seat main/floating cheeks, authentic rollers/bearings, axial stacks, bolted crossmembers and split pivot stubs modeled",
+    "No motor mounts, torque transmission, selected belts, verified rubber, chassis attachment, actuation or loaded deployment hold",
+    "Not a complete indexer, pickup subsystem, manufacturing release, reliability result or all-angle capture demonstration",
+    "Horizontal floor approach only; upright coral, pitch and yaw capture dynamics not checked",
+    "Reference overlaps and nut-access blockers remain explicit; service sequence and strength unqualified",
+    "Full-array star rotation and continuous fold/self-collision not certified"
+  ],
+  "commands": {
+    "build": "& 'trials/manufacturing-package/.venv/Scripts/python.exe' -I -B designs/coral-intake-v2/pickup.py --build",
+    "test": "& 'trials/manufacturing-package/.venv/Scripts/python.exe' -I -B designs/coral-intake-v2/test_pickup.py",
+    "acceptance": "& 'trials/manufacturing-package/.venv/Scripts/python.exe' -I -B designs/coral-intake-v2/test_pickup.py --acceptance"
+  },
+  "acceptance_gates": {
+    "closed_custom_and_bearing_fits": true,
+    "unpowered_mouth_clearance": true,
+    "fastener_holes_coaxial": true,
+    "scoped_self_structure": true,
+    "machined_definition_target": true,
+    "fewer_than_330_instances": true,
+    "all_sampled_envelopes": true,
+    "fixed_reference_clearance": false,
+    "assembled_nut_tool_access": true,
+    "exports": true,
+    "v1_unchanged": true
+  },
+  "status": "BLOCKED_LOCAL_STRUCTURE",
+  "catalog_change_effect": {
+    "front_center_z_change_mm": 0.0,
+    "previous_front_center_yz": [
+      -261.0,
+      170.3484861008832
+    ],
+    "new_front_center_yz": [
+      -261.0,
+      170.3484861008832
+    ],
+    "rear_center_unchanged": true,
+    "previous_contact": {
+      "status": "NO_WITNESS",
+      "samples": [
+        {
+          "center_y_mm": -335,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 16.908731560393015
+        },
+        {
+          "center_y_mm": -330,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 15.06317933409624
+        },
+        {
+          "center_y_mm": -325,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 13.518058161960475
+        },
+        {
+          "center_y_mm": -320,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 12.293039893811859
+        },
+        {
+          "center_y_mm": -315,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 11.404952970722753
+        },
+        {
+          "center_y_mm": -310,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 10.866737953300053
+        },
+        {
+          "center_y_mm": -305,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 8.824726932462433
+        },
+        {
+          "center_y_mm": -300,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 5.669101489682973
+        },
+        {
+          "center_y_mm": -295,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 2.759481297785179
+        },
+        {
+          "center_y_mm": -290,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 0.13249619352652076
+        }
+      ],
+      "minimum_sample_distance_mm": 0.13249619352652076,
+      "scope": "Crosswise central star at source phase only, Y=-335..-290; larger Y and rotating star phase unvalidated, no capture claim"
+    },
+    "new_contact": {
+      "status": "NO_WITNESS",
+      "samples": [
+        {
+          "center_y_mm": -335,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 16.908731560393015
+        },
+        {
+          "center_y_mm": -330,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 15.06317933409624
+        },
+        {
+          "center_y_mm": -325,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 13.518058161960475
+        },
+        {
+          "center_y_mm": -320,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 12.293039893811859
+        },
+        {
+          "center_y_mm": -315,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 11.404952970722753
+        },
+        {
+          "center_y_mm": -310,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 10.866737953300053
+        },
+        {
+          "center_y_mm": -305,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 8.824726932462433
+        },
+        {
+          "center_y_mm": -300,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 5.669101489682973
+        },
+        {
+          "center_y_mm": -295,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 2.759481297785179
+        },
+        {
+          "center_y_mm": -290,
+          "overlap_mm3": 0.0,
+          "minimum_distance_mm": 0.13249619352652076
+        }
+      ],
+      "minimum_sample_distance_mm": 0.13249619352652076,
+      "scope": "Crosswise central star at source phase only, Y=-335..-290; larger Y and rotating star phase unvalidated, no capture claim"
+    },
+    "previous_mouth_gap_mm": 2.8175437917593342,
+    "new_mouth_gap_mm": 2.8175437917593342,
+    "previous_minimum_margins_mm": {
+      "left_width_mm": 93.0,
+      "right_width_mm": 93.0,
+      "floor_mm": 3.5,
+      "stow_rear_mm": 366.43217058034793,
+      "stow_front_mm": 71.89031116147883,
+      "extension_mm": 90.03484979844569,
+      "stow_height_mm": 312.6737739562584
+    },
+    "new_minimum_margins_mm": {
+      "floor_mm": 3.5,
+      "stow_rear_mm": 366.43217058034793,
+      "left_width_mm": 93.0,
+      "stow_front_mm": 71.89031116147883,
+      "stow_height_mm": 312.6737739562584,
+      "right_width_mm": 93.0,
+      "extension_mm": 90.03484979844569
+    }
+  }
+}

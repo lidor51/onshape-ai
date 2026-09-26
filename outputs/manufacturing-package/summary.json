@@ -1,0 +1,266 @@
+{
+  "authorization": {
+    "current_key_acknowledged": true,
+    "new_public_synthetic_only": true,
+    "recorded_at": "2026-09-11T16:11:44.764362+00:00",
+    "rotation_confirmed": false
+  },
+  "calls": {
+    "attempted": 31,
+    "failed": 0,
+    "phase_successes": {
+      "A": 8,
+      "B": 8,
+      "revision": 6,
+      "setup": 9
+    },
+    "remaining_attempt_reserve": 49,
+    "retries": 0,
+    "successful": 31,
+    "unknown": 0
+  },
+  "credential_loads": 3,
+  "elapsed_seconds_this_invocation": 21.719,
+  "engineering_approval": "UNVERIFIED",
+  "evidence": "AUTHENTICATED_NATIVE_TRIAL",
+  "feature_counts": {
+    "A": 5,
+    "B": 7
+  },
+  "finalized_at": "2026-09-11T16:14:41.253534+00:00",
+  "manufacture_ready": false,
+  "no_network_rerender": "PASS",
+  "phase_elapsed_seconds": {
+    "A": 8.202,
+    "B": 7.952,
+    "revision": 4.531,
+    "setup": 8.64
+  },
+  "quota_reference": {
+    "annual_safety": 500,
+    "limit": 2500,
+    "manufacturing_reserve": 80,
+    "native_reserve": 120,
+    "official_reserve": 100,
+    "remaining": 2227,
+    "reported_on": "2026-09-11",
+    "source": "Parent-provided official OAuth quota snapshot; not this trial's call",
+    "used": 273
+  },
+  "recoveries": [
+    {
+      "at": "2026-09-11T16:08:46.067431+00:00",
+      "attempt": 1,
+      "reason": "Bind known HTTP success: document response uses public, request uses isPublic",
+      "replayed": false
+    },
+    {
+      "at": "2026-09-11T16:11:23.036029+00:00",
+      "attempt": 17,
+      "reason": "Validated retained original metre-unit STEP using trimmed-surface adaptor; no network",
+      "replayed": false
+    }
+  ],
+  "request_elapsed_seconds": 29.325,
+  "rerender_check": {
+    "authenticated_calls": 0,
+    "blocked_attempts": 0,
+    "dxf_bytes_equal": false,
+    "dxf_geometry_revalidated": true,
+    "stable_output_hashes_equal": true,
+    "status": "PASS"
+  },
+  "revisions": {
+    "A": {
+      "evidence": "ONSHAPE_NATIVE_SNAPSHOT_LOCAL_PACKAGE",
+      "measurements": {
+        "height": 150.00000000000003,
+        "holes": [
+          {
+            "diameter": 12.9,
+            "key": "H1",
+            "u": 25.0,
+            "v": 117.3
+          },
+          {
+            "diameter": 12.9,
+            "key": "H2",
+            "u": 70.0,
+            "v": 52.3
+          },
+          {
+            "diameter": 6.6,
+            "key": "H3",
+            "u": 140.0,
+            "v": 122.3
+          },
+          {
+            "diameter": 12.9,
+            "key": "H4",
+            "u": 246.2,
+            "v": 52.3
+          },
+          {
+            "diameter": 6.6,
+            "key": "H5",
+            "u": 300.0,
+            "v": 122.3
+          }
+        ],
+        "outer": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            320.0,
+            0.0
+          ],
+          [
+            320.0,
+            150.00000000000003
+          ],
+          [
+            0.0,
+            150.00000000000003
+          ]
+        ],
+        "solid_count": 1,
+        "step_declared_units": [
+          "metre"
+        ],
+        "step_import_length_unit": "mm",
+        "thickness": 6.350000200000011,
+        "transform": "u=Y; v=Z-12.7; normal=+X",
+        "units": "mm",
+        "volume": 301875.70934676327,
+        "width": 320.0,
+        "world_bounds": [
+          -176.35000010000002,
+          0.0,
+          12.7,
+          -169.9999999,
+          320.0,
+          162.70000000000002
+        ]
+      },
+      "outputs": {
+        "drawing.pdf": "c5654cb5c37d9137d3ec6633cc869149e26c48607ee03e0f631594f5f3bb0014",
+        "drawing.png": "2b19e9203bf8c554c0ae6cf48f81faeab7594eee9091ada08832e71685289430",
+        "layout.json": "a385d579eae0d8c3dc1fe7f1b1621811f55f15ad4e1ad888a4015f7ce73ad2cd",
+        "plate.step": "8c5faef06e9bec71715247edc41dcf55ff736ffcc8d69b75151d614b95f37f41",
+        "profile.dxf": "21480ec0b92be30b1de94642bdce8483f15c68348b0eaf80d4916ffd331ead38"
+      },
+      "package_correctness": "PASS",
+      "state": {
+        "configuration": "default",
+        "document": "5e6ece69c8ad75145815b3de",
+        "element": "852d2fd01bfa34525231d27a",
+        "kind": "ONSHAPE",
+        "microversion": "ee26afbb30354b96e7ba9252",
+        "part": "JID",
+        "version": "4d5b62b961e75a8f01c024b3"
+      }
+    },
+    "B": {
+      "evidence": "ONSHAPE_NATIVE_SNAPSHOT_LOCAL_PACKAGE",
+      "measurements": {
+        "height": 150.00000000000003,
+        "holes": [
+          {
+            "diameter": 12.9,
+            "key": "H1",
+            "u": 30.0,
+            "v": 117.3
+          },
+          {
+            "diameter": 12.9,
+            "key": "H2",
+            "u": 70.0,
+            "v": 52.3
+          },
+          {
+            "diameter": 6.6,
+            "key": "H3",
+            "u": 140.0,
+            "v": 122.3
+          },
+          {
+            "diameter": 4.0,
+            "key": "H4",
+            "u": 200.0,
+            "v": 27.3
+          },
+          {
+            "diameter": 12.9,
+            "key": "H5",
+            "u": 241.2,
+            "v": 52.3
+          },
+          {
+            "diameter": 6.6,
+            "key": "H6",
+            "u": 300.0,
+            "v": 122.3
+          }
+        ],
+        "outer": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            320.0,
+            0.0
+          ],
+          [
+            320.0,
+            150.00000000000003
+          ],
+          [
+            0.0,
+            150.00000000000003
+          ]
+        ],
+        "solid_count": 1,
+        "step_declared_units": [
+          "metre"
+        ],
+        "step_import_length_unit": "mm",
+        "thickness": 8.000000200000045,
+        "transform": "u=Y; v=Z-12.7; normal=+X",
+        "units": "mm",
+        "volume": 380215.3233302204,
+        "width": 320.0,
+        "world_bounds": [
+          -188.0000001,
+          0.0,
+          12.7,
+          -179.99999989999995,
+          320.0,
+          162.70000000000002
+        ]
+      },
+      "outputs": {
+        "drawing.pdf": "80034e2579373370aff9c753738e629185305c07d9324e8a3d0c2e6257d7f018",
+        "drawing.png": "919c15d13582b2b7d7a148a4fef7818e2f7050f573b07c907f67068fc15de794",
+        "layout.json": "c5fd85c2fc6df985d17d85352c41868b568a177a7a5cc3aff0931a57e158f123",
+        "plate.step": "90d1d2a2fcbb4992ea441d64e1c9d3b1fae699d68cfa848710acf52a5fec6eb4",
+        "profile.dxf": "d86b51417318d606699b514ee3d533480be815d033836f61bcc60c1f6e52bd75"
+      },
+      "package_correctness": "PASS",
+      "state": {
+        "configuration": "default",
+        "document": "5e6ece69c8ad75145815b3de",
+        "element": "852d2fd01bfa34525231d27a",
+        "kind": "ONSHAPE",
+        "microversion": "a149b086f0300248d5f988fc",
+        "part": "JID",
+        "version": "a515ca607194bd42b4056dfa"
+      }
+    }
+  },
+  "started_at": "2026-09-11T16:11:44.764362+00:00",
+  "status": "PASS",
+  "url": "https://cad.onshape.com/documents/5e6ece69c8ad75145815b3de/w/08bbe64620275454db6e9141/e/852d2fd01bfa34525231d27a"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "13",
+  "title": "Bore-Lock Elevator",
+  "family": "Internal expanding mandrel with outside receiver capture",
+  "notice": "Original concept: grip inside the bore, lift, then positively release to an outside receiver.",
+  "summary": "End-on robot approach seats a compliant bore mandrel. Internal pads hold during vertical lift; an outside saddle accepts coral before mandrel withdrawal and receiver retraction.",
+  "advantage": "Straight router-cut plates, linear slides, turned drawbar and compliant pads need no accurate bends. The 350 mm approach span is not the narrow bore-alignment window.",
+  "risk": "Dirty-bore grip and forced release are unproved. Horizontal lift is assumed; pitch, flex and stow need tests. The whole tube must clear the bumper before inward transfer.",
+  "firstTest": "Hardest: bench-test dirty, skewed bores under cantilever load. Lift, latch outside, cam-collapse pads and strip free; measure slip, pitch and release force before transfer.",
+  "complexity": "moderate",
+  "inspiration": "Original expanding-arbor principle, not external pinch or a team copy. Full nominal coral: 114.3 mm OD, 101.6 mm ID, 301.625 mm length; no working-design claim.",
+  "mouthWidthMm": 350,
+  "states": "Seat -> expand/hold -> lift -> outside latch -> captive-cam collapse/strip/withdraw -> park high -> receiver inward. One coral total; occupancy lockout. Pitch/stow open.",
+  "side": {
+    "guides": [
+      { "points": [[-115, 20], [-90, 20], [-90, 480], [-115, 480], [-115, 20]], "label": "" },
+      { "points": [[-102.5, 480], [250, 480], [250, 420]], "label": "" },
+      { "points": [[-175, 17.15], [-120, 17.15], [-120, 97.15], [-175, 97.15], [-175, 17.15]], "label": "" },
+      { "points": [[-120, 52.15], [-100, 52.15], [-100, 62.15], [-120, 62.15]], "label": "" },
+      { "points": [[-110, 109.15], [-110, 119.15]], "label": "" },
+      { "points": [[80, 215], [400, 215], [400, 222.85], [80, 222.85], [80, 215]], "label": "" },
+      { "points": [[230, 338], [250, 338], [250, 345], [230, 345], [230, 338]], "label": "" },
+      { "points": [[-411.625, 0], [-110, 0], [-110, 114.3], [-411.625, 114.3], [-411.625, 0]], "label": "CORAL reference: seated tube around mandrel" },
+      { "points": [[-411.625, 222.85], [-110, 222.85], [-110, 337.15], [-411.625, 337.15], [-411.625, 222.85]], "label": "CORAL reference: lifted before inward transfer" }
+    ],
+    "rollers": [],
+    "links": [
+      { "points": [[-102.5, 57.15], [-102.5, 280], [-7.5, 280], [-7.5, 420]], "label": "" }
+    ],
+    "pivot": null,
+    "ghost": [
+      [[-168, 6.35], [-120, 6.35], [-120, 107.95], [-168, 107.95], [-168, 6.35]],
+      [[-175, 229.2], [-120, 229.2], [-120, 330.8], [-175, 330.8], [-175, 229.2]],
+      [[-120, 275], [-100, 275], [-100, 285], [-120, 285]],
+      [[-80, 380], [-25, 380], [-25, 460], [-80, 460], [-80, 380]],
+      [[-25, 415], [-5, 415], [-5, 425], [-25, 425]],
+      [[-420.8125, 215], [-100.8125, 215], [-100.8125, 222.85], [-420.8125, 222.85], [-420.8125, 215]],
+      [[-270.8125, 338], [-250.8125, 338], [-250.8125, 345], [-270.8125, 345], [-270.8125, 338]]
+    ],
+    "path": [[-328, 57.15], [-260.8125, 57.15], [-260.8125, 150], [-260.8125, 280], [-260.8125, 280], [-120, 280], [60, 280], [240, 280]],
+    "receiver": { "center": [240, 280], "label": "Accept outside, then retract" },
+    "labels": [
+      { "at": [-430, 535], "text": "Whole tube up: 57.85 mm gap" },
+      { "at": [-430, 585], "text": "Withdraw, then park at 420" }
+    ]
+  },
+  "plan": {
+    "guides": [
+      { "points": [[-175, -420.8125], [-175, -100.8125]], "label": "" },
+      { "points": [[175, -420.8125], [175, -100.8125]], "label": "" },
+      { "points": [[100, -115], [125, -115], [125, -90], [100, -90], [100, -115]], "label": "" },
+      { "points": [[112.5, -102.5], [112.5, 250]], "label": "" },
+      { "points": [[0, -102.5], [112.5, -102.5]], "label": "" },
+      { "points": [[-40, -175], [40, -175], [40, -120], [-40, -120], [-40, -175]], "label": "" },
+      { "points": [[-5, -120], [5, -120], [5, -100], [-5, -100]], "label": "" },
+      { "points": [[-62, -110], [-52, -110]], "label": "" },
+      { "points": [[52, -110], [62, -110]], "label": "" },
+      { "points": [[-67, 80], [-67, 400]], "label": "" },
+      { "points": [[67, 80], [67, 400]], "label": "" },
+      { "points": [[-67, 230], [67, 230], [67, 250], [-67, 250], [-67, 230]], "label": "" },
+      { "points": [[-57.15, -411.625], [57.15, -411.625], [57.15, -110], [-57.15, -110], [-57.15, -411.625]], "label": "CORAL reference: outside pickup and receiver capture" }
+    ],
+    "rollers": [],
+    "movingOutline": [[-67, -420.8125], [-67, -100.8125], [67, -100.8125], [67, -420.8125], [-67, -420.8125]],
+    "path": [[0, -328], [0, -260.8125], [0, -260.8125], [0, -260.8125], [0, -260.8125], [0, -120], [0, 60], [0, 240]],
+    "receiver": { "center": [0, 240], "label": "Open-ended saddle + latch" },
+    "coralYawDeg": 0,
+    "labels": [
+      { "at": [-300, 520], "text": "350 span; end-on pickup only" },
+      { "at": [-300, 590], "text": "80 OD closed; 101.6 ID grip" }
+    ]
+  }
+}

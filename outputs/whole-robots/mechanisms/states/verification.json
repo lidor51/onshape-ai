@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-13",
+  "status": "PASS_RENDERING_AND_CONSISTENCY_ONLY",
+  "robotExports": {"robots": 10, "statesPerRobot": 6, "pngCount": 60, "size": [1100,850], "allFramed": true, "allNonblank": true, "minimumColoredPixels": 17400, "minimumDarkPixels": 2972},
+  "intakeExports": {"intakes": 14, "statesPerIntake": 3, "pngCount": 42, "size": [1100,850], "allFramed": true, "allNonblank": true, "minimumColoredPixels": 57631, "minimumDarkPixels": 750, "oneCoralPerModel": true, "sameCameraAcrossEachIntakesStates": true},
+  "preserved2DDrawings": {"svgCount": 14, "pngCount": 14, "byteIdentical": true, "manifest": "../../../concepts/mechanisms/manifest.json"},
+  "interaction": {"robotStateChangesImage": true, "fieldContextToggle": [false,true], "intakeStateChangesImage": true, "selectedIntakeFlow": "../concept-14.png", "selectedIntakeDownload": "intake-14-handoff.png"},
+  "mobileRobotFraming": {"scenesChecked": 60, "allFramed": true, "cssViewportWidth": 312},
+  "responsive": [
+    {"viewer": "robot", "viewportWidth": 1280, "canvas": [1160,925], "overflow": false, "imagesLoaded": true, "framed": true, "coloredPixels": 36761, "darkPixels": 12681},
+    {"viewer": "robot", "viewportWidth": 312, "canvas": [375,612], "overflow": false, "imagesLoaded": true, "framed": true, "coloredPixels": 6345, "darkPixels": 2034},
+    {"viewer": "intake", "viewportWidth": 1280, "canvas": [1185,850], "overflow": false, "imagesLoaded": true, "framed": true, "coloredPixels": 63719, "darkPixels": 2201},
+    {"viewer": "intake", "viewportWidth": 312, "canvas": [375,575], "overflow": false, "imagesLoaded": true, "framed": true, "coloredPixels": 13167, "darkPixels": 411}
+  ],
+  "browserLimitation": "VS Code marked tabs hidden, suspending animation frames, image.decode and actionability waits. Reload cancelled those waits. Deterministic synchronous canvas rendering, control change handlers, loaded image dimensions and direct PNG buffers were verified; no continuous motion simulation was claimed.",
+  "mobileFix": "Robot-plus-field camera zoom-out and far-plane limits now grow with framing distance instead of clipping large contextual scenes at the prior fixed orbit limit.",
+  "notProven": ["physical contact", "continuous motion", "collision clearance", "legal starting package", "game-piece retention", "scoring", "loaded climbing", "elite performance"],
+  "onshapeCalls": 0,
+  "cadKernelRuns": 0
+}

@@ -1,0 +1,228 @@
+{
+  "mechanicallyReleased": false,
+  "budget": {
+    "range": [
+      25,
+      45
+    ],
+    "nativeInstancesExcludingCoral": 48,
+    "mechanismInstancesExcludingAllReferences": 45,
+    "uniqueNeutralParts": 28,
+    "status": "FAIL_CONSERVATIVE_NATIVE_INSTANCE_LIMIT",
+    "scope": "Do not hide support/bearing instances or redefine the v1 native-instance budget. Rigid module physical item counts exceed instance counts; not a complete fabrication BOM."
+  },
+  "parts": [
+    {
+      "role": "chassis_reference",
+      "quantity": 1,
+      "category": "reference",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "bumper_keepout",
+      "quantity": 1,
+      "category": "reference",
+      "material": "FULL_BUMPER_KEEP_OUT_NO_NOTCH",
+      "notes": ""
+    },
+    {
+      "role": "receiver_reference",
+      "quantity": 1,
+      "category": "reference",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Rough open fork, not a modeled capture actuator; height control changes fork geometry and placement, independently of mouthWidth."
+    },
+    {
+      "role": "coral_reference",
+      "quantity": 1,
+      "category": "reference",
+      "material": "NOMINAL_PVC_NOT_MEASURED",
+      "notes": ""
+    },
+    {
+      "role": "stage_deck",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "cradle",
+      "quantity": 1,
+      "category": "custom",
+      "material": "MACHINED_POLYMER_STOCK_UNSELECTED",
+      "notes": "Straight V trough, nominal tangent contact; router stock/travel and split construction require review."
+    },
+    {
+      "role": "transfer_ramp",
+      "quantity": 1,
+      "category": "custom",
+      "material": "FLAT_POLYCARBONATE_RAMP_RIGID_MODULE",
+      "notes": "V2 lower-profile 390 mm wide flat polycarbonate transfer surface with separate foot blocks; no bend or bumper notch. Entry top Z=320 mm; pickup belt crest Z=440 mm. The 120 mm gravity drop and capture dynamics are UNVERIFIED, not a transfer success claim."
+    },
+    {
+      "role": "hex_bearing_envelope",
+      "quantity": 12,
+      "category": "cots-envelope",
+      "material": "BEARING_ENVELOPE",
+      "notes": "WCP-0783 nominal body only. Flange/races/loads pending. Whole envelope follows inner hex; circular OD does not imply race locking."
+    },
+    {
+      "role": "x44_envelope",
+      "quantity": 4,
+      "category": "cots-envelope",
+      "material": "MOTOR_ENVELOPE",
+      "notes": "WCP-0941 body 47.4 x 75; 8 mm cylindrical spline envelope. Shaft extension assumed 22 mm; catalog drawing confirmation required."
+    },
+    {
+      "role": "pinion_16_envelope",
+      "quantity": 4,
+      "category": "cots-envelope",
+      "material": "STEEL_GEAR_ENVELOPE",
+      "notes": "16 teeth, 20 DP, 14.5 deg; teeth omitted, addendum envelope. Assumed face width 8 mm, NOT vendor gear geometry."
+    },
+    {
+      "role": "gear_48_envelope",
+      "quantity": 2,
+      "category": "cots-envelope",
+      "material": "GEAR_ENVELOPE",
+      "notes": "48 teeth, 20 DP, 14.5 deg. Simplified solid addendum envelope; actual WCP width/retention pending."
+    },
+    {
+      "role": "orienter_hex_shaft",
+      "quantity": 2,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "1/2 inch AF native interface; collars/axial retention in omitted hardware BOM."
+    },
+    {
+      "role": "orienter_contact_drum",
+      "quantity": 2,
+      "category": "custom",
+      "material": "CUSTOM_ELASTOMER_CONTACT_DRUM",
+      "notes": "Custom 70 mm OD contact drum, not AndyMark am-3462. Tire compliance/friction and hub construction unverified."
+    },
+    {
+      "role": "orienter_housing",
+      "quantity": 2,
+      "category": "custom",
+      "material": "PRINTED_HOUSING_MATERIAL_UNSELECTED",
+      "notes": "One printable U support plus open-bottom gear side guards; no precision bend. Motor clocking and top access guard still require vendor and safety review."
+    },
+    {
+      "role": "pickup_left_plate",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "pickup_side_plate",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "pickup_cross_tube",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "20 x 20 x 2 metric tube; end fasteners omitted, end holes pending."
+    },
+    {
+      "role": "pivot_spine",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Fixed 1/2 inch hex spine supports independent frame and upper-drum bearings; separate frame/drum outer races."
+    },
+    {
+      "role": "lower_hex_shaft",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": ""
+    },
+    {
+      "role": "upper_pickup_drum",
+      "quantity": 1,
+      "category": "custom",
+      "material": "TUBE_RUBBER_ASSEMBLY",
+      "notes": "Continuous bored tube with end bearing seats. Rubber/hub retention and stiffness pending."
+    },
+    {
+      "role": "lower_pickup_drum",
+      "quantity": 1,
+      "category": "custom",
+      "material": "TUBE_RUBBER_ASSEMBLY",
+      "notes": "Hex-driven lower drum and end hubs treated as one rigid custom part; detailed hub build pending."
+    },
+    {
+      "role": "pickup_belt",
+      "quantity": 1,
+      "category": "custom",
+      "material": "BELT_ENVELOPE_NOT_VENDOR",
+      "notes": "Actual closed 3 mm belt envelope with two tangent spans and wrap. Flexible belt represented fixed for clearance only, not a rigid native transmission simulation."
+    },
+    {
+      "role": "pickup_output_gear",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Custom 96t gear with bearing-clearance hub; 6:1 reduction, teeth simplified to addendum envelope. Bolted drum flange retention pending."
+    },
+    {
+      "role": "pickup_gear_guard",
+      "quantity": 1,
+      "category": "custom",
+      "material": "POLYCARBONATE_GUARD",
+      "notes": "V2 radial relief: 23 mm inner radius exceeds 17.4625 mm bolt-circle radius plus 4.5 mm standoff radius by 1.0375 mm. Side cover and attachment remain unverified."
+    },
+    {
+      "role": "pivot_tower",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Flat tower with machined/bolted foot represented as a rigid contiguous module; joining and spine clamp hardware pending."
+    },
+    {
+      "role": "deploy_output_gear",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Custom 96t output, 20 DP/14.5 deg, 6:1 mesh at 71.12 mm centers; 4 M4 bolt pattern to left carrier. Axial hub shortens under mouth revision."
+    },
+    {
+      "role": "deploy_support_module",
+      "quantity": 1,
+      "category": "custom",
+      "material": "ALUMINUM_GRADE_UNSELECTED",
+      "notes": "Flat tower plus two 6 mm gearbox cheeks, four turned spacers and a bolted bridge, represented as one rigid module. No bending. Plates are at world X=-333/-307; 1/2-inch hex bearing centers Y=171.12,Z=410; motor at Y=262.56,Z=410. Joining bolt lengths/stock grade and cheek bending are UNVERIFIED_BUILD."
+    },
+    {
+      "role": "deploy_compound_shaft_module",
+      "quantity": 1,
+      "category": "custom",
+      "material": "STEEL_SHAFT_AND_GEARS_GRADES_UNSELECTED",
+      "notes": "128t driven gear, 64 mm long 1/2-inch hex shaft and 16t final pinion, joined as one rigid module, NOT one purchasable box. Gear centers share Y=171.12,Z=410; faces at X=-318 and -281. Disks are addendum envelopes, NOT cuttable involute teeth. Three physical items plus retention; exact broach/key, tooth form, joining and load rating UNVERIFIED_BUILD."
+    }
+  ],
+  "newRigidModulePhysicalBreakdown": {
+    "deploy_support_module": [
+      "existing tower/foot",
+      "two flat gearbox cheeks",
+      "four turned spacers",
+      "one bridge",
+      "joining fasteners unselected"
+    ],
+    "deploy_compound_shaft_module": [
+      "one 128t gear",
+      "one hex shaft",
+      "one 16t pinion",
+      "hubs and axial retainers unselected"
+    ]
+  },
+  "omittedHardware": "Retain v1 omissions: motor/deck/hub screws, collars, tube/drum/ramp/guard joints. New gearbox joining and axial retention also incomplete; not released."
+}

@@ -1,0 +1,329 @@
+{
+  "authenticated_calls": 0,
+  "created_at": "2026-09-11T17:36:18.137394+00:00",
+  "environment": {
+    "PyYAML": "6.0.3",
+    "Pygments": "2.21.0",
+    "aiohappyeyeballs": "2.7.1",
+    "aiohttp": "3.14.3",
+    "aiosignal": "1.4.0",
+    "async-timeout": "5.0.1",
+    "attrs": "26.1.0",
+    "cadquery": "2.6.1",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "casadi": "3.7.2",
+    "charset-normalizer": "3.5.1",
+    "colorama": "0.4.6",
+    "contourpy": "1.3.2",
+    "cycler": "0.12.1",
+    "exceptiongroup": "1.3.1",
+    "ezdxf": "1.4.3",
+    "fonttools": "4.65.0",
+    "frozenlist": "1.8.0",
+    "idna": "3.19",
+    "iniconfig": "2.3.0",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.10.9",
+    "more-itertools": "11.1.0",
+    "msgpack": "1.2.2",
+    "multidict": "6.8.0",
+    "multimethod": "1.12",
+    "nlopt": "2.11.0",
+    "numpy": "2.2.6",
+    "packaging": "26.3",
+    "path": "17.1.1",
+    "pillow": "11.3.0",
+    "pip": "21.2.3",
+    "pluggy": "1.6.0",
+    "propcache": "0.5.2",
+    "pyparsing": "3.3.2",
+    "pypdf": "6.0.0",
+    "pypdfium2": "4.30.0",
+    "pytest": "8.4.2",
+    "python-dateutil": "2.9.0.post0",
+    "reportlab": "4.4.3",
+    "setuptools": "57.4.0",
+    "six": "1.17.0",
+    "tomli": "2.4.1",
+    "trame": "4.0.0",
+    "trame-client": "4.0.1",
+    "trame-common": "1.2.7",
+    "trame-server": "4.0.0",
+    "trame-vtk": "2.8.13",
+    "typing_extensions": "4.16.0",
+    "typish": "1.9.3",
+    "vtk": "9.3.1",
+    "wslink": "2.5.7",
+    "yarl": "1.24.5"
+  },
+  "evidence": "LOCAL_TESTS_WITH_SEPARATELY_IDENTIFIED_RETAINED_ONSHAPE_CHECKS",
+  "exit_code": 0,
+  "failed": 0,
+  "passed": 60,
+  "results": [
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_first.py::test_import_five_holes_mm_and_reject_stale"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_live.py::test_onshape_claim_requires_real_snapshot_provenance"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_live.py::test_actual_native_baseline_export_matches_retained_server_measurement"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_live.py::test_retained_download_recovery_needs_no_requests"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_live.py::test_actual_native_revisions_original_bytes_and_downstream_edits"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_live.py::test_actual_cache_rerender_geometry_and_stable_outputs"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_native.py::test_native_payload_units_and_revision_coordinates"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_native.py::test_native_sketch_frame_and_rectangle_closure"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_native.py::test_decode_featurescript_map_and_array"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_native.py::test_measurement_script_is_read_only"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_native.py::test_measurement_rejects_wrong_response_microversion"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_revision_packages_and_offline_rerender"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_snapshot_blocks[missing_hole]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_snapshot_blocks[wrong_units]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_snapshot_blocks[mixed_revision]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_snapshot_blocks[mixed_state]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_snapshot_blocks[shift_same_volume]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unsupported_brep[blind]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unsupported_brep[counterbore]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unsupported_brep[countersink]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unsupported_brep[angled]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unsupported_brep[multiple]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unsupported_brep[pocket]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_step_declared_inches_rejected"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unknown_intent_cannot_release[material]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unknown_intent_cannot_release[hole_coordinate_tolerance_mm]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_unknown_intent_cannot_release[release_status]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_dxf_rejected[units]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_dxf_rejected[duplicate]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_dxf_rejected[shift]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_dxf_rejected[self_intersect]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_bad_dxf_rejected[annotation]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_scaled_pdf_rejected"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_review_output_for_unknown_intent"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_package.py::test_output_tamper_and_interrupted_rerender"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_runner.py::test_live_command_is_blocked_without_reading_credentials"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_runner.py::test_preflight_stale_code_and_dependencies_rejected"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_runner.py::test_public_schemas_do_not_claim_selected_part_step_support"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_mock_snapshot_version_binding_and_cost"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_live_denied_before_any_credential_loader"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_current_key_authorization_is_not_rotation"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_persisted_eighty_attempt_limit"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_ambiguous_create_never_retried_or_replaced"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_foreign_documents_denied[delete]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_foreign_documents_denied[share]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_foreign_documents_denied[arbitrary]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_foreign_documents_denied[features]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_failures_and_redirects_stop[302]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_failures_and_redirects_stop[403]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_failures_and_redirects_stop[409]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_failures_and_redirects_stop[429]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_failures_and_redirects_stop[500]"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_lock_and_one_document_max"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_wrong_export_version_stops"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_public_schema_matches_implemented_request_fields"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_native_edits_require_owned_feature_and_native_type"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_safety.py::test_actual_public_response_shape_preserves_single_document"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_transport.py::test_hmac_matches_documented_canonicalization"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_transport.py::test_sender_denies_foreign_host_before_network"
+    },
+    {
+      "outcome": "passed",
+      "test": "trials/manufacturing-package/test_transport.py::test_no_redirect_or_secret_echo"
+    }
+  ],
+  "source_hashes": {
+    "fixtures.py": "5b7e9c0c52248e3b1a8823814f8f125a8faef2d9183c5eb4ad14359853001782",
+    "geometry.py": "0249cbca2f98045917186a0619f9f15e718dc54312221d1e013812b9466fbf13",
+    "intent.test-only.json": "e990f27112bffc064e4895c06addaa717ee6055a60a9e47cecfa8d7bb1e0a03a",
+    "live.py": "37e76c3d03d2f0b7847419e943fa0bf8f19fee7df19ed9b13a72cd0e1250f819",
+    "measure.fs": "414f08483df0f2536e4dcb5bf52cb371dfd3ac398c31165bdf2f7f99382ef48b",
+    "native.py": "e99ce7b74a626eccd3415ea2e420226fb2dac0676b668e4ace74ff8a18d0417d",
+    "package.py": "15898450ae5d3405bb9b1a4e27a20e32ea8f9601473048dd3b86660e031c09db",
+    "requirements.lock": "60110713811c1ef35e8c9a7b910f289649cc97be8ad4b802c29ed920f5941ba5",
+    "requirements.txt": "e5680a8319ec0849f50585dd2d8fdb2b8f47855890b91b2f1d654dd8a798184e",
+    "research/public-schema.json": "d9faa49f3ade0399359f58e2f3df3ac363f65a31c737fd0351faae8156f6e02d",
+    "run.py": "d025bcc74f94a56cc2448998f81b4aca44e558f9c3f6e833e7acb38e0b07fbac",
+    "safety.py": "d48885f9cd5baf2961b434291c47818df8f6681678058fc84b5ed658ac3f40ec",
+    "snapshot.py": "733abc82f4496d4c805551130ba34ebf9b7687859dc3117d1137076e2bba5652",
+    "test_first.py": "9364a76be490e299abf91e076a961973051034dab1d426ec4dbace1e691a18c9",
+    "test_live.py": "7b229b485a9cc64b8f7a289c2d99404f6f5560dcbcab8b031212b0a60b4c2c06",
+    "test_native.py": "afab7d3d2ea40aee45eacfa7dfb1886067cc6d7006f750740a57c7811be6e11e",
+    "test_package.py": "a38c8bcf39481387441e0c1f81d645b690aa3b0cdab6405243c0cdc08c0571f3",
+    "test_runner.py": "d1203d240e2d9eb23f894559b0352dc1964f99e127d0b0d63d79ed64c16e0f74",
+    "test_safety.py": "5c99ad0353bb22c2827c1f502c2b53164105d5daeb1e7e61e8033c7b2992670b",
+    "test_transport.py": "956f447c6cbcc06e1a871347464dc88e67b9c32287f5341d61cc905747f56d16",
+    "transport.py": "cd26f790b0ade95b13972ac285a049e623567cacf4cb61081d6bc704c1fa528e"
+  },
+  "status": "PASS"
+}

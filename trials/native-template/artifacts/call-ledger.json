@@ -1,0 +1,2226 @@
+{
+  "status": "LIVE_COMPLETE",
+  "cap": 120,
+  "remainingAttempts": 36,
+  "attempted": 84,
+  "successful": 83,
+  "failed": 0,
+  "unknownOutcomesConservative": 1,
+  "reconciledInterruptedReads": 1,
+  "automaticRetries": 0,
+  "recordedRequestMs": 62524.86489999998,
+  "documentsCreated": 2,
+  "sharedSnapshot": {
+    "date": "2026-09-11",
+    "source": "parent-reported successful OAuth quota check",
+    "accountScope": "shared-account allocation snapshot, NOT native-template consumed requests",
+    "used": 273,
+    "limit": 2500,
+    "remaining": 2227,
+    "nativeReservation": 120,
+    "manufacturingReservation": 80,
+    "officialReservation": 100,
+    "combinedReservation": 300,
+    "annualSafety": 500,
+    "remainingAfterReservationsAndSafety": 1427
+  },
+  "firstAttemptAt": "2026-09-11T16:00:36.446Z",
+  "lastOutcomeAt": "2026-09-11T16:22:24.279Z",
+  "wallSpanMsIncludingInterruptions": 1307954,
+  "phaseCosts": {
+    "setup": {
+      "attempted": 58,
+      "successful": 57,
+      "failed": 0,
+      "unknownOutcomesConservative": 1,
+      "reconciledInterruptedReads": 1,
+      "automaticRetries": 0,
+      "recordedRequestMs": 39567.188599999994
+    },
+    "copy": {
+      "attempted": 8,
+      "successful": 8,
+      "failed": 0,
+      "unknownOutcomesConservative": 0,
+      "reconciledInterruptedReads": 0,
+      "automaticRetries": 0,
+      "recordedRequestMs": 11554.318499999998
+    },
+    "simulated-editor": {
+      "attempted": 8,
+      "successful": 8,
+      "failed": 0,
+      "unknownOutcomesConservative": 0,
+      "reconciledInterruptedReads": 0,
+      "automaticRetries": 0,
+      "recordedRequestMs": 6404.079100000001
+    },
+    "revision": {
+      "attempted": 6,
+      "successful": 6,
+      "failed": 0,
+      "unknownOutcomesConservative": 0,
+      "reconciledInterruptedReads": 0,
+      "automaticRetries": 0,
+      "recordedRequestMs": 1854.85
+    },
+    "validation": {
+      "attempted": 4,
+      "successful": 4,
+      "failed": 0,
+      "unknownOutcomesConservative": 0,
+      "reconciledInterruptedReads": 0,
+      "automaticRetries": 0,
+      "recordedRequestMs": 3144.4287000000004
+    }
+  },
+  "note": "Recorded request time excludes the interrupted read with no outcome. Phase wall spans include local repairs and pauses; total wall span also includes gaps between invocations. No blind transport retries; owned read reconciliation repeated some setup reads.",
+  "events": [
+    {
+      "kind": "init",
+      "authorizationHash": "b21588eaf8ef8a62fccd11ee3d27dad1ab67de32d45e90b89e7bea84a604d523",
+      "sourceHash": "c634916d0aef8f68690b5d561345d4391fd2ad76c923145e630bf41402cf4670",
+      "sharedSnapshot": {
+        "date": "2026-09-11",
+        "source": "parent-reported successful OAuth quota check",
+        "accountScope": "shared-account allocation snapshot, NOT native-template consumed requests",
+        "used": 273,
+        "limit": 2500,
+        "remaining": 2227,
+        "nativeReservation": 120,
+        "manufacturingReservation": 80,
+        "officialReservation": 100,
+        "combinedReservation": 300,
+        "annualSafety": 500,
+        "remainingAfterReservationsAndSafety": 1427
+      },
+      "at": "2026-09-11T16:00:36.408Z"
+    },
+    {
+      "kind": "phase-start",
+      "phase": "setup",
+      "at": "2026-09-11T16:00:36.438Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 1,
+      "phase": "setup",
+      "operation": "createDocument",
+      "createsDocument": true,
+      "at": "2026-09-11T16:00:36.446Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 1,
+      "status": 200,
+      "elapsedMs": 3660.4526,
+      "unknown": false,
+      "at": "2026-09-11T16:00:40.110Z"
+    },
+    {
+      "kind": "document",
+      "role": "template",
+      "did": "2f23d55654f456b946061a5f",
+      "wid": "ccfd8b5117a32b5fb46baaeb",
+      "creationSequence": 1,
+      "sourceRole": null,
+      "at": "2026-09-11T16:00:40.115Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 2,
+      "phase": "setup",
+      "operation": "getDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:00:40.118Z"
+    },
+    {
+      "kind": "interrupted-read",
+      "sequence": 2,
+      "at": "2026-09-11T16:03:53.562Z"
+    },
+    {
+      "kind": "source-rebind",
+      "previousSourceHash": "c634916d0aef8f68690b5d561345d4391fd2ad76c923145e630bf41402cf4670",
+      "sourceHash": "6e5d7f185787dde3cb463cdc49acc70581ad4e926bd69edeaded351f43402a53",
+      "reason": "tested repair; fresh preflight; owned read reconciliation required",
+      "at": "2026-09-11T16:03:53.592Z"
+    },
+    {
+      "kind": "phase-resume",
+      "phase": "setup",
+      "at": "2026-09-11T16:03:53.599Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 3,
+      "phase": "setup",
+      "operation": "getDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:03:53.610Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 3,
+      "status": 200,
+      "elapsedMs": 656.0644,
+      "unknown": false,
+      "at": "2026-09-11T16:03:54.270Z"
+    },
+    {
+      "kind": "visibility",
+      "role": "template",
+      "isPublic": true,
+      "at": "2026-09-11T16:03:54.297Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 4,
+      "phase": "setup",
+      "operation": "getElementsInDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:03:54.301Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 4,
+      "status": 200,
+      "elapsedMs": 383.45590000000016,
+      "unknown": false,
+      "at": "2026-09-11T16:03:54.687Z"
+    },
+    {
+      "kind": "element",
+      "role": "template",
+      "eid": "0b24f166452add1bd85ec855",
+      "at": "2026-09-11T16:03:54.717Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 5,
+      "phase": "setup",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:03:54.721Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 5,
+      "status": 200,
+      "elapsedMs": 244.8420000000001,
+      "unknown": false,
+      "at": "2026-09-11T16:03:54.969Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "9304c7127282b57b21e0feab",
+      "at": "2026-09-11T16:03:54.999Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 6,
+      "phase": "setup",
+      "operation": "getPartStudioFeatureSpecs",
+      "createsDocument": false,
+      "at": "2026-09-11T16:03:55.003Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 6,
+      "status": 200,
+      "elapsedMs": 1988.9762,
+      "unknown": false,
+      "at": "2026-09-11T16:03:56.995Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "9304c7127282b57b21e0feab",
+      "at": "2026-09-11T16:03:57.365Z"
+    },
+    {
+      "kind": "halt",
+      "code": "NATIVE_PARAMETER_SPEC_UNVERIFIED",
+      "at": "2026-09-11T16:03:57.699Z"
+    },
+    {
+      "kind": "source-rebind",
+      "previousSourceHash": "6e5d7f185787dde3cb463cdc49acc70581ad4e926bd69edeaded351f43402a53",
+      "sourceHash": "8bb30766c16cf14d92090441520dbc8ddeb0a140e1ea22d3bb6bd41544be6133",
+      "reason": "tested repair; fresh preflight; owned read reconciliation required",
+      "at": "2026-09-11T16:07:37.120Z"
+    },
+    {
+      "kind": "phase-resume",
+      "phase": "setup",
+      "at": "2026-09-11T16:07:37.151Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 7,
+      "phase": "setup",
+      "operation": "getDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:07:37.161Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 7,
+      "status": 200,
+      "elapsedMs": 421.4243,
+      "unknown": false,
+      "at": "2026-09-11T16:07:37.586Z"
+    },
+    {
+      "kind": "visibility",
+      "role": "template",
+      "isPublic": true,
+      "at": "2026-09-11T16:07:37.614Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 8,
+      "phase": "setup",
+      "operation": "getElementsInDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:07:37.618Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 8,
+      "status": 200,
+      "elapsedMs": 365.34929999999997,
+      "unknown": false,
+      "at": "2026-09-11T16:07:37.986Z"
+    },
+    {
+      "kind": "element",
+      "role": "template",
+      "eid": "0b24f166452add1bd85ec855",
+      "at": "2026-09-11T16:07:38.017Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 9,
+      "phase": "setup",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:07:38.021Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 9,
+      "status": 200,
+      "elapsedMs": 243.69550000000004,
+      "unknown": false,
+      "at": "2026-09-11T16:07:38.267Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "9304c7127282b57b21e0feab",
+      "at": "2026-09-11T16:07:38.299Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 10,
+      "phase": "setup",
+      "operation": "getPartStudioFeatureSpecs",
+      "createsDocument": false,
+      "at": "2026-09-11T16:07:38.303Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 10,
+      "status": 200,
+      "elapsedMs": 2134.5299,
+      "unknown": false,
+      "at": "2026-09-11T16:07:40.441Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "9304c7127282b57b21e0feab",
+      "at": "2026-09-11T16:07:41.044Z"
+    },
+    {
+      "kind": "reconciled",
+      "role": "template",
+      "snapshotHash": "6f830344c519be8163d922d6d9ec999582e10e85cb3171fbb1776a746135fa16",
+      "sourceHash": "8bb30766c16cf14d92090441520dbc8ddeb0a140e1ea22d3bb6bd41544be6133",
+      "at": "2026-09-11T16:07:42.005Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 11,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:07:42.208Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 11,
+      "status": 200,
+      "elapsedMs": 1101.6225000000004,
+      "unknown": false,
+      "at": "2026-09-11T16:07:43.313Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "bb1998ea26c8c3adbf33669d",
+      "at": "2026-09-11T16:07:43.321Z"
+    },
+    {
+      "kind": "halt",
+      "code": "FEATURE_METADATA_UNVERIFIED",
+      "at": "2026-09-11T16:07:43.329Z"
+    },
+    {
+      "kind": "source-rebind",
+      "previousSourceHash": "8bb30766c16cf14d92090441520dbc8ddeb0a140e1ea22d3bb6bd41544be6133",
+      "sourceHash": "55eae5afbdd4d4c94f5915eb1ba65a4e6bf8152617e2b7fcbb020f52947dbf2b",
+      "reason": "tested repair; fresh preflight; owned read reconciliation required",
+      "at": "2026-09-11T16:08:50.757Z"
+    },
+    {
+      "kind": "phase-resume",
+      "phase": "setup",
+      "at": "2026-09-11T16:08:50.794Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 12,
+      "phase": "setup",
+      "operation": "getDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:50.800Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 12,
+      "status": 200,
+      "elapsedMs": 536.3575,
+      "unknown": false,
+      "at": "2026-09-11T16:08:51.340Z"
+    },
+    {
+      "kind": "visibility",
+      "role": "template",
+      "isPublic": true,
+      "at": "2026-09-11T16:08:51.368Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 13,
+      "phase": "setup",
+      "operation": "getElementsInDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:51.372Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 13,
+      "status": 200,
+      "elapsedMs": 402.61789999999996,
+      "unknown": false,
+      "at": "2026-09-11T16:08:51.778Z"
+    },
+    {
+      "kind": "element",
+      "role": "template",
+      "eid": "0b24f166452add1bd85ec855",
+      "at": "2026-09-11T16:08:51.811Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 14,
+      "phase": "setup",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:51.815Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 14,
+      "status": 200,
+      "elapsedMs": 263.8079,
+      "unknown": false,
+      "at": "2026-09-11T16:08:52.081Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "bb1998ea26c8c3adbf33669d",
+      "at": "2026-09-11T16:08:52.086Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 15,
+      "phase": "setup",
+      "operation": "getPartStudioFeatureSpecs",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:52.091Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 15,
+      "status": 200,
+      "elapsedMs": 1910.9021,
+      "unknown": false,
+      "at": "2026-09-11T16:08:54.005Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "bb1998ea26c8c3adbf33669d",
+      "at": "2026-09-11T16:08:54.351Z"
+    },
+    {
+      "kind": "reconciled",
+      "role": "template",
+      "snapshotHash": "59cc659b9ae3f37b208b7866413563ac5609df27f48a568cd73790a417c98411",
+      "sourceHash": "55eae5afbdd4d4c94f5915eb1ba65a4e6bf8152617e2b7fcbb020f52947dbf2b",
+      "at": "2026-09-11T16:08:54.702Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 16,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:54.708Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 16,
+      "status": 200,
+      "elapsedMs": 2412.772,
+      "unknown": false,
+      "at": "2026-09-11T16:08:57.124Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "e4606fc5e78b5ab11ab63dc5",
+      "at": "2026-09-11T16:08:57.178Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 16,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:08:57.182Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 17,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:57.185Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 17,
+      "status": 200,
+      "elapsedMs": 419.8849,
+      "unknown": false,
+      "at": "2026-09-11T16:08:57.607Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "e9ba22e0aca6d24b13967da3",
+      "at": "2026-09-11T16:08:57.638Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 17,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:08:57.641Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 18,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:57.644Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 18,
+      "status": 200,
+      "elapsedMs": 393.48179999999957,
+      "unknown": false,
+      "at": "2026-09-11T16:08:58.041Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "b6538fc301161f102850c071",
+      "at": "2026-09-11T16:08:58.073Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 18,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:08:58.076Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 19,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:58.080Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 19,
+      "status": 200,
+      "elapsedMs": 398.45770000000084,
+      "unknown": false,
+      "at": "2026-09-11T16:08:58.481Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "17c2dc29e0f32be624de6128",
+      "at": "2026-09-11T16:08:58.489Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 19,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:08:58.496Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 20,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:58.500Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 20,
+      "status": 200,
+      "elapsedMs": 747.9367000000002,
+      "unknown": false,
+      "at": "2026-09-11T16:08:59.251Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "d9405c850f840d507604f199",
+      "at": "2026-09-11T16:08:59.258Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 20,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:08:59.261Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 21,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:08:59.267Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 21,
+      "status": 200,
+      "elapsedMs": 821.2385999999988,
+      "unknown": false,
+      "at": "2026-09-11T16:09:00.092Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "154de41307565c9741f960c6",
+      "at": "2026-09-11T16:09:00.101Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 21,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:00.104Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 22,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:00.108Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 22,
+      "status": 200,
+      "elapsedMs": 717.6412999999993,
+      "unknown": false,
+      "at": "2026-09-11T16:09:00.828Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "a4dfa2082440b6bdcc8a46cb",
+      "at": "2026-09-11T16:09:00.875Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 22,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:00.878Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 23,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:00.881Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 23,
+      "status": 200,
+      "elapsedMs": 396.52319999999963,
+      "unknown": false,
+      "at": "2026-09-11T16:09:01.281Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "6f06f4e16e444aea236260dc",
+      "at": "2026-09-11T16:09:01.312Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 23,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:01.314Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 24,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:01.317Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 24,
+      "status": 200,
+      "elapsedMs": 403.90329999999994,
+      "unknown": false,
+      "at": "2026-09-11T16:09:01.724Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "e618069a502f8925d18fd328",
+      "at": "2026-09-11T16:09:01.755Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 24,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:01.759Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 25,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:01.762Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 25,
+      "status": 200,
+      "elapsedMs": 697.7688999999991,
+      "unknown": false,
+      "at": "2026-09-11T16:09:02.463Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "9bc21772f189a126164d7c80",
+      "at": "2026-09-11T16:09:02.495Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 25,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:02.498Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 26,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:02.501Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 26,
+      "status": 200,
+      "elapsedMs": 414.1118999999999,
+      "unknown": false,
+      "at": "2026-09-11T16:09:02.918Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "6b1fab2d326b4b39f002bfa1",
+      "at": "2026-09-11T16:09:02.949Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 26,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:02.951Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 27,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:02.955Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 27,
+      "status": 200,
+      "elapsedMs": 391.29219999999987,
+      "unknown": false,
+      "at": "2026-09-11T16:09:03.350Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "aa78a3772ae82a78c5fc52b1",
+      "at": "2026-09-11T16:09:03.381Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 27,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:03.384Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 28,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:03.387Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 28,
+      "status": 200,
+      "elapsedMs": 694.3155000000006,
+      "unknown": false,
+      "at": "2026-09-11T16:09:04.084Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "0b5c35ce344df7df441cb68c",
+      "at": "2026-09-11T16:09:04.114Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 28,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:04.117Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 29,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:04.120Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 29,
+      "status": 200,
+      "elapsedMs": 388.2538999999997,
+      "unknown": false,
+      "at": "2026-09-11T16:09:04.512Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "80ece8164003aa625f3d8f9c",
+      "at": "2026-09-11T16:09:04.518Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 29,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:04.521Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 30,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:04.524Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 30,
+      "status": 200,
+      "elapsedMs": 408.33530000000064,
+      "unknown": false,
+      "at": "2026-09-11T16:09:04.935Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "ecfeb760dcbd00ea88abd9f8",
+      "at": "2026-09-11T16:09:04.966Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 30,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:04.969Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 31,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:04.973Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 31,
+      "status": 200,
+      "elapsedMs": 700.5697999999993,
+      "unknown": false,
+      "at": "2026-09-11T16:09:05.677Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "41b9210d0c922c3d12cbaf2b",
+      "at": "2026-09-11T16:09:05.696Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 31,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:05.699Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 32,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:05.703Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 32,
+      "status": 200,
+      "elapsedMs": 401.5562000000009,
+      "unknown": false,
+      "at": "2026-09-11T16:09:06.107Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "c20a9350d51633fc3f7741c8",
+      "at": "2026-09-11T16:09:06.137Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 32,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:06.141Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 33,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:06.145Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 33,
+      "status": 200,
+      "elapsedMs": 660.9835999999996,
+      "unknown": false,
+      "at": "2026-09-11T16:09:06.808Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "fec9aeb06e0139cf4b416f5a",
+      "at": "2026-09-11T16:09:06.839Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 33,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:06.842Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 34,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:06.846Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 34,
+      "status": 200,
+      "elapsedMs": 405.27660000000105,
+      "unknown": false,
+      "at": "2026-09-11T16:09:07.254Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "a9e907ff7cf375593b3dc3a5",
+      "at": "2026-09-11T16:09:07.261Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 34,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:07.264Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 35,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:07.269Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 35,
+      "status": 200,
+      "elapsedMs": 427.2907000000014,
+      "unknown": false,
+      "at": "2026-09-11T16:09:07.698Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "76597ccf9c3f5d0eb9b64a3f",
+      "at": "2026-09-11T16:09:07.730Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 35,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:07.733Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 36,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:07.737Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 36,
+      "status": 200,
+      "elapsedMs": 425.13140000000203,
+      "unknown": false,
+      "at": "2026-09-11T16:09:08.165Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "d7e76430c5b5e2982a547b3c",
+      "at": "2026-09-11T16:09:08.196Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 36,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:08.199Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 37,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:08.205Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 37,
+      "status": 200,
+      "elapsedMs": 683.8919999999998,
+      "unknown": false,
+      "at": "2026-09-11T16:09:08.893Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "9c0b86b9804b553b9336b61f",
+      "at": "2026-09-11T16:09:08.900Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 37,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:08.903Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 38,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:08.907Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 38,
+      "status": 200,
+      "elapsedMs": 483.97039999999834,
+      "unknown": false,
+      "at": "2026-09-11T16:09:09.394Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "d9131c0f6b17b994a9d45f75",
+      "at": "2026-09-11T16:09:09.400Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 38,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:09.403Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 39,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:09.408Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 39,
+      "status": 200,
+      "elapsedMs": 419.0424000000021,
+      "unknown": false,
+      "at": "2026-09-11T16:09:09.830Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "8679df62c0f924696d3d8658",
+      "at": "2026-09-11T16:09:09.863Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 39,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:09.867Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 40,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:09.872Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 40,
+      "status": 200,
+      "elapsedMs": 700.9744000000028,
+      "unknown": false,
+      "at": "2026-09-11T16:09:10.576Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "82ff55d7b1c7998dd84de457",
+      "at": "2026-09-11T16:09:10.582Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 40,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:10.585Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 41,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:10.590Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 41,
+      "status": 200,
+      "elapsedMs": 476.21410000000105,
+      "unknown": false,
+      "at": "2026-09-11T16:09:11.069Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "4455390b70447e33b8a3d9df",
+      "at": "2026-09-11T16:09:11.080Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 41,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:11.083Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 42,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:11.087Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 42,
+      "status": 200,
+      "elapsedMs": 426.96069999999963,
+      "unknown": false,
+      "at": "2026-09-11T16:09:11.518Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "7cd9115f5d61e3501f950bc3",
+      "at": "2026-09-11T16:09:11.548Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 42,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:11.551Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 43,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:11.555Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 43,
+      "status": 200,
+      "elapsedMs": 700.0432000000001,
+      "unknown": false,
+      "at": "2026-09-11T16:09:12.259Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "08a8ad86396937df254c4636",
+      "at": "2026-09-11T16:09:12.291Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 43,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:12.295Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 44,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:12.300Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 44,
+      "status": 200,
+      "elapsedMs": 451.42419999999765,
+      "unknown": false,
+      "at": "2026-09-11T16:09:12.754Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "78011136053b5d790221b004",
+      "at": "2026-09-11T16:09:12.763Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 44,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:12.767Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 45,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:12.774Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 45,
+      "status": 200,
+      "elapsedMs": 417.6440999999977,
+      "unknown": false,
+      "at": "2026-09-11T16:09:13.195Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "77c4a370d4a0a47b54773ec4",
+      "at": "2026-09-11T16:09:13.227Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 45,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:13.229Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 46,
+      "phase": "setup",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:13.233Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 46,
+      "status": 200,
+      "elapsedMs": 712.6477999999988,
+      "unknown": false,
+      "at": "2026-09-11T16:09:13.949Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:09:13.980Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 46,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:09:13.987Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 47,
+      "phase": "setup",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:14.001Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 47,
+      "status": 200,
+      "elapsedMs": 370.8849999999984,
+      "unknown": false,
+      "at": "2026-09-11T16:09:14.374Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:09:14.408Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 48,
+      "phase": "setup",
+      "operation": "getPartStudioBodyDetails",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:14.415Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 48,
+      "status": 200,
+      "elapsedMs": 231.84029999999984,
+      "unknown": false,
+      "at": "2026-09-11T16:09:14.650Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 49,
+      "phase": "setup",
+      "operation": "getPartStudioMassProperties",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:14.684Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 49,
+      "status": 200,
+      "elapsedMs": 272.72550000000047,
+      "unknown": false,
+      "at": "2026-09-11T16:09:14.959Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 50,
+      "phase": "setup",
+      "operation": "getPartStudioBoundingBoxes",
+      "createsDocument": false,
+      "at": "2026-09-11T16:09:14.997Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 50,
+      "status": 200,
+      "elapsedMs": 221.37870000000112,
+      "unknown": false,
+      "at": "2026-09-11T16:09:15.221Z"
+    },
+    {
+      "kind": "halt",
+      "code": "SERVER_HOLE_POSITION",
+      "at": "2026-09-11T16:09:15.271Z"
+    },
+    {
+      "kind": "source-rebind",
+      "previousSourceHash": "55eae5afbdd4d4c94f5915eb1ba65a4e6bf8152617e2b7fcbb020f52947dbf2b",
+      "sourceHash": "1bfa50a3a502f9394cf909bbfe0b4ab8a2efc981a23410f14555e7bc7dbb2ad9",
+      "reason": "tested repair; fresh preflight; owned read reconciliation required",
+      "at": "2026-09-11T16:10:34.935Z"
+    },
+    {
+      "kind": "phase-resume",
+      "phase": "setup",
+      "at": "2026-09-11T16:10:34.968Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 51,
+      "phase": "setup",
+      "operation": "getDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:34.982Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 51,
+      "status": 200,
+      "elapsedMs": 559.3354999999999,
+      "unknown": false,
+      "at": "2026-09-11T16:10:35.545Z"
+    },
+    {
+      "kind": "visibility",
+      "role": "template",
+      "isPublic": true,
+      "at": "2026-09-11T16:10:35.573Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 52,
+      "phase": "setup",
+      "operation": "getElementsInDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:35.579Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 52,
+      "status": 200,
+      "elapsedMs": 490.9561000000001,
+      "unknown": false,
+      "at": "2026-09-11T16:10:36.072Z"
+    },
+    {
+      "kind": "element",
+      "role": "template",
+      "eid": "0b24f166452add1bd85ec855",
+      "at": "2026-09-11T16:10:36.105Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 53,
+      "phase": "setup",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:36.113Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 53,
+      "status": 200,
+      "elapsedMs": 299.57220000000007,
+      "unknown": false,
+      "at": "2026-09-11T16:10:36.417Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:10:36.452Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 54,
+      "phase": "setup",
+      "operation": "getPartStudioFeatureSpecs",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:36.461Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 54,
+      "status": 200,
+      "elapsedMs": 1849.5568000000003,
+      "unknown": false,
+      "at": "2026-09-11T16:10:38.313Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:10:38.631Z"
+    },
+    {
+      "kind": "reconciled",
+      "role": "template",
+      "snapshotHash": "39463084b165f29893a460a957d64032e6714bc71b10c53ec334885a04b422f9",
+      "sourceHash": "1bfa50a3a502f9394cf909bbfe0b4ab8a2efc981a23410f14555e7bc7dbb2ad9",
+      "at": "2026-09-11T16:10:38.964Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 55,
+      "phase": "setup",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:38.970Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 55,
+      "status": 200,
+      "elapsedMs": 274.0654999999997,
+      "unknown": false,
+      "at": "2026-09-11T16:10:39.247Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:10:39.255Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 56,
+      "phase": "setup",
+      "operation": "getPartStudioBodyDetails",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:39.262Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 56,
+      "status": 200,
+      "elapsedMs": 1064.7330000000002,
+      "unknown": false,
+      "at": "2026-09-11T16:10:40.329Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 57,
+      "phase": "setup",
+      "operation": "getPartStudioMassProperties",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:40.362Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 57,
+      "status": 200,
+      "elapsedMs": 1205.2672000000002,
+      "unknown": false,
+      "at": "2026-09-11T16:10:41.570Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 58,
+      "phase": "setup",
+      "operation": "getPartStudioBoundingBoxes",
+      "createsDocument": false,
+      "at": "2026-09-11T16:10:41.603Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 58,
+      "status": 200,
+      "elapsedMs": 213.2360000000008,
+      "unknown": false,
+      "at": "2026-09-11T16:10:41.819Z"
+    },
+    {
+      "kind": "phase-done",
+      "phase": "setup",
+      "stateHash": "d05d9a909693a7e4d9a74b5b42ff1b53c9c84bff38f56e38a061beb8c2a82050",
+      "elapsedMs": 6889.0588,
+      "at": "2026-09-11T16:10:41.875Z"
+    },
+    {
+      "kind": "phase-start",
+      "phase": "copy",
+      "at": "2026-09-11T16:11:03.242Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 59,
+      "phase": "copy",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:03.256Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 59,
+      "status": 200,
+      "elapsedMs": 956.3182,
+      "unknown": false,
+      "at": "2026-09-11T16:11:04.215Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:11:04.244Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 60,
+      "phase": "copy",
+      "operation": "copyWorkspace",
+      "createsDocument": true,
+      "at": "2026-09-11T16:11:04.272Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 60,
+      "status": 200,
+      "elapsedMs": 7270.9292000000005,
+      "unknown": false,
+      "at": "2026-09-11T16:11:11.547Z"
+    },
+    {
+      "kind": "document",
+      "role": "copy",
+      "did": "2db9a7eda58817bb0ba921b8",
+      "wid": "511535852de274d393a2ea6c",
+      "creationSequence": 60,
+      "sourceRole": "template",
+      "at": "2026-09-11T16:11:11.576Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 61,
+      "phase": "copy",
+      "operation": "getDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:11.582Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 61,
+      "status": 200,
+      "elapsedMs": 331.98779999999897,
+      "unknown": false,
+      "at": "2026-09-11T16:11:11.919Z"
+    },
+    {
+      "kind": "visibility",
+      "role": "copy",
+      "isPublic": true,
+      "at": "2026-09-11T16:11:11.947Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 62,
+      "phase": "copy",
+      "operation": "getElementsInDocument",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:11.951Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 62,
+      "status": 200,
+      "elapsedMs": 227.44859999999971,
+      "unknown": false,
+      "at": "2026-09-11T16:11:12.181Z"
+    },
+    {
+      "kind": "element",
+      "role": "copy",
+      "eid": "87e35d1bfe08c90c7ac97c4f",
+      "at": "2026-09-11T16:11:12.212Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 63,
+      "phase": "copy",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:12.216Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 63,
+      "status": 200,
+      "elapsedMs": 237.9478999999992,
+      "unknown": false,
+      "at": "2026-09-11T16:11:12.456Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "1ea7d029ed7e39a5fdbffec2",
+      "at": "2026-09-11T16:11:12.489Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 64,
+      "phase": "copy",
+      "operation": "getPartStudioBodyDetails",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:12.498Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 64,
+      "status": 200,
+      "elapsedMs": 248.58560000000034,
+      "unknown": false,
+      "at": "2026-09-11T16:11:12.749Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 65,
+      "phase": "copy",
+      "operation": "getPartStudioMassProperties",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:12.783Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 65,
+      "status": 200,
+      "elapsedMs": 2046.8631000000005,
+      "unknown": false,
+      "at": "2026-09-11T16:11:14.833Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 66,
+      "phase": "copy",
+      "operation": "getPartStudioBoundingBoxes",
+      "createsDocument": false,
+      "at": "2026-09-11T16:11:14.888Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 66,
+      "status": 200,
+      "elapsedMs": 234.23809999999867,
+      "unknown": false,
+      "at": "2026-09-11T16:11:15.125Z"
+    },
+    {
+      "kind": "phase-done",
+      "phase": "copy",
+      "stateHash": "61f1806bf18d059b39698ebbb29c83c84e6a3dca86e03f72164de1dd60a7f484",
+      "elapsedMs": 11917.203,
+      "at": "2026-09-11T16:11:15.183Z"
+    },
+    {
+      "kind": "phase-start",
+      "phase": "simulated-editor",
+      "at": "2026-09-11T16:21:58.278Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 67,
+      "phase": "simulated-editor",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:21:58.313Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 67,
+      "status": 200,
+      "elapsedMs": 1204.4448,
+      "unknown": false,
+      "at": "2026-09-11T16:21:59.522Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "1ea7d029ed7e39a5fdbffec2",
+      "at": "2026-09-11T16:21:59.593Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 68,
+      "phase": "simulated-editor",
+      "operation": "updateFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:21:59.610Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 68,
+      "status": 200,
+      "elapsedMs": 2900.6729000000005,
+      "unknown": false,
+      "at": "2026-09-11T16:22:02.514Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "7d8bf64f9b37774e435b2392",
+      "at": "2026-09-11T16:22:02.547Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 68,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:22:02.550Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 69,
+      "phase": "simulated-editor",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:02.562Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 69,
+      "status": 200,
+      "elapsedMs": 532.5896000000002,
+      "unknown": false,
+      "at": "2026-09-11T16:22:03.098Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "2b39c14640ef311c5be7dc34",
+      "at": "2026-09-11T16:22:03.130Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 69,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:22:03.133Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 70,
+      "phase": "simulated-editor",
+      "operation": "addPartStudioFeature",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:03.138Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 70,
+      "status": 200,
+      "elapsedMs": 435.70799999999963,
+      "unknown": false,
+      "at": "2026-09-11T16:22:03.576Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "d5103a4786f576d65df1505d",
+      "at": "2026-09-11T16:22:03.606Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 70,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:22:03.609Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 71,
+      "phase": "simulated-editor",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:03.613Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 71,
+      "status": 200,
+      "elapsedMs": 357.9837000000007,
+      "unknown": false,
+      "at": "2026-09-11T16:22:03.974Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "d5103a4786f576d65df1505d",
+      "at": "2026-09-11T16:22:04.018Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 72,
+      "phase": "simulated-editor",
+      "operation": "getPartStudioBodyDetails",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:04.024Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 72,
+      "status": 200,
+      "elapsedMs": 231.44620000000032,
+      "unknown": false,
+      "at": "2026-09-11T16:22:04.259Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 73,
+      "phase": "simulated-editor",
+      "operation": "getPartStudioMassProperties",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:04.294Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 73,
+      "status": 200,
+      "elapsedMs": 388.5596999999998,
+      "unknown": false,
+      "at": "2026-09-11T16:22:04.685Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 74,
+      "phase": "simulated-editor",
+      "operation": "getPartStudioBoundingBoxes",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:04.724Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 74,
+      "status": 200,
+      "elapsedMs": 352.6741999999995,
+      "unknown": false,
+      "at": "2026-09-11T16:22:05.080Z"
+    },
+    {
+      "kind": "phase-done",
+      "phase": "simulated-editor",
+      "stateHash": "068180325c2cc3c5dd5a96c673d163e8e064b7412537eaf5590e7bcbb5c0eed8",
+      "elapsedMs": 6819.596799999999,
+      "at": "2026-09-11T16:22:05.156Z"
+    },
+    {
+      "kind": "phase-start",
+      "phase": "revision",
+      "at": "2026-09-11T16:22:11.801Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 75,
+      "phase": "revision",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:11.835Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 75,
+      "status": 200,
+      "elapsedMs": 548.1551999999999,
+      "unknown": false,
+      "at": "2026-09-11T16:22:12.387Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "d5103a4786f576d65df1505d",
+      "at": "2026-09-11T16:22:12.419Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 76,
+      "phase": "revision",
+      "operation": "updateFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:12.478Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 76,
+      "status": 200,
+      "elapsedMs": 361.53719999999987,
+      "unknown": false,
+      "at": "2026-09-11T16:22:12.842Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "ae2732bc911e3cf419bf1a7d",
+      "at": "2026-09-11T16:22:12.848Z"
+    },
+    {
+      "kind": "inherited-library-version",
+      "sequence": 76,
+      "value": 3070,
+      "reason": "mutation response uses zero sentinel; retain guarded request library",
+      "at": "2026-09-11T16:22:12.851Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 77,
+      "phase": "revision",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:12.857Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 77,
+      "status": 200,
+      "elapsedMs": 241.33880000000022,
+      "unknown": false,
+      "at": "2026-09-11T16:22:13.101Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "copy",
+      "value": "ae2732bc911e3cf419bf1a7d",
+      "at": "2026-09-11T16:22:13.134Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 78,
+      "phase": "revision",
+      "operation": "getPartStudioBodyDetails",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:13.160Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 78,
+      "status": 200,
+      "elapsedMs": 235.69629999999984,
+      "unknown": false,
+      "at": "2026-09-11T16:22:13.399Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 79,
+      "phase": "revision",
+      "operation": "getPartStudioMassProperties",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:13.435Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 79,
+      "status": 200,
+      "elapsedMs": 252.8943999999999,
+      "unknown": false,
+      "at": "2026-09-11T16:22:13.691Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 80,
+      "phase": "revision",
+      "operation": "getPartStudioBoundingBoxes",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:13.726Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 80,
+      "status": 200,
+      "elapsedMs": 215.22810000000027,
+      "unknown": false,
+      "at": "2026-09-11T16:22:13.945Z"
+    },
+    {
+      "kind": "phase-done",
+      "phase": "revision",
+      "stateHash": "41e591a55729dc6915e8c28b7942bdf31162329d960571d980bfa6c9824fad66",
+      "elapsedMs": 2141.5516000000002,
+      "at": "2026-09-11T16:22:14.026Z"
+    },
+    {
+      "kind": "phase-start",
+      "phase": "validation",
+      "at": "2026-09-11T16:22:21.012Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 81,
+      "phase": "validation",
+      "operation": "getPartStudioFeatures",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:21.023Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 81,
+      "status": 200,
+      "elapsedMs": 776.7782,
+      "unknown": false,
+      "at": "2026-09-11T16:22:21.803Z"
+    },
+    {
+      "kind": "microversion",
+      "role": "template",
+      "value": "43b8e4916a8e7e781726665a",
+      "at": "2026-09-11T16:22:21.835Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 82,
+      "phase": "validation",
+      "operation": "getPartStudioBodyDetails",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:21.853Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 82,
+      "status": 200,
+      "elapsedMs": 1079.0178,
+      "unknown": false,
+      "at": "2026-09-11T16:22:22.935Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 83,
+      "phase": "validation",
+      "operation": "getPartStudioMassProperties",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:22.953Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 83,
+      "status": 200,
+      "elapsedMs": 1055.6864999999998,
+      "unknown": false,
+      "at": "2026-09-11T16:22:24.012Z"
+    },
+    {
+      "kind": "attempt",
+      "sequence": 84,
+      "phase": "validation",
+      "operation": "getPartStudioBoundingBoxes",
+      "createsDocument": false,
+      "at": "2026-09-11T16:22:24.042Z"
+    },
+    {
+      "kind": "outcome",
+      "sequence": 84,
+      "status": 200,
+      "elapsedMs": 232.94620000000032,
+      "unknown": false,
+      "at": "2026-09-11T16:22:24.279Z"
+    },
+    {
+      "kind": "phase-done",
+      "phase": "validation",
+      "stateHash": "6326f3f3eadf470d0618243c398136239d2cae9228cc96890fc2449e0e82eb0b",
+      "elapsedMs": 3307.7161,
+      "at": "2026-09-11T16:22:24.362Z"
+    }
+  ]
+}

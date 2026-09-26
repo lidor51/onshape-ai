@@ -1,0 +1,98 @@
+{
+  "schema": "coral-cots-integration-check/v1",
+  "status": "PASS",
+  "networkRequests": 0,
+  "products": {
+    "spline_pinion": {
+      "status": "PASS",
+      "validSolids": 1,
+      "attachmentAxisCylinderMatches": 12,
+      "attachmentBoundsMm": [
+        -8.70240299150794,
+        -8.702402991507936,
+        -9.525000100000002,
+        8.702402991507936,
+        8.70240299150794,
+        9.525000100000002
+      ],
+      "volumeMm3": 2167.706131596158,
+      "masterReexported": false
+    },
+    "hex_output_gear": {
+      "status": "PASS",
+      "validSolids": 1,
+      "attachmentAxisCylinderMatches": 60,
+      "attachmentBoundsMm": [
+        -39.34212958443025,
+        -39.34212958443026,
+        -6.324600000000005,
+        39.34212958443025,
+        39.34212958443025,
+        6.324599999999999
+      ],
+      "volumeMm3": 19358.502488121798,
+      "masterReexported": false
+    },
+    "x44": {
+      "status": "PASS",
+      "validSolids": 2,
+      "attachmentAxisCylinderMatches": 2,
+      "attachmentBoundsMm": [
+        -22.000000100000005,
+        -25.400000100000014,
+        -74.61250010000572,
+        22.000000100000005,
+        22.0000001,
+        37.357050099999995
+      ],
+      "volumeMm3": 114622.94882400305,
+      "masterReexported": false
+    },
+    "hex_bearing": {
+      "status": "PASS",
+      "validSolids": 1,
+      "attachmentAxisCylinderMatches": 2,
+      "attachmentBoundsMm": [
+        -15.557500099999997,
+        -15.557500099999997,
+        -6.35,
+        15.557500099999997,
+        15.557500099999997,
+        1.5875000000000012
+      ],
+      "volumeMm3": 3985.8595418071236,
+      "masterReexported": false
+    },
+    "indexer_wheel": {
+      "status": "PASS",
+      "validSolids": 2,
+      "attachmentAxisCylinderMatches": 1,
+      "attachmentBoundsMm": [
+        -38.1000001,
+        -38.1000001,
+        -12.700000100000008,
+        38.1000001,
+        38.1000001,
+        12.70000010000002
+      ],
+      "volumeMm3": 58520.66054399835,
+      "masterReexported": false
+    },
+    "intake_star": {
+      "status": "PASS",
+      "validSolids": 3,
+      "attachmentAxisCylinderMatches": 2,
+      "attachmentBoundsMm": [
+        -63.58867172983535,
+        -63.588671729835355,
+        -6.350000000000003,
+        63.58867172983535,
+        63.588671729835355,
+        6.350000000000002
+      ],
+      "volumeMm3": 33976.763717500806,
+      "masterReexported": false
+    }
+  },
+  "assemblyFitApproved": false
+}

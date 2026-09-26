@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Subsystem A/B browser handoff result",
+  "type": "object",
+  "required": ["schemaVersion", "recordScope", "sharedPacketSha256", "dependenciesWaiting", "documentationReady", "comparison", "arms"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "recordScope": { "type": "string" },
+    "sharedPacketSha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+    "dependenciesWaiting": { "type": "boolean" },
+    "documentationReady": { "type": "boolean" },
+    "comparison": {
+      "type": "object",
+      "required": ["status", "pairedAttempts", "relativeSpeed", "successRateDifference", "rank"],
+      "properties": {
+        "status": { "$ref": "#/$defs/status" },
+        "pairedAttempts": { "$ref": "#/$defs/count" },
+        "relativeSpeed": { "$ref": "#/$defs/nonnegative" },
+        "successRateDifference": { "type": ["number", "null"], "minimum": -1, "maximum": 1 },
+        "rank": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "arms": {
+      "type": "object",
+      "required": ["browser", "api"],
+      "properties": { "browser": { "$ref": "#/$defs/arm" }, "api": { "$ref": "#/$defs/arm" } },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "status": { "enum": ["PASS", "FAIL", "BLOCKED", "UNVERIFIED"] },
+    "count": { "type": ["integer", "null"], "minimum": 0 },
+    "nonnegative": { "type": ["number", "null"], "minimum": 0 },
+    "metrics": {
+      "type": "object",
+      "required": ["successRate", "latencyMs", "wallTimeMs", "activeTimeMs", "interventions", "score"],
+      "properties": {
+        "successRate": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "latencyMs": { "$ref": "#/$defs/nonnegative" },
+        "wallTimeMs": { "$ref": "#/$defs/nonnegative" },
+        "activeTimeMs": { "$ref": "#/$defs/nonnegative" },
+        "interventions": { "$ref": "#/$defs/count" },
+        "score": { "type": ["number", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "phase": {
+      "type": "object",
+      "required": ["id", "status", "reasonCode", "attempts", "successes", "failures", "recoveries", "wallTimeMs", "interventions", "evidence"],
+      "properties": {
+        "id": { "type": "string" },
+        "status": { "$ref": "#/$defs/status" },
+        "reasonCode": { "type": "string" },
+        "attempts": { "$ref": "#/$defs/count" },
+        "successes": { "$ref": "#/$defs/count" },
+        "failures": { "$ref": "#/$defs/count" },
+        "recoveries": { "$ref": "#/$defs/count" },
+        "wallTimeMs": { "$ref": "#/$defs/nonnegative" },
+        "interventions": { "$ref": "#/$defs/count" },
+        "evidence": { "type": ["array", "null"], "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "arm": {
+      "type": "object",
+      "required": ["route", "status", "executionAttempted", "documentUrl", "metrics", "phases"],
+      "properties": {
+        "route": { "type": "string" },
+        "status": { "$ref": "#/$defs/status" },
+        "executionAttempted": { "type": ["boolean", "null"] },
+        "documentUrl": { "type": ["string", "null"] },
+        "metrics": { "$ref": "#/$defs/metrics" },
+        "phases": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/phase" } }
+      },
+      "additionalProperties": false,
+      "allOf": [{
+        "if": { "properties": { "executionAttempted": { "enum": [false, null] } } },
+        "then": {
+          "properties": {
+            "status": { "enum": ["BLOCKED", "UNVERIFIED"] },
+            "documentUrl": { "type": "null" },
+            "metrics": { "additionalProperties": { "type": "null" } },
+            "phases": { "items": { "properties": {
+              "status": { "enum": ["BLOCKED", "UNVERIFIED"] },
+              "attempts": { "type": "null" }, "successes": { "type": "null" },
+              "failures": { "type": "null" }, "recoveries": { "type": "null" },
+              "wallTimeMs": { "type": "null" }, "interventions": { "type": "null" },
+              "evidence": { "type": "null" }
+            } } }
+          }
+        }
+      }]
+    }
+  }
+}

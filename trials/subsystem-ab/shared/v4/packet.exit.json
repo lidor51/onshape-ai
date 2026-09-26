@@ -1,0 +1,14 @@
+{
+  "entry": "packet.py",
+  "args": [
+    "--finalize-existing"
+  ],
+  "interpreter": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+  "started": "2026-09-13T09:56:46.070Z",
+  "ended": "2026-09-13T09:58:03.244Z",
+  "wallSeconds": 77.174,
+  "wallLimitMs": 600000,
+  "timedOut": false,
+  "signal": null,
+  "exitCode": 2
+}

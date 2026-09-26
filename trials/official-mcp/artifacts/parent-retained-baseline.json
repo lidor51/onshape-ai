@@ -1,0 +1,25 @@
+{
+  "evidenceClass": "PARENT_ATTRIBUTED_TOOL_OUTCOMES_NOT_RAW_RESPONSES",
+  "parentReportedDate": "2026-09-11",
+  "documentId": "f92dc90f7c052de045dd2c4f",
+  "workspaceId": "b60d9355149429c9c55f69c8",
+  "partStudioId": "d0a579bf1b84bc1e68e06e90",
+  "featureStudioId": "66e03cc911623af502c718c4",
+  "featureId": "FQxpC8Q8LkpIQvt_0",
+  "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb",
+  "ownershipBasis": "Parent reports this exact branch was newly created by official create_geometry with clean:false in the managed public document.",
+  "operations": [
+    { "tool": "test_feature", "outcome": "Parent reports final numeric geometry-only baseline passed with no notices", "libraryVersion": 3070, "sourceMicroversion": "f7ae35ac5545c9d2210f0e83" },
+    { "tool": "create_geometry", "clean": false, "outcome": "Parent reports retained branch creation succeeded", "returnedImageCount": 3, "parentVisualAssessment": "Top, front and left views visibly correct" },
+    { "tool": "get_featurescript", "outcome": "Parent reports persisted source matched baseline semantics; whitespace differs from the local source artifact" }
+  ],
+  "baselineConsole": "baseline-live-console.txt",
+  "parentValidatorResult": { "status": "PASS_MEASUREMENTS_ONLY", "partCount": 9, "holesPerPlate": [5, 5] },
+  "parentReportedQuota": { "used": 446, "limit": 2500, "remaining": 2054 },
+  "officialPlanningReserve": 100,
+  "parentApproximateRequestsAlreadyUsed": 59,
+  "managedDiscoveryRequestsAlreadyUsed": 8,
+  "rawToolResponsesCapturedHere": false,
+  "rawToolResponseHashesKnown": false,
+  "supplementAuthorization": "Read-only REST verification and PNG/STEP export of this exact new managed branch only; measurement POST allowed; no source, feature, document, deletion or sharing writes. Twelve requests per phase and twenty-four cumulative, inside the official reserve."
+}

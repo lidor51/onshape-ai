@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="820" viewBox="0 0 1260 820" role="img" aria-labelledby="title desc">
+<title id="title">Proposed coral acquisition and handoff architecture</title>
+<desc id="desc">Not-to-scale functional sketch: deployable pickup, independent alignment, single-coral cradle, and rough receiver on a blank chassis. Physical clearance is unverified.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#245c4a"/></marker></defs>
+<rect width="1260" height="820" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#18211f">
+<text x="40" y="45" font-size="27" font-weight="bold">Concept A: separate pickup, orientation and handoff</text>
+<text x="40" y="77" font-size="16">FUNCTIONAL SKETCH ONLY - NOT TO SCALE - NO SWEPT-CLEARANCE OR ACQUISITION PASS</text>
+<rect x="460" y="126" width="752" height="376" fill="#f4f6f5" stroke="#65746c" stroke-width="3"/>
+<text x="486" y="155" font-size="18">Blank chassis / reference structure</text>
+<text x="486" y="480" font-size="16">700 x 760 mm starting reference, dimensions provisional; bumper geometry not drawn</text>
+<rect x="65" y="222" width="135" height="77" rx="4" fill="#f8e7c5" stroke="#997531" stroke-width="2"/>
+<text x="84" y="253" font-size="19">Floor coral</text><text x="84" y="278" font-size="15">varied entry pose</text>
+<rect x="245" y="196" width="236" height="134" rx="4" fill="#d9ece3" stroke="#245c4a" stroke-width="2"/>
+<text x="266" y="232" font-size="20">Deployable pickup</text><text x="266" y="260" font-size="16">floating contact candidate</text><text x="266" y="287" font-size="16">drive and pivot separate</text>
+<path d="M200,259 H242 M482,259 H519 M752,259 H789 M1010,259 H1055" fill="none" stroke="#245c4a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="522" y="196" width="230" height="134" rx="4" fill="#d9ece3" stroke="#245c4a" stroke-width="2"/>
+<text x="541" y="232" font-size="20">Orientation stage</text><text x="541" y="260" font-size="16">independent side drives</text><text x="541" y="287" font-size="16">opposed jam recovery</text>
+<rect x="793" y="196" width="217" height="134" rx="4" fill="#e2e9f3" stroke="#496387" stroke-width="2"/>
+<text x="810" y="232" font-size="20">Single-coral cradle</text><text x="810" y="260" font-size="16">locate, retain and wait</text><text x="810" y="287" font-size="16">receiver-confirmed release</text>
+<rect x="1061" y="195" width="117" height="208" rx="4" fill="#ffffff" stroke="#496387" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1076" y="231" font-size="17">Receiver</text><text x="1076" y="258" font-size="15">placeholder</text><text x="1076" y="285" font-size="15">not 2910</text><text x="1076" y="309" font-size="15">reconstruction</text>
+<path d="M1114,405 V434 H894 V333" fill="none" stroke="#496387" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="778" y="458" font-size="15">ready + aligned + same-piece retention confirmed</text>
+<text x="41" y="546" font-size="21" font-weight="bold">Interfaces to resolve before detailed CAD</text>
+<text x="41" y="580" font-size="17">1. Stow and deploy around a complete bumper; no intake notch or precision-bent bracket assumption.</text>
+<text x="41" y="610" font-size="17">2. Define coral exit position/orientation and a shared tolerance budget with the rough receiving mechanism.</text>
+<text x="41" y="640" font-size="17">3. Hold one piece while the receiver is unavailable; lock out another pickup while any robot stage holds coral.</text>
+<text x="41" y="670" font-size="17">4. Establish physical jam-clear, disabled release, cable travel, stiffness and service-access tests.</text>
+<text x="41" y="717" font-size="20" font-weight="bold">Concept B comparator</text>
+<text x="41" y="747" font-size="17">A raising intake centers and presents coral directly; fewer transfer stages are possible, but handoff depends</text>
+<text x="41" y="775" font-size="17">more strongly on its motion and the receiver pose. Not rejected until matched transfer tests are available.</text>
+</g></svg>

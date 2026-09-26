@@ -1,0 +1,1264 @@
+{
+  "status": "TASK_SPECIFIC_GEOMETRIC_STUDY",
+  "robotCount": 10,
+  "taskCount": 118,
+  "phasesAvailable": 3,
+  "apiCalls": 0,
+  "cadKernelRuns": 0,
+  "fieldFixed": true,
+  "fullMotionProven": false,
+  "files": [
+    {
+      "id": "R01",
+      "task": "stow",
+      "file": "task-R01-stow.png",
+      "sha256": "7875b226f6d10a3413b56db8fcf0d68f97fa9214f2695892d2464ac4a5c00c6d",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R01",
+      "task": "coral-station",
+      "file": "task-R01-coral-station.png",
+      "sha256": "fc8ca29f97e396e742abf7f81d7aec8a0568994ad8b9afa3ae027272f956144d",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 105
+    },
+    {
+      "id": "R01",
+      "task": "coral-floor",
+      "file": "task-R01-coral-floor.png",
+      "sha256": "664f280a9a96db66666a06c5167b42eb411e8cc2ccbd4fcf83a13c27b923f336",
+      "width": 1200,
+      "height": 900,
+      "status": "GEOMETRIC_CONTACT_PROPOSAL",
+      "standOffMm": 215
+    },
+    {
+      "id": "R01",
+      "task": "coral-l1",
+      "file": "task-R01-coral-l1.png",
+      "sha256": "5166f0bcc812f36adf5e4ef033626bd5a96476c39c04dda8bc3429d1e6a5ec46",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 200
+    },
+    {
+      "id": "R01",
+      "task": "coral-l2",
+      "file": "task-R01-coral-l2.png",
+      "sha256": "9150b8dc9011c78e7f2efc0e4e377ed4b217a6d610fe4d032778cbbb86da6ac0",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 220.02944945089325
+    },
+    {
+      "id": "R01",
+      "task": "coral-l3",
+      "file": "task-R01-coral-l3.png",
+      "sha256": "f9d688a109e0aaa78a8f9e449385ba470ec7f92682b0535d52296bf1d6c52a6f",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 220.02944945089325
+    },
+    {
+      "id": "R01",
+      "task": "coral-l4",
+      "file": "task-R01-coral-l4.png",
+      "sha256": "2e2fc8d5f84fcf98568cb8289f230263fa2009d94c5d58c5d2252b6a511aad5b",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 76.42500000000001
+    },
+    {
+      "id": "R01",
+      "task": "algae-low",
+      "file": "task-R01-algae-low.png",
+      "sha256": "78772539c7ddda05643fb6cfeca3b465b01ba24bca1a441dae59cf15a5b2356e",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R01",
+      "task": "algae-high",
+      "file": "task-R01-algae-high.png",
+      "sha256": "63a1d8fca16ba25417455f0fbc677ec954bd3f4430350e816f3dd3201ea6180f",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R01",
+      "task": "algae-floor",
+      "file": "task-R01-algae-floor.png",
+      "sha256": "37f5aecce28fe86c45a692fe8cc809762bc237200361464933168af251c5271c",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R01",
+      "task": "processor",
+      "file": "task-R01-processor.png",
+      "sha256": "257dc4596697133ed0ebb9d86bc4dac6cd5efa93006236d90657bdcc068bc5d5",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R01",
+      "task": "climb",
+      "file": "task-R01-climb.png",
+      "sha256": "a94de9cf883a97157ca00c631b348db9173d6d21823cbd52b7eefd8d66b89f0f",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R02",
+      "task": "stow",
+      "file": "task-R02-stow.png",
+      "sha256": "27b498738ef3e7bd692bc2c9ca8f02dcb5de24bff7abf615412d9c32b6fc496f",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R02",
+      "task": "coral-station",
+      "file": "task-R02-coral-station.png",
+      "sha256": "46b919ed5f663f9f67b3420b6d9b7f2c9d5003f9029968cc654a6116b564682b",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 85
+    },
+    {
+      "id": "R02",
+      "task": "coral-floor",
+      "file": "task-R02-coral-floor.png",
+      "sha256": "c7d10a3ce1ffceb069aefdd14a72e0af43a191c8d8ac5f0197a4c0c5c00b94cf",
+      "width": 1200,
+      "height": 900,
+      "status": "UNREACHABLE_WITH_CURRENT_LIMITS",
+      "standOffMm": 85
+    },
+    {
+      "id": "R02",
+      "task": "coral-l1",
+      "file": "task-R02-coral-l1.png",
+      "sha256": "757cd96c77255ea54d8e1a0c4bc9ab3c49ac044a6a4848afc755b6d2d3a89fee",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 180
+    },
+    {
+      "id": "R02",
+      "task": "coral-l2",
+      "file": "task-R02-coral-l2.png",
+      "sha256": "903b958215e69c7714983c4886708963c902f1575d67789f6c1778d8f1888fd8",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 200.02944945089325
+    },
+    {
+      "id": "R02",
+      "task": "coral-l3",
+      "file": "task-R02-coral-l3.png",
+      "sha256": "a2156dfbe0288d7c88f62a475c5eaf51840cfd9d9d85ef6a836011933d93a639",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 200.02944945089325
+    },
+    {
+      "id": "R02",
+      "task": "coral-l4",
+      "file": "task-R02-coral-l4.png",
+      "sha256": "4893e3809d5b9102b6ace3b847790511b05b9ebf6d1b5d156511cf1b57271322",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 56.42500000000001
+    },
+    {
+      "id": "R02",
+      "task": "algae-low",
+      "file": "task-R02-algae-low.png",
+      "sha256": "a45411ee8aaa5e13d79b3b80f7fb03f57c21711e2f7b8ecab11774f1c5a83dd8",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 355
+    },
+    {
+      "id": "R02",
+      "task": "algae-high",
+      "file": "task-R02-algae-high.png",
+      "sha256": "8dfa0913d99e42280f3d82e9a8a260a1e0b85c410067a18b39c2e06001aa5141",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 355
+    },
+    {
+      "id": "R02",
+      "task": "algae-floor",
+      "file": "task-R02-algae-floor.png",
+      "sha256": "a50a43c70522e4229bbe56e059049077c61e57ed31df8ba55e78551e93c5dd1e",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 355
+    },
+    {
+      "id": "R02",
+      "task": "processor",
+      "file": "task-R02-processor.png",
+      "sha256": "674233778a83ca7374d509e0ee3a9d86277dc5f5a1a59395cd459a00c26e4f75",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 355
+    },
+    {
+      "id": "R02",
+      "task": "net",
+      "file": "task-R02-net.png",
+      "sha256": "a7a072095b2d7142857b045f56204c79829a1f8f1ebbb0a772709945ac39593a",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 60
+    },
+    {
+      "id": "R02",
+      "task": "climb",
+      "file": "task-R02-climb.png",
+      "sha256": "1cbc1b79b009042ee74da9fb5b838d49e25d3ef557b2e50e766117a1ccbb1a9f",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R03",
+      "task": "stow",
+      "file": "task-R03-stow.png",
+      "sha256": "74ea0024a32d5ad1102772ae2d32af8e159c1de80765f113b1b8ed3be773c62f",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R03",
+      "task": "coral-station",
+      "file": "task-R03-coral-station.png",
+      "sha256": "d4c106b3aca92e0f267c2c49d06b2b72ff362ed13e78abedd310ae7265dafe57",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 85
+    },
+    {
+      "id": "R03",
+      "task": "coral-l1",
+      "file": "task-R03-coral-l1.png",
+      "sha256": "66f79093766e20297f2f6b69241828f1ff677bf28738236762e0361e58f31bac",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 180
+    },
+    {
+      "id": "R03",
+      "task": "coral-l2",
+      "file": "task-R03-coral-l2.png",
+      "sha256": "e910a493080f4175349f46d75822b3e83f67a92be3f363ef6e5c1ae661431561",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 200.02944945089325
+    },
+    {
+      "id": "R03",
+      "task": "coral-l3",
+      "file": "task-R03-coral-l3.png",
+      "sha256": "56dfb1db01b7155e59cb509d8b678561654c264df7fc00b558e072f8568ed94f",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 200.02944945089325
+    },
+    {
+      "id": "R03",
+      "task": "coral-l4",
+      "file": "task-R03-coral-l4.png",
+      "sha256": "c989ad828c7d26d49c815227f85fd6d100225eeb4b9d8157e2b795fa6848df0a",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 56.42500000000001
+    },
+    {
+      "id": "R03",
+      "task": "algae-low",
+      "file": "task-R03-algae-low.png",
+      "sha256": "a6174762b9b399414e045ca5506042bb3728ad3b9e576ba40c95b78eabdb704f",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R03",
+      "task": "algae-high",
+      "file": "task-R03-algae-high.png",
+      "sha256": "92864a53b8bed56a33602ed7c1d70c90c8d5932073f5171c64f932761c72c03c",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R03",
+      "task": "algae-floor",
+      "file": "task-R03-algae-floor.png",
+      "sha256": "c4da4154655236e3254ea170106ca92591492ea665bcae3c338ed50c643b2919",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R03",
+      "task": "processor",
+      "file": "task-R03-processor.png",
+      "sha256": "68d58d41bd8fb948317d90eb2b0ea581ffd94ae675d009dcfada80d2a77a80f7",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R03",
+      "task": "net",
+      "file": "task-R03-net.png",
+      "sha256": "5ebef37e552661651c715f2cedb80c99ceca67290d02b36b12c6dd7f48ae9b00",
+      "width": 1200,
+      "height": 900,
+      "status": "ASSUMED_IDEAL_SHOT",
+      "standOffMm": 1820
+    },
+    {
+      "id": "R03",
+      "task": "climb",
+      "file": "task-R03-climb.png",
+      "sha256": "aac1943d373d95d1ba7206862e981947ea226d90a9ed5cc94da5144fb6ab356f",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R04",
+      "task": "stow",
+      "file": "task-R04-stow.png",
+      "sha256": "ca710e4700cc885acc2247f1fa37f2ee2c4167e5309d24e33898c4c767d5b536",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R04",
+      "task": "coral-station",
+      "file": "task-R04-coral-station.png",
+      "sha256": "5c9d812c9396b8c7ed94ff225ce771eef8e7d2523e5b0e5f004988df2f32ede4",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 145
+    },
+    {
+      "id": "R04",
+      "task": "coral-floor",
+      "file": "task-R04-coral-floor.png",
+      "sha256": "9853171f35efb742ea9c6830da1b49c6b3199443a11963393615afc03d3bb275",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 145.0000000000001
+    },
+    {
+      "id": "R04",
+      "task": "coral-l1",
+      "file": "task-R04-coral-l1.png",
+      "sha256": "c9b5fd4bfdf6bc98604b9883d941b9bc2aea714c9bb9c932ea21af1aa9e13f59",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 189.20000000000016
+    },
+    {
+      "id": "R04",
+      "task": "coral-l2",
+      "file": "task-R04-coral-l2.png",
+      "sha256": "04346e21c70d20557a8a711d51349af6a7fd98ece4891a1c306e51823c9179bb",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 184.64061363993153
+    },
+    {
+      "id": "R04",
+      "task": "coral-l3",
+      "file": "task-R04-coral-l3.png",
+      "sha256": "783c36bc1b1e540c1838444446d14b0f664a85903d65c871cddfafe50237cb59",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 180.02944945089303
+    },
+    {
+      "id": "R04",
+      "task": "coral-l4",
+      "file": "task-R04-coral-l4.png",
+      "sha256": "4f2898ac7a6665586ea395dde717eb7ca6c7a560162d5fb1e23be8376f4f86dd",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 207.6249999999996
+    },
+    {
+      "id": "R04",
+      "task": "algae-low",
+      "file": "task-R04-algae-low.png",
+      "sha256": "bd34742b7c326933ff4a165af2a7e21488959bf28032b30bfe45a8ed9450e7cb",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 414.9999999999999
+    },
+    {
+      "id": "R04",
+      "task": "algae-high",
+      "file": "task-R04-algae-high.png",
+      "sha256": "e4e0e09c7d1c771f58998c4a1f80f24976da7fc967a0ffa2b7bc444d59941569",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 335.0000000000002
+    },
+    {
+      "id": "R04",
+      "task": "algae-floor",
+      "file": "task-R04-algae-floor.png",
+      "sha256": "a2d516d93d42441133cb4969755f046cc53bba1bff70e76a56c83166220bf93b",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 414.9999999999999
+    },
+    {
+      "id": "R04",
+      "task": "processor",
+      "file": "task-R04-processor.png",
+      "sha256": "aa6f32edcca07e1f1c9e68f234f2d378d9e61c661de7c6dfdf52909c9fb7d65a",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415.0000000000001
+    },
+    {
+      "id": "R04",
+      "task": "climb",
+      "file": "task-R04-climb.png",
+      "sha256": "cb4891ad6555214855aa69919e984730e532a77b546dcd5c5016d26d6b437521",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R05",
+      "task": "stow",
+      "file": "task-R05-stow.png",
+      "sha256": "1a60e19747e87f43f97f5f2f60bc2de230094df6c0bfbbb61179767815c3979a",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R05",
+      "task": "coral-station",
+      "file": "task-R05-coral-station.png",
+      "sha256": "9d5baafc1907172b9d48824bacbb5cbcd7d4e6fe83fb1075c6c7e1fe17383d54",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 135
+    },
+    {
+      "id": "R05",
+      "task": "coral-floor",
+      "file": "task-R05-coral-floor.png",
+      "sha256": "bf7a5c5b0d1a22302b47ec347a9456491a81e22e36b5639dec32c7ec1a01f598",
+      "width": 1200,
+      "height": 900,
+      "status": "GEOMETRIC_CONTACT_PROPOSAL",
+      "standOffMm": 215
+    },
+    {
+      "id": "R05",
+      "task": "coral-l1",
+      "file": "task-R05-coral-l1.png",
+      "sha256": "c664f9ffe5f1a95118e96e5d6e84a7b04d23d809396fa24b1e8f811ee7e2432e",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 230
+    },
+    {
+      "id": "R05",
+      "task": "coral-l2",
+      "file": "task-R05-coral-l2.png",
+      "sha256": "0a0f42d633a210552349449260a2e535f8e80594aafa8473380108ab0d19b8d2",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 250.02944945089325
+    },
+    {
+      "id": "R05",
+      "task": "coral-l3",
+      "file": "task-R05-coral-l3.png",
+      "sha256": "b1f22910323cc72b5eec31a0ac3b681b724db7824e1b08bb067a896abef6cc37",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 250.02944945089325
+    },
+    {
+      "id": "R05",
+      "task": "coral-l4",
+      "file": "task-R05-coral-l4.png",
+      "sha256": "630448ccd3a80c04f7d3248335883593f2c98986b6d9959474cdab8da84151f0",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 106.42500000000001
+    },
+    {
+      "id": "R05",
+      "task": "algae-low",
+      "file": "task-R05-algae-low.png",
+      "sha256": "7cae87a0e1a53e8a823a508a7b19c4e4e66ea21b3501d4add2784d013044fef0",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R05",
+      "task": "algae-floor",
+      "file": "task-R05-algae-floor.png",
+      "sha256": "056f66a3323c9981eb241c982afacccff516de759953e3e60eabbd822394cae4",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R05",
+      "task": "processor",
+      "file": "task-R05-processor.png",
+      "sha256": "dbce24285e49fb78d4cdce8c084788c2ca6eac2c9f3d9993c63534364d067df7",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R05",
+      "task": "climb",
+      "file": "task-R05-climb.png",
+      "sha256": "1ea6f47007f9bba6680c35d3ee451b1f45f39c70e67aa4967cba1da83a2b0d7a",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R06",
+      "task": "stow",
+      "file": "task-R06-stow.png",
+      "sha256": "ebb567230b72321621151839c18f29aec5051db0f5c1ab65a15957d8c32a7504",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R06",
+      "task": "coral-station",
+      "file": "task-R06-coral-station.png",
+      "sha256": "d9c1848565559f2be6ea7c5922bdd3bb3f44dacc6cf72d09f546f1da26c96a18",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 145
+    },
+    {
+      "id": "R06",
+      "task": "coral-floor",
+      "file": "task-R06-coral-floor.png",
+      "sha256": "b549d43e605eb58caecce621a368600a4da347cdc3dc2d83b8bc0ff63a27e983",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 145.0000000000001
+    },
+    {
+      "id": "R06",
+      "task": "coral-l1",
+      "file": "task-R06-coral-l1.png",
+      "sha256": "2d74df016d5cc037f54fe07024c2c5b87347af3e6e9c2c564470218fe76acfcc",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 189.20000000000016
+    },
+    {
+      "id": "R06",
+      "task": "coral-l2",
+      "file": "task-R06-coral-l2.png",
+      "sha256": "2562a6bd836fd789a62167f65f87474d0552da194f59fc24d79ba8c2732a07ae",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 184.64061363993153
+    },
+    {
+      "id": "R06",
+      "task": "coral-l3",
+      "file": "task-R06-coral-l3.png",
+      "sha256": "6b30781bb11c142bb9fe3baaa24a5eec7dcd5f200f90e58af3e5bd98fc50e80e",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 180.02944945089303
+    },
+    {
+      "id": "R06",
+      "task": "coral-l4",
+      "file": "task-R06-coral-l4.png",
+      "sha256": "ae24f9b576e2b383b65c885b94181e662da61d05fb6e6ad6eda5015813f490cc",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 207.6249999999996
+    },
+    {
+      "id": "R06",
+      "task": "algae-low",
+      "file": "task-R06-algae-low.png",
+      "sha256": "19c12f60d53e411674e47af9322e663da2395fc51e963ad0dc1053fde32d7965",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 414.9999999999999
+    },
+    {
+      "id": "R06",
+      "task": "algae-high",
+      "file": "task-R06-algae-high.png",
+      "sha256": "047c12e7da56371002b40551d6ff80751cd3e7f90db27d116399002253c62cf5",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 335.0000000000002
+    },
+    {
+      "id": "R06",
+      "task": "algae-floor",
+      "file": "task-R06-algae-floor.png",
+      "sha256": "e2a09111fe44e7ed13b7d7fe94333c12dffcb4dbaca3aa9e52672cc3aa52b9cd",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 414.9999999999999
+    },
+    {
+      "id": "R06",
+      "task": "processor",
+      "file": "task-R06-processor.png",
+      "sha256": "9aa8bebe578212b06768068c9454c2dd1bbe0dc93b8295620b48c20030f22f18",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415.0000000000001
+    },
+    {
+      "id": "R06",
+      "task": "net",
+      "file": "task-R06-net.png",
+      "sha256": "065ca53a1b296e4fe22d50577cae07567acf30823579e78e8785d7d1e569ca6b",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 82.2000000000013
+    },
+    {
+      "id": "R06",
+      "task": "park",
+      "file": "task-R06-park.png",
+      "sha256": "669621e30c1e0884496cd034c4516468b7b16d57d1ef121ad75295ddacdeed4b",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R07",
+      "task": "stow",
+      "file": "task-R07-stow.png",
+      "sha256": "e7eab4d52c9cbef7c11fbb17be8f77343a13f92dc3d38dba80128f399ab98860",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R07",
+      "task": "coral-station",
+      "file": "task-R07-coral-station.png",
+      "sha256": "8aaddde23ab4b7f4b090d41bc8763dca7d8567a15c5a8b822ce92c53ef65f98c",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 105
+    },
+    {
+      "id": "R07",
+      "task": "coral-floor",
+      "file": "task-R07-coral-floor.png",
+      "sha256": "e2ed3877b5e6b0dc9a540224c16c0e2f441f4f276a2a13bd7048e1276dd70cb0",
+      "width": 1200,
+      "height": 900,
+      "status": "GEOMETRIC_CONTACT_PROPOSAL",
+      "standOffMm": 215
+    },
+    {
+      "id": "R07",
+      "task": "coral-l1",
+      "file": "task-R07-coral-l1.png",
+      "sha256": "e5a17c53d1cbbfbbac989bd7b5edc2505c2c4a8ac9c3d9f7d268c4c124d9fe55",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 200
+    },
+    {
+      "id": "R07",
+      "task": "coral-l2",
+      "file": "task-R07-coral-l2.png",
+      "sha256": "19ca649a197dee0d4baaed4bc5123747b76c1c39732a8fad65c33e37c20cbf78",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 220.02944945089325
+    },
+    {
+      "id": "R07",
+      "task": "coral-l3",
+      "file": "task-R07-coral-l3.png",
+      "sha256": "5b2659c6e8216bff7eaa338d44b5a9f6e1297dbbdcc63251b62fd27241878f0b",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 220.02944945089325
+    },
+    {
+      "id": "R07",
+      "task": "algae-low",
+      "file": "task-R07-algae-low.png",
+      "sha256": "717904ac823c432083d57d6af4b1136731c21bad1d3df23cd660f3b304bdbe75",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 365
+    },
+    {
+      "id": "R07",
+      "task": "algae-high",
+      "file": "task-R07-algae-high.png",
+      "sha256": "8e8d6939075c04d56428d4f672077feba66c0441b8312d027c0fad3c16780ef4",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 285
+    },
+    {
+      "id": "R07",
+      "task": "algae-floor",
+      "file": "task-R07-algae-floor.png",
+      "sha256": "973c9e452112c0f5a114c758e51a7b1517505e26d3a48b36c7da0fb233de8212",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 365
+    },
+    {
+      "id": "R07",
+      "task": "processor",
+      "file": "task-R07-processor.png",
+      "sha256": "ec5319f8f266ca357342b5ee43bc82c8e94037a1a49eef413aa947bc01ecfaa5",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 365
+    },
+    {
+      "id": "R07",
+      "task": "climb",
+      "file": "task-R07-climb.png",
+      "sha256": "0a1317049756c66a09e9813d85ec54ffce11fa7008f40d36d5c9344431912368",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R08",
+      "task": "stow",
+      "file": "task-R08-stow.png",
+      "sha256": "a61fb82600eadb8ec7cc9eebd02b8e32b1147e50d7898eff56c1bad03ad8598f",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R08",
+      "task": "coral-station",
+      "file": "task-R08-coral-station.png",
+      "sha256": "b0666fd16ab52c48b7468d27d09482f08c35065e39beb48748f65500b65950f2",
+      "width": 1200,
+      "height": 900,
+      "status": "UNREACHABLE_WITH_CURRENT_LIMITS",
+      "standOffMm": -405
+    },
+    {
+      "id": "R08",
+      "task": "coral-floor",
+      "file": "task-R08-coral-floor.png",
+      "sha256": "b1fe7ca6b33d40b7d0dd1000ee3948d36f9da67c87f61815583bf127d6141883",
+      "width": 1200,
+      "height": 900,
+      "status": "GEOMETRIC_CONTACT_PROPOSAL",
+      "standOffMm": 215
+    },
+    {
+      "id": "R08",
+      "task": "coral-l1",
+      "file": "task-R08-coral-l1.png",
+      "sha256": "e8527c0d73190bdd74ff4e3f8db7e7708888e04f8959a6b38e8e1b458773f699",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 352.25076632647244
+    },
+    {
+      "id": "R08",
+      "task": "coral-l2",
+      "file": "task-R08-coral-l2.png",
+      "sha256": "98d04f9af4710758c64e6f982f982ede3242421a9ffc3e5598a64027ba27674c",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 120.94485451701894
+    },
+    {
+      "id": "R08",
+      "task": "algae-floor",
+      "file": "task-R08-algae-floor.png",
+      "sha256": "9afac00eefdad4ba9ca23004263a2c83d9c8b9fd634743aa7280fb1e78088884",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R08",
+      "task": "algae-low",
+      "file": "task-R08-algae-low.png",
+      "sha256": "0bef089a806a42a3861a4d5769da9618f07fb9eeef2f2627bebef6cdfba39aea",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R08",
+      "task": "processor",
+      "file": "task-R08-processor.png",
+      "sha256": "eaf7c9bbac5514167829f6734298cd1a51ba839c89a6912fa4ba7cb0a73b7999",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R08",
+      "task": "climb",
+      "file": "task-R08-climb.png",
+      "sha256": "43f694a5138b50a98b496ac46f7651a1e523800abef006826bd269e964814317",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R09",
+      "task": "stow",
+      "file": "task-R09-stow.png",
+      "sha256": "65edf5bf284b4480cc1ee47cfa20d4efb4c574528b1b2f833f96ecd1520cb8e1",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R09",
+      "task": "coral-station",
+      "file": "task-R09-coral-station.png",
+      "sha256": "01133630d537fd1dce6f02b8245f7ee747752d216abb887c6005558d3f2eccfe",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 268.20000000000005
+    },
+    {
+      "id": "R09",
+      "task": "coral-floor",
+      "file": "task-R09-coral-floor.png",
+      "sha256": "a9046dd440155644439caa87b882c5cfbcf397cb71b466d6fba7a6a5c7a8a18c",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 268.20000000000005
+    },
+    {
+      "id": "R09",
+      "task": "coral-l1",
+      "file": "task-R09-coral-l1.png",
+      "sha256": "60e7e7000516ef736bf658eeb49563fb476e37e570ab65973d962004ed0dfc22",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 189.20000000000005
+    },
+    {
+      "id": "R09",
+      "task": "coral-l2",
+      "file": "task-R09-coral-l2.png",
+      "sha256": "7317076bf98547bd834e8f1b65ff7804f175caed90abf3c0c9aa58569c057355",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 184.64061363993164
+    },
+    {
+      "id": "R09",
+      "task": "coral-l3",
+      "file": "task-R09-coral-l3.png",
+      "sha256": "cb2eff98d021c636bf2010fb05fedd7c07b60e8e553a1452dad8f795a2c14d2b",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 184.64061363993164
+    },
+    {
+      "id": "R09",
+      "task": "algae-low",
+      "file": "task-R09-algae-low.png",
+      "sha256": "f721ef815143b61df12fb63dcb0dc3e9d57c32338c6b7973f4af955ee39668ae",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R09",
+      "task": "algae-high",
+      "file": "task-R09-algae-high.png",
+      "sha256": "fe56d53369f87238a39022580a0308f6ce4b00800e4ed8d3e70383235697910b",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R09",
+      "task": "algae-floor",
+      "file": "task-R09-algae-floor.png",
+      "sha256": "01c31510c77048423f6b2c6b73bde273f4099a3fee51a41209ef6f573bc0845f",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R09",
+      "task": "processor",
+      "file": "task-R09-processor.png",
+      "sha256": "6c77d9cbcdebd17037da32b4ddd9784ef782eb1c045bfdd8f5dd5e5fe622d9d7",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R09",
+      "task": "net",
+      "file": "task-R09-net.png",
+      "sha256": "e4de7ba2af0b3dc509202ad8359aa8e8bdc3f76a90f576a5f92fcb60074ea8df",
+      "width": 1200,
+      "height": 900,
+      "status": "ASSUMED_IDEAL_SHOT",
+      "standOffMm": 1820
+    },
+    {
+      "id": "R09",
+      "task": "climb",
+      "file": "task-R09-climb.png",
+      "sha256": "a4c4b14e1a3e7ef20c0c2a74799d51acd05e7afa034968fb10661402ece587c7",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R10",
+      "task": "stow",
+      "file": "task-R10-stow.png",
+      "sha256": "040ade101e382fb45bcf41e7a40a4cad83b2c0cba4b75c1de222150070e0e3a5",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R10",
+      "task": "coral-station",
+      "file": "task-R10-coral-station.png",
+      "sha256": "35f10313d698c7e51436da0323df5a3c4106ce5f1c80822c722c64e631171d22",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 114.99999999999989
+    },
+    {
+      "id": "R10",
+      "task": "coral-floor",
+      "file": "task-R10-coral-floor.png",
+      "sha256": "3c18aad8efd7fd1633e4698c623f295f0b8637dbd80d93d7fa1d524b4adb6f64",
+      "width": 1200,
+      "height": 900,
+      "status": "UNREACHABLE_WITH_CURRENT_LIMITS",
+      "standOffMm": 114.99999999999989
+    },
+    {
+      "id": "R10",
+      "task": "coral-l1",
+      "file": "task-R10-coral-l1.png",
+      "sha256": "ed03f28dfc278af949a842a9a4cfa630542ba520d7ac3d2abec4645153f73e46",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 210
+    },
+    {
+      "id": "R10",
+      "task": "coral-l2",
+      "file": "task-R10-coral-l2.png",
+      "sha256": "a6388119f3e1224a4fd64b3e950d0fdddc7af942f52a15e92d7e0eb2bba4898f",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 230.02944945089325
+    },
+    {
+      "id": "R10",
+      "task": "coral-l3",
+      "file": "task-R10-coral-l3.png",
+      "sha256": "401dc7913d97b712d9f8d27d20696dfd552ad00a0efb876d52b223a086f25898",
+      "width": 1200,
+      "height": 900,
+      "status": "ACTIVE_TOOL_EXTENSION_EXCEEDED",
+      "standOffMm": 230.02944945089325
+    },
+    {
+      "id": "R10",
+      "task": "coral-l4",
+      "file": "task-R10-coral-l4.png",
+      "sha256": "c9f9d9362508b0388704f64dd1cfd2ebf140d580105822b907dd2e525ab03c6a",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 86.42499999999995
+    },
+    {
+      "id": "R10",
+      "task": "algae-low",
+      "file": "task-R10-algae-low.png",
+      "sha256": "d2c3b34cea9cceaad29b9b08c85767d9c696d0f5108ece9446ea80bdb81ee582",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R10",
+      "task": "algae-high",
+      "file": "task-R10-algae-high.png",
+      "sha256": "506449b3901aeb9b9e60c766bb5f6bed425740b604c30adc00467524cd3f8891",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R10",
+      "task": "algae-floor",
+      "file": "task-R10-algae-floor.png",
+      "sha256": "f076e34fbc3aba54b36e7270e1db42ae840d76c04a9fd8e4cc14d243371fcad6",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R10",
+      "task": "processor",
+      "file": "task-R10-processor.png",
+      "sha256": "b8d586bd0301a848538feea3d6a9b521c066c33bed19beadf2087a4f2a8e24be",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 415
+    },
+    {
+      "id": "R10",
+      "task": "net",
+      "file": "task-R10-net.png",
+      "sha256": "b4072b6a2a32ba9354d8012839f232191adda7588e01bf3d0e9cc2a25f0ec72e",
+      "width": 1200,
+      "height": 900,
+      "status": "ALIGNED_UNDER_STATED_ASSUMPTIONS",
+      "standOffMm": 15
+    },
+    {
+      "id": "R10",
+      "task": "climb",
+      "file": "task-R10-climb.png",
+      "sha256": "4921f24675f7597a1083be05949a5be28eac347573aa3b218bf01f429e0a34b1",
+      "width": 1200,
+      "height": 900,
+      "status": "POSE_ONLY_ENDGAME_NOT_SOLVED",
+      "standOffMm": null
+    },
+    {
+      "id": "R03",
+      "task": "coral-l4",
+      "phase": "approach",
+      "file": "task-R03-coral-l4-approach.png",
+      "sha256": "7ad96e5a5e53ad13181f7ed9812421cac13bdee2b3ce70c3a8f1b8c4a04ca0fe",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R03",
+      "task": "coral-l4",
+      "phase": "release",
+      "file": "task-R03-coral-l4-release.png",
+      "sha256": "a22d400f9c50d2eb5b33482dd16a5171752a8da54445e397080d0b7c843c8217",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R04",
+      "task": "coral-l4",
+      "phase": "approach",
+      "file": "task-R04-coral-l4-approach.png",
+      "sha256": "990a5204d537b7db037ea14f31a9f92e4a69bf9db7f6c13e169bafa4b2979cfe",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R04",
+      "task": "coral-l4",
+      "phase": "release",
+      "file": "task-R04-coral-l4-release.png",
+      "sha256": "f479ee2d632769e0e8ff0ed0cb3e477d9106bd39cb73b4515baac4b63bd49cbe",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R03",
+      "task": "processor",
+      "phase": "approach",
+      "file": "task-R03-processor-approach.png",
+      "sha256": "8ca3721aa5d9e725e3734c7dadc6f71101a12c559cd18f1cbd300cc903320869",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R03",
+      "task": "processor",
+      "phase": "release",
+      "file": "task-R03-processor-release.png",
+      "sha256": "3a827aa4fd4d256bcf35244dd713c8f91fba1fe69ef805a808bbdd825f480024",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R03",
+      "task": "net",
+      "phase": "approach",
+      "file": "task-R03-net-approach.png",
+      "sha256": "5ebef37e552661651c715f2cedb80c99ceca67290d02b36b12c6dd7f48ae9b00",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": "R03",
+      "task": "net",
+      "phase": "release",
+      "file": "task-R03-net-release.png",
+      "sha256": "4ed4fa6aa47592abcb30b41f65d40a4526ef8911d5c5a291883c19c535bc588a",
+      "width": 1200,
+      "height": 900
+    }
+  ]
+}

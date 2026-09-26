@@ -1,0 +1,154 @@
+{
+  "dependencies": {
+    "Pillow": "11.3.0",
+    "cadquery": "2.6.1",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "casadi": "3.7.2",
+    "ezdxf": "1.4.3",
+    "matplotlib": "3.10.9",
+    "pypdf": "6.0.0",
+    "pypdfium2": "4.30.0",
+    "pytest": "8.4.2",
+    "reportlab": "4.4.3"
+  },
+  "dxf": {
+    "checks": [
+      "units",
+      "closed loops",
+      "no duplicate/annotation entities",
+      "hole centers",
+      "hole diameters",
+      "thickness",
+      "world bounds",
+      "volume",
+      "valid BRep"
+    ],
+    "hole_count": 5,
+    "reconstructed_solid_count": 1,
+    "status": "PASS",
+    "volume_mm3": 301875.70934676344
+  },
+  "engineering_approval": "UNVERIFIED",
+  "evidence": "LOCAL_SYNTHETIC_NOT_ONSHAPE",
+  "intent": {
+    "approval": null,
+    "date": "2026-09-11",
+    "description": "Synthetic intake left side plate",
+    "finish": "Bare; remove burrs and break sharp edges 0.2 mm maximum",
+    "hole_coordinate_tolerance_mm": 0.1,
+    "hole_diameter_tolerance_mm": 0.05,
+    "material": "6061-T6 aluminum",
+    "outer_tolerance_mm": 0.2,
+    "part_number": "TEST-INTAKE-LP",
+    "quantity": 1,
+    "release_status": "TEST_ONLY",
+    "test_assumptions_acknowledged": true,
+    "thickness_source": "measured_state",
+    "thickness_tolerance_mm": 0.13
+  },
+  "intent_sha256": "e990f27112bffc064e4895c06addaa717ee6055a60a9e47cecfa8d7bb1e0a03a",
+  "intent_status": "TEST_ONLY",
+  "manufacture_ready": false,
+  "measurements": {
+    "height": 150.0,
+    "holes": [
+      {
+        "diameter": 12.9,
+        "key": "H1",
+        "u": 25.0,
+        "v": 117.3
+      },
+      {
+        "diameter": 12.9,
+        "key": "H2",
+        "u": 70.0,
+        "v": 52.3
+      },
+      {
+        "diameter": 6.6,
+        "key": "H3",
+        "u": 140.0,
+        "v": 122.3
+      },
+      {
+        "diameter": 12.9,
+        "key": "H4",
+        "u": 246.2,
+        "v": 52.3
+      },
+      {
+        "diameter": 6.6,
+        "key": "H5",
+        "u": 300.0,
+        "v": 122.3
+      }
+    ],
+    "outer": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        320.0,
+        0.0
+      ],
+      [
+        320.0,
+        150.0
+      ],
+      [
+        0.0,
+        150.0
+      ]
+    ],
+    "solid_count": 1,
+    "step_declared_units": [
+      "millimetre"
+    ],
+    "step_import_length_unit": "mm",
+    "thickness": 6.349999999999994,
+    "transform": "u=Y; v=Z-12.7; normal=+X",
+    "units": "mm",
+    "volume": 301875.70934676327,
+    "width": 320.0,
+    "world_bounds": [
+      -176.35,
+      0.0,
+      12.7,
+      -170.0,
+      320.0,
+      162.7
+    ]
+  },
+  "outputs": {
+    "drawing.pdf": "30c65e1ac0e0b837ac1433c057f3e6e5de18fec781645889045064fbce431219",
+    "drawing.png": "71aa45b8e66aae95e8b3cf7475bb450f6f32699be699a6adcfd299ece5df9972",
+    "layout.json": "a6da08a3e524a41ef53a62e9b9aa7e6d8bc680d886471e363de6647900212c73",
+    "plate.step": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674",
+    "profile.dxf": "6274fc5238debfdbefaf92ca0675c3abda3968f451a02e5a34987cef892d78f1"
+  },
+  "package_correctness": "PASS",
+  "pdf": {
+    "fonts_embedded": true,
+    "page_mm": [
+      420,
+      297
+    ],
+    "render_dpi": 150,
+    "scale": "1:2",
+    "status": "PASS",
+    "text_overlap": false,
+    "vector_geometry_matches_step": true,
+    "visual_human_review": "UNVERIFIED"
+  },
+  "revision": "A",
+  "schema": 1,
+  "source_manifest_sha256": "6dfd379209e2ca9bf750980293a42b105bdc0be494c8f0a12b172c5fe0ba713d",
+  "source_state": {
+    "configuration": "default",
+    "immutable_id": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674",
+    "kind": "LOCAL_SYNTHETIC",
+    "part": "synthetic-left-plate"
+  },
+  "source_step_sha256": "cedff7d3fb0ee9e0d60ca019d409c217155fcdc9b1c80df9af2ae1f7217b7674"
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "./result.schema.json",
+  "schemaVersion": 1,
+  "recordScope": "Final browser-owned handoff: browser stage closed BLOCKED on 2026-09-12. API entries remain unread parent-owned placeholders, not counterpart results. No measured success rate, latency or A/B ranking.",
+  "sharedPacketSha256": null,
+  "dependenciesWaiting": false,
+  "documentationReady": true,
+  "comparison": { "status": "BLOCKED", "pairedAttempts": null, "relativeSpeed": null, "successRateDifference": null, "rank": null },
+  "arms": {
+    "browser": {
+      "route": "GPT-6 Astra / Playwright normal UI",
+      "status": "BLOCKED",
+      "executionAttempted": false,
+      "documentUrl": null,
+      "metrics": { "successRate": null, "latencyMs": null, "wallTimeMs": null, "activeTimeMs": null, "interventions": null, "score": null },
+      "phases": [
+        { "id": "shared_preparation", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "ui_plate_smoke", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "baseline_solids_placements", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "native_instances_mates_motion_limits", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "cots_interfaces_provenance", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "source_parameter_ui_revision", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "resume_unsuppressed_identity_health", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "baseline_revision_exports", "status": "BLOCKED", "reasonCode": "PLATFORM_POLICY", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "human_usability", "status": "UNVERIFIED", "reasonCode": "NO_HUMAN_OBSERVATION", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "physical_manufacturing_release", "status": "UNVERIFIED", "reasonCode": "NO_PHYSICAL_TEST_OR_RELEASE_REVIEW", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null }
+      ]
+    },
+    "api": {
+      "route": "Separate GPT-6 Astra / parent-owned API arm",
+      "status": "UNVERIFIED",
+      "executionAttempted": null,
+      "documentUrl": null,
+      "metrics": { "successRate": null, "latencyMs": null, "wallTimeMs": null, "activeTimeMs": null, "interventions": null, "score": null },
+      "phases": [
+        { "id": "shared_preparation", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "ui_plate_smoke", "status": "UNVERIFIED", "reasonCode": "BROWSER_ONLY_NOT_SCORED_FOR_API", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "baseline_solids_placements", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "native_instances_mates_motion_limits", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "cots_interfaces_provenance", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "source_parameter_ui_revision", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "resume_unsuppressed_identity_health", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "baseline_revision_exports", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "human_usability", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null },
+        { "id": "physical_manufacturing_release", "status": "UNVERIFIED", "reasonCode": "PARENT_OWNED_NOT_READ", "attempts": null, "successes": null, "failures": null, "recoveries": null, "wallTimeMs": null, "interventions": null, "evidence": null }
+      ]
+    }
+  }
+}

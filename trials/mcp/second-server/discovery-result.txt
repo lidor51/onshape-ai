@@ -1,0 +1,1 @@
+{"status":"PASS","server":{"name":"onshape-mcp","version":"1.26.0"},"toolCount":69,"elapsedMs":6701.9835,"authenticatedRequests":0}

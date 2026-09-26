@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "prototype-engineering",
+  "units": "mm, degrees",
+  "coordinates": "X width, Y into robot, Z up; right-hand rotations",
+  "chassis": {"width": 700, "length": 760, "frame_front_y": [0, 25], "frame_front_z": [25, 65]},
+  "bumper": {"x": [-435, 435], "y": [-85, 0], "z": [45, 165]},
+  "limits": {"minimum_floor": 5, "extension": 457.2, "sample_degrees": 5, "maximum_start_height": 1066.8},
+  "coral": {"od": 114.3, "bore": 101.6, "length": 301.625, "final_center": [0, 385, 191], "axis": [0, 1, 0]},
+  "pickup": {
+    "pivot_yz": [110, 265], "stow_angle": -120, "shaft_af": 12.7,
+    "sideplate_x": 290, "roller_width": 360, "plate_thickness": 6,
+    "floating_travel_degrees": [-8, 0], "floating_rest_degrees": 0,
+    "rollers": [
+      {"id": "kick", "yz": [-140, 34], "od": 51, "hard_od": 24},
+      {"id": "front", "yz": [-261, 161], "od": 127, "hard_od": 40},
+      {"id": "middle", "yz": [-136, 262], "od": 127, "hard_od": 40},
+      {"id": "rear", "yz": [-9, 287], "od": 127, "hard_od": 20}
+    ]
+  },
+  "indexer": {
+    "stations_xy": [[172.5, 74], [110, 182], [92.25, 288]],
+    "wheel_radius": 38.1, "wheel_thickness": 25.4,
+    "wheel_z": [[144.6, 170, 195.4], [144.6, 170, 195.4], [165.6, 191, 216.4]],
+    "shaft_af": 12.7, "bearing_plate_z": [114, 247], "plate_thickness": 6
+  },
+  "tray": {"top_z": 133.85, "thickness": 3, "width": 160, "front_y": 230, "rear_y": 539, "stop_y": 538},
+  "receiver_keepout": {"x": [-130, 130], "y": [370, 510], "z": [250, 1100], "status": "REFERENCE interface, not a scoring subsystem"},
+  "stock": {"plate": "6061-T6 provisional", "plate_thickness": 6, "guide": "polycarbonate provisional", "guide_thickness": 3, "tube_options": [[20, 20, 2], [25, 25, 2]]},
+  "bounds": {"shaft_af": [12.7, 12.7], "plate_thickness": [6, 6], "fold_angle": [-120, 0], "floating_angle": [-8, 0]},
+  "drives": {"pinion_teeth": 12, "output_teeth": 60, "diametral_pitch": 20, "gear_center_distance": 45.72, "pinion_midplane_from_motor_face": 15.08125, "gear_assets_status": "BLOCKED: WCP-1010 and WCP-0121 original STEP absent from offline cache", "round_belt_diameter": 6, "pulley_pitch_radius": 18},
+  "assumptions": [
+    "Engineering-rounded source-grounded 1690 geometry, not a replica; original native reference is Y-up mesh, custom model is Z-up B-rep.",
+    "GEOMETRY REPAIR: pivot Z210 failed full-mechanism fold through indexer. Z265 raises rear roller stow bottom to about293.6 mm; X290 side rails clear fixed bank plates ending X280. Original failures retained.",
+    "GEOMETRY REPAIR: rear 40 mm hard core collided at full-length crest witness. Standard 20x2 mm custom tube leaves clearance without changing 127 mm contact OD or roller axis; rubber construction remains unqualified.",
+    "360 mm custom pickup roller width reserves space for X44 body behind a 260 mm X mounting face; source width is not copied.",
+    "Bumper includes conservative 85 mm lateral projection beyond the frame on both sides.",
+    "Custom compliant sleeves are not authentic vendor stars; rubber material, attachment, hardness and compression need physical tests.",
+    "Source original COTS bytes remain untouched; local assembly re-export is not mandatory vendor fidelity evidence.",
+    "No precision bends; router, manual mill/lathe, saw, and unspecified Prusa/Markforged capacity.",
+    "One coral only; powered pickup and two independently powered indexer banks; receiver is reference only.",
+    "No release, strength, reliability, continuous contact, current limit or rule compliance claim."
+  ]
+}

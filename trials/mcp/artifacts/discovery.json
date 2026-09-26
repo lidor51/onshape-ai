@@ -1,0 +1,281 @@
+{
+  "startedAt": "2026-09-11T11:40:26.896Z",
+  "binarySha256": "424d25e13acab181da32470fb1c28faa129258998ba52979b72f693a43846472",
+  "sdkVersion": "1.26.0",
+  "status": "offline-discovery-passed",
+  "calls": [
+    {
+      "name": "onshape_auth_status",
+      "arguments": {
+        "validate": false
+      },
+      "elapsedMs": 3.4425999999998567,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_search",
+      "arguments": {
+        "query": ""
+      },
+      "elapsedMs": 2.8869999999997162,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "createDocument"
+      },
+      "elapsedMs": 2.065599999999904,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "downloadExternalData"
+      },
+      "elapsedMs": 1.856999999999971,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getDocument"
+      },
+      "elapsedMs": 1.8951999999999316,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "createFeatureStudio"
+      },
+      "elapsedMs": 1.9015999999996893,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "updateFeatureStudioContents"
+      },
+      "elapsedMs": 1.5004999999996471,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getPartsWMV"
+      },
+      "elapsedMs": 1.2457000000003973,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "createPartStudio"
+      },
+      "elapsedMs": 1.3191000000001623,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "updatePartStudioFeature"
+      },
+      "elapsedMs": 1.493199999999888,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getPartStudioBodyDetails"
+      },
+      "elapsedMs": 1.3069000000000415,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getPartStudioBoundingBoxes"
+      },
+      "elapsedMs": 1.123700000000099,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getPartStudioFeatures"
+      },
+      "elapsedMs": 1.358900000000176,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "addPartStudioFeature"
+      },
+      "elapsedMs": 1.8272999999999229,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "evalFeatureScript"
+      },
+      "elapsedMs": 2.0088000000000648,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getPartStudioShadedViews"
+      },
+      "elapsedMs": 1.9757999999997082,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "createPartStudioExportStep"
+      },
+      "elapsedMs": 1.5043000000000575,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_explain",
+      "arguments": {
+        "endpoint": "getTranslation"
+      },
+      "elapsedMs": 1.3582000000001244,
+      "isError": false
+    },
+    {
+      "name": "onshape_api_schema",
+      "arguments": {
+        "schema": "BTFeatureDefinitionCall-1406"
+      },
+      "elapsedMs": 1.4773999999997613,
+      "isError": false
+    }
+  ],
+  "retries": 0,
+  "liveApiCalls": 0,
+  "server": {
+    "name": "onshape-mcp",
+    "version": "0.5.2"
+  },
+  "capabilities": {
+    "resources": {},
+    "tools": {}
+  },
+  "schemasCompiled": 11,
+  "toolNames": [
+    "onshape_mcp_get_started",
+    "onshape_auth_status",
+    "onshape_auth_login",
+    "onshape_api_search",
+    "onshape_api_explain",
+    "onshape_api_call",
+    "onshape_api_schema",
+    "onshape_list_resources",
+    "onshape_read_resource",
+    "onshape_screenshot",
+    "onshape_error_lookup"
+  ],
+  "auth": {
+    "status": "not_configured",
+    "auth_method": "auto",
+    "last_check": null,
+    "message": "No complete credentials found. Missing: API keys (access_key + secret_key), OAuth credentials (client_id + client_secret). Configure Onshape API keys, or configure your own OAuth client_id + client_secret and run `onshape-mcp auth login`; a self-hosted OAuth proxy is optional and must be configured explicitly."
+  },
+  "negativeInputRejectedLocally": true,
+  "objectBodyRejectedLocally": true,
+  "serverNegativeCheck": {
+    "isError": true,
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "invalid arguments: invalid type: integer `7`, expected a string"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "endpointCount": 300,
+  "explainedEndpoints": [
+    "createDocument",
+    "downloadExternalData",
+    "getDocument",
+    "createFeatureStudio",
+    "updateFeatureStudioContents",
+    "getPartsWMV",
+    "createPartStudio",
+    "updatePartStudioFeature",
+    "getPartStudioBodyDetails",
+    "getPartStudioBoundingBoxes",
+    "getPartStudioFeatures",
+    "addPartStudioFeature",
+    "evalFeatureScript",
+    "getPartStudioShadedViews",
+    "createPartStudioExportStep",
+    "getTranslation"
+  ],
+  "featureDefinitionSchema": {
+    "name": "BTFeatureDefinitionCall-1406",
+    "properties": {
+      "btType": {
+        "description": "Type of JSON object.",
+        "type": "string"
+      },
+      "feature": {
+        "$ref": "#/components/schemas/BTMFeature-134",
+        "x-bttype-options": [
+          "BTMAssemblyFeature-887",
+          "BTMFeatureInvalid-1031",
+          "BTMSketch-151",
+          "BTMVariableStudioReference-2764"
+        ]
+      },
+      "libraryVersion": {
+        "description": "FeatureScript version used in the Part Studio. Do not modify.",
+        "format": "int32",
+        "type": "integer"
+      },
+      "microversionSkew": {
+        "description": "On output, `true` indicates a microversion mismatch was encountered.",
+        "type": "boolean"
+      },
+      "rejectMicroversionSkew": {
+        "description": "If `true`, the call will refuse to make the addition if the current microversion for the document does not match the source microversion. If `false`, a best-effort attempt is made to re-interpret the feature addition in the context of a newer document microversion.",
+        "type": "boolean"
+      },
+      "serializationVersion": {
+        "description": "Version of the structure serialization rules used to encode the output. This enables incompatibility detection during software updates.",
+        "type": "string"
+      },
+      "sourceMicroversion": {
+        "description": "The state from which the result was extracted. Geometry ID interpretation is dependent on this document microversion.",
+        "type": "string"
+      }
+    }
+  },
+  "manifestValidation": [
+    {
+      "phase": "baseline",
+      "calls": 16,
+      "mcpInputSchemasValid": true,
+      "requiredApiParametersPresent": true,
+      "executed": false
+    },
+    {
+      "phase": "revision",
+      "calls": 11,
+      "mcpInputSchemasValid": true,
+      "requiredApiParametersPresent": true,
+      "executed": false
+    }
+  ],
+  "transportClosed": true,
+  "elapsedMs": 1304.6794999999997,
+  "serverStderr": ""
+}

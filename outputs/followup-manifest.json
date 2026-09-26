@@ -1,0 +1,211 @@
+{
+  "capturedOn": "2026-09-11",
+  "copyingOnly": true,
+  "networkRequests": 0,
+  "routes": [
+    {
+      "id": "official-mcp",
+      "evidence": "OFFICIAL_MCP_MODELING_WITH_REST_VERIFICATION_AND_EXPORT",
+      "files": [
+        {
+          "path": "outputs/official-mcp/baseline.png",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/baseline.png",
+          "bytes": 48171,
+          "sha256": "7a6a127e2b5b4a398f2510e036ccd2d342e70736577b43698d3f01ba9a3e11d2"
+        },
+        {
+          "path": "outputs/official-mcp/revision.png",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/revision.png",
+          "bytes": 49488,
+          "sha256": "8b06ce3023b94b3b4687479917af77a6340babbe0d0ed8741d1195121e000b90"
+        },
+        {
+          "path": "outputs/official-mcp/baseline-step-original.zip",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/baseline-step-original.zip",
+          "bytes": 23326,
+          "sha256": "0dfb200e4ec5fbaaf54f0a78273e479608933b32c028dd5d3ad479e2867cd42a"
+        },
+        {
+          "path": "outputs/official-mcp/revision-step-original.zip",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/revision-step-original.zip",
+          "bytes": 23318,
+          "sha256": "858039345b2e7f4131aff4d6f73c94b93ddbb63a2f6ee5aa7079db620e7b4fe8"
+        },
+        {
+          "path": "outputs/official-mcp/baseline-report.json",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/baseline-report.json",
+          "bytes": 7856,
+          "sha256": "b800354ec86df4b82e9c8fec29717c3d7bd405c538e5deefd9500f26a0fc01e2"
+        },
+        {
+          "path": "outputs/official-mcp/revision-report.json",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/revision-report.json",
+          "bytes": 7309,
+          "sha256": "6be282d667c6e4b0025da7cbab4af1b4e73db72ef78c393b1acd1fca188de10e"
+        },
+        {
+          "path": "outputs/official-mcp/baseline-measured.json",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/baseline-measured.json",
+          "bytes": 11607,
+          "sha256": "51ba0cde0ce48746d88601697ce237abfc701966207130a70018868765e9006d"
+        },
+        {
+          "path": "outputs/official-mcp/revision-measured.json",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/revision-measured.json",
+          "bytes": 11756,
+          "sha256": "6da3022a74109ddff3ff7ebf568e5a6cc51013ae1e187dbdd9fcf105da6c19fb"
+        },
+        {
+          "path": "outputs/official-mcp/baseline-persisted.fs",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/baseline-persisted.fs",
+          "bytes": 4641,
+          "sha256": "7cd0ac34fd4eb1d800caa64a39fdd50356e4c7b116895d68dcb6b417178691ec"
+        },
+        {
+          "path": "outputs/official-mcp/revision-persisted.fs",
+          "original": "trials/official-mcp/artifacts/readonly-supplement/revision-persisted.fs",
+          "bytes": 4640,
+          "sha256": "c2dde13d448cdf311821b18b8ce33a0d8dbe4eb721c0bf99a728a755e11b0a3e"
+        },
+        {
+          "path": "outputs/official-mcp/result.json",
+          "original": "trials/official-mcp/artifacts/current-live-result.json",
+          "bytes": 12526,
+          "sha256": "e2e99d23a06720a13256b7000198dc4ad8930137e1b88963ad3db8d6e2e9dd32"
+        }
+      ]
+    },
+    {
+      "id": "native-template",
+      "evidence": "LIVE_NATIVE_TEMPLATE_AND_EDIT_PRESERVATION",
+      "files": [
+        {
+          "path": "outputs/native-template/summary.json",
+          "original": "trials/native-template/artifacts/summary.json",
+          "bytes": 105177,
+          "sha256": "24e13da2a99cfaf86fc0334645f2d8c044aed001db24182931e07f685cf0b9d0"
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-package",
+      "evidence": "LOCAL_DRAWINGS_FROM_REAL_ONSHAPE_SNAPSHOTS_NOT_FOR_MANUFACTURE",
+      "files": [
+        {
+          "path": "outputs/manufacturing-package/summary.json",
+          "original": "trials/manufacturing-package/artifacts/live/summary.json",
+          "bytes": 7270,
+          "sha256": "92894a4294499367f983e922095b8c72fb6e8b75350588c6a7092843c9eb8fca"
+        },
+        {
+          "path": "outputs/manufacturing-package/A/package/drawing.pdf",
+          "original": "trials/manufacturing-package/artifacts/live/A/package/drawing.pdf",
+          "bytes": 25815,
+          "sha256": "c5654cb5c37d9137d3ec6633cc869149e26c48607ee03e0f631594f5f3bb0014"
+        },
+        {
+          "path": "outputs/manufacturing-package/A/package/drawing.png",
+          "original": "trials/manufacturing-package/artifacts/live/A/package/drawing.png",
+          "bytes": 236622,
+          "sha256": "2b19e9203bf8c554c0ae6cf48f81faeab7594eee9091ada08832e71685289430"
+        },
+        {
+          "path": "outputs/manufacturing-package/A/package/profile.dxf",
+          "original": "trials/manufacturing-package/artifacts/live/A/package/profile.dxf",
+          "bytes": 19304,
+          "sha256": "21480ec0b92be30b1de94642bdce8483f15c68348b0eaf80d4916ffd331ead38"
+        },
+        {
+          "path": "outputs/manufacturing-package/A/package/plate.step",
+          "original": "trials/manufacturing-package/artifacts/live/A/package/plate.step",
+          "bytes": 14092,
+          "sha256": "8c5faef06e9bec71715247edc41dcf55ff736ffcc8d69b75151d614b95f37f41"
+        },
+        {
+          "path": "outputs/manufacturing-package/A/package/manifest.json",
+          "original": "trials/manufacturing-package/artifacts/live/A/package/manifest.json",
+          "bytes": 4053,
+          "sha256": "5ef00459d43fe34b9dd059cf6ea34dea04dd6af2d4a0e8b18def186029d83155"
+        },
+        {
+          "path": "outputs/manufacturing-package/B/package/drawing.pdf",
+          "original": "trials/manufacturing-package/artifacts/live/B/package/drawing.pdf",
+          "bytes": 26061,
+          "sha256": "80034e2579373370aff9c753738e629185305c07d9324e8a3d0c2e6257d7f018"
+        },
+        {
+          "path": "outputs/manufacturing-package/B/package/drawing.png",
+          "original": "trials/manufacturing-package/artifacts/live/B/package/drawing.png",
+          "bytes": 242575,
+          "sha256": "919c15d13582b2b7d7a148a4fef7818e2f7050f573b07c907f67068fc15de794"
+        },
+        {
+          "path": "outputs/manufacturing-package/B/package/profile.dxf",
+          "original": "trials/manufacturing-package/artifacts/live/B/package/profile.dxf",
+          "bytes": 19422,
+          "sha256": "d86b51417318d606699b514ee3d533480be815d033836f61bcc60c1f6e52bd75"
+        },
+        {
+          "path": "outputs/manufacturing-package/B/package/plate.step",
+          "original": "trials/manufacturing-package/artifacts/live/B/package/plate.step",
+          "bytes": 15269,
+          "sha256": "90d1d2a2fcbb4992ea441d64e1c9d3b1fae699d68cfa848710acf52a5fec6eb4"
+        },
+        {
+          "path": "outputs/manufacturing-package/B/package/manifest.json",
+          "original": "trials/manufacturing-package/artifacts/live/B/package/manifest.json",
+          "bytes": 4158,
+          "sha256": "30bee7df27a48a962e782fc5a22d107f81a38a1e3444f326377f58dafb1e0beb"
+        }
+      ]
+    },
+    {
+      "id": "local-preflight",
+      "evidence": "LOCAL_CADQUERY_ONLY_BROWSER_BLOCKED_NOT_ONSHAPE_EXPORT",
+      "files": [
+        {
+          "path": "outputs/local-preflight/preflight-summary.json",
+          "original": "trials/local-preflight-browser/artifacts/preflight-summary.json",
+          "bytes": 2548,
+          "sha256": "a0b9ec47ee362e404ab3ef9f42f6186e5838bb92755c3c6fe585404c0971b0b8"
+        },
+        {
+          "path": "outputs/local-preflight/candidates/A/local.step",
+          "original": "trials/local-preflight-browser/artifacts/candidates/A/local.step",
+          "bytes": 33922,
+          "sha256": "dc84b4ab2ddfe7a4a3b40dd8dbe9ff1e056d66f31128cca6b56a40a9d8c4e38f"
+        },
+        {
+          "path": "outputs/local-preflight/candidates/A/local-preview.svg",
+          "original": "trials/local-preflight-browser/artifacts/candidates/A/local-preview.svg",
+          "bytes": 31557,
+          "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+        },
+        {
+          "path": "outputs/local-preflight/candidates/A/parameters.json",
+          "original": "trials/local-preflight-browser/artifacts/candidates/A/parameters.json",
+          "bytes": 620,
+          "sha256": "ffd3b689f9f56f1d8c04b735b20aae04e1331486804b9d9c647c7d9fa06269ad"
+        },
+        {
+          "path": "outputs/local-preflight/candidates/B-final-six/local.step",
+          "original": "trials/local-preflight-browser/artifacts/candidates/B-final-six/local.step",
+          "bytes": 37469,
+          "sha256": "88953049d67dd2692ce22e75036393009b586050d75c7fa1343f3df2dbb1f198"
+        },
+        {
+          "path": "outputs/local-preflight/candidates/B-final-six/local-preview.svg",
+          "original": "trials/local-preflight-browser/artifacts/candidates/B-final-six/local-preview.svg",
+          "bytes": 35336,
+          "sha256": "cb245d028d43cda6c17453d16d095504daa36736a20e6b36b29156e6be6e6f68"
+        },
+        {
+          "path": "outputs/local-preflight/candidates/B-final-six/parameters.json",
+          "original": "trials/local-preflight-browser/artifacts/candidates/B-final-six/parameters.json",
+          "bytes": 615,
+          "sha256": "98c83893cf8f57df818c94e31883dd6f5d48b1793c90880f191c0c63aba5fb53"
+        }
+      ]
+    }
+  ]
+}

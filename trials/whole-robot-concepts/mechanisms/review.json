@@ -1,0 +1,248 @@
+{
+  "target": "Original 2025 REEFSCAPE architectures for a winning elite alliance, led by an optimal-auto hypothesis and repeatable scoring roles rather than box styling or minimum reach. Lead with R03; benchmark R01, challenge it with R04, and compare R09 as an algae specialist. These are architectural priors, not playtested rankings or elite proof.",
+  "baselineIds": ["R03", "R01", "R04", "R09"],
+  "designRules": [
+    "A contender has a credible proposed role on a winning alliance, not demonstrated elite performance. Conditional candidates must justify a specific integration cost or capability sacrifice. Keep R07/R08 as contrasts, not default baselines, and retain all ten IDs.",
+    "R03 is the primary all-round development hypothesis: direct station-fed L1-L4 coral, independent floor/both-reef algae with net-shot and processor options, and deep climb. Floor coral is intentionally absent; station access and successful reloads must justify that sacrifice.",
+    "R01 is the processor-only L4/floor-recovery benchmark; R04 challenges it on eliminating transfers, not presumed simplicity. Compare R09 on alliance algae throughput and partner branch access, not on whether every robot maximizes coral levels.",
+    "Each winningRole states an original optimal-auto hypothesis conditional on partners, starting position, source access, measured repeatability and completion within 15 s. Allocate branches and crossing lanes before adding reloads; coordinate LEAVE and alliance AUTO scoring. No routine, count or optimum has been demonstrated.",
+    "Choose the simplest mechanism that fulfills the winning role, not the smallest capability list. Remove redundant transfer stations, unused reach axes and mode changes before deleting valuable scoring coverage. Do not reward a shared arm or short mast merely for looking simpler.",
+    "TELEOP L4 is 5 and AUTO L4 is 7, not additive; LEAVE is 3. L3 is 4 TELEOP and 6 AUTO. Compare expected successful points per complete cycle and remaining branch availability; at equal success L4 and L3 tie when the L4 cycle takes 1.25 times as long.",
+    "Processor scores 6 for us and supplies the opposing HP; a subsequent successful opponent net throw scores 4 for them. Our net scores 4. Compare pP*(6-4*h)/tP with 4*pN/tN for the same acquired ball, with unmeasured success, opponent conversion and full cycle times; add access and qualification incentives separately.",
+    "Test net shooting early for R03/R09 because its value could change the architecture. Do not mandate net on every robot or assume placement is easier. R02/R06/R10 retain net-placement intent only; their required aperture, loaded reach and release clearance are unverified.",
+    "Deep, shallow and park are 12, 6 and 2, mutually exclusive. Compare real success, actual failure outcome and scoring forgone, not nominal points alone. Partner cage assignments and bonus contributions are alliance decisions; preserve the deliberate climb omissions in each candidate.",
+    "Reef removal earns no standalone points. Clear when own or partner access plus algae scoring outweighs the alternative; staged algae does not inherently block L4. Avoid double-counting partner gains and do not fill every auto with clearing merely because a remover exists.",
+    "Every cycleContract is a NEW REVISED mechanism-plan hypothesis, not a description or validation of existing boxes. Sides are chassis-relative. stationSide, floorSide and coralScoreSide refer to CORAL; R03 floorSide none excludes floor coral, not its proposed front floor-algae intake. R09 algae stays front while coral stays rear; R10 algae stays front while coral stays left-side.",
+    "Rear station/front reef scoring can remove an intake-versus-score orientation reversal on some routes, but station face, selected reef face, traffic and retreat determine actual yaw. Compare complete field paths; never infer zero chassis rotations or faster cycles from the side labels.",
+    "positioningDofs counts independently controlled mechanism pose axes in the revised rough recipe, excluding drivetrain and roller/belt/flywheel drive. Coupled elevator stages count as one; independently actuated folds, slides and selectors count separately. Binary retention gates, latches and grip closure are outside this pose-axis count, not free complexity or an actuator inventory.",
+    "DOF counts are rough recipe proposals, not measured CAD or a minimum proven sufficient. Notes enumerate every proposed pose axis. A climb pivot assumes one driven coordinate for deployment and pull-up; independent winch travel, hook extension, active leveling or added aiming axes would require recounting. No hidden telescopes, folds or turret axes may be drawn.",
+    "handoffsCoral and handoffsAlgae count transfers between distinct retaining subassemblies after acquisition and before field release, using the maximum normal planned route. Station pickup and scoring release are excluded; recovery retries are not budgeted. A continuous retaining module is one owner, but its internal contact transitions still require proof.",
+    "Revise R01 to a continuous floor pickup/orienter feeding the coral wrist once, with direct rear station reception. Revise R03/R09 to retain algae in the acquiring head for processor release or transfer once into an integrated fixed-hood shooter cassette for net; remove the normal pocket-to-scoop return bypass, not its safety obligations.",
+    "Draw functional geometry instead of opaque mechanism boxes: narrow load-carrying masts, visible rails/carriages, fixed-length links or explicit telescopes, pitch pivots, opposing roller contacts, backstops, launcher wheels/hoods and a connected cage load path. Keep one hardware instance with alternative poses and distinguish reserved air from material; appearance alone is not capability.",
+    "Preserve full-piece swept envelopes, continuous contact over intact bumpers, clear sightlines, occupied stow, battery/electrical service and low retained travel. Use router-cut aluminum/polycarbonate, tubes, spacers and printed guides without precision metal bends. Joint counts do not establish stiffness, mass, stability, manufacturability or reliability.",
+    "Respect whole-robot control of at most one coral and one algae, including transfers and incidental control. R01/R03/R05/R10 propose independent retention, not simultaneous scoring; R02/R04/R06/R07/R08/R09 remain serialized. Require positive transfer confirmation, known occupancy/location, controlled jam recovery, release guards and climb/stow interlocks. Test loose and initially stacked pieces separately."
+  ],
+  "robots": [
+    {
+      "id": "R01",
+      "tier": "contender",
+      "rationale": "Strong L4/floor-recovery benchmark with independent algae retention and deep intent. Simplify the coral transfer chain; processor-only algae is a deliberate ceiling, not evidence of inferiority.",
+      "winningRole": "L1-L4 anchor and recovery scorer with both-height clearing and deep intent. Optimal-auto hypothesis: preload L4, then station L4 reloads on an assigned lane; use floor recovery only if tested faster or station access fails.",
+      "cycleContract": {
+        "stationSide": "rear",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "New rear direct-station receive and front coral scoring; front algae head shares approach space, not coral ownership. Test whether station/reef face pairings reduce yaw. Front floor recovery and rear cage entry need separate full-path checks."
+      },
+      "complexity": {
+        "positioningDofs": 6,
+        "handoffsCoral": 1,
+        "handoffsAlgae": 0,
+        "note": "Recipe: coral lift+pitch (2), pickup pivot (1), algae shoulder+elbow (2), deep pivot (1) = 6. Continuous pickup/orienter feeds wrist once; rear station direct = 0 transfers. Algae remains in its head; no active reach slide."
+      },
+      "nextProof": "Fixture rear receive/front offer and the single floor-to-wrist transfer with retained algae. Compare complete station and recovery paths against R03; reject the simplification if retention, L4 insertion or shared front sweeps require hidden axes."
+    },
+    {
+      "id": "R02",
+      "tier": "conditional",
+      "rationale": "L4 and direct pickup are attractive, but a shared lift with two heads still needs reach, pitch and selection. Serialized ownership, unverified net placement and shallow-only climb limit the bargain.",
+      "winningRole": "L1-L4 scorer with both-height algae service and shallow intent. Optimal-auto hypothesis: keep coral head selected for preload and same-lane station reloads; switch to algae only if measured alliance gain beats another coral.",
+      "cycleContract": {
+        "stationSide": "front",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "net+processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Keep all acquisition and scoring in a front corridor with a nested mast, reach slide and indexed dual head. Station-to-reef yaw remains field-dependent. Empty-only head changes serialize routes; rear shallow cage approach follows full stow."
+      },
+      "complexity": {
+        "positioningDofs": 5,
+        "handoffsCoral": 0,
+        "handoffsAlgae": 0,
+        "note": "Recipe: shared lift (1), reach slide (1), wrist pitch (1), head selector (1), shallow pivot (1) = 5. Each piece stays on its acquiring head. Shared-drive faults and two-head clearance remain costs despite zero handoffs."
+      },
+      "nextProof": "Compare direct capture, empty-head switching and loaded L4 return against R01. Establish net aperture and loaded release reach before crediting placement; retain this option only if shared hardware saves meaningful effort without losing the role."
+    },
+    {
+      "id": "R03",
+      "tier": "contender",
+      "rationale": "Lead: station-fed L4 plus independent algae shot/processor and deep covers a strong alliance role. Drop the return bypass, not capability; absent floor coral makes station access decisive.",
+      "winningRole": "L1-L4 station anchor, independent both-height algae threat and deep intent. Optimal-auto hypothesis: preload L4 then reserved station reloads; substitute a robot algae shot only when timed alliance value wins. No floor coral.",
+      "cycleContract": {
+        "stationSide": "rear",
+        "floorSide": "none",
+        "coralScoreSide": "front",
+        "algaeExit": "net+processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Rear direct coral receive/front reef score; front algae arm either reverses into processor or feeds a fixed-hood shooter once. Some field pairings may avoid an orientation reversal, not all yaw. Check shot lanes, retreat and rear deep-cage approach."
+      },
+      "complexity": {
+        "positioningDofs": 5,
+        "handoffsCoral": 0,
+        "handoffsAlgae": 1,
+        "note": "Recipe: coral lift+pitch (2), algae shoulder+elbow (2), deep pivot (1) = 5. Net: arm-to-shooter cassette once; processor: same head, zero transfers. Fixed hood; no active telescope, hood aim or normal return-to-arm bypass."
+      },
+      "nextProof": "Test algae retention, one-way shooter feed and same-head processor release with full-size pieces. Then resolve net aperture and test shots early; compare rear-station/front-L4 paths before accepting the floor-coral sacrifice or five-axis recipe."
+    },
+    {
+      "id": "R04",
+      "tier": "conditional",
+      "rationale": "Keep as the no-handoff challenger, not the simple winner. Shoulder/telescope/wrist loading and two-shape contacts can outweigh saved transfers. No net or simultaneous carry; deep remains intent.",
+      "winningRole": "L1-L4 station/floor scorer, both-height processor service and deep intent. Optimal-auto hypothesis: preload L4 then direct station reloads; use floor or algae only when verified recovery or partner access improves the route.",
+      "cycleContract": {
+        "stationSide": "front",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Keep the shared arm in one front work plane rather than adding a rear crossover. Station/reef face changes still demand chassis yaw. Test extended-arm settling, empty-tool mode changes and rear cage stow as part of the full cycle."
+      },
+      "complexity": {
+        "positioningDofs": 4,
+        "handoffsCoral": 0,
+        "handoffsAlgae": 0,
+        "note": "Recipe: shoulder (1), telescope (1), wrist pitch (1), deep pivot (1) = 4. Shared compliant contacts retain either shape in the same tool. No separate reach/yaw axis; serial ownership and loaded telescope stiffness remain risks."
+      },
+      "nextProof": "Prove both shapes in the same wrist, then compare floor-to-L4 and station-to-L4 motion with R01, including settling and empty-mode changes. Reject the simplicity claim if tuning, structure or loss of independent algae overwhelms saved transfers."
+    },
+    {
+      "id": "R05",
+      "tier": "conditional",
+      "rationale": "Credible L4 floor-recovery partner if moving capture/centering earns its transfer. Low-only reef algae, no net and no deep constrain the alliance role; a short algae arm is not automatically simpler.",
+      "winningRole": "L1-L4 floor-recovery scorer with low-reef processor and shallow intent. Optimal-auto hypothesis: preload L4 then a proven loose-coral route; choose station reloads instead if stacked-piece separation or handoff loses value.",
+      "cycleContract": {
+        "stationSide": "rear",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Revise to rear direct station receive; retain front floor carrier and front coral offer. A short front-right algae arm stays separate. Compare actual floor and station loops; rear receive must coexist with shallow-climb and battery access."
+      },
+      "complexity": {
+        "positioningDofs": 6,
+        "handoffsCoral": 1,
+        "handoffsAlgae": 0,
+        "note": "Recipe: coral lift+pitch (2), centering-carrier pivot (1), short algae shoulder+elbow (2), shallow pivot (1) = 6. Floor carrier-to-wrist once; direct station zero. Passive centering guides; limited reach does not remove pose axes."
+      },
+      "nextProof": "Test skewed coral, carrier-fixed lower contact and receiver offsets through one confirmed handoff. Compare against R01's continuous pickup on the same recoveries; keep R05 only if pickup value justifies its high-reef/net/deep omissions."
+    },
+    {
+      "id": "R06",
+      "tier": "conditional",
+      "rationale": "Turret yaw may earn complexity through alignment and access, not capability count. Cable routing, backlash and shared-tool serialization are costs. No cage climb; net placement remains unverified.",
+      "winningRole": "L1-L4 alignment specialist with both-height algae options; park only. Optimal-auto hypothesis: preload and station coral with yaw correction during approach; retain turret only if timed gains survive backlash and blind spots.",
+      "cycleContract": {
+        "stationSide": "front",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "net+processor",
+        "endgameSpace": "none",
+        "headingHypothesis": "Front means the limited front yaw sector, not all-around or rear reach. Turret correction may overlap driving; outside its sector the chassis still turns. Compare full station/reef routes including retraction, cable limits and final parking."
+      },
+      "complexity": {
+        "positioningDofs": 4,
+        "handoffsCoral": 0,
+        "handoffsAlgae": 0,
+        "note": "Recipe: turret yaw (1), boom pitch (1), telescope (1), wrist pitch (1) = 4; no climb axis. Direct shared-head retention. Four axes can still be costly through coupled control, cable travel, backlash and loaded swept volume."
+      },
+      "nextProof": "Compare turret and locked-yaw full-cycle paths including settling, blind spots and error recovery. Check held-ball corner margin, cable sweep and missing net aperture; require real cycle value to justify complexity and park-only endgame."
+    },
+    {
+      "id": "R07",
+      "tier": "contrast",
+      "rationale": "Retain as a lower-reach control, not a default. No L4 or net, yet pickup transfer, algae reach and deep integration remain. It must demonstrate an alliance benefit, not assume low mast means speed.",
+      "winningRole": "L1-L3 complement to L4 partners, both-height processor clearing and deep intent. Optimal-auto hypothesis: preload L3 then the best isolated station/floor reload; consider it only if measured completion beats a fuller-reach role.",
+      "cycleContract": {
+        "stationSide": "front",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Use front station/floor intake and front lower-level scoring as the low-mast comparison. Field face changes still set yaw; algae carrying stays serialized despite a separate mechanism. Rear deep approach needs its own emptied/stowed transition."
+      },
+      "complexity": {
+        "positioningDofs": 6,
+        "handoffsCoral": 1,
+        "handoffsAlgae": 0,
+        "note": "Recipe: short coral lift+pitch (2), belt-carrier pivot (1), algae shoulder+telescope (2), deep pivot (1) = 6. Floor belt-to-wrist once; station direct zero. Retained algae head needs no independent wrist in this unproved recipe."
+      },
+      "nextProof": "Use matched station/floor paths and placement tests against R01, including both-height algae and climb transitions. Quantify success and time before crediting a benefit for omitting L4; preserve as contrast even if that benefit does not appear."
+    },
+    {
+      "id": "R08",
+      "tier": "contrast",
+      "rationale": "Keep the low-reach contrast, not the powerhouse baseline. No L3/L4, high-reef algae, net or deep, while the carrier needs centering and a handoff. Broad capture has no proven throughput advantage.",
+      "winningRole": "L1/L2 cleanup partner with low-reef processor support and shallow intent. Optimal-auto hypothesis: preload L2 then a short verified pickup/score loop only if it adds more alliance value than clearing partners' lanes.",
+      "cycleContract": {
+        "stationSide": "front",
+        "floorSide": "front",
+        "coralScoreSide": "front",
+        "algaeExit": "processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Broad front pickup feeds a front small scoring arm; station enters its cradle directly. Front orientation is not direction-independent pickup or a turn-free loop. Test centering corrections, serialized algae service and rear shallow-climb entry."
+      },
+      "complexity": {
+        "positioningDofs": 6,
+        "handoffsCoral": 1,
+        "handoffsAlgae": 0,
+        "note": "Recipe: carrier pivot (1), coral shoulder+pitch wrist (2), low-algae shoulder+elbow (2), shallow pivot (1) = 6. Floor carrier-to-cradle once; station direct zero. Passive guides do not prove centering; no hidden scoring telescope."
+      },
+      "nextProof": "Compare off-angle capture, centering and complete low-level scoring with R05 using the same pieces. Test stacked starts separately; retain the contrast without treating broad-mouth renders or shorter reach as evidence of an elite alliance role."
+    },
+    {
+      "id": "R09",
+      "tier": "contender",
+      "rationale": "Algae-specialist alternative, not a failed coral maximizer. Net cycles and useful clearing could beat another L4 scorer on the right alliance. No L4 or simultaneous carry; shots/deep are unproved.",
+      "winningRole": "Algae-first partner for coral scorers; L1-L3 backup and deep intent. Optimal-auto hypothesis: preload L3 then useful reef algae to net; test skipping preload for more algae only if legal setup and timed alliance gain win.",
+      "cycleContract": {
+        "stationSide": "rear",
+        "floorSide": "rear",
+        "coralScoreSide": "rear",
+        "algaeExit": "net+processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Front algae owns the main approach and shot lane; rear direct coral handles backup duty. Rear coral score is intentional, not front-L4 mimicry. Compare heading changes between jobs and reserve the rear deep-climb sweep away from coral and service."
+      },
+      "complexity": {
+        "positioningDofs": 6,
+        "handoffsCoral": 0,
+        "handoffsAlgae": 1,
+        "note": "Recipe: algae lift+pitch (2), rear coral shoulder+elbow+wrist (3), deep pivot (1) = 6. Nested fixed mast replaces folding upper stage. Net feed transfers once; same-head processor zero. Fixed hood, no active aim; no dual carry."
+      },
+      "nextProof": "Test retained algae-to-shooter feed and direct processor release, then shots against resolved aperture geometry. Compare algae-first versus coral-first auto routes with the same partner plan, including useful clearing, serial ownership and rear stow."
+    },
+    {
+      "id": "R10",
+      "tier": "conditional",
+      "rationale": "Twins can avoid mode changes and retain algae through coral work. That may justify duplicate structure, but R01/R03 already offer retention. No deep or net shooting; placement unproved.",
+      "winningRole": "L1-L4 scorer retaining algae for later net placement/processor, with shallow intent. Optimal-auto hypothesis: preload L4 then assigned station reloads; add algae pickup only if it improves the route without delaying coral.",
+      "cycleContract": {
+        "stationSide": "side",
+        "floorSide": "side",
+        "coralScoreSide": "side",
+        "algaeExit": "net+processor",
+        "endgameSpace": "rear",
+        "headingHypothesis": "Left-side coral acquire/score and front algae preserve separate work corridors; neither guarantees fewer field turns. Compare side docking and retreat with R03's rear/front plan. Reserve rear-center shallow climb, not an invented central cage approach."
+      },
+      "complexity": {
+        "positioningDofs": 7,
+        "handoffsCoral": 0,
+        "handoffsAlgae": 0,
+        "note": "Recipe: coral lift+mast fold+wrist (3), algae lift+mast fold+wrist (3), shallow pivot (1) = 7. Both folds counted as active; each retained tool acquires/releases directly. Two occupied channels add packaging costs beyond DOFs."
+      },
+      "nextProof": "Sweep coral station/floor/L4 with a maximum-size algae latched low and both cable routes present. Compare useful task overlap against R01/R03, not just shared tools; resolve net aperture and loaded placement before crediting the extra algae lift."
+    }
+  ],
+  "limitations": [
+    "Reviewed only the existing local GAME-ANALYSIS.md, robots-a/b/c/d.json and outputs/whole-robots/README.md, with repository notes as context. No new API/network access, CAD or other kernel, simulation, physical test, rankings research or elite-performance evidence was used. JSON validation is only a data check.",
+    "These rankings are priors from architectural fit: valuable capability, task ownership, transfers, access and integration risk. They are not playtested or calibrated probabilities. All capabilities, including L4, floor pickup, both-height clearing and deep climb, are proposals rather than successful demonstrations.",
+    "Net rim/opening dimensions and release/contact geometry remain unverified. The 1930.4 mm reference is lowest hanging mesh, not rim height. R02/R06/R10 have no verified placement reach; R03/R09 have no ballistic or repeatability proof. A pictured high pose or shot arc cannot close that gap.",
+    "Low/high reef-algae centers, processor edge-specific datum, cage hook/ANCHOR geometry and all tool targets remain unresolved. Branch tips, station bottom edge and cage bottoms cannot stand in for manipulator-center or engagement targets. No source numbers were converted into invented interface dimensions.",
+    "Capability absences are intentional: R01/R04/R05/R07/R08 have no net; R03 has no floor coral; R05/R08 lack high-reef algae; R07/R09 lack L4; R08 also lacks L3. R02/R05/R08/R10 are shallow-only, R06 is park-only, and R03/R09 alone propose net shooting. A net+processor label does not establish either destination as verified.",
+    "Revised rear reception, simplified contacts, fixed-length articulated links, direct processor routes and DOF counts are new recipe hypotheses. Existing geometry has not been updated or shown capable of them. Direct rear-to-front coral motion in two axes especially needs retained-piece, mast and climb clearance proof; add an axis or change layout if it fails.",
+    "Optimal-auto choices lack field-cycle paths, timings, localization error, capture distributions, shot accuracy, partner capability and opponent behavior. No zero-rotation claim, fastest routine, score projection or required multi-piece count follows. Qualification incentives and playoff score margin can favor different roles.",
+    "Neither fewer axes nor zero handoffs proves a lighter, stiffer, cheaper, faster or more reliable robot. Binary control hardware and roller drives are not counted; actuator/motor quantities, mass, power, cost, transmissions and independent climb take-up are unspecified. Failed feasibility checks must change the recipe and counts, not be hidden in the viewer.",
+    "Only this review artifact is revised. All ten source concepts and existing galleries remain unchanged; the old R01/R04/R07 shortlist still appears in those untouched documents. No visual, kinematic, structural, loaded climb, field-path or inspection validation is implied by this review."
+  ]
+}

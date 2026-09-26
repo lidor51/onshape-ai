@@ -1,0 +1,34 @@
+{
+  "status": "CONDITIONAL_REMAINING_LEDGER_AND_SUPPORTED_NATIVE_SOURCE",
+  "globalAttemptCap": 150,
+  "apiArmAttemptCap": 140,
+  "overheadReserved": 10,
+  "localAuthenticatedAttempts": 0,
+  "counts": {
+    "instances": 52,
+    "mates": 51,
+    "relations": 6
+  },
+  "conservativeFreshArmAttemptPlan": {
+    "instanceInsertsWithoutBatchAssumption": 52,
+    "mates": 51,
+    "relations": 6,
+    "documentAndElements": 4,
+    "preparedCotsImportAndBoundedStatus": 3,
+    "featureStudioWriteAndFeature": 3,
+    "sourceIdentityInspection": 1,
+    "groundRoot": 1,
+    "baselineHealthAndExport": 3,
+    "parameterRevision": 1,
+    "revisionHealthAndExport": 3,
+    "reservedUncertainOrRepairAttempts": 3
+  },
+  "requiredFreshArmHeadroom": 131,
+  "withinFresh140": true,
+  "remainingActualApiHeadroom": null,
+  "actualLedgerRead": false,
+  "noHard45InstanceLimit": true,
+  "sourceStrategy": "One prepared six-body COTS STEP only after strict source round trips pass; generated custom bodies and source-owned parametric connectors; mate solver positions each instance. Native part and connector IDs must be observed. No assumed multi-instance endpoint or uncounted poll/retry.",
+  "admissionRule": "Parent must account all prior attempted requests in the persistent ledger. This plan is not 140 additional calls and cannot waive remaining headroom, allowance/reserve or source-connector compilation. Stop if bounded import/status or native connector ownership is unsupported.",
+  "batching": "Native rigid groups or documented insertion optimizations may lower cost only after parent verifies supported schemas and readback of every logical member; not credited here."
+}

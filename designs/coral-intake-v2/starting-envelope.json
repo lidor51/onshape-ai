@@ -1,0 +1,4872 @@
+{
+  "source": "coaxial-output/revision-feed/coaxial-mesh.json",
+  "sourceSha256": "1461f911028f5cc3a3103026b4f8ce5a1eeae91bea8ebbda5078df90a7057cff",
+  "poses": [
+    {
+      "schema": "starting-frame-envelope/1",
+      "status": "FAIL_OUTSIDE_FRAME",
+      "frame": {
+        "x": [
+          -350,
+          350
+        ],
+        "y": [
+          0,
+          760
+        ],
+        "maximumHeight": 1066.8
+      },
+      "angleDeg": -165,
+      "floatDeg": 0,
+      "reserveMm": 5,
+      "physicalParts": 502,
+      "motorCount": 4,
+      "minimumMarginsMm": {
+        "left": -6,
+        "right": -6,
+        "front": -104.72,
+        "rear": 25,
+        "height": 364.91167519818373
+      },
+      "outsideParts": [
+        {
+          "id": "v2_main_cheek_-1",
+          "motion": "fold",
+          "role": "structure",
+          "boundsMm": [
+            -228,
+            -70.70036268627187,
+            314.9419171897755,
+            -222,
+            231.30646336247815,
+            699.3955385026649
+          ],
+          "marginsMm": {
+            "left": 122,
+            "right": 572,
+            "front": -70.70036268627187,
+            "rear": 528.6935366375219,
+            "height": 367.4044614973351
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_main_cheek_1",
+          "motion": "fold",
+          "role": "structure",
+          "boundsMm": [
+            222,
+            -70.70036268627187,
+            314.9419171897755,
+            228,
+            231.30646336247815,
+            699.3955385026649
+          ],
+          "marginsMm": {
+            "left": 572,
+            "right": 122,
+            "front": -70.70036268627187,
+            "rear": 528.6935366375219,
+            "height": 367.4044614973351
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1",
+          "motion": "fold",
+          "role": "bearing",
+          "boundsMm": [
+            -229.5875,
+            -28.12354533181553,
+            660.8569865100485,
+            -221.65,
+            2.974795307511581,
+            691.9553271493755
+          ],
+          "marginsMm": {
+            "left": 120.4125,
+            "right": 571.65,
+            "front": -28.12354533181553,
+            "rear": 757.0252046924884,
+            "height": 374.8446728506244
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            -231.6375,
+            -55.27634393599476,
+            657.4075016205826,
+            -229.6375,
+            30.127593911690816,
+            695.4048120388414
+          ],
+          "marginsMm": {
+            "left": 118.36250000000001,
+            "right": 579.6375,
+            "front": -55.27634393599476,
+            "rear": 729.8724060883092,
+            "height": 371.3951879611585
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -237.6375,
+            -53.52658440648726,
+            662.3213633727721,
+            -216.6375,
+            -45.02988666809242,
+            670.8180611111669
+          ],
+          "marginsMm": {
+            "left": 112.36250000000001,
+            "right": 566.6375,
+            "front": -53.52658440648726,
+            "rear": 805.0298866680924,
+            "height": 395.98193888883304
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -232.6375,
+            -54.276059935078564,
+            661.5714216534113,
+            -231.6375,
+            -44.279944948731696,
+            671.5675366397583
+          ],
+          "marginsMm": {
+            "left": 117.36250000000001,
+            "right": 581.6375,
+            "front": -54.276059935078564,
+            "rear": 804.2799449487317,
+            "height": 395.2324633602417
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -222,
+            -54.77571028747276,
+            661.0714605071709,
+            -217,
+            -43.77998380249121,
+            672.0671869921524
+          ],
+          "marginsMm": {
+            "left": 128,
+            "right": 567,
+            "front": -54.77571028747276,
+            "rear": 803.7799838024912,
+            "height": 394.73281300784754
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1",
+          "motion": "fold",
+          "role": "bearing",
+          "boundsMm": [
+            221.65,
+            -28.123545331815535,
+            660.8569865100485,
+            229.5875,
+            2.974795307511581,
+            691.9553271493755
+          ],
+          "marginsMm": {
+            "left": 571.65,
+            "right": 120.4125,
+            "front": -28.123545331815535,
+            "rear": 757.0252046924884,
+            "height": 374.8446728506244
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            229.6375,
+            -55.27634393599476,
+            657.4075016205826,
+            231.6375,
+            30.127593911690816,
+            695.4048120388414
+          ],
+          "marginsMm": {
+            "left": 579.6375,
+            "right": 118.36250000000001,
+            "front": -55.27634393599476,
+            "rear": 729.8724060883092,
+            "height": 371.3951879611585
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            216.6375,
+            -53.52658440648726,
+            662.3213633727721,
+            237.6375,
+            -45.02988666809242,
+            670.8180611111669
+          ],
+          "marginsMm": {
+            "left": 566.6375,
+            "right": 112.36250000000001,
+            "front": -53.52658440648726,
+            "rear": 805.0298866680924,
+            "height": 395.98193888883304
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            231.6375,
+            -54.276059935078564,
+            661.5714216534113,
+            232.6375,
+            -44.279944948731696,
+            671.5675366397583
+          ],
+          "marginsMm": {
+            "left": 581.6375,
+            "right": 117.36250000000001,
+            "front": -54.276059935078564,
+            "rear": 804.2799449487317,
+            "height": 395.2324633602417
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            217,
+            -54.77571028747276,
+            661.0714605071709,
+            222,
+            -43.77998380249121,
+            672.0671869921524
+          ],
+          "marginsMm": {
+            "left": 567,
+            "right": 128,
+            "front": -54.77571028747276,
+            "rear": 803.7799838024912,
+            "height": 394.73281300784754
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            -229.5875,
+            -40.5575,
+            332.4425,
+            -221.65,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 120.4125,
+            "right": 571.65,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            -231.6375,
+            -67.70196892384277,
+            329.00134479087063,
+            -229.6375,
+            17.701968923842806,
+            366.9986552091295
+          ],
+          "marginsMm": {
+            "left": 118.36250000000001,
+            "right": 579.6375,
+            "front": -67.70196892384277,
+            "rear": 742.2980310761571,
+            "height": 699.8013447908704
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -237.6375,
+            -65.95220939433527,
+            333.91520654306015,
+            -216.6375,
+            -57.455511655940434,
+            342.411904281455
+          ],
+          "marginsMm": {
+            "left": 112.36250000000001,
+            "right": 566.6375,
+            "front": -65.95220939433527,
+            "rear": 817.4555116559404,
+            "height": 724.388095718545
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -232.6375,
+            -66.70168492292657,
+            333.16526482369943,
+            -231.6375,
+            -56.70556993657971,
+            343.1613798100463
+          ],
+          "marginsMm": {
+            "left": 117.36250000000001,
+            "right": 581.6375,
+            "front": -66.70168492292657,
+            "rear": 816.7055699365796,
+            "height": 723.6386201899536
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -222,
+            -67.20133527532077,
+            332.66530367745895,
+            -217,
+            -56.20560879033922,
+            343.66103016244045
+          ],
+          "marginsMm": {
+            "left": 128,
+            "right": 567,
+            "front": -67.20133527532077,
+            "rear": 816.2056087903392,
+            "height": 723.1389698375594
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            221.65,
+            -40.5575,
+            332.4425,
+            229.5875,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 571.65,
+            "right": 120.4125,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            229.6375,
+            -67.70196892384277,
+            329.00134479087063,
+            231.6375,
+            17.701968923842806,
+            366.9986552091295
+          ],
+          "marginsMm": {
+            "left": 579.6375,
+            "right": 118.36250000000001,
+            "front": -67.70196892384277,
+            "rear": 742.2980310761571,
+            "height": 699.8013447908704
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            216.6375,
+            -65.95220939433527,
+            333.91520654306015,
+            237.6375,
+            -57.455511655940434,
+            342.411904281455
+          ],
+          "marginsMm": {
+            "left": 566.6375,
+            "right": 112.36250000000001,
+            "front": -65.95220939433527,
+            "rear": 817.4555116559404,
+            "height": 724.388095718545
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            231.6375,
+            -66.70168492292657,
+            333.16526482369943,
+            232.6375,
+            -56.70556993657971,
+            343.1613798100463
+          ],
+          "marginsMm": {
+            "left": 581.6375,
+            "right": 117.36250000000001,
+            "front": -66.70168492292657,
+            "rear": 816.7055699365796,
+            "height": 723.6386201899536
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            217,
+            -67.20133527532077,
+            332.66530367745895,
+            222,
+            -56.20560879033922,
+            343.66103016244045
+          ],
+          "marginsMm": {
+            "left": 567,
+            "right": 128,
+            "front": -67.20133527532077,
+            "rear": 816.2056087903392,
+            "height": 723.1389698375594
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_shaft_rear",
+          "motion": "fixed",
+          "role": "hard_shaft",
+          "boundsMm": [
+            -324,
+            -32.33234841870825,
+            341.65,
+            324,
+            -17.667651581291754,
+            354.35
+          ],
+          "marginsMm": {
+            "left": 26,
+            "right": 26,
+            "front": -32.33234841870825,
+            "rear": 777.6676515812918,
+            "height": 712.4499999999999
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_0_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -120.65,
+            -35,
+            338,
+            -107.95000000000002,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 229.35,
+            "right": 457.95000000000005,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_0_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            -109.28237902286742,
+            -27.75958081550013,
+            361.0373025393087,
+            -108.52037902286742,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 240.71762097713258,
+            "right": 458.5203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_0_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -120.65,
+            -88.58867172983534,
+            284.41132827016463,
+            -107.95000000000002,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 229.35,
+            "right": 457.95000000000005,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_1_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -82.55,
+            -35,
+            338,
+            -69.85000000000001,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 267.45,
+            "right": 419.85,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_1_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            -71.18237902286741,
+            -27.75958081550013,
+            361.0373025393087,
+            -70.42037902286741,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 278.8176209771326,
+            "right": 420.4203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_1_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -82.55,
+            -88.58867172983534,
+            284.41132827016463,
+            -69.85,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 267.45,
+            "right": 419.85,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_2_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -44.45,
+            -35,
+            338,
+            -31.75,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 305.55,
+            "right": 381.75,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_2_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            -33.0823790228674,
+            -27.75958081550013,
+            361.0373025393087,
+            -32.3203790228674,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 316.91762097713263,
+            "right": 382.3203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_2_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -44.45,
+            -88.58867172983534,
+            284.41132827016463,
+            -31.75,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 305.55,
+            "right": 381.75,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_3_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -6.349999999999999,
+            -35,
+            338,
+            6.3500000000000005,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 343.65,
+            "right": 343.65,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_3_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            5.0176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            5.779620977132598,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 355.0176209771326,
+            "right": 344.2203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_3_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -6.3500000000000005,
+            -88.58867172983534,
+            284.41132827016463,
+            6.350000000000001,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 343.65,
+            "right": 343.65,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_4_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            31.750000000000004,
+            -35,
+            338,
+            44.45,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 381.75,
+            "right": 305.55,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_4_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            43.1176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            43.8796209771326,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 393.1176209771326,
+            "right": 306.1203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_4_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            31.75,
+            -88.58867172983534,
+            284.41132827016463,
+            44.45,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 381.75,
+            "right": 305.55,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_5_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            69.85000000000001,
+            -35,
+            338,
+            82.55,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 419.85,
+            "right": 267.45,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_5_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            81.2176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            81.9796209771326,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 431.2176209771326,
+            "right": 268.0203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_5_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            69.85000000000001,
+            -88.58867172983534,
+            284.41132827016463,
+            82.55000000000001,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 419.85,
+            "right": 267.45,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_6_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            107.95000000000002,
+            -35,
+            338,
+            120.65,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 457.95000000000005,
+            "right": 229.35,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_6_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            119.3176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            120.0796209771326,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 469.3176209771326,
+            "right": 229.9203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_6_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            107.95000000000002,
+            -88.58867172983534,
+            284.41132827016463,
+            120.65,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 457.95000000000005,
+            "right": 229.35,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_0",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -107.95,
+            -34.488190751579765,
+            338.50295277099224,
+            -82.55,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 242.05,
+            "right": 432.55,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -69.85000000000001,
+            -34.488190751579765,
+            338.50295277099224,
+            -44.45,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 280.15,
+            "right": 394.45,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_2",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -31.750000000000004,
+            -34.488190751579765,
+            338.50295277099224,
+            -6.349999999999998,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 318.25,
+            "right": 356.35,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_3",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            6.349999999999998,
+            -34.488190751579765,
+            338.50295277099224,
+            31.750000000000004,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 356.35,
+            "right": 318.25,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_4",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            44.45,
+            -34.488190751579765,
+            338.50295277099224,
+            69.85000000000001,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 394.45,
+            "right": 280.15,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_5",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            82.55,
+            -34.488190751579765,
+            338.50295277099224,
+            107.95,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 432.55,
+            "right": 242.05,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_-1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -221.65,
+            -34.488190751579765,
+            338.50295277099224,
+            -120.65,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 128.35,
+            "right": 470.65,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            120.65,
+            -34.488190751579765,
+            338.50295277099224,
+            221.65,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 470.65,
+            "right": 128.35,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_shaft_kick",
+          "motion": "fold",
+          "role": "hard_shaft",
+          "boundsMm": [
+            -250,
+            -19.65687971713208,
+            669.3236521247319,
+            250,
+            -5.491870307171869,
+            683.4886615346921
+          ],
+          "marginsMm": {
+            "left": 100,
+            "right": 100,
+            "front": -19.65687971713208,
+            "rear": 765.4918703071719,
+            "height": 383.3113384653078
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_core",
+          "motion": "fold",
+          "role": "hard_hub",
+          "boundsMm": [
+            -210,
+            -24.56598346961276,
+            664.4070893199403,
+            210,
+            -0.5753075023802783,
+            688.3977652871728
+          ],
+          "marginsMm": {
+            "left": 140,
+            "right": 140,
+            "front": -24.56598346961276,
+            "rear": 760.5753075023803,
+            "height": 378.4022347128272
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_rubber",
+          "motion": "fold",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -210,
+            -38.05654298425615,
+            650.9081383714472,
+            210,
+            12.92364344611288,
+            701.8883248018162
+          ],
+          "marginsMm": {
+            "left": 140,
+            "right": 140,
+            "front": -38.05654298425615,
+            "rear": 747.0763565538871,
+            "height": 364.91167519818373
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_hub_-1",
+          "motion": "fold",
+          "role": "hard_hub",
+          "boundsMm": [
+            -221.65,
+            -24.316158293415658,
+            664.6570698930606,
+            -194,
+            -0.8252880755005219,
+            688.1479401109757
+          ],
+          "marginsMm": {
+            "left": 128.35,
+            "right": 544,
+            "front": -24.316158293415658,
+            "rear": 760.8252880755006,
+            "height": 378.65205988902426
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_outer_-1",
+          "motion": "fold",
+          "role": "spacer",
+          "boundsMm": [
+            -250,
+            -22.067731707641762,
+            666.9068950511428,
+            -229.58749999999998,
+            -3.075113233582714,
+            685.8995135252018
+          ],
+          "marginsMm": {
+            "left": 100,
+            "right": 579.5875,
+            "front": -22.067731707641762,
+            "rear": 763.0751132335827,
+            "height": 380.9004864747982
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_hub_1",
+          "motion": "fold",
+          "role": "hard_hub",
+          "boundsMm": [
+            194,
+            -24.31615829341566,
+            664.6570698930606,
+            221.65,
+            -0.8252880755005219,
+            688.1479401109757
+          ],
+          "marginsMm": {
+            "left": 544,
+            "right": 128.35,
+            "front": -24.31615829341566,
+            "rear": 760.8252880755006,
+            "height": 378.65205988902426
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_outer_1",
+          "motion": "fold",
+          "role": "spacer",
+          "boundsMm": [
+            229.58749999999998,
+            -22.067731707641762,
+            666.9068950511428,
+            250,
+            -3.075113233582714,
+            685.8995135252018
+          ],
+          "marginsMm": {
+            "left": 579.5875,
+            "right": 100,
+            "front": -22.067731707641762,
+            "rear": 763.0751132335827,
+            "height": 380.9004864747982
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_washer_-1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -326,
+            -34.98756921218923,
+            338.00310817999184,
+            -324,
+            -15,
+            357.99689182000816
+          ],
+          "marginsMm": {
+            "left": 24,
+            "right": 674,
+            "front": -34.98756921218923,
+            "rear": 775,
+            "height": 708.8031081799918
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_screw_-1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -331,
+            -29.24471691518042,
+            343.7513209764965,
+            -314,
+            -20.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 19,
+            "right": 664,
+            "front": -29.24471691518042,
+            "rear": 780.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_washer_1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            324,
+            -34.98756921218923,
+            338.00310817999184,
+            326,
+            -15,
+            357.99689182000816
+          ],
+          "marginsMm": {
+            "left": 674,
+            "right": 24,
+            "front": -34.98756921218923,
+            "rear": 775,
+            "height": 708.8031081799918
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_screw_1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            314,
+            -29.24471691518042,
+            343.7513209764965,
+            331,
+            -20.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 664,
+            "right": 19,
+            "front": -29.24471691518042,
+            "rear": 780.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_washer_-1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -252,
+            -22.56738206003596,
+            666.4069339049023,
+            -250,
+            -2.575152087342227,
+            686.399163877596
+          ],
+          "marginsMm": {
+            "left": 98,
+            "right": 600,
+            "front": -22.56738206003596,
+            "rear": 762.5751520873422,
+            "height": 380.4008361224039
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_screw_-1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -257,
+            -16.821403007502667,
+            672.1564870866679,
+            -240,
+            -8.324705269107833,
+            680.6531848250627
+          ],
+          "marginsMm": {
+            "left": 93,
+            "right": 590,
+            "front": -16.821403007502667,
+            "rear": 768.3247052691079,
+            "height": 386.1468151749373
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_washer_1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            250,
+            -22.56738206003596,
+            666.4069339049023,
+            252,
+            -2.5751520873422287,
+            686.399163877596
+          ],
+          "marginsMm": {
+            "left": 600,
+            "right": 98,
+            "front": -22.56738206003596,
+            "rear": 762.5751520873422,
+            "height": 380.4008361224039
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_screw_1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            240,
+            -16.82140300750267,
+            672.1564870866679,
+            257,
+            -8.324705269107833,
+            680.6531848250627
+          ],
+          "marginsMm": {
+            "left": 590,
+            "right": 93,
+            "front": -16.82140300750267,
+            "rear": 768.3247052691079,
+            "height": 386.1468151749373
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_to_frame_-1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -306.65,
+            -34.488190751579765,
+            338.50295277099224,
+            -229.58749999999998,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 43.35000000000002,
+            "right": 579.5875,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_frame_end_-1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -324,
+            -34.488190751579765,
+            338.50295277099224,
+            -314.5875,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 26,
+            "right": 664.5875,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_to_frame_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            229.58749999999998,
+            -34.488190751579765,
+            338.50295277099224,
+            306.65,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 579.5875,
+            "right": 43.35000000000002,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_frame_end_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            314.5875,
+            -34.488190751579765,
+            338.50295277099224,
+            324,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 664.5875,
+            "right": 26,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_frame_plate_-1",
+          "motion": "fixed",
+          "role": "structure",
+          "boundsMm": [
+            -313,
+            -72,
+            27,
+            -307,
+            207.99624882281398,
+            365.99999304725065
+          ],
+          "marginsMm": {
+            "left": 37,
+            "right": 657,
+            "front": -72,
+            "rear": 552.003751177186,
+            "height": 700.8000069527493
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_bearing_-1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            -314.5875,
+            -40.5575,
+            332.4425,
+            -306.65,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 35.41250000000002,
+            "right": 656.65,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_keeper_-1",
+          "motion": "fixed",
+          "role": "retainer",
+          "boundsMm": [
+            -316.6375,
+            -69,
+            329.02372635799367,
+            -314.6375,
+            19,
+            366.97627364200633
+          ],
+          "marginsMm": {
+            "left": 33.36250000000001,
+            "right": 664.6375,
+            "front": -69,
+            "rear": 741,
+            "height": 699.8237263579936
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_-1_0",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -322.6375,
+            -67.24471691518042,
+            343.7513209764965,
+            -301.6375,
+            -58.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 27.36250000000001,
+            "right": 651.6375,
+            "front": -67.24471691518042,
+            "rear": 818.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_-1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -317.6375,
+            -67.99378460609461,
+            343.0015540899959,
+            -316.6375,
+            -58,
+            352.9984459100041
+          ],
+          "marginsMm": {
+            "left": 32.36250000000001,
+            "right": 666.6375,
+            "front": -67.99378460609461,
+            "rear": 818,
+            "height": 713.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_-1_0_nut",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -307,
+            -68.49316306670407,
+            342.5017094989955,
+            -302,
+            -57.5,
+            353.4982905010045
+          ],
+          "marginsMm": {
+            "left": 43,
+            "right": 652,
+            "front": -68.49316306670407,
+            "rear": 817.5,
+            "height": 713.3017094989955
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_0_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -356,
+            65.75528308481958,
+            40.75132097649653,
+            -301,
+            74.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": -6,
+            "right": 651,
+            "front": 65.75528308481958,
+            "rear": 685.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -351,
+            65.00621539390539,
+            40.00155408999592,
+            -350,
+            75,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": -1,
+            "right": 700,
+            "front": 65.00621539390539,
+            "rear": 685,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_1_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -356,
+            185.75528308481958,
+            40.75132097649653,
+            -301,
+            194.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": -6,
+            "right": 651,
+            "front": 185.75528308481958,
+            "rear": 565.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_1_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -351,
+            185.0062153939054,
+            40.00155408999592,
+            -350,
+            195,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": -1,
+            "right": 700,
+            "front": 185.0062153939054,
+            "rear": 565,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_frame_plate_1",
+          "motion": "fixed",
+          "role": "structure",
+          "boundsMm": [
+            307,
+            -72,
+            27,
+            313,
+            207.99624882281398,
+            365.99999304725065
+          ],
+          "marginsMm": {
+            "left": 657,
+            "right": 37,
+            "front": -72,
+            "rear": 552.003751177186,
+            "height": 700.8000069527493
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_bearing_1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            306.65,
+            -40.5575,
+            332.4425,
+            314.5875,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 656.65,
+            "right": 35.41250000000002,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_keeper_1",
+          "motion": "fixed",
+          "role": "retainer",
+          "boundsMm": [
+            314.6375,
+            -69,
+            329.02372635799367,
+            316.6375,
+            19,
+            366.97627364200633
+          ],
+          "marginsMm": {
+            "left": 664.6375,
+            "right": 33.36250000000001,
+            "front": -69,
+            "rear": 741,
+            "height": 699.8237263579936
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_1_0",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            301.6375,
+            -67.24471691518042,
+            343.7513209764965,
+            322.6375,
+            -58.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 651.6375,
+            "right": 27.36250000000001,
+            "front": -67.24471691518042,
+            "rear": 818.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            316.6375,
+            -67.99378460609461,
+            343.0015540899959,
+            317.6375,
+            -58,
+            352.9984459100041
+          ],
+          "marginsMm": {
+            "left": 666.6375,
+            "right": 32.36250000000001,
+            "front": -67.99378460609461,
+            "rear": 818,
+            "height": 713.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_1_0_nut",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            302,
+            -68.49316306670407,
+            342.5017094989955,
+            307,
+            -57.5,
+            353.4982905010045
+          ],
+          "marginsMm": {
+            "left": 652,
+            "right": 43,
+            "front": -68.49316306670407,
+            "rear": 817.5,
+            "height": 713.3017094989955
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_0_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            301,
+            65.75528308481958,
+            40.75132097649653,
+            356,
+            74.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": 651,
+            "right": -6,
+            "front": 65.75528308481958,
+            "rear": 685.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            350,
+            65.00621539390539,
+            40.00155408999592,
+            351,
+            75,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": 700,
+            "right": -1,
+            "front": 65.00621539390539,
+            "rear": 685,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_1_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            301,
+            185.75528308481958,
+            40.75132097649653,
+            356,
+            194.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": 651,
+            "right": -6,
+            "front": 185.75528308481958,
+            "rear": 565.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_1_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            350,
+            185.0062153939054,
+            40.00155408999592,
+            351,
+            195,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": 700,
+            "right": -1,
+            "front": 185.0062153939054,
+            "rear": 565,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_stage_shaft",
+          "motion": "fixed",
+          "role": "hard_shaft",
+          "boundsMm": [
+            258,
+            -32.32229969003305,
+            234.9312297213087,
+            305,
+            -17.677700309966948,
+            247.9975702786913
+          ],
+          "marginsMm": {
+            "left": 608,
+            "right": 45,
+            "front": -32.32229969003305,
+            "rear": 777.6777003099669,
+            "height": 818.8024297213086
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_mount",
+          "motion": "fixed",
+          "role": "structure",
+          "boundsMm": [
+            260,
+            -104.72,
+            203.4644,
+            266,
+            9,
+            275.4644
+          ],
+          "marginsMm": {
+            "left": 610,
+            "right": 84,
+            "front": -104.72,
+            "rear": 751,
+            "height": 791.3355999999999
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_X44",
+          "motion": "fixed",
+          "role": "motor",
+          "boundsMm": [
+            185.3874999999943,
+            -92.72,
+            216.06439999999805,
+            297.35705,
+            -48.72,
+            263.4644
+          ],
+          "marginsMm": {
+            "left": 535.3874999999944,
+            "right": 52.642949999999985,
+            "front": -92.72,
+            "rear": 808.72,
+            "height": 803.3355999999999
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_output_bearing",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            259.65,
+            -40.541175225240465,
+            225.92322477475955,
+            267.5875,
+            -9.458824774759536,
+            257.0055752252405
+          ],
+          "marginsMm": {
+            "left": 609.65,
+            "right": 82.41250000000002,
+            "front": -40.541175225240465,
+            "rear": 769.4588247747596,
+            "height": 809.7944247747595
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_motor_screw_0",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            254.475,
+            -58.07750090180252,
+            236.63990000766407,
+            268.826,
+            -48.4315,
+            246.28889999233596
+          ],
+          "marginsMm": {
+            "left": 604.475,
+            "right": 81.17399999999998,
+            "front": -58.07750090180252,
+            "rear": 808.4315,
+            "height": 820.511100007664
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_motor_screw_1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            254.475,
+            -84.2712509018025,
+            251.76286862124985,
+            268.826,
+            -74.62525,
+            261.4118686059217
+          ],
+          "marginsMm": {
+            "left": 604.475,
+            "right": 81.17399999999998,
+            "front": -84.2712509018025,
+            "rear": 834.62525,
+            "height": 805.3881313940783
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_motor_screw_2",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            254.475,
+            -84.27125090180252,
+            221.5169313940783,
+            268.826,
+            -74.62525000000001,
+            231.1659313787502
+          ],
+          "marginsMm": {
+            "left": 604.475,
+            "right": 81.17399999999998,
+            "front": -84.27125090180252,
+            "rear": 834.62525,
+            "height": 835.6340686212498
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_12T",
+          "motion": "fixed",
+          "role": "gear",
+          "boundsMm": [
+            265.5562499999999,
+            -79.4224028915079,
+            232.76199710849212,
+            284.60625,
+            -62.0175971084921,
+            250.1668028915079
+          ],
+          "marginsMm": {
+            "left": 615.5562499999999,
+            "right": 65.39375000000001,
+            "front": -79.4224028915079,
+            "rear": 822.017597108492,
+            "height": 816.633197108492
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_60T",
+          "motion": "fixed",
+          "role": "gear",
+          "boundsMm": [
+            268.75665,
+            -64.36952541966228,
+            202.09487458033772,
+            281.40585,
+            14.369525419662281,
+            280.8339254196623
+          ],
+          "marginsMm": {
+            "left": 618.75665,
+            "right": 68.59415000000001,
+            "front": -64.36952541966228,
+            "rear": 745.6304745803377,
+            "height": 785.9660745803376
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_pinion_spacer",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            284.6062501,
+            -76.71254152731353,
+            235.4662649079951,
+            297.35704999999996,
+            -64.72,
+            247.4625350920049
+          ],
+          "marginsMm": {
+            "left": 634.6062501,
+            "right": 52.64295000000004,
+            "front": -76.71254152731353,
+            "rear": 824.72,
+            "height": 819.337464907995
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_pinion_retention",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            288.83205000000004,
+            -75.54000090180251,
+            236.63990000766407,
+            303.18305000000004,
+            -65.894,
+            246.28889999233596
+          ],
+          "marginsMm": {
+            "left": 638.83205,
+            "right": 46.81694999999996,
+            "front": -75.54000090180251,
+            "rear": 825.894,
+            "height": 820.511100007664
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_output_spacer",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            281.40585,
+            -36.9999626999271,
+            229.46891302824923,
+            305,
+            -13.013462815212678,
+            253.46137881931008
+          ],
+          "marginsMm": {
+            "left": 631.40585,
+            "right": 45,
+            "front": -36.9999626999271,
+            "rear": 773.0134628152127,
+            "height": 813.3386211806899
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_output_end",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            294,
+            -29.99998445830296,
+            236.4662804284372,
+            311,
+            -20.005609506338615,
+            246.46314117471255
+          ],
+          "marginsMm": {
+            "left": 644,
+            "right": 39,
+            "front": -29.99998445830296,
+            "rear": 780.0056095063386,
+            "height": 820.3368588252874
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        }
+      ],
+      "reserveFailures": [
+        "v2_main_cheek_-1",
+        "v2_main_cheek_1",
+        "v2_bearing_kick_-1",
+        "v2_bearing_kick_-1_keeper",
+        "v2_bearing_kick_-1_bolt_1_screw",
+        "v2_bearing_kick_-1_bolt_1_washer",
+        "v2_bearing_kick_-1_bolt_1_nut",
+        "v2_bearing_kick_1",
+        "v2_bearing_kick_1_keeper",
+        "v2_bearing_kick_1_bolt_1_screw",
+        "v2_bearing_kick_1_bolt_1_washer",
+        "v2_bearing_kick_1_bolt_1_nut",
+        "v2_bearing_rear_-1",
+        "v2_bearing_rear_-1_keeper",
+        "v2_bearing_rear_-1_bolt_1_screw",
+        "v2_bearing_rear_-1_bolt_1_washer",
+        "v2_bearing_rear_-1_bolt_1_nut",
+        "v2_bearing_rear_1",
+        "v2_bearing_rear_1_keeper",
+        "v2_bearing_rear_1_bolt_1_screw",
+        "v2_bearing_rear_1_bolt_1_washer",
+        "v2_bearing_rear_1_bolt_1_nut",
+        "v2_shaft_rear",
+        "v2_star_rear_0_body_0",
+        "v2_star_rear_0_body_1",
+        "v2_star_rear_0_body_2",
+        "v2_star_rear_1_body_0",
+        "v2_star_rear_1_body_1",
+        "v2_star_rear_1_body_2",
+        "v2_star_rear_2_body_0",
+        "v2_star_rear_2_body_1",
+        "v2_star_rear_2_body_2",
+        "v2_star_rear_3_body_0",
+        "v2_star_rear_3_body_1",
+        "v2_star_rear_3_body_2",
+        "v2_star_rear_4_body_0",
+        "v2_star_rear_4_body_1",
+        "v2_star_rear_4_body_2",
+        "v2_star_rear_5_body_0",
+        "v2_star_rear_5_body_1",
+        "v2_star_rear_5_body_2",
+        "v2_star_rear_6_body_0",
+        "v2_star_rear_6_body_1",
+        "v2_star_rear_6_body_2",
+        "v2_rear_between_0",
+        "v2_rear_between_1",
+        "v2_rear_between_2",
+        "v2_rear_between_3",
+        "v2_rear_between_4",
+        "v2_rear_between_5",
+        "v2_rear_end_-1",
+        "v2_rear_end_1",
+        "v2_shaft_kick",
+        "v2_kick_core",
+        "v2_kick_rubber",
+        "v2_kick_hub_-1",
+        "v2_kick_outer_-1",
+        "v2_kick_hub_1",
+        "v2_kick_outer_1",
+        "v2_rear_end_washer_-1",
+        "v2_rear_end_screw_-1",
+        "v2_rear_end_washer_1",
+        "v2_rear_end_screw_1",
+        "v2_kick_end_washer_-1",
+        "v2_kick_end_screw_-1",
+        "v2_kick_end_washer_1",
+        "v2_kick_end_screw_1",
+        "v2_rear_to_frame_-1",
+        "v2_rear_frame_end_-1",
+        "v2_rear_to_frame_1",
+        "v2_rear_frame_end_1",
+        "coaxial_frame_plate_-1",
+        "assumed_chassis_side_rail_-1",
+        "coaxial_outer_bearing_-1",
+        "coaxial_outer_keeper_-1",
+        "coaxial_keeper_bolt_-1_0",
+        "coaxial_keeper_bolt_-1_0_washer",
+        "coaxial_keeper_bolt_-1_0_nut",
+        "frame_root_-1_0_crush_sleeve",
+        "frame_root_-1_0_screw",
+        "frame_root_-1_0_washer",
+        "frame_root_-1_1_crush_sleeve",
+        "frame_root_-1_1_screw",
+        "frame_root_-1_1_washer",
+        "coaxial_frame_plate_1",
+        "assumed_chassis_side_rail_1",
+        "coaxial_outer_bearing_1",
+        "coaxial_outer_keeper_1",
+        "coaxial_keeper_bolt_1_0",
+        "coaxial_keeper_bolt_1_0_washer",
+        "coaxial_keeper_bolt_1_0_nut",
+        "frame_root_1_0_crush_sleeve",
+        "frame_root_1_0_screw",
+        "frame_root_1_0_washer",
+        "frame_root_1_1_crush_sleeve",
+        "frame_root_1_1_screw",
+        "frame_root_1_1_washer",
+        "pickup_pickup_stage_shaft",
+        "pickup_pickup_drive_mount",
+        "pickup_pickup_drive_X44",
+        "pickup_pickup_drive_output_bearing",
+        "pickup_pickup_drive_motor_screw_0",
+        "pickup_pickup_drive_motor_screw_1",
+        "pickup_pickup_drive_motor_screw_2",
+        "pickup_pickup_drive_12T",
+        "pickup_pickup_drive_60T",
+        "pickup_pickup_drive_pinion_spacer",
+        "pickup_pickup_drive_pinion_retention",
+        "pickup_pickup_drive_output_spacer",
+        "pickup_pickup_drive_output_end"
+      ],
+      "fixedOutsideCount": 73,
+      "startingConfigurationCertified": false,
+      "releaseReady": false,
+      "limitation": "Actual mesh vertices reject protrusions; passing mesh bounds alone does not certify analytic B-rep extrema, tolerances, full rotor phases, starting restraints, or official rules. Frame plane is Y=0, not bumper outer face Y=-85."
+    },
+    {
+      "schema": "starting-frame-envelope/1",
+      "status": "FAIL_OUTSIDE_FRAME",
+      "frame": {
+        "x": [
+          -350,
+          350
+        ],
+        "y": [
+          0,
+          760
+        ],
+        "maximumHeight": 1066.8
+      },
+      "angleDeg": -165,
+      "floatDeg": -8,
+      "reserveMm": 5,
+      "physicalParts": 502,
+      "motorCount": 4,
+      "minimumMarginsMm": {
+        "left": -6,
+        "right": -6,
+        "front": -104.72,
+        "rear": 25,
+        "height": 364.91167519818373
+      },
+      "outsideParts": [
+        {
+          "id": "v2_main_cheek_-1",
+          "motion": "fold",
+          "role": "structure",
+          "boundsMm": [
+            -228,
+            -70.70036268627187,
+            314.9419171897755,
+            -222,
+            231.30646336247815,
+            699.3955385026649
+          ],
+          "marginsMm": {
+            "left": 122,
+            "right": 572,
+            "front": -70.70036268627187,
+            "rear": 528.6935366375219,
+            "height": 367.4044614973351
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_main_cheek_1",
+          "motion": "fold",
+          "role": "structure",
+          "boundsMm": [
+            222,
+            -70.70036268627187,
+            314.9419171897755,
+            228,
+            231.30646336247815,
+            699.3955385026649
+          ],
+          "marginsMm": {
+            "left": 572,
+            "right": 122,
+            "front": -70.70036268627187,
+            "rear": 528.6935366375219,
+            "height": 367.4044614973351
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1",
+          "motion": "fold",
+          "role": "bearing",
+          "boundsMm": [
+            -229.5875,
+            -28.12354533181553,
+            660.8569865100485,
+            -221.65,
+            2.974795307511581,
+            691.9553271493755
+          ],
+          "marginsMm": {
+            "left": 120.4125,
+            "right": 571.65,
+            "front": -28.12354533181553,
+            "rear": 757.0252046924884,
+            "height": 374.8446728506244
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            -231.6375,
+            -55.27634393599476,
+            657.4075016205826,
+            -229.6375,
+            30.127593911690816,
+            695.4048120388414
+          ],
+          "marginsMm": {
+            "left": 118.36250000000001,
+            "right": 579.6375,
+            "front": -55.27634393599476,
+            "rear": 729.8724060883092,
+            "height": 371.3951879611585
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -237.6375,
+            -53.52658440648726,
+            662.3213633727721,
+            -216.6375,
+            -45.02988666809242,
+            670.8180611111669
+          ],
+          "marginsMm": {
+            "left": 112.36250000000001,
+            "right": 566.6375,
+            "front": -53.52658440648726,
+            "rear": 805.0298866680924,
+            "height": 395.98193888883304
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -232.6375,
+            -54.276059935078564,
+            661.5714216534113,
+            -231.6375,
+            -44.279944948731696,
+            671.5675366397583
+          ],
+          "marginsMm": {
+            "left": 117.36250000000001,
+            "right": 581.6375,
+            "front": -54.276059935078564,
+            "rear": 804.2799449487317,
+            "height": 395.2324633602417
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_-1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -222,
+            -54.77571028747276,
+            661.0714605071709,
+            -217,
+            -43.77998380249121,
+            672.0671869921524
+          ],
+          "marginsMm": {
+            "left": 128,
+            "right": 567,
+            "front": -54.77571028747276,
+            "rear": 803.7799838024912,
+            "height": 394.73281300784754
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1",
+          "motion": "fold",
+          "role": "bearing",
+          "boundsMm": [
+            221.65,
+            -28.123545331815535,
+            660.8569865100485,
+            229.5875,
+            2.974795307511581,
+            691.9553271493755
+          ],
+          "marginsMm": {
+            "left": 571.65,
+            "right": 120.4125,
+            "front": -28.123545331815535,
+            "rear": 757.0252046924884,
+            "height": 374.8446728506244
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            229.6375,
+            -55.27634393599476,
+            657.4075016205826,
+            231.6375,
+            30.127593911690816,
+            695.4048120388414
+          ],
+          "marginsMm": {
+            "left": 579.6375,
+            "right": 118.36250000000001,
+            "front": -55.27634393599476,
+            "rear": 729.8724060883092,
+            "height": 371.3951879611585
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            216.6375,
+            -53.52658440648726,
+            662.3213633727721,
+            237.6375,
+            -45.02988666809242,
+            670.8180611111669
+          ],
+          "marginsMm": {
+            "left": 566.6375,
+            "right": 112.36250000000001,
+            "front": -53.52658440648726,
+            "rear": 805.0298866680924,
+            "height": 395.98193888883304
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            231.6375,
+            -54.276059935078564,
+            661.5714216534113,
+            232.6375,
+            -44.279944948731696,
+            671.5675366397583
+          ],
+          "marginsMm": {
+            "left": 581.6375,
+            "right": 117.36250000000001,
+            "front": -54.276059935078564,
+            "rear": 804.2799449487317,
+            "height": 395.2324633602417
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_kick_1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            217,
+            -54.77571028747276,
+            661.0714605071709,
+            222,
+            -43.77998380249121,
+            672.0671869921524
+          ],
+          "marginsMm": {
+            "left": 567,
+            "right": 128,
+            "front": -54.77571028747276,
+            "rear": 803.7799838024912,
+            "height": 394.73281300784754
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            -229.5875,
+            -40.5575,
+            332.4425,
+            -221.65,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 120.4125,
+            "right": 571.65,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            -231.6375,
+            -67.70196892384277,
+            329.00134479087063,
+            -229.6375,
+            17.701968923842806,
+            366.9986552091295
+          ],
+          "marginsMm": {
+            "left": 118.36250000000001,
+            "right": 579.6375,
+            "front": -67.70196892384277,
+            "rear": 742.2980310761571,
+            "height": 699.8013447908704
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -237.6375,
+            -65.95220939433527,
+            333.91520654306015,
+            -216.6375,
+            -57.455511655940434,
+            342.411904281455
+          ],
+          "marginsMm": {
+            "left": 112.36250000000001,
+            "right": 566.6375,
+            "front": -65.95220939433527,
+            "rear": 817.4555116559404,
+            "height": 724.388095718545
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -232.6375,
+            -66.70168492292657,
+            333.16526482369943,
+            -231.6375,
+            -56.70556993657971,
+            343.1613798100463
+          ],
+          "marginsMm": {
+            "left": 117.36250000000001,
+            "right": 581.6375,
+            "front": -66.70168492292657,
+            "rear": 816.7055699365796,
+            "height": 723.6386201899536
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_-1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -222,
+            -67.20133527532077,
+            332.66530367745895,
+            -217,
+            -56.20560879033922,
+            343.66103016244045
+          ],
+          "marginsMm": {
+            "left": 128,
+            "right": 567,
+            "front": -67.20133527532077,
+            "rear": 816.2056087903392,
+            "height": 723.1389698375594
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            221.65,
+            -40.5575,
+            332.4425,
+            229.5875,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 571.65,
+            "right": 120.4125,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_keeper",
+          "motion": "fold",
+          "role": "retainer",
+          "boundsMm": [
+            229.6375,
+            -67.70196892384277,
+            329.00134479087063,
+            231.6375,
+            17.701968923842806,
+            366.9986552091295
+          ],
+          "marginsMm": {
+            "left": 579.6375,
+            "right": 118.36250000000001,
+            "front": -67.70196892384277,
+            "rear": 742.2980310761571,
+            "height": 699.8013447908704
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_bolt_1_screw",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            216.6375,
+            -65.95220939433527,
+            333.91520654306015,
+            237.6375,
+            -57.455511655940434,
+            342.411904281455
+          ],
+          "marginsMm": {
+            "left": 566.6375,
+            "right": 112.36250000000001,
+            "front": -65.95220939433527,
+            "rear": 817.4555116559404,
+            "height": 724.388095718545
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_bolt_1_washer",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            231.6375,
+            -66.70168492292657,
+            333.16526482369943,
+            232.6375,
+            -56.70556993657971,
+            343.1613798100463
+          ],
+          "marginsMm": {
+            "left": 581.6375,
+            "right": 117.36250000000001,
+            "front": -66.70168492292657,
+            "rear": 816.7055699365796,
+            "height": 723.6386201899536
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_bearing_rear_1_bolt_1_nut",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            217,
+            -67.20133527532077,
+            332.66530367745895,
+            222,
+            -56.20560879033922,
+            343.66103016244045
+          ],
+          "marginsMm": {
+            "left": 567,
+            "right": 128,
+            "front": -67.20133527532077,
+            "rear": 816.2056087903392,
+            "height": 723.1389698375594
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_shaft_rear",
+          "motion": "fixed",
+          "role": "hard_shaft",
+          "boundsMm": [
+            -324,
+            -32.33234841870825,
+            341.65,
+            324,
+            -17.667651581291754,
+            354.35
+          ],
+          "marginsMm": {
+            "left": 26,
+            "right": 26,
+            "front": -32.33234841870825,
+            "rear": 777.6676515812918,
+            "height": 712.4499999999999
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_0_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -120.65,
+            -35,
+            338,
+            -107.95000000000002,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 229.35,
+            "right": 457.95000000000005,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_0_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            -109.28237902286742,
+            -27.75958081550013,
+            361.0373025393087,
+            -108.52037902286742,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 240.71762097713258,
+            "right": 458.5203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_0_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -120.65,
+            -88.58867172983534,
+            284.41132827016463,
+            -107.95000000000002,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 229.35,
+            "right": 457.95000000000005,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_1_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -82.55,
+            -35,
+            338,
+            -69.85000000000001,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 267.45,
+            "right": 419.85,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_1_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            -71.18237902286741,
+            -27.75958081550013,
+            361.0373025393087,
+            -70.42037902286741,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 278.8176209771326,
+            "right": 420.4203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_1_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -82.55,
+            -88.58867172983534,
+            284.41132827016463,
+            -69.85,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 267.45,
+            "right": 419.85,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_2_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -44.45,
+            -35,
+            338,
+            -31.75,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 305.55,
+            "right": 381.75,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_2_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            -33.0823790228674,
+            -27.75958081550013,
+            361.0373025393087,
+            -32.3203790228674,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 316.91762097713263,
+            "right": 382.3203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_2_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -44.45,
+            -88.58867172983534,
+            284.41132827016463,
+            -31.75,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 305.55,
+            "right": 381.75,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_3_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            -6.349999999999999,
+            -35,
+            338,
+            6.3500000000000005,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 343.65,
+            "right": 343.65,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_3_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            5.0176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            5.779620977132598,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 355.0176209771326,
+            "right": 344.2203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_3_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -6.3500000000000005,
+            -88.58867172983534,
+            284.41132827016463,
+            6.350000000000001,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 343.65,
+            "right": 343.65,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_4_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            31.750000000000004,
+            -35,
+            338,
+            44.45,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 381.75,
+            "right": 305.55,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_4_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            43.1176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            43.8796209771326,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 393.1176209771326,
+            "right": 306.1203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_4_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            31.75,
+            -88.58867172983534,
+            284.41132827016463,
+            44.45,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 381.75,
+            "right": 305.55,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_5_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            69.85000000000001,
+            -35,
+            338,
+            82.55,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 419.85,
+            "right": 267.45,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_5_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            81.2176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            81.9796209771326,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 431.2176209771326,
+            "right": 268.0203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_5_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            69.85000000000001,
+            -88.58867172983534,
+            284.41132827016463,
+            82.55000000000001,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 419.85,
+            "right": 267.45,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_6_body_0",
+          "motion": "fixed",
+          "role": "hard_hub",
+          "boundsMm": [
+            107.95000000000002,
+            -35,
+            338,
+            120.65,
+            -15,
+            358
+          ],
+          "marginsMm": {
+            "left": 457.95000000000005,
+            "right": 229.35,
+            "front": -35,
+            "rear": 775,
+            "height": 708.8
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_6_body_1",
+          "motion": "fixed",
+          "role": "hard_marking_unqualified",
+          "boundsMm": [
+            119.3176209771326,
+            -27.75958081550013,
+            361.0373025393087,
+            120.0796209771326,
+            -22.218266163686334,
+            367.68818777267165
+          ],
+          "marginsMm": {
+            "left": 469.3176209771326,
+            "right": 229.9203790228674,
+            "front": -27.75958081550013,
+            "rear": 782.2182661636863,
+            "height": 699.1118122273283
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_star_rear_6_body_2",
+          "motion": "fixed",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            107.95000000000002,
+            -88.58867172983534,
+            284.41132827016463,
+            120.65,
+            38.58867172983535,
+            411.58867172983537
+          ],
+          "marginsMm": {
+            "left": 457.95000000000005,
+            "right": 229.35,
+            "front": -88.58867172983534,
+            "rear": 721.4113282701646,
+            "height": 655.2113282701646
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_0",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -107.95,
+            -34.488190751579765,
+            338.50295277099224,
+            -82.55,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 242.05,
+            "right": 432.55,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -69.85000000000001,
+            -34.488190751579765,
+            338.50295277099224,
+            -44.45,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 280.15,
+            "right": 394.45,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_2",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -31.750000000000004,
+            -34.488190751579765,
+            338.50295277099224,
+            -6.349999999999998,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 318.25,
+            "right": 356.35,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_3",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            6.349999999999998,
+            -34.488190751579765,
+            338.50295277099224,
+            31.750000000000004,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 356.35,
+            "right": 318.25,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_4",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            44.45,
+            -34.488190751579765,
+            338.50295277099224,
+            69.85000000000001,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 394.45,
+            "right": 280.15,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_between_5",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            82.55,
+            -34.488190751579765,
+            338.50295277099224,
+            107.95,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 432.55,
+            "right": 242.05,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_-1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -221.65,
+            -34.488190751579765,
+            338.50295277099224,
+            -120.65,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 128.35,
+            "right": 470.65,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            120.65,
+            -34.488190751579765,
+            338.50295277099224,
+            221.65,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 470.65,
+            "right": 128.35,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_shaft_kick",
+          "motion": "fold",
+          "role": "hard_shaft",
+          "boundsMm": [
+            -250,
+            -19.65687971713208,
+            669.3236521247319,
+            250,
+            -5.491870307171869,
+            683.4886615346921
+          ],
+          "marginsMm": {
+            "left": 100,
+            "right": 100,
+            "front": -19.65687971713208,
+            "rear": 765.4918703071719,
+            "height": 383.3113384653078
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_core",
+          "motion": "fold",
+          "role": "hard_hub",
+          "boundsMm": [
+            -210,
+            -24.56598346961276,
+            664.4070893199403,
+            210,
+            -0.5753075023802783,
+            688.3977652871728
+          ],
+          "marginsMm": {
+            "left": 140,
+            "right": 140,
+            "front": -24.56598346961276,
+            "rear": 760.5753075023803,
+            "height": 378.4022347128272
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_rubber",
+          "motion": "fold",
+          "role": "outer_elastomer",
+          "boundsMm": [
+            -210,
+            -38.05654298425615,
+            650.9081383714472,
+            210,
+            12.92364344611288,
+            701.8883248018162
+          ],
+          "marginsMm": {
+            "left": 140,
+            "right": 140,
+            "front": -38.05654298425615,
+            "rear": 747.0763565538871,
+            "height": 364.91167519818373
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_hub_-1",
+          "motion": "fold",
+          "role": "hard_hub",
+          "boundsMm": [
+            -221.65,
+            -24.316158293415658,
+            664.6570698930606,
+            -194,
+            -0.8252880755005219,
+            688.1479401109757
+          ],
+          "marginsMm": {
+            "left": 128.35,
+            "right": 544,
+            "front": -24.316158293415658,
+            "rear": 760.8252880755006,
+            "height": 378.65205988902426
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_outer_-1",
+          "motion": "fold",
+          "role": "spacer",
+          "boundsMm": [
+            -250,
+            -22.067731707641762,
+            666.9068950511428,
+            -229.58749999999998,
+            -3.075113233582714,
+            685.8995135252018
+          ],
+          "marginsMm": {
+            "left": 100,
+            "right": 579.5875,
+            "front": -22.067731707641762,
+            "rear": 763.0751132335827,
+            "height": 380.9004864747982
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_hub_1",
+          "motion": "fold",
+          "role": "hard_hub",
+          "boundsMm": [
+            194,
+            -24.31615829341566,
+            664.6570698930606,
+            221.65,
+            -0.8252880755005219,
+            688.1479401109757
+          ],
+          "marginsMm": {
+            "left": 544,
+            "right": 128.35,
+            "front": -24.31615829341566,
+            "rear": 760.8252880755006,
+            "height": 378.65205988902426
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_outer_1",
+          "motion": "fold",
+          "role": "spacer",
+          "boundsMm": [
+            229.58749999999998,
+            -22.067731707641762,
+            666.9068950511428,
+            250,
+            -3.075113233582714,
+            685.8995135252018
+          ],
+          "marginsMm": {
+            "left": 579.5875,
+            "right": 100,
+            "front": -22.067731707641762,
+            "rear": 763.0751132335827,
+            "height": 380.9004864747982
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_washer_-1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -326,
+            -34.98756921218923,
+            338.00310817999184,
+            -324,
+            -15,
+            357.99689182000816
+          ],
+          "marginsMm": {
+            "left": 24,
+            "right": 674,
+            "front": -34.98756921218923,
+            "rear": 775,
+            "height": 708.8031081799918
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_screw_-1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -331,
+            -29.24471691518042,
+            343.7513209764965,
+            -314,
+            -20.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 19,
+            "right": 664,
+            "front": -29.24471691518042,
+            "rear": 780.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_washer_1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            324,
+            -34.98756921218923,
+            338.00310817999184,
+            326,
+            -15,
+            357.99689182000816
+          ],
+          "marginsMm": {
+            "left": 674,
+            "right": 24,
+            "front": -34.98756921218923,
+            "rear": 775,
+            "height": 708.8031081799918
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_end_screw_1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            314,
+            -29.24471691518042,
+            343.7513209764965,
+            331,
+            -20.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 664,
+            "right": 19,
+            "front": -29.24471691518042,
+            "rear": 780.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_washer_-1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -252,
+            -22.56738206003596,
+            666.4069339049023,
+            -250,
+            -2.575152087342227,
+            686.399163877596
+          ],
+          "marginsMm": {
+            "left": 98,
+            "right": 600,
+            "front": -22.56738206003596,
+            "rear": 762.5751520873422,
+            "height": 380.4008361224039
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_screw_-1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            -257,
+            -16.821403007502667,
+            672.1564870866679,
+            -240,
+            -8.324705269107833,
+            680.6531848250627
+          ],
+          "marginsMm": {
+            "left": 93,
+            "right": 590,
+            "front": -16.821403007502667,
+            "rear": 768.3247052691079,
+            "height": 386.1468151749373
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_washer_1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            250,
+            -22.56738206003596,
+            666.4069339049023,
+            252,
+            -2.5751520873422287,
+            686.399163877596
+          ],
+          "marginsMm": {
+            "left": 600,
+            "right": 98,
+            "front": -22.56738206003596,
+            "rear": 762.5751520873422,
+            "height": 380.4008361224039
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_kick_end_screw_1",
+          "motion": "fold",
+          "role": "fastener",
+          "boundsMm": [
+            240,
+            -16.82140300750267,
+            672.1564870866679,
+            257,
+            -8.324705269107833,
+            680.6531848250627
+          ],
+          "marginsMm": {
+            "left": 590,
+            "right": 93,
+            "front": -16.82140300750267,
+            "rear": 768.3247052691079,
+            "height": 386.1468151749373
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_to_frame_-1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -306.65,
+            -34.488190751579765,
+            338.50295277099224,
+            -229.58749999999998,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 43.35000000000002,
+            "right": 579.5875,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_frame_end_-1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            -324,
+            -34.488190751579765,
+            338.50295277099224,
+            -314.5875,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 26,
+            "right": 664.5875,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_to_frame_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            229.58749999999998,
+            -34.488190751579765,
+            338.50295277099224,
+            306.65,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 579.5875,
+            "right": 43.35000000000002,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "v2_rear_frame_end_1",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            314.5875,
+            -34.488190751579765,
+            338.50295277099224,
+            324,
+            -15.5,
+            357.49704722900776
+          ],
+          "marginsMm": {
+            "left": 664.5875,
+            "right": 26,
+            "front": -34.488190751579765,
+            "rear": 775.5,
+            "height": 709.3029527709922
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_frame_plate_-1",
+          "motion": "fixed",
+          "role": "structure",
+          "boundsMm": [
+            -313,
+            -72,
+            27,
+            -307,
+            207.99624882281398,
+            365.99999304725065
+          ],
+          "marginsMm": {
+            "left": 37,
+            "right": 657,
+            "front": -72,
+            "rear": 552.003751177186,
+            "height": 700.8000069527493
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_bearing_-1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            -314.5875,
+            -40.5575,
+            332.4425,
+            -306.65,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 35.41250000000002,
+            "right": 656.65,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_keeper_-1",
+          "motion": "fixed",
+          "role": "retainer",
+          "boundsMm": [
+            -316.6375,
+            -69,
+            329.02372635799367,
+            -314.6375,
+            19,
+            366.97627364200633
+          ],
+          "marginsMm": {
+            "left": 33.36250000000001,
+            "right": 664.6375,
+            "front": -69,
+            "rear": 741,
+            "height": 699.8237263579936
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_-1_0",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -322.6375,
+            -67.24471691518042,
+            343.7513209764965,
+            -301.6375,
+            -58.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 27.36250000000001,
+            "right": 651.6375,
+            "front": -67.24471691518042,
+            "rear": 818.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_-1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -317.6375,
+            -67.99378460609461,
+            343.0015540899959,
+            -316.6375,
+            -58,
+            352.9984459100041
+          ],
+          "marginsMm": {
+            "left": 32.36250000000001,
+            "right": 666.6375,
+            "front": -67.99378460609461,
+            "rear": 818,
+            "height": 713.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_-1_0_nut",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -307,
+            -68.49316306670407,
+            342.5017094989955,
+            -302,
+            -57.5,
+            353.4982905010045
+          ],
+          "marginsMm": {
+            "left": 43,
+            "right": 652,
+            "front": -68.49316306670407,
+            "rear": 817.5,
+            "height": 713.3017094989955
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_0_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -356,
+            65.75528308481958,
+            40.75132097649653,
+            -301,
+            74.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": -6,
+            "right": 651,
+            "front": 65.75528308481958,
+            "rear": 685.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -351,
+            65.00621539390539,
+            40.00155408999592,
+            -350,
+            75,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": -1,
+            "right": 700,
+            "front": 65.00621539390539,
+            "rear": 685,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_1_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -356,
+            185.75528308481958,
+            40.75132097649653,
+            -301,
+            194.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": -6,
+            "right": 651,
+            "front": 185.75528308481958,
+            "rear": 565.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_-1_1_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            -351,
+            185.0062153939054,
+            40.00155408999592,
+            -350,
+            195,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": -1,
+            "right": 700,
+            "front": 185.0062153939054,
+            "rear": 565,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_frame_plate_1",
+          "motion": "fixed",
+          "role": "structure",
+          "boundsMm": [
+            307,
+            -72,
+            27,
+            313,
+            207.99624882281398,
+            365.99999304725065
+          ],
+          "marginsMm": {
+            "left": 657,
+            "right": 37,
+            "front": -72,
+            "rear": 552.003751177186,
+            "height": 700.8000069527493
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_bearing_1",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            306.65,
+            -40.5575,
+            332.4425,
+            314.5875,
+            -9.442500000000003,
+            363.5575
+          ],
+          "marginsMm": {
+            "left": 656.65,
+            "right": 35.41250000000002,
+            "front": -40.5575,
+            "rear": 769.4425,
+            "height": 703.2425
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_outer_keeper_1",
+          "motion": "fixed",
+          "role": "retainer",
+          "boundsMm": [
+            314.6375,
+            -69,
+            329.02372635799367,
+            316.6375,
+            19,
+            366.97627364200633
+          ],
+          "marginsMm": {
+            "left": 664.6375,
+            "right": 33.36250000000001,
+            "front": -69,
+            "rear": 741,
+            "height": 699.8237263579936
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_1_0",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            301.6375,
+            -67.24471691518042,
+            343.7513209764965,
+            322.6375,
+            -58.75,
+            352.2486790235035
+          ],
+          "marginsMm": {
+            "left": 651.6375,
+            "right": 27.36250000000001,
+            "front": -67.24471691518042,
+            "rear": 818.75,
+            "height": 714.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            316.6375,
+            -67.99378460609461,
+            343.0015540899959,
+            317.6375,
+            -58,
+            352.9984459100041
+          ],
+          "marginsMm": {
+            "left": 666.6375,
+            "right": 32.36250000000001,
+            "front": -67.99378460609461,
+            "rear": 818,
+            "height": 713.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "coaxial_keeper_bolt_1_0_nut",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            302,
+            -68.49316306670407,
+            342.5017094989955,
+            307,
+            -57.5,
+            353.4982905010045
+          ],
+          "marginsMm": {
+            "left": 652,
+            "right": 43,
+            "front": -68.49316306670407,
+            "rear": 817.5,
+            "height": 713.3017094989955
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_0_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            301,
+            65.75528308481958,
+            40.75132097649653,
+            356,
+            74.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": 651,
+            "right": -6,
+            "front": 65.75528308481958,
+            "rear": 685.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_0_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            350,
+            65.00621539390539,
+            40.00155408999592,
+            351,
+            75,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": 700,
+            "right": -1,
+            "front": 65.00621539390539,
+            "rear": 685,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_1_screw",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            301,
+            185.75528308481958,
+            40.75132097649653,
+            356,
+            194.25,
+            49.24867902350347
+          ],
+          "marginsMm": {
+            "left": 651,
+            "right": -6,
+            "front": 185.75528308481958,
+            "rear": 565.75,
+            "height": 1017.5513209764965
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "frame_root_1_1_washer",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            350,
+            185.0062153939054,
+            40.00155408999592,
+            351,
+            195,
+            49.99844591000408
+          ],
+          "marginsMm": {
+            "left": 700,
+            "right": -1,
+            "front": 185.0062153939054,
+            "rear": 565,
+            "height": 1016.8015540899959
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_stage_shaft",
+          "motion": "fixed",
+          "role": "hard_shaft",
+          "boundsMm": [
+            258,
+            -32.32229969003305,
+            234.9312297213087,
+            305,
+            -17.677700309966948,
+            247.9975702786913
+          ],
+          "marginsMm": {
+            "left": 608,
+            "right": 45,
+            "front": -32.32229969003305,
+            "rear": 777.6777003099669,
+            "height": 818.8024297213086
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_mount",
+          "motion": "fixed",
+          "role": "structure",
+          "boundsMm": [
+            260,
+            -104.72,
+            203.4644,
+            266,
+            9,
+            275.4644
+          ],
+          "marginsMm": {
+            "left": 610,
+            "right": 84,
+            "front": -104.72,
+            "rear": 751,
+            "height": 791.3355999999999
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_X44",
+          "motion": "fixed",
+          "role": "motor",
+          "boundsMm": [
+            185.3874999999943,
+            -92.72,
+            216.06439999999805,
+            297.35705,
+            -48.72,
+            263.4644
+          ],
+          "marginsMm": {
+            "left": 535.3874999999944,
+            "right": 52.642949999999985,
+            "front": -92.72,
+            "rear": 808.72,
+            "height": 803.3355999999999
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_output_bearing",
+          "motion": "fixed",
+          "role": "bearing",
+          "boundsMm": [
+            259.65,
+            -40.541175225240465,
+            225.92322477475955,
+            267.5875,
+            -9.458824774759536,
+            257.0055752252405
+          ],
+          "marginsMm": {
+            "left": 609.65,
+            "right": 82.41250000000002,
+            "front": -40.541175225240465,
+            "rear": 769.4588247747596,
+            "height": 809.7944247747595
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_motor_screw_0",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            254.475,
+            -58.07750090180252,
+            236.63990000766407,
+            268.826,
+            -48.4315,
+            246.28889999233596
+          ],
+          "marginsMm": {
+            "left": 604.475,
+            "right": 81.17399999999998,
+            "front": -58.07750090180252,
+            "rear": 808.4315,
+            "height": 820.511100007664
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_motor_screw_1",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            254.475,
+            -84.2712509018025,
+            251.76286862124985,
+            268.826,
+            -74.62525,
+            261.4118686059217
+          ],
+          "marginsMm": {
+            "left": 604.475,
+            "right": 81.17399999999998,
+            "front": -84.2712509018025,
+            "rear": 834.62525,
+            "height": 805.3881313940783
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_motor_screw_2",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            254.475,
+            -84.27125090180252,
+            221.5169313940783,
+            268.826,
+            -74.62525000000001,
+            231.1659313787502
+          ],
+          "marginsMm": {
+            "left": 604.475,
+            "right": 81.17399999999998,
+            "front": -84.27125090180252,
+            "rear": 834.62525,
+            "height": 835.6340686212498
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_12T",
+          "motion": "fixed",
+          "role": "gear",
+          "boundsMm": [
+            265.5562499999999,
+            -79.4224028915079,
+            232.76199710849212,
+            284.60625,
+            -62.0175971084921,
+            250.1668028915079
+          ],
+          "marginsMm": {
+            "left": 615.5562499999999,
+            "right": 65.39375000000001,
+            "front": -79.4224028915079,
+            "rear": 822.017597108492,
+            "height": 816.633197108492
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_60T",
+          "motion": "fixed",
+          "role": "gear",
+          "boundsMm": [
+            268.75665,
+            -64.36952541966228,
+            202.09487458033772,
+            281.40585,
+            14.369525419662281,
+            280.8339254196623
+          ],
+          "marginsMm": {
+            "left": 618.75665,
+            "right": 68.59415000000001,
+            "front": -64.36952541966228,
+            "rear": 745.6304745803377,
+            "height": 785.9660745803376
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_pinion_spacer",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            284.6062501,
+            -76.71254152731353,
+            235.4662649079951,
+            297.35704999999996,
+            -64.72,
+            247.4625350920049
+          ],
+          "marginsMm": {
+            "left": 634.6062501,
+            "right": 52.64295000000004,
+            "front": -76.71254152731353,
+            "rear": 824.72,
+            "height": 819.337464907995
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_pinion_retention",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            288.83205000000004,
+            -75.54000090180251,
+            236.63990000766407,
+            303.18305000000004,
+            -65.894,
+            246.28889999233596
+          ],
+          "marginsMm": {
+            "left": 638.83205,
+            "right": 46.81694999999996,
+            "front": -75.54000090180251,
+            "rear": 825.894,
+            "height": 820.511100007664
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_output_spacer",
+          "motion": "fixed",
+          "role": "spacer",
+          "boundsMm": [
+            281.40585,
+            -36.9999626999271,
+            229.46891302824923,
+            305,
+            -13.013462815212678,
+            253.46137881931008
+          ],
+          "marginsMm": {
+            "left": 631.40585,
+            "right": 45,
+            "front": -36.9999626999271,
+            "rear": 773.0134628152127,
+            "height": 813.3386211806899
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        },
+        {
+          "id": "pickup_pickup_drive_output_end",
+          "motion": "fixed",
+          "role": "fastener",
+          "boundsMm": [
+            294,
+            -29.99998445830296,
+            236.4662804284372,
+            311,
+            -20.005609506338615,
+            246.46314117471255
+          ],
+          "marginsMm": {
+            "left": 644,
+            "right": 39,
+            "front": -29.99998445830296,
+            "rear": 780.0056095063386,
+            "height": 820.3368588252874
+          },
+          "outsideFrame": true,
+          "reserveMet": false
+        }
+      ],
+      "reserveFailures": [
+        "v2_main_cheek_-1",
+        "v2_main_cheek_1",
+        "v2_bearing_kick_-1",
+        "v2_bearing_kick_-1_keeper",
+        "v2_bearing_kick_-1_bolt_1_screw",
+        "v2_bearing_kick_-1_bolt_1_washer",
+        "v2_bearing_kick_-1_bolt_1_nut",
+        "v2_bearing_kick_1",
+        "v2_bearing_kick_1_keeper",
+        "v2_bearing_kick_1_bolt_1_screw",
+        "v2_bearing_kick_1_bolt_1_washer",
+        "v2_bearing_kick_1_bolt_1_nut",
+        "v2_bearing_rear_-1",
+        "v2_bearing_rear_-1_keeper",
+        "v2_bearing_rear_-1_bolt_1_screw",
+        "v2_bearing_rear_-1_bolt_1_washer",
+        "v2_bearing_rear_-1_bolt_1_nut",
+        "v2_bearing_rear_1",
+        "v2_bearing_rear_1_keeper",
+        "v2_bearing_rear_1_bolt_1_screw",
+        "v2_bearing_rear_1_bolt_1_washer",
+        "v2_bearing_rear_1_bolt_1_nut",
+        "v2_shaft_rear",
+        "v2_star_rear_0_body_0",
+        "v2_star_rear_0_body_1",
+        "v2_star_rear_0_body_2",
+        "v2_star_rear_1_body_0",
+        "v2_star_rear_1_body_1",
+        "v2_star_rear_1_body_2",
+        "v2_star_rear_2_body_0",
+        "v2_star_rear_2_body_1",
+        "v2_star_rear_2_body_2",
+        "v2_star_rear_3_body_0",
+        "v2_star_rear_3_body_1",
+        "v2_star_rear_3_body_2",
+        "v2_star_rear_4_body_0",
+        "v2_star_rear_4_body_1",
+        "v2_star_rear_4_body_2",
+        "v2_star_rear_5_body_0",
+        "v2_star_rear_5_body_1",
+        "v2_star_rear_5_body_2",
+        "v2_star_rear_6_body_0",
+        "v2_star_rear_6_body_1",
+        "v2_star_rear_6_body_2",
+        "v2_rear_between_0",
+        "v2_rear_between_1",
+        "v2_rear_between_2",
+        "v2_rear_between_3",
+        "v2_rear_between_4",
+        "v2_rear_between_5",
+        "v2_rear_end_-1",
+        "v2_rear_end_1",
+        "v2_shaft_kick",
+        "v2_kick_core",
+        "v2_kick_rubber",
+        "v2_kick_hub_-1",
+        "v2_kick_outer_-1",
+        "v2_kick_hub_1",
+        "v2_kick_outer_1",
+        "v2_rear_end_washer_-1",
+        "v2_rear_end_screw_-1",
+        "v2_rear_end_washer_1",
+        "v2_rear_end_screw_1",
+        "v2_kick_end_washer_-1",
+        "v2_kick_end_screw_-1",
+        "v2_kick_end_washer_1",
+        "v2_kick_end_screw_1",
+        "v2_rear_to_frame_-1",
+        "v2_rear_frame_end_-1",
+        "v2_rear_to_frame_1",
+        "v2_rear_frame_end_1",
+        "coaxial_frame_plate_-1",
+        "assumed_chassis_side_rail_-1",
+        "coaxial_outer_bearing_-1",
+        "coaxial_outer_keeper_-1",
+        "coaxial_keeper_bolt_-1_0",
+        "coaxial_keeper_bolt_-1_0_washer",
+        "coaxial_keeper_bolt_-1_0_nut",
+        "frame_root_-1_0_crush_sleeve",
+        "frame_root_-1_0_screw",
+        "frame_root_-1_0_washer",
+        "frame_root_-1_1_crush_sleeve",
+        "frame_root_-1_1_screw",
+        "frame_root_-1_1_washer",
+        "coaxial_frame_plate_1",
+        "assumed_chassis_side_rail_1",
+        "coaxial_outer_bearing_1",
+        "coaxial_outer_keeper_1",
+        "coaxial_keeper_bolt_1_0",
+        "coaxial_keeper_bolt_1_0_washer",
+        "coaxial_keeper_bolt_1_0_nut",
+        "frame_root_1_0_crush_sleeve",
+        "frame_root_1_0_screw",
+        "frame_root_1_0_washer",
+        "frame_root_1_1_crush_sleeve",
+        "frame_root_1_1_screw",
+        "frame_root_1_1_washer",
+        "pickup_pickup_stage_shaft",
+        "pickup_pickup_drive_mount",
+        "pickup_pickup_drive_X44",
+        "pickup_pickup_drive_output_bearing",
+        "pickup_pickup_drive_motor_screw_0",
+        "pickup_pickup_drive_motor_screw_1",
+        "pickup_pickup_drive_motor_screw_2",
+        "pickup_pickup_drive_12T",
+        "pickup_pickup_drive_60T",
+        "pickup_pickup_drive_pinion_spacer",
+        "pickup_pickup_drive_pinion_retention",
+        "pickup_pickup_drive_output_spacer",
+        "pickup_pickup_drive_output_end"
+      ],
+      "fixedOutsideCount": 73,
+      "startingConfigurationCertified": false,
+      "releaseReady": false,
+      "limitation": "Actual mesh vertices reject protrusions; passing mesh bounds alone does not certify analytic B-rep extrema, tolerances, full rotor phases, starting restraints, or official rules. Frame plane is Y=0, not bumper outer face Y=-85."
+    }
+  ]
+}

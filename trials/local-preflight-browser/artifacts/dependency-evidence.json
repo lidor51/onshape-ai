@@ -1,0 +1,1765 @@
+{
+  "status": "PASS",
+  "runtime": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "packages": [
+      "PyYAML==6.0.3",
+      "aiohappyeyeballs==2.7.1",
+      "aiohttp==3.14.3",
+      "aiosignal==1.4.0",
+      "async-timeout==5.0.1",
+      "attrs==26.1.0",
+      "cadquery-ocp==7.8.1.1.post1",
+      "cadquery==2.6.1",
+      "casadi==3.7.2",
+      "contourpy==1.3.2",
+      "cycler==0.12.1",
+      "ezdxf==1.4.4",
+      "fonttools==4.65.0",
+      "frozenlist==1.8.0",
+      "idna==3.19",
+      "kiwisolver==1.5.1",
+      "matplotlib==3.10.9",
+      "more-itertools==11.1.0",
+      "msgpack==1.2.2",
+      "multidict==6.8.0",
+      "multimethod==1.12",
+      "nlopt==2.11.0",
+      "numpy==2.2.6",
+      "packaging==26.3",
+      "path==17.1.1",
+      "pillow==12.3.0",
+      "pip==21.2.3",
+      "propcache==0.5.2",
+      "pyparsing==3.3.2",
+      "python-dateutil==2.9.0.post0",
+      "setuptools==57.4.0",
+      "six==1.17.0",
+      "trame-client==4.0.1",
+      "trame-common==1.2.7",
+      "trame-server==4.0.0",
+      "trame-vtk==2.8.13",
+      "trame==4.0.0",
+      "typing_extensions==4.16.0",
+      "typish==1.9.3",
+      "vtk==9.3.1",
+      "wslink==2.5.7",
+      "yarl==1.24.5"
+    ],
+    "folderLocalVenv": true
+  },
+  "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\Scripts\\python.exe",
+  "basePrefix": "C:\\Python310",
+  "packages": [
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "PSF-2.0",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "projectUrls": [
+        "Bug Tracker, https://github.com/aio-libs/aiohappyeyeballs/issues",
+        "Changelog, https://github.com/aio-libs/aiohappyeyeballs/blob/main/CHANGELOG.md",
+        "Documentation, https://aiohappyeyeballs.readthedocs.io",
+        "Repository, https://github.com/aio-libs/aiohappyeyeballs"
+      ],
+      "licenseFiles": [
+        {
+          "path": "aiohappyeyeballs-2.7.1.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        }
+      ],
+      "metadataSha256": "e68d1bf48aec9dcc2767343dedec25e12860085cba180e10bc3d3bdd031602ba",
+      "installedRecordSha256": "7020e4d0bc95b59260de016ccee8fb864f524975063e7a6a9e7bcc85f12f399a"
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.3",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache-2.0 AND MIT",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Homepage, https://github.com/aio-libs/aiohttp",
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub Actions, https://github.com/aio-libs/aiohttp/actions?query=workflow%3ACI",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/aiohttp",
+        "Docs: Changelog, https://docs.aiohttp.org/en/stable/changes.html",
+        "Docs: RTD, https://docs.aiohttp.org",
+        "GitHub: issues, https://github.com/aio-libs/aiohttp/issues",
+        "GitHub: repo, https://github.com/aio-libs/aiohttp"
+      ],
+      "licenseFiles": [
+        {
+          "path": "aiohttp-3.14.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "ea195371abbf66a39eef56600955d1137c2c196dc144ffec46b6ea530ce70044"
+        },
+        {
+          "path": "aiohttp-3.14.3.dist-info/licenses/vendor/llhttp/LICENSE",
+          "sha256": "279012e02a10acfd59a3f2d8f13a497332535d871c2b27c89988985b06a3a438"
+        }
+      ],
+      "metadataSha256": "287d4346fb85cdf58dae89ac33639bef485653990a19af9bcd7d39e47e54ea1b",
+      "installedRecordSha256": "00135d5fe0adf1d40ea98ae40ff73824dd6eae40364801dc559039441bcc965d"
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "requiresPython": ">=3.9",
+      "licenseExpression": null,
+      "licenseSummary": "Apache 2.0",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [
+        "Chat: Gitter, https://gitter.im/aio-libs/Lobby",
+        "CI: GitHub Actions, https://github.com/aio-libs/aiosignal/actions",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/aiosignal",
+        "Docs: RTD, https://docs.aiosignal.org",
+        "GitHub: issues, https://github.com/aio-libs/aiosignal/issues",
+        "GitHub: repo, https://github.com/aio-libs/aiosignal"
+      ],
+      "licenseFiles": [
+        {
+          "path": "aiosignal-1.4.0.dist-info/licenses/LICENSE",
+          "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6"
+        }
+      ],
+      "metadataSha256": "09247ef1da8bc696728d47130e702e4307f6f7d101d6c485bff9f3a71ce7008d",
+      "installedRecordSha256": "4930f1d6fd24e6ba01e86f2e9f6bfe63322634daa25d1bce5290b25096bd5a54"
+    },
+    {
+      "name": "async-timeout",
+      "version": "5.0.1",
+      "requiresPython": ">=3.8",
+      "licenseExpression": null,
+      "licenseSummary": "Apache 2",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [
+        "Chat: Gitter, https://gitter.im/aio-libs/Lobby",
+        "CI: GitHub Actions, https://github.com/aio-libs/async-timeout/actions",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/async-timeout",
+        "GitHub: issues, https://github.com/aio-libs/async-timeout/issues",
+        "GitHub: repo, https://github.com/aio-libs/async-timeout"
+      ],
+      "licenseFiles": [
+        {
+          "path": "async_timeout-5.0.1.dist-info/LICENSE",
+          "sha256": "e18d7bb8f513e2c46bb585c94b585bd30720dd3ccb21ddb0786f72d16658f92c"
+        }
+      ],
+      "metadataSha256": "4550cd1083d820124a3ec8d38490da2915f587bf7ee1061036e04b4973c8b54f",
+      "installedRecordSha256": "1aa5c167a89bf52b18bb3854fa0e0e88b7591121beb5b7096f495b195ea2ee14"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "requiresPython": ">=3.9",
+      "licenseExpression": "MIT",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Documentation, https://www.attrs.org/",
+        "Changelog, https://www.attrs.org/en/stable/changelog.html",
+        "GitHub, https://github.com/python-attrs/attrs",
+        "Funding, https://github.com/sponsors/hynek",
+        "Tidelift, https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=pypi"
+      ],
+      "licenseFiles": [
+        {
+          "path": "attrs-26.1.0.dist-info/licenses/LICENSE",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+        }
+      ],
+      "metadataSha256": "4cd40e690f23bf37cbcad34efd6758e062df1df07c86833f7e3ce95bf1fa38cc",
+      "installedRecordSha256": "0b25854cfe92c3e6c888a4e3308cde0edbc6822c74b1f01c3cddc39febc84e04"
+    },
+    {
+      "name": "cadquery",
+      "version": "2.6.1",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache Public License 2.0",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "cadquery-2.6.1.dist-info/licenses/LICENSE",
+          "sha256": "7345486c76eb0160046e06c9c77797294979e15fc7cd1502d5c9cb650931bb84"
+        }
+      ],
+      "metadataSha256": "57a18bdb0be4f9eb61b9c16403f98a6ca2fbcc2c01149f1cb54871109cbdfba3",
+      "installedRecordSha256": "669aa31d1cabbe998b48bfe20fedd2c4144a388e83a69822f2f47eff7f5b6ce6"
+    },
+    {
+      "name": "cadquery-ocp",
+      "version": "7.8.1.1.post1",
+      "requiresPython": "<3.14,>=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "cadquery_ocp/LICENSE",
+          "sha256": "a13caea71627202ad33cc4cafafdd18e667e16716488f8d9c568127121fb89fd"
+        }
+      ],
+      "metadataSha256": "11a97f9ef0a4b3d5c14ade51becb844b6ba54d818bbec4ff2537c0a1e197efff",
+      "installedRecordSha256": "eef83c0c101751df3adb33aeafda705dabd4324df995219e9e39032427a9817a"
+    },
+    {
+      "name": "casadi",
+      "version": "3.7.2",
+      "requiresPython": null,
+      "licenseExpression": null,
+      "licenseSummary": "GNU Lesser General Public License v3 or later (LGPLv3+)",
+      "licenseClassifiers": [
+        "License :: OSI Approved"
+      ],
+      "projectUrls": [
+        "Documentation, http://docs.casadi.org",
+        "Bug Tracker, https://github.com/casadi/casadi/issues",
+        "Source Code, https://github.com/casadi/casadi"
+      ],
+      "licenseFiles": [
+        {
+          "path": "casadi/include/licenses/FMI-Standard-2.0.2/LICENSE.txt",
+          "sha256": "556454be7c7e0ae60a03e95615a060fda0b3ca6c64292a84d7c4304941d4330b"
+        },
+        {
+          "path": "casadi/include/licenses/FMI-Standard-3.0/LICENSE.txt",
+          "sha256": "e95981dfdc77107e8bdb475b67ca8cda087e377cc60dde1fa2b213fad65e9dd7"
+        },
+        {
+          "path": "casadi/include/licenses/alpaqa-external/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        },
+        {
+          "path": "casadi/include/licenses/blasfeo-external/LICENSE.txt",
+          "sha256": "03bf34700337cb892d143a84398e43319a11cab1494fd78aa047b55972129542"
+        },
+        {
+          "path": "casadi/include/licenses/bonmin-external/Bonmin/LICENSE",
+          "sha256": "29e7b414f74c59a451641f757d830da1d0a4ab62a6f968e6ce9eb68933aa6429"
+        },
+        {
+          "path": "casadi/include/licenses/bonmin-external/LICENSE",
+          "sha256": "75512a9a60082bb4a57923dbc81213faa6f32f4037c8b6d68226ab822fe80380"
+        },
+        {
+          "path": "casadi/include/licenses/casadi-sundials/LICENSE",
+          "sha256": "143af3839b9381a05f790ec83c56736c3da23ca97a017fc57b4fdeb7ac4cdb87"
+        },
+        {
+          "path": "casadi/include/licenses/casadi-sundials/cvodes/LICENSE",
+          "sha256": "4915668a75fa96761bcf2c873a54af37bbb2acef75d77b609c6a800f5b6f11fe"
+        },
+        {
+          "path": "casadi/include/licenses/casadi-sundials/idas/LICENSE",
+          "sha256": "13ff7e5e3ee962e45e92f043bf39df4dc1377967a9101cf1d0686daca0d9be52"
+        },
+        {
+          "path": "casadi/include/licenses/casadi-sundials/kinsol/LICENSE",
+          "sha256": "7efdbd7c966e1a16e87c212addf6a785e7ddb344cfa62a59f3de55ae45cea509"
+        },
+        {
+          "path": "casadi/include/licenses/casadi-sundials/sundials/LICENSE",
+          "sha256": "e370e97c66d151eeb23b4f2c5042a6ca2064b16d10aafcec627a674c3aa64ec1"
+        },
+        {
+          "path": "casadi/include/licenses/casadi/LICENSE/LICENSE.txt",
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        },
+        {
+          "path": "casadi/include/licenses/cbc-external/Cbc/LICENSE",
+          "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f"
+        },
+        {
+          "path": "casadi/include/licenses/cbc-external/LICENSE",
+          "sha256": "5af94e656b0a51f0694901e8ee715dfb738ab65b88e8e2b9c52fa80340fa1500"
+        },
+        {
+          "path": "casadi/include/licenses/cgl-external/Cgl/LICENSE",
+          "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f"
+        },
+        {
+          "path": "casadi/include/licenses/cgl-external/LICENSE",
+          "sha256": "5af94e656b0a51f0694901e8ee715dfb738ab65b88e8e2b9c52fa80340fa1500"
+        },
+        {
+          "path": "casadi/include/licenses/clp-external/Clp/LICENSE",
+          "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f"
+        },
+        {
+          "path": "casadi/include/licenses/clp-external/LICENSE",
+          "sha256": "5af94e656b0a51f0694901e8ee715dfb738ab65b88e8e2b9c52fa80340fa1500"
+        },
+        {
+          "path": "casadi/include/licenses/coinutils-external/CoinUtils/LICENSE",
+          "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f"
+        },
+        {
+          "path": "casadi/include/licenses/coinutils-external/LICENSE",
+          "sha256": "5af94e656b0a51f0694901e8ee715dfb738ab65b88e8e2b9c52fa80340fa1500"
+        },
+        {
+          "path": "casadi/include/licenses/daqp-external/LICENSE",
+          "sha256": "7cdcdca1aa7718d09d527371aadc387d5685e8460b9f9b7827a54118efbb2d1e"
+        },
+        {
+          "path": "casadi/include/licenses/fatrop-external/LICENSE.txt",
+          "sha256": "ea8af5e789cb2d4e9b10bce3874982ade163b749b6bfbdb32e2df21c4d106de1"
+        },
+        {
+          "path": "casadi/include/licenses/fatrop-external/external/blasfeo/LICENSE.txt",
+          "sha256": "03bf34700337cb892d143a84398e43319a11cab1494fd78aa047b55972129542"
+        },
+        {
+          "path": "casadi/include/licenses/fatrop-external/external/pybind11/LICENSE",
+          "sha256": "83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb"
+        },
+        {
+          "path": "casadi/include/licenses/ghc-external/LICENSE",
+          "sha256": "1b265537c97cfb422ffb52492c96979943f54fab8746a6dd38d8329953d487cc"
+        },
+        {
+          "path": "casadi/include/licenses/highs-external/LICENSE.txt",
+          "sha256": "10b39dba7b7731175f0705398b6db4320b64add1bd2ed9f9ec5b512a9ef1bd95"
+        },
+        {
+          "path": "casadi/include/licenses/highs-external/extern/filereaderlp/LICENSE",
+          "sha256": "4374bb8064e5302f5ac6b82fd3e153a36670f04d0a6ee1bc55b3dc3faee923cc"
+        },
+        {
+          "path": "casadi/include/licenses/hpipm-external/LICENSE.txt",
+          "sha256": "9d35e846dd1c2f122c7edf1512cf2952c14574c3b773be76c3d1e4ad749d9d07"
+        },
+        {
+          "path": "casadi/include/licenses/ipopt-external/LICENSE",
+          "sha256": "fe33d31053be0fbea60137ee7234291049d68c72f4f6880d13c03243c684e0a6"
+        },
+        {
+          "path": "casadi/include/licenses/libz-external/LICENSE",
+          "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+        },
+        {
+          "path": "casadi/include/licenses/libz-external/contrib/dotzlib/LICENSE_1_0.txt",
+          "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+        },
+        {
+          "path": "casadi/include/licenses/libzip-external/LICENSE",
+          "sha256": "01c022eca6d566e2e8792fd0f091a28653b2a608319922bcd4de91c49d1438e1"
+        },
+        {
+          "path": "casadi/include/licenses/metis-external/LICENSE",
+          "sha256": "29e7b414f74c59a451641f757d830da1d0a4ab62a6f968e6ce9eb68933aa6429"
+        },
+        {
+          "path": "casadi/include/licenses/metis-external/metis-4.0/LICENSE",
+          "sha256": "2ecd4c415834a03b26950118da215aded2698b10836ea0e8235ed557a380dc1e"
+        },
+        {
+          "path": "casadi/include/licenses/mockups-external/LICENSE",
+          "sha256": "bd6747c8f97941c4f1eb581caf7d1eeced95d2fc42bf7594cfa318265bc1ef07"
+        },
+        {
+          "path": "casadi/include/licenses/mumps-external/LICENSE",
+          "sha256": "29e7b414f74c59a451641f757d830da1d0a4ab62a6f968e6ce9eb68933aa6429"
+        },
+        {
+          "path": "casadi/include/licenses/mumps-external/MUMPS/LICENSE",
+          "sha256": "01508c8d4239e1a8b7e37c0274c22873df30fc5cac37b27c41a65f32caff345f"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/LICENSE",
+          "sha256": "190b5a9c8d9723fe958ad33916bd7346d96fab3c5ea90832bb02d854f620fcff"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/ctest/LICENSE",
+          "sha256": "c1ceeff23f242ddac805ba9d332f58b559454ec00447e65540c0e818f7de69da"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/lapack-netlib/LAPACKE/LICENSE",
+          "sha256": "871f415ebd2fd06c7ab8cc3c0016aa2d26b918622345116e2d0c740b688d4843"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/lapack-netlib/LICENSE",
+          "sha256": "d56bd4441b999b80c88df04faf0d8b3d7d3b2bd781cf91242c4188e8a6d0f8be"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/reference/LICENSE",
+          "sha256": "c1ceeff23f242ddac805ba9d332f58b559454ec00447e65540c0e818f7de69da"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/relapack/LICENSE",
+          "sha256": "abd17b9664b38cfab093e7cca625ac08d3a686fc63142ea58c27bae15969dd3a"
+        },
+        {
+          "path": "casadi/include/licenses/openblas-external/test/LICENSE",
+          "sha256": "c1ceeff23f242ddac805ba9d332f58b559454ec00447e65540c0e818f7de69da"
+        },
+        {
+          "path": "casadi/include/licenses/osi-external/LICENSE",
+          "sha256": "5af94e656b0a51f0694901e8ee715dfb738ab65b88e8e2b9c52fa80340fa1500"
+        },
+        {
+          "path": "casadi/include/licenses/osi-external/Osi/LICENSE",
+          "sha256": "0076749b626931ea5aaee25ddd5019fbfd96da78243cc0d5bd24fe246500981f"
+        },
+        {
+          "path": "casadi/include/licenses/osqp-external/LICENSE",
+          "sha256": "ae5e69b1fea4c316b80e4bc2cb49ac82c0e9b34785415e128e00c975bd10f687"
+        },
+        {
+          "path": "casadi/include/licenses/osqp-external/lin_sys/direct/qdldl/amd/LICENSE",
+          "sha256": "09d5c2e5ee64fd5fd338ca8d0fce940385ef61bb0d36b855531a675a46176f00"
+        },
+        {
+          "path": "casadi/include/licenses/osqp-external/lin_sys/direct/qdldl/qdldl_sources/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/LICENSE",
+          "sha256": "95ba47ba29c4f19e69e30ea36fea8e9848ae8bd384c94932b2e6399ffe35112e"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/bindings/python/external/pybind11/LICENSE",
+          "sha256": "83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/cmake-module/LICENSE",
+          "sha256": "12ff64a7549f77bd49e99bcda4651ed31c7d58560f88bb9796c9141b0d665ebd"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/cmake-module/doxygen/MathJax/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/external/cereal/LICENSE",
+          "sha256": "58604a126af6a671ea390ee3d5b3e42228aa59b2858fb7af1d5b20b31739ccbb"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/external/cereal/include/cereal/external/LICENSE",
+          "sha256": "642e7003561473f4f1f3dd09e053ee2a6ecfb0563e961a3392e914295f9d350c"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/external/cereal/include/cereal/external/rapidjson/LICENSE",
+          "sha256": "dc2ef044e52a4c0ea784f9b54229775ce5275505cc09f21283dfa301e9c962fa"
+        },
+        {
+          "path": "casadi/include/licenses/proxqp-external/external/cereal/include/cereal/external/rapidjson/msinttypes/LICENSE",
+          "sha256": "bf3c9bf6a176c890c7387c71f9ae5bcaf9d33324b9d4a5f8524a6f8bf3063097"
+        },
+        {
+          "path": "casadi/include/licenses/qpOASES/LICENSE.txt",
+          "sha256": "b673293d21e887eaa9b971696b33f0f9141839900c65c83e560afa469d291ba6"
+        },
+        {
+          "path": "casadi/include/licenses/sleqp-external/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        },
+        {
+          "path": "casadi/include/licenses/superscs-external/LICENSE.txt",
+          "sha256": "08f771ceb0ecb7222247379ba8d2f415cbdaa34cefcb4fe46c010187c8e49e59"
+        },
+        {
+          "path": "casadi/include/licenses/tinyxml2-9.0.0/LICENSE.txt",
+          "sha256": "9332252e9b9e46db8285d4a3f0bf25f139bf1dca6781b956d57f2302efca6432"
+        },
+        {
+          "path": "casadi/include/licenses/trlib-external/LICENSE",
+          "sha256": "3652a54dc588bf6a9dda7323b1dfd17381e8f703d9da44f06877b16549784b6d"
+        }
+      ],
+      "metadataSha256": "1c63a61afb51c005adc81b046fdae038a107d8cf50941d51e31b1b7c06a801a3",
+      "installedRecordSha256": "2c21aca27873abd8cdffce776ae1dfb2f1043a1f7f0781cd978c2a2432bcc878"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.2",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "BSD 3-Clause License",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [
+        "Homepage, https://github.com/contourpy/contourpy",
+        "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://contourpy.readthedocs.io",
+        "Repository, https://github.com/contourpy/contourpy"
+      ],
+      "licenseFiles": [
+        {
+          "path": "contourpy-1.3.2.dist-info/LICENSE",
+          "sha256": "8553102e03001dd966278098cc027d0683c412b34ea141351b060be4330f39a9"
+        }
+      ],
+      "metadataSha256": "0d860f7cb8af8e85005c209499e0ca25da8515b4b67915ee8b88b8852c316c08",
+      "installedRecordSha256": "6beae99f292d13cc620f7b5386bc91a82e36af8177f8a474ef4b0b0cfda178a6"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "requiresPython": ">=3.8",
+      "licenseExpression": null,
+      "licenseSummary": "Copyright (c) 2015, matplotlib project",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [
+        "homepage, https://matplotlib.org/cycler/",
+        "repository, https://github.com/matplotlib/cycler"
+      ],
+      "licenseFiles": [
+        {
+          "path": "cycler-0.12.1.dist-info/LICENSE",
+          "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+        }
+      ],
+      "metadataSha256": "23289e19b76f1e01394227696e6af2b6cd1ce79e89731209bf9195148b18ed36",
+      "installedRecordSha256": "6f4099f138836a377258343980c2538c2e21173b2200a9bbbf2bbc414bb394f9"
+    },
+    {
+      "name": "ezdxf",
+      "version": "1.4.4",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [
+        "Repository, https://github.com/mozman/ezdxf",
+        "Documentation, https://ezdxf.readthedocs.io",
+        "Changelog, https://ezdxf.mozman.at/notes/#/page/changelog",
+        "Forum, https://github.com/mozman/ezdxf/discussions",
+        "Issues, https://github.com/mozman/ezdxf/issues",
+        "Website, https://ezdxf.mozman.at",
+        "Download, https://pypi.org/project/ezdxf"
+      ],
+      "licenseFiles": [
+        {
+          "path": "ezdxf-1.4.4.dist-info/licenses/LICENSE",
+          "sha256": "b946f37324a89a38a51a790386607816828f3f98033429bffab036b201e42b07"
+        }
+      ],
+      "metadataSha256": "6da488d1f2f275610df2bb08f7643246c230f7dbc55ff4d73313a23b34403d0c",
+      "installedRecordSha256": "1e4a1c1dea8eb72a1569a8d4ba5876284ffe31a95ac038c35f53231e77f75672"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.65.0",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "fonttools-4.65.0.dist-info/licenses/LICENSE",
+          "sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
+        },
+        {
+          "path": "fonttools-4.65.0.dist-info/licenses/LICENSE.external",
+          "sha256": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d"
+        }
+      ],
+      "metadataSha256": "767c772df5fec424631e48baa13cfa55498f4d7be9b41d1071b34bf52cc28fa8",
+      "installedRecordSha256": "6d9cf2090e857ea129eae26429c041d4fb7caf4f7a75a568c00f1dd135622867"
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "requiresPython": ">=3.9",
+      "licenseExpression": null,
+      "licenseSummary": "Apache-2.0",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: Github Actions, https://github.com/aio-libs/frozenlist/actions",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/frozenlist",
+        "Docs: Changelog, https://github.com/aio-libs/frozenlist/blob/master/CHANGES.rst#changelog",
+        "Docs: RTD, https://frozenlist.aio-libs.org",
+        "GitHub: issues, https://github.com/aio-libs/frozenlist/issues",
+        "GitHub: repo, https://github.com/aio-libs/frozenlist"
+      ],
+      "licenseFiles": [
+        {
+          "path": "frozenlist-1.8.0.dist-info/licenses/LICENSE",
+          "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6"
+        }
+      ],
+      "metadataSha256": "946c22dc9f7e2c76f2d698f00a4306dbe49a820e2b3f1a0e22fe5286cbec35f1",
+      "installedRecordSha256": "caf1f02ce31cd7b88c93bfe1649fb8823d8aa909633cd9a5501eb48c1eb37abb"
+    },
+    {
+      "name": "idna",
+      "version": "3.19",
+      "requiresPython": ">=3.9",
+      "licenseExpression": "BSD-3-Clause",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+        "Issue tracker, https://github.com/kjd/idna/issues",
+        "Source, https://github.com/kjd/idna"
+      ],
+      "licenseFiles": [
+        {
+          "path": "idna-3.19.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+        }
+      ],
+      "metadataSha256": "4d113161aca8582e8d28fddf3ea50f19b607209c2b3e4364379a163454680084",
+      "installedRecordSha256": "d62159d8e995d0b77555d91addd9f334f1b08c077b0ebe7f2052a444ac817334"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "=========================",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [
+        "homepage, https://github.com/nucleic/kiwi",
+        "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+        "repository, https://github.com/nucleic/kiwi",
+        "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+      ],
+      "licenseFiles": [
+        {
+          "path": "kiwisolver-1.5.1.dist-info/licenses/LICENSE",
+          "sha256": "b24c2bf6185f31a124ad6bacccae3071bdc7ad7882de00b00110aa62abb76a15"
+        }
+      ],
+      "metadataSha256": "f07b7b6c0c9c2a624c8a31f931e16712f2cf3490e7dfd51643d68e9d42d4b2c9",
+      "installedRecordSha256": "af07f3d976198ae6ab971c5e905e16355857cba3a4f3ffa565dc41e2df0f55f4"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.9",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "License agreement for matplotlib versions 1.3.0 and later",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "projectUrls": [
+        "Homepage, https://matplotlib.org",
+        "Download, https://matplotlib.org/stable/install/index.html",
+        "Documentation, https://matplotlib.org",
+        "Source Code, https://github.com/matplotlib/matplotlib",
+        "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+        "Forum, https://discourse.matplotlib.org/",
+        "Donate, https://numfocus.org/donate-to-matplotlib"
+      ],
+      "licenseFiles": [
+        {
+          "path": "matplotlib-3.10.9.dist-info/LICENSE",
+          "sha256": "dbb9ad7495a83b0f2f48c94b06e23020587d82f8d1492dcb717fb1ebc2f86c18"
+        },
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+          "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+        },
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+          "sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+        }
+      ],
+      "metadataSha256": "bea8a4672bbe4f26b7a4fe5bc5e5023a08c4fb7069cc951f39eef26a403c7ea6",
+      "installedRecordSha256": "ee01c731e2218c259461802244f4a80e9a2ce1c598246551ed6630d5819ecf1d"
+    },
+    {
+      "name": "more-itertools",
+      "version": "11.1.0",
+      "requiresPython": ">=3.10",
+      "licenseExpression": "MIT",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Documentation, https://more-itertools.readthedocs.io/en/stable/",
+        "Homepage, https://github.com/more-itertools/more-itertools"
+      ],
+      "licenseFiles": [
+        {
+          "path": "more_itertools-11.1.0.dist-info/licenses/LICENSE",
+          "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+        }
+      ],
+      "metadataSha256": "15588fd819d6d7f9d0ddc7b5283502d3512c5d1edadce573b78c1f0734055df0",
+      "installedRecordSha256": "08129fa302edf35e9c97cba650b1055d2844c32da12e4d0d1d2952bfa45f8d04"
+    },
+    {
+      "name": "msgpack",
+      "version": "1.2.2",
+      "requiresPython": ">=3.10",
+      "licenseExpression": "Apache-2.0",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Homepage, https://msgpack.org/",
+        "Documentation, https://msgpack-python.readthedocs.io/",
+        "Repository, https://github.com/msgpack/msgpack-python/",
+        "Tracker, https://github.com/msgpack/msgpack-python/issues",
+        "Changelog, https://github.com/msgpack/msgpack-python/blob/main/CHANGELOG.md"
+      ],
+      "licenseFiles": [
+        {
+          "path": "msgpack-1.2.2.dist-info/licenses/COPYING",
+          "sha256": "4fbdff42eba4593c16f7a7ea7078883b2b734870a1e2b636284ce2dce62bf4f7"
+        }
+      ],
+      "metadataSha256": "013831873553c5541e9390d8356e943b8a7114aadccec5ce81a537c0ac0b5af3",
+      "installedRecordSha256": "9bbb1bb7b2ac42407a634408cdd4bbb1007445c7736c289f98ab44a6fbc00519"
+    },
+    {
+      "name": "multidict",
+      "version": "6.8.0",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache License 2.0",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub, https://github.com/aio-libs/multidict/actions",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/multidict",
+        "Docs: Changelog, https://multidict.aio-libs.org/en/latest/changes/",
+        "Docs: RTD, https://multidict.aio-libs.org",
+        "GitHub: issues, https://github.com/aio-libs/multidict/issues",
+        "GitHub: repo, https://github.com/aio-libs/multidict"
+      ],
+      "licenseFiles": [
+        {
+          "path": "multidict-6.8.0.dist-info/licenses/LICENSE",
+          "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23"
+        }
+      ],
+      "metadataSha256": "4df12cd58b5f1f4054b4867baed24603372f1da4ee9abe98c66b752b032df4e2",
+      "installedRecordSha256": "c28e74cb3fbcdda1bf48f601e163936fcebb8557634a292492a8b2a39e1ac613"
+    },
+    {
+      "name": "multimethod",
+      "version": "1.12",
+      "requiresPython": ">=3.9",
+      "licenseExpression": null,
+      "licenseSummary": "Copyright 2022 Aric Coady",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [
+        "Homepage, https://github.com/coady/multimethod",
+        "Documentation, https://coady.github.io/multimethod",
+        "Changelog, https://github.com/coady/multimethod/blob/main/CHANGELOG.md",
+        "Issues, https://github.com/coady/multimethod/issues"
+      ],
+      "licenseFiles": [
+        {
+          "path": "multimethod-1.12.dist-info/LICENSE.txt",
+          "sha256": "50477e9b01163e9f1754d3318cc38059278cc6586316c4e627de3076691c8bea"
+        }
+      ],
+      "metadataSha256": "85e1a6d54b033e8907b99675c09062f5c39d7cfa29c7c39e6a56620bcb3fa71b",
+      "installedRecordSha256": "898be99ef1f1151d1e8a95c7d41f52c24f650a55c10745f8c8db2e3e86084555"
+    },
+    {
+      "name": "nlopt",
+      "version": "2.11.0",
+      "requiresPython": ">=3.9",
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [
+        "Documentation, https://nlopt.readthedocs.io/en/latest/",
+        "Code, https://github.com/DanielBok/nlopt-python",
+        "Issue tracker, https://github.com/DanielBok/nlopt-python/issues"
+      ],
+      "licenseFiles": [
+        {
+          "path": "nlopt-2.11.0.dist-info/licenses/LICENSE",
+          "sha256": "e547030bf5cf396a0b724938083e5d951404f64097b835368246e90effe8a026"
+        }
+      ],
+      "metadataSha256": "bae8c57369f6b39b5d266bad83613bff6e662d6ecb155e31bc2831f933538d74",
+      "installedRecordSha256": "435ce51db6ced63c95a0c77bd3b60f6032bbbcdf2635ce1737aa5e63dc5ccd8d"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Copyright (c) 2005-2024, NumPy Developers.",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "licenseFiles": [
+        {
+          "path": "numpy-2.2.6.dist-info/LICENSE.txt",
+          "sha256": "14256cc3a2c9d32ac284da96b937feb44f72dd90bee2317ac3020166846ad99d"
+        },
+        {
+          "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": "numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": "numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        }
+      ],
+      "metadataSha256": "229f3544b02805e0f6a12030e155d8a45fd3a4100b3291574175e6a76f20e1e1",
+      "installedRecordSha256": "c790e0afb8fdd9170908c210dc49752cf2219bb6c82911dae24a0ba12fd9db6e"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "requiresPython": ">=3.9",
+      "licenseExpression": "Apache-2.0 OR BSD-2-Clause",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ],
+      "licenseFiles": [
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ],
+      "metadataSha256": "70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763",
+      "installedRecordSha256": "e8a8595656ad95af2129f4a8ae81d732f1fa6259ad0d0c7b18b84618075df4b7"
+    },
+    {
+      "name": "path",
+      "version": "17.1.1",
+      "requiresPython": ">=3.9",
+      "licenseExpression": "MIT",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Source, https://github.com/jaraco/path"
+      ],
+      "licenseFiles": [
+        {
+          "path": "path-17.1.1.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        }
+      ],
+      "metadataSha256": "66418f70f08dbcb1ee2f79a68be3cab05713152be371bd1b81a8c90161cc2c38",
+      "installedRecordSha256": "678a486421ed4234fcb2149dbc840e9326d36c8f3db2cd6f1c2514e35ca470e9"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "requiresPython": ">=3.10",
+      "licenseExpression": "MIT-CMU",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "licenseFiles": [
+        {
+          "path": "pillow-12.3.0.dist-info/licenses/LICENSE",
+          "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+        }
+      ],
+      "metadataSha256": "8fc07146cab33ef7582361dab6eac596d340b03ec648f18217da7894f73838c8",
+      "installedRecordSha256": "dbb022346b2db639a7fddeec9bef3aba833e6b98be02cf75d6a7dc7ea6743914"
+    },
+    {
+      "name": "pip",
+      "version": "21.2.3",
+      "requiresPython": ">=3.6",
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [
+        "Documentation, https://pip.pypa.io",
+        "Source, https://github.com/pypa/pip",
+        "Changelog, https://pip.pypa.io/en/stable/news/"
+      ],
+      "licenseFiles": [
+        {
+          "path": "pip-21.2.3.dist-info/LICENSE.txt",
+          "sha256": "8090c9b618f11bc9833d7660f7ac948e722de1b71eda150b7de7399ab7cd9e62"
+        }
+      ],
+      "metadataSha256": "040e0cf8ca83930c0da123e6d5c544a257aedec12bfe23781dba4cddc8ebeab2",
+      "installedRecordSha256": "c1725bf3165712a694def11e6028e041b42991fa8c875b0b5751b36aa0a1abbc"
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.2",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache-2.0",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub Workflows, https://github.com/aio-libs/propcache/actions?query=branch:master",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/propcache",
+        "Docs: Changelog, https://propcache.readthedocs.io/en/latest/changes/",
+        "Docs: RTD, https://propcache.readthedocs.io",
+        "GitHub: issues, https://github.com/aio-libs/propcache/issues",
+        "GitHub: repo, https://github.com/aio-libs/propcache"
+      ],
+      "licenseFiles": [
+        {
+          "path": "propcache-0.5.2.dist-info/licenses/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "metadataSha256": "f534495cdd2f915af8e649783d95fddcb1a05a1ac181850f0c973c0a78f7bbae",
+      "installedRecordSha256": "f93e214d57c47112927386c020b1b00c6fbbeda33ae84af39a4237e34f4d3534"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "requiresPython": ">=3.9",
+      "licenseExpression": "MIT",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/pyparsing/pyparsing/",
+        "Source, https://github.com/pyparsing/pyparsing.git"
+      ],
+      "licenseFiles": [
+        {
+          "path": "pyparsing-3.3.2.dist-info/licenses/LICENSE",
+          "sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+        }
+      ],
+      "metadataSha256": "3311a8b949d70f71a2b9788a9327f11d9d5a6a8012d6c046ca254ad2de877f45",
+      "installedRecordSha256": "4b13fe62375c23a70dcf08e82e5afacaee580907c09cd6f786f6b7495342e7d9"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "requiresPython": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+      "licenseExpression": null,
+      "licenseSummary": "Dual License",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ],
+      "licenseFiles": [
+        {
+          "path": "python_dateutil-2.9.0.post0.dist-info/LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+        }
+      ],
+      "metadataSha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "installedRecordSha256": "6069a25c2ff50c9b655311d29c64c28895d673e254c7d2ede6be9c5f8ef0893e"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "requiresPython": ">=3.8",
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [
+        "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+        "CI, https://github.com/yaml/pyyaml/actions",
+        "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+        "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+        "Source Code, https://github.com/yaml/pyyaml"
+      ],
+      "licenseFiles": [
+        {
+          "path": "pyyaml-6.0.3.dist-info/licenses/LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+        }
+      ],
+      "metadataSha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34",
+      "installedRecordSha256": "eb111db130a7fd4ef1fd968a1b8992e4393215244b16fe46312cbc0a3051861f"
+    },
+    {
+      "name": "setuptools",
+      "version": "57.4.0",
+      "requiresPython": ">=3.6",
+      "licenseExpression": null,
+      "licenseSummary": "UNKNOWN",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [
+        "Documentation, https://setuptools.readthedocs.io/"
+      ],
+      "licenseFiles": [
+        {
+          "path": "setuptools-57.4.0.dist-info/LICENSE",
+          "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8"
+        }
+      ],
+      "metadataSha256": "518dd6d71ac1743d85ce3cd8c692a58611340bc4a55ddee4d0df1c0921d613d5",
+      "installedRecordSha256": "dc76315322caaecfa3e5a32bbd02aa17d3b4ab4d8c2310fb76f53f8f5ecdc185"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "requiresPython": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "six-1.17.0.dist-info/LICENSE",
+          "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+        }
+      ],
+      "metadataSha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+      "installedRecordSha256": "f3d0e6939dc1dedddb9577e703a8fe490416bfafe5400bb2909b3ea0b4eedeee"
+    },
+    {
+      "name": "trame",
+      "version": "4.0.0",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache License 2.0",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "trame-4.0.0.dist-info/licenses/LICENSE",
+          "sha256": "a0e8a7cd61a4e04aee1cad9718f5afbaac4341059fb4c3f0b9223e93750b858e"
+        }
+      ],
+      "metadataSha256": "647f423209f51f8edd7577f301508bd735a760d9216925d08929b97b1f2f17ae",
+      "installedRecordSha256": "4132421c4ff4d2a790cd18ae8272402c12e922a8c0bb49767be8a66ce3ae0802"
+    },
+    {
+      "name": "trame-client",
+      "version": "4.0.1",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "trame_client-4.0.1.dist-info/licenses/LICENSE",
+          "sha256": "dc7bd3fd126419153790338e50a1ebb314a014c8f1798009ff50441fa424909a"
+        }
+      ],
+      "metadataSha256": "e5480cbd925060977cd790092932d322429095fc9b780fdf5cc891298fa98f94",
+      "installedRecordSha256": "d7f43ce600b13af77bca5fd967dc6a0e27eab582c343eb6643be3afc2133a0b6"
+    },
+    {
+      "name": "trame-common",
+      "version": "1.2.7",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "trame_common-1.2.7.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "metadataSha256": "7b9f2dae799a665f178933ef57a81b01b3f24bf08a70b17bc7544f99901707fe",
+      "installedRecordSha256": "6759d527a1aa2ba19ff7de093f1264ccca97d788f5692760c0e4fd1f37b60f63"
+    },
+    {
+      "name": "trame-server",
+      "version": "4.0.0",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache License 2.0",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "trame_server-4.0.0.dist-info/licenses/LICENSE",
+          "sha256": "5a6ba2e198e96e1ee6c17b17e6c614812f0271eff28f2b6c8215ab6d51afdf7e"
+        }
+      ],
+      "metadataSha256": "fc8bf226a47897b782db49d54e1f9b547b7f88dc792b31a534e54cd7c7c8ace0",
+      "installedRecordSha256": "f8a889e19d7fa1ce194739bb75c132f3ffcb31b6393f95d3ba7536d43a6fc444"
+    },
+    {
+      "name": "trame-vtk",
+      "version": "2.8.13",
+      "requiresPython": null,
+      "licenseExpression": null,
+      "licenseSummary": "BSD License",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "trame_vtk-2.8.13.dist-info/LICENSE",
+          "sha256": "27198113c2a9a21461dbdba5a9a22639ba4e65f97c15203fbc701a15d6f4d600"
+        },
+        {
+          "path": "trame_vtk/LICENSE",
+          "sha256": "27198113c2a9a21461dbdba5a9a22639ba4e65f97c15203fbc701a15d6f4d600"
+        }
+      ],
+      "metadataSha256": "925e7e264653cb3b37fa2343aac0171b07bd7ae41991c78c93774238c547ecbc",
+      "installedRecordSha256": "2e2d9e5ece3391144f4d4ff491ff806ae08174b095020a53117da7bca9f53c8a"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "requiresPython": ">=3.9",
+      "licenseExpression": "PSF-2.0",
+      "licenseSummary": "",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Bug Tracker, https://github.com/python/typing_extensions/issues",
+        "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+        "Documentation, https://typing-extensions.readthedocs.io/",
+        "Home, https://github.com/python/typing_extensions",
+        "Q & A, https://github.com/python/typing/discussions",
+        "Repository, https://github.com/python/typing_extensions"
+      ],
+      "licenseFiles": [
+        {
+          "path": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        }
+      ],
+      "metadataSha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46",
+      "installedRecordSha256": "23896ad1264f08dfc96b3f7c68fc41ca62049e90d3c996751f52a2e56b27c725"
+    },
+    {
+      "name": "typish",
+      "version": "1.9.3",
+      "requiresPython": null,
+      "licenseExpression": null,
+      "licenseSummary": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "typish-1.9.3.dist-info/LICENSE",
+          "sha256": "9459e7884420dbea6a752b7401ef7bf7edc84680b4155cbb9d82b50070435acb"
+        }
+      ],
+      "metadataSha256": "5335dbac5e88fbb703ff7203215c7a5f789709fb241f1826dff6ba896cc955fb",
+      "installedRecordSha256": "ee2eeae2abced05e37e2649cbb5a27ce1527fe496924dca72848e9487e6be2ee"
+    },
+    {
+      "name": "vtk",
+      "version": "9.3.1",
+      "requiresPython": null,
+      "licenseExpression": null,
+      "licenseSummary": "BSD",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "vtk-9.3.1.dist-info/LICENSE",
+          "sha256": "fb3c1d41b57425cf3026c4bb4cd244c982a7a9475596424de5d1b7f32ea78285"
+        }
+      ],
+      "metadataSha256": "52ff014fbecb8613cf006afaebff15e0f2523d46d5a825b1fbb8a5938bd520ab",
+      "installedRecordSha256": "ab944cf49433e7edfcfb97f6d9c7fb1746e255c3d801616b151df063774a120a"
+    },
+    {
+      "name": "wslink",
+      "version": "2.5.7",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "projectUrls": [],
+      "licenseFiles": [
+        {
+          "path": "wslink-2.5.7.dist-info/licenses/LICENSE",
+          "sha256": "28e401d582c42ba0d2904c99118b457c6595030fd4235d24f0a82e44e463edb3"
+        }
+      ],
+      "metadataSha256": "b2ba02ea367b2dc3fefc2fa79764fbd4021c8a9473bff024b6717bd146b5486a",
+      "installedRecordSha256": "177d5b6e1b5cd77d56630227cb531400fb8c8a848745e5776e384ffd4ef2b546"
+    },
+    {
+      "name": "yarl",
+      "version": "1.24.5",
+      "requiresPython": ">=3.10",
+      "licenseExpression": null,
+      "licenseSummary": "Apache-2.0",
+      "licenseClassifiers": [],
+      "projectUrls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub Workflows, https://github.com/aio-libs/yarl/actions?query=branch:master",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/yarl",
+        "Docs: Changelog, https://yarl.aio-libs.org/en/latest/changes/",
+        "Docs: RTD, https://yarl.aio-libs.org",
+        "GitHub: issues, https://github.com/aio-libs/yarl/issues",
+        "GitHub: repo, https://github.com/aio-libs/yarl"
+      ],
+      "licenseFiles": [
+        {
+          "path": "yarl-1.24.5.dist-info/licenses/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "metadataSha256": "0fd7b817553598246289189dfb95b425a15c9319d1bae355a38860419937e1c7",
+      "installedRecordSha256": "0e2ef4db8f3b91ed97af7da0a369037a2e05a4bae46d4afb29ffcb06f5c6ae69"
+    }
+  ],
+  "previewChecks": [
+    {
+      "state": "A",
+      "paths": 9,
+      "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+    },
+    {
+      "state": "B-thickness",
+      "paths": 9,
+      "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+    },
+    {
+      "state": "B-pivot",
+      "paths": 9,
+      "sha256": "e2da13fea799b02efab0e2a05e7439456e2737182bb11ed4d5c5707fac94899a"
+    },
+    {
+      "state": "B-width",
+      "paths": 9,
+      "sha256": "e2da13fea799b02efab0e2a05e7439456e2737182bb11ed4d5c5707fac94899a"
+    },
+    {
+      "state": "B-revision",
+      "paths": 9,
+      "sha256": "99571729c9fa29f8d1545e22337b14c1d651a4b671f4e638ec09f1a3007bf284"
+    },
+    {
+      "state": "B-final-six",
+      "paths": 10,
+      "sha256": "cb245d028d43cda6c17453d16d095504daa36736a20e6b36b29156e6be6e6f68"
+    },
+    {
+      "state": "benchmark-revision",
+      "paths": 9,
+      "sha256": "fa5e3170a7c2e1a17b15038e66d9b13a5bfcc99847b8a8bd88d688ffd12334a0"
+    },
+    {
+      "state": "w340-t6.35-p25-g95",
+      "paths": 9,
+      "sha256": "fa5e3170a7c2e1a17b15038e66d9b13a5bfcc99847b8a8bd88d688ffd12334a0"
+    },
+    {
+      "state": "w340-t6.35-p25-g97.5",
+      "paths": 9,
+      "sha256": "618b6258e45795f19b70b15814719b4bebe2f95abdd6355f0ec99c59e727e9af"
+    },
+    {
+      "state": "w340-t6.35-p25-g100",
+      "paths": 9,
+      "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+    },
+    {
+      "state": "w340-t6.35-p30-g95",
+      "paths": 9,
+      "sha256": "99571729c9fa29f8d1545e22337b14c1d651a4b671f4e638ec09f1a3007bf284"
+    },
+    {
+      "state": "w340-t6.35-p30-g97.5",
+      "paths": 9,
+      "sha256": "73b8795ec42dc376b9226396f6ac51bdbc7ebbcc4650e15c2f74147daadaf1be"
+    },
+    {
+      "state": "w340-t6.35-p30-g100",
+      "paths": 9,
+      "sha256": "e2da13fea799b02efab0e2a05e7439456e2737182bb11ed4d5c5707fac94899a"
+    },
+    {
+      "state": "w340-t8-p25-g95",
+      "paths": 9,
+      "sha256": "fa5e3170a7c2e1a17b15038e66d9b13a5bfcc99847b8a8bd88d688ffd12334a0"
+    },
+    {
+      "state": "w340-t8-p25-g97.5",
+      "paths": 9,
+      "sha256": "618b6258e45795f19b70b15814719b4bebe2f95abdd6355f0ec99c59e727e9af"
+    },
+    {
+      "state": "w340-t8-p25-g100",
+      "paths": 9,
+      "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+    },
+    {
+      "state": "w340-t8-p30-g95",
+      "paths": 9,
+      "sha256": "99571729c9fa29f8d1545e22337b14c1d651a4b671f4e638ec09f1a3007bf284"
+    },
+    {
+      "state": "w340-t8-p30-g97.5",
+      "paths": 9,
+      "sha256": "73b8795ec42dc376b9226396f6ac51bdbc7ebbcc4650e15c2f74147daadaf1be"
+    },
+    {
+      "state": "w340-t8-p30-g100",
+      "paths": 9,
+      "sha256": "e2da13fea799b02efab0e2a05e7439456e2737182bb11ed4d5c5707fac94899a"
+    },
+    {
+      "state": "w360-t6.35-p25-g95",
+      "paths": 9,
+      "sha256": "fa5e3170a7c2e1a17b15038e66d9b13a5bfcc99847b8a8bd88d688ffd12334a0"
+    },
+    {
+      "state": "w360-t6.35-p25-g97.5",
+      "paths": 9,
+      "sha256": "618b6258e45795f19b70b15814719b4bebe2f95abdd6355f0ec99c59e727e9af"
+    },
+    {
+      "state": "w360-t6.35-p25-g100",
+      "paths": 9,
+      "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+    },
+    {
+      "state": "w360-t6.35-p30-g95",
+      "paths": 9,
+      "sha256": "99571729c9fa29f8d1545e22337b14c1d651a4b671f4e638ec09f1a3007bf284"
+    },
+    {
+      "state": "w360-t6.35-p30-g97.5",
+      "paths": 9,
+      "sha256": "73b8795ec42dc376b9226396f6ac51bdbc7ebbcc4650e15c2f74147daadaf1be"
+    },
+    {
+      "state": "w360-t6.35-p30-g100",
+      "paths": 9,
+      "sha256": "e2da13fea799b02efab0e2a05e7439456e2737182bb11ed4d5c5707fac94899a"
+    },
+    {
+      "state": "w360-t8-p25-g95",
+      "paths": 9,
+      "sha256": "fa5e3170a7c2e1a17b15038e66d9b13a5bfcc99847b8a8bd88d688ffd12334a0"
+    },
+    {
+      "state": "w360-t8-p25-g97.5",
+      "paths": 9,
+      "sha256": "618b6258e45795f19b70b15814719b4bebe2f95abdd6355f0ec99c59e727e9af"
+    },
+    {
+      "state": "w360-t8-p25-g100",
+      "paths": 9,
+      "sha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d"
+    },
+    {
+      "state": "w360-t8-p30-g95",
+      "paths": 9,
+      "sha256": "99571729c9fa29f8d1545e22337b14c1d651a4b671f4e638ec09f1a3007bf284"
+    },
+    {
+      "state": "w360-t8-p30-g97.5",
+      "paths": 9,
+      "sha256": "73b8795ec42dc376b9226396f6ac51bdbc7ebbcc4650e15c2f74147daadaf1be"
+    },
+    {
+      "state": "w360-t8-p30-g100",
+      "paths": 9,
+      "sha256": "e2da13fea799b02efab0e2a05e7439456e2737182bb11ed4d5c5707fac94899a"
+    }
+  ],
+  "baselineRepeat": {
+    "valid": true,
+    "closed": true,
+    "solids": 1,
+    "boundsMm": [
+      -176.35,
+      -170.0,
+      0.0,
+      320.0,
+      12.7,
+      162.7
+    ],
+    "volumeMm3": 301875.7093467634,
+    "holes": [
+      {
+        "y": 246.2,
+        "z": 65.0,
+        "radius": 6.45,
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "xBoundsMm": [
+          -176.35,
+          -170.0
+        ],
+        "areaMm2": 257.3435622188077,
+        "faceCount": 1,
+        "name": "rearShaft"
+      },
+      {
+        "y": 300.0,
+        "z": 135.0,
+        "radius": 3.3,
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "xBoundsMm": [
+          -176.35,
+          -170.0
+        ],
+        "areaMm2": 131.66414811194812,
+        "faceCount": 1,
+        "name": "mount1"
+      },
+      {
+        "y": 70.0,
+        "z": 65.0,
+        "radius": 6.45,
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "xBoundsMm": [
+          -176.35,
+          -170.0
+        ],
+        "areaMm2": 257.3435622188077,
+        "faceCount": 1,
+        "name": "frontShaft"
+      },
+      {
+        "y": 140.0,
+        "z": 135.0,
+        "radius": 3.3,
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "xBoundsMm": [
+          -176.35,
+          -170.0
+        ],
+        "areaMm2": 131.66414811194812,
+        "faceCount": 1,
+        "name": "mount0"
+      },
+      {
+        "y": 25.0,
+        "z": 130.0,
+        "radius": 6.45,
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "xBoundsMm": [
+          -176.35,
+          -170.0
+        ],
+        "areaMm2": 257.3435622188077,
+        "faceCount": 1,
+        "name": "pivot"
+      }
+    ],
+    "holeCount": 5,
+    "analyticComparison": "PASS",
+    "expected": {
+      "boundsMm": [
+        -176.35,
+        -170.0,
+        0,
+        320,
+        12.7,
+        162.7
+      ],
+      "volumeMm3": 301875.70934676356,
+      "holes": [
+        [
+          "frontShaft",
+          70,
+          65,
+          6.45
+        ],
+        [
+          "rearShaft",
+          246.2,
+          65,
+          6.45
+        ],
+        [
+          "mount0",
+          140,
+          135,
+          3.3
+        ],
+        [
+          "mount1",
+          300,
+          135,
+          3.3
+        ],
+        [
+          "pivot",
+          25,
+          130,
+          6.45
+        ]
+      ]
+    },
+    "kernel": "OpenCascade via CadQuery/OCP, not Onshape Parasolid",
+    "tolerances": {
+      "linearMm": 0.01,
+      "volumeMm3": 0.30187570934676355
+    },
+    "stepRoundtrip": "PASS",
+    "roundtrip": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "boundsMm": [
+        -176.35,
+        -170.0,
+        0.0,
+        320.0,
+        12.7,
+        162.7
+      ],
+      "volumeMm3": 301875.70934676327,
+      "holes": [
+        {
+          "y": 246.2,
+          "z": 65.0,
+          "radius": 6.45,
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "xBoundsMm": [
+            -176.35,
+            -170.0
+          ],
+          "areaMm2": 257.3435622188247,
+          "faceCount": 1,
+          "name": "rearShaft"
+        },
+        {
+          "y": 300.0,
+          "z": 135.0,
+          "radius": 3.3,
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "xBoundsMm": [
+            -176.35,
+            -170.0
+          ],
+          "areaMm2": 131.6641481119568,
+          "faceCount": 1,
+          "name": "mount1"
+        },
+        {
+          "y": 70.0,
+          "z": 65.0,
+          "radius": 6.45,
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "xBoundsMm": [
+            -176.35,
+            -170.0
+          ],
+          "areaMm2": 257.3435622188247,
+          "faceCount": 1,
+          "name": "frontShaft"
+        },
+        {
+          "y": 140.0,
+          "z": 135.0,
+          "radius": 3.3,
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "xBoundsMm": [
+            -176.35,
+            -170.0
+          ],
+          "areaMm2": 131.6641481119568,
+          "faceCount": 1,
+          "name": "mount0"
+        },
+        {
+          "y": 25.0,
+          "z": 130.0,
+          "radius": 6.45,
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "xBoundsMm": [
+            -176.35,
+            -170.0
+          ],
+          "areaMm2": 257.3435622188247,
+          "faceCount": 1,
+          "name": "pivot"
+        }
+      ],
+      "holeCount": 5,
+      "analyticComparison": "PASS",
+      "expected": {
+        "boundsMm": [
+          -176.35,
+          -170.0,
+          0,
+          320,
+          12.7,
+          162.7
+        ],
+        "volumeMm3": 301875.70934676356,
+        "holes": [
+          [
+            "frontShaft",
+            70,
+            65,
+            6.45
+          ],
+          [
+            "rearShaft",
+            246.2,
+            65,
+            6.45
+          ],
+          [
+            "mount0",
+            140,
+            135,
+            3.3
+          ],
+          [
+            "mount1",
+            300,
+            135,
+            3.3
+          ],
+          [
+            "pivot",
+            25,
+            130,
+            6.45
+          ]
+        ]
+      },
+      "kernel": "OpenCascade via CadQuery/OCP, not Onshape Parasolid",
+      "tolerances": {
+        "linearMm": 0.01,
+        "volumeMm3": 0.30187570934676355
+      }
+    },
+    "localStepSha256": "5bf99a03bd37f35da755b45f997a5af578203e098ab6d6237705725a5ebd9ccc",
+    "previewSha256": "c4c512648c5c6247fda042e1cc0455f67922052ed61b408580decb21cb52f23d",
+    "evidenceOrigin": "LOCAL_CADQUERY_NOT_ONSHAPE_EXPORT",
+    "networkIsolation": {
+      "guard": "Python audit hook installed before CAD import",
+      "allowedLocalOnlyEvent": "socket.gethostname",
+      "events": {
+        "localHostnameLookups": 1,
+        "denied": [
+          "subprocess.Popen",
+          "subprocess.Popen",
+          "subprocess.Popen"
+        ]
+      },
+      "osFirewallClaim": false
+    },
+    "wallTimeMs": 173.5182000002169
+  },
+  "repeatability": "Identical baseline measured bounds, volume, bores and SVG; STEP bytes may differ due to export timestamps",
+  "metadataScope": "Installed distribution metadata and license-file hashes; not a legal audit or wheel signature",
+  "wallTimeMs": 5253.8603000002695,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0
+}

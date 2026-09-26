@@ -1,0 +1,52 @@
+{
+  "schema": "subsystem-ab-api-v4-public-research/1",
+  "date": "2026-09-13",
+  "authentication": "none",
+  "authenticatedRequests": 0,
+  "conclusion": "NO_AUTHORITATIVE_FIXED_STATE_WRITE_FOUND",
+  "authoritativeGroundPayload": null,
+  "openapi": {
+    "url": "https://cad.onshape.com/api/openapi",
+    "cachedFile": "schema/openapi-v17.json",
+    "cachedSha256": "5c072358064bee2f5fc2ea9df131ef43e471e65633d56267a88ab9abb93ac7ee",
+    "cachedAndCurrentInfoVersion": "1.220.87929-d54ca734df42",
+    "currentAnonymousProbe": "The current public response had the same version and modify schema fields; the historical cache was not overwritten.",
+    "operationId": "modify",
+    "path": "/assemblies/d/{did}/w/{wid}/e/{eid}/modify",
+    "requestRef": "#/components/schemas/BTAssemblyModificationParams",
+    "fields": ["deleteInstances", "editDescription", "suppressInstances", "suppressionStates", "transformDefinitions", "unsuppressInstances"],
+    "rejectedGroundFields": ["fixInstances", "fixedInstances", "isFixed", "fixed"],
+    "readbackRefs": ["#/components/schemas/BTAssemblyOccurrenceInfo/properties/fixed", "#/components/schemas/BTOccurrenceData-75/properties/isFixed"],
+    "scopeOfConclusion": "No supported fixed-state setter identified in the inspected public Assembly operations. This is not proof that no private/internal operation exists."
+  },
+  "officialGuide": {
+    "url": "https://onshape-public.github.io/docs/api-adv/assemblies/",
+    "sections": ["Modify an assembly", "Assembly transforms", "Suppress and unsuppress an instance"],
+    "finding": "Documents modify and absolute object-to-world row-major transforms; instance suppression does not establish fixed-state writes or mate-feature suppression."
+  },
+  "jarvis": {
+    "repository": "https://github.com/ReshefElisha/jarvis-onshape-mcp",
+    "commit": "b0e725852280ebcfda5d46a4f2ed2d0b720beace",
+    "sourceUrls": [
+      "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/api/assemblies.py",
+      "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/onshape_mcp/server.py",
+      "https://raw.githubusercontent.com/ReshefElisha/jarvis-onshape-mcp/b0e725852280ebcfda5d46a4f2ed2d0b720beace/knowledge_base/assembly_workflow_guide.md"
+    ],
+    "finding": "Assembly manager and server tools contain no fixed-instance setter. Guide assumes first insertion is fixed and prescribes UI unfix/re-fix; this is not a supported repair payload for the saved batch-inserted pilot.",
+    "borrowedComparisonImplementation": false,
+    "sourceCodeExecuted": false
+  },
+  "motion": {
+    "operationId": "updateMateValues",
+    "refs": ["#/components/schemas/BTAssemblyMateValuesInfo", "#/components/schemas/BTAssemblyMateValueInfo"],
+    "units": "meters for lengths; radians for angles",
+    "direction": "First connector relative to second connector",
+    "rotationZAuthority": "Observed jsonType=Revolute receipt pilot-mate-values-before. Public base schema omits the concrete rotationZ subtype; do not claim full polymorphic schema validation.",
+    "liveMovementProven": false
+  },
+  "searchLimitations": [
+    "Anonymous GitHub code search required sign-in; no sign-in attempted.",
+    "Onshape forum search returned HTTP 403; Google/Bing searches supplied no usable additional grounding recipe.",
+    "No authenticated document lookup, browser inspection, alternate API-role probing or undocumented endpoint write was performed."
+  ]
+}

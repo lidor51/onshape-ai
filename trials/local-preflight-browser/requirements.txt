@@ -1,0 +1,2 @@
+cadquery==2.6.1
+casadi==3.7.2

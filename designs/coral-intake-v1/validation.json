@@ -1,0 +1,4299 @@
+{
+  "status": "FAIL",
+  "release": "NOT RELEASED",
+  "package_status": "prototype-engineering",
+  "units": "mm",
+  "runtime": {
+    "python": "3.10.0",
+    "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\manufacturing-package\\.venv\\Scripts\\python.exe",
+    "cadquery": "2.6.1"
+  },
+  "scope": "Offline local CAD; no cloud, native Onshape or physical reliability claim",
+  "elapsed_seconds": 3626.75,
+  "gates": {
+    "valid_brep_and_drilled_holes": true,
+    "bearing_shaft_alignment_and_no_interference": true,
+    "specified_12_60_gear_center_distances": true,
+    "full_mechanism_sampled_fold": false,
+    "full_length_coral_hard_clearance_witnesses": true,
+    "receiver_keepout": true,
+    "necessary_assembly_connectivity": false,
+    "authentic_12T_and_60T_gears": false,
+    "powered_kick_opposes_upper_contact": false,
+    "floating_arm_belt_take_up_and_stops_proven": false,
+    "continuous_contact_and_handoff": false,
+    "fastener_retention_and_load_path_approved": false,
+    "sensor_product_mounts_and_line_of_sight": false,
+    "strength_fold_torque_holding_and_current_limits": false,
+    "manufacturing_fit_tolerance_approved": false
+  },
+  "definitions": [
+    {
+      "definition": "pickup_sideplate",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 333128.0302288787,
+      "hole_checks": [
+        {
+          "center": [
+            -140,
+            34
+          ],
+          "diameter": 32,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -136,
+            262
+          ],
+          "diameter": 32,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -9,
+            287
+          ],
+          "diameter": 32,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            110,
+            265
+          ],
+          "diameter": 32,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -160,
+            14
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -160,
+            54
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -120,
+            14
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -120,
+            54
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -156,
+            242
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -156,
+            282
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -116,
+            242
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -116,
+            282
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -29,
+            267
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -29,
+            307
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            11,
+            267
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            11,
+            307
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            90,
+            245
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            90,
+            285
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            130,
+            245
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            130,
+            285
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -310,
+            44
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -330,
+            211
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "axle_cassette",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 15767.337461318246,
+      "hole_checks": [
+        {
+          "center": [
+            0,
+            0
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -20,
+            -20
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -20,
+            20
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            20,
+            -20
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            20,
+            20
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "floating_arm",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 65206.30747537567,
+      "hole_checks": [
+        {
+          "center": [
+            0,
+            0
+          ],
+          "diameter": 30.1,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -125,
+            -101
+          ],
+          "diameter": 32,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -145,
+            -121
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -145,
+            -81
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -105,
+            -121
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -105,
+            -81
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "floating_pivot_journal",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 5026.548245743669,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "floating_pivot_bushing",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 1504.1474386489888,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_hex_bearing",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 3985.8595418071236,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_M5x16",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 654.362333816218,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "stop_mount_0",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 16128.713915698976,
+      "hole_checks": [
+        {
+          "center": [
+            -220.29966492426774,
+            251.11117574500446
+          ],
+          "diameter": 8.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_M8x40",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 3319.7131030666997,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "stop_mount_1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 16128.713915698976,
+      "hole_checks": [
+        {
+          "center": [
+            -175.22706321137127,
+            186.59285503474433
+          ],
+          "diameter": 8.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_crossmember",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 82656.0,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "tube_end_plug",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 2829.426916772028,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_M5x20",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 732.9021501559629,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_hex_shaft_kick",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 89035.77690723035,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "roller_core_kick",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 49762.82763286232,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "roller_hub_kick",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 2756.3146112469885,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "compliant_sleeve_kick",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 572555.2611167397,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hex_collar",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 2483.9979196871027,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_M5x12",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 575.8225174764731,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_hex_shaft_front",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 89035.77690723035,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_intake_star",
+      "valid_closed_positive_solids": true,
+      "solids": 3,
+      "volume_mm3": 33976.763717500806,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_intake_star_solid_0",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 2215.8709553788576,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_intake_star_solid_1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 13.80362796870875,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_intake_star_solid_2",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 31747.090645673663,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_hex_shaft_middle",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 89035.77690723035,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_hex_shaft_rear",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 91829.40165475817,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_hex_output_gear",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 19358.502488121798,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "round_belt_hex_pulley",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 14109.357453784693,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "upper_pickup_belt",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 19367.461861235337,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_drive_mount",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 42349.80044937415,
+      "hole_checks": [
+        {
+          "center": [
+            36.72,
+            287
+          ],
+          "diameter": 19.1,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -9,
+            287
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            54.1825,
+            287.0
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            27.988750000000003,
+            302.1229686135858
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            27.988749999999992,
+            271.8770313864142
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -36,
+            259
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            18,
+            259
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_x44",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 114622.94882400305,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_10-32_UNFx9.525",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 481.8872061017094,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_spline_pinion",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 2167.706131596158,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pinion_retention_spacer",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 768.7095522371508,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "pickup_drive_output_spacer",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 2668.481340184868,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "frame_pivot_cheek_-1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 184598.43699463154,
+      "hole_checks": [
+        {
+          "center": [
+            110,
+            265
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            12.5,
+            45
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            12.5,
+            60
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "fold_pivot_stub",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 10255.559026945197,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_M5x35",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 1027.426461430006,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "frame_pivot_cheek_1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 182713.4814024777,
+      "hole_checks": [
+        {
+          "center": [
+            110,
+            265
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            12.5,
+            45
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            12.5,
+            60
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            110,
+            310.72
+          ],
+          "diameter": 20,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "fold_drive_mount",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 41252.520449374155,
+      "hole_checks": [
+        {
+          "center": [
+            110,
+            310.72
+          ],
+          "diameter": 19.1,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            110,
+            265
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            127.4625,
+            310.72
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            101.26875000000001,
+            325.8429686135858
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            101.26875,
+            295.59703138641424
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            83,
+            237
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            137,
+            237
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "fold_drive_output_spacer",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 4841.979519911082,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_bank_plate_L",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 309079.8818103658,
+      "hole_checks": [
+        {
+          "center": [
+            -172.5,
+            74
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -110,
+            182
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -92.25,
+            288
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -265,
+            74
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -265,
+            300
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -218.22,
+            74
+          ],
+          "diameter": 14,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_post",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 25631.999999999993,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_hex_shaft",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 27017.307512112253,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_indexer_wheel",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 58520.66054399835,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_indexer_wheel_solid_0",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 54088.91863326303,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "vendor_indexer_wheel_solid_1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 4431.741910757706,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_belt_L",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 16226.813053807371,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_drive_L_mount",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 42349.80044937415,
+      "hole_checks": [
+        {
+          "center": [
+            -218.22,
+            74
+          ],
+          "diameter": 19.1,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -172.5,
+            74
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -200.7575,
+            74.0
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -226.95125,
+            89.12296861358575
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -226.95125000000002,
+            58.877031386414245
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -199.5,
+            46
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -145.5,
+            46
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_drive_L_output_spacer_0",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 363.0207709752681,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_drive_L_output_spacer_1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 1628.3072113158905,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_bank_plate_R",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 309079.8818103658,
+      "hole_checks": [
+        {
+          "center": [
+            172.5,
+            74
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            110,
+            182
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            92.25,
+            288
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            265,
+            74
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            265,
+            300
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            218.22,
+            74
+          ],
+          "diameter": 14,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_belt_R",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 16226.813053807371,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_drive_R_mount",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 42349.80044937415,
+      "hole_checks": [
+        {
+          "center": [
+            218.22,
+            74
+          ],
+          "diameter": 19.1,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            172.5,
+            74
+          ],
+          "diameter": 28.57,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            235.6825,
+            74.0
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            209.48875,
+            89.12296861358575
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            209.48874999999998,
+            58.877031386414245
+          ],
+          "diameter": 5.2,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            145.5,
+            46
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            199.5,
+            46
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_drive_R_output_spacer_0",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 363.0207709752681,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "indexer_drive_R_output_spacer_1",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 1628.3072113158905,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "detachable_tray",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 148034.90046668675,
+      "hole_checks": [
+        {
+          "center": [
+            -65,
+            245
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -65,
+            525
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            65,
+            245
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            65,
+            525
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "dock_crossbar",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 76319.99999999994,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "tray_spacer",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 1037.2262670137975,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "hardware_M5x30",
+      "valid_closed_positive_solids": true,
+      "solids": 2,
+      "volume_mm3": 929.2516910053248,
+      "hole_checks": [],
+      "holes_pass": true
+    },
+    {
+      "definition": "coral_stop",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 38114.900466686726,
+      "hole_checks": [
+        {
+          "center": [
+            -65,
+            8
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            65,
+            8
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "sensor_adapter",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 5099.774683445188,
+      "hole_checks": [
+        {
+          "center": [
+            -10,
+            -7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            10,
+            -7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -10,
+            7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            10,
+            7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            0,
+            -20
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "presence_sensor_adapter",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 4043.774683445189,
+      "hole_checks": [
+        {
+          "center": [
+            -10,
+            -7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            10,
+            -7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            -10,
+            7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            10,
+            7.5
+          ],
+          "diameter": 3.4,
+          "blocked_mm3": 0.0,
+          "pass": true
+        },
+        {
+          "center": [
+            0,
+            -20
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "presence_sensor_tab",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 1944.7251166716812,
+      "hole_checks": [
+        {
+          "center": [
+            65,
+            245
+          ],
+          "diameter": 5.5,
+          "blocked_mm3": 0.0,
+          "pass": true
+        }
+      ],
+      "holes_pass": true
+    },
+    {
+      "definition": "sensor_reference_envelope",
+      "valid_closed_positive_solids": true,
+      "solids": 1,
+      "volume_mm3": 11520.0,
+      "hole_checks": [],
+      "holes_pass": true
+    }
+  ],
+  "bearing_axes": [
+    {
+      "bearing": "bearing_kick_L",
+      "shaft": "shaft_kick",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_front_L",
+      "shaft": "shaft_front",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_middle_L",
+      "shaft": "shaft_middle",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_rear_L",
+      "shaft": "shaft_rear",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_pivot_L",
+      "shaft": "pivot_stub_-1",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_kick_R",
+      "shaft": "shaft_kick",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_front_R",
+      "shaft": "shaft_front",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_middle_R",
+      "shaft": "shaft_middle",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_rear_R",
+      "shaft": "shaft_rear",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "bearing_pivot_R",
+      "shaft": "pivot_stub_1",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "pickup_drive_output_bearing",
+      "shaft": "shaft_rear",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "frame_pivot_bearing_-1",
+      "shaft": "pivot_stub_-1",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "frame_pivot_bearing_1",
+      "shaft": "pivot_stub_1",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "fold_drive_output_bearing",
+      "shaft": "pivot_stub_1",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_L0_lower",
+      "shaft": "indexer_L0_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_L0_upper",
+      "shaft": "indexer_L0_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_L1_lower",
+      "shaft": "indexer_L1_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_L1_upper",
+      "shaft": "indexer_L1_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_L2_lower",
+      "shaft": "indexer_L2_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_L2_upper",
+      "shaft": "indexer_L2_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_drive_L_output_bearing",
+      "shaft": "indexer_L0_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_R0_lower",
+      "shaft": "indexer_R0_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_R0_upper",
+      "shaft": "indexer_R0_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_R1_lower",
+      "shaft": "indexer_R1_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_R1_upper",
+      "shaft": "indexer_R1_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_R2_lower",
+      "shaft": "indexer_R2_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_R2_upper",
+      "shaft": "indexer_R2_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "bearing": "indexer_drive_R_output_bearing",
+      "shaft": "indexer_R0_shaft",
+      "axis_error_mm": 0.0,
+      "shaft_bearing_overlap_mm3": 0.0,
+      "pass": true
+    }
+  ],
+  "connectivity": {
+    "pass": false,
+    "components": [
+      [
+        "pickup_rail_L",
+        "floating_arm_L",
+        "floating_journal_L",
+        "floating_bushing_L",
+        "cassette_kick_L",
+        "bearing_kick_L",
+        "cassette_bolt_kick_L0",
+        "cassette_bolt_kick_L1",
+        "cassette_bolt_kick_L2",
+        "cassette_bolt_kick_L3",
+        "cassette_front_L",
+        "bearing_front_L",
+        "cassette_bolt_front_L0",
+        "cassette_bolt_front_L1",
+        "cassette_bolt_front_L2",
+        "cassette_bolt_front_L3",
+        "cassette_middle_L",
+        "bearing_middle_L",
+        "cassette_bolt_middle_L0",
+        "cassette_bolt_middle_L1",
+        "cassette_bolt_middle_L2",
+        "cassette_bolt_middle_L3",
+        "cassette_rear_L",
+        "bearing_rear_L",
+        "cassette_bolt_rear_L0",
+        "cassette_bolt_rear_L1",
+        "cassette_bolt_rear_L2",
+        "cassette_bolt_rear_L3",
+        "cassette_pivot_L",
+        "bearing_pivot_L",
+        "cassette_bolt_pivot_L0",
+        "cassette_bolt_pivot_L1",
+        "cassette_bolt_pivot_L2",
+        "cassette_bolt_pivot_L3",
+        "stop_mount_L0",
+        "floating_stop_L0",
+        "stop_mount_L1",
+        "floating_stop_L1",
+        "pickup_rail_R",
+        "floating_arm_R",
+        "floating_journal_R",
+        "floating_bushing_R",
+        "cassette_kick_R",
+        "bearing_kick_R",
+        "cassette_bolt_kick_R0",
+        "cassette_bolt_kick_R1",
+        "cassette_bolt_kick_R2",
+        "cassette_bolt_kick_R3",
+        "cassette_front_R",
+        "bearing_front_R",
+        "cassette_bolt_front_R0",
+        "cassette_bolt_front_R1",
+        "cassette_bolt_front_R2",
+        "cassette_bolt_front_R3",
+        "cassette_middle_R",
+        "bearing_middle_R",
+        "cassette_bolt_middle_R0",
+        "cassette_bolt_middle_R1",
+        "cassette_bolt_middle_R2",
+        "cassette_bolt_middle_R3",
+        "cassette_rear_R",
+        "bearing_rear_R",
+        "cassette_bolt_rear_R0",
+        "cassette_bolt_rear_R1",
+        "cassette_bolt_rear_R2",
+        "cassette_bolt_rear_R3",
+        "cassette_pivot_R",
+        "bearing_pivot_R",
+        "cassette_bolt_pivot_R0",
+        "cassette_bolt_pivot_R1",
+        "cassette_bolt_pivot_R2",
+        "cassette_bolt_pivot_R3",
+        "stop_mount_R0",
+        "floating_stop_R0",
+        "stop_mount_R1",
+        "floating_stop_R1",
+        "pickup_crossmember_0",
+        "crossmember_plug_0_-1",
+        "crossmember_bolt_0_-1",
+        "crossmember_plug_0_1",
+        "crossmember_bolt_0_1",
+        "pickup_crossmember_1",
+        "crossmember_plug_1_-1",
+        "crossmember_bolt_1_-1",
+        "crossmember_plug_1_1",
+        "crossmember_bolt_1_1",
+        "shaft_kick",
+        "core_kick",
+        "sleeve_kick",
+        "hub_kick-1",
+        "collar_kick-1",
+        "shaft_end_kick-1",
+        "hub_kick1",
+        "collar_kick1",
+        "shaft_end_kick1",
+        "shaft_front",
+        "star_front_0_solid_0",
+        "star_front_0_solid_1",
+        "star_front_0_solid_2",
+        "star_front_1_solid_0",
+        "star_front_1_solid_1",
+        "star_front_1_solid_2",
+        "star_front_2_solid_0",
+        "star_front_2_solid_1",
+        "star_front_2_solid_2",
+        "star_front_3_solid_0",
+        "star_front_3_solid_1",
+        "star_front_3_solid_2",
+        "star_front_4_solid_0",
+        "star_front_4_solid_1",
+        "star_front_4_solid_2",
+        "star_front_5_solid_0",
+        "star_front_5_solid_1",
+        "star_front_5_solid_2",
+        "star_front_6_solid_0",
+        "star_front_6_solid_1",
+        "star_front_6_solid_2",
+        "star_front_7_solid_0",
+        "star_front_7_solid_1",
+        "star_front_7_solid_2",
+        "star_front_8_solid_0",
+        "star_front_8_solid_1",
+        "star_front_8_solid_2",
+        "collar_front-1",
+        "shaft_end_front-1",
+        "collar_front1",
+        "shaft_end_front1",
+        "shaft_middle",
+        "star_middle_0_solid_0",
+        "star_middle_0_solid_1",
+        "star_middle_0_solid_2",
+        "star_middle_1_solid_0",
+        "star_middle_1_solid_1",
+        "star_middle_1_solid_2",
+        "star_middle_2_solid_0",
+        "star_middle_2_solid_1",
+        "star_middle_2_solid_2",
+        "star_middle_3_solid_0",
+        "star_middle_3_solid_1",
+        "star_middle_3_solid_2",
+        "star_middle_4_solid_0",
+        "star_middle_4_solid_1",
+        "star_middle_4_solid_2",
+        "star_middle_5_solid_0",
+        "star_middle_5_solid_1",
+        "star_middle_5_solid_2",
+        "star_middle_6_solid_0",
+        "star_middle_6_solid_1",
+        "star_middle_6_solid_2",
+        "star_middle_7_solid_0",
+        "star_middle_7_solid_1",
+        "star_middle_7_solid_2",
+        "collar_middle-1",
+        "shaft_end_middle-1",
+        "collar_middle1",
+        "shaft_end_middle1",
+        "shaft_rear",
+        "star_rear_0_solid_0",
+        "star_rear_0_solid_1",
+        "star_rear_0_solid_2",
+        "star_rear_1_solid_0",
+        "star_rear_1_solid_1",
+        "star_rear_1_solid_2",
+        "star_rear_2_solid_0",
+        "star_rear_2_solid_1",
+        "star_rear_2_solid_2",
+        "star_rear_3_solid_0",
+        "star_rear_3_solid_1",
+        "star_rear_3_solid_2",
+        "star_rear_4_solid_0",
+        "star_rear_4_solid_1",
+        "star_rear_4_solid_2",
+        "collar_rear-1",
+        "shaft_end_rear-1",
+        "collar_rear1",
+        "shaft_end_rear1",
+        "pulley_front",
+        "pulley_middle",
+        "pulley_rear",
+        "pickup_upper_belt",
+        "pickup_drive_mount",
+        "pickup_drive_X44",
+        "pickup_drive_output_bearing",
+        "pickup_drive_motor_screw_0",
+        "pickup_drive_motor_screw_1",
+        "pickup_drive_motor_screw_2",
+        "pickup_drive_12T",
+        "pickup_drive_60T",
+        "pickup_drive_pinion_spacer",
+        "pickup_drive_pinion_retention",
+        "pickup_drive_output_spacer",
+        "frame_cheek_-1",
+        "frame_pivot_bearing_-1",
+        "pivot_stub_-1",
+        "frame_mount_-10",
+        "frame_mount_-11",
+        "frame_cheek_1",
+        "frame_pivot_bearing_1",
+        "pivot_stub_1",
+        "frame_mount_10",
+        "frame_mount_11",
+        "fold_drive_mount",
+        "fold_drive_X44",
+        "fold_drive_output_bearing",
+        "fold_drive_motor_screw_0",
+        "fold_drive_motor_screw_1",
+        "fold_drive_motor_screw_2",
+        "fold_drive_12T",
+        "fold_drive_60T",
+        "fold_drive_pinion_spacer",
+        "fold_drive_pinion_retention",
+        "fold_drive_output_spacer",
+        "fold_drive_output_end"
+      ],
+      [
+        "indexer_plate_L_114",
+        "indexer_plate_L_247",
+        "indexer_post_L0",
+        "post_plug_L0_250",
+        "post_bolt_L0_250",
+        "post_plug_L0_66",
+        "post_bolt_L0_66",
+        "indexer_post_L1",
+        "post_plug_L1_250",
+        "post_bolt_L1_250",
+        "post_plug_L1_66",
+        "post_bolt_L1_66",
+        "indexer_L0_lower",
+        "indexer_L0_upper",
+        "indexer_L0_shaft",
+        "indexer_L0_wheel_0_solid_0",
+        "indexer_L0_wheel_0_solid_1",
+        "indexer_L0_wheel_1_solid_0",
+        "indexer_L0_wheel_1_solid_1",
+        "indexer_L0_wheel_2_solid_0",
+        "indexer_L0_wheel_2_solid_1",
+        "indexer_L0_collar124",
+        "indexer_L0_collar271",
+        "indexer_L0_pulley",
+        "indexer_L0_end281",
+        "indexer_L0_end83",
+        "indexer_L1_lower",
+        "indexer_L1_upper",
+        "indexer_L1_shaft",
+        "indexer_L1_wheel_0_solid_0",
+        "indexer_L1_wheel_0_solid_1",
+        "indexer_L1_wheel_1_solid_0",
+        "indexer_L1_wheel_1_solid_1",
+        "indexer_L1_wheel_2_solid_0",
+        "indexer_L1_wheel_2_solid_1",
+        "indexer_L1_collar124",
+        "indexer_L1_collar271",
+        "indexer_L1_pulley",
+        "indexer_L1_end281",
+        "indexer_L1_end83",
+        "indexer_L2_lower",
+        "indexer_L2_upper",
+        "indexer_L2_shaft",
+        "indexer_L2_wheel_0_solid_0",
+        "indexer_L2_wheel_0_solid_1",
+        "indexer_L2_wheel_1_solid_0",
+        "indexer_L2_wheel_1_solid_1",
+        "indexer_L2_wheel_2_solid_0",
+        "indexer_L2_wheel_2_solid_1",
+        "indexer_L2_collar124",
+        "indexer_L2_collar271",
+        "indexer_L2_pulley",
+        "indexer_L2_end281",
+        "indexer_L2_end83",
+        "indexer_belt_L",
+        "indexer_drive_L_mount",
+        "indexer_drive_L_X44",
+        "indexer_drive_L_output_bearing",
+        "indexer_drive_L_motor_screw_0",
+        "indexer_drive_L_motor_screw_1",
+        "indexer_drive_L_motor_screw_2",
+        "indexer_drive_L_12T",
+        "indexer_drive_L_60T",
+        "indexer_drive_L_pinion_spacer",
+        "indexer_drive_L_pinion_retention",
+        "indexer_drive_L_output_spacer_0",
+        "indexer_drive_L_output_spacer_1",
+        "indexer_plate_R_114",
+        "indexer_plate_R_247",
+        "indexer_post_R0",
+        "post_plug_R0_250",
+        "post_bolt_R0_250",
+        "post_plug_R0_66",
+        "post_bolt_R0_66",
+        "indexer_post_R1",
+        "post_plug_R1_250",
+        "post_bolt_R1_250",
+        "post_plug_R1_66",
+        "post_bolt_R1_66",
+        "indexer_R0_lower",
+        "indexer_R0_upper",
+        "indexer_R0_shaft",
+        "indexer_R0_wheel_0_solid_0",
+        "indexer_R0_wheel_0_solid_1",
+        "indexer_R0_wheel_1_solid_0",
+        "indexer_R0_wheel_1_solid_1",
+        "indexer_R0_wheel_2_solid_0",
+        "indexer_R0_wheel_2_solid_1",
+        "indexer_R0_collar124",
+        "indexer_R0_collar271",
+        "indexer_R0_pulley",
+        "indexer_R0_end281",
+        "indexer_R0_end83",
+        "indexer_R1_lower",
+        "indexer_R1_upper",
+        "indexer_R1_shaft",
+        "indexer_R1_wheel_0_solid_0",
+        "indexer_R1_wheel_0_solid_1",
+        "indexer_R1_wheel_1_solid_0",
+        "indexer_R1_wheel_1_solid_1",
+        "indexer_R1_wheel_2_solid_0",
+        "indexer_R1_wheel_2_solid_1",
+        "indexer_R1_collar124",
+        "indexer_R1_collar271",
+        "indexer_R1_pulley",
+        "indexer_R1_end281",
+        "indexer_R1_end83",
+        "indexer_R2_lower",
+        "indexer_R2_upper",
+        "indexer_R2_shaft",
+        "indexer_R2_wheel_0_solid_0",
+        "indexer_R2_wheel_0_solid_1",
+        "indexer_R2_wheel_1_solid_0",
+        "indexer_R2_wheel_1_solid_1",
+        "indexer_R2_wheel_2_solid_0",
+        "indexer_R2_wheel_2_solid_1",
+        "indexer_R2_collar124",
+        "indexer_R2_collar271",
+        "indexer_R2_pulley",
+        "indexer_R2_end281",
+        "indexer_R2_end83",
+        "indexer_belt_R",
+        "indexer_drive_R_mount",
+        "indexer_drive_R_X44",
+        "indexer_drive_R_output_bearing",
+        "indexer_drive_R_motor_screw_0",
+        "indexer_drive_R_motor_screw_1",
+        "indexer_drive_R_motor_screw_2",
+        "indexer_drive_R_12T",
+        "indexer_drive_R_60T",
+        "indexer_drive_R_pinion_spacer",
+        "indexer_drive_R_pinion_retention",
+        "indexer_drive_R_output_spacer_0",
+        "indexer_drive_R_output_spacer_1",
+        "detachable_tray",
+        "dock_crossbar_245",
+        "tray_spacer_-65_245",
+        "tray_dock_screw_-65_245",
+        "tray_spacer_65_245",
+        "tray_dock_screw_65_245",
+        "dock_crossbar_525",
+        "tray_spacer_-65_525",
+        "tray_dock_screw_-65_525",
+        "tray_spacer_65_525",
+        "tray_dock_screw_65_525",
+        "coral_stop",
+        "presence_sensor_tab",
+        "sensor_mount_presence",
+        "sensor_mount_seated"
+      ]
+    ],
+    "contact_tolerance_mm": 0.2,
+    "measured_spanning_contacts": [
+      {
+        "first": "pickup_rail_L",
+        "second": "cassette_kick_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "cassette_middle_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "cassette_rear_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "cassette_pivot_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "floating_stop_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "pickup_crossmember_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "crossmember_plug_0_-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "crossmember_bolt_0_-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "pickup_crossmember_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "crossmember_plug_1_-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_L",
+        "second": "crossmember_bolt_1_-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_arm_L",
+        "second": "floating_bushing_L",
+        "distance_mm": 0.04999999999997678
+      },
+      {
+        "first": "floating_arm_L",
+        "second": "cassette_front_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_arm_L",
+        "second": "floating_stop_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_journal_L",
+        "second": "floating_bushing_L",
+        "distance_mm": 0.04999999999995678
+      },
+      {
+        "first": "cassette_kick_L",
+        "second": "bearing_kick_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_L",
+        "second": "cassette_bolt_kick_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_L",
+        "second": "cassette_bolt_kick_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_L",
+        "second": "cassette_bolt_kick_L2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_L",
+        "second": "cassette_bolt_kick_L3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_kick_L",
+        "second": "shaft_kick",
+        "distance_mm": 0.009999999999986133
+      },
+      {
+        "first": "cassette_front_L",
+        "second": "bearing_front_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_L",
+        "second": "cassette_bolt_front_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_L",
+        "second": "cassette_bolt_front_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_L",
+        "second": "cassette_bolt_front_L2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_L",
+        "second": "cassette_bolt_front_L3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_front_L",
+        "second": "shaft_front",
+        "distance_mm": 0.00999999999995086
+      },
+      {
+        "first": "cassette_middle_L",
+        "second": "bearing_middle_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_L",
+        "second": "cassette_bolt_middle_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_L",
+        "second": "cassette_bolt_middle_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_L",
+        "second": "cassette_bolt_middle_L2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_L",
+        "second": "cassette_bolt_middle_L3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_middle_L",
+        "second": "stop_mount_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_middle_L",
+        "second": "stop_mount_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_middle_L",
+        "second": "shaft_middle",
+        "distance_mm": 0.009999999999989686
+      },
+      {
+        "first": "cassette_rear_L",
+        "second": "bearing_rear_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_L",
+        "second": "cassette_bolt_rear_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_L",
+        "second": "cassette_bolt_rear_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_L",
+        "second": "cassette_bolt_rear_L2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_L",
+        "second": "cassette_bolt_rear_L3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_rear_L",
+        "second": "shaft_rear",
+        "distance_mm": 0.0099999999999709
+      },
+      {
+        "first": "cassette_pivot_L",
+        "second": "bearing_pivot_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_L",
+        "second": "cassette_bolt_pivot_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_L",
+        "second": "cassette_bolt_pivot_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_L",
+        "second": "cassette_bolt_pivot_L2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_L",
+        "second": "cassette_bolt_pivot_L3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_pivot_L",
+        "second": "pivot_stub_-1",
+        "distance_mm": 0.009999999999970621
+      },
+      {
+        "first": "cassette_bolt_pivot_L0",
+        "second": "frame_cheek_-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "stop_mount_L0",
+        "second": "collar_middle-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "stop_mount_L0",
+        "second": "pulley_middle",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "stop_mount_L1",
+        "second": "floating_stop_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_stop_L1",
+        "second": "pickup_upper_belt",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "cassette_kick_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "cassette_middle_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "cassette_rear_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "cassette_pivot_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "floating_stop_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_crossmember_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "crossmember_plug_0_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "crossmember_bolt_0_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "crossmember_plug_1_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "crossmember_bolt_1_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "pickup_drive_X44",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_rail_R",
+        "second": "fold_drive_X44",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_arm_R",
+        "second": "floating_bushing_R",
+        "distance_mm": 0.04999999999997678
+      },
+      {
+        "first": "floating_arm_R",
+        "second": "cassette_front_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_arm_R",
+        "second": "floating_stop_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "floating_journal_R",
+        "second": "floating_bushing_R",
+        "distance_mm": 0.04999999999995678
+      },
+      {
+        "first": "cassette_kick_R",
+        "second": "bearing_kick_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_R",
+        "second": "cassette_bolt_kick_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_R",
+        "second": "cassette_bolt_kick_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_R",
+        "second": "cassette_bolt_kick_R2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_kick_R",
+        "second": "cassette_bolt_kick_R3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_R",
+        "second": "bearing_front_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_R",
+        "second": "cassette_bolt_front_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_R",
+        "second": "cassette_bolt_front_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_R",
+        "second": "cassette_bolt_front_R2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_front_R",
+        "second": "cassette_bolt_front_R3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_front_R",
+        "second": "shaft_front",
+        "distance_mm": 0.00999999999995086
+      },
+      {
+        "first": "cassette_middle_R",
+        "second": "bearing_middle_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_R",
+        "second": "cassette_bolt_middle_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_R",
+        "second": "cassette_bolt_middle_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_R",
+        "second": "cassette_bolt_middle_R2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_middle_R",
+        "second": "cassette_bolt_middle_R3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_middle_R",
+        "second": "stop_mount_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_middle_R",
+        "second": "stop_mount_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "bearing_rear_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "cassette_bolt_rear_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "cassette_bolt_rear_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "cassette_bolt_rear_R2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_rear_R",
+        "second": "cassette_bolt_rear_R3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_rear_R",
+        "second": "collar_rear1",
+        "distance_mm": 0.16915000000005875
+      },
+      {
+        "first": "bearing_rear_R",
+        "second": "pickup_drive_mount",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_rear_R",
+        "second": "pickup_drive_output_bearing",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "bearing_pivot_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "cassette_bolt_pivot_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "cassette_bolt_pivot_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "cassette_bolt_pivot_R2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "cassette_bolt_pivot_R3",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_pivot_R",
+        "second": "fold_drive_motor_screw_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "bearing_pivot_R",
+        "second": "pivot_stub_1",
+        "distance_mm": 0.009999999999966619
+      },
+      {
+        "first": "cassette_bolt_pivot_R0",
+        "second": "frame_cheek_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "cassette_bolt_pivot_R0",
+        "second": "fold_drive_mount",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "stop_mount_R0",
+        "second": "collar_middle1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_kick",
+        "second": "hub_kick-1",
+        "distance_mm": 0.0499999999999837
+      },
+      {
+        "first": "shaft_kick",
+        "second": "collar_kick-1",
+        "distance_mm": 0.0499999999999837
+      },
+      {
+        "first": "shaft_kick",
+        "second": "shaft_end_kick-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_kick",
+        "second": "hub_kick1",
+        "distance_mm": 0.0499999999999837
+      },
+      {
+        "first": "shaft_kick",
+        "second": "collar_kick1",
+        "distance_mm": 0.0499999999999837
+      },
+      {
+        "first": "shaft_kick",
+        "second": "shaft_end_kick1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "core_kick",
+        "second": "sleeve_kick",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "core_kick",
+        "second": "hub_kick-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_0_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_2_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_3_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_4_solid_0",
+        "distance_mm": 2.220446049250313e-14
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_5_solid_0",
+        "distance_mm": 7.105427357601002e-15
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_6_solid_0",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_7_solid_0",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "shaft_front",
+        "second": "star_front_8_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "collar_front-1",
+        "distance_mm": 0.049999999999973045
+      },
+      {
+        "first": "shaft_front",
+        "second": "shaft_end_front-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "collar_front1",
+        "distance_mm": 0.049999999999973045
+      },
+      {
+        "first": "shaft_front",
+        "second": "shaft_end_front1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_front",
+        "second": "pulley_front",
+        "distance_mm": 0.049999999999973045
+      },
+      {
+        "first": "star_front_0_solid_0",
+        "second": "star_front_0_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_0_solid_1",
+        "second": "star_front_0_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_1_solid_0",
+        "second": "star_front_1_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_1_solid_1",
+        "second": "star_front_1_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_2_solid_0",
+        "second": "star_front_2_solid_2",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "star_front_2_solid_1",
+        "second": "star_front_2_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_3_solid_0",
+        "second": "star_front_3_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_3_solid_1",
+        "second": "star_front_3_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_4_solid_0",
+        "second": "star_front_4_solid_2",
+        "distance_mm": 8.881784197001252e-16
+      },
+      {
+        "first": "star_front_4_solid_1",
+        "second": "star_front_4_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_5_solid_0",
+        "second": "star_front_5_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_5_solid_1",
+        "second": "star_front_5_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_6_solid_0",
+        "second": "star_front_6_solid_2",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "star_front_6_solid_1",
+        "second": "star_front_6_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_7_solid_0",
+        "second": "star_front_7_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_7_solid_1",
+        "second": "star_front_7_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_8_solid_0",
+        "second": "star_front_8_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_front_8_solid_1",
+        "second": "star_front_8_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_0_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_2_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_3_solid_0",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_4_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_5_solid_0",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_6_solid_0",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "shaft_middle",
+        "second": "star_middle_7_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "shaft_end_middle-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_middle",
+        "second": "shaft_end_middle1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_0_solid_0",
+        "second": "star_middle_0_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_0_solid_1",
+        "second": "star_middle_0_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_1_solid_0",
+        "second": "star_middle_1_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_1_solid_1",
+        "second": "star_middle_1_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_2_solid_0",
+        "second": "star_middle_2_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_2_solid_1",
+        "second": "star_middle_2_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_3_solid_0",
+        "second": "star_middle_3_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_3_solid_1",
+        "second": "star_middle_3_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_4_solid_0",
+        "second": "star_middle_4_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_4_solid_1",
+        "second": "star_middle_4_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_5_solid_0",
+        "second": "star_middle_5_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_5_solid_1",
+        "second": "star_middle_5_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_6_solid_0",
+        "second": "star_middle_6_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_6_solid_1",
+        "second": "star_middle_6_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_7_solid_0",
+        "second": "star_middle_7_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_middle_7_solid_1",
+        "second": "star_middle_7_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_rear",
+        "second": "star_rear_0_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_rear",
+        "second": "star_rear_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_rear",
+        "second": "star_rear_2_solid_0",
+        "distance_mm": 2.220446049250313e-14
+      },
+      {
+        "first": "shaft_rear",
+        "second": "star_rear_3_solid_0",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "shaft_rear",
+        "second": "star_rear_4_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_rear",
+        "second": "collar_rear-1",
+        "distance_mm": 0.0499999999999685
+      },
+      {
+        "first": "shaft_rear",
+        "second": "shaft_end_rear-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_rear",
+        "second": "shaft_end_rear1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "shaft_rear",
+        "second": "pulley_rear",
+        "distance_mm": 0.0499999999999685
+      },
+      {
+        "first": "shaft_rear",
+        "second": "pickup_drive_60T",
+        "distance_mm": 0.038099999999972906
+      },
+      {
+        "first": "shaft_rear",
+        "second": "pickup_drive_output_spacer",
+        "distance_mm": 0.0499999999999685
+      },
+      {
+        "first": "star_rear_0_solid_0",
+        "second": "star_rear_0_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_rear_0_solid_1",
+        "second": "star_rear_0_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_rear_1_solid_0",
+        "second": "star_rear_1_solid_2",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "star_rear_1_solid_1",
+        "second": "star_rear_1_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_rear_2_solid_0",
+        "second": "star_rear_2_solid_2",
+        "distance_mm": 8.881784197001252e-16
+      },
+      {
+        "first": "star_rear_2_solid_1",
+        "second": "star_rear_2_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_rear_3_solid_0",
+        "second": "star_rear_3_solid_2",
+        "distance_mm": 1.4210854715202004e-14
+      },
+      {
+        "first": "star_rear_3_solid_1",
+        "second": "star_rear_3_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_rear_4_solid_0",
+        "second": "star_rear_4_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "star_rear_4_solid_1",
+        "second": "star_rear_4_solid_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "pickup_drive_motor_screw_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "pickup_drive_motor_screw_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_drive_mount",
+        "second": "pickup_drive_motor_screw_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "pickup_drive_12T",
+        "distance_mm": 5.684341886080802e-14
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "pickup_drive_pinion_spacer",
+        "distance_mm": 0.1279552199999664
+      },
+      {
+        "first": "pickup_drive_X44",
+        "second": "pickup_drive_pinion_retention",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_-1",
+        "second": "frame_pivot_bearing_-1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_-1",
+        "second": "frame_mount_-10",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_-1",
+        "second": "frame_mount_-11",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_1",
+        "second": "frame_pivot_bearing_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_1",
+        "second": "frame_mount_10",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_1",
+        "second": "frame_mount_11",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_1",
+        "second": "fold_drive_output_bearing",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_1",
+        "second": "fold_drive_motor_screw_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "frame_cheek_1",
+        "second": "fold_drive_motor_screw_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "fold_drive_60T",
+        "distance_mm": 0.03809999999997428
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "fold_drive_output_spacer",
+        "distance_mm": 0.04999999999996887
+      },
+      {
+        "first": "pivot_stub_1",
+        "second": "fold_drive_output_end",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "fold_drive_X44",
+        "second": "fold_drive_12T",
+        "distance_mm": 5.684341886080802e-14
+      },
+      {
+        "first": "fold_drive_X44",
+        "second": "fold_drive_pinion_spacer",
+        "distance_mm": 0.1279552199999561
+      },
+      {
+        "first": "fold_drive_X44",
+        "second": "fold_drive_pinion_retention",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "indexer_post_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "indexer_post_L1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "indexer_L0_lower",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "indexer_L1_lower",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "indexer_L2_lower",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "dock_crossbar_245",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_114",
+        "second": "tray_dock_screw_-65_245",
+        "distance_mm": 0.14650081108460133
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "indexer_post_L0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "post_plug_L0_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "post_bolt_L0_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "post_plug_L1_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "post_bolt_L1_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "indexer_L0_upper",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "indexer_L1_upper",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_L_247",
+        "second": "indexer_L2_upper",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_post_L0",
+        "second": "post_plug_L0_66",
+        "distance_mm": 0.09999999999999432
+      },
+      {
+        "first": "post_plug_L0_66",
+        "second": "post_bolt_L0_66",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_post_L1",
+        "second": "post_plug_L1_66",
+        "distance_mm": 0.10000000000002274
+      },
+      {
+        "first": "post_plug_L1_66",
+        "second": "post_bolt_L1_66",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_lower",
+        "second": "indexer_L0_shaft",
+        "distance_mm": 0.009999999999985557
+      },
+      {
+        "first": "indexer_L0_lower",
+        "second": "indexer_drive_L_output_spacer_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_wheel_1_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_wheel_2_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_collar124",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_collar271",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_pulley",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_end281",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_L0_end83",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_drive_L_output_bearing",
+        "distance_mm": 0.009999999999985557
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_drive_L_60T",
+        "distance_mm": 0.038099999999980726
+      },
+      {
+        "first": "indexer_L0_shaft",
+        "second": "indexer_drive_L_output_spacer_0",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_L0_wheel_0_solid_0",
+        "second": "indexer_L0_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_wheel_0_solid_0",
+        "second": "indexer_L0_wheel_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L0_wheel_1_solid_0",
+        "second": "indexer_L0_wheel_2_solid_0",
+        "distance_mm": 2.842170943040401e-14
+      },
+      {
+        "first": "indexer_L0_pulley",
+        "second": "indexer_belt_L",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_lower",
+        "second": "indexer_L1_shaft",
+        "distance_mm": 0.009999999999989686
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_wheel_1_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_wheel_2_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_collar124",
+        "distance_mm": 0.049999999999999566
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_collar271",
+        "distance_mm": 0.049999999999999566
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_pulley",
+        "distance_mm": 0.049999999999999566
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_end281",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_shaft",
+        "second": "indexer_L1_end83",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_wheel_0_solid_0",
+        "second": "indexer_L1_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_wheel_0_solid_0",
+        "second": "indexer_L1_wheel_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L1_wheel_1_solid_0",
+        "second": "indexer_L1_wheel_2_solid_0",
+        "distance_mm": 2.842170943040401e-14
+      },
+      {
+        "first": "indexer_L2_lower",
+        "second": "indexer_L2_shaft",
+        "distance_mm": 0.009999999999989686
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_wheel_1_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_wheel_2_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_collar124",
+        "distance_mm": 0.049999999999954525
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_collar271",
+        "distance_mm": 0.049999999999954525
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_pulley",
+        "distance_mm": 0.049999999999954525
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_end281",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_shaft",
+        "second": "indexer_L2_end83",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_wheel_0_solid_0",
+        "second": "indexer_L2_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_wheel_0_solid_0",
+        "second": "indexer_L2_wheel_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_L2_wheel_1_solid_0",
+        "second": "indexer_L2_wheel_2_solid_0",
+        "distance_mm": 2.842170943040401e-14
+      },
+      {
+        "first": "indexer_drive_L_mount",
+        "second": "indexer_drive_L_X44",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_L_mount",
+        "second": "indexer_drive_L_output_bearing",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_L_mount",
+        "second": "indexer_drive_L_motor_screw_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_L_mount",
+        "second": "indexer_drive_L_motor_screw_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_L_mount",
+        "second": "indexer_drive_L_motor_screw_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_L_X44",
+        "second": "indexer_drive_L_12T",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_L_X44",
+        "second": "indexer_drive_L_pinion_spacer",
+        "distance_mm": 0.127955219999966
+      },
+      {
+        "first": "indexer_drive_L_X44",
+        "second": "indexer_drive_L_pinion_retention",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "indexer_post_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "indexer_post_R1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "indexer_R0_lower",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "indexer_R1_lower",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "indexer_R2_lower",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "dock_crossbar_245",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_114",
+        "second": "tray_dock_screw_65_245",
+        "distance_mm": 0.14650081108459684
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "indexer_post_R0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "post_plug_R0_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "post_bolt_R0_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "post_plug_R1_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "post_bolt_R1_250",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "indexer_R0_upper",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "indexer_R1_upper",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_plate_R_247",
+        "second": "indexer_R2_upper",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_post_R0",
+        "second": "post_plug_R0_66",
+        "distance_mm": 0.09999999999999432
+      },
+      {
+        "first": "post_plug_R0_66",
+        "second": "post_bolt_R0_66",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_post_R1",
+        "second": "post_plug_R1_66",
+        "distance_mm": 0.10000000000002274
+      },
+      {
+        "first": "post_plug_R1_66",
+        "second": "post_bolt_R1_66",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_lower",
+        "second": "indexer_R0_shaft",
+        "distance_mm": 0.009999999999985557
+      },
+      {
+        "first": "indexer_R0_lower",
+        "second": "indexer_drive_R_output_spacer_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_wheel_1_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_wheel_2_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_collar124",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_collar271",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_pulley",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_end281",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_R0_end83",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_drive_R_output_bearing",
+        "distance_mm": 0.009999999999985557
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_drive_R_60T",
+        "distance_mm": 0.038099999999980726
+      },
+      {
+        "first": "indexer_R0_shaft",
+        "second": "indexer_drive_R_output_spacer_0",
+        "distance_mm": 0.04999999999999454
+      },
+      {
+        "first": "indexer_R0_wheel_0_solid_0",
+        "second": "indexer_R0_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_wheel_0_solid_0",
+        "second": "indexer_R0_wheel_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R0_wheel_1_solid_0",
+        "second": "indexer_R0_wheel_2_solid_0",
+        "distance_mm": 2.842170943040401e-14
+      },
+      {
+        "first": "indexer_R0_pulley",
+        "second": "indexer_belt_R",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_lower",
+        "second": "indexer_R1_shaft",
+        "distance_mm": 0.009999999999989686
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_wheel_1_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_wheel_2_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_collar124",
+        "distance_mm": 0.049999999999999566
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_collar271",
+        "distance_mm": 0.049999999999999566
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_pulley",
+        "distance_mm": 0.049999999999999566
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_end281",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_shaft",
+        "second": "indexer_R1_end83",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_wheel_0_solid_0",
+        "second": "indexer_R1_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_wheel_0_solid_0",
+        "second": "indexer_R1_wheel_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R1_wheel_1_solid_0",
+        "second": "indexer_R1_wheel_2_solid_0",
+        "distance_mm": 2.842170943040401e-14
+      },
+      {
+        "first": "indexer_R2_lower",
+        "second": "indexer_R2_shaft",
+        "distance_mm": 0.009999999999989686
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_wheel_1_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_wheel_2_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_collar124",
+        "distance_mm": 0.049999999999954525
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_collar271",
+        "distance_mm": 0.049999999999954525
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_pulley",
+        "distance_mm": 0.049999999999954525
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_end281",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_shaft",
+        "second": "indexer_R2_end83",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_wheel_0_solid_0",
+        "second": "indexer_R2_wheel_0_solid_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_wheel_0_solid_0",
+        "second": "indexer_R2_wheel_1_solid_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_R2_wheel_1_solid_0",
+        "second": "indexer_R2_wheel_2_solid_0",
+        "distance_mm": 2.842170943040401e-14
+      },
+      {
+        "first": "indexer_drive_R_mount",
+        "second": "indexer_drive_R_X44",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_R_mount",
+        "second": "indexer_drive_R_output_bearing",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_R_mount",
+        "second": "indexer_drive_R_motor_screw_0",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_R_mount",
+        "second": "indexer_drive_R_motor_screw_1",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_R_mount",
+        "second": "indexer_drive_R_motor_screw_2",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_R_X44",
+        "second": "indexer_drive_R_12T",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "indexer_drive_R_X44",
+        "second": "indexer_drive_R_pinion_spacer",
+        "distance_mm": 0.127955219999966
+      },
+      {
+        "first": "indexer_drive_R_X44",
+        "second": "indexer_drive_R_pinion_retention",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_spacer_-65_245",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_dock_screw_-65_245",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_spacer_65_245",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_spacer_-65_525",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_dock_screw_-65_525",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_spacer_65_525",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "tray_dock_screw_65_525",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "coral_stop",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "presence_sensor_tab",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "detachable_tray",
+        "second": "sensor_mount_seated",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "dock_crossbar_525",
+        "second": "tray_spacer_-65_525",
+        "distance_mm": 0.0
+      },
+      {
+        "first": "presence_sensor_tab",
+        "second": "sensor_mount_presence",
+        "distance_mm": 0.0
+      }
+    ],
+    "meaning": "Necessary contact adjacency only. Interpenetration can connect invalid assemblies; this is NOT proof of fastening, load path or joint retention."
+  },
+  "piece_checks": {
+    "poses": [
+      {
+        "pose": "floor_pickup_witness",
+        "center_mm": [
+          0,
+          -224,
+          57.15
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "full_length_mm": 301.625,
+        "hard_clearance_pass": true,
+        "hard_collisions": [],
+        "compliant_intersections": [
+          {
+            "part": "star_front_1_solid_2",
+            "overlap_mm3": 82.99041668893051,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_front_2_solid_2",
+            "overlap_mm3": 82.99041668893491,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_front_3_solid_2",
+            "overlap_mm3": 82.99041668892869,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_front_4_solid_2",
+            "overlap_mm3": 82.99041668893044,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_front_5_solid_2",
+            "overlap_mm3": 82.99041668893396,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_front_6_solid_2",
+            "overlap_mm3": 82.99041668893324,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_front_7_solid_2",
+            "overlap_mm3": 82.99041668893092,
+            "role": "compliant_contact"
+          }
+        ],
+        "compliance_status": "measured unloaded overlap, NOT accepted compression without material/load test"
+      },
+      {
+        "pose": "bumper_crest_witness",
+        "center_mm": [
+          0,
+          -42.5,
+          226.15
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "full_length_mm": 301.625,
+        "hard_clearance_pass": true,
+        "hard_collisions": [],
+        "compliant_intersections": [
+          {
+            "part": "star_middle_1_solid_2",
+            "overlap_mm3": 687.2056833237957,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_middle_2_solid_2",
+            "overlap_mm3": 687.2056833219094,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_middle_3_solid_2",
+            "overlap_mm3": 687.2056833219003,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_middle_4_solid_2",
+            "overlap_mm3": 687.2056833219189,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_middle_5_solid_2",
+            "overlap_mm3": 687.2056833218869,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_middle_6_solid_2",
+            "overlap_mm3": 687.2056833218669,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_rear_1_solid_2",
+            "overlap_mm3": 2316.9770489907924,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_rear_2_solid_2",
+            "overlap_mm3": 2316.9770489908306,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "star_rear_3_solid_2",
+            "overlap_mm3": 2316.9770489908337,
+            "role": "compliant_contact"
+          }
+        ],
+        "compliance_status": "measured unloaded overlap, NOT accepted compression without material/load test"
+      },
+      {
+        "pose": "seated_offer",
+        "center_mm": [
+          0,
+          385,
+          191
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "full_length_mm": 301.625,
+        "hard_clearance_pass": true,
+        "hard_collisions": [],
+        "compliant_intersections": [
+          {
+            "part": "indexer_L2_wheel_0_solid_0",
+            "overlap_mm3": 54.875007667532394,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "indexer_L2_wheel_1_solid_0",
+            "overlap_mm3": 1186.7206919477135,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "indexer_L2_wheel_2_solid_0",
+            "overlap_mm3": 54.87499597338221,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "indexer_R2_wheel_0_solid_0",
+            "overlap_mm3": 54.875002403985974,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "indexer_R2_wheel_1_solid_0",
+            "overlap_mm3": 1186.7205470756753,
+            "role": "compliant_contact"
+          },
+          {
+            "part": "indexer_R2_wheel_2_solid_0",
+            "overlap_mm3": 54.87498819150149,
+            "role": "compliant_contact"
+          }
+        ],
+        "compliance_status": "measured unloaded overlap, NOT accepted compression without material/load test"
+      }
+    ],
+    "hard_clearance_pass": true,
+    "final_bounds_mm": [
+      -57.15,
+      234.1875,
+      133.85,
+      57.15,
+      535.8125,
+      248.15
+    ],
+    "continuous_feed_and_orientation": "UNPROVEN; discrete witnesses do not prove guided contact, shaft clearance between witnesses, or turning the full-length tube"
+  },
+  "receiver": {
+    "pass": true,
+    "poses": [
+      {
+        "fold_degrees": 0,
+        "pass": true,
+        "clashes": []
+      },
+      {
+        "fold_degrees": -120,
+        "pass": true,
+        "clashes": []
+      }
+    ],
+    "scope": "actual x+-130/y370..510/z250..1100 reference keepout, not a scoring arm",
+    "removal_path_proven": false
+  },
+  "motion": {
+    "sample_count": 21,
+    "step_degrees": 20,
+    "pass": false,
+    "samples": [
+      {
+        "fold_degrees": 0,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 5.0,
+        "maximum_extension_mm": 384.0,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": 0,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 5.0,
+        "maximum_extension_mm": 384.0,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": 0,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 5.0,
+        "maximum_extension_mm": 384.0,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 96.2663702706366,
+        "maximum_extension_mm": 413.05120482077245,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 96.2663702706366,
+        "maximum_extension_mm": 413.05120482077245,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -20,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 96.2663702706366,
+        "maximum_extension_mm": 413.05120482077245,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 207.88450652979088,
+        "maximum_extension_mm": 403.1156167130755,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 207.88450652979088,
+        "maximum_extension_mm": 403.1156167130755,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -40,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 207.88450652979088,
+        "maximum_extension_mm": 403.1156167130755,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 335.39161423636097,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 335.39161423636097,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -60,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 335.39161423636097,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 218.04771158914735,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 218.04771158914735,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -80,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 218.04771158914735,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 107.67376851878251,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 107.67376851878251,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -100,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 231.0,
+        "maximum_extension_mm": 107.67376851878251,
+        "pass": true,
+        "failures": []
+      },
+      {
+        "fold_degrees": -120,
+        "floating_degrees": -8,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 4.666604983954109,
+        "pass": false,
+        "failures": [
+          {
+            "part": "cassette_kick_L",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              -299.0,
+              -4.666604983954109,
+              557.391614236361,
+              -293.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          },
+          {
+            "part": "cassette_kick_R",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              293.0,
+              -4.666604983954109,
+              557.391614236361,
+              299.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          }
+        ]
+      },
+      {
+        "fold_degrees": -120,
+        "floating_degrees": -4,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 4.666604983954109,
+        "pass": false,
+        "failures": [
+          {
+            "part": "cassette_kick_L",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              -299.0,
+              -4.666604983954109,
+              557.391614236361,
+              -293.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          },
+          {
+            "part": "cassette_kick_R",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              293.0,
+              -4.666604983954109,
+              557.391614236361,
+              299.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          }
+        ]
+      },
+      {
+        "fold_degrees": -120,
+        "floating_degrees": 0,
+        "minimum_floor_mm": 225.38526329025126,
+        "maximum_extension_mm": 4.666604983954109,
+        "pass": false,
+        "failures": [
+          {
+            "part": "cassette_kick_L",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              -299.0,
+              -4.666604983954109,
+              557.391614236361,
+              -293.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          },
+          {
+            "part": "cassette_kick_R",
+            "obstacle": "stow envelope",
+            "bounds_mm": [
+              293.0,
+              -4.666604983954109,
+              557.391614236361,
+              299.0,
+              74.56286843554332,
+              636.6210876558584
+            ]
+          }
+        ]
+      }
+    ],
+    "continuous_clearance_proven": false,
+    "held_piece_fold": "prohibited: reverse-clear pickup before fold; final coral tested separately"
+  },
+  "missing_required": [
+    {
+      "id": "star_axial_retention",
+      "reason": "Authentic 9/8/5 star rows require qualified inter-wheel spacing sleeves and axial capture"
+    },
+    {
+      "id": "kick_reversal",
+      "reason": "Kick needs opposite rotation to upper rollers; dedicated reversal and its closed drive remain unresolved, not silently same-sense powered"
+    },
+    {
+      "id": "sensors",
+      "reason": "Two distinct presence/seated interfaces; LaserCAN dimensions/pattern and line-of-sight unverified"
+    }
+  ],
+  "drawing_policy": "Only locally valid flat-part inspection sheets and cut profiles may be emitted; conspicuous NOT RELEASED while any assembly/safety gate remains unresolved."
+}

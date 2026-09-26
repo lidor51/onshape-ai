@@ -1,0 +1,1282 @@
+{
+ "frames": {
+  "762": "30 x 28 in (SF1-SF4)",
+  "863.6": "34 x 26 in"
+ },
+ "heightBudget": [
+  {
+   "goal": "GOAL 1 (18 in rim)",
+   "rim": 457.2,
+   "limit": 1219.1999999999998,
+   "rule": "G416: GOAL 1 sits inside the opponent LAUNCH ZONE",
+   "cubes": 3,
+   "fourCubeTop": 1436.6
+  },
+  {
+   "goal": "GOAL 2 near (38 in rim)",
+   "rim": 965.1999999999999,
+   "limit": 1981.1999999999998,
+   "rule": "R106",
+   "cubes": 4,
+   "fourCubeTop": 1944.6
+  },
+  {
+   "goal": "GOAL 3 (60 in rim, blue half)",
+   "rim": 1524,
+   "limit": 1981.1999999999998,
+   "rule": "R106",
+   "cubes": 1,
+   "fourCubeTop": 2503.4
+  }
+ ],
+ "leveledArm": {
+  "pivot": [
+   124.66528084569264,
+   751.1999999999999
+  ],
+  "radius": 691.9870068670072,
+  "stowBottom": [
+   293,
+   80
+  ],
+  "stowTop": 1030,
+  "loadBottomInsideFrame": 67.43180450160298
+ },
+ "rigidArm": [
+  {
+   "L": 762,
+   "legalStarts": 0,
+   "bestStow": {
+    "violation": -41.99999999999977,
+    "pivot": [
+     249,
+     1010
+    ],
+    "rotation": -180
+   },
+   "bestLegalSwing": null
+  },
+  {
+   "L": 863.6,
+   "legalStarts": 0,
+   "bestStow": {
+    "violation": -41.99999999999977,
+    "pivot": [
+     258.2,
+     1010
+    ],
+    "rotation": -180
+   },
+   "bestLegalSwing": null
+  }
+ ],
+ "wristArm": [
+  {
+   "L": 762,
+   "spare": 30,
+   "count": 0,
+   "rejected": {
+    "cycle": 2079,
+    "stow": 45,
+    "closest": {
+     "violation": 0,
+     "loadAxis": 90,
+     "pivot": [
+      -51,
+      1000
+     ],
+     "along": 50
+    }
+   },
+   "byLoad": {
+    "90": {
+     "count": 0,
+     "range": null,
+     "leastMotion": null,
+     "highestPivot": null
+    },
+    "110": {
+     "count": 0,
+     "range": null,
+     "leastMotion": null,
+     "highestPivot": null
+    },
+    "130": {
+     "count": 0,
+     "range": null,
+     "leastMotion": null,
+     "highestPivot": null
+    }
+   }
+  },
+  {
+   "L": 863.6,
+   "spare": 30,
+   "count": 17,
+   "rejected": {
+    "cycle": 2073,
+    "stow": 26,
+    "closest": {
+     "violation": 0,
+     "loadAxis": 90,
+     "pivot": [
+      -1.8000000000000114,
+      1000
+     ],
+     "along": 50
+    }
+   },
+   "byLoad": {
+    "90": {
+     "count": 6,
+     "range": {
+      "pivotX": [
+       -41.80000000000001,
+       -11.800000000000011
+      ],
+      "pivotZ": [
+       1010,
+       1020
+      ],
+      "arm": [
+       682,
+       712
+      ],
+      "wristAlong": [
+       50,
+       50
+      ]
+     },
+     "leastMotion": {
+      "loadAxis": 90,
+      "pivot": [
+       -41.80000000000001,
+       1020
+      ],
+      "radius": 712,
+      "wristAlong": 50,
+      "shoulder": {
+       "load": -60,
+       "drop": 3,
+       "stow": -116
+      },
+      "stowAxis": 50,
+      "shoulderTravel": 62,
+      "wristTravel": 62,
+      "cycleMargin": 1,
+      "startPathMargin": 144.1
+     },
+     "highestPivot": {
+      "loadAxis": 90,
+      "pivot": [
+       -41.80000000000001,
+       1020
+      ],
+      "radius": 712,
+      "wristAlong": 50,
+      "shoulder": {
+       "load": -60,
+       "drop": 3,
+       "stow": -116
+      },
+      "stowAxis": 50,
+      "shoulderTravel": 62,
+      "wristTravel": 62,
+      "cycleMargin": 1,
+      "startPathMargin": 144.1
+     }
+    },
+    "110": {
+     "count": 11,
+     "range": {
+      "pivotX": [
+       -111.80000000000001,
+       -51.80000000000001
+      ],
+      "pivotZ": [
+       1010,
+       1020
+      ],
+      "arm": [
+       722,
+       782
+      ],
+      "wristAlong": [
+       50,
+       50
+      ]
+     },
+     "leastMotion": {
+      "loadAxis": 110,
+      "pivot": [
+       -111.80000000000001,
+       1020
+      ],
+      "radius": 782,
+      "wristAlong": 50,
+      "shoulder": {
+       "load": -58,
+       "drop": 3,
+       "stow": -110
+      },
+      "stowAxis": 60,
+      "shoulderTravel": 60,
+      "wristTravel": 80,
+      "cycleMargin": 1.1,
+      "startPathMargin": 74.4
+     },
+     "highestPivot": {
+      "loadAxis": 110,
+      "pivot": [
+       -111.80000000000001,
+       1020
+      ],
+      "radius": 782,
+      "wristAlong": 50,
+      "shoulder": {
+       "load": -58,
+       "drop": 3,
+       "stow": -110
+      },
+      "stowAxis": 60,
+      "shoulderTravel": 60,
+      "wristTravel": 80,
+      "cycleMargin": 1.1,
+      "startPathMargin": 74.4
+     }
+    },
+    "130": {
+     "count": 0,
+     "range": null,
+     "leastMotion": null,
+     "highestPivot": null
+    }
+   }
+  }
+ ],
+ "rampLift": [
+  {
+   "L": 762,
+   "count": 49,
+   "byStages": {
+    "1": 3,
+    "2": 41,
+    "3": 1,
+    "4": 1
+   },
+   "rejected": {
+    "direction": 0,
+    "cycle": 0,
+    "stow": 183,
+    "startSweep": 0
+   },
+   "best": {
+    "pivotOnTray": {
+     "along": 800,
+     "across": 0
+    },
+    "betaFromVertical": 15.3,
+    "carriageTravel": 800,
+    "stage0Length": 975,
+    "movingStages": 1,
+    "pivotLoad": [
+     -109,
+     979
+    ],
+    "pivotG3": [
+     83,
+     1678
+    ],
+    "stow": {
+     "s": -75,
+     "axis": 86
+    },
+    "cycleMargin": 1.9
+   },
+   "next": [
+    {
+     "pivotOnTray": {
+      "along": 775,
+      "across": 0
+     },
+     "betaFromVertical": 15.6,
+     "carriageTravel": 830,
+     "stage0Length": 976,
+     "movingStages": 1,
+     "pivotLoad": [
+      -93,
+      960
+     ],
+     "pivotG3": [
+      108,
+      1678
+     ],
+     "stow": {
+      "s": -84,
+      "axis": 86
+     },
+     "cycleMargin": 1.9
+    },
+    {
+     "pivotOnTray": {
+      "along": 750,
+      "across": 0
+     },
+     "betaFromVertical": 15.9,
+     "carriageTravel": 860,
+     "stage0Length": 977,
+     "movingStages": 1,
+     "pivotLoad": [
+      -77,
+      941
+     ],
+     "pivotG3": [
+      133,
+      1678
+     ],
+     "stow": {
+      "s": -93,
+      "axis": 84
+     },
+     "cycleMargin": 1.9
+    },
+    {
+     "pivotOnTray": {
+      "along": 900,
+      "across": 0
+     },
+     "betaFromVertical": 14.1,
+     "carriageTravel": 720,
+     "stage0Length": 714,
+     "movingStages": 2,
+     "pivotLoad": [
+      -174,
+      1055
+     ],
+     "pivotG3": [
+      -17,
+      1678
+     ],
+     "stow": {
+      "s": -78,
+      "axis": 88
+     },
+     "cycleMargin": 1.9
+    },
+    {
+     "pivotOnTray": {
+      "along": 875,
+      "across": 0
+     },
+     "betaFromVertical": 14.4,
+     "carriageTravel": 730,
+     "stage0Length": 781,
+     "movingStages": 2,
+     "pivotLoad": [
+      -157,
+      1036
+     ],
+     "pivotG3": [
+      8,
+      1678
+     ],
+     "stow": {
+      "s": -67,
+      "axis": 86
+     },
+     "cycleMargin": 1.9
+    }
+   ]
+  },
+  {
+   "L": 863.6,
+   "count": 67,
+   "byStages": {
+    "1": 11,
+    "2": 55,
+    "3": 1,
+    "4": 0
+   },
+   "rejected": {
+    "direction": 0,
+    "cycle": 0,
+    "stow": 165,
+    "startSweep": 0
+   },
+   "best": {
+    "pivotOnTray": {
+     "along": 900,
+     "across": 0
+    },
+    "betaFromVertical": 14.1,
+    "carriageTravel": 720,
+    "stage0Length": 969,
+    "movingStages": 1,
+    "pivotLoad": [
+     -123,
+     1055
+    ],
+    "pivotG3": [
+     33,
+     1678
+    ],
+    "stow": {
+     "s": -78,
+     "axis": 88
+    },
+    "cycleMargin": 1.9
+   },
+   "next": [
+    {
+     "pivotOnTray": {
+      "along": 750,
+      "across": -134
+     },
+     "betaFromVertical": 24.3,
+     "carriageTravel": 730,
+     "stage0Length": 866,
+     "movingStages": 1,
+     "pivotLoad": [
+      -129,
+      854
+     ],
+     "pivotG3": [
+      183,
+      1544
+     ],
+     "stow": {
+      "s": 27,
+      "axis": 64
+     },
+     "cycleMargin": 1.9
+    },
+    {
+     "pivotOnTray": {
+      "along": 875,
+      "across": 0
+     },
+     "betaFromVertical": 14.4,
+     "carriageTravel": 730,
+     "stage0Length": 971,
+     "movingStages": 1,
+     "pivotLoad": [
+      -106,
+      1036
+     ],
+     "pivotG3": [
+      58,
+      1678
+     ],
+     "stow": {
+      "s": -67,
+      "axis": 82
+     },
+     "cycleMargin": 1.9
+    },
+    {
+     "pivotOnTray": {
+      "along": 850,
+      "across": 0
+     },
+     "betaFromVertical": 14.7,
+     "carriageTravel": 740,
+     "stage0Length": 972,
+     "movingStages": 1,
+     "pivotLoad": [
+      -90,
+      1017
+     ],
+     "pivotG3": [
+      83,
+      1678
+     ],
+     "stow": {
+      "s": -56,
+      "axis": 90
+     },
+     "cycleMargin": 1.9
+    },
+    {
+     "pivotOnTray": {
+      "along": 725,
+      "across": -134
+     },
+     "betaFromVertical": 24.4,
+     "carriageTravel": 750,
+     "stage0Length": 926,
+     "movingStages": 1,
+     "pivotLoad": [
+      -113,
+      835
+     ],
+     "pivotG3": [
+      208,
+      1544
+     ],
+     "stow": {
+      "s": 28,
+      "axis": 62
+     },
+     "cycleMargin": 1.9
+    }
+   ]
+  }
+ ],
+ "singlePivot": [
+  {
+   "L": 762,
+   "trayLevel": [
+    {
+     "loadAxis": 80,
+     "swing": 100,
+     "pivot": [
+      328,
+      943
+     ],
+     "inRobot": true,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 90,
+     "swing": 90,
+     "pivot": [
+      267,
+      982
+     ],
+     "inRobot": true,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 100,
+     "swing": 80,
+     "pivot": [
+      195,
+      1027
+     ],
+     "inRobot": true,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 110,
+     "swing": 70,
+     "pivot": [
+      106,
+      1084
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 120,
+     "swing": 60,
+     "pivot": [
+      -9,
+      1156
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 130,
+     "swing": 50,
+     "pivot": [
+      -164,
+      1255
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 140,
+     "swing": 40,
+     "pivot": [
+      -391,
+      1399
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    }
+   ],
+   "columnDrop": [
+    {
+     "loadAxis": 80,
+     "swing": 10,
+     "pivot": [
+      -3066,
+      2762
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 90,
+     "pivot": null,
+     "verdict": "pure translation: no pivot exists"
+    },
+    {
+     "loadAxis": 100,
+     "swing": -10,
+     "pivot": [
+      4240,
+      -1391
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 110,
+     "swing": -20,
+     "pivot": [
+      2399,
+      -345
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 120,
+     "swing": -30,
+     "pivot": [
+      1779,
+      8
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 130,
+     "swing": -40,
+     "pivot": [
+      1465,
+      186
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 140,
+     "swing": -50,
+     "pivot": [
+      1272,
+      296
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    }
+   ]
+  },
+  {
+   "L": 863.6,
+   "trayLevel": [
+    {
+     "loadAxis": 80,
+     "swing": 100,
+     "pivot": [
+      379,
+      943
+     ],
+     "inRobot": true,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 90,
+     "swing": 90,
+     "pivot": [
+      318,
+      981
+     ],
+     "inRobot": true,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 100,
+     "swing": 80,
+     "pivot": [
+      246,
+      1027
+     ],
+     "inRobot": true,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 110,
+     "swing": 70,
+     "pivot": [
+      157,
+      1084
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 120,
+     "swing": 60,
+     "pivot": [
+      42,
+      1156
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 130,
+     "swing": 50,
+     "pivot": [
+      -113,
+      1255
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 140,
+     "swing": 40,
+     "pivot": [
+      -340,
+      1399
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    }
+   ],
+   "columnDrop": [
+    {
+     "loadAxis": 80,
+     "swing": 10,
+     "pivot": [
+      -3015,
+      2761
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 90,
+     "pivot": null,
+     "verdict": "pure translation: no pivot exists"
+    },
+    {
+     "loadAxis": 100,
+     "swing": -10,
+     "pivot": [
+      4291,
+      -1390
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 110,
+     "swing": -20,
+     "pivot": [
+      2450,
+      -344
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 120,
+     "swing": -30,
+     "pivot": [
+      1830,
+      8
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 130,
+     "swing": -40,
+     "pivot": [
+      1516,
+      187
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    },
+    {
+     "loadAxis": 140,
+     "swing": -50,
+     "pivot": [
+      1323,
+      296
+     ],
+     "inRobot": false,
+     "legalStartAngles": 0
+    }
+   ]
+  }
+ ],
+ "fourBarTray": [
+  {
+   "L": 762,
+   "startPoses": 190,
+   "pairsTested": 364594,
+   "rejected": {
+    "toggle": 121082,
+    "jump": 15441,
+    "loadBranch": 49066,
+    "goalBranch": 41875,
+    "envelope": 19619
+   },
+   "count": 117511,
+   "hangCompatible": 559,
+   "best": {
+    "start": {
+     "front": [
+      -171,
+      100
+     ],
+     "axis": 86
+    },
+    "linkA": {
+     "ground": [
+      267,
+      924
+     ],
+     "coupler": [
+      775,
+      75
+     ],
+     "length": 314
+    },
+    "linkB": {
+     "ground": [
+      56,
+      841
+     ],
+     "coupler": [
+      800,
+      -50
+     ],
+     "length": 230
+    },
+    "crankSweep": 70,
+    "loadAtCrank": 26,
+    "pathMargin": 2,
+    "shot": {
+     "crank": 49,
+     "alpha": 35,
+     "release": [
+      -225,
+      1203
+     ]
+    }
+   },
+   "bestHang": {
+    "start": {
+     "front": [
+      -131,
+      80
+     ],
+     "axis": 90
+    },
+    "linkA": {
+     "ground": [
+      333,
+      672
+     ],
+     "coupler": [
+      750,
+      0
+     ],
+     "length": 490
+    },
+    "linkB": {
+     "ground": [
+      29,
+      671
+     ],
+     "coupler": [
+      825,
+      -100
+     ],
+     "length": 350
+    },
+    "crankSweep": 47,
+    "loadAtCrank": 14,
+    "pathMargin": 2,
+    "shot": {
+     "crank": 27,
+     "alpha": 35,
+     "release": [
+      -235,
+      1179
+     ]
+    }
+   },
+   "next": [
+    {
+     "start": {
+      "front": [
+       -211,
+       90
+      ],
+      "axis": 84
+     },
+     "linkA": {
+      "ground": [
+       319,
+       884
+      ],
+      "coupler": [
+       775,
+       75
+      ],
+      "length": 375
+     },
+     "linkB": {
+      "ground": [
+       3,
+       832
+      ],
+      "coupler": [
+       825,
+       -75
+      ],
+      "length": 220
+     },
+     "crankSweep": 61,
+     "loadAtCrank": 24,
+     "pathMargin": 2,
+     "shot": {
+      "crank": 44,
+      "alpha": 35,
+      "release": [
+       -220,
+       1202
+      ]
+     }
+    },
+    {
+     "start": {
+      "front": [
+       -201,
+       100
+      ],
+      "axis": 82
+     },
+     "linkA": {
+      "ground": [
+       309,
+       905
+      ],
+      "coupler": [
+       750,
+       75
+      ],
+      "length": 339
+     },
+     "linkB": {
+      "ground": [
+       84,
+       773
+      ],
+      "coupler": [
+       775,
+       -75
+      ],
+      "length": 272
+     },
+     "crankSweep": 71,
+     "loadAtCrank": 27,
+     "pathMargin": 2,
+     "shot": {
+      "crank": 48,
+      "alpha": 35,
+      "release": [
+       -233,
+       1201
+      ]
+     }
+    },
+    {
+     "start": {
+      "front": [
+       -151,
+       80
+      ],
+      "axis": 88
+     },
+     "linkA": {
+      "ground": [
+       297,
+       901
+      ],
+      "coupler": [
+       775,
+       75
+      ],
+      "length": 349
+     },
+     "linkB": {
+      "ground": [
+       65,
+       826
+      ],
+      "coupler": [
+       800,
+       -50
+      ],
+      "length": 244
+     },
+     "crankSweep": 65,
+     "loadAtCrank": 26,
+     "pathMargin": 2,
+     "shot": {
+      "crank": 46,
+      "alpha": 35,
+      "release": [
+       -224,
+       1200
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "L": 863.6,
+   "startPoses": 402,
+   "pairsTested": 463532,
+   "rejected": {
+    "loadBranch": 64254,
+    "envelope": 22084,
+    "toggle": 138261,
+    "goalBranch": 55906,
+    "jump": 30116
+   },
+   "count": 152911,
+   "hangCompatible": 608,
+   "best": {
+    "start": {
+     "front": [
+      -131.8,
+      90
+     ],
+     "axis": 86
+    },
+    "linkA": {
+     "ground": [
+      363,
+      890
+     ],
+     "coupler": [
+      775,
+      75
+     ],
+     "length": 367
+    },
+    "linkB": {
+     "ground": [
+      56,
+      826
+     ],
+     "coupler": [
+      825,
+      -75
+     ],
+     "length": 224
+    },
+    "crankSweep": 61,
+    "loadAtCrank": 24,
+    "pathMargin": 2,
+    "shot": {
+     "crank": 43,
+     "alpha": 35,
+     "release": [
+      -174,
+      1198
+     ]
+    }
+   },
+   "bestHang": {
+    "start": {
+     "front": [
+      -121.80000000000001,
+      80
+     ],
+     "axis": 92
+    },
+    "linkA": {
+     "ground": [
+      349,
+      675
+     ],
+     "coupler": [
+      825,
+      25
+     ],
+     "length": 528
+    },
+    "linkB": {
+     "ground": [
+      -15,
+      692
+     ],
+     "coupler": [
+      900,
+      -75
+     ],
+     "length": 356
+    },
+    "crankSweep": 37,
+    "loadAtCrank": 14,
+    "pathMargin": 1,
+    "shot": {
+     "crank": 23,
+     "alpha": 35,
+     "release": [
+      -177,
+      1165
+     ]
+    }
+   },
+   "next": [
+    {
+     "start": {
+      "front": [
+       -161.8,
+       100
+      ],
+      "axis": 82
+     },
+     "linkA": {
+      "ground": [
+       400,
+       876
+      ],
+      "coupler": [
+       750,
+       75
+      ],
+      "length": 385
+     },
+     "linkB": {
+      "ground": [
+       162,
+       791
+      ],
+      "coupler": [
+       775,
+       -50
+      ],
+      "length": 279
+     },
+     "crankSweep": 62,
+     "loadAtCrank": 24,
+     "pathMargin": 2,
+     "shot": {
+      "crank": 42,
+      "alpha": 35,
+      "release": [
+       -180,
+       1198
+      ]
+     }
+    },
+    {
+     "start": {
+      "front": [
+       -121.80000000000001,
+       100
+      ],
+      "axis": 86
+     },
+     "linkA": {
+      "ground": [
+       324,
+       920
+      ],
+      "coupler": [
+       775,
+       75
+      ],
+      "length": 321
+     },
+     "linkB": {
+      "ground": [
+       114,
+       830
+      ],
+      "coupler": [
+       800,
+       -50
+      ],
+      "length": 240
+     },
+     "crankSweep": 68,
+     "loadAtCrank": 25,
+     "pathMargin": 2,
+     "shot": {
+      "crank": 47,
+      "alpha": 35,
+      "release": [
+       -177,
+       1198
+      ]
+     }
+    },
+    {
+     "start": {
+      "front": [
+       -121.80000000000001,
+       100
+      ],
+      "axis": 86
+     },
+     "linkA": {
+      "ground": [
+       384,
+       940
+      ],
+      "coupler": [
+       775,
+       100
+      ],
+      "length": 359
+     },
+     "linkB": {
+      "ground": [
+       114,
+       830
+      ],
+      "coupler": [
+       800,
+       -50
+      ],
+      "length": 240
+     },
+     "crankSweep": 63,
+     "loadAtCrank": 25,
+     "pathMargin": 2,
+     "shot": {
+      "crank": 45,
+      "alpha": 35,
+      "release": [
+       -179,
+       1197
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "sf6Goal2": {
+  "neededPivot": [
+   83,
+   1120
+  ],
+  "liftLineXAtThatHeight": -71,
+  "levelShortfall": 153,
+  "bestAnyTilt": {
+   "s": 430,
+   "tilt": 166,
+   "cube": [
+    670,
+    1228
+   ],
+   "offset": 98
+  }
+ }
+}

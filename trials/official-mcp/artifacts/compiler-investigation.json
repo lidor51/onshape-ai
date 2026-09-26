@@ -1,0 +1,78 @@
+{
+  "status": "BLOCKED_AWAITING_PARENT_DECLARATION_PROBE",
+  "rootCause": "UNRESOLVED_SOURCE_SPECIFIC_COMPILATION_OR_DISCOVERY_FAILURE",
+  "conclusion": "The parent-reported minimal success establishes that the helper authenticated, compiled and executed a 3070 feature. The supplied full-source failures contain no syntax diagnostic. Whitespace-only repair did not resolve the issue; no evidence-backed final production repair is available.",
+  "compilerRepairsUsed": 1,
+  "compilerRepairCap": 2,
+  "finalRepair2Produced": false,
+  "productionSourceChanged": false,
+  "productionRedispatchAllowed": false,
+  "parentReportedTestFeatureCalls": 3,
+  "parentReportedProductionFailures": 2,
+  "parentReportedMinimalProbeSuccesses": 1,
+  "parentReportedGeometryTestsRan": false,
+  "observations": {
+    "initialFailure": "trials/official-mcp/artifacts/compile-repair-1.json",
+    "repair1SubmissionFailure": "trials/official-mcp/artifacts/compile-attempt-2.json",
+    "minimalProbeSuccess": "trials/official-mcp/artifacts/compiler-probe-success.json"
+  },
+  "research": [
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/common.fs",
+      "observation": "Re-exports units.fs, valueBounds.fs, feature.fs, query.fs, evaluate.fs and primitives.fs. This is an unpinned public mirror, not live 3070 readback."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/units.fs",
+      "observation": "Exports ValueWithUnits and millimeter."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/vector.fs",
+      "observation": "Exports Vector and vector overloads. Its visibility through common at exact 3070 is tested by the pending probe, not independently compiler-verified here."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/valueBounds.fs",
+      "observation": "Exports LengthBoundSpec and isLength(value, boundSpec is LengthBoundSpec); explicitly documents a single unit-keyed [minimum, default, maximum] map. The original millimeter maps fit this documented form."
+    },
+    {
+      "url": "https://cad.onshape.com/FsDoc/top-level.html",
+      "observation": "Documents typed returns and private top-level functions/constants. No ban on multiple exports or requirement that a defineFeature-valued constant be exported is established by this page. Actual private-feature/tool-discovery behavior remains a probe question."
+    },
+    {
+      "url": "https://cad.onshape.com/FsDoc/tokens.html",
+      "observation": "Newline, tab and carriage return are whitespace. The listed reserved keywords do not include makeBox, makeCylinder, labelPart or officialIntakeNear. This is not proof that no imported symbol has the same name."
+    }
+  ],
+  "probe": {
+    "sourcePath": "trials/official-mcp/artifacts/compiler-declaration-probe.fs",
+    "payloadPath": "trials/official-mcp/artifacts/compiler-declaration-probe.payload.json",
+    "sourceCharacters": 1995,
+    "sourceSha256": "d50ab76dcac912383f5859cf9cc173ba8e3fd54ce2c086d113349a1723115aaf",
+    "tool": "mcp_featurescript_test_feature",
+    "firstFeature": "probe",
+    "successMarker": "OFFICIAL_DECL_OK",
+    "status": "NOT_SUBMITTED",
+    "coverage": "Original makeBox, makeCylinder, labelPart and officialIntakeNear bodies/signatures; original three custom length preconditions/defaults on a private officialIntake; typed map-return helper; qBodyType; two exported defineFeatures before the helper appends its Trojan.",
+    "runtimeLimitations": "Primitive and Near helpers are declared but not invoked. The private feature is invoked with defaults, and constructs an empty-body query. No geometry is created or validated.",
+    "ifPass": "No error notices plus OFFICIAL_DECL_OK excludes a declaration/discovery failure in this subset at the tested version. Inspect the omitted drilledPlate/makeTube bodies, full production body and evidence/assertion functions using actual compiler diagnostics before spending repair #2.",
+    "ifNoFeatures": "The same discovery failure now occurs in this small declaration subset. It excludes omitted model/assertion code as necessary for reproducing this failure, but does not distinguish type visibility, name resolution, precondition metadata, private feature or multiple-feature discovery on its own.",
+    "ifRuntimeError": "Compilation and discovery advanced beyond the original failure. Preserve exact diagnostics; missing success marker or a generic success flag is not a passing probe.",
+    "noAutomaticFollowupCalls": true
+  },
+  "diagnosticEndpoint": {
+    "publicCompileEndpointVerified": false,
+    "requestsMade": 0,
+    "note": "No speculative featurestudios endpoint requests. Existing get_featurescript can recover exact surviving studio source for the parent, but the exposed schema does not promise compiler notices. No notices endpoint is asserted without evidence."
+  },
+  "officialToolCallsByThisContinuation": 0,
+  "authenticatedRequestsByThisContinuation": 0,
+  "delegationUsed": false,
+  "siblingTrialsRead": false,
+  "localValidationIsNotCompilerEvidence": true,
+  "localValidation": {
+    "command": "node --test trials/official-mcp/compiler-probe.test.mjs trials/official-mcp/compiler-evidence.test.mjs trials/official-mcp/compact.test.mjs trials/official-mcp/generate.test.mjs trials/official-mcp/dispatch.test.mjs",
+    "passed": 20,
+    "failed": 0,
+    "onshapeCompilerExecuted": false,
+    "productionSourceHashUnchanged": true
+  }
+}

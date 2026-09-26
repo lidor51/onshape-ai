@@ -1,0 +1,114 @@
+{
+  "asOf": "2026-09-11",
+  "serverName": "onshape-official-featurescript",
+  "endpoint": "https://fs-mcp.labs.onshape.app/mcp",
+  "evidenceKind": "SESSION_EXPOSED_TOOL_DEFINITIONS",
+  "freshToolsListResponse": false,
+  "schemaRepresentation": "Manually transcribed input properties, required fields, defaults, and relevant behavior; not full JSON Schema or a server response",
+  "loader": {
+    "required": "tool_search",
+    "callableInThisSession": false,
+    "searchAttempted": false,
+    "loadedOfficialTools": [],
+    "reason": "The required deferred-tool loader is absent from the callable tool interface. Do not bypass it."
+  },
+  "tools": [
+    {
+      "name": "mcp_featurescript_create_feature_studio",
+      "required": ["did", "wid", "name"],
+      "properties": {"did": "string", "wid": "string", "name": "string", "contents": "string"},
+      "defaults": {"contents": ""},
+      "behavior": "Creates an element in an already identified document workspace, not a public document."
+    },
+    {
+      "name": "mcp_featurescript_create_geometry",
+      "required": ["feature_name", "feature_code"],
+      "properties": {"feature_name": "string", "feature_code": "string", "clean": "boolean"},
+      "defaults": {"clean": true},
+      "behavior": "Creates a new branch from the service-configured document version, writes a Feature Studio, and adds a persistent feature. Does not return FeatureScript code errors.",
+      "mandatoryAuthorizedOverride": {"clean": false},
+      "preconditions": ["Authorized and positively verified sandbox scope", "Prior test_feature compiler diagnostics", "All parameters have defaults in the second defineFeature argument"],
+      "documentSelectorExposed": false,
+      "publicVisibilityFlagExposed": false,
+      "sameWorkspaceRevisionSupportedByThisTool": false
+    },
+    {
+      "name": "mcp_featurescript_edit_featurescript_notes",
+      "required": ["old_text", "new_text"],
+      "properties": {"old_text": "string", "new_text": "string"},
+      "behavior": "Replaces one exact occurrence in service-managed notes."
+    },
+    {
+      "name": "mcp_featurescript_get_api_usage",
+      "required": [],
+      "properties": {},
+      "behavior": "Reports used, limit, remaining, cycle, and allocation metadata; may consume internal Onshape REST calls."
+    },
+    {
+      "name": "mcp_featurescript_get_featurescript",
+      "required": ["did", "wvm", "wvmid", "eid"],
+      "properties": {"did": "string", "wvm": "string: w|v|m", "wvmid": "string", "eid": "string"},
+      "behavior": "Reads source from an identified Feature Studio, not document visibility or persisted body measurements."
+    },
+    {
+      "name": "mcp_featurescript_list_feature_studios",
+      "required": ["did", "wid"],
+      "properties": {"did": "string", "wid": "string"},
+      "behavior": "Lists Feature Studios in an identified workspace."
+    },
+    {
+      "name": "mcp_featurescript_logout",
+      "required": [],
+      "properties": {"confirm": "boolean"},
+      "defaults": {"confirm": false},
+      "behavior": "Signs out only on explicit user request; not authorized or attempted here."
+    },
+    {
+      "name": "mcp_featurescript_put_featurescript",
+      "required": ["did", "wid", "eid", "code"],
+      "properties": {"did": "string", "wid": "string", "eid": "string", "code": "string"},
+      "behavior": "Overwrites an entire Feature Studio. Read existing source first; write finalized code once at the end. Not an exposed Part Studio parameter-edit operation."
+    },
+    {
+      "name": "mcp_featurescript_read_featurescript_notes",
+      "required": [],
+      "properties": {},
+      "behavior": "Required before writing any FeatureScript; reads service-managed notes."
+    },
+    {
+      "name": "mcp_featurescript_search_featurescript_documentation",
+      "required": ["topic"],
+      "properties": {"topic": "string"},
+      "behavior": "Searches FeatureScript documentation, not a guaranteed document-visibility API."
+    },
+    {
+      "name": "mcp_featurescript_set_api_allocation",
+      "required": [],
+      "properties": {"company_id": "string|null"},
+      "defaults": {"company_id": null},
+      "behavior": "Views or changes allocation on explicit user request only; no change authorized here."
+    },
+    {
+      "name": "mcp_featurescript_test_feature",
+      "required": ["code"],
+      "properties": {"code": "string"},
+      "behavior": "Writes a Feature Studio with a no-op helper, adds it to a Part Studio, and evaluates the feature through its namespace. Real compiler diagnostics, not a persistent benchmark result.",
+      "preconditions": ["Established model-write scope", "FeatureScript header and std/common.fs import", "All parameters defaulted in the second defineFeature argument", "Existing version preserved; new code uses empirically detected live version"]
+    },
+    {
+      "name": "mcp_featurescript_test_featurescript",
+      "required": ["code"],
+      "properties": {"code": "string"},
+      "behavior": "Evaluates a context/id lambda in the configured Part Studio. A trivial nonmutating lambda can return libraryVersion. Evaluation-local geometry is not persisted CAD.",
+      "documentSelectorExposed": false,
+      "publicVisibilityFlagExposed": false
+    },
+    {
+      "name": "mcp_featurescript_whoami",
+      "required": [],
+      "properties": {},
+      "behavior": "Account identity and allocation, not document visibility; not called and no personal identifiers retained."
+    }
+  ],
+  "notExplicitlyExposed": ["Public document creation/selection", "Document visibility/provenance readback", "Part Studio parameter update", "Persisted exact-body measurement readback", "Onshape-rendered image export", "STEP export"]
+}

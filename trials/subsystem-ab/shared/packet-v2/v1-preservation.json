@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "freezeSha256": "44535e9050267020e37f4cb738be78f55e46673e342d3f323a1faee39f982851",
+  "artifactCount": 84,
+  "rootSourceCount": 6,
+  "upstream": "Historical upstream hashes retained in v1; upstream and sibling arms not reread"
+}

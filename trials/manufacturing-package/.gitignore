@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/private/
+artifacts/live/
+*.lock
+!requirements.lock

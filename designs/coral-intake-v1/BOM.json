@@ -1,0 +1,578 @@
+[
+  {
+    "part": "pickup_sideplate",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm router plate, paired",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "axle_cassette",
+    "quantity": 10,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate; bore fit provisional",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "floating_arm",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm paired plates; plain pivot, NOT reference four-bar",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "floating_pivot_journal",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "lathe sleeve; central roller shaft rotates independently",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "floating_pivot_bushing",
+    "quantity": 2,
+    "material": "acetal",
+    "stock": "lathe bush, radial clearance 0.1 mm provisional",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "vendor_hex_bearing",
+    "quantity": 28,
+    "material": "vendor mixed materials",
+    "stock": "WCP-0783",
+    "geometry": "authentic_vendor_brep",
+    "source": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M5x16",
+    "quantity": 40,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "stop_mount_0",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate stop outrigger",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M8x40",
+    "quantity": 4,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "stop_mount_1",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate stop outrigger",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "pickup_crossmember",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "20x20x2 mm tube, saw length 470",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "tube_end_plug",
+    "quantity": 12,
+    "material": "6061-T6 provisional",
+    "stock": "15.8 square, M5 tap after drilling 4.2",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M5x20",
+    "quantity": 12,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "pickup_hex_shaft_560",
+    "quantity": 4,
+    "material": "WCP 1/2 inch AF hex aluminum stock, grade unverified",
+    "stock": "AF 12.7 exact, saw 560; M5 end taps",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_core_kick",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_hub_kick",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "router/lathe custom hub, 12.8 AF running clearance; retention pending",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hex_collar",
+    "quantity": 20,
+    "material": "6061-T6 provisional",
+    "stock": "split/set screw retention interface not yet detailed",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M5x12",
+    "quantity": 20,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "compliant_sleeve_kick",
+    "quantity": 1,
+    "material": "custom rubber/foam compound TBD",
+    "stock": "UNLOADED compliant volume; NOT an authentic COTS star",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_core_front",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_hub_front",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "router/lathe custom hub, 12.8 AF running clearance; retention pending",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "compliant_sleeve_front",
+    "quantity": 1,
+    "material": "custom rubber/foam compound TBD",
+    "stock": "UNLOADED compliant volume; NOT an authentic COTS star",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_core_middle",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_hub_middle",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "router/lathe custom hub, 12.8 AF running clearance; retention pending",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "compliant_sleeve_middle",
+    "quantity": 1,
+    "material": "custom rubber/foam compound TBD",
+    "stock": "UNLOADED compliant volume; NOT an authentic COTS star",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_core_rear",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "round aluminum tube, 2 mm wall, sleeve bonded mechanically unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "roller_hub_rear",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "router/lathe custom hub, 12.8 AF running clearance; retention pending",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "compliant_sleeve_rear",
+    "quantity": 1,
+    "material": "custom rubber/foam compound TBD",
+    "stock": "UNLOADED compliant volume; NOT an authentic COTS star",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "round_belt_hex_pulley",
+    "quantity": 9,
+    "material": "6061-T6 provisional",
+    "stock": "custom lathe/router pulley, R18 pitch, 6 mm round belt; grip unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "upper_pickup_belt",
+    "quantity": 1,
+    "material": "6 mm welded polyurethane round belt, supplier TBD",
+    "stock": "neutral-length belt, tensioner travel unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "pickup_drive_mount",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate; pilot and journal finish-machine",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "vendor_x44",
+    "quantity": 4,
+    "material": "vendor mixed materials",
+    "stock": "WCP-0941",
+    "geometry": "authentic_vendor_brep",
+    "source": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M4.826x12",
+    "quantity": 8,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "frame_pivot_cheek",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm frame cheek; frame doubler/load verification pending",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "fold_pivot_stub",
+    "quantity": 2,
+    "material": "WCP 1/2 inch AF hex stock, grade TBD",
+    "stock": "split 76 mm stub, NOT a shaft across the coral corridor",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M5x35",
+    "quantity": 4,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "fold_drive_mount",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate; pilot and journal finish-machine",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_bank_plate_L",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm paired flat plates; bearing holes finish-machine",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_post",
+    "quantity": 4,
+    "material": "6061-T6 provisional",
+    "stock": "20x20x2 metric tube, saw 178",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_hex_shaft",
+    "quantity": 6,
+    "material": "WCP half-inch hex stock, grade unverified",
+    "stock": "AF12.7 exact; 196 long, M5 end taps",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_wheel_core",
+    "quantity": 18,
+    "material": "machined acetal or qualified printed nylon",
+    "stock": "custom 3 inch wheel core, NOT scaled AndyMark COTS",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_custom_tyre",
+    "quantity": 18,
+    "material": "custom elastomer, hardness TBD",
+    "stock": "76.2 OD x25.4; custom, not authentic AM-3462",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_belt_L",
+    "quantity": 1,
+    "material": "6 mm welded PU round belt, supplier TBD",
+    "stock": "continuous closed loop; slip/load unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_drive_L_mount",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate; pilot and journal finish-machine",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_bank_plate_R",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm paired flat plates; bearing holes finish-machine",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_belt_R",
+    "quantity": 1,
+    "material": "6 mm welded PU round belt, supplier TBD",
+    "stock": "continuous closed loop; slip/load unverified",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "indexer_drive_R_mount",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm plate; pilot and journal finish-machine",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "detachable_tray",
+    "quantity": 1,
+    "material": "polycarbonate",
+    "stock": "3 mm flat sheet, no precision bends",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "dock_crossbar",
+    "quantity": 2,
+    "material": "6061-T6 provisional",
+    "stock": "20x20x2 tube, saw 530",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "tray_spacer",
+    "quantity": 4,
+    "material": "6061-T6 provisional",
+    "stock": "lathe standoff 5.85 nominal",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "hardware_M5x30",
+    "quantity": 4,
+    "material": "steel",
+    "stock": "socket head screw plus washer; no thread helices",
+    "geometry": "standard_hardware_nominal_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "coral_stop",
+    "quantity": 1,
+    "material": "6061-T6 provisional",
+    "stock": "6 mm flat stop; bracket joint unresolved",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "sensor_adapter",
+    "quantity": 2,
+    "material": "polycarbonate",
+    "stock": "3 mm provisional 20x15 mount pattern; NOT verified LaserCAN interface",
+    "geometry": "custom_brep",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "sensor_reference_envelope",
+    "quantity": 2,
+    "material": "REFERENCE only",
+    "stock": "LaserCAN candidate envelope; vendor CAD and actual holes unavailable",
+    "geometry": "reference_envelope",
+    "source": "custom/local nominal",
+    "status": "NOT RELEASED"
+  },
+  {
+    "part": "pickup_drive_12T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-1010",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "pickup_drive_60T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-0121",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "kick_reversal",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "unresolved",
+    "geometry": "MISSING, not substituted",
+    "source": "Kick needs opposite rotation to upper rollers; dedicated reversal and its closed drive remain unresolved, not silently same-sense powered",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "fold_drive_12T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-1010",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "fold_drive_60T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-0121",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "indexer_drive_L_12T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-1010",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "indexer_drive_L_60T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-0121",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "indexer_drive_R_12T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-1010",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "indexer_drive_R_60T",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "WCP-0121",
+    "geometry": "MISSING, not substituted",
+    "source": "original vendor STEP not cached",
+    "status": "BLOCKED"
+  },
+  {
+    "part": "sensors",
+    "quantity": 1,
+    "material": "procurement / design required",
+    "stock": "unresolved",
+    "geometry": "MISSING, not substituted",
+    "source": "Two distinct presence/seated interfaces; LaserCAN dimensions/pattern and line-of-sight unverified",
+    "status": "BLOCKED"
+  }
+]

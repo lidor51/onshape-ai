@@ -1,0 +1,33 @@
+{
+  "startedAt": "2026-09-11T11:41:53.252Z",
+  "commands": [
+    {
+      "command": "node --test benchmark.test.mjs safety.test.mjs manifests.test.mjs evidence.test.mjs",
+      "exitCode": 0,
+      "stdout": "✔ baseline contains nine expected solids, five holes per plate and three sleeves (2.2627ms)\n✔ surface gap, plate positions and shaft extensions obey the protocol (0.3681ms)\n✔ revision changes only normative input values and dependent geometry expectations (0.4474ms)\n✔ generated source exposes revision parameters and excludes coral from BOM (0.7992ms)\n✔ actual transcript contains a completed SDK initialization and tool discovery (3.0806ms)\n✔ actual outbound transcript contains no live tools, authentication or screenshot calls (0.3021ms)\n✔ both materialized manifests passed real tool-schema validation and remain unexecuted (0.2131ms)\n✔ baseline requests only a new private document and exports outside the document (1.6127ms)\n✔ revision updates the same feature and document without recreating either (1.0193ms)\n✔ manifest records uncertainty and includes image, export and measurement calls (0.2833ms)\n✔ subprocess environment excludes credentials, proxies, injection and original profiles (2.0249ms)\n✔ only offline metadata tools can be called (0.7914ms)\n✔ live access and arbitrary hosts are rejected before execution (0.2453ms)\nℹ tests 13\nℹ suites 0\nℹ pass 13\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 171.3737\n",
+      "stderr": "",
+      "elapsedMs": 247.15380000000002
+    },
+    {
+      "command": "npm audit --json --ignore-scripts (isolated config/cache)",
+      "exitCode": 0,
+      "stdout": "{\n  \"auditReportVersion\": 2,\n  \"vulnerabilities\": {},\n  \"metadata\": {\n    \"vulnerabilities\": {\n      \"info\": 0,\n      \"low\": 0,\n      \"moderate\": 0,\n      \"high\": 0,\n      \"critical\": 0,\n      \"total\": 0\n    },\n    \"dependencies\": {\n      \"prod\": 95,\n      \"dev\": 0,\n      \"optional\": 0,\n      \"peer\": 0,\n      \"peerOptional\": 0,\n      \"total\": 94\n    }\n  }\n}\n",
+      "stderr": "",
+      "elapsedMs": 2543.0474
+    }
+  ],
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "protocol": {
+    "requests": 22,
+    "notifications": 1,
+    "toolCalls": 20,
+    "negotiatedVersion": "2025-11-25"
+  }
+}

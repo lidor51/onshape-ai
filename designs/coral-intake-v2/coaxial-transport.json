@@ -1,0 +1,123 @@
+{
+  "schema": "coaxial-crosswise-envelope-path/1",
+  "config": {
+    "rear": [
+      -25,
+      348
+    ],
+    "middle": [
+      -177.6302722267113,
+      321
+    ],
+    "front": [
+      -269.14529831532695,
+      166
+    ],
+    "kick": [
+      -122,
+      34
+    ],
+    "trayTop": 175,
+    "coralRadius": 57.15,
+    "starRadius": 63.7,
+    "upperHardRadius": 14.142135623730951,
+    "kickerRadius": 25.5
+  },
+  "spacingMm": 2,
+  "maximumAssumedStarCompressionMm": 8,
+  "status": "NO_ROUTE_IN_SEARCH",
+  "path": [],
+  "visitedNodes": 764,
+  "startNodes": 1,
+  "reachableBoundsYZ": {
+    "min": [
+      -388,
+      57.15
+    ],
+    "max": [
+      -284,
+      349.15
+    ]
+  },
+  "scope": "Centered sideways outer-cylinder, circular drive envelopes, hard hub enclosing disk and bumper. No star phase, traction, force equilibrium, actual support, guides, cheeks or lengthwise/yaw path solved.",
+  "contactForceAndVelocityDirectionsSolved": false,
+  "entryScope": "Front-most permitted floor-contact cell only; no insertion behind the front roller",
+  "passiveSupportDesigned": false,
+  "continuousPathCertified": false,
+  "physicalFeedProven": false,
+  "releaseReady": false,
+  "sourceManifestSha256": "2bfe650851da4210ca693441a0063b50f28e37ee7264d8d4a4be524b9814c41d",
+  "source": "coaxial-output/revision-feed/manifest.json",
+  "fixedFloatSensitivity": [
+    {
+      "angle": 0,
+      "status": "NO_ROUTE_IN_SEARCH",
+      "points": 0
+    },
+    {
+      "angle": -4,
+      "status": "DISCRETE_ENVELOPE_ROUTE_FOUND",
+      "points": 243,
+      "first": [
+        -314,
+        57.15
+      ],
+      "last": [
+        -26,
+        233.15
+      ]
+    },
+    {
+      "angle": -8,
+      "status": "NO_ROUTE_IN_SEARCH",
+      "points": 0
+    }
+  ],
+  "kickerSensitivity": [
+    {
+      "yCoord": -132,
+      "status": "NO_ROUTE_IN_SEARCH",
+      "points": 0,
+      "reachableBoundsYZ": {
+        "min": [
+          -388,
+          57.15
+        ],
+        "max": [
+          -284,
+          349.15
+        ]
+      }
+    },
+    {
+      "yCoord": -122,
+      "status": "NO_ROUTE_IN_SEARCH",
+      "points": 0,
+      "reachableBoundsYZ": {
+        "min": [
+          -388,
+          57.15
+        ],
+        "max": [
+          -284,
+          349.15
+        ]
+      }
+    },
+    {
+      "yCoord": -112,
+      "status": "NO_ROUTE_IN_SEARCH",
+      "points": 0,
+      "reachableBoundsYZ": {
+        "min": [
+          -388,
+          57.15
+        ],
+        "max": [
+          -284,
+          349.15
+        ]
+      }
+    }
+  ]
+}

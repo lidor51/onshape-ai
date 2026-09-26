@@ -1,0 +1,398 @@
+{
+  "limit": 39,
+  "continuation_authorization": {
+    "original_attempts_preserved": 14,
+    "additional_attempt_limit": 25,
+    "authenticated_attempt_limit": 0,
+    "scope": "trials/subsystem-ab/cots/**",
+    "original_phase_closed_at": "2026-09-12T09:15:56.209Z",
+    "original_close_reason": "Bounded phase complete at 14 public attempts; motor CAD table failed, exact remaining assets unresolved. No further network research authorized by this packet."
+  },
+  "authenticated_calls": 0,
+  "requests": [
+    {
+      "attempt": 1,
+      "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x44/kraken-x44-motor/overview-and-features/physical-specifications.md",
+      "requested_at": "2026-09-12T09:07:54.369Z",
+      "cache": "cache/x44-spec.md",
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 4520,
+      "sha256": "8fd0717b42a4b9f3c4cff33e83ea9b5c5f66a2772de2b29a1159bda436e482b0"
+    },
+    {
+      "attempt": 2,
+      "url": "https://wcproducts.com/products/kraken",
+      "requested_at": "2026-09-12T09:07:54.875Z",
+      "cache": "cache/kraken.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1768780,
+      "sha256": "3fe447676ef6a5d48505e3d419e6ce368dd5434dbe0951ca5e6ae2bc345e1333"
+    },
+    {
+      "attempt": 3,
+      "url": "https://wcproducts.com/products/ball-bearings",
+      "requested_at": "2026-09-12T09:07:55.764Z",
+      "cache": "cache/bearings.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1759830,
+      "sha256": "3c37c277dc2f794a5c694a4ded693764765025aee069f8c5522bb61bf32fb909"
+    },
+    {
+      "attempt": 4,
+      "url": "https://wcproducts.com/products/pocketed-gears",
+      "requested_at": "2026-09-12T09:07:56.453Z",
+      "cache": null,
+      "status": 301,
+      "content_type": "text/html; charset=utf-8",
+      "redirect": "https://wcproducts.com/products/aluminum-hex-bore-pocketed-gears"
+    },
+    {
+      "attempt": 5,
+      "url": "https://wcproducts.com/products/aluminum-hex-bore-pocketed-gears",
+      "requested_at": "2026-09-12T09:07:56.721Z",
+      "cache": "cache/gears.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1772475,
+      "sha256": "6b2f7e99360c1bf4245697cb706a793b6e448eb1ddd20f3fb3bcee7b1ed63a44"
+    },
+    {
+      "attempt": 6,
+      "url": "https://frcdesign.org/learning-course/course-setup/required-course-tools/part-library/",
+      "requested_at": "2026-09-12T09:07:57.365Z",
+      "cache": "cache/frcdesign.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 213966,
+      "sha256": "16552bafbe84a34dd3ee23f93234e28b86e47e48947db928b7514cea22af349d"
+    },
+    {
+      "attempt": 7,
+      "url": "https://api.github.com/orgs/frcdesign/repos?per_page=100",
+      "requested_at": "2026-09-12T09:08:41.517Z",
+      "cache": "cache/frcdesign-repos.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 33043,
+      "sha256": "157d5c39fdeca913c3c022c571bcfa03dde7e7dedd27ec1173de50089594eba2"
+    },
+    {
+      "attempt": 8,
+      "url": "https://andymark.com/products/compliant-wheels?variant=44493390807212",
+      "requested_at": "2026-09-12T09:08:42.351Z",
+      "cache": "cache/wheel.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1513844,
+      "sha256": "5f3b85d7d7d281b716098b54164662d4b119d7a7d9133743166a14ac01dc8271"
+    },
+    {
+      "attempt": 9,
+      "url": "https://api.github.com/repos/frcdesign/FRCDesignApp/git/trees/cert?recursive=1",
+      "requested_at": "2026-09-12T09:09:28.050Z",
+      "cache": "cache/frcdesign-tree.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 100941,
+      "sha256": "60d7b24dbc34036fe8861b7c143cf6ae9bbb779e14000d51bb568d0d50e35282"
+    },
+    {
+      "attempt": 10,
+      "url": "https://s3.amazonaws.com/docusync-files/52389c35842755f9c6f77598cba5df751cbf2fda3671ae44da95fa9adf489910/am-3462%202IN%20Molded%20500Hex%20Compliant%20Wheel%20REV2.STEP",
+      "requested_at": "2026-09-12T09:09:28.641Z",
+      "cache": "cache/am-3462-rev2.step",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 973692,
+      "sha256": "52389c35842755f9c6f77598cba5df751cbf2fda3671ae44da95fa9adf489910"
+    },
+    {
+      "attempt": 11,
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ/pub?gid=2097028417&single=true&output=csv",
+      "requested_at": "2026-09-12T09:09:30.211Z",
+      "cache": null,
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/s0ick13n6uau46ad2ibgtlcb1s/1789204135000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=2097028417&single=true&output=csv"
+    },
+    {
+      "attempt": 12,
+      "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/s0ick13n6uau46ad2ibgtlcb1s/1789204135000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=2097028417&single=true&output=csv",
+      "requested_at": "2026-09-12T09:10:03.236Z",
+      "cache": "cache/wcp-kraken-cad.csv",
+      "status": 400,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 3338,
+      "sha256": "2befd8afbd38e274ddc5bdf034cc4bdd6f049dc1e5c237eda41ddd73849a69d3"
+    },
+    {
+      "attempt": 13,
+      "url": "https://api.github.com/repos/frcdesign/FRCDesignApp/git/blobs/1c8809197669176518980676857722ccb5a1cef9",
+      "requested_at": "2026-09-12T09:10:26.423Z",
+      "cache": "cache/frcdesign-readme-blob.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 10428,
+      "sha256": "74dc184784f9cb5115a81b69a2b123e2fd3c70d556ecb8272e285b8fdaa88bcc"
+    },
+    {
+      "attempt": 14,
+      "url": "https://s3.amazonaws.com/docusync-files/ccd7676e32fa79e76433f7137c7bef15176ed2d9a223f14772328c53d0aeaee9/am-3462%202IN%20500Hex%20Compliant%20Wheel%20REV3.PDF",
+      "requested_at": "2026-09-12T09:10:26.926Z",
+      "cache": "cache/am-3462-rev3.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 77148,
+      "sha256": "ccd7676e32fa79e76433f7137c7bef15176ed2d9a223f14772328c53d0aeaee9"
+    },
+    {
+      "attempt": 15,
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ/pub?gid=2097028417&single=true&output=csv",
+      "requested_at": "2026-09-12T09:31:59.850Z",
+      "cache": null,
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/r6keevskv0nht9ojo0cmcnedko/1789205485000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=2097028417&single=true&output=csv"
+    },
+    {
+      "attempt": 16,
+      "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/r6keevskv0nht9ojo0cmcnedko/1789205485000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=2097028417&single=true&output=csv",
+      "requested_at": "2026-09-12T09:32:00.522Z",
+      "cache": "cache/wcp-kraken-cad-fresh.csv",
+      "status": 200,
+      "content_type": "text/csv",
+      "bytes": 13392,
+      "sha256": "08dc7c2da81811a9bfc9285cf0fa7b5ffee5e195e1d55e7c3b94128bc4ed14be"
+    },
+    {
+      "attempt": 17,
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ/pub?gid=1959540314&single=true&output=csv",
+      "requested_at": "2026-09-12T09:32:29.581Z",
+      "cache": null,
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=1959540314&single=true&output=csv"
+    },
+    {
+      "attempt": 18,
+      "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=1959540314&single=true&output=csv",
+      "requested_at": "2026-09-12T09:32:30.090Z",
+      "cache": "cache/wcp-bearing-cad.csv",
+      "status": 200,
+      "content_type": "text/csv",
+      "bytes": 7425,
+      "sha256": "4bf3ec55b878e2aca8896308050fcbb8bd71a80b54e11012133115403e220cda"
+    },
+    {
+      "attempt": 19,
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ/pub?gid=257109817&single=true&output=csv",
+      "requested_at": "2026-09-12T09:32:30.558Z",
+      "cache": null,
+      "status": 307,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=257109817&single=true&output=csv"
+    },
+    {
+      "attempt": 20,
+      "url": "https://doc-14-60-sheets.googleusercontent.com/pub/54bogvaave6cua4cdnls17ksc4/eug35eg3i6f0bl35g9lp21spjg/1789205515000/105250506097979753968/*/e@2PACX-1vSPZeZHcDPnZQIcYWm8WMmOUDzfBuh5zs9hROb3MuPvnkusPZuQDykwHV8uUDsjj8nRnv2LYrAV-hHZ?gid=257109817&single=true&output=csv",
+      "requested_at": "2026-09-12T09:32:31.051Z",
+      "cache": "cache/wcp-gear-cad.csv",
+      "status": 200,
+      "content_type": "text/csv",
+      "bytes": 7834,
+      "sha256": "a78c913441ddac5dd989edc2d8eea85c90d88be73550bbea2d4869d174d5ed49"
+    },
+    {
+      "attempt": 21,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0941.STEP",
+      "requested_at": "2026-09-12T09:33:26.619Z",
+      "cache": "cache/wcp-0941.step",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 12537342,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1"
+    },
+    {
+      "attempt": 22,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0783.step",
+      "requested_at": "2026-09-12T09:33:29.593Z",
+      "cache": "cache/wcp-0783.step",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 95572,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b"
+    },
+    {
+      "attempt": 23,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0940.STEP",
+      "requested_at": "2026-09-12T09:33:38.262Z",
+      "cache": null,
+      "status": "INTERRUPTED_NO_RESPONSE",
+      "resolution": "Shared terminal process ended before response recording; counted conservatively. A later separately counted request acquired the exact same source URL."
+    },
+    {
+      "attempt": 24,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-1016.step",
+      "requested_at": "2026-09-12T09:33:53.958Z",
+      "cache": "cache/wcp-1016.step",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 2191518,
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874"
+    },
+    {
+      "attempt": 25,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0137.step",
+      "requested_at": "2026-09-12T09:34:52.033Z",
+      "cache": null,
+      "status": "INTERRUPTED_NO_RESPONSE",
+      "resolution": "Shared terminal process ended before response recording; counted conservatively. A later separately counted request acquired the exact same source URL."
+    },
+    {
+      "attempt": 26,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0137.step",
+      "requested_at": "2026-09-12T09:35:02.145Z",
+      "cache": "cache/wcp-0137.step",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 2378852,
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d"
+    },
+    {
+      "attempt": 27,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0940.STEP",
+      "requested_at": "2026-09-12T09:35:04.367Z",
+      "cache": "cache/wcp-0940.step",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 15679676,
+      "sha256": "819d2d0cbe3855af73e19726a461996193d2b7ecf94603dd5173b19e7c2bab32"
+    },
+    {
+      "attempt": 28,
+      "url": "https://wcproducts.info/files/frc/drawings/Web-WCP-0940.pdf",
+      "requested_at": "2026-09-12T09:39:05.802Z",
+      "cache": "cache/wcp-0940.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 62612,
+      "sha256": "0437a359e5593b901d623cd406a39554825ac34eb88f176917b4e316f7fd6900"
+    },
+    {
+      "attempt": 29,
+      "url": "https://wcproducts.info/files/frc/drawings/Web-WCP-0941.pdf",
+      "requested_at": "2026-09-12T09:39:07.012Z",
+      "cache": "cache/wcp-0941.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 69571,
+      "sha256": "74f024476beb50c192b75fe0d9d3d743b5de87038c5d4c657bb7ff87055d26db"
+    },
+    {
+      "attempt": 30,
+      "url": "https://wcproducts.info/files/frc/drawings/Web-Steel%20SplineXS%20Pinions.pdf",
+      "requested_at": "2026-09-12T09:39:08.201Z",
+      "cache": "cache/wcp-1016.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 60458,
+      "sha256": "5b0b0c8429752aa2085165f2c520cc4a902cb25a4d9c1c47190788ac196d1311"
+    },
+    {
+      "attempt": 31,
+      "url": "https://wcproducts.info/files/frc/drawings/Web-Bearings%20Flanged.PDF",
+      "requested_at": "2026-09-12T09:39:09.372Z",
+      "cache": "cache/wcp-0783.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 49832,
+      "sha256": "7d5fe4274dd72b261391705406227bfe7290180bfc3513973fcb8feb65cf7f39"
+    },
+    {
+      "attempt": 32,
+      "url": "https://wcproducts.info/files/frc/drawings/Web-Pocketed%20Gears.PDF",
+      "requested_at": "2026-09-12T09:39:10.537Z",
+      "cache": "cache/wcp-0137.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 118833,
+      "sha256": "8d4f1461527db96d2c339591afd12ae3fbc165c2d870428bf8502799368bede9"
+    },
+    {
+      "attempt": 33,
+      "url": "https://docs.wcproducts.com/welcome/llms.txt",
+      "requested_at": "2026-09-12T09:40:36.456Z",
+      "cache": "cache/wcp-doc-index.txt",
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 86534,
+      "sha256": "905bf5a7ba165847d613f2acba8840a267bdf2cf2e1596b6826328a3bfcc4ff0"
+    },
+    {
+      "attempt": 34,
+      "url": "https://api.github.com/search/repositories?q=FRCDesignLib&per_page=5",
+      "requested_at": "2026-09-12T09:40:37.049Z",
+      "cache": "cache/frcdesignlib-search.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 55,
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    {
+      "attempt": 35,
+      "url": "https://andymark.com/search?q=am-5274",
+      "requested_at": "2026-09-12T09:40:37.601Z",
+      "cache": "cache/andymark-x60-search.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 643979,
+      "sha256": "ae8456120e6b148f5237a67793b6c86187bd0c2c9c9aca2b7599f2e50f1d031f"
+    },
+    {
+      "attempt": 36,
+      "url": "https://andymark.com/search?q=Kraken",
+      "requested_at": "2026-09-12T09:41:40.418Z",
+      "cache": "cache/andymark-kraken-search.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1233161,
+      "sha256": "7ede6871b8ca186011194fc9cf87708deb3a7f5dd6e2976f1e03014f0dfdac23"
+    },
+    {
+      "attempt": 37,
+      "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x60/kraken-x60-+-talonfx/overview-and-features.md",
+      "requested_at": "2026-09-12T09:42:09.428Z",
+      "cache": "cache/x60-product.md",
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 3781,
+      "sha256": "a4cf875345bd06bdd8c26cfc72a50bac5eacf94842fc0bf1dfa1a67bd25573fd"
+    },
+    {
+      "attempt": 38,
+      "url": "https://api.github.com/repos/frcdesign/FRCDesignApp/git/blobs/a231f9f8c7aa0952bfa377670d3f1a4163958cd9",
+      "requested_at": "2026-09-12T09:42:19.699Z",
+      "cache": "cache/frcdesign-init-sql-blob.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 9824,
+      "sha256": "3ea9e5f53612fc8d44c4eb66a6e8449d3ea7dd2cae9193a8c6ad9ab93ca03549"
+    },
+    {
+      "attempt": 39,
+      "url": "https://docs.wcproducts.com/welcome/electronics/kraken-x60/kraken-x60-motor/overview-and-features.md",
+      "requested_at": "2026-09-12T09:42:34.689Z",
+      "cache": "cache/x60-motor-overview.md",
+      "status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 2554,
+      "sha256": "8e1fa7d30e103d8ffab52c471a10fff173d53d6877d69eb0f3b4c165fc1a61da"
+    }
+  ],
+  "phase_closed": true,
+  "closed_at": "2026-09-12T09:50:07.983Z",
+  "close_reason": "25 additional public attempts exhausted; original 14 preserved. X44 core and wheel validated; X60 source acquired but quarantined for invalid topology. No further network requests permitted."
+}

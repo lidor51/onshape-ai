@@ -1,0 +1,252 @@
+{
+  "units": "mm",
+  "recipeSha256": "a00b0a6f77ed6064672658db509ae96b88c7faed5bab6af2c9902b71d6713632",
+  "parametersSha256": "8d1b123bd0753eb1329d39bff994d6c4580eda09a9575e496e22200626ffbc16",
+  "layoutSha256": "3dd2fbe07ad494fe1a4c41328729d984a2a6c195b4bbdbe570607ffd479f05f1",
+  "neutralPartFrameSha256": "73f212596ec48ba71b5925d21036a96254e7241248d2538f4f22877a6401e51b",
+  "featureSourceSha256": "ebf0a286bc3afa8875f97a47224f7373a021144731e19e2658d972bd6cef8739",
+  "inputSources": [
+    "parameters.json",
+    "cad_core.py",
+    "model.py",
+    "validate.py",
+    "package_packet.py",
+    "packet_test.py",
+    "v2_model.py",
+    "v2_reducer.py",
+    "v2_packet.py",
+    "v2_test.py"
+  ],
+  "neutralPartSteps": {
+    "baseline": {
+      "chassis_reference": {
+        "path": "baseline/parts/chassis_reference.step",
+        "sha256": "9ba96ee440ddfdac1514a727401d14004d182776cd84b596a20ec9af0703bc16"
+      },
+      "bumper_keepout": {
+        "path": "baseline/parts/bumper_keepout.step",
+        "sha256": "ddcb168e0a820b40e3b44ae3eb52deb8dcf9fa6f9f1f95d31168e0315fc2c002"
+      },
+      "receiver_reference": {
+        "path": "baseline/parts/receiver_reference.step",
+        "sha256": "a85d178573ab8bdefd392a05d73aa9e0e79d40a9aa4e3d4da17b6db76a4c850f"
+      },
+      "coral_reference": {
+        "path": "baseline/parts/coral_reference.step",
+        "sha256": "515046939fcf9d1184f740dad8b963d47051d3a4d067be99ecd329c070c4c48b"
+      },
+      "stage_deck": {
+        "path": "baseline/parts/stage_deck.step",
+        "sha256": "9d1ee893b64121d4810981c608e471712fe6bc19fbe053c1bc0e9237baf57d0d"
+      },
+      "cradle": {
+        "path": "baseline/parts/cradle.step",
+        "sha256": "be1037d89ac36d80b70976cad8aff52566db6d0aaa26fe1a5c23cf1bf0534f7c"
+      },
+      "transfer_ramp": {
+        "path": "baseline/parts/transfer_ramp.step",
+        "sha256": "579c9477b1533d301b290f12f978b767839df3272ac3cadafef956c181685099"
+      },
+      "hex_bearing_envelope": {
+        "path": "baseline/parts/hex_bearing_envelope.step",
+        "sha256": "04afbee686178c359eb45a8ee4a1666c558169644a4e1ca49ee7588cb62cf6f0"
+      },
+      "x44_envelope": {
+        "path": "baseline/parts/x44_envelope.step",
+        "sha256": "9c5b3bf8fb7f5578deef9603e99c8c961cd7b12b923d8b7c950e1a7329f49dd0"
+      },
+      "pinion_16_envelope": {
+        "path": "baseline/parts/pinion_16_envelope.step",
+        "sha256": "d5419091bc2bf71b50f1607343f8fb07e743f183e6d19ff6af5beeb294a0fee0"
+      },
+      "gear_48_envelope": {
+        "path": "baseline/parts/gear_48_envelope.step",
+        "sha256": "ff0a683bfb18dbe6182617f82642327bb9e2e3e3a61ad01c67ca590d81683068"
+      },
+      "orienter_hex_shaft": {
+        "path": "baseline/parts/orienter_hex_shaft.step",
+        "sha256": "cdb51d4f912939649367c93c8b1e1396aada8a03750ee4b66d1cd09250692621"
+      },
+      "orienter_contact_drum": {
+        "path": "baseline/parts/orienter_contact_drum.step",
+        "sha256": "91ef19ffbfef96e809016b864fb49dfdb2a0b171062555476b54ca3d1f65711a"
+      },
+      "orienter_housing": {
+        "path": "baseline/parts/orienter_housing.step",
+        "sha256": "783696657dc5533e3782dbbab43026d62713c2a4d5a08d7bb704aaec9af2aab5"
+      },
+      "pickup_left_plate": {
+        "path": "baseline/parts/pickup_left_plate.step",
+        "sha256": "1614b6d04aaaacd48eae6bc48faa6a6abeac0fb53381c6207abe890e7d1bc867"
+      },
+      "pickup_side_plate": {
+        "path": "baseline/parts/pickup_side_plate.step",
+        "sha256": "a7c9bbbeb2ea8fc84a9eda7ff05f28479491edf09b79d9bcf94cf0b70d2427db"
+      },
+      "pickup_cross_tube": {
+        "path": "baseline/parts/pickup_cross_tube.step",
+        "sha256": "00b951bf0d15ad22953ca6378f1664abaa63d1e6dfbe05ae2856bc89ff9cd545"
+      },
+      "pivot_spine": {
+        "path": "baseline/parts/pivot_spine.step",
+        "sha256": "20fce3510c62545519f43507a2bc77f726b0900ffa50bc12fc7a5cec4c9782d0"
+      },
+      "lower_hex_shaft": {
+        "path": "baseline/parts/lower_hex_shaft.step",
+        "sha256": "9546461af11c0bd2053cce4883a148dde1241b305a0e901c1ebe24501fb2797d"
+      },
+      "upper_pickup_drum": {
+        "path": "baseline/parts/upper_pickup_drum.step",
+        "sha256": "4b67f4fbb0add5b14e314316b207400fc0310d4cbee6cc69f421ea83fa4ba6e0"
+      },
+      "lower_pickup_drum": {
+        "path": "baseline/parts/lower_pickup_drum.step",
+        "sha256": "47c04b059e99872d99d31e76655d072b1b6d2d40b27c0f0a992b3b96edb31109"
+      },
+      "pickup_belt": {
+        "path": "baseline/parts/pickup_belt.step",
+        "sha256": "b46492d8684ee390bff0c18826cf411357afa3c888c75b8c0afa06e7aecd0edb"
+      },
+      "pickup_output_gear": {
+        "path": "baseline/parts/pickup_output_gear.step",
+        "sha256": "e0b179d3f41f96ef2c30ef790e743cf9e16bf82bb7f64596cb622dd22fc916c9"
+      },
+      "pickup_gear_guard": {
+        "path": "baseline/parts/pickup_gear_guard.step",
+        "sha256": "d3d2b875ed09c84b258e6a34367a4323e46a8a4f692d4555084d004f6f1593c3"
+      },
+      "pivot_tower": {
+        "path": "baseline/parts/pivot_tower.step",
+        "sha256": "b88a933b0d96b908ed0a787eaa8b36c4b5d1bc0815101c015a7f4abd21a6566c"
+      },
+      "deploy_output_gear": {
+        "path": "baseline/parts/deploy_output_gear.step",
+        "sha256": "4299d098eed251bfa49a919e7d49610cfd17fbba3fdc1757eec90cd40deda35f"
+      },
+      "deploy_support_module": {
+        "path": "baseline/parts/deploy_support_module.step",
+        "sha256": "c5eef526ad7a8c25d550e6ff4b282c968ccb59db18ace1c575d9388171e65123"
+      },
+      "deploy_compound_shaft_module": {
+        "path": "baseline/parts/deploy_compound_shaft_module.step",
+        "sha256": "d63813a6b48e5a5797641db2d78a9e10352d0843716245e9cf71bc691c3a3117"
+      }
+    },
+    "revision": {
+      "chassis_reference": {
+        "path": "revision/parts/chassis_reference.step",
+        "sha256": "e502bb882af9f4bce9f318e9dac5696df1e56714536663b0b6212700909c8e2c"
+      },
+      "bumper_keepout": {
+        "path": "revision/parts/bumper_keepout.step",
+        "sha256": "93dbb046cbb3edf5099841bd5125329c4ee9187b63620aad037116ecfbb2e2cb"
+      },
+      "receiver_reference": {
+        "path": "revision/parts/receiver_reference.step",
+        "sha256": "617b17ce8fd4b378d609ddd21003fe7ccbc6f934d1889fa173c5eacc78d876c2"
+      },
+      "coral_reference": {
+        "path": "revision/parts/coral_reference.step",
+        "sha256": "6abfa67b6bc0b7b364dbfd3d9acf3a2df998101031c8bedb54d6366b8f05c646"
+      },
+      "stage_deck": {
+        "path": "revision/parts/stage_deck.step",
+        "sha256": "fe9efeef4862dbe42992875a76ed771d0091df43e29d7644f8e2fbdceb3cc619"
+      },
+      "cradle": {
+        "path": "revision/parts/cradle.step",
+        "sha256": "5456e1aaf2c108d9d4e37cd9283d637a0896714c5cdb630e4db3d75823683a86"
+      },
+      "transfer_ramp": {
+        "path": "revision/parts/transfer_ramp.step",
+        "sha256": "6618c166f5486f57b96a547049e411459581343591189494eafe6c083b84923b"
+      },
+      "hex_bearing_envelope": {
+        "path": "revision/parts/hex_bearing_envelope.step",
+        "sha256": "7c059db8da8787ddda5c0a3777b499c9bdf330d82b9ad02a4ce095711f972d65"
+      },
+      "x44_envelope": {
+        "path": "revision/parts/x44_envelope.step",
+        "sha256": "ea43317f470b0e3b8f5f2c947bd57ada8223946a2b391fd1390a746be3045ed4"
+      },
+      "pinion_16_envelope": {
+        "path": "revision/parts/pinion_16_envelope.step",
+        "sha256": "b291f8b7c9458c3b2f48aa4aa9e908d17263e41b56c9f843233dc55d6e3f3bef"
+      },
+      "gear_48_envelope": {
+        "path": "revision/parts/gear_48_envelope.step",
+        "sha256": "7e93c1ace00b911ec2460538f5f4f6149eee75a204665f3a8ed3b77de334d3f7"
+      },
+      "orienter_hex_shaft": {
+        "path": "revision/parts/orienter_hex_shaft.step",
+        "sha256": "f13055fa097b8f9f1a6d8276b9e172d97e0d1ffb12cf8f28903944cd1bfe23f3"
+      },
+      "orienter_contact_drum": {
+        "path": "revision/parts/orienter_contact_drum.step",
+        "sha256": "700a156e0fc17fd23b6bbfc9863cacb641da8e4918b075ad991557e1711cf1e9"
+      },
+      "orienter_housing": {
+        "path": "revision/parts/orienter_housing.step",
+        "sha256": "0ce94a3f8d5ea554c218e429ce11142f1c921a2320d26144523310fabd25e539"
+      },
+      "pickup_left_plate": {
+        "path": "revision/parts/pickup_left_plate.step",
+        "sha256": "deb36a4baaa3938a62c89d9b33c703ddd1d651df17cdd3bbfd2e0509b1f473bd"
+      },
+      "pickup_side_plate": {
+        "path": "revision/parts/pickup_side_plate.step",
+        "sha256": "15dd255ea45bacc66697d06e3756390228e2f72f69b909dc83fbf512590282a5"
+      },
+      "pickup_cross_tube": {
+        "path": "revision/parts/pickup_cross_tube.step",
+        "sha256": "cf81f982d4f5e2e8ebe0d8cc48b7d9139fce42018795228b2b11af087d5650e2"
+      },
+      "pivot_spine": {
+        "path": "revision/parts/pivot_spine.step",
+        "sha256": "5a8b0e6408374ab48c2c093f7b1617e72647920253573ef655bf81091d35eeb4"
+      },
+      "lower_hex_shaft": {
+        "path": "revision/parts/lower_hex_shaft.step",
+        "sha256": "897ed610b5dbbca34854b75f1114e9d5e7ec8038a93bd0031da8bf650f3f5fac"
+      },
+      "upper_pickup_drum": {
+        "path": "revision/parts/upper_pickup_drum.step",
+        "sha256": "63228cbeb6e2c0a3683f66281062113dff93c3c816772de033582d29546c9b87"
+      },
+      "lower_pickup_drum": {
+        "path": "revision/parts/lower_pickup_drum.step",
+        "sha256": "622b818659f1602499f7e54e0e2ce1342d4837c20930c93921ee32c6b860eaea"
+      },
+      "pickup_belt": {
+        "path": "revision/parts/pickup_belt.step",
+        "sha256": "38b574ecd95b5527b491dd29410b7d27efaba401ee5054502e9346a8623ac53d"
+      },
+      "pickup_output_gear": {
+        "path": "revision/parts/pickup_output_gear.step",
+        "sha256": "6e9bb5246a87bae7f52efe3ff96c2e12293c457b0af6b7a8c16c7737bd79da51"
+      },
+      "pickup_gear_guard": {
+        "path": "revision/parts/pickup_gear_guard.step",
+        "sha256": "230384483fe1bf09fc95b9a3a9e5a6398cf339a66e488b0644f94303814a3bf5"
+      },
+      "pivot_tower": {
+        "path": "revision/parts/pivot_tower.step",
+        "sha256": "63462193557047554f1d8d813e34b74e63ba4b8afb5e3a0e121a7e7b26094d36"
+      },
+      "deploy_output_gear": {
+        "path": "revision/parts/deploy_output_gear.step",
+        "sha256": "d3fafb943ef43ac01d54b547ec1a0426409aaffec04900029a97805f830ea463"
+      },
+      "deploy_support_module": {
+        "path": "revision/parts/deploy_support_module.step",
+        "sha256": "52fc8427ea93f18ad39bdca2592703b395ac0738aa9960de1608f3d8bfb06e0e"
+      },
+      "deploy_compound_shaft_module": {
+        "path": "revision/parts/deploy_compound_shaft_module.step",
+        "sha256": "f6e1e9f5cd69fe23f5941e81ca38f0a384dad534599558d2499b1e6659160274"
+      }
+    }
+  },
+  "placementRule": "Source layout offset subtraction precedes neutral-to-world transform; no automatic scale or mirror",
+  "freezeScope": "Source files, recipe, parameters, UI map, neutral STEP bytes, pose/mate frames and every exported artifact"
+}

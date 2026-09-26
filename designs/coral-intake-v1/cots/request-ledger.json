@@ -1,0 +1,132 @@
+{
+  "schema": "coral-cots-public-acquisition/v1",
+  "date": "2026-09-18T09:49:24.326Z",
+  "limits": {
+    "attempts": 12,
+    "fileBytes": 26214400,
+    "totalBytes": 104857600
+  },
+  "authenticatedRequests": 0,
+  "accounting": "One receipt before each explicit HTTP attempt, including redirects; no retries. Body byte caps exclude HTTP/TLS overhead and transport prefetch.",
+  "requests": [
+    {
+      "attempt": 1,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-1010.step",
+      "requestedAt": "2026-09-18T09:49:24.327Z",
+      "status": "saved",
+      "chargedBytes": 2285843,
+      "receivedBytes": 2285843,
+      "savedPath": "designs/coral-intake-v1/cots/originals/wcp-1010.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "2285843",
+      "sha256": "f8f26ea01566c74727766733b896cbbd881d0887b35d527b060e31fd0730a486"
+    },
+    {
+      "attempt": 2,
+      "url": "https://wcproducts.info/files/frc/cad/WCP-0121.step",
+      "requestedAt": "2026-09-18T09:49:46.431Z",
+      "status": "saved",
+      "chargedBytes": 3025925,
+      "receivedBytes": 3025925,
+      "savedPath": "designs/coral-intake-v1/cots/originals/wcp-0121.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "3025925",
+      "sha256": "06509b998bc9676cf54a057e944e46c643428a1b8b9c6e78d172f932bbad2cf6"
+    },
+    {
+      "attempt": 3,
+      "url": "https://s3.amazonaws.com/docusync-files/60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd/am-3945%203IN%20500Hex%20Compliant%20Wheel%20REV%203.STEP",
+      "requestedAt": "2026-09-18T09:50:18.503Z",
+      "status": "saved",
+      "chargedBytes": 1469325,
+      "receivedBytes": 1469325,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-3945-rev3.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "1469325",
+      "sha256": "60fda7b3e5fde25adb4523a47a990e675e179238549a69df9ce5e05d4db35edd"
+    },
+    {
+      "attempt": 4,
+      "url": "https://s3.amazonaws.com/docusync-files/a56021085d4af867ea64f810f0646524ea081a9128de5a162f001f3717f3846f/am-3945%203IN%20500Hex%20Compliant%20Wheel%20REV3.PDF",
+      "requestedAt": "2026-09-18T09:52:03.648Z",
+      "status": "saved",
+      "chargedBytes": 79704,
+      "receivedBytes": 79704,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-3945-rev3.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "contentLength": "79704",
+      "sha256": "a56021085d4af867ea64f810f0646524ea081a9128de5a162f001f3717f3846f"
+    },
+    {
+      "attempt": 5,
+      "url": "https://www.andymark.com/search?q=5+inch+compliant+star&type=product",
+      "requestedAt": "2026-09-18T09:52:32.795Z",
+      "status": "redirect",
+      "chargedBytes": 0,
+      "receivedBytes": 0,
+      "savedPath": null,
+      "httpStatus": 301,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": null,
+      "redirect": "https://andymark.com/search?q=5+inch+compliant+star&type=product"
+    },
+    {
+      "attempt": 6,
+      "url": "https://andymark.com/search?q=5+inch+compliant+star&type=product",
+      "requestedAt": "2026-09-18T09:52:33.034Z",
+      "status": "saved",
+      "chargedBytes": 848347,
+      "receivedBytes": 848347,
+      "savedPath": "designs/coral-intake-v1/cots/originals/star-search.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": null,
+      "sha256": "e77a734b75c756c1ec162824f2f040620c0c159c0ef5c29b238a1f9943ae0eb1"
+    },
+    {
+      "attempt": 7,
+      "url": "https://andymark.com/products/compliant-stars",
+      "requestedAt": "2026-09-18T09:53:06.986Z",
+      "status": "saved",
+      "chargedBytes": 1015008,
+      "receivedBytes": 1015008,
+      "savedPath": "designs/coral-intake-v1/cots/originals/compliant-stars.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "contentLength": null,
+      "sha256": "a5cf0d680dd5c550930eb33bdec80641fd850cad0d67fdcac01c396fd7b8ed99"
+    },
+    {
+      "attempt": 8,
+      "url": "https://s3.amazonaws.com/docusync-files/d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.STEP",
+      "requestedAt": "2026-09-18T09:53:27.385Z",
+      "status": "saved",
+      "chargedBytes": 4544081,
+      "receivedBytes": 4544081,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-5123.step",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "contentLength": "4544081",
+      "sha256": "d8bb544db52717a76c83b25c569c0c754c60125b6e4f4818a7bab4662e464869"
+    },
+    {
+      "attempt": 9,
+      "url": "https://s3.amazonaws.com/docusync-files/8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5/am-5123%205IN%20500IN%20Hex%20Bore%20Compliant%20Star.pdf",
+      "requestedAt": "2026-09-18T09:53:36.760Z",
+      "status": "saved",
+      "chargedBytes": 84283,
+      "receivedBytes": 84283,
+      "savedPath": "designs/coral-intake-v1/cots/originals/am-5123.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "contentLength": "84283",
+      "sha256": "8af2f88775e1c515993c93009d12a27ba4781ffe0d98e01409a48b711b51a6c5"
+    }
+  ],
+  "closed": true,
+  "closureReason": "Requested originals acquired; 9 of 12 attempts used. No further public requests authorized by this script run."
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-09-11T16:48:24.928Z",
+  "status": "READY_FOR_PARENT_OFFICIAL_TOOL_DISPATCH_NOT_COMPILED",
+  "sourceVersion": 3070,
+  "parentReportedLiveLibraryVersion": 3070,
+  "versionPolicy": "New source uses parent-verified live 3070; original 2500 was not read from a server Feature Studio",
+  "parentReportedNotes": "No notes added yet.",
+  "compilerRepairsUsed": 1,
+  "compilerRepairCap": 2,
+  "parentReportedTestFeatureCalls": 1,
+  "parentReportedTestsRan": false,
+  "parentReportedFailureEvidence": "trials/official-mcp/artifacts/compile-repair-1.json",
+  "officialCallsInThisContinuation": 0,
+  "authenticatedRequestsInCompactPass": 0,
+  "sourceSha256": "ba386e09952f2661ed18a9e932514434b74aca88b386672af1d66cf8818a956a",
+  "fixtureSha256": "8b0c26084c7176e98c9196c01e89c73ff41bc0443830aee18d1050f5e1dbe392",
+  "fixtureProvenance": "LOCAL_OFFICIAL_SNAPSHOTS_ORIGINAL_FIXTURE_NOT_REREAD",
+  "compaction": "TOKEN_PRESERVING_BOUNDED_LINES_AND_LOSSLESS_EXPECTATION_TUPLES",
+  "maximumSourceCharacters": 14000,
+  "preferredSourceCharacters": 8000,
+  "preferredSourceSizeMet": false,
+  "maximumSourceLineCharacters": 1200,
+  "testEntry": "officialIntakeSelfTest",
+  "retainedEntry": "officialIntakeRetained",
+  "retainedDefaultBaseline": true,
+  "baselineFeatureParameters": {},
+  "revisionMode": "SOURCE_CONTROLLED_DEFAULT_SWITCH_NOT_PARAMETER_ONLY_EDIT",
+  "retainedUiControls": [],
+  "retainedUiLimitation": "Empty wrapper controls; innerWidth/rollerGap/plateThickness belong to the inner feature only",
+  "onshapeCompilation": "UNVERIFIED",
+  "serverMeasurements": null,
+  "maximumRetainedBranches": 2,
+  "plannedRetainedBranches": 1,
+  "clean": false,
+  "modelWrites": 0,
+  "persistedGeometryVerified": false,
+  "files": [
+    {
+      "path": "trials/official-mcp/artifacts/test-feature.fs",
+      "bytes": 12736,
+      "sha256": "85cf69c4b3088aec37a28dce5db60d004dde584648f1b3a3b9f284a37569f402"
+    },
+    {
+      "path": "trials/official-mcp/artifacts/baseline-feature.fs",
+      "bytes": 12736,
+      "sha256": "4823a980093b130ae44cf56673b509502a7f56c56a8193236d165a8d7bb4ed67"
+    },
+    {
+      "path": "trials/official-mcp/artifacts/revision-feature.fs",
+      "bytes": 12737,
+      "sha256": "8637d8ffa7790f403a1f3f6b83e4ac56ebdf335c1acc70f88a87c6c99a96a9f4"
+    },
+    {
+      "path": "trials/official-mcp/artifacts/test-feature.payload.json",
+      "bytes": 13224,
+      "sha256": "76f5523dc7bee8ab8066a45883730edad5fb3df4ba2804475a245e150b16ac2d"
+    },
+    {
+      "path": "trials/official-mcp/artifacts/test-revision.payload.json",
+      "bytes": 13225,
+      "sha256": "1d705692d193d04c539dff73a7ef7d7768ab2ec355cd1e188c3760454d37707c"
+    },
+    {
+      "path": "trials/official-mcp/artifacts/create-geometry.payload.json",
+      "bytes": 13286,
+      "sha256": "ff78950bdf6ff9609acbbf67a9fe1284bb10ad216006f47bc8d30c9d96fa43e4"
+    }
+  ]
+}

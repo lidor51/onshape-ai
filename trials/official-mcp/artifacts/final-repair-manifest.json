@@ -1,0 +1,42 @@
+{
+  "status": "FINAL_REPAIR_2_OF_2_READY_NOT_EXECUTED",
+  "fixtureSha256": "8b0c26084c7176e98c9196c01e89c73ff41bc0443830aee18d1050f5e1dbe392",
+  "libraryVersion": 3070,
+  "officialCalls": 0,
+  "authenticatedRequests": 0,
+  "onshapeCompilation": "UNVERIFIED",
+  "serverMeasurements": null,
+  "persistedGeometryVerified": false,
+  "declarationProbe": {
+    "attribution": "PARENT_REPORTED_NOT_INDEPENDENTLY_RETRIEVED",
+    "compiled": true,
+    "elementId": "66e03cc911623af502c718c4",
+    "microversionId": "43ac8ba4cb0bec1fe6abdab9",
+    "warnings": [
+      "Unused declaration makeBox",
+      "Unused declaration makeCylinder",
+      "Unused declaration labelPart",
+      "Unused declaration officialIntakeNear"
+    ],
+    "errorsReported": false,
+    "rawResponse": null
+  },
+  "failurePolicy": "If the single final execution fails compilation, conclude FAILED_COMPILE_WITHIN_BUDGET; no further repairs or probes.",
+  "validation": "OIM1 records must pass final-measurements.mjs for each phase. Regeneration is not persisted readback.",
+  "files": [
+    {
+      "phase": "baseline",
+      "sourcePath": "trials/official-mcp/artifacts/final-repair-baseline.fs",
+      "sourceCharacters": 4710,
+      "maximumLineCharacters": 286,
+      "sourceSha256": "ae3ea7a48f49426ab7bd3e0cc1b191c6d4aa105c0c0ee3bab2787d28f6f15be8"
+    },
+    {
+      "phase": "revision",
+      "sourcePath": "trials/official-mcp/artifacts/final-repair-revision.fs",
+      "sourceCharacters": 4709,
+      "maximumLineCharacters": 286,
+      "sourceSha256": "339e9ad91d6863a1285ee8dd2a3ad4fe7f09a4dffccb7fa526782365b8d02f0e"
+    }
+  ]
+}

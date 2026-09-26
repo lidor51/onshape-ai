@@ -1,0 +1,35 @@
+{
+  "schema": "subsystem-ab-api-parent-pilot-approval/1",
+  "approvalSource": "Explicit user authorization in the 2026-09-12 session",
+  "approved": true,
+  "phase": "PROVISIONAL_NATIVE_ASSEMBLY_PILOT",
+  "productionGeometryAdmitted": false,
+  "sharedPacketRequiredForPilot": false,
+  "origin": "https://cad.onshape.com",
+  "documentName": "Subsystem AB API - retained provisional pilot and full trial",
+  "newPublicDocumentAuthorized": true,
+  "maximumNewDocuments": 1,
+  "reuseForFullTrial": true,
+  "retainPilotTabsAndFailures": true,
+  "apiLedgerSoleOwner": true,
+  "currentKeyAcknowledgement": "CURRENT_KEY_AUTHORIZED_NOT_ROTATION_CLAIM",
+  "credentialSource": "ROOT_ENV_LOCAL_RUNTIME_MEMORY_ONLY",
+  "allowance": {
+    "used": 479,
+    "limit": 2500,
+    "remaining": 2021,
+    "observedSource": "Parent official quota observation at start of 2026-09-12",
+    "observedDate": "2026-09-12",
+    "safetyReserve": 500,
+    "apiArmCap": 140,
+    "parentOverheadCap": 10,
+    "pilotAttemptCap": 19
+  },
+  "scope": {
+    "source": "One feature producing exactly two provisional block solids and owned mate connectors",
+    "assembly": "Two part instances, native origin grounding, fastened and limited revolute probes",
+    "evidence": "Native feature readback, mate-values encoding, changed transforms, reopened persistence",
+    "production": "Blocked until a separately admitted shared packet and remaining-call budget fit",
+    "prohibited": ["browser", "Playwright", "authMCP", "delegates", "extraDocuments", "deletion", "unknownWriteRetry"]
+  }
+}

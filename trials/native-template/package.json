@@ -1,0 +1,16 @@
+{
+  "name": "native-template-follow-up",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "test": "node --test *.test.mjs",
+    "offline": "node run.mjs --offline",
+    "research": "node research.mjs",
+    "live:setup": "node run.mjs --live --phase setup",
+    "live:copy": "node run.mjs --live --phase copy",
+    "live:editor": "node run.mjs --live --phase simulated-editor",
+    "live:revision": "node run.mjs --live --phase revision",
+    "live:validate": "node run.mjs --live --phase validation"
+  }
+}

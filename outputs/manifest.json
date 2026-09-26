@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "capturedOn": "2026-09-11",
+  "provenance": "Byte-identical copies of selected local artifacts from authenticated Onshape trials. No new network or credential access.",
+  "verificationBoundary": "Server geometry and exports checked in trial reports; hashes alone do not establish geometry or manufacturing validity.",
+  "workspaceLinksShow": "revision; baseline preserved in files, not a versioned baseline workspace",
+  "routes": [
+    {
+      "id": "native-api",
+      "onshapeUrl": "https://cad.onshape.com/documents/8ed4380f4a245838e95aa4a5/w/fb131c088194dac823c29de4/e/4e3c0ad9b4c4e0b31dcc3875",
+      "visibility": "public",
+      "featureCount": 18,
+      "solids": 9,
+      "baseline": {
+        "innerWidthMm": 340,
+        "rollerGapMm": 100
+      },
+      "revision": {
+        "innerWidthMm": 360,
+        "rollerGapMm": 95
+      },
+      "files": [
+        {
+          "path": "outputs/native-api/baseline-isometric.png",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/baseline-isometric.png",
+          "bytes": 146586,
+          "sha256": "9cae70457c287fa651321e070928fad7f71fc8dc681dfce48ae598537bf2a600"
+        },
+        {
+          "path": "outputs/native-api/baseline-right.png",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/baseline-right.png",
+          "bytes": 38143,
+          "sha256": "fbe10c2a1d618bde3f5481bd8b5cc6a9b97fceeeb8fcd7199a4668793c3f4668"
+        },
+        {
+          "path": "outputs/native-api/revision-isometric.png",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/revision-isometric.png",
+          "bytes": 144055,
+          "sha256": "ad86ca2cea0f11e4d30189641ff7ee63916890aea605c764ea3edd613c2c145f"
+        },
+        {
+          "path": "outputs/native-api/revision-right.png",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/revision-right.png",
+          "bytes": 38500,
+          "sha256": "30e84a8b3f8b60f6e4de184edd864bf1468846376f444b073cc7e94ef4c690be"
+        },
+        {
+          "path": "outputs/native-api/baseline-server-export.zip",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/baseline-server-export.zip",
+          "bytes": 23376,
+          "sha256": "8eec2aaa9395d1780a70f7a0cab9f3ff1d6219dd8cc8df2691b1e056ddcb2d3c"
+        },
+        {
+          "path": "outputs/native-api/revision-server-export.zip",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/revision-server-export.zip",
+          "bytes": 23378,
+          "sha256": "b79a2a4b13c9e23c0a354ef97b98b168c11b0159465fae7c9d1e319129ff8344"
+        },
+        {
+          "path": "outputs/native-api/evidence-manifest.json",
+          "original": "trials/native-api/live/2026-09-11T12-12-56-154Z-fcca583e/evidence-manifest.json",
+          "bytes": 55403,
+          "sha256": "0c13b15b9fda7754e68de7119495e74fe13c0977e3fff130eeefb1ec95b0766d"
+        }
+      ]
+    },
+    {
+      "id": "featurescript",
+      "onshapeUrl": "https://cad.onshape.com/documents/086039b6f3621e6c0c73690a/w/57576582af3edd8e81d291cf/e/c1c82d07d6491f6fe419f3fe",
+      "visibility": "public",
+      "featureCount": 1,
+      "solids": 9,
+      "baseline": {
+        "innerWidthMm": 340,
+        "rollerGapMm": 100
+      },
+      "revision": {
+        "innerWidthMm": 360,
+        "rollerGapMm": 95
+      },
+      "files": [
+        {
+          "path": "outputs/featurescript/baseline.png",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/baseline.png",
+          "bytes": 203536,
+          "sha256": "73d6f24dd5dc1007764b9658848c41f514e5fa5f935eb5f0a48bf36dc26b4c54"
+        },
+        {
+          "path": "outputs/featurescript/revision.png",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/revision.png",
+          "bytes": 203141,
+          "sha256": "fc175c9f6dd090d556f895030ed6eda5f6df885cdde2ddc701e633572911efbf"
+        },
+        {
+          "path": "outputs/featurescript/baseline.step",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/baseline.step",
+          "bytes": 64379,
+          "sha256": "d8c63d218cb6dcece6061d0dce1d680f5ba9cc3ea3e02ef5c2fb032701756f5e"
+        },
+        {
+          "path": "outputs/featurescript/revision.step",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/revision.step",
+          "bytes": 64379,
+          "sha256": "388cb611875936e57288c5a42f7c1bed8b15879f72fcb4afdd8597d00a9aa329"
+        },
+        {
+          "path": "outputs/featurescript/baseline-measured.json",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/baseline-measured.json",
+          "bytes": 11670,
+          "sha256": "972aed9ce750535417f328725d66a779ef37df2ba41a371cdf692a17ea957152"
+        },
+        {
+          "path": "outputs/featurescript/revision-measured.json",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/revision-measured.json",
+          "bytes": 11640,
+          "sha256": "a93336910ebaf4622ccd1a61132719e28d714dc83fd4efbb08e0b5429f961ff4"
+        },
+        {
+          "path": "outputs/featurescript/baseline-export-manifest.json",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/baseline-export-manifest.json",
+          "bytes": 423,
+          "sha256": "871326766874cf563f1350cfd19d870017a819a0b2d24eb4acd5268a3e501048"
+        },
+        {
+          "path": "outputs/featurescript/revision-export-manifest.json",
+          "original": "trials/featurescript/runs/2026-09-11T12-37-56-506Z-8cae962e-3237-4508-aea2-2278e6976b49/revision-export-manifest.json",
+          "bytes": 423,
+          "sha256": "f5ce595c00716c6c6252019f925f0f92d863883201bbcd52b7ff7f19bc4d0b9c"
+        },
+        {
+          "path": "outputs/featurescript/intake.fs",
+          "original": "trials/featurescript/intake.fs",
+          "bytes": 7476,
+          "sha256": "af76352c2d823da717d178e4bcec0923fd7283d41b640272402fd71a89c21968"
+        }
+      ]
+    },
+    {
+      "id": "mcp-jarvis",
+      "onshapeUrl": "https://cad.onshape.com/documents/c91dab628a4c5b87c23aa534/w/0c40bbe9087fa21610dff575/e/b5a7239c126b14bd4385f232",
+      "visibility": "public",
+      "featureCount": 1,
+      "solids": 9,
+      "baseline": {
+        "innerWidthMm": 340,
+        "rollerGapMm": 100
+      },
+      "revision": {
+        "innerWidthMm": 360,
+        "rollerGapMm": 95
+      },
+      "files": [
+        {
+          "path": "outputs/mcp-jarvis/baseline-render-0.png",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/baseline-render-0.png",
+          "bytes": 203536,
+          "sha256": "18096b039fef97ac6ea67f23881224305a4c2cdca0cc2483973d948b0bdb831e"
+        },
+        {
+          "path": "outputs/mcp-jarvis/baseline-render-1.png",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/baseline-render-1.png",
+          "bytes": 68482,
+          "sha256": "046472a81aa2eb97e2c58de4131c052a65a562e961edeb11110a2a7cce9fed80"
+        },
+        {
+          "path": "outputs/mcp-jarvis/revision-render-0.png",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/revision-render-0.png",
+          "bytes": 203142,
+          "sha256": "5ca63b6e1329e60d6f9b982818c7984c86354a7e2deb9a1bd69975cf68739eff"
+        },
+        {
+          "path": "outputs/mcp-jarvis/revision-render-1.png",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/revision-render-1.png",
+          "bytes": 68398,
+          "sha256": "01e7416823d200bfacc8c40d5c90ceee3058f6f441b195cb047990a4cafd1691"
+        },
+        {
+          "path": "outputs/mcp-jarvis/baseline-export-original.step",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/baseline-export-original.step",
+          "bytes": 64436,
+          "sha256": "e326330462bfcccddf6ad2ffe538822e211689e860cd144e89a89df36a7c17e5"
+        },
+        {
+          "path": "outputs/mcp-jarvis/revision-export-original.step",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/revision-export-original.step",
+          "bytes": 64436,
+          "sha256": "e3b947a3cf325706ee6b9d6b4150c59b524e7ccdd243e41568e22bc4840b4846"
+        },
+        {
+          "path": "outputs/mcp-jarvis/baseline-validation.json",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/baseline-validation.json",
+          "bytes": 3160,
+          "sha256": "38fd0549b56724b18713d042232a85afcd5e4c20d85a834c0659ead45cfd2a9c"
+        },
+        {
+          "path": "outputs/mcp-jarvis/revision-validation.json",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/revision-validation.json",
+          "bytes": 3160,
+          "sha256": "b9f6842856e817ae797807d08d8f8d2d71536a8d999db7f6c82267ad9dcc8f7f"
+        },
+        {
+          "path": "outputs/mcp-jarvis/baseline-outputs.json",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/baseline-outputs.json",
+          "bytes": 1197,
+          "sha256": "96e97fb686cd16d0636d7a1a58004ebcaf6d5023d4c765fe7635a0659ea32268"
+        },
+        {
+          "path": "outputs/mcp-jarvis/revision-outputs.json",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/revision-outputs.json",
+          "bytes": 1197,
+          "sha256": "0060b6b9a9f60b0cea791a1af606d3ea0995bdbf34c4077d6da2070f323581be"
+        },
+        {
+          "path": "outputs/mcp-jarvis/intake.fs",
+          "original": "trials/mcp/second-server/runs/2026-09-11T12-31-16.089Z-851ac40f/intake.fs",
+          "bytes": 6056,
+          "sha256": "e982296abbd901a4f8d92399e2bc2aee344dccc544468c8562e4e05fb024a13a"
+        }
+      ]
+    }
+  ]
+}

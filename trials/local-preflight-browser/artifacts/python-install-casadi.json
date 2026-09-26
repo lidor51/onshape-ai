@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\Scripts\\python.exe",
+  "arguments": [
+    "-I",
+    "-m",
+    "pip",
+    "--isolated",
+    "--disable-pip-version-check",
+    "install",
+    "--no-input",
+    "--progress-bar",
+    "off",
+    "--no-deps",
+    "--index-url",
+    "https://pypi.org/simple",
+    "casadi==3.7.2"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Collecting casadi==3.7.2\r\n  Using cached casadi-3.7.2-cp310-none-win_amd64.whl (51.0 MB)\r\nInstalling collected packages: casadi\r\nSuccessfully installed casadi-3.7.2\r\n",
+  "stderr": "WARNING: Ignoring invalid distribution -asadi (c:\\users\\lidor\\frc\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages)\r\nWARNING: Ignoring invalid distribution -asadi (c:\\users\\lidor\\frc\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages)\r\nWARNING: Ignoring invalid distribution -asadi (c:\\users\\lidor\\frc\\onshape-ai\\trials\\local-preflight-browser\\.venv\\lib\\site-packages)\r\n",
+  "wallTimeMs": 8412.6626,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0
+}

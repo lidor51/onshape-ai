@@ -1,0 +1,44 @@
+{
+  "status": "PASS_DIAGNOSTIC_INTEGRITY_NOT_MECHANICAL_APPROVAL",
+  "started": "2026-09-13T09:59:39.619Z",
+  "ended": "2026-09-13T09:59:39.796Z",
+  "exitCode": 0,
+  "tests": [
+    {
+      "name": "Every frozen source and artifact hash matches",
+      "status": "PASS"
+    },
+    {
+      "name": "Original vendor bytes and all 56 rigid placements are preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "Both generated export sets and independent assembly readbacks pass",
+      "status": "PASS"
+    },
+    {
+      "name": "510 occurrences include five references and retain member-level group mapping",
+      "status": "PASS"
+    },
+    {
+      "name": "All occurrence connectors and the three editable controls are emitted",
+      "status": "PASS"
+    },
+    {
+      "name": "Focused mount, mesh and inlet repairs pass without hiding the motor presentation collision",
+      "status": "PASS"
+    },
+    {
+      "name": "Full sweep retains timeout, all-pairs coverage and measured blockers",
+      "status": "PASS"
+    },
+    {
+      "name": "Six VTK depth previews are nonblank and hash verified",
+      "status": "PASS"
+    },
+    {
+      "name": "Packet gate and mechanical incompleteness remain explicitly blocked",
+      "status": "PASS"
+    }
+  ]
+}

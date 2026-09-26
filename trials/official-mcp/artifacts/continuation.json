@@ -1,0 +1,112 @@
+{
+  "asOf": "2026-09-11",
+  "firstRecordedAt": "2026-09-11T14:01:49.643Z",
+  "timing": {
+    "fullContinuationElapsedMs": null,
+    "limitation": "Initial context reads preceded the first recorded clock. A later timestamp command returned unrelated concurrent-terminal output and was excluded, without importing that output as trial evidence.",
+    "firstFullLocalVerification": {"startedAt": "2026-09-11T14:05:27.645Z", "elapsedMs": 2276, "tests": 21, "passed": 21, "failed": 0},
+    "latestLocalVerificationEvidence": "local-validation.json"
+  },
+  "trial": "official-mcp",
+  "status": "BLOCKED",
+  "blocker": "REQUIRED_TOOL_SEARCH_NOT_CALLABLE",
+  "additionalModelWriteBlocker": "DEDICATED_PUBLIC_SANDBOX_NOT_ESTABLISHED",
+  "trialLabel": "Independent GPT-6 Astra continuation requested by user",
+  "modelIdentityIndependentlyVerified": false,
+  "serverName": "onshape-official-featurescript",
+  "hypothesis": "The supplied official execution contracts alone do not enforce the new-public-synthetic scope; source writes must remain blocked without positive sandbox metadata.",
+  "cheapDiscriminatingCheck": "Inspect the exposed input contracts and official public guides for an explicit public target and positive sandbox visibility/provenance; verify the required loader is callable before invoking deferred tools.",
+  "result": "No tool_search entry is callable. create_geometry exposes only feature_name, feature_code, and clean; fetched guides do not establish the managed sandbox as dedicated/public.",
+  "authentication": {
+    "userReportedSubscriptionCompleted": true,
+    "userReportedStandardClientOAuthCompleted": true,
+    "parentReportedSuccessfulOfficialUsageCall": true,
+    "observedDirectlyInThisContinuation": false,
+    "historicalUnsigned401SupersededAsCurrentDiagnosis": true
+  },
+  "quota": {
+    "initialObservationSource": "Parent handoff: successful official get_api_usage immediately before continuation",
+    "initial": {
+      "used": 269,
+      "limit": 2500,
+      "remaining": 2231,
+      "allocation": "personal",
+      "cycleStartDate": "2026-01-02",
+      "cycleEndDate": "2027-01-02",
+      "overageFlagReported": false
+    },
+    "endObservation": null,
+    "observedDelta": null,
+    "exactSelfRestRequests": null,
+    "endCheckStatus": "BLOCKED_REQUIRED_TOOL_SEARCH_NOT_CALLABLE",
+    "limitation": "No initial usage check repeated. End usage check could not be loaded. Parent remaining value is not a current balance; concurrent activity is unknown. Official invocations may make multiple internal REST calls."
+  },
+  "authorization": {
+    "maximumFurtherOfficialToolInvocations": 12,
+    "maximumRetainedGeometryBranches": 2,
+    "compilerRetryLimit": 2,
+    "planningReserveRequests": 100,
+    "separateOtherNewRequests": 200,
+    "untouchedSafetyReserveRequests": 500,
+    "newPublicSyntheticOnly": true,
+    "managedSandboxAndNotesProvisioningAllowed": true,
+    "explicitPublicFlagRequired": true,
+    "positiveVisibilityVerificationRequired": true,
+    "cleanMustBeExplicitlyFalse": true,
+    "deletionAllowed": false,
+    "priorDocumentMutationAllowed": false
+  },
+  "officialInvocations": [],
+  "officialInvocationCount": 0,
+  "compilerAttempts": 0,
+  "compilerRetries": 0,
+  "retainedGeometryBranches": [],
+  "sandboxIdentifiers": null,
+  "sandboxDedicated": null,
+  "sandboxPublic": null,
+  "detectedLibraryVersion": null,
+  "sourceReadiness": {
+    "source": "../intake.fs",
+    "existingVersion": 2500,
+    "sourceModifiedInContinuation": false,
+    "sourceBindingEvidence": ["baseline.json", "revision.json", "local-validation.json"],
+    "notesReadThroughOfficialTool": false,
+    "secondDefineFeatureArgumentDefaultsPresent": false,
+    "testFeatureCommonImportPresent": false,
+    "serverCompilation": "UNVERIFIED",
+    "pendingAdaptation": "Read official notes, add explicit defaults/common import for tool compliance, and compiler-test while preserving existing 2500 unless empirical mismatch. No source write before scope is established."
+  },
+  "nonOfficialObservations": [
+    {
+      "tool": "fetch_webpage",
+      "parameters": {"urls": ["https://www.onshape.com/en/blog/get-started-featurescript-mcp-server"], "query": "FeatureScript MCP server managed sandbox dedicated document public visibility clean cleanup new workspace configured version test_featurescript tools"},
+      "result": "Content retrieved; describes user-created test document with Part Studio and Feature Studio; no positive managed-sandbox visibility/provenance evidence in returned content.",
+      "onshapeAllocationAttribution": "Not an official MCP invocation; no authenticated REST fallback"
+    },
+    {
+      "tool": "fetch_webpage",
+      "parameters": {"urls": ["https://www.onshape.com/en/blog/featurescript-mcp-server-enables-text-code-cad"], "query": "Official FeatureScript MCP server sandbox test Part Studio public private document visibility sandbox ownership API allocation cleanup tools"},
+      "result": "Content retrieved; verifies official Onshape Labs endpoint and HTTP transport; does not establish public sandbox scope.",
+      "onshapeAllocationAttribution": "Not an official MCP invocation; no authenticated REST fallback"
+    }
+  ],
+  "acceptance": {
+    "baselineParametersExpectedMm": {"innerWidth": 340, "rollerGap": 100},
+    "revisionParametersExpectedMm": {"innerWidth": 360, "rollerGap": 95},
+    "expectedSolids": 9,
+    "expectedHolesPerPlate": 5,
+    "serverPartCount": null,
+    "serverBounds": null,
+    "serverHoleMeasurements": null,
+    "serverFeatureDiagnostics": null,
+    "serverBomExclusion": null,
+    "sameDocumentRevision": "UNVERIFIED",
+    "newBranchRevisionLimitation": "create_geometry makes a new branch per invocation. No exposed Part Studio parameter-edit tool; two creates would not prove in-place revision.",
+    "persistedModelReadback": null,
+    "documentUrl": null,
+    "imageUrl": null,
+    "stepExportUrl": null
+  },
+  "humanInterventions": {"duringContinuation": 0, "priorReported": ["Subscribed to official service", "Started server and completed client OAuth"], "questionsAsked": 0},
+  "boundary": "Restore the required loader, then establish dedicated public sandbox identity/visibility before any model source write. No cleanup, raw network, REST fallback, credential access, browser modeling, sibling reads, delegation, commits, or shared edits."
+}

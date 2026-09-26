@@ -1,0 +1,8612 @@
+[
+  {
+    "id": "01",
+    "title": "Kicker and fixed V",
+    "family": "Compact rollers lift; fixed V guides orient",
+    "summary": "Three transverse contacts pull coral over a supported ramp into fixed V guide banks and a low receiver. UNTESTED sketch proposal.",
+    "advantage": "Separating pickup and orientation may keep the moving nose small and the receiver pose repeatable.",
+    "risk": "A passive V can wedge a crosswise coral; contact gaps between the pickup, kicker and exit roll may cause dead spots.",
+    "firstTest": "Hand-feed slow, offset and crosswise coral through a flat-stock mockup; check each contact transition and receiver-absent hold.",
+    "complexity": "low",
+    "inspiration": "1690's reported pickup/orientation separation and installed dead spot motivate this proposal, not a geometry replica or performance claim.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -445,
+              0
+            ],
+            [
+              -365,
+              34
+            ],
+            [
+              -235,
+              113
+            ],
+            [
+              -100,
+              175
+            ],
+            [
+              20,
+              193
+            ],
+            [
+              125,
+              203
+            ],
+            [
+              290,
+              203
+            ],
+            [
+              290,
+              193
+            ],
+            [
+              125,
+              193
+            ],
+            [
+              20,
+              183
+            ],
+            [
+              -100,
+              165
+            ],
+            [
+              -235,
+              103
+            ],
+            [
+              -365,
+              24
+            ],
+            [
+              -445,
+              0
+            ]
+          ],
+          "label": "Ramp and continuous lower guide"
+        },
+        {
+          "points": [
+            [
+              20,
+              193
+            ],
+            [
+              290,
+              193
+            ],
+            [
+              290,
+              211
+            ],
+            [
+              20,
+              211
+            ],
+            [
+              20,
+              193
+            ]
+          ],
+          "label": "Fixed V bank support beneath path"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -417,
+            173
+          ],
+          "radius": 28,
+          "label": "Pickup roll"
+        },
+        {
+          "center": [
+            -268,
+            266
+          ],
+          "radius": 32,
+          "label": "Kicker roll"
+        },
+        {
+          "center": [
+            135,
+            345
+          ],
+          "radius": 28,
+          "label": "Fixed exit roll"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              -60,
+              180
+            ],
+            [
+              -390,
+              115
+            ]
+          ],
+          "label": "Nose carrier"
+        }
+      ],
+      "pivot": [
+        -60,
+        180
+      ],
+      "ghost": [
+        [
+          [
+            -60,
+            180
+          ],
+          [
+            110,
+            535
+          ],
+          [
+            245,
+            450
+          ],
+          [
+            15,
+            180
+          ],
+          [
+            -60,
+            180
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -425,
+          57.15
+        ],
+        [
+          -365,
+          104
+        ],
+        [
+          -235,
+          183
+        ],
+        [
+          -100,
+          237
+        ],
+        [
+          20,
+          250
+        ],
+        [
+          125,
+          260
+        ],
+        [
+          260,
+          260
+        ]
+      ],
+      "receiver": {
+        "center": [
+          260,
+          260
+        ],
+        "label": "Low jaw placeholder"
+      },
+      "labels": [
+        {
+          "at": [
+            -440,
+            380
+          ],
+          "text": "Pickup + kicker"
+        },
+        {
+          "at": [
+            65,
+            390
+          ],
+          "text": "Fixed V orienter; see plan"
+        },
+        {
+          "at": [
+            -75,
+            115
+          ],
+          "text": "Common bumper intact"
+        },
+        {
+          "at": [
+            -90,
+            430
+          ],
+          "text": "Dashed: proposed stow, not a sweep"
+        },
+        {
+          "at": [
+            10,
+            60
+          ],
+          "text": "Center over bumper >=232; 9.85 mm sketch margin"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -245,
+              -445
+            ],
+            [
+              245,
+              -445
+            ],
+            [
+              245,
+              -389
+            ],
+            [
+              -245,
+              -389
+            ],
+            [
+              -245,
+              -445
+            ]
+          ],
+          "label": "Transverse pickup roll band"
+        },
+        {
+          "points": [
+            [
+              -225,
+              -300
+            ],
+            [
+              225,
+              -300
+            ],
+            [
+              225,
+              -236
+            ],
+            [
+              -225,
+              -236
+            ],
+            [
+              -225,
+              -300
+            ]
+          ],
+          "label": "Transverse kicker band"
+        },
+        {
+          "points": [
+            [
+              -255,
+              -80
+            ],
+            [
+              -72,
+              130
+            ],
+            [
+              -72,
+              315
+            ],
+            [
+              -90,
+              315
+            ],
+            [
+              -90,
+              145
+            ],
+            [
+              -275,
+              -80
+            ],
+            [
+              -255,
+              -80
+            ]
+          ],
+          "label": "Left fixed V guide bank"
+        },
+        {
+          "points": [
+            [
+              255,
+              -80
+            ],
+            [
+              72,
+              130
+            ],
+            [
+              72,
+              315
+            ],
+            [
+              90,
+              315
+            ],
+            [
+              90,
+              145
+            ],
+            [
+              275,
+              -80
+            ],
+            [
+              255,
+              -80
+            ]
+          ],
+          "label": "Right fixed V guide bank"
+        },
+        {
+          "points": [
+            [
+              -65,
+              107
+            ],
+            [
+              65,
+              107
+            ],
+            [
+              65,
+              163
+            ],
+            [
+              -65,
+              163
+            ],
+            [
+              -65,
+              107
+            ]
+          ],
+          "label": "Transverse exit roll band"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -275,
+          -445
+        ],
+        [
+          275,
+          -445
+        ],
+        [
+          275,
+          -60
+        ],
+        [
+          -275,
+          -60
+        ],
+        [
+          -275,
+          -445
+        ]
+      ],
+      "path": [
+        [
+          -70,
+          -425
+        ],
+        [
+          -40,
+          -365
+        ],
+        [
+          -25,
+          -235
+        ],
+        [
+          0,
+          -100
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          125
+        ],
+        [
+          0,
+          260
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          260
+        ],
+        "label": "Along-robot jaw placeholder"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -235,
+            -350
+          ],
+          "text": "510 mm mouth intent"
+        },
+        {
+          "at": [
+            -260,
+            365
+          ],
+          "text": "Fixed V banks aim for along-robot coral"
+        },
+        {
+          "at": [
+            -260,
+            420
+          ],
+          "text": "Orientation is proposed, not demonstrated"
+        }
+      ]
+    },
+    "mouthWidthMm": 510,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: nose down, rollers feed supported ramp. Hold: exit roll retains one coral in fixed V. Offer: release only to a ready receiver. Whole-robot occupancy blocks a second coral. Dashed ghost is a proposed nose stow position, not verified motion or a full sweep. Common bumper ring stays intact; an internal bellypan recess is optional, never a bumper cutout. Flat router-cut aluminum/polycarbonate, turned shafts and printed guide inserts; no accurate bends. All coordinates are approximate mm. Over y=-85..0, center z>=232 uses 165+57.15+9.85 mm; this is only a center-path heuristic, not full-length or 3D clearance. Traction, yaw, retention, loads and legality remain unknown."
+  },
+  {
+    "id": "02",
+    "title": "Opposed belts and cradle",
+    "family": "Short opposing belt runs lift into a fixed cradle",
+    "summary": "An upper and lower belt run carry coral up a short incline, then offer it crosswise into a fixed supported cradle. UNTESTED proposal.",
+    "advantage": "Opposed moving surfaces may maintain contact through the climb while a fixed cradle decouples pickup from receiver timing.",
+    "risk": "Belt tracking, unequal speed and the floating upper mount can skew or pinch coral; the belt-to-cradle transition is unproven.",
+    "firstTest": "Mock up both opposed belt runs with adjustable upper float; feed low-speed skewed coral and inspect exit support and jam reversal.",
+    "complexity": "moderate",
+    "inspiration": "2056's reported jam-handling lesson and 6328's receiver-waiting lesson motivate this belt alternative; neither establishes this geometry or performance.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -440,
+              0
+            ],
+            [
+              -330,
+              73
+            ],
+            [
+              -325,
+              64
+            ],
+            [
+              -430,
+              0
+            ],
+            [
+              -440,
+              0
+            ]
+          ],
+          "label": "Entry ramp"
+        },
+        {
+          "points": [
+            [
+              -326,
+              83
+            ],
+            [
+              -96,
+              207
+            ],
+            [
+              -76,
+              169
+            ],
+            [
+              -306,
+              45
+            ],
+            [
+              -326,
+              83
+            ]
+          ],
+          "label": "LOWER opposed belt loop; supports path"
+        },
+        {
+          "points": [
+            [
+              -401,
+              222
+            ],
+            [
+              -171,
+              346
+            ],
+            [
+              -151,
+              308
+            ],
+            [
+              -381,
+              184
+            ],
+            [
+              -401,
+              222
+            ]
+          ],
+          "label": "UPPER opposed belt loop; floating contact"
+        },
+        {
+          "points": [
+            [
+              -110,
+              205
+            ],
+            [
+              10,
+              218
+            ],
+            [
+              310,
+              218
+            ],
+            [
+              310,
+              208
+            ],
+            [
+              10,
+              208
+            ],
+            [
+              -110,
+              195
+            ],
+            [
+              -110,
+              205
+            ]
+          ],
+          "label": "Exit bridge and fixed cradle floor"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -316,
+            64
+          ],
+          "radius": 22,
+          "label": "Lower entry pulley"
+        },
+        {
+          "center": [
+            -86,
+            188
+          ],
+          "radius": 22,
+          "label": "Lower exit pulley"
+        },
+        {
+          "center": [
+            -391,
+            203
+          ],
+          "radius": 22,
+          "label": "Upper entry pulley"
+        },
+        {
+          "center": [
+            -161,
+            327
+          ],
+          "radius": 22,
+          "label": "Upper exit pulley"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              -50,
+              215
+            ],
+            [
+              -316,
+              64
+            ]
+          ],
+          "label": "Belt cassette carrier"
+        },
+        {
+          "points": [
+            [
+              -65,
+              350
+            ],
+            [
+              -161,
+              327
+            ]
+          ],
+          "label": "Upper floating mount proposal"
+        }
+      ],
+      "pivot": [
+        -50,
+        215
+      ],
+      "ghost": [
+        [
+          [
+            -50,
+            215
+          ],
+          [
+            80,
+            570
+          ],
+          [
+            255,
+            510
+          ],
+          [
+            95,
+            205
+          ],
+          [
+            -50,
+            215
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -425,
+          57.15
+        ],
+        [
+          -355,
+          132
+        ],
+        [
+          -235,
+          197
+        ],
+        [
+          -110,
+          265
+        ],
+        [
+          10,
+          275
+        ],
+        [
+          140,
+          275
+        ],
+        [
+          270,
+          275
+        ]
+      ],
+      "receiver": {
+        "center": [
+          270,
+          275
+        ],
+        "label": "Fixed crosswise cradle placeholder"
+      },
+      "labels": [
+        {
+          "at": [
+            -445,
+            390
+          ],
+          "text": "Two opposed belts; not a single open belt"
+        },
+        {
+          "at": [
+            -430,
+            435
+          ],
+          "text": "Upper float does not prove compression"
+        },
+        {
+          "at": [
+            50,
+            605
+          ],
+          "text": "Dashed: proposed stow; sweep UNTESTED"
+        },
+        {
+          "at": [
+            15,
+            100
+          ],
+          "text": "Intact bumper; center >=232 incl. 9.85 margin"
+        },
+        {
+          "at": [
+            110,
+            360
+          ],
+          "text": "Supported fixed cradle"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -240,
+              -338
+            ],
+            [
+              240,
+              -338
+            ],
+            [
+              240,
+              -64
+            ],
+            [
+              -240,
+              -64
+            ],
+            [
+              -240,
+              -338
+            ]
+          ],
+          "label": "Lower belt projected footprint"
+        },
+        {
+          "points": [
+            [
+              -225,
+              -413
+            ],
+            [
+              225,
+              -413
+            ],
+            [
+              225,
+              -139
+            ],
+            [
+              -225,
+              -139
+            ],
+            [
+              -225,
+              -413
+            ]
+          ],
+          "label": "Upper belt projected footprint; stacked above lower"
+        },
+        {
+          "points": [
+            [
+              -245,
+              -65
+            ],
+            [
+              -175,
+              130
+            ],
+            [
+              -175,
+              325
+            ],
+            [
+              -193,
+              325
+            ],
+            [
+              -193,
+              145
+            ],
+            [
+              -263,
+              -65
+            ],
+            [
+              -245,
+              -65
+            ]
+          ],
+          "label": "Left cradle guide bank"
+        },
+        {
+          "points": [
+            [
+              245,
+              -65
+            ],
+            [
+              175,
+              130
+            ],
+            [
+              175,
+              325
+            ],
+            [
+              193,
+              325
+            ],
+            [
+              193,
+              145
+            ],
+            [
+              263,
+              -65
+            ],
+            [
+              245,
+              -65
+            ]
+          ],
+          "label": "Right cradle guide bank"
+        },
+        {
+          "points": [
+            [
+              -175,
+              315
+            ],
+            [
+              175,
+              315
+            ],
+            [
+              175,
+              327
+            ],
+            [
+              -175,
+              327
+            ],
+            [
+              -175,
+              315
+            ]
+          ],
+          "label": "Proposed cradle stop"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -260,
+          -445
+        ],
+        [
+          260,
+          -445
+        ],
+        [
+          260,
+          -50
+        ],
+        [
+          -260,
+          -50
+        ],
+        [
+          -260,
+          -445
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -425
+        ],
+        [
+          0,
+          -355
+        ],
+        [
+          0,
+          -235
+        ],
+        [
+          0,
+          -110
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          140
+        ],
+        [
+          0,
+          270
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          270
+        ],
+        "label": "Crosswise cradle placeholder"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -235,
+            -460
+          ],
+          "text": "480 mm mouth intent"
+        },
+        {
+          "at": [
+            -235,
+            -370
+          ],
+          "text": "Belts stacked vertically; see side section"
+        },
+        {
+          "at": [
+            -260,
+            385
+          ],
+          "text": "Cradle guide banks preserve crosswise pose"
+        },
+        {
+          "at": [
+            -260,
+            430
+          ],
+          "text": "Skewed entry and passive alignment UNTESTED"
+        }
+      ]
+    },
+    "mouthWidthMm": 480,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: opposing belt surfaces feed rearward together. Upper contact floats; spring travel, preload and compression are unknown. Hold: one coral rests crosswise in a stopped cradle; receiver capture must be confirmed before offer. Whole-robot occupancy prevents a second coral. Dashed ghost proposes folding the cassette inside the chassis, not a verified stow or full sweep. Common bumper remains uncut; any recess is internal. Flat-stock side plates, turned pulley shafts and printed guides avoid precision bends. Coordinates are approximate mm. Center z>=232 over y=-85..0 includes 9.85 mm beyond bumper top plus coral radius; finite-piece clearance and contact are not verified. Belt tension, synchronization, retention and legality remain unknown."
+  },
+  {
+    "id": "03",
+    "title": "Floating nose and indexer",
+    "family": "Four-bar pickup compliance with a stationary powered indexer",
+    "summary": "A floating four-bar nose follows entry height while a supported bridge feeds a stationary indexer and low jaw. UNTESTED proposal.",
+    "advantage": "The nose may accommodate floor variation without moving the indexer or changing the intended receiver pose.",
+    "risk": "Four-bar motion changes the bridge gap and contact force; nose float can lift away from coral or hit the bumper.",
+    "firstTest": "Move a flat-stock four-bar through small floor-height changes while hand-feeding coral; inspect bridge gaps, dead spots and hold pose.",
+    "complexity": "moderate",
+    "inspiration": "6328's reported floating pickup and 1778's alignment-sensitive transfer motivate separating nose compliance from the fixed handoff; not a team replica.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -445,
+              0
+            ],
+            [
+              -365,
+              28
+            ],
+            [
+              -245,
+              108
+            ],
+            [
+              -120,
+              170
+            ],
+            [
+              -108,
+              160
+            ],
+            [
+              -245,
+              97
+            ],
+            [
+              -365,
+              18
+            ],
+            [
+              -445,
+              0
+            ]
+          ],
+          "label": "Floating nose lower ramp"
+        },
+        {
+          "points": [
+            [
+              -125,
+              171
+            ],
+            [
+              30,
+              185
+            ],
+            [
+              340,
+              185
+            ],
+            [
+              340,
+              175
+            ],
+            [
+              30,
+              175
+            ],
+            [
+              -125,
+              161
+            ],
+            [
+              -125,
+              171
+            ]
+          ],
+          "label": "Fixed bridge and indexer support"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -415,
+            170
+          ],
+          "radius": 30,
+          "label": "Floating pickup roll"
+        },
+        {
+          "center": [
+            -282,
+            265
+          ],
+          "radius": 34,
+          "label": "Nose exit roll"
+        },
+        {
+          "center": [
+            190,
+            327
+          ],
+          "radius": 28,
+          "label": "Fixed indexer top roll"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              30,
+              300
+            ],
+            [
+              -280,
+              200
+            ]
+          ],
+          "label": "Upper four-bar link"
+        },
+        {
+          "points": [
+            [
+              30,
+              210
+            ],
+            [
+              -280,
+              110
+            ]
+          ],
+          "label": "Lower four-bar link"
+        },
+        {
+          "points": [
+            [
+              -280,
+              110
+            ],
+            [
+              -280,
+              200
+            ]
+          ],
+          "label": "Moving nose upright"
+        },
+        {
+          "points": [
+            [
+              30,
+              210
+            ],
+            [
+              30,
+              300
+            ]
+          ],
+          "label": "Fixed chassis upright"
+        }
+      ],
+      "pivot": [
+        30,
+        300
+      ],
+      "ghost": [
+        [
+          [
+            30,
+            300
+          ],
+          [
+            210,
+            572
+          ]
+        ],
+        [
+          [
+            30,
+            210
+          ],
+          [
+            210,
+            482
+          ]
+        ],
+        [
+          [
+            45,
+            372
+          ],
+          [
+            125,
+            400
+          ],
+          [
+            245,
+            480
+          ],
+          [
+            370,
+            542
+          ],
+          [
+            300,
+            610
+          ],
+          [
+            100,
+            585
+          ],
+          [
+            45,
+            372
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -430,
+          57.15
+        ],
+        [
+          -365,
+          98
+        ],
+        [
+          -245,
+          180
+        ],
+        [
+          -100,
+          236
+        ],
+        [
+          30,
+          242
+        ],
+        [
+          165,
+          242
+        ],
+        [
+          295,
+          242
+        ]
+      ],
+      "receiver": {
+        "center": [
+          295,
+          242
+        ],
+        "label": "Fixed low jaw placeholder"
+      },
+      "labels": [
+        {
+          "at": [
+            -435,
+            345
+          ],
+          "text": "Floating parallelogram nose"
+        },
+        {
+          "at": [
+            80,
+            385
+          ],
+          "text": "Fixed indexer; side wheels in plan"
+        },
+        {
+          "at": [
+            -100,
+            635
+          ],
+          "text": "Dashed: proposed stow, not verified sweep"
+        },
+        {
+          "at": [
+            25,
+            85
+          ],
+          "text": "Intact bumper; center >=232 incl. 9.85 margin"
+        },
+        {
+          "at": [
+            -445,
+            405
+          ],
+          "text": "Floating contact; preload remains unknown"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -260,
+              -445
+            ],
+            [
+              260,
+              -445
+            ],
+            [
+              260,
+              -385
+            ],
+            [
+              -260,
+              -385
+            ],
+            [
+              -260,
+              -445
+            ]
+          ],
+          "label": "Transverse floating pickup roll band"
+        },
+        {
+          "points": [
+            [
+              -240,
+              -316
+            ],
+            [
+              240,
+              -316
+            ],
+            [
+              240,
+              -248
+            ],
+            [
+              -240,
+              -248
+            ],
+            [
+              -240,
+              -316
+            ]
+          ],
+          "label": "Transverse nose exit roll band"
+        },
+        {
+          "points": [
+            [
+              -255,
+              -95
+            ],
+            [
+              -65,
+              95
+            ],
+            [
+              -82,
+              108
+            ],
+            [
+              -275,
+              -95
+            ],
+            [
+              -255,
+              -95
+            ]
+          ],
+          "label": "Left fixed indexer entry bank"
+        },
+        {
+          "points": [
+            [
+              255,
+              -95
+            ],
+            [
+              65,
+              95
+            ],
+            [
+              82,
+              108
+            ],
+            [
+              275,
+              -95
+            ],
+            [
+              255,
+              -95
+            ]
+          ],
+          "label": "Right fixed indexer entry bank"
+        },
+        {
+          "points": [
+            [
+              -65,
+              162
+            ],
+            [
+              65,
+              162
+            ],
+            [
+              65,
+              218
+            ],
+            [
+              -65,
+              218
+            ],
+            [
+              -65,
+              162
+            ]
+          ],
+          "label": "Transverse fixed top roll band"
+        },
+        {
+          "points": [
+            [
+              -70,
+              235
+            ],
+            [
+              -70,
+              360
+            ],
+            [
+              -88,
+              360
+            ],
+            [
+              -88,
+              235
+            ],
+            [
+              -70,
+              235
+            ]
+          ],
+          "label": "Left fixed receiver rail"
+        },
+        {
+          "points": [
+            [
+              70,
+              235
+            ],
+            [
+              70,
+              360
+            ],
+            [
+              88,
+              360
+            ],
+            [
+              88,
+              235
+            ],
+            [
+              70,
+              235
+            ]
+          ],
+          "label": "Right fixed receiver rail"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -86,
+            170
+          ],
+          "radius": 29,
+          "label": "Left vertical-axis index wheel"
+        },
+        {
+          "center": [
+            86,
+            170
+          ],
+          "radius": 29,
+          "label": "Right vertical-axis index wheel"
+        }
+      ],
+      "movingOutline": [
+        [
+          -280,
+          -445
+        ],
+        [
+          280,
+          -445
+        ],
+        [
+          280,
+          -110
+        ],
+        [
+          -280,
+          -110
+        ],
+        [
+          -280,
+          -445
+        ]
+      ],
+      "path": [
+        [
+          60,
+          -430
+        ],
+        [
+          40,
+          -365
+        ],
+        [
+          20,
+          -245
+        ],
+        [
+          0,
+          -100
+        ],
+        [
+          0,
+          30
+        ],
+        [
+          0,
+          165
+        ],
+        [
+          0,
+          295
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          295
+        ],
+        "label": "Along-robot fixed jaw placeholder"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -260,
+            -350
+          ],
+          "text": "520 mm floating mouth intent"
+        },
+        {
+          "at": [
+            -285,
+            405
+          ],
+          "text": "Fixed guide banks + powered side index wheels"
+        },
+        {
+          "at": [
+            -285,
+            450
+          ],
+          "text": "Along-robot offer; yaw control UNTESTED"
+        }
+      ]
+    },
+    "mouthWidthMm": 520,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: linked nose floats on unknown spring/preload settings; upper contact is not guaranteed compression. Hold: stationary indexer retains and orients one coral. Offer: fixed jaw accepts only after pose and receiver-ready checks. Whole-robot occupancy inhibits a second coral. Ghost lines show a proposed raised four-bar stow position only, not a verified linkage sweep or clearance result. Bumper ring stays intact; internal flat-stock chassis recess is optional. Router-cut parallel plates, turned spacers and printed guide lips require no accurate bends. Approximate mm coordinates use center z>=232 across y=-85..0, including 9.85 mm sketch margin above top plus coral radius. Moving bridge support, full coral envelope, loads, retention and legality remain unknown."
+  },
+  {
+    "id": "04",
+    "title": "Pivot Scoop",
+    "family": "Pivoting roller scoop with direct receiver pickup",
+    "summary": "Capture one crosswise coral at the floor, rotate the whole scoop, and let the receiver take it directly without a separate conveyor.",
+    "advantage": "The same scoop captures and carries the piece; a low inner pivot avoids a tall fixed receiver tower.",
+    "risk": "Coral may fall from the rotating scoop. Retention, dogleg arm clearance and the receiver grip are unverified.",
+    "firstTest": "Rotate a cardboard scoop around the proposed pivot with one pipe and a full bumper block; test retention and direct receiver access.",
+    "complexity": "moderate",
+    "inspiration": "Independent pivot-scoop hypothesis for the team shop; not a reproduction of a team's geometry.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -480,
+              0
+            ],
+            [
+              760,
+              0
+            ]
+          ],
+          "label": "Ground reference"
+        },
+        {
+          "points": [
+            [
+              0,
+              45
+            ],
+            [
+              760,
+              45
+            ],
+            [
+              760,
+              130
+            ],
+            [
+              0,
+              130
+            ],
+            [
+              0,
+              45
+            ]
+          ],
+          "label": "Blank chassis reference"
+        },
+        {
+          "points": [
+            [
+              -85,
+              45
+            ],
+            [
+              0,
+              45
+            ],
+            [
+              0,
+              165
+            ],
+            [
+              -85,
+              165
+            ],
+            [
+              -85,
+              45
+            ]
+          ],
+          "label": "Continuous front bumper reference"
+        },
+        {
+          "points": [
+            [
+              -457.2,
+              0
+            ],
+            [
+              -457.2,
+              460
+            ]
+          ],
+          "label": "Extension guide from robot perimeter"
+        },
+        {
+          "points": [
+            [
+              -400,
+              5
+            ],
+            [
+              -140,
+              5
+            ],
+            [
+              -140,
+              110
+            ]
+          ],
+          "label": "Moving scoop floor and backstop"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -390,
+            63.5
+          ],
+          "radius": 63.5,
+          "label": "127 mm pickup roll"
+        },
+        {
+          "center": [
+            -150,
+            63.5
+          ],
+          "radius": 63.5,
+          "label": "127 mm retaining roll"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              0,
+              80
+            ],
+            [
+              20,
+              195
+            ],
+            [
+              -150,
+              195
+            ],
+            [
+              -150,
+              63.5
+            ],
+            [
+              -390,
+              63.5
+            ]
+          ],
+          "label": "Moving router-cut dogleg arm; sweep unknown"
+        }
+      ],
+      "pivot": [
+        0,
+        80
+      ],
+      "ghost": [
+        [
+          [
+            60,
+            220
+          ],
+          [
+            220,
+            220
+          ],
+          [
+            245,
+            360
+          ],
+          [
+            80,
+            390
+          ],
+          [
+            60,
+            220
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -270,
+          57.15
+        ],
+        [
+          -270.96,
+          80
+        ],
+        [
+          -266,
+          131.64
+        ],
+        [
+          -235,
+          214.88
+        ],
+        [
+          -180,
+          282.54
+        ],
+        [
+          -100,
+          331.84
+        ],
+        [
+          -85,
+          337.29
+        ],
+        [
+          0,
+          350.97
+        ],
+        [
+          80,
+          338.89
+        ],
+        [
+          140,
+          312
+        ]
+      ],
+      "receiver": {
+        "center": [
+          140,
+          312
+        ],
+        "label": "Direct jaw envelope; crosswise offer"
+      },
+      "labels": [
+        {
+          "at": [
+            -310,
+            32
+          ],
+          "text": "Floor pickup: center z=57.15"
+        },
+        {
+          "at": [
+            40,
+            85
+          ],
+          "text": "Inner pivot z=80; axis across x"
+        },
+        {
+          "at": [
+            -120,
+            410
+          ],
+          "text": "Carry by rotation, not rolling transfer"
+        },
+        {
+          "at": [
+            80,
+            465
+          ],
+          "text": "Dashed offer outline: pose proposal only"
+        },
+        {
+          "at": [
+            320,
+            350
+          ],
+          "text": "Handoff y=140, z=312; plan yaw 90"
+        },
+        {
+          "at": [
+            260,
+            70
+          ],
+          "text": "Full stow UNKNOWN"
+        },
+        {
+          "at": [
+            -150,
+            490
+          ],
+          "text": "Bumper-band center >=232; sketch margin >=9.85 mm"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -435,
+              -85
+            ],
+            [
+              435,
+              -85
+            ],
+            [
+              435,
+              845
+            ],
+            [
+              -435,
+              845
+            ],
+            [
+              -435,
+              -85
+            ]
+          ],
+          "label": "Full outer bumper ring reference"
+        },
+        {
+          "points": [
+            [
+              -350,
+              0
+            ],
+            [
+              350,
+              0
+            ],
+            [
+              350,
+              760
+            ],
+            [
+              -350,
+              760
+            ],
+            [
+              -350,
+              0
+            ]
+          ],
+          "label": "Chassis perimeter and inner bumper reference"
+        },
+        {
+          "points": [
+            [
+              -350,
+              -457.2
+            ],
+            [
+              350,
+              -457.2
+            ]
+          ],
+          "label": "Front extension guide"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -453.5
+            ],
+            [
+              250,
+              -453.5
+            ],
+            [
+              250,
+              -326.5
+            ],
+            [
+              -250,
+              -326.5
+            ],
+            [
+              -250,
+              -453.5
+            ]
+          ],
+          "label": "Transverse pickup roll band"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -213.5
+            ],
+            [
+              250,
+              -213.5
+            ],
+            [
+              250,
+              -86.5
+            ],
+            [
+              -250,
+              -86.5
+            ],
+            [
+              -250,
+              -213.5
+            ]
+          ],
+          "label": "Transverse retaining roll band"
+        },
+        {
+          "points": [
+            [
+              -240,
+              0
+            ],
+            [
+              240,
+              0
+            ]
+          ],
+          "label": "Scoop pivot axis across x"
+        },
+        {
+          "points": [
+            [
+              -150.8125,
+              140
+            ],
+            [
+              150.8125,
+              140
+            ]
+          ],
+          "label": "Final coral axis: 301.625 mm crosswise"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -250,
+          -453.5
+        ],
+        [
+          250,
+          -453.5
+        ],
+        [
+          250,
+          -86.5
+        ],
+        [
+          240,
+          20
+        ],
+        [
+          -240,
+          20
+        ],
+        [
+          -250,
+          -86.5
+        ],
+        [
+          -250,
+          -453.5
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -270
+        ],
+        [
+          0,
+          -270.96
+        ],
+        [
+          0,
+          -266
+        ],
+        [
+          0,
+          -235
+        ],
+        [
+          0,
+          -180
+        ],
+        [
+          0,
+          -100
+        ],
+        [
+          0,
+          -85
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ],
+        [
+          0,
+          140
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          140
+        ],
+        "label": "Centered crosswise jaw envelope"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -240,
+            -280
+          ],
+          "text": "500 mm mouth intent"
+        },
+        {
+          "at": [
+            -240,
+            235
+          ],
+          "text": "Offer axis x; yaw 90, no yaw conversion"
+        },
+        {
+          "at": [
+            -240,
+            325
+          ],
+          "text": "Two roll circles in side; bands here"
+        }
+      ]
+    },
+    "mouthWidthMm": 500,
+    "states": "Pickup: one crosswise coral ahead of the bumper. Hold: roll pair and scoop carry about the low x-axis pivot. Offer: direct receiver grip at y=140. Whole-robot occupancy must inhibit a second coral. Retention, contact, arm sweep, loads, legality and full stow are unverified; dashed outline is a pose proposal, not a mechanical pass. Flat plates and printed guides; no precision bends."
+  },
+  {
+    "id": "05",
+    "title": "Rising Drawer",
+    "family": "Translating pickup drawer with captive cam rise",
+    "summary": "Extend a rolling drawer nose to the floor, capture crosswise coral, then retract along a rising cam before translating above the bumper.",
+    "advantage": "Translation preserves crosswise orientation and reaches a rearward receiver without swinging the entire intake through a large arc.",
+    "risk": "The captive rise cam is the major complexity. Follower binding, required drive force, drawer sag and full stow are unverified.",
+    "firstTest": "Slide a flat-stock drawer through a cardboard cam track beside an intact bumper block; check nose rise, binding and pipe retention.",
+    "complexity": "high",
+    "inspiration": "Independent cam-guided drawer hypothesis using router-cut tracks and flat stock; not a team geometry copy.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -480,
+              0
+            ],
+            [
+              760,
+              0
+            ]
+          ],
+          "label": "Ground reference"
+        },
+        {
+          "points": [
+            [
+              0,
+              45
+            ],
+            [
+              760,
+              45
+            ],
+            [
+              760,
+              130
+            ],
+            [
+              0,
+              130
+            ],
+            [
+              0,
+              45
+            ]
+          ],
+          "label": "Blank chassis reference"
+        },
+        {
+          "points": [
+            [
+              -85,
+              45
+            ],
+            [
+              0,
+              45
+            ],
+            [
+              0,
+              165
+            ],
+            [
+              -85,
+              165
+            ],
+            [
+              -85,
+              45
+            ]
+          ],
+          "label": "Continuous front bumper reference"
+        },
+        {
+          "points": [
+            [
+              -457.2,
+              0
+            ],
+            [
+              -457.2,
+              460
+            ]
+          ],
+          "label": "Extension guide from robot perimeter"
+        },
+        {
+          "points": [
+            [
+              -405,
+              5
+            ],
+            [
+              -175,
+              5
+            ],
+            [
+              -155,
+              35
+            ]
+          ],
+          "label": "Moving drawer floor and retaining lip"
+        },
+        {
+          "points": [
+            [
+              -330,
+              10
+            ],
+            [
+              -305,
+              93
+            ],
+            [
+              -270,
+              178
+            ],
+            [
+              -220,
+              201
+            ],
+            [
+              -145,
+              213
+            ],
+            [
+              -60,
+              213
+            ],
+            [
+              230,
+              213
+            ]
+          ],
+          "label": "Captive rise cam: one major complexity"
+        },
+        {
+          "points": [
+            [
+              30,
+              235
+            ],
+            [
+              420,
+              235
+            ]
+          ],
+          "label": "Fixed horizontal carriage rail"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -345,
+            155
+          ],
+          "radius": 63.5,
+          "label": "127 mm overhead pickup roll"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              40,
+              235
+            ],
+            [
+              -140,
+              235
+            ],
+            [
+              -175,
+              5
+            ]
+          ],
+          "label": "Moving nose carrier; captive cam raises front"
+        },
+        {
+          "points": [
+            [
+              -345,
+              155
+            ],
+            [
+              -395,
+              155
+            ],
+            [
+              -405,
+              5
+            ],
+            [
+              -175,
+              5
+            ]
+          ],
+          "label": "Moving roller bracket and drawer"
+        },
+        {
+          "points": [
+            [
+              40,
+              235
+            ],
+            [
+              240,
+              235
+            ]
+          ],
+          "label": "Horizontal sliding carriage"
+        }
+      ],
+      "pivot": null,
+      "ghost": [
+        [
+          [
+            155,
+            208
+          ],
+          [
+            385,
+            208
+          ],
+          [
+            405,
+            238
+          ],
+          [
+            405,
+            340
+          ],
+          [
+            155,
+            340
+          ],
+          [
+            155,
+            208
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -270,
+          57.15
+        ],
+        [
+          -245,
+          140
+        ],
+        [
+          -210,
+          225
+        ],
+        [
+          -160,
+          248
+        ],
+        [
+          -85,
+          260
+        ],
+        [
+          0,
+          260
+        ],
+        [
+          140,
+          260
+        ],
+        [
+          290,
+          260
+        ]
+      ],
+      "receiver": {
+        "center": [
+          290,
+          260
+        ],
+        "label": "Rearward jaw envelope; crosswise offer"
+      },
+      "labels": [
+        {
+          "at": [
+            -310,
+            32
+          ],
+          "text": "Floor pickup ahead of bumper"
+        },
+        {
+          "at": [
+            -300,
+            365
+          ],
+          "text": "Extend forward/down; retract up/back"
+        },
+        {
+          "at": [
+            100,
+            175
+          ],
+          "text": "Rise before traverse; not a flat floor slide"
+        },
+        {
+          "at": [
+            140,
+            395
+          ],
+          "text": "Dashed raised drawer: pose proposal only"
+        },
+        {
+          "at": [
+            330,
+            295
+          ],
+          "text": "Handoff y=290, z=260; plan yaw 90"
+        },
+        {
+          "at": [
+            270,
+            70
+          ],
+          "text": "Full stow UNKNOWN"
+        },
+        {
+          "at": [
+            -150,
+            455
+          ],
+          "text": "Bumper-band center z=260: 37.85 mm sketch margin"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -435,
+              -85
+            ],
+            [
+              435,
+              -85
+            ],
+            [
+              435,
+              845
+            ],
+            [
+              -435,
+              845
+            ],
+            [
+              -435,
+              -85
+            ]
+          ],
+          "label": "Full outer bumper ring reference"
+        },
+        {
+          "points": [
+            [
+              -350,
+              0
+            ],
+            [
+              350,
+              0
+            ],
+            [
+              350,
+              760
+            ],
+            [
+              -350,
+              760
+            ],
+            [
+              -350,
+              0
+            ]
+          ],
+          "label": "Chassis perimeter and inner bumper reference"
+        },
+        {
+          "points": [
+            [
+              -350,
+              -457.2
+            ],
+            [
+              350,
+              -457.2
+            ]
+          ],
+          "label": "Front extension guide"
+        },
+        {
+          "points": [
+            [
+              -225,
+              -408.5
+            ],
+            [
+              225,
+              -408.5
+            ],
+            [
+              225,
+              -281.5
+            ],
+            [
+              -225,
+              -281.5
+            ],
+            [
+              -225,
+              -408.5
+            ]
+          ],
+          "label": "Transverse pickup roll band"
+        },
+        {
+          "points": [
+            [
+              -225,
+              30
+            ],
+            [
+              -225,
+              420
+            ]
+          ],
+          "label": "Left drawer rail"
+        },
+        {
+          "points": [
+            [
+              225,
+              30
+            ],
+            [
+              225,
+              420
+            ]
+          ],
+          "label": "Right drawer rail"
+        },
+        {
+          "points": [
+            [
+              -150.8125,
+              290
+            ],
+            [
+              150.8125,
+              290
+            ]
+          ],
+          "label": "Final coral axis: 301.625 mm crosswise"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -225,
+          -408.5
+        ],
+        [
+          225,
+          -408.5
+        ],
+        [
+          225,
+          -155
+        ],
+        [
+          225,
+          240
+        ],
+        [
+          -225,
+          240
+        ],
+        [
+          -225,
+          -155
+        ],
+        [
+          -225,
+          -408.5
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -270
+        ],
+        [
+          0,
+          -245
+        ],
+        [
+          0,
+          -210
+        ],
+        [
+          0,
+          -160
+        ],
+        [
+          0,
+          -85
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          140
+        ],
+        [
+          0,
+          290
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          290
+        ],
+        "label": "Rearward centered crosswise jaw envelope"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -215,
+            -250
+          ],
+          "text": "450 mm mouth intent"
+        },
+        {
+          "at": [
+            -200,
+            105
+          ],
+          "text": "Fore-aft translation; cam rise seen in side"
+        },
+        {
+          "at": [
+            -200,
+            400
+          ],
+          "text": "Offer axis x; yaw 90, farther rearward"
+        }
+      ]
+    },
+    "mouthWidthMm": 450,
+    "states": "Pickup: extend and lower the drawer for one crosswise coral. Hold: roll stops against the lip. Offer: captive cam raises the nose before rearward translation to y=290. Whole-robot occupancy must inhibit a second coral. Cam motion, retention, contact, clearance, loads, legality and full stow are unverified. Dashed raised outline is only a pose proposal. Flat plates and printed guides; no precision bends."
+  },
+  {
+    "id": "06",
+    "title": "Tip Cradle",
+    "family": "Powered roller capture cradle with tip-and-discharge handoff",
+    "summary": "Roll nose-in coral up a sloped cradle, hold one piece, then tip the cradle and power it into a separate lengthwise receiver.",
+    "advantage": "Powered capture and discharge are separate from the short tipping motion; the receiver stays inboard at a distinct lengthwise offer pose.",
+    "risk": "Retention and discharge gating are unclear. Coral may escape while tipping or double-feed; nose-in entry is assumed, not 360-degree yaw acceptance.",
+    "firstTest": "Use a tilting plywood cradle and two rubber rolls to capture one nose-in pipe; stop, tip and discharge while checking escape and release timing.",
+    "complexity": "moderate",
+    "inspiration": "Independent powered tipping-cradle hypothesis using flat side plates; no claim to reproduce a team's geometry.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -480,
+              0
+            ],
+            [
+              760,
+              0
+            ]
+          ],
+          "label": "Ground reference"
+        },
+        {
+          "points": [
+            [
+              0,
+              45
+            ],
+            [
+              760,
+              45
+            ],
+            [
+              760,
+              130
+            ],
+            [
+              0,
+              130
+            ],
+            [
+              0,
+              45
+            ]
+          ],
+          "label": "Blank chassis reference"
+        },
+        {
+          "points": [
+            [
+              -85,
+              45
+            ],
+            [
+              0,
+              45
+            ],
+            [
+              0,
+              165
+            ],
+            [
+              -85,
+              165
+            ],
+            [
+              -85,
+              45
+            ]
+          ],
+          "label": "Continuous front bumper reference"
+        },
+        {
+          "points": [
+            [
+              -457.2,
+              0
+            ],
+            [
+              -457.2,
+              460
+            ]
+          ],
+          "label": "Extension guide from robot perimeter"
+        },
+        {
+          "points": [
+            [
+              -410,
+              5
+            ],
+            [
+              -300,
+              5
+            ],
+            [
+              -230,
+              45
+            ],
+            [
+              -120,
+              155
+            ],
+            [
+              25,
+              175
+            ]
+          ],
+          "label": "Moving sloped cradle platform"
+        },
+        {
+          "points": [
+            [
+              90,
+              193
+            ],
+            [
+              480,
+              188
+            ]
+          ],
+          "label": "Inboard receiver support proposal"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -380,
+            147
+          ],
+          "radius": 63.5,
+          "label": "127 mm powered capture roll"
+        },
+        {
+          "center": [
+            -140,
+            273
+          ],
+          "radius": 63.5,
+          "label": "127 mm powered hold/discharge roll"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              25,
+              205
+            ],
+            [
+              -140,
+              273
+            ],
+            [
+              -380,
+              147
+            ]
+          ],
+          "label": "Moving cradle side plate and roll axes"
+        },
+        {
+          "points": [
+            [
+              25,
+              205
+            ],
+            [
+              25,
+              175
+            ],
+            [
+              -120,
+              155
+            ]
+          ],
+          "label": "Moving platform support"
+        }
+      ],
+      "pivot": [
+        25,
+        205
+      ],
+      "ghost": [
+        [
+          [
+            -310,
+            185
+          ],
+          [
+            -185,
+            238
+          ],
+          [
+            -40,
+            237
+          ],
+          [
+            80,
+            200
+          ]
+        ],
+        [
+          [
+            -215,
+            250
+          ],
+          [
+            -130,
+            355
+          ],
+          [
+            65,
+            310
+          ],
+          [
+            80,
+            200
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -300,
+          57.15
+        ],
+        [
+          -275,
+          92
+        ],
+        [
+          -230,
+          130
+        ],
+        [
+          -180,
+          160
+        ],
+        [
+          -183,
+          232.8
+        ],
+        [
+          -161,
+          302.3
+        ],
+        [
+          -85,
+          294
+        ],
+        [
+          0,
+          278
+        ],
+        [
+          90,
+          250
+        ],
+        [
+          320,
+          245
+        ]
+      ],
+      "receiver": {
+        "center": [
+          320,
+          245
+        ],
+        "label": "Lengthwise receiver envelope"
+      },
+      "labels": [
+        {
+          "at": [
+            -320,
+            32
+          ],
+          "text": "Floor pickup before ramp"
+        },
+        {
+          "at": [
+            -280,
+            330
+          ],
+          "text": "Nose-in only; coral pitches on ramp"
+        },
+        {
+          "at": [
+            -300,
+            390
+          ],
+          "text": "Capture, stop, tip, then powered discharge"
+        },
+        {
+          "at": [
+            70,
+            155
+          ],
+          "text": "Tip axis across x at y=25, z=205"
+        },
+        {
+          "at": [
+            70,
+            395
+          ],
+          "text": "Dashed stage: pose proposal, not a motion pass"
+        },
+        {
+          "at": [
+            290,
+            300
+          ],
+          "text": "Handoff y=320, z=245; plan yaw 0"
+        },
+        {
+          "at": [
+            270,
+            70
+          ],
+          "text": "Retention/gate and full stow UNKNOWN"
+        },
+        {
+          "at": [
+            -150,
+            455
+          ],
+          "text": "Bumper-band center >=278: >=55.85 mm sketch margin"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -435,
+              -85
+            ],
+            [
+              435,
+              -85
+            ],
+            [
+              435,
+              845
+            ],
+            [
+              -435,
+              845
+            ],
+            [
+              -435,
+              -85
+            ]
+          ],
+          "label": "Full outer bumper ring reference"
+        },
+        {
+          "points": [
+            [
+              -350,
+              0
+            ],
+            [
+              350,
+              0
+            ],
+            [
+              350,
+              760
+            ],
+            [
+              -350,
+              760
+            ],
+            [
+              -350,
+              0
+            ]
+          ],
+          "label": "Chassis perimeter and inner bumper reference"
+        },
+        {
+          "points": [
+            [
+              -350,
+              -457.2
+            ],
+            [
+              350,
+              -457.2
+            ]
+          ],
+          "label": "Front extension guide"
+        },
+        {
+          "points": [
+            [
+              -200,
+              -443.5
+            ],
+            [
+              200,
+              -443.5
+            ],
+            [
+              200,
+              -316.5
+            ],
+            [
+              -200,
+              -316.5
+            ],
+            [
+              -200,
+              -443.5
+            ]
+          ],
+          "label": "Transverse capture roll band"
+        },
+        {
+          "points": [
+            [
+              -200,
+              -203.5
+            ],
+            [
+              200,
+              -203.5
+            ],
+            [
+              200,
+              -76.5
+            ],
+            [
+              -200,
+              -76.5
+            ],
+            [
+              -200,
+              -203.5
+            ]
+          ],
+          "label": "Transverse discharge roll band"
+        },
+        {
+          "points": [
+            [
+              -200,
+              -410
+            ],
+            [
+              25,
+              -150
+            ],
+            [
+              25,
+              475
+            ]
+          ],
+          "label": "Nose-in left guide; acceptance unverified"
+        },
+        {
+          "points": [
+            [
+              200,
+              -410
+            ],
+            [
+              155,
+              -150
+            ],
+            [
+              155,
+              475
+            ]
+          ],
+          "label": "Nose-in right guide"
+        },
+        {
+          "points": [
+            [
+              -200,
+              25
+            ],
+            [
+              200,
+              25
+            ]
+          ],
+          "label": "Cradle tip axis across x"
+        },
+        {
+          "points": [
+            [
+              90,
+              169.1875
+            ],
+            [
+              90,
+              470.8125
+            ]
+          ],
+          "label": "Final coral axis: 301.625 mm along y"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -200,
+          -443.5
+        ],
+        [
+          200,
+          -443.5
+        ],
+        [
+          200,
+          45
+        ],
+        [
+          -200,
+          45
+        ],
+        [
+          -200,
+          -443.5
+        ]
+      ],
+      "path": [
+        [
+          90,
+          -300
+        ],
+        [
+          90,
+          -275
+        ],
+        [
+          90,
+          -230
+        ],
+        [
+          90,
+          -180
+        ],
+        [
+          90,
+          -183
+        ],
+        [
+          90,
+          -161
+        ],
+        [
+          90,
+          -85
+        ],
+        [
+          90,
+          0
+        ],
+        [
+          90,
+          90
+        ],
+        [
+          90,
+          320
+        ]
+      ],
+      "receiver": {
+        "center": [
+          90,
+          320
+        ],
+        "label": "Offset lengthwise receiver envelope"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -195,
+            -265
+          ],
+          "text": "400 mm mouth intent; nose-in entry"
+        },
+        {
+          "at": [
+            -210,
+            130
+          ],
+          "text": "Roller axes x; coral travels along y"
+        },
+        {
+          "at": [
+            -210,
+            535
+          ],
+          "text": "Offer at x=90; axis y, yaw 0"
+        },
+        {
+          "at": [
+            -210,
+            610
+          ],
+          "text": "No 360-degree yaw acceptance claim"
+        }
+      ]
+    },
+    "mouthWidthMm": 400,
+    "states": "Pickup: one nose-in coral rolls up the inclined cradle and pitches; not a flat floor path through protection. Hold: stop rolls before tipping about x. Offer: tip, then power into the lengthwise receiver at x=90, y=320. Whole-robot occupancy must inhibit a second coral. Retention, gating, yaw acceptance, contact, full sweep, loads, legality and full stow are unverified. Dashed stages are pose proposals only. Flat plates and printed guides; no precision bends."
+  },
+  {
+    "id": "07",
+    "title": "Side Door",
+    "family": "Side pickup with sideways feed above an intact bumper",
+    "summary": "Approach coral from the left side, raise it above the bumper, then feed sideways into a low tray. The side receiver needs its own chassis recess.",
+    "advantage": "Leaves the front free and offers coral sideways without turning it. Flat side plates and small guide wheels suit the team's tools.",
+    "risk": "Side pickup changes the driving approach and consumes side space. The lift, retention, and swept clearance remain unresolved.",
+    "firstTest": "Mock up the full side bumper and one tube. Test floor reach, lifting outside the band, then sideways feed at 240 mm; reject any bumper overlap.",
+    "complexity": "moderate",
+    "inspiration": "Independent side-access sketch; no team geometry copied. Flat aluminum plates, polycarbonate guards and simple shafts are provisional.",
+    "mouthWidthMm": 350,
+    "states": "Pickup at left side; hold one tube above the band; offer sideways. Whole-robot occupancy blocks a second. Lift drive, stow and jam release remain open.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              125,
+              182.85
+            ],
+            [
+              475,
+              182.85
+            ]
+          ],
+          "label": "Tray above bumper; side entry projects here"
+        },
+        {
+          "points": [
+            [
+              125,
+              190
+            ],
+            [
+              125,
+              315
+            ]
+          ],
+          "label": "Front end guide"
+        },
+        {
+          "points": [
+            [
+              475,
+              190
+            ],
+            [
+              475,
+              315
+            ]
+          ],
+          "label": "Rear end guide"
+        }
+      ],
+      "rollers": [],
+      "links": [],
+      "pivot": null,
+      "ghost": [],
+      "path": [
+        [
+          300,
+          57.15
+        ],
+        [
+          300,
+          145
+        ],
+        [
+          300,
+          240
+        ],
+        [
+          300,
+          240
+        ],
+        [
+          300,
+          240
+        ],
+        [
+          300,
+          240
+        ]
+      ],
+      "receiver": {
+        "center": [
+          300,
+          240
+        ],
+        "label": "New side-fed tray; center 240 mm"
+      },
+      "labels": [
+        {
+          "at": [
+            40,
+            400
+          ],
+          "text": "SIDE ACCESS: travel is across this view, not through the front"
+        },
+        {
+          "at": [
+            300,
+            350
+          ],
+          "text": "Same y=300; lift projects vertically as x changes"
+        },
+        {
+          "at": [
+            300,
+            30
+          ],
+          "text": "Start outside side bumper; lift before moving inward"
+        },
+        {
+          "at": [
+            320,
+            205
+          ],
+          "text": "Keep full band; tray uses an internal recess"
+        },
+        {
+          "at": [
+            320,
+            285
+          ],
+          "text": "240 center: 17.85 mm above top plus tube radius"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -595,
+              125
+            ],
+            [
+              -350,
+              125
+            ],
+            [
+              80,
+              125
+            ]
+          ],
+          "label": "350 mm side approach span, measured along y"
+        },
+        {
+          "points": [
+            [
+              -595,
+              475
+            ],
+            [
+              -350,
+              475
+            ],
+            [
+              80,
+              475
+            ]
+          ],
+          "label": "End guide; above protective band"
+        },
+        {
+          "points": [
+            [
+              -350,
+              145
+            ],
+            [
+              80,
+              145
+            ],
+            [
+              80,
+              455
+            ],
+            [
+              -350,
+              455
+            ]
+          ],
+          "label": "Raised side shelf and chassis recess"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -285,
+            125
+          ],
+          "radius": 25,
+          "label": "Vertical guide wheel drives sideways"
+        },
+        {
+          "center": [
+            -285,
+            475
+          ],
+          "radius": 25,
+          "label": "Opposed vertical guide wheel"
+        },
+        {
+          "center": [
+            -150,
+            125
+          ],
+          "radius": 25,
+          "label": "Side-feed wheel"
+        },
+        {
+          "center": [
+            -150,
+            475
+          ],
+          "radius": 25,
+          "label": "Side-feed wheel"
+        }
+      ],
+      "movingOutline": [
+        [
+          -595,
+          125
+        ],
+        [
+          -470,
+          125
+        ],
+        [
+          -470,
+          475
+        ],
+        [
+          -595,
+          475
+        ],
+        [
+          -595,
+          125
+        ]
+      ],
+      "path": [
+        [
+          -535,
+          300
+        ],
+        [
+          -530,
+          300
+        ],
+        [
+          -500,
+          300
+        ],
+        [
+          -350,
+          300
+        ],
+        [
+          -180,
+          300
+        ],
+        [
+          0,
+          300
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          300
+        ],
+        "label": "Side-fed tray; tube points rearward"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -440,
+            70
+          ],
+          "text": "Left-side approach only; no front entry"
+        },
+        {
+          "at": [
+            -450,
+            540
+          ],
+          "text": "Side extension is measured from x=-350, not x=0"
+        },
+        {
+          "at": [
+            -420,
+            600
+          ],
+          "text": "Floor 57 -> 145 -> raised 240 mm; see side projection"
+        },
+        {
+          "at": [
+            -320,
+            660
+          ],
+          "text": "Full bumper ring remains; side opening is above it"
+        },
+        {
+          "at": [
+            30,
+            540
+          ],
+          "text": "0 deg yaw; sideways motion, no turn"
+        }
+      ]
+    }
+  },
+  {
+    "id": "08",
+    "title": "Grab and Lift",
+    "family": "Short two-link arm carries a single coral in jaws",
+    "summary": "Small jaws grab a centered tube, lift it over the full bumper, and place it into a raised receiver. Two short links replace a continuous feed path.",
+    "advantage": "Keeps hold of one tube through the transfer and avoids a long intake deck. Router-cut links and printed jaw pads are plausible starting points.",
+    "risk": "Capture width is small; arbitrary tube angles may miss. Joint control and level jaws add work, and the new receiver must accept coral at 387 mm.",
+    "firstTest": "Use two 220 mm mock links and simple jaws. Try offset and angled tubes, then carry one over a full bumper while checking grip and wrist clearance.",
+    "complexity": "high",
+    "inspiration": "Independent pick-and-place sketch, not a team's arm replica. Flat links and turned pivots fit the shop; drive ratios and jaw materials are unselected.",
+    "mouthWidthMm": 350,
+    "states": "Pickup only a centered crosswise tube; hold in closed jaws; offer to a raised dock. Whole-robot occupancy blocks a second. Wrist leveling and stow are unproven.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -235,
+              85
+            ],
+            [
+              -235,
+              35
+            ],
+            [
+              -215,
+              35
+            ]
+          ],
+          "label": "Front jaw at pickup"
+        },
+        {
+          "points": [
+            [
+              -105,
+              85
+            ],
+            [
+              -105,
+              35
+            ],
+            [
+              -125,
+              35
+            ]
+          ],
+          "label": "Rear jaw at pickup"
+        },
+        {
+          "points": [
+            [
+              175,
+              405
+            ],
+            [
+              175,
+              330
+            ],
+            [
+              305,
+              330
+            ],
+            [
+              305,
+              405
+            ]
+          ],
+          "label": "New raised receiving jaws"
+        }
+      ],
+      "rollers": [],
+      "links": [
+        {
+          "points": [
+            [
+              50,
+              277.15
+            ],
+            [
+              -170,
+              277.15
+            ],
+            [
+              -170,
+              57.15
+            ]
+          ],
+          "label": "Pickup: two 220 mm links"
+        },
+        {
+          "points": [
+            [
+              50,
+              277.15
+            ],
+            [
+              50,
+              497.15
+            ],
+            [
+              240.525589,
+              387.15
+            ]
+          ],
+          "label": "Offer: same two links"
+        }
+      ],
+      "pivot": [
+        50,
+        277.15
+      ],
+      "ghost": [
+        [
+          [
+            175.525589,
+            415
+          ],
+          [
+            175.525589,
+            365
+          ],
+          [
+            195.525589,
+            365
+          ]
+        ],
+        [
+          [
+            305.525589,
+            415
+          ],
+          [
+            305.525589,
+            365
+          ],
+          [
+            285.525589,
+            365
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -170,
+          57.15
+        ],
+        [
+          -195,
+          145
+        ],
+        [
+          -175,
+          245
+        ],
+        [
+          -85,
+          300
+        ],
+        [
+          65,
+          355
+        ],
+        [
+          240.525589,
+          387.15
+        ]
+      ],
+      "receiver": {
+        "center": [
+          240.525589,
+          387.15
+        ],
+        "label": "New crosswise dock; center 387 mm"
+      },
+      "labels": [
+        {
+          "at": [
+            -250,
+            530
+          ],
+          "text": "Link angles from rearward: pickup 180/-90 deg"
+        },
+        {
+          "at": [
+            -250,
+            575
+          ],
+          "text": "Offer 90/-30 deg; wrist leveling not designed"
+        },
+        {
+          "at": [
+            -180,
+            215
+          ],
+          "text": "Lift outside bumper before moving rearward"
+        },
+        {
+          "at": [
+            20,
+            225
+          ],
+          "text": "Carry center above 222.15 mm plus clearance"
+        },
+        {
+          "at": [
+            315,
+            455
+          ],
+          "text": "Higher receiver is the tradeoff; not a proven motion"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -175,
+              -285
+            ],
+            [
+              -175,
+              -110
+            ]
+          ],
+          "label": "350 mm approach span, not jaw opening"
+        },
+        {
+          "points": [
+            [
+              175,
+              -285
+            ],
+            [
+              175,
+              -110
+            ]
+          ],
+          "label": "Sketch approach boundary only"
+        },
+        {
+          "points": [
+            [
+              -65,
+              -235
+            ],
+            [
+              65,
+              -235
+            ]
+          ],
+          "label": "Small front jaw grips tube middle"
+        },
+        {
+          "points": [
+            [
+              -65,
+              -105
+            ],
+            [
+              65,
+              -105
+            ]
+          ],
+          "label": "Small rear jaw; about 130 mm open gap"
+        },
+        {
+          "points": [
+            [
+              -190,
+              175.525589
+            ],
+            [
+              -190,
+              305.525589
+            ],
+            [
+              190,
+              305.525589
+            ],
+            [
+              190,
+              175.525589
+            ]
+          ],
+          "label": "Raised crosswise receiving dock"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -75,
+          -235
+        ],
+        [
+          75,
+          -235
+        ],
+        [
+          75,
+          305.525589
+        ],
+        [
+          -75,
+          305.525589
+        ],
+        [
+          -75,
+          -235
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -170
+        ],
+        [
+          0,
+          -195
+        ],
+        [
+          0,
+          -175
+        ],
+        [
+          0,
+          -85
+        ],
+        [
+          0,
+          65
+        ],
+        [
+          0,
+          240.525589
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          240.525589
+        ],
+        "label": "New dock accepts crosswise coral"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -260,
+            -345
+          ],
+          "text": "Approach span 350 mm; actual capture window is small"
+        },
+        {
+          "at": [
+            -240,
+            -400
+          ],
+          "text": "Crosswise tube only; skewed pickup may fail"
+        },
+        {
+          "at": [
+            110,
+            60
+          ],
+          "text": "Arm projection; two poses in side view"
+        },
+        {
+          "at": [
+            -230,
+            420
+          ],
+          "text": "90 deg yaw stays fixed while carried"
+        },
+        {
+          "at": [
+            -230,
+            475
+          ],
+          "text": "One tube total; receiver must confirm hold before release"
+        }
+      ]
+    }
+  },
+  {
+    "id": "09",
+    "title": "Wheel Deck",
+    "family": "Short front pickup and two powered wheel banks turn coral",
+    "summary": "Low front rollers lift coral over the bumper onto a small powered deck. Two wheel banks run at different speeds to turn it for a rearward handoff.",
+    "advantage": "Turns coral without swinging the whole intake. A short plate deck and separate wheel banks keep the turning job apart from the front pickup.",
+    "risk": "The two banks may lose grip as coral turns. Added drives and sensing need tests; the receiver changes to a centered tray that accepts lengthwise coral.",
+    "firstTest": "On a short two-bank deck, film one tube turning from 70 to 35 to 0 degrees. Try slips and offsets; then test the front lift over a full bumper.",
+    "complexity": "moderate",
+    "inspiration": "Independent differential-drive deck sketch, not a team reproduction. Flat deck, compliant wheels and simple shafts; motor and reduction choices remain open.",
+    "mouthWidthMm": 500,
+    "states": "Pickup one tube; hold and turn on the powered deck; offer lengthwise. Whole-robot occupancy blocks a second. Speeds, sensing, reverse clearing and stow are open.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -410,
+              0
+            ],
+            [
+              -330,
+              0
+            ],
+            [
+              -285,
+              110
+            ],
+            [
+              -240,
+              192.85
+            ],
+            [
+              510,
+              192.85
+            ]
+          ],
+          "label": "Short lift lip then low powered deck"
+        },
+        {
+          "points": [
+            [
+              -390,
+              120
+            ],
+            [
+              -335,
+              145
+            ],
+            [
+              -300,
+              235
+            ],
+            [
+              -240,
+              310
+            ],
+            [
+              -140,
+              310
+            ]
+          ],
+          "label": "Compliant upper guide; contact needs testing"
+        },
+        {
+          "points": [
+            [
+              280,
+              192.85
+            ],
+            [
+              590,
+              192.85
+            ]
+          ],
+          "label": "New receiver tray at deck height"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -335,
+            140
+          ],
+          "radius": 40,
+          "label": "Front pickup roll"
+        },
+        {
+          "center": [
+            -200,
+            155
+          ],
+          "radius": 38,
+          "label": "Short kick-up roll below crest"
+        },
+        {
+          "center": [
+            80,
+            164.85
+          ],
+          "radius": 28,
+          "label": "Both powered banks overlap in side projection"
+        },
+        {
+          "center": [
+            180,
+            164.85
+          ],
+          "radius": 28,
+          "label": "Short deck wheels"
+        },
+        {
+          "center": [
+            280,
+            164.85
+          ],
+          "radius": 28,
+          "label": "Short deck wheels"
+        }
+      ],
+      "links": [],
+      "pivot": null,
+      "ghost": [],
+      "path": [
+        [
+          -390,
+          57.15
+        ],
+        [
+          -330,
+          75
+        ],
+        [
+          -270,
+          240
+        ],
+        [
+          -120,
+          250
+        ],
+        [
+          80,
+          250
+        ],
+        [
+          200,
+          250
+        ],
+        [
+          320,
+          250
+        ],
+        [
+          435,
+          250
+        ]
+      ],
+      "receiver": {
+        "center": [
+          435,
+          250
+        ],
+        "label": "New lengthwise tray; center 250 mm"
+      },
+      "labels": [
+        {
+          "at": [
+            -320,
+            370
+          ],
+          "text": "Short front lift; no bumper gap"
+        },
+        {
+          "at": [
+            -80,
+            220
+          ],
+          "text": "250 center: 27.85 mm above top plus tube radius"
+        },
+        {
+          "at": [
+            70,
+            335
+          ],
+          "text": "Tube turns in plan; center stays at 250 mm"
+        },
+        {
+          "at": [
+            300,
+            405
+          ],
+          "text": "Level handoff requires a different receiver tray"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -250,
+              -395
+            ],
+            [
+              -250,
+              -130
+            ],
+            [
+              -210,
+              30
+            ],
+            [
+              -210,
+              375
+            ]
+          ],
+          "label": "500 mm pickup mouth into compact deck"
+        },
+        {
+          "points": [
+            [
+              250,
+              -395
+            ],
+            [
+              250,
+              -130
+            ],
+            [
+              210,
+              30
+            ],
+            [
+              210,
+              375
+            ]
+          ],
+          "label": "Opposed edge guide"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -375
+            ],
+            [
+              250,
+              -375
+            ],
+            [
+              250,
+              -295
+            ],
+            [
+              -250,
+              -295
+            ],
+            [
+              -250,
+              -375
+            ]
+          ],
+          "label": "Transverse pickup roll band, not vertical wheels"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -238
+            ],
+            [
+              250,
+              -238
+            ],
+            [
+              250,
+              -162
+            ],
+            [
+              -250,
+              -162
+            ],
+            [
+              -250,
+              -238
+            ]
+          ],
+          "label": "Transverse kick-up roll band"
+        },
+        {
+          "points": [
+            [
+              -85,
+              40
+            ],
+            [
+              -25,
+              40
+            ],
+            [
+              -25,
+              320
+            ],
+            [
+              -85,
+              320
+            ],
+            [
+              -85,
+              40
+            ]
+          ],
+          "label": "Left powered wheel bank; horizontal axles"
+        },
+        {
+          "points": [
+            [
+              25,
+              40
+            ],
+            [
+              85,
+              40
+            ],
+            [
+              85,
+              320
+            ],
+            [
+              25,
+              320
+            ],
+            [
+              25,
+              40
+            ]
+          ],
+          "label": "Right powered wheel bank; separate speed"
+        },
+        {
+          "points": [
+            [
+              -75,
+              340
+            ],
+            [
+              -75,
+              610
+            ],
+            [
+              75,
+              610
+            ],
+            [
+              75,
+              340
+            ]
+          ],
+          "label": "New narrow receiver tray"
+        },
+        {
+          "points": [
+            [
+              -141.718,
+              28.418
+            ],
+            [
+              141.718,
+              131.582
+            ]
+          ],
+          "label": "One tube axis at center (0,80): yaw 70 deg"
+        },
+        {
+          "points": [
+            [
+              -86.502,
+              76.46
+            ],
+            [
+              86.502,
+              323.54
+            ]
+          ],
+          "label": "Same tube at center (0,200): yaw 35 deg"
+        },
+        {
+          "points": [
+            [
+              0,
+              169.1875
+            ],
+            [
+              0,
+              470.8125
+            ]
+          ],
+          "label": "Same tube at center (0,320): yaw 0 deg"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -210,
+          20
+        ],
+        [
+          210,
+          20
+        ],
+        [
+          210,
+          375
+        ],
+        [
+          -210,
+          375
+        ],
+        [
+          -210,
+          20
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -390
+        ],
+        [
+          0,
+          -330
+        ],
+        [
+          0,
+          -270
+        ],
+        [
+          0,
+          -120
+        ],
+        [
+          0,
+          80
+        ],
+        [
+          0,
+          200
+        ],
+        [
+          0,
+          320
+        ],
+        [
+          0,
+          435
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          435
+        ],
+        "label": "Centered lengthwise receiver"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -230,
+            -440
+          ],
+          "text": "Crosswise front pickup; turn happens on deck"
+        },
+        {
+          "at": [
+            -240,
+            450
+          ],
+          "text": "Three axis lines are one tube at successive times"
+        },
+        {
+          "at": [
+            -230,
+            500
+          ],
+          "text": "70 -> 35 -> 0 deg is a target, not measured motion"
+        },
+        {
+          "at": [
+            -230,
+            550
+          ],
+          "text": "Feeding rearward: right bank faster for this turn; grip unproven"
+        },
+        {
+          "at": [
+            -230,
+            665
+          ],
+          "text": "Short wheel deck, not a full-length conveyor"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "title": "Segmented star tunnel",
+    "family": "Rotating star pockets advance coral beneath a compliant ceiling",
+    "summary": "Three segmented star shafts step coral over slotted support guides under a floating ceiling, then offer it crosswise. UNTESTED proposal.",
+    "advantage": "Discrete pockets may provide controlled low-speed advance while ceiling float accommodates changing contact geometry.",
+    "risk": "Star phasing can pinch coral or leave an unsupported pocket transition; segment gaps may catch an end or deform the piece.",
+    "firstTest": "Hand-crank three printed star stations under an adjustable ceiling; inspect offset coral, phase errors, pocket transitions and jam release.",
+    "complexity": "high",
+    "inspiration": "Original star-pocket alternative informed by 1690's dead-spot lesson and 2056's jam-handling reports; no claim that either team used this mechanism.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -445,
+              0
+            ],
+            [
+              -412,
+              68
+            ],
+            [
+              -286,
+              160
+            ],
+            [
+              -140,
+              212
+            ],
+            [
+              -15,
+              225
+            ],
+            [
+              290,
+              225
+            ],
+            [
+              290,
+              215
+            ],
+            [
+              -15,
+              215
+            ],
+            [
+              -140,
+              202
+            ],
+            [
+              -286,
+              150
+            ],
+            [
+              -412,
+              58
+            ],
+            [
+              -445,
+              0
+            ]
+          ],
+          "label": "Slotted lower bridge guides; star openings UNTESTED"
+        },
+        {
+          "points": [
+            [
+              -445,
+              145
+            ],
+            [
+              -380,
+              220
+            ],
+            [
+              -265,
+              291
+            ],
+            [
+              -135,
+              335
+            ],
+            [
+              280,
+              344
+            ],
+            [
+              280,
+              354
+            ],
+            [
+              -135,
+              345
+            ],
+            [
+              -265,
+              301
+            ],
+            [
+              -380,
+              230
+            ],
+            [
+              -445,
+              155
+            ],
+            [
+              -445,
+              145
+            ]
+          ],
+          "label": "Segmented compliant ceiling above path"
+        },
+        {
+          "points": [
+            [
+              -357,
+              105
+            ],
+            [
+              -346,
+              80
+            ],
+            [
+              -319,
+              83
+            ],
+            [
+              -335,
+              61
+            ],
+            [
+              -319,
+              39
+            ],
+            [
+              -346,
+              42
+            ],
+            [
+              -357,
+              17
+            ],
+            [
+              -368,
+              42
+            ],
+            [
+              -395,
+              39
+            ],
+            [
+              -379,
+              61
+            ],
+            [
+              -395,
+              83
+            ],
+            [
+              -368,
+              80
+            ],
+            [
+              -357,
+              105
+            ]
+          ],
+          "label": "Entry star segment silhouette"
+        },
+        {
+          "points": [
+            [
+              -219,
+              200
+            ],
+            [
+              -208,
+              175
+            ],
+            [
+              -180,
+              178
+            ],
+            [
+              -196,
+              155
+            ],
+            [
+              -180,
+              132
+            ],
+            [
+              -208,
+              135
+            ],
+            [
+              -219,
+              110
+            ],
+            [
+              -230,
+              135
+            ],
+            [
+              -258,
+              132
+            ],
+            [
+              -242,
+              155
+            ],
+            [
+              -258,
+              178
+            ],
+            [
+              -230,
+              175
+            ],
+            [
+              -219,
+              200
+            ]
+          ],
+          "label": "Middle star segment silhouette"
+        },
+        {
+          "points": [
+            [
+              -56,
+              225
+            ],
+            [
+              -44,
+              199
+            ],
+            [
+              -16,
+              202
+            ],
+            [
+              -33,
+              179
+            ],
+            [
+              -16,
+              156
+            ],
+            [
+              -44,
+              159
+            ],
+            [
+              -56,
+              133
+            ],
+            [
+              -68,
+              159
+            ],
+            [
+              -96,
+              156
+            ],
+            [
+              -79,
+              179
+            ],
+            [
+              -96,
+              202
+            ],
+            [
+              -68,
+              199
+            ],
+            [
+              -56,
+              225
+            ]
+          ],
+          "label": "Exit star segment silhouette"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -357,
+            61
+          ],
+          "radius": 14,
+          "label": "Entry star shaft hub; lobes shown separately"
+        },
+        {
+          "center": [
+            -219,
+            155
+          ],
+          "radius": 14,
+          "label": "Middle star shaft hub; lobes shown separately"
+        },
+        {
+          "center": [
+            -56,
+            179
+          ],
+          "radius": 14,
+          "label": "Exit star shaft hub; lobes shown separately"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              15,
+              225
+            ],
+            [
+              -219,
+              155
+            ]
+          ],
+          "label": "Tunnel carrier"
+        },
+        {
+          "points": [
+            [
+              -250,
+              380
+            ],
+            [
+              -265,
+              301
+            ]
+          ],
+          "label": "Front ceiling float mount"
+        },
+        {
+          "points": [
+            [
+              120,
+              395
+            ],
+            [
+              120,
+              350
+            ]
+          ],
+          "label": "Rear ceiling float mount"
+        }
+      ],
+      "pivot": [
+        15,
+        225
+      ],
+      "ghost": [
+        [
+          [
+            15,
+            225
+          ],
+          [
+            80,
+            545
+          ],
+          [
+            260,
+            555
+          ],
+          [
+            150,
+            225
+          ],
+          [
+            15,
+            225
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -435,
+          57.15
+        ],
+        [
+          -412,
+          142
+        ],
+        [
+          -286,
+          230
+        ],
+        [
+          -140,
+          273
+        ],
+        [
+          -15,
+          282
+        ],
+        [
+          110,
+          282
+        ],
+        [
+          260,
+          282
+        ]
+      ],
+      "receiver": {
+        "center": [
+          260,
+          282
+        ],
+        "label": "Crosswise receiver placeholder"
+      },
+      "labels": [
+        {
+          "at": [
+            -445,
+            425
+          ],
+          "text": "Three lobed stations, not round roller ladder"
+        },
+        {
+          "at": [
+            -445,
+            465
+          ],
+          "text": "Ceiling float; compression not guaranteed"
+        },
+        {
+          "at": [
+            10,
+            595
+          ],
+          "text": "Dashed: proposed stow; no sweep verified"
+        },
+        {
+          "at": [
+            20,
+            95
+          ],
+          "text": "Intact bumper; center >=232 incl. 9.85 margin"
+        },
+        {
+          "at": [
+            70,
+            170
+          ],
+          "text": "Bridge support continues to receiver"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -210,
+              -401
+            ],
+            [
+              -90,
+              -401
+            ],
+            [
+              -90,
+              -313
+            ],
+            [
+              -210,
+              -313
+            ],
+            [
+              -210,
+              -401
+            ]
+          ],
+          "label": "Entry star left segment bank"
+        },
+        {
+          "points": [
+            [
+              -60,
+              -401
+            ],
+            [
+              60,
+              -401
+            ],
+            [
+              60,
+              -313
+            ],
+            [
+              -60,
+              -313
+            ],
+            [
+              -60,
+              -401
+            ]
+          ],
+          "label": "Entry star center segment bank"
+        },
+        {
+          "points": [
+            [
+              90,
+              -401
+            ],
+            [
+              210,
+              -401
+            ],
+            [
+              210,
+              -313
+            ],
+            [
+              90,
+              -313
+            ],
+            [
+              90,
+              -401
+            ]
+          ],
+          "label": "Entry star right segment bank"
+        },
+        {
+          "points": [
+            [
+              -200,
+              -264
+            ],
+            [
+              -85,
+              -264
+            ],
+            [
+              -85,
+              -174
+            ],
+            [
+              -200,
+              -174
+            ],
+            [
+              -200,
+              -264
+            ]
+          ],
+          "label": "Middle star left segment bank"
+        },
+        {
+          "points": [
+            [
+              -55,
+              -264
+            ],
+            [
+              55,
+              -264
+            ],
+            [
+              55,
+              -174
+            ],
+            [
+              -55,
+              -174
+            ],
+            [
+              -55,
+              -264
+            ]
+          ],
+          "label": "Middle star center segment bank"
+        },
+        {
+          "points": [
+            [
+              85,
+              -264
+            ],
+            [
+              200,
+              -264
+            ],
+            [
+              200,
+              -174
+            ],
+            [
+              85,
+              -174
+            ],
+            [
+              85,
+              -264
+            ]
+          ],
+          "label": "Middle star right segment bank"
+        },
+        {
+          "points": [
+            [
+              -180,
+              -102
+            ],
+            [
+              -80,
+              -102
+            ],
+            [
+              -80,
+              -10
+            ],
+            [
+              -180,
+              -10
+            ],
+            [
+              -180,
+              -102
+            ]
+          ],
+          "label": "Exit star left segment bank"
+        },
+        {
+          "points": [
+            [
+              -50,
+              -102
+            ],
+            [
+              50,
+              -102
+            ],
+            [
+              50,
+              -10
+            ],
+            [
+              -50,
+              -10
+            ],
+            [
+              -50,
+              -102
+            ]
+          ],
+          "label": "Exit star center segment bank"
+        },
+        {
+          "points": [
+            [
+              80,
+              -102
+            ],
+            [
+              180,
+              -102
+            ],
+            [
+              180,
+              -10
+            ],
+            [
+              80,
+              -10
+            ],
+            [
+              80,
+              -102
+            ]
+          ],
+          "label": "Exit star right segment bank"
+        },
+        {
+          "points": [
+            [
+              -225,
+              -440
+            ],
+            [
+              -165,
+              100
+            ],
+            [
+              -165,
+              325
+            ],
+            [
+              -185,
+              325
+            ],
+            [
+              -185,
+              100
+            ],
+            [
+              -245,
+              -440
+            ],
+            [
+              -225,
+              -440
+            ]
+          ],
+          "label": "Left fixed tunnel guide bank"
+        },
+        {
+          "points": [
+            [
+              225,
+              -440
+            ],
+            [
+              165,
+              100
+            ],
+            [
+              165,
+              325
+            ],
+            [
+              185,
+              325
+            ],
+            [
+              185,
+              100
+            ],
+            [
+              245,
+              -440
+            ],
+            [
+              225,
+              -440
+            ]
+          ],
+          "label": "Right fixed tunnel guide bank"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -245,
+          -440
+        ],
+        [
+          245,
+          -440
+        ],
+        [
+          205,
+          15
+        ],
+        [
+          -205,
+          15
+        ],
+        [
+          -245,
+          -440
+        ]
+      ],
+      "path": [
+        [
+          25,
+          -435
+        ],
+        [
+          10,
+          -412
+        ],
+        [
+          0,
+          -286
+        ],
+        [
+          0,
+          -140
+        ],
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          110
+        ],
+        [
+          0,
+          260
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          260
+        ],
+        "label": "Crosswise receiver placeholder"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -240,
+            -465
+          ],
+          "text": "450 mm mouth intent"
+        },
+        {
+          "at": [
+            -260,
+            385
+          ],
+          "text": "Three transverse shafts with separate star banks"
+        },
+        {
+          "at": [
+            -260,
+            430
+          ],
+          "text": "Tunnel guides retain crosswise pose; see ceiling in side"
+        }
+      ]
+    },
+    "mouthWidthMm": 450,
+    "states": "UNTESTED heuristics; no physical pass. Pickup: synchronized star pockets propose discrete rearward advance above slotted guide support. Floating upper ceiling is a contact proposal, not guaranteed compression. Hold: stop one coral at the supported crosswise receiver; offer only after receiver capture. Whole-robot occupancy prevents a second coral. Star profiles, segment spacing and phases are placeholders, not solved conjugate geometry. Dashed ghost proposes a folded tunnel stow position, not a verified pose or full sweep. Common bumper stays intact; only an internal recess may be considered. Router-cut flat plates, turned shafts and printed replaceable segments need no accurate bends. Approximate mm center path exceeds 232 across y=-85..0, including 9.85 mm beyond top plus coral radius. Full-piece clearance, pocket continuity, loads, wear, release and legality are unknown."
+  },
+  {
+    "id": "11",
+    "title": "1690 / 2056 reference clone",
+    "family": "Reference hybrid: floating pickup -> powered V banks -> stopped cradle",
+    "notice": "Architecture clone; dimensions are provisional, not measured team CAD.",
+    "summary": "508 mm floating pickup and kicker feed a retained rear drive, two independent straightener banks, then a two-event stopped cradle. UNTESTED Stage-2 hybrid.",
+    "advantage": "Independent side drives separate yaw control from pickup; retaining a rear powered contact and a stopped cradle targets low-momentum transfer and delayed handoff.",
+    "risk": "Steep pickup, wheel preload, yaw and cradle sensor sequencing may stall or overrun; projected clearance is not a 3D or physical pass.",
+    "firstTest": "Hand-crank a flat-plate fixture from rest at skewed entries; inspect every contact handover, full-coral bumper margin, two beams and absent-gripper hold.",
+    "complexity": "high",
+    "inspiration": "Reference chain, not a dimensional reconstruction: research/2025-coral/2056-binder.md records inspected binder PDF p.7: 20-inch acquisition, floating top roller, kicker and smooth ramp; p.9: opposing vertical-axis straightener banks with independent drives; p.11: stopped cradle, anti-bounce feature, gripper cutouts and two distinct beam events. Drawing OPR25-A11 versus A11-R1, PDF pp.7/8, supports the shared-to-independent drive change; A20-R1, p.22, supports split cradle and sensor mounting. P209, p.139, includes precision bends, so this proposal replaces those brackets with located flat plates and machined blocks. research/2025-coral/1690-1778.md E03, Korny's 1690 post 35, reports separating flexible acquisition from an internal orienter and restoring a rear roller after a static ceiling caused an installed dead spot. This is author-reported, not our test. Unlike 03's generic four-bar nose and single index-wheel pair, 11 explicitly follows this reference chain through seven wheels per independently driven side bank and a separately stopped, two-event cradle. 508 mm is the exact conversion of 2056's reported nominal 20-inch acquisition width, used here as mouth intent, not a measured clear opening. All other mechanism coordinates, wheel sizes, compression, bank pitch, sensor spacing and receiver geometry are our untested hypotheses. No team CAD, 1690 images or videos were inspected for this concept. The local 2056 report covers selected PDF pages, not the complete packages; no native CAD was measured. No reference establishes these dimensions, successful contact continuity, timing, motor sizing, deployment date, manufacture or legality.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -450,
+              0
+            ],
+            [
+              -418,
+              32
+            ],
+            [
+              -394,
+              74
+            ],
+            [
+              -340,
+              141
+            ],
+            [
+              -331,
+              159
+            ],
+            [
+              -300,
+              178
+            ],
+            [
+              -261,
+              170
+            ],
+            [
+              -222,
+              178
+            ],
+            [
+              -168,
+              188
+            ],
+            [
+              285,
+              188
+            ],
+            [
+              285,
+              182
+            ],
+            [
+              -168,
+              182
+            ],
+            [
+              -222,
+              172
+            ],
+            [
+              -261,
+              164
+            ],
+            [
+              -300,
+              172
+            ],
+            [
+              -331,
+              153
+            ],
+            [
+              -340,
+              135
+            ],
+            [
+              -394,
+              68
+            ],
+            [
+              -418,
+              26
+            ],
+            [
+              -450,
+              0
+            ]
+          ],
+          "label": "Supported faceted ramp; flat PC fingers between wheel packets, 6 mm sketch thickness"
+        },
+        {
+          "points": [
+            [
+              -200,
+              205
+            ],
+            [
+              390,
+              205
+            ],
+            [
+              390,
+              285
+            ],
+            [
+              -200,
+              285
+            ],
+            [
+              -200,
+              205
+            ]
+          ],
+          "label": "Side-bank height envelope only, outside coral lane; vertical axes shown in plan"
+        },
+        {
+          "points": [
+            [
+              285,
+              188
+            ],
+            [
+              325,
+              193
+            ],
+            [
+              340,
+              193
+            ],
+            [
+              340,
+              188
+            ],
+            [
+              651,
+              188
+            ],
+            [
+              651,
+              182
+            ],
+            [
+              340,
+              182
+            ],
+            [
+              325,
+              187
+            ],
+            [
+              285,
+              182
+            ],
+            [
+              285,
+              188
+            ]
+          ],
+          "label": "Split cradle support; 5 mm anti-bounce drop at y340, not a bent sheet"
+        },
+        {
+          "points": [
+            [
+              650.8125,
+              188
+            ],
+            [
+              650.8125,
+              213
+            ],
+            [
+              657,
+              213
+            ],
+            [
+              657,
+              182
+            ],
+            [
+              650.8125,
+              182
+            ],
+            [
+              650.8125,
+              188
+            ]
+          ],
+          "label": "Cradle stop lip; nominal y651, 25 mm high, coral-center target y500"
+        },
+        {
+          "points": [
+            [
+              540,
+              223
+            ],
+            [
+              540,
+              268
+            ]
+          ],
+          "label": "D1 optical plane y540: first detection slows or stops; not a solid barrier"
+        },
+        {
+          "points": [
+            [
+              644,
+              223
+            ],
+            [
+              644,
+              268
+            ]
+          ],
+          "label": "D2 optical plane y644: second detection requests handoff; not a solid barrier"
+        },
+        {
+          "points": [
+            [
+              460,
+              205
+            ],
+            [
+              460,
+              312
+            ],
+            [
+              540,
+              312
+            ],
+            [
+              540,
+              205
+            ]
+          ],
+          "label": "Open side access y460..540 for gripper approach; clearance outline, not material"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -380,
+            45
+          ],
+          "radius": 38,
+          "label": "Powered lower acquisition row, OD76 envelope of separate compliant wheel packets"
+        },
+        {
+          "center": [
+            -423,
+            285
+          ],
+          "radius": 32,
+          "label": "Floating powered top pickup, OD64 packet envelope; short swing, preload UNTESTED"
+        },
+        {
+          "center": [
+            -300,
+            151
+          ],
+          "radius": 37,
+          "label": "Powered kicker row, OD74 packet envelope; lifts into supported crest"
+        },
+        {
+          "center": [
+            -222,
+            151
+          ],
+          "radius": 37,
+          "label": "Retained rear powered row, OD74 packet envelope; 78 mm kicker spacing, not a ceiling"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              -350,
+              334
+            ],
+            [
+              -423,
+              285
+            ]
+          ],
+          "label": "Short floating-top carrier; fixed acquisition frame separate from orienter"
+        },
+        {
+          "points": [
+            [
+              -423,
+              285
+            ],
+            [
+              -431,
+              300
+            ]
+          ],
+          "label": "Approximate 15 mm vertical float intent; not a solved travel or stow sweep"
+        }
+      ],
+      "pivot": [
+        -350,
+        334
+      ],
+      "ghost": [],
+      "path": [
+        [
+          -480,
+          57.15
+        ],
+        [
+          -474,
+          64
+        ],
+        [
+          -453,
+          107
+        ],
+        [
+          -426,
+          128
+        ],
+        [
+          -398,
+          138.4
+        ],
+        [
+          -394,
+          144
+        ],
+        [
+          -390,
+          178
+        ],
+        [
+          -365,
+          219.1
+        ],
+        [
+          -335,
+          238.4
+        ],
+        [
+          -300,
+          245.15
+        ],
+        [
+          -261,
+          236.69
+        ],
+        [
+          -222,
+          245.15
+        ],
+        [
+          -150,
+          245.15
+        ],
+        [
+          -50,
+          245.15
+        ],
+        [
+          60,
+          245.15
+        ],
+        [
+          160,
+          245.15
+        ],
+        [
+          270,
+          245.15
+        ],
+        [
+          330,
+          250.15
+        ],
+        [
+          400,
+          245.15
+        ],
+        [
+          500,
+          245.15
+        ]
+      ],
+      "receiver": {
+        "center": [
+          500,
+          245.15
+        ],
+        "label": "Stopped one-coral cradle; low gripper target, not a complete scoring mechanism"
+      },
+      "labels": [
+        {
+          "at": [
+            -380,
+            500
+          ],
+          "text": "508 mm pickup / rear drive"
+        },
+        {
+          "at": [
+            -80,
+            430
+          ],
+          "text": "Two powered side banks"
+        },
+        {
+          "at": [
+            360,
+            380
+          ],
+          "text": "Cradle z245; two beams"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -254,
+              -450
+            ],
+            [
+              -254,
+              -325
+            ],
+            [
+              -200,
+              -235
+            ],
+            [
+              -196,
+              -150
+            ]
+          ],
+          "label": "Left 508 mm mouth boundary to fixed straightener entry; flat located plate"
+        },
+        {
+          "points": [
+            [
+              254,
+              -450
+            ],
+            [
+              254,
+              -325
+            ],
+            [
+              200,
+              -235
+            ],
+            [
+              196,
+              -150
+            ]
+          ],
+          "label": "Right 508 mm mouth boundary to fixed straightener entry; flat located plate"
+        },
+        {
+          "points": [
+            [
+              -254,
+              -383
+            ],
+            [
+              254,
+              -383
+            ],
+            [
+              254,
+              -377
+            ],
+            [
+              -254,
+              -377
+            ],
+            [
+              -254,
+              -383
+            ]
+          ],
+          "label": "Lower row shaft datum strip only; not a continuous OD76 cylinder"
+        },
+        {
+          "points": [
+            [
+              -240,
+              -418
+            ],
+            [
+              -176,
+              -418
+            ],
+            [
+              -176,
+              -342
+            ],
+            [
+              -240,
+              -342
+            ],
+            [
+              -240,
+              -418
+            ]
+          ],
+          "label": "Lower pickup packet 1"
+        },
+        {
+          "points": [
+            [
+              -142,
+              -418
+            ],
+            [
+              -78,
+              -418
+            ],
+            [
+              -78,
+              -342
+            ],
+            [
+              -142,
+              -342
+            ],
+            [
+              -142,
+              -418
+            ]
+          ],
+          "label": "Lower pickup packet 2"
+        },
+        {
+          "points": [
+            [
+              -32,
+              -418
+            ],
+            [
+              32,
+              -418
+            ],
+            [
+              32,
+              -342
+            ],
+            [
+              -32,
+              -342
+            ],
+            [
+              -32,
+              -418
+            ]
+          ],
+          "label": "Lower pickup packet 3"
+        },
+        {
+          "points": [
+            [
+              78,
+              -418
+            ],
+            [
+              142,
+              -418
+            ],
+            [
+              142,
+              -342
+            ],
+            [
+              78,
+              -342
+            ],
+            [
+              78,
+              -418
+            ]
+          ],
+          "label": "Lower pickup packet 4"
+        },
+        {
+          "points": [
+            [
+              176,
+              -418
+            ],
+            [
+              240,
+              -418
+            ],
+            [
+              240,
+              -342
+            ],
+            [
+              176,
+              -342
+            ],
+            [
+              176,
+              -418
+            ]
+          ],
+          "label": "Lower pickup packet 5"
+        },
+        {
+          "points": [
+            [
+              -254,
+              -426
+            ],
+            [
+              254,
+              -426
+            ],
+            [
+              254,
+              -420
+            ],
+            [
+              -254,
+              -420
+            ],
+            [
+              -254,
+              -426
+            ]
+          ],
+          "label": "Floating top shaft datum at z285; plan overlap with lower row is vertical separation"
+        },
+        {
+          "points": [
+            [
+              -220,
+              -455
+            ],
+            [
+              -156,
+              -455
+            ],
+            [
+              -156,
+              -391
+            ],
+            [
+              -220,
+              -391
+            ],
+            [
+              -220,
+              -455
+            ]
+          ],
+          "label": "Floating top left packet"
+        },
+        {
+          "points": [
+            [
+              -32,
+              -455
+            ],
+            [
+              32,
+              -455
+            ],
+            [
+              32,
+              -391
+            ],
+            [
+              -32,
+              -391
+            ],
+            [
+              -32,
+              -455
+            ]
+          ],
+          "label": "Floating top center packet"
+        },
+        {
+          "points": [
+            [
+              156,
+              -455
+            ],
+            [
+              220,
+              -455
+            ],
+            [
+              220,
+              -391
+            ],
+            [
+              156,
+              -391
+            ],
+            [
+              156,
+              -455
+            ]
+          ],
+          "label": "Floating top right packet"
+        },
+        {
+          "points": [
+            [
+              -235,
+              -303
+            ],
+            [
+              235,
+              -303
+            ],
+            [
+              235,
+              -297
+            ],
+            [
+              -235,
+              -297
+            ],
+            [
+              -235,
+              -303
+            ]
+          ],
+          "label": "Kicker shaft datum only; discrete OD74 wheels, not a solid full-width roller"
+        },
+        {
+          "points": [
+            [
+              -220,
+              -337
+            ],
+            [
+              -140,
+              -337
+            ],
+            [
+              -140,
+              -263
+            ],
+            [
+              -220,
+              -263
+            ],
+            [
+              -220,
+              -337
+            ]
+          ],
+          "label": "Kicker left packet"
+        },
+        {
+          "points": [
+            [
+              -40,
+              -337
+            ],
+            [
+              40,
+              -337
+            ],
+            [
+              40,
+              -263
+            ],
+            [
+              -40,
+              -263
+            ],
+            [
+              -40,
+              -337
+            ]
+          ],
+          "label": "Kicker center packet"
+        },
+        {
+          "points": [
+            [
+              140,
+              -337
+            ],
+            [
+              220,
+              -337
+            ],
+            [
+              220,
+              -263
+            ],
+            [
+              140,
+              -263
+            ],
+            [
+              140,
+              -337
+            ]
+          ],
+          "label": "Kicker right packet"
+        },
+        {
+          "points": [
+            [
+              -205,
+              -225
+            ],
+            [
+              205,
+              -225
+            ],
+            [
+              205,
+              -219
+            ],
+            [
+              -205,
+              -219
+            ],
+            [
+              -205,
+              -225
+            ]
+          ],
+          "label": "Retained rear shaft datum only; fixed powered overlap into first straightener station"
+        },
+        {
+          "points": [
+            [
+              -192,
+              -259
+            ],
+            [
+              -120,
+              -259
+            ],
+            [
+              -120,
+              -185
+            ],
+            [
+              -192,
+              -185
+            ],
+            [
+              -192,
+              -259
+            ]
+          ],
+          "label": "Retained rear left packet at z151"
+        },
+        {
+          "points": [
+            [
+              -36,
+              -259
+            ],
+            [
+              36,
+              -259
+            ],
+            [
+              36,
+              -185
+            ],
+            [
+              -36,
+              -185
+            ],
+            [
+              -36,
+              -259
+            ]
+          ],
+          "label": "Retained rear center packet at z151"
+        },
+        {
+          "points": [
+            [
+              120,
+              -259
+            ],
+            [
+              192,
+              -259
+            ],
+            [
+              192,
+              -185
+            ],
+            [
+              120,
+              -185
+            ],
+            [
+              120,
+              -259
+            ]
+          ],
+          "label": "Retained rear right packet at z151"
+        },
+        {
+          "points": [
+            [
+              -204,
+              -205
+            ],
+            [
+              -176,
+              -115
+            ],
+            [
+              -148,
+              -25
+            ],
+            [
+              -120,
+              65
+            ],
+            [
+              -113,
+              155
+            ],
+            [
+              -113,
+              395
+            ]
+          ],
+          "label": "Left bank L: own motor and timing drive outside wheels; no cross-coupling"
+        },
+        {
+          "points": [
+            [
+              204,
+              -205
+            ],
+            [
+              176,
+              -115
+            ],
+            [
+              148,
+              -25
+            ],
+            [
+              120,
+              65
+            ],
+            [
+              113,
+              155
+            ],
+            [
+              113,
+              395
+            ]
+          ],
+          "label": "Right bank R: own motor and timing drive outside wheels; no cross-coupling"
+        },
+        {
+          "points": [
+            [
+              -40,
+              305
+            ],
+            [
+              -40,
+              650.8125
+            ],
+            [
+              40,
+              650.8125
+            ],
+            [
+              40,
+              305
+            ]
+          ],
+          "label": "Central lower support between two removable cradle side halves; open above"
+        },
+        {
+          "points": [
+            [
+              -78,
+              325
+            ],
+            [
+              -78,
+              335
+            ],
+            [
+              -66,
+              335
+            ],
+            [
+              -66,
+              325
+            ],
+            [
+              -78,
+              325
+            ]
+          ],
+          "label": "Left cradle entry lip; wheel-access window y335..395 follows"
+        },
+        {
+          "points": [
+            [
+              78,
+              325
+            ],
+            [
+              78,
+              335
+            ],
+            [
+              66,
+              335
+            ],
+            [
+              66,
+              325
+            ],
+            [
+              78,
+              325
+            ]
+          ],
+          "label": "Right cradle entry lip; final drive wheel occupies open window"
+        },
+        {
+          "points": [
+            [
+              -78,
+              395
+            ],
+            [
+              -78,
+              460
+            ],
+            [
+              -66,
+              460
+            ],
+            [
+              -66,
+              395
+            ],
+            [
+              -78,
+              395
+            ]
+          ],
+          "label": "Left cradle half after drive window; gripper opening y460..540 follows"
+        },
+        {
+          "points": [
+            [
+              78,
+              395
+            ],
+            [
+              78,
+              460
+            ],
+            [
+              66,
+              460
+            ],
+            [
+              66,
+              395
+            ],
+            [
+              78,
+              395
+            ]
+          ],
+          "label": "Right cradle half after drive window; replaceable printed guide"
+        },
+        {
+          "points": [
+            [
+              -78,
+              540
+            ],
+            [
+              -78,
+              665
+            ],
+            [
+              -66,
+              665
+            ],
+            [
+              -66,
+              540
+            ],
+            [
+              -78,
+              540
+            ]
+          ],
+          "label": "Left rear cradle half and sensor support"
+        },
+        {
+          "points": [
+            [
+              78,
+              540
+            ],
+            [
+              78,
+              665
+            ],
+            [
+              66,
+              665
+            ],
+            [
+              66,
+              540
+            ],
+            [
+              78,
+              540
+            ]
+          ],
+          "label": "Right rear cradle half and sensor support"
+        },
+        {
+          "points": [
+            [
+              -66,
+              335
+            ],
+            [
+              66,
+              335
+            ]
+          ],
+          "label": "Anti-bounce step datum; 5 mm proposal, not a crossbar at coral height"
+        },
+        {
+          "points": [
+            [
+              -66,
+              540
+            ],
+            [
+              66,
+              540
+            ]
+          ],
+          "label": "D1 beam across lane: first event slow/stop, two optical endpoints"
+        },
+        {
+          "points": [
+            [
+              -66,
+              644
+            ],
+            [
+              66,
+              644
+            ]
+          ],
+          "label": "D2 beam across lane: second event handoff request, not four detection channels"
+        },
+        {
+          "points": [
+            [
+              -66,
+              650.8125
+            ],
+            [
+              66,
+              650.8125
+            ],
+            [
+              66,
+              657
+            ],
+            [
+              -66,
+              657
+            ],
+            [
+              -66,
+              650.8125
+            ]
+          ],
+          "label": "Stopped cradle lip at nominal y651; cut from flat stock"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -171,
+            -175
+          ],
+          "radius": 25,
+          "label": "L1 independent left drive: crosswise entry capture, z205..285 envelope"
+        },
+        {
+          "center": [
+            171,
+            -175
+          ],
+          "radius": 25,
+          "label": "R1 independent right drive: entry pair, 292 mm inner-face gap"
+        },
+        {
+          "center": [
+            -143,
+            -85
+          ],
+          "radius": 25,
+          "label": "L2 yaw stage; same left bank drive, not a separate motor"
+        },
+        {
+          "center": [
+            143,
+            -85
+          ],
+          "radius": 25,
+          "label": "R2 yaw stage; same right bank drive"
+        },
+        {
+          "center": [
+            -115,
+            5
+          ],
+          "radius": 25,
+          "label": "L3 converging yaw contact"
+        },
+        {
+          "center": [
+            115,
+            5
+          ],
+          "radius": 25,
+          "label": "R3 converging yaw contact"
+        },
+        {
+          "center": [
+            -87,
+            95
+          ],
+          "radius": 25,
+          "label": "L4 near-aligned capture"
+        },
+        {
+          "center": [
+            87,
+            95
+          ],
+          "radius": 25,
+          "label": "R4 near-aligned capture"
+        },
+        {
+          "center": [
+            -80,
+            185
+          ],
+          "radius": 25,
+          "label": "L5 final straight lane; proposed 110 mm inner-face gap"
+        },
+        {
+          "center": [
+            80,
+            185
+          ],
+          "radius": 25,
+          "label": "R5 final straight lane; 4.3 mm total compliant squeeze intent"
+        },
+        {
+          "center": [
+            -80,
+            275
+          ],
+          "radius": 25,
+          "label": "L6 transfer drive into cradle; 90 mm station pitch"
+        },
+        {
+          "center": [
+            80,
+            275
+          ],
+          "radius": 25,
+          "label": "R6 transfer drive into cradle; overlaps final powered station"
+        },
+        {
+          "center": [
+            -80,
+            365
+          ],
+          "radius": 25,
+          "label": "L7 through cradle side window; retains drive through D2 and final stop"
+        },
+        {
+          "center": [
+            80,
+            365
+          ],
+          "radius": 25,
+          "label": "R7 through cradle side window; same independent bank drive, no extra motor"
+        }
+      ],
+      "movingOutline": [
+        [
+          -268,
+          -455
+        ],
+        [
+          268,
+          -455
+        ],
+        [
+          268,
+          -260
+        ],
+        [
+          218,
+          -185
+        ],
+        [
+          -218,
+          -185
+        ],
+        [
+          -268,
+          -260
+        ],
+        [
+          -268,
+          -455
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -480
+        ],
+        [
+          0,
+          -474
+        ],
+        [
+          0,
+          -453
+        ],
+        [
+          0,
+          -426
+        ],
+        [
+          0,
+          -398
+        ],
+        [
+          0,
+          -394
+        ],
+        [
+          0,
+          -390
+        ],
+        [
+          0,
+          -365
+        ],
+        [
+          0,
+          -335
+        ],
+        [
+          0,
+          -300
+        ],
+        [
+          0,
+          -261
+        ],
+        [
+          0,
+          -222
+        ],
+        [
+          0,
+          -150
+        ],
+        [
+          0,
+          -50
+        ],
+        [
+          0,
+          60
+        ],
+        [
+          0,
+          160
+        ],
+        [
+          0,
+          270
+        ],
+        [
+          0,
+          330
+        ],
+        [
+          0,
+          400
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          500
+        ],
+        "label": "Along-robot coral in stopped cradle; side jaw access at y460..540"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -520,
+            -300
+          ],
+          "text": "508 mm mouth"
+        },
+        {
+          "at": [
+            285,
+            90
+          ],
+          "text": "L/R drives independent"
+        },
+        {
+          "at": [
+            -520,
+            400
+          ],
+          "text": "Two beams -> stop -> grip"
+        }
+      ]
+    },
+    "mouthWidthMm": 508,
+    "states": "UNTESTED Stage-2 napkin CAD; every cheap dimensional/contact hypothesis remains untested, including the source-nominal mouth width as our clear opening. Blank chassis is 700 x 760 mm, x=-350..350, y=0..760. Keep the full bumper ring intact, including side-section front band y=-85..0, z=45..165; any recess is internal chassis/bellypan only. Nominal coral is L301.625 x OD114.3 mm. For a horizontal coral at any yaw, use the deliberately conservative longitudinal half-envelope L/2+R=207.9625 mm. Therefore the entire crossing interval for its center is y=-292.9625..207.9625, not just y=-85..0. The piece-center polyline stays at z>=236.69 throughout that interval, exceeding the required 165+57.15+10=232.15 mm; the drawn minimum bottom-to-bumper margin is 14.54 mm. This is an arithmetic 2D horizontal-envelope hypothesis, not measured clearance; pitched/vertical entries, flex and complete swept volumes remain unverified. Acquisition: powered lower packets lift toward the OD74 kicker under an individually floating OD64 top row. Supported flat PC fingers bridge packet gaps; retain the OD74 rear powered row at y=-222, 78 mm behind the kicker, with 4 mm between their drawn envelopes. Approximate 15 mm top float, 6 mm plate thickness, packet dimensions and shaft datum strips are placeholders; thin plan strips locate shafts and do not claim continuous wheel-diameter cylinders. Side ramp and roller projections can overlap only as interleaved guide fingers at different x; shaft/rib holes and actual fits remain unsolved. Plan transverse rows match side y, with lower/kicker/rear axes at z45/151/151 and floating top at z285. Bank wheels have vertical axes and proposed z205..285 contact envelopes, above the rear-wheel top z188 where plan footprints overlap. Orientation: L and R each power all seven wheels on their own bank; first pair x=+/-171,y=-175 overlaps the rear acquisition contact region, then 90 mm station spacing converges to x=+/-80 and continues to y365 through cradle side windows y335..395. Capture crosswise/skewed coral, yaw toward +y and retain a nominal 110 mm lane against OD114.3; rotation sign, offsets, contact force and all intermediate yaw envelopes need tests. The centerline does not prove an orientation trajectory. A deliberate skew test must expose the symmetric crosswise jam case. Current-detected brief opposed bank commands are a reference-inspired recovery proposal, not a tested threshold, speed or retry policy. Cradle: supported entry rises 5 mm then drops behind an anti-bounce step, with open top and side access y460..540 for a gripper. D1 at y540 first slows/stops the piece; a controlled creep proposal resumes only if the receiver is ready and D1 remains valid. For nominal along-y coral, D1 is reached near center y389.19 while its tail is near y238.38, still between powered stations. D2 at y644 is reached near center y493.19 and requests, rather than blindly executes, handoff. The final bank pair at y365 retains drive through both events and the stop: at final center y500, the trailing end is y349.1875, still 15.8125 mm forward of that station. No unpowered coast or early gripper traction is assumed. Stop the banks and retain one coral in the supported stopped cradle while the gripper approaches, confirms capture and takes ownership. Receiver-absent hold can remain at D1; the physical stop also bounds the final offer pose. The stop at y650.8125 is simply receiver center y500 plus nominal L/2, not a measured team dimension or a tolerance. Final target is x0,y500,z245.15 with yaw0, one coral only. Require receiver-ready, pose/capture confirmation and valid D1/D2 ordering before release; blocked/missing beams, timeout, overrun or failed capture stop motion and require bounded retry or driver abort. Beam count is two events, not four endpoint channels. Whole-robot occupancy inhibits a second coral from acquisition until confirmed release. Flat router-cut aluminum/PC plates, located tabs, turned spacers and machined support blocks replace accurate bends; printed guides remain replaceable nonqualified parts. The plan movingOutline is only an acquisition-module envelope; it is not a whole-nose floating four-bar, a swept volume or a verified stow. No deployment, loads, speed/torque, stock/process, adhesive, sensor, friction, reliability, retention duration, full 3D geometry or rules approval is claimed. No APIs, CAD imports, kernels, network research or physical trials were used for this concept."
+  },
+  {
+    "id": "12",
+    "title": "Through-bumper cutout",
+    "family": "Direct low belt feed with passive centering and end-grip handoff",
+    "summary": "UNTESTED geometry comparison: a real 350 mm split-bumper gap feeds a supported low tray and end gripper. Not a 2025 competition recommendation.",
+    "advantage": "A shallow feed avoids a lift arm; one motor, two belt drums and passive guides may simplify the 95 mm handoff.",
+    "risk": "Known R401/R402/R405 violation; Q152 rejects the notch exception. Traction, skew, floor pickup, retention and jaw transfer remain untested.",
+    "firstTest": "Rules gate FIRST: reject for 2025 under R401/R402/R405 and Q152. Paper-check support and jaw access only; do not proceed to a powered competition prototype.",
+    "complexity": "low",
+    "inspiration": "User-requested actual bumper cutout, instead of an over-bumper route; original geometry comparison, not a team replica or rules-compliant alternative.",
+    "bumperOpening": {
+      "widthMm": 350,
+      "recessDepthMm": 340
+    },
+    "notice": "2025 NON-COMPLIANT: open bumper gap violates R401/R402/R405; geometry comparison only.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -420,
+              0
+            ],
+            [
+              -350,
+              4.014
+            ],
+            [
+              -85,
+              19.2125
+            ],
+            [
+              0,
+              24.0864
+            ],
+            [
+              240,
+              37.85
+            ],
+            [
+              320,
+              42.4379
+            ],
+            [
+              320,
+              36.4379
+            ],
+            [
+              -315.37,
+              0
+            ],
+            [
+              -420,
+              0
+            ]
+          ],
+          "label": "Shallow support tray"
+        },
+        {
+          "points": [
+            [
+              -348.57,
+              116.355
+            ],
+            [
+              241.43,
+              150.191
+            ],
+            [
+              238.57,
+              200.109
+            ],
+            [
+              -351.43,
+              166.273
+            ],
+            [
+              -348.57,
+              116.355
+            ]
+          ],
+          "label": "Compliant top feed belt"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -350,
+            141.314
+          ],
+          "radius": 25,
+          "label": "Front belt drum"
+        },
+        {
+          "center": [
+            240,
+            175.15
+          ],
+          "radius": 25,
+          "label": "Rear drive drum"
+        }
+      ],
+      "links": [],
+      "pivot": null,
+      "ghost": [],
+      "path": [
+        [
+          -435,
+          57.15
+        ],
+        [
+          -420,
+          57.15
+        ],
+        [
+          -350,
+          61.164
+        ],
+        [
+          -210,
+          69.1932
+        ],
+        [
+          -85,
+          76.3625
+        ],
+        [
+          0,
+          81.2364
+        ],
+        [
+          120,
+          88.1182
+        ],
+        [
+          240,
+          95
+        ]
+      ],
+      "receiver": {
+        "center": [
+          240,
+          95
+        ],
+        "label": "End-grip handoff"
+      },
+      "labels": [
+        {
+          "at": [
+            -400,
+            380
+          ],
+          "text": "57.15 -> 95 mm center"
+        },
+        {
+          "at": [
+            -400,
+            430
+          ],
+          "text": "Tray rises 0 -> 37.85 mm"
+        },
+        {
+          "at": [
+            -400,
+            480
+          ],
+          "text": "340 mm internal recess"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -250,
+              -420
+            ],
+            [
+              250,
+              -420
+            ],
+            [
+              165,
+              -95
+            ],
+            [
+              165,
+              185
+            ],
+            [
+              110,
+              205
+            ],
+            [
+              110,
+              320
+            ],
+            [
+              -110,
+              320
+            ],
+            [
+              -110,
+              205
+            ],
+            [
+              -165,
+              185
+            ],
+            [
+              -165,
+              -95
+            ],
+            [
+              -250,
+              -420
+            ]
+          ],
+          "label": "Tray with end-jaw access"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -420
+            ],
+            [
+              -165,
+              -95
+            ],
+            [
+              -165,
+              185
+            ],
+            [
+              -173,
+              185
+            ],
+            [
+              -173,
+              -95
+            ],
+            [
+              -258,
+              -420
+            ],
+            [
+              -250,
+              -420
+            ]
+          ],
+          "label": "Left centering guide"
+        },
+        {
+          "points": [
+            [
+              250,
+              -420
+            ],
+            [
+              165,
+              -95
+            ],
+            [
+              165,
+              185
+            ],
+            [
+              173,
+              185
+            ],
+            [
+              173,
+              -95
+            ],
+            [
+              258,
+              -420
+            ],
+            [
+              250,
+              -420
+            ]
+          ],
+          "label": "Right centering guide"
+        },
+        {
+          "points": [
+            [
+              -110,
+              -375
+            ],
+            [
+              110,
+              -375
+            ],
+            [
+              110,
+              265
+            ],
+            [
+              -110,
+              265
+            ],
+            [
+              -110,
+              -375
+            ]
+          ],
+          "label": "220 mm upper belt footprint"
+        },
+        {
+          "points": [
+            [
+              -110,
+              -375
+            ],
+            [
+              110,
+              -375
+            ],
+            [
+              110,
+              -325
+            ],
+            [
+              -110,
+              -325
+            ],
+            [
+              -110,
+              -375
+            ]
+          ],
+          "label": "Front transverse drum band"
+        },
+        {
+          "points": [
+            [
+              -110,
+              215
+            ],
+            [
+              110,
+              215
+            ],
+            [
+              110,
+              265
+            ],
+            [
+              -110,
+              265
+            ],
+            [
+              -110,
+              215
+            ]
+          ],
+          "label": "Rear transverse drum band"
+        },
+        {
+          "points": [
+            [
+              -166,
+              210
+            ],
+            [
+              -156,
+              210
+            ],
+            [
+              -156,
+              270
+            ],
+            [
+              -166,
+              270
+            ],
+            [
+              -166,
+              210
+            ]
+          ],
+          "label": "Open left end jaw"
+        },
+        {
+          "points": [
+            [
+              156,
+              210
+            ],
+            [
+              166,
+              210
+            ],
+            [
+              166,
+              270
+            ],
+            [
+              156,
+              270
+            ],
+            [
+              156,
+              210
+            ]
+          ],
+          "label": "Open right end jaw"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [],
+      "path": [
+        [
+          -15,
+          -435
+        ],
+        [
+          -12,
+          -420
+        ],
+        [
+          -8,
+          -350
+        ],
+        [
+          -4,
+          -210
+        ],
+        [
+          0,
+          -85
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          120
+        ],
+        [
+          0,
+          240
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          240
+        ],
+        "label": "Crosswise end-grip handoff"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -310,
+            440
+          ],
+          "text": "500 mouth / 350 mm gap"
+        },
+        {
+          "at": [
+            -310,
+            500
+          ],
+          "text": "Recess: 350 x 340 mm"
+        },
+        {
+          "at": [
+            -310,
+            560
+          ],
+          "text": "301.625 x 114.3 mm coral"
+        }
+      ]
+    },
+    "mouthWidthMm": 500,
+    "states": "Stage 2 only; all geometry, pickup, centering, grip and physical performance are UNTESTED. This option alone expressly overrides BRIEF.md's intact-bumper constraint: remove the real front bumper at x=-175..175, y=-85..0, through its full nominal z=45..165 section, retaining the flanking bumpers. The removed nominal segment is dashed reference only, never a working bumper or over-bumper path. Separately recess the central chassis at x=-175..175, y=0..340; there is no front frame member crossing the coral. The rear frame begins at y=340. This is a known 2025 R401/R402/R405 conflict, confirmed by Q152, not unknown legality and not an internal recess mislabeled as a bumper gap. It is ineligible as a 2025 competition recommendation. The first cheap test is the rules gate, which this geometry fails; no powered competition prototype is justified. Remaining paper checks and any future separately authorized non-competition bench tests cannot cure that rule conflict. Coordinates are approximate mm. Nominal coral is 301.625 mm long and 114.3 mm OD, offered crosswise at x=0, y=240, z=95. The 500 mm usable mouth narrows to 330 mm between guides within the separate 350 mm bumper opening. A centered crosswise coral has 24.1875 mm nominal clearance per bumper end, reduced to 14.1875 mm per inner guide; these are static dimensions, not demonstrated capture tolerance. Pickup: drive forward to bring coral onto the shallow tray and into the rearward-running lower surface of one compliant upper belt. Two 50 mm diameter transverse drums drive a 220 mm wide belt; one motor, no lift linkage, powered yaw stage or roller ladder. Passive guides propose centering a near-crosswise entry; arbitrary-yaw capture is not established. The tray top rises from floor at y=-420 to 37.85 mm at the receiver and 42.4379 mm at y=320. The path follows that support plus the nominal 57.15 mm radius, with shallow-slope tangency rounded by less than 0.1 mm; it passes through the missing bumper band at about z=76..81, never over the nominal bumper. Flat router-cut side plates support a straight inclined tray with a tapered printed entry lip; no precision bends. The belt's roughly 2 mm nominal interference is only a compliance hypothesis, not proven traction or preload. Hold: stop the belt with one coral supported on the tray; backdrive, braking and rollback remain unknown. Offer: confirm receiver-ready, close the two end jaws, confirm capture, then release the feed. Whole-robot occupancy must inhibit a second coral; sensing is not implemented. At the receiver the central 220 mm belt and narrowed tray leave 40.8125 mm of each coral end exposed. Open jaw faces at x=+/-156 have 5.1875 mm nominal end clearance; approach from above the exposed ends, then close inward. No crossbar or placeholder frame occupies the piece. The receiver's circular side envelope spans y=182.85..297.15, inside the 340 mm recess with 42.85 mm nominal rear clearance. Jaw fingers, their supporting structure, drive mounts and all loads require later design. This fixed deployed sketch has no demonstrated stow, floor compliance, jam reversal, finite-piece sweep or safe retention; physical unknowns remain separate from the already-known bumper rule violation."
+  },
+  {
+    "id": "13",
+    "title": "Bore-Lock Elevator",
+    "family": "Internal expanding mandrel with outside receiver capture",
+    "notice": "Original concept: grip inside the bore, lift, then positively release to an outside receiver.",
+    "summary": "End-on robot approach seats a compliant bore mandrel. Internal pads hold during vertical lift; an outside saddle accepts coral before mandrel withdrawal and receiver retraction.",
+    "advantage": "Straight router-cut plates, linear slides, turned drawbar and compliant pads need no accurate bends. The 350 mm approach span is not the narrow bore-alignment window.",
+    "risk": "Dirty-bore grip and forced release are unproved. Horizontal lift is assumed; pitch, flex and stow need tests. The whole tube must clear the bumper before inward transfer.",
+    "firstTest": "Hardest: bench-test dirty, skewed bores under cantilever load. Lift, latch outside, cam-collapse pads and strip free; measure slip, pitch and release force before transfer.",
+    "complexity": "moderate",
+    "inspiration": "Original expanding-arbor principle, not external pinch or a team copy. Full nominal coral: 114.3 mm OD, 101.6 mm ID, 301.625 mm length; no working-design claim.",
+    "mouthWidthMm": 350,
+    "states": "Seat -> expand/hold -> lift -> outside latch -> captive-cam collapse/strip/withdraw -> park high -> receiver inward. One coral total; occupancy lockout. Pitch/stow open.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -115,
+              20
+            ],
+            [
+              -90,
+              20
+            ],
+            [
+              -90,
+              480
+            ],
+            [
+              -115,
+              480
+            ],
+            [
+              -115,
+              20
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -102.5,
+              480
+            ],
+            [
+              250,
+              480
+            ],
+            [
+              250,
+              420
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -175,
+              17.15
+            ],
+            [
+              -120,
+              17.15
+            ],
+            [
+              -120,
+              97.15
+            ],
+            [
+              -175,
+              97.15
+            ],
+            [
+              -175,
+              17.15
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -120,
+              52.15
+            ],
+            [
+              -100,
+              52.15
+            ],
+            [
+              -100,
+              62.15
+            ],
+            [
+              -120,
+              62.15
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -110,
+              109.15
+            ],
+            [
+              -110,
+              119.15
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              80,
+              215
+            ],
+            [
+              400,
+              215
+            ],
+            [
+              400,
+              222.85
+            ],
+            [
+              80,
+              222.85
+            ],
+            [
+              80,
+              215
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              230,
+              338
+            ],
+            [
+              250,
+              338
+            ],
+            [
+              250,
+              345
+            ],
+            [
+              230,
+              345
+            ],
+            [
+              230,
+              338
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -411.625,
+              0
+            ],
+            [
+              -110,
+              0
+            ],
+            [
+              -110,
+              114.3
+            ],
+            [
+              -411.625,
+              114.3
+            ],
+            [
+              -411.625,
+              0
+            ]
+          ],
+          "label": "CORAL reference: seated tube around mandrel"
+        },
+        {
+          "points": [
+            [
+              -411.625,
+              222.85
+            ],
+            [
+              -110,
+              222.85
+            ],
+            [
+              -110,
+              337.15
+            ],
+            [
+              -411.625,
+              337.15
+            ],
+            [
+              -411.625,
+              222.85
+            ]
+          ],
+          "label": "CORAL reference: lifted before inward transfer"
+        }
+      ],
+      "rollers": [],
+      "links": [
+        {
+          "points": [
+            [
+              -102.5,
+              57.15
+            ],
+            [
+              -102.5,
+              280
+            ],
+            [
+              -7.5,
+              280
+            ],
+            [
+              -7.5,
+              420
+            ]
+          ],
+          "label": ""
+        }
+      ],
+      "pivot": null,
+      "ghost": [
+        [
+          [
+            -168,
+            6.35
+          ],
+          [
+            -120,
+            6.35
+          ],
+          [
+            -120,
+            107.95
+          ],
+          [
+            -168,
+            107.95
+          ],
+          [
+            -168,
+            6.35
+          ]
+        ],
+        [
+          [
+            -175,
+            229.2
+          ],
+          [
+            -120,
+            229.2
+          ],
+          [
+            -120,
+            330.8
+          ],
+          [
+            -175,
+            330.8
+          ],
+          [
+            -175,
+            229.2
+          ]
+        ],
+        [
+          [
+            -120,
+            275
+          ],
+          [
+            -100,
+            275
+          ],
+          [
+            -100,
+            285
+          ],
+          [
+            -120,
+            285
+          ]
+        ],
+        [
+          [
+            -80,
+            380
+          ],
+          [
+            -25,
+            380
+          ],
+          [
+            -25,
+            460
+          ],
+          [
+            -80,
+            460
+          ],
+          [
+            -80,
+            380
+          ]
+        ],
+        [
+          [
+            -25,
+            415
+          ],
+          [
+            -5,
+            415
+          ],
+          [
+            -5,
+            425
+          ],
+          [
+            -25,
+            425
+          ]
+        ],
+        [
+          [
+            -420.8125,
+            215
+          ],
+          [
+            -100.8125,
+            215
+          ],
+          [
+            -100.8125,
+            222.85
+          ],
+          [
+            -420.8125,
+            222.85
+          ],
+          [
+            -420.8125,
+            215
+          ]
+        ],
+        [
+          [
+            -270.8125,
+            338
+          ],
+          [
+            -250.8125,
+            338
+          ],
+          [
+            -250.8125,
+            345
+          ],
+          [
+            -270.8125,
+            345
+          ],
+          [
+            -270.8125,
+            338
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -328,
+          57.15
+        ],
+        [
+          -260.8125,
+          57.15
+        ],
+        [
+          -260.8125,
+          150
+        ],
+        [
+          -260.8125,
+          280
+        ],
+        [
+          -260.8125,
+          280
+        ],
+        [
+          -120,
+          280
+        ],
+        [
+          60,
+          280
+        ],
+        [
+          240,
+          280
+        ]
+      ],
+      "receiver": {
+        "center": [
+          240,
+          280
+        ],
+        "label": "Accept outside, then retract"
+      },
+      "labels": [
+        {
+          "at": [
+            -430,
+            535
+          ],
+          "text": "Whole tube up: 57.85 mm gap"
+        },
+        {
+          "at": [
+            -430,
+            585
+          ],
+          "text": "Withdraw, then park at 420"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -175,
+              -420.8125
+            ],
+            [
+              -175,
+              -100.8125
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              175,
+              -420.8125
+            ],
+            [
+              175,
+              -100.8125
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              100,
+              -115
+            ],
+            [
+              125,
+              -115
+            ],
+            [
+              125,
+              -90
+            ],
+            [
+              100,
+              -90
+            ],
+            [
+              100,
+              -115
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              112.5,
+              -102.5
+            ],
+            [
+              112.5,
+              250
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              0,
+              -102.5
+            ],
+            [
+              112.5,
+              -102.5
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -40,
+              -175
+            ],
+            [
+              40,
+              -175
+            ],
+            [
+              40,
+              -120
+            ],
+            [
+              -40,
+              -120
+            ],
+            [
+              -40,
+              -175
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -5,
+              -120
+            ],
+            [
+              5,
+              -120
+            ],
+            [
+              5,
+              -100
+            ],
+            [
+              -5,
+              -100
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -62,
+              -110
+            ],
+            [
+              -52,
+              -110
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              52,
+              -110
+            ],
+            [
+              62,
+              -110
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -67,
+              80
+            ],
+            [
+              -67,
+              400
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              67,
+              80
+            ],
+            [
+              67,
+              400
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -67,
+              230
+            ],
+            [
+              67,
+              230
+            ],
+            [
+              67,
+              250
+            ],
+            [
+              -67,
+              250
+            ],
+            [
+              -67,
+              230
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "points": [
+            [
+              -57.15,
+              -411.625
+            ],
+            [
+              57.15,
+              -411.625
+            ],
+            [
+              57.15,
+              -110
+            ],
+            [
+              -57.15,
+              -110
+            ],
+            [
+              -57.15,
+              -411.625
+            ]
+          ],
+          "label": "CORAL reference: outside pickup and receiver capture"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -67,
+          -420.8125
+        ],
+        [
+          -67,
+          -100.8125
+        ],
+        [
+          67,
+          -100.8125
+        ],
+        [
+          67,
+          -420.8125
+        ],
+        [
+          -67,
+          -420.8125
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -328
+        ],
+        [
+          0,
+          -260.8125
+        ],
+        [
+          0,
+          -260.8125
+        ],
+        [
+          0,
+          -260.8125
+        ],
+        [
+          0,
+          -260.8125
+        ],
+        [
+          0,
+          -120
+        ],
+        [
+          0,
+          60
+        ],
+        [
+          0,
+          240
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          240
+        ],
+        "label": "Open-ended saddle + latch"
+      },
+      "coralYawDeg": 0,
+      "labels": [
+        {
+          "at": [
+            -300,
+            520
+          ],
+          "text": "350 span; end-on pickup only"
+        },
+        {
+          "at": [
+            -300,
+            590
+          ],
+          "text": "80 OD closed; 101.6 ID grip"
+        }
+      ]
+    }
+  },
+  {
+    "id": "14",
+    "title": "1778 reference clone",
+    "family": "Direct capture, raise-and-center, then powered handoff against a carrier-locked lower axle",
+    "notice": "Architecture clone; dimensions are provisional, not measured 1778 CAD.",
+    "summary": "Powered pickup retains one coral; presence triggers raising and mechanical centering. Present directly, then power the handoff against the locked lower contact.",
+    "advantage": "One moving carrier captures, centers and presents; the intentional axle lock targets in-place spinning without a separate long V conveyor.",
+    "risk": "Entry contact, retention and centering may fail. Receiver misalignment or wrong current-grip tuning can still throw coral; no measured geometry or physical pass.",
+    "firstTest": "Hand-crank a flat-plate mockup with full pipe and bumper; compare locked/free lower axle, delayed receiver grip, entry offsets and centering during raise.",
+    "complexity": "moderate",
+    "inspiration": "research/2025-coral/1690-1778.md E07-E11: previously read firsthand post text reports powered pickup, presence-triggered raising, mechanical centering, axle locking and alignment/current-grip sensitivity. CAD, images and videos are link-only, NOT viewed or measured. No exact replica or verified coordinates; no 1690 four-bar or 1690/2056 V conveyor. Carrier motion, fingers and stop are proposals, not measured 1778 mechanisms.",
+    "side": {
+      "guides": [
+        {
+          "points": [
+            [
+              -410,
+              0
+            ],
+            [
+              -370,
+              0
+            ],
+            [
+              -346,
+              9
+            ],
+            [
+              -346,
+              3
+            ],
+            [
+              -370,
+              0
+            ]
+          ],
+          "label": "Proposed flat PC entry toe at pickup only; retract before raising"
+        },
+        {
+          "points": [
+            [
+              68,
+              266
+            ],
+            [
+              92,
+              290
+            ]
+          ],
+          "label": "Retracted retaining-stop proposal; opens only after receiver alignment"
+        }
+      ],
+      "rollers": [
+        {
+          "center": [
+            -20.238822,
+            279.061178
+          ],
+          "radius": 25,
+          "rotation": "locked",
+          "label": "LOWER LOCKED: nonrotating relative to carrier, not world-fixed; supports front/lower quadrant"
+        },
+        {
+          "center": [
+            95.938822,
+            395.238822
+          ],
+          "radius": 25,
+          "label": "UPPER DRIVEN: powered pickup and rearward/downward handoff; preload/floating mount TBD"
+        }
+      ],
+      "links": [
+        {
+          "points": [
+            [
+              -20.238822,
+              279.061178
+            ],
+            [
+              95.938822,
+              395.238822
+            ]
+          ],
+          "label": "Carrier end plates at x=+/-250, outside coral ends; not a frame linkage or material through coral"
+        }
+      ],
+      "pivot": null,
+      "ghost": [
+        [
+          [
+            -375,
+            153
+          ],
+          [
+            -355,
+            185
+          ],
+          [
+            -210,
+            50
+          ],
+          [
+            -230,
+            15
+          ],
+          [
+            -375,
+            153
+          ]
+        ],
+        [
+          [
+            -338.088822,
+            153.088822
+          ],
+          [
+            -221.911178,
+            36.911178
+          ]
+        ],
+        [
+          [
+            -337.15,
+            95
+          ],
+          [
+            -320.411152,
+            135.411152
+          ],
+          [
+            -280,
+            152.15
+          ],
+          [
+            -239.588848,
+            135.411152
+          ],
+          [
+            -222.85,
+            95
+          ],
+          [
+            -239.588848,
+            54.588848
+          ],
+          [
+            -280,
+            37.85
+          ],
+          [
+            -320.411152,
+            54.588848
+          ],
+          [
+            -337.15,
+            95
+          ]
+        ]
+      ],
+      "path": [
+        [
+          -400,
+          57.15
+        ],
+        [
+          -365,
+          62
+        ],
+        [
+          -350,
+          71.81
+        ],
+        [
+          -338.088822,
+          70.938822
+        ],
+        [
+          -310,
+          75.891
+        ],
+        [
+          -280,
+          95
+        ],
+        [
+          -260.66293,
+          166.179625
+        ],
+        [
+          -223.562113,
+          229.929062
+        ],
+        [
+          -171.225907,
+          281.90389
+        ],
+        [
+          -107.220938,
+          318.562113
+        ],
+        [
+          -35.90904,
+          337.405532
+        ],
+        [
+          37.85,
+          337.15
+        ]
+      ],
+      "receiver": {
+        "center": [
+          37.85,
+          337.15
+        ],
+        "label": "Direct crosswise receiver target; aligned jaws share the retained offer pose before powered release"
+      },
+      "labels": [
+        {
+          "at": [
+            -440,
+            560
+          ],
+          "text": "Presence -> raise / center"
+        },
+        {
+          "at": [
+            -440,
+            505
+          ],
+          "text": "Locked axle moves with carrier"
+        },
+        {
+          "at": [
+            270,
+            550
+          ],
+          "text": "Align -> power -> current grip"
+        }
+      ]
+    },
+    "plan": {
+      "guides": [
+        {
+          "points": [
+            [
+              -250,
+              -45.238822
+            ],
+            [
+              250,
+              -45.238822
+            ],
+            [
+              250,
+              4.761178
+            ],
+            [
+              -250,
+              4.761178
+            ],
+            [
+              -250,
+              -45.238822
+            ]
+          ],
+          "rotation": "locked",
+          "label": "LOCKED lower transverse contact band: axis x, y=-20.238822, z=279.061178; not a powered vertical-axis wheel"
+        },
+        {
+          "points": [
+            [
+              -250,
+              70.938822
+            ],
+            [
+              250,
+              70.938822
+            ],
+            [
+              250,
+              120.938822
+            ],
+            [
+              -250,
+              120.938822
+            ],
+            [
+              -250,
+              70.938822
+            ]
+          ],
+          "rotation": "driven",
+          "label": "DRIVEN upper transverse contact band: axis x, y=95.938822, z=395.238822; overlaps piece only in projection"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -65
+            ],
+            [
+              -155,
+              -10
+            ],
+            [
+              -155,
+              105
+            ]
+          ],
+          "label": "Proposed left short centering finger, closed during raise; outside nominal coral end"
+        },
+        {
+          "points": [
+            [
+              250,
+              -65
+            ],
+            [
+              155,
+              -10
+            ],
+            [
+              155,
+              105
+            ]
+          ],
+          "label": "Proposed right short centering finger; lift-coupled closure, not a separate V conveyor"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -65
+            ],
+            [
+              -250,
+              105
+            ]
+          ],
+          "label": "Left finger open-position datum; closure actuation unverified"
+        },
+        {
+          "points": [
+            [
+              250,
+              -65
+            ],
+            [
+              250,
+              105
+            ]
+          ],
+          "label": "Right finger open-position datum; closure actuation unverified"
+        },
+        {
+          "points": [
+            [
+              -150.8125,
+              -19.3
+            ],
+            [
+              150.8125,
+              -19.3
+            ],
+            [
+              150.8125,
+              95
+            ],
+            [
+              -150.8125,
+              95
+            ],
+            [
+              -150.8125,
+              -19.3
+            ]
+          ],
+          "label": "CORAL reference: final horizontal L301.625 x OD114.3, center [0,37.85], axis x"
+        },
+        {
+          "points": [
+            [
+              -150.8125,
+              -337.15
+            ],
+            [
+              150.8125,
+              -337.15
+            ],
+            [
+              150.8125,
+              -222.85
+            ],
+            [
+              -150.8125,
+              -222.85
+            ],
+            [
+              -150.8125,
+              -337.15
+            ]
+          ],
+          "label": "CORAL reference: earlier capture ghost, same one piece at y=-280, z=95; not a second coral"
+        },
+        {
+          "points": [
+            [
+              -250,
+              -410
+            ],
+            [
+              250,
+              -410
+            ],
+            [
+              250,
+              -346
+            ],
+            [
+              -250,
+              -346
+            ],
+            [
+              -250,
+              -410
+            ]
+          ],
+          "label": "Pickup-only entry toe footprint; retracted in raised pose"
+        },
+        {
+          "points": [
+            [
+              -60,
+              68
+            ],
+            [
+              60,
+              68
+            ],
+            [
+              60,
+              92
+            ],
+            [
+              -60,
+              92
+            ],
+            [
+              -60,
+              68
+            ]
+          ],
+          "label": "Retracted stop at z266..290; below offered coral, not blocking handoff"
+        }
+      ],
+      "rollers": [],
+      "movingOutline": [
+        [
+          -260,
+          -65
+        ],
+        [
+          260,
+          -65
+        ],
+        [
+          260,
+          130
+        ],
+        [
+          -260,
+          130
+        ],
+        [
+          -260,
+          -65
+        ]
+      ],
+      "path": [
+        [
+          0,
+          -400
+        ],
+        [
+          0,
+          -365
+        ],
+        [
+          0,
+          -350
+        ],
+        [
+          0,
+          -338.088822
+        ],
+        [
+          0,
+          -310
+        ],
+        [
+          0,
+          -280
+        ],
+        [
+          0,
+          -260.66293
+        ],
+        [
+          0,
+          -223.562113
+        ],
+        [
+          0,
+          -171.225907
+        ],
+        [
+          0,
+          -107.220938
+        ],
+        [
+          0,
+          -35.90904
+        ],
+        [
+          0,
+          37.85
+        ]
+      ],
+      "receiver": {
+        "center": [
+          0,
+          37.85
+        ],
+        "label": "Receiver at x0, y37.85, z337.15; crosswise coral, current-confirmed grip required"
+      },
+      "coralYawDeg": 90,
+      "labels": [
+        {
+          "at": [
+            -550,
+            300
+          ],
+          "text": "Crosswise entry; yaw not guaranteed"
+        },
+        {
+          "at": [
+            -550,
+            430
+          ],
+          "text": "LOCKED lower / DRIVEN upper"
+        },
+        {
+          "at": [
+            -550,
+            560
+          ],
+          "text": "Short fingers center during raise"
+        }
+      ]
+    },
+    "mouthWidthMm": 500,
+    "states": "Main provisional entry: horizontal crosswise, yaw90; robot-assisted recovery is not 360-yaw centering. Presence is not alignment. Solid contacts show raised offer; ghosts show capture at [-280,95]. A proposed 90-deg carrier turn follows the sampled arc; deployment linkage is unresolved, not a measured pivot. Lower axle stays locked to the moving carrier. Stop/nip retain coral while short fingers close mechanically during raise. Align receiver, release stop, power upper contact against locked lower; confirm manipulator current-grip before redeploy. Inhibit a second coral robot-wide. Flat routed plates, manual-machined shafts/blocks and printed guides; no accurate bends. Full piece/bumper dimensions are drawn; crosswise path has >75 mm bumper margin in 2D only. Entry, retention, centering closure, traction, swept hardware, current settings, jam recovery, stow and legality remain untested."
+  }
+]

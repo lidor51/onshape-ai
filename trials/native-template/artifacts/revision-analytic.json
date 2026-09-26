@@ -1,0 +1,69 @@
+{
+  "evidence": "analytic arithmetic only; not CAD or server measurements",
+  "units": "mm",
+  "solidCountExpected": 1,
+  "boundsMm": {
+    "low": [
+      -188,
+      0,
+      12.7
+    ],
+    "high": [
+      -180,
+      320,
+      162.7
+    ]
+  },
+  "holes": [
+    {
+      "name": "Front shaft",
+      "center": [
+        70,
+        65
+      ],
+      "diameter": 12.9
+    },
+    {
+      "name": "Rear shaft",
+      "center": [
+        241.2,
+        65
+      ],
+      "diameter": 12.9
+    },
+    {
+      "name": "Mount 1",
+      "center": [
+        140,
+        135
+      ],
+      "diameter": 6.6
+    },
+    {
+      "name": "Mount 2",
+      "center": [
+        300,
+        135
+      ],
+      "diameter": 6.6
+    },
+    {
+      "name": "Pivot",
+      "center": [
+        30,
+        130
+      ],
+      "diameter": 12.9
+    },
+    {
+      "name": "Editor downstream",
+      "center": [
+        200,
+        40
+      ],
+      "diameter": 4
+    }
+  ],
+  "volumeMm3": 380215.32333022036,
+  "minLigamentMm": 16.7
+}

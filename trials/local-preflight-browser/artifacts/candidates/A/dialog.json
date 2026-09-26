@@ -1,0 +1,42 @@
+{
+  "plateLength": {
+    "label": "Plate length",
+    "expression": "320 mm"
+  },
+  "plateHeight": {
+    "label": "Plate height",
+    "expression": "150 mm"
+  },
+  "plateThickness": {
+    "label": "Plate thickness",
+    "expression": "6.35 mm"
+  },
+  "innerWidth": {
+    "label": "Inner width",
+    "expression": "340 mm"
+  },
+  "rollerGap": {
+    "label": "Clear roller gap",
+    "expression": "100 mm"
+  },
+  "shaftHoleDiameter": {
+    "label": "Shaft hole diameter",
+    "expression": "12.9 mm"
+  },
+  "mountHoleDiameter": {
+    "label": "Mount hole diameter",
+    "expression": "6.6 mm"
+  },
+  "pivotHoleDiameter": {
+    "label": "Pivot hole diameter",
+    "expression": "12.9 mm"
+  },
+  "pivotY": {
+    "label": "Pivot Y",
+    "expression": "25 mm"
+  },
+  "pivotZ": {
+    "label": "Pivot Z",
+    "expression": "130 mm"
+  }
+}

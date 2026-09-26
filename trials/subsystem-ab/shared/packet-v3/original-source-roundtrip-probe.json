@@ -1,0 +1,231 @@
+{
+  "status": "FAIL",
+  "apiCalls": 0,
+  "nativeInstances": 52,
+  "x44SourceBodies": 2,
+  "inventedRotorBodies": 0,
+  "rows": [
+    {
+      "role": "cots_x44_main",
+      "sourceSha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "exportSha256": "4bc59063be48133e74122f06e822ce9d044a96be0d210cfe172e7020a4071e85",
+      "sourceFrameMeasured": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 112107.30835411993,
+        "boundsMm": [
+          -22.000000100000005,
+          -25.400000100000014,
+          -74.61250010000572,
+          22.000000100000005,
+          22.0000001,
+          37.357050099999995
+        ]
+      },
+      "sourceFrameReimported": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 112107.32549646271,
+        "boundsMm": [
+          -22.000000100000005,
+          -25.4000001,
+          -74.61250010000578,
+          22.000000100000005,
+          22.0000001,
+          37.3570501
+        ]
+      },
+      "volumeErrorMm3": 0.01714234278188087,
+      "volumeBudgetMm3": 0.011210730835411992,
+      "sourceFrameBoundsMaximumErrorMm": 5.684341886080802e-14,
+      "status": "FAIL"
+    },
+    {
+      "role": "cots_x44_rear_cover",
+      "sourceSha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "exportSha256": "11e637da767f6137fbf9e58b73b8cd4a332e14e2ccbe78b36885ec0d4523b184",
+      "sourceFrameMeasured": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2515.771152335832,
+        "boundsMm": [
+          -21.70064380615926,
+          -25.179381151360936,
+          -74.61250010000002,
+          21.700643806159235,
+          -1.4717827362660396,
+          -53.276499899999976
+        ]
+      },
+      "sourceFrameReimported": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 2516.504184868371,
+        "boundsMm": [
+          -21.700643806149998,
+          -25.179381151361,
+          -74.61250010000002,
+          21.700643806159,
+          -1.4717827362662805,
+          -53.2764999
+        ]
+      },
+      "volumeErrorMm3": 0.7330325325388003,
+      "volumeBudgetMm3": 0.01,
+      "sourceFrameBoundsMaximumErrorMm": 9.261924560632906e-12,
+      "status": "FAIL"
+    },
+    {
+      "role": "cots_hex_bearing",
+      "sourceSha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "exportSha256": "695704d31c1d2eff200d56e596c8b723c8795b3ecb3d1f3406b34ee53bcc51ff",
+      "sourceFrameMeasured": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3985.8595418071227,
+        "boundsMm": [
+          -15.557500099999997,
+          0.0,
+          -15.557500099999997,
+          15.557500099999997,
+          7.937500000000001,
+          15.557500099999997
+        ]
+      },
+      "sourceFrameReimported": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 3985.8595421599766,
+        "boundsMm": [
+          -15.557500099999999,
+          0.0,
+          -15.557500099999999,
+          15.557500099999999,
+          7.9375,
+          15.557500099999999
+        ]
+      },
+      "volumeErrorMm3": 3.5285393096273765e-07,
+      "volumeBudgetMm3": 0.01,
+      "sourceFrameBoundsMaximumErrorMm": 1.7763568394002505e-15,
+      "status": "PASS"
+    },
+    {
+      "role": "cots_spline_pinion",
+      "sourceSha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "exportSha256": "668ae0c72967d0601132b8011b0101284689da12b63ddd3aadb1a3b448e1198f",
+      "sourceFrameMeasured": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 5071.75742022078,
+        "boundsMm": [
+          -11.295059806652704,
+          -11.295059806643067,
+          -9.525000100000003,
+          11.295059806691508,
+          11.295059806701152,
+          9.525000100000003
+        ]
+      },
+      "sourceFrameReimported": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 5071.757420188781,
+        "boundsMm": [
+          -11.295059806652391,
+          -11.295059806642803,
+          -9.5250001,
+          11.29505980669203,
+          11.295059806701031,
+          9.5250001
+        ]
+      },
+      "volumeErrorMm3": 3.1998752092476934e-08,
+      "volumeBudgetMm3": 0.01,
+      "sourceFrameBoundsMaximumErrorMm": 5.222489107836736e-13,
+      "status": "PASS"
+    },
+    {
+      "role": "cots_hex_output_gear",
+      "sourceSha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "exportSha256": "a93a51238642b2e6607b4b4f657c1460f933e3ef996abdf98c7fbfaa8f5890ee",
+      "sourceFrameMeasured": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 13726.909690794935,
+        "boundsMm": [
+          -31.714166254708342,
+          -31.714166254708363,
+          -6.324599999999999,
+          31.714166254708307,
+          31.71416625470835,
+          6.324599999999999
+        ]
+      },
+      "sourceFrameReimported": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 13726.909690579449,
+        "boundsMm": [
+          -31.71416625470831,
+          -31.71416625470831,
+          -6.3246,
+          31.714166254708328,
+          31.714166254708328,
+          6.3246
+        ]
+      },
+      "volumeErrorMm3": 2.154865796910599e-07,
+      "volumeBudgetMm3": 0.01,
+      "sourceFrameBoundsMaximumErrorMm": 5.3290705182007514e-14,
+      "status": "PASS"
+    },
+    {
+      "role": "cots_wheel",
+      "sourceSha256": "52389c35842755f9c6f77598cba5df751cbf2fda3671ae44da95fa9adf489910",
+      "exportSha256": "b0e32e7bfc5fabd3013161a4db702b3a31f354ba178190fe5ff02a341e5e8e5f",
+      "sourceFrameMeasured": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15092.582068992442,
+        "boundsMm": [
+          -25.390975300297193,
+          -25.390975400297194,
+          -1.000000001110223e-07,
+          25.390975300297193,
+          25.390975400297194,
+          12.700000100000006
+        ]
+      },
+      "sourceFrameReimported": {
+        "valid": true,
+        "solids": 1,
+        "closed": true,
+        "volumeMm3": 15092.582068953287,
+        "boundsMm": [
+          -25.390975300284804,
+          -25.390975400297002,
+          -1.0000000266453525e-07,
+          25.390975400297002,
+          25.390975400297002,
+          12.700000100000002
+        ]
+      },
+      "volumeErrorMm3": 3.9155565900728106e-08,
+      "volumeBudgetMm3": 0.01,
+      "sourceFrameBoundsMaximumErrorMm": 9.999980932207109e-08,
+      "status": "PASS"
+    }
+  ]
+}

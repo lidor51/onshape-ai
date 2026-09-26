@@ -1,0 +1,852 @@
+{
+  "benchmark-revision": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t6.35-p25-g95": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t6.35-p25-g97.5": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t6.35-p25-g100": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t6.35-p30-g95": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t6.35-p30-g97.5": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t6.35-p30-g100": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t8-p25-g95": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t8-p25-g97.5": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t8-p25-g100": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t8-p30-g95": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t8-p30-g97.5": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w340-t8-p30-g100": {
+    "innerWidthMm": 340,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t6.35-p25-g95": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t6.35-p25-g97.5": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t6.35-p25-g100": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t6.35-p30-g95": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t6.35-p30-g97.5": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t6.35-p30-g100": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 6.35,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t8-p25-g95": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t8-p25-g97.5": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t8-p25-g100": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      25,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t8-p30-g95": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 95,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t8-p30-g97.5": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 97.5,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  },
+  "w360-t8-p30-g100": {
+    "innerWidthMm": 360,
+    "plateThicknessMm": 8,
+    "plateLengthMm": 320,
+    "plateHeightMm": 150,
+    "plateBottomZMm": 12.7,
+    "rollerDiameterMm": 76.2,
+    "rollerGapMm": 100,
+    "rollerSideClearanceMm": 5,
+    "frontRollerYMm": 70,
+    "rollerZMm": 65,
+    "shaftDiameterMm": 12.7,
+    "shaftHoleDiameterMm": 12.9,
+    "shaftEndExtensionMm": 12.7,
+    "crossmemberSizeMm": 25.4,
+    "crossmemberCentersYZMm": [
+      [
+        140,
+        135
+      ],
+      [
+        300,
+        135
+      ]
+    ],
+    "mountHoleDiameterMm": 6.6,
+    "pivotCenterYZMm": [
+      30,
+      130
+    ],
+    "pivotHoleDiameterMm": 12.9,
+    "units": "mm",
+    "downstreamHole": false
+  }
+}

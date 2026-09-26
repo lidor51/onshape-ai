@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: HMAC contract matches official lowercase fields and final newline
+ok 1 - HMAC contract matches official lowercase fields and final newline
+  ---
+  duration_ms: 10.3271
+  type: 'test'
+  ...
+# Subtest: credential destination guard rejects spoofed hosts, ports, userinfo, and HTTP
+ok 2 - credential destination guard rejects spoofed hosts, ports, userinfo, and HTTP
+  ---
+  duration_ms: 2.652
+  type: 'test'
+  ...
+# Subtest: synthetic transport only: private creation, same-run scope, and no delete or duplicate document
+ok 3 - synthetic transport only: private creation, same-run scope, and no delete or duplicate document
+  ---
+  duration_ms: 292.2438
+  type: 'test'
+  ...
+# Subtest: synthetic transport only: redirects never forward credentials or auto-retry
+ok 4 - synthetic transport only: redirects never forward credentials or auto-retry
+  ---
+  duration_ms: 9.1863
+  type: 'test'
+  ...
+# Subtest: synthetic transport only: refusal or ambiguous privacy never falls back to public
+ok 5 - synthetic transport only: refusal or ambiguous privacy never falls back to public
+  ---
+  duration_ms: 40.8296
+  type: 'test'
+  ...
+# Subtest: sanitizer removes credentials and signed authorization from diagnostics
+ok 6 - sanitizer removes credentials and signed authorization from diagnostics
+  ---
+  duration_ms: 1.2673
+  type: 'test'
+  ...
+# Subtest: synthetic public mode requires explicit confirmation and positive visibility; no fallback or retry
+ok 7 - synthetic public mode requires explicit confirmation and positive visibility; no fallback or retry
+  ---
+  duration_ms: 9.5133
+  type: 'test'
+  ...
+# Subtest: public resume requires original creation evidence and matching server provenance
+ok 8 - public resume requires original creation evidence and matching server provenance
+  ---
+  duration_ms: 32.7495
+  type: 'test'
+  ...
+# Subtest: diagnostic wrapper defines but never invokes the intake; this is not CAD validation
+ok 9 - diagnostic wrapper defines but never invokes the intake; this is not CAD validation
+  ---
+  duration_ms: 216.0989
+  type: 'test'
+  ...
+# Subtest: ZIP export retains exact server bytes and identifies unchanged STEP members
+ok 10 - ZIP export retains exact server bytes and identifies unchanged STEP members
+  ---
+  duration_ms: 41.3015
+  type: 'test'
+  ...
+# Subtest: plain STEP remains STEP and failed content is still preserved as raw bytes
+ok 11 - plain STEP remains STEP and failed content is still preserved as raw bytes
+  ---
+  duration_ms: 5.0603
+  type: 'test'
+  ...
+# Subtest: real baseline response decodes and verifies nine solids and every required through cylinder
+ok 12 - real baseline response decodes and verifies nine solids and every required through cylinder
+  ---
+  duration_ms: 334.2401
+  type: 'test'
+  ...
+# Subtest: revision updates only parameters on the same ID and never repeats an already applied update
+ok 13 - revision updates only parameters on the same ID and never repeats an already applied update
+  ---
+  duration_ms: 338.1701
+  type: 'test'
+  ...
+# Subtest: real baseline: same custom feature, nine solids and every required hole dimension
+ok 14 - real baseline: same custom feature, nine solids and every required hole dimension
+  ---
+  duration_ms: 237.1602
+  type: 'test'
+  ...
+# Subtest: real baseline: PNG is 1200x900, decodes nonblank, and hash matches
+ok 15 - real baseline: PNG is 1200x900, decodes nonblank, and hash matches
+  ---
+  duration_ms: 1312.3907
+  type: 'test'
+  ...
+# Subtest: real baseline: STEP is unchanged server bytes with nine solid records
+ok 16 - real baseline: STEP is unchanged server bytes with nine solid records
+  ---
+  duration_ms: 126.5805
+  type: 'test'
+  ...
+# Subtest: real revision: same custom feature, nine solids and every required hole dimension
+ok 17 - real revision: same custom feature, nine solids and every required hole dimension
+  ---
+  duration_ms: 40.6928
+  type: 'test'
+  ...
+# Subtest: real revision: PNG is 1200x900, decodes nonblank, and hash matches
+ok 18 - real revision: PNG is 1200x900, decodes nonblank, and hash matches
+  ---
+  duration_ms: 871.68
+  type: 'test'
+  ...
+# Subtest: real revision: STEP is unchanged server bytes with nine solid records
+ok 19 - real revision: STEP is unchanged server bytes with nine solid records
+  ---
+  duration_ms: 75.7809
+  type: 'test'
+  ...
+# Subtest: actual revision changes only two expressions on the same server feature
+ok 20 - actual revision changes only two expressions on the same server feature
+  ---
+  duration_ms: 47.7479
+  type: 'test'
+  ...
+# Subtest: interrupted translation resumes only from owned successful export provenance
+ok 21 - interrupted translation resumes only from owned successful export provenance
+  ---
+  duration_ms: 533.0151
+  type: 'test'
+  ...
+# Subtest: resume reconstructs both geometry contracts entirely from own saved artifacts
+ok 22 - resume reconstructs both geometry contracts entirely from own saved artifacts
+  ---
+  duration_ms: 153.239
+  type: 'test'
+  ...
+# Subtest: version creation includes schema document and server microversion identifiers
+ok 23 - version creation includes schema document and server microversion identifiers
+  ---
+  duration_ms: 155.3755
+  type: 'test'
+  ...
+# Subtest: observed namespace links custom feature without a separate custom import; resume does not repeat mutations
+ok 24 - observed namespace links custom feature without a separate custom import; resume does not repeat mutations
+  ---
+  duration_ms: 179.3652
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5108.5089

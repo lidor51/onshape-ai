@@ -1,0 +1,43 @@
+{
+  "source": "https://cad.onshape.com/api/openapi",
+  "retrievedAt": "2026-09-12T09:34:50.524Z",
+  "sha256": "5c072358064bee2f5fc2ea9df131ef43e471e65633d56267a88ab9abb93ac7ee",
+  "authentication": "none",
+  "targetApiVersion": "v17",
+  "info": {
+    "title": "Onshape REST API",
+    "description": "## Welcome to the Onshape REST API Explorer\n\n**See the [API Explorer Guide](https://onshape-public.github.io/docs/api-intro/explorer/) for help navigating this page.**\n\n### Using this page\n1. Sign in to your [Onshape](https://cad.onshape.com) account in another tab.\n2. Click the `Try it out` button below. It toggles to a `Cancel` button when selected.\n\n### Authenticating\nTo authenticate your calls, click the `Authorize` button. See [API Explorer Guide: Authentication](https://onshape-public.github.io/docs/api-intro/explorer/#authentication) for details. Calls made when authenticated via API Keys or OAuth count against your annual [API limits](https://onshape-public.github.io/docs/auth/limits/#annual-api-call-limits).\n* **Tip:** To ensure the current session isn't used when trying other authentication techniques, make sure to [remove the Onshape cookie](https://support.google.com/chrome/answer/95647#zippy=%2Cdelete-cookies-from-a-site) as per the instructions for your browser, or use a private or incognito window.\n\n### Additional resources\n\n* [Onshape API Guide](https://onshape-public.github.io/docs/): Our full suite of developer guides, to be used as an accompaniment to this API Explorer.\n* [Onshape Developer Portal](https://cad.onshape.com/appstore/dev-portal): The Onshape portal for managing your API keys, OAuth2 credentials, your Onshape applications, and your Onshape App Store entries.\n* [Authentication Guide](https://onshape-public.github.io/docs/auth/): Our guide to using API keys, request signatures, and OAuth2 in your Onshape applications.",
+    "termsOfService": "https://www.onshape.com/legal/terms-of-use",
+    "contact": {
+      "email": "api-support@onshape.zendesk.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version": "1.220.87929-d54ca734df42",
+    "x-logo": {
+      "url": "images/logo-onshape-gray-green-nav-bar.svg",
+      "backgroundColor": "#ffffff",
+      "altText": "Onshape",
+      "href": "images/logo-onshape-gray-green-nav-bar.svg"
+    },
+    "x-indeterministic-schemas": [
+      "BTDiffInfo",
+      "BTParameterSpecArray-2600",
+      "BTSplineDescription-2118",
+      "NodeModel",
+      "BTPFunctionDeclaration-246",
+      "BTPFunctionOrPredicateDeclaration-247",
+      "BTPExpression-9",
+      "SkinModel",
+      "BTMAnnotation-4664"
+    ],
+    "x-filter-info": "?restUserRole=PUBLIC"
+  },
+  "docs": {
+    "signing": "https://onshape-public.github.io/docs/auth/apikeys/",
+    "assemblies": "https://onshape-public.github.io/docs/api-adv/assemblies/",
+    "imports": "https://onshape-public.github.io/docs/api-adv/translation/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "command": "node trials/mcp/discover.mjs -> isolated node sdk-discovery.mjs",
+  "startedAt": "2026-09-11T11:40:24.694Z",
+  "elapsedMs": 3514.1988,
+  "code": 0,
+  "signal": null,
+  "stdout": "Starting hash-pinned existing Rust MCP server, credentials absent\n{\"status\":\"offline-discovery-passed\",\"server\":{\"name\":\"onshape-mcp\",\"version\":\"0.5.2\"},\"tools\":11,\"endpoints\":300,\"auth\":\"not_configured\"}\n",
+  "stderr": "",
+  "environmentKeys": [
+    "APPDATA",
+    "HOME",
+    "HOMEDRIVE",
+    "HOMEPATH",
+    "LOCALAPPDATA",
+    "LOGONSERVER",
+    "PATH",
+    "PROCESSOR_ARCHITECTURE",
+    "PROGRAMFILES",
+    "SYSTEMDRIVE",
+    "SYSTEMROOT",
+    "SystemRoot",
+    "TEMP",
+    "TMP",
+    "USERDOMAIN",
+    "USERNAME",
+    "USERPROFILE",
+    "WINDIR",
+    "XDG_CONFIG_HOME",
+    "XDG_DATA_HOME"
+  ],
+  "credentialsProvided": false
+}

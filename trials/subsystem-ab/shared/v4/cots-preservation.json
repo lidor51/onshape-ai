@@ -1,0 +1,1624 @@
+{
+  "sources": {
+    "hex_bearing": {
+      "roles": [
+        "hex_bearing_body_0"
+      ],
+      "originalPath": "trials/subsystem-ab/cots/cache/wcp-0783.step",
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "bytes": 95572,
+      "directOriginalImportRequired": true,
+      "occtReexportAllowed": false,
+      "sourceUnits": "inch",
+      "sourceToAttachment": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -6.35
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceSolidCount": 1,
+      "nativePartIds": null
+    },
+    "x44": {
+      "roles": [
+        "x44_body_0",
+        "x44_body_1"
+      ],
+      "originalPath": "trials/subsystem-ab/cots/cache/wcp-0941.step",
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "bytes": 12537342,
+      "directOriginalImportRequired": true,
+      "occtReexportAllowed": false,
+      "sourceUnits": "inch",
+      "sourceToAttachment": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceSolidCount": 2,
+      "nativePartIds": null
+    },
+    "spline_pinion": {
+      "roles": [
+        "spline_pinion_body_0"
+      ],
+      "originalPath": "trials/subsystem-ab/cots/cache/wcp-1016.step",
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "bytes": 2191518,
+      "directOriginalImportRequired": true,
+      "occtReexportAllowed": false,
+      "sourceUnits": "inch",
+      "sourceToAttachment": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceSolidCount": 1,
+      "nativePartIds": null
+    },
+    "hex_output_gear": {
+      "roles": [
+        "hex_output_gear_body_0"
+      ],
+      "originalPath": "trials/subsystem-ab/cots/cache/wcp-0137.step",
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "bytes": 2378852,
+      "directOriginalImportRequired": true,
+      "occtReexportAllowed": false,
+      "sourceUnits": "inch",
+      "sourceToAttachment": [
+        [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0,
+          0.0
+        ],
+        [
+          -0.49999999999999994,
+          0.8660254037844387,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceSolidCount": 1,
+      "nativePartIds": null
+    }
+  },
+  "instances": [
+    {
+      "instance": "pickup_roll_0_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -268.54978076150354,
+        34.442319238496474,
+        -246.64981923849646,
+        -211.45021923849646,
+        65.55768076150353
+      ]
+    },
+    {
+      "instance": "pickup_roll_0_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -268.54978076150354,
+        34.442319238496474,
+        254.58768076150355,
+        -211.45021923849646,
+        65.55768076150353
+      ]
+    },
+    {
+      "instance": "pickup_roll_1_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -233.54978076150354,
+        74.44231923849647,
+        -246.64981923849646,
+        -176.45021923849646,
+        105.55768076150353
+      ]
+    },
+    {
+      "instance": "pickup_roll_1_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -233.54978076150354,
+        74.44231923849647,
+        254.58768076150355,
+        -176.45021923849646,
+        105.55768076150353
+      ]
+    },
+    {
+      "instance": "pickup_roll_2_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -198.54978076150354,
+        114.44231923849647,
+        -246.64981923849646,
+        -141.45021923849646,
+        145.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_2_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -198.54978076150354,
+        114.44231923849647,
+        254.58768076150355,
+        -141.45021923849646,
+        145.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_3_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -163.54978076150354,
+        154.44231923849645,
+        -246.64981923849646,
+        -106.45021923849647,
+        185.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_3_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -163.54978076150354,
+        154.44231923849645,
+        254.58768076150355,
+        -106.45021923849647,
+        185.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_4_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -128.54978076150354,
+        194.44231923849645,
+        -246.64981923849646,
+        -71.45021923849647,
+        225.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_4_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -128.54978076150354,
+        194.44231923849645,
+        254.58768076150355,
+        -71.45021923849647,
+        225.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_5_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -93.54978076150353,
+        234.44231923849645,
+        -246.64981923849646,
+        -36.45021923849647,
+        265.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_5_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -93.54978076150353,
+        234.44231923849645,
+        254.58768076150355,
+        -36.45021923849647,
+        265.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_6_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -58.54978076150353,
+        274.44231923849645,
+        -246.64981923849646,
+        -1.4502192384964736,
+        305.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_6_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -58.54978076150353,
+        274.44231923849645,
+        254.58768076150355,
+        -1.4502192384964736,
+        305.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_7_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -23.549780761503527,
+        314.44231923849645,
+        -246.64981923849646,
+        33.54978076150352,
+        345.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_7_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -23.549780761503527,
+        314.44231923849645,
+        254.58768076150355,
+        33.54978076150353,
+        345.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_8_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        11.450219238496473,
+        354.44231923849645,
+        -246.64981923849646,
+        68.54978076150353,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_8_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        11.450219238496473,
+        354.44231923849645,
+        254.58768076150355,
+        68.54978076150353,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_9_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        61.45021923849647,
+        354.44231923849645,
+        -246.64981923849646,
+        118.54978076150353,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_9_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        61.45021923849647,
+        354.44231923849645,
+        254.58768076150355,
+        118.54978076150353,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_10_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        111.45021923849647,
+        354.44231923849645,
+        -246.64981923849646,
+        168.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_roll_10_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        111.45021923849647,
+        354.44231923849645,
+        254.58768076150355,
+        168.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_0_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        166.45021923849646,
+        354.44231923849645,
+        -246.64981923849646,
+        223.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_0_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        166.45021923849646,
+        354.44231923849645,
+        254.58768076150355,
+        223.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_1_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        221.45021923849646,
+        354.44231923849645,
+        -246.64981923849646,
+        278.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_1_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        221.45021923849646,
+        354.44231923849645,
+        254.58768076150355,
+        278.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_2_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        276.45021923849646,
+        354.44231923849645,
+        -246.64981923849646,
+        333.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_2_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        276.45021923849646,
+        354.44231923849645,
+        254.58768076150355,
+        333.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_3_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        331.45021923849646,
+        354.44231923849645,
+        -246.64981923849646,
+        388.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "fixed_roll_3_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        331.45021923849646,
+        354.44231923849645,
+        254.58768076150355,
+        388.54978076150354,
+        385.55768076150355
+      ]
+    },
+    {
+      "instance": "pickup_top_entry_bearing_L_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -254.58768076150355,
+        -403.42903940657374,
+        92.39594973555266,
+        -246.64981923849646,
+        -346.32947788356665,
+        123.5113112585597
+      ]
+    },
+    {
+      "instance": "pickup_top_entry_bearing_R_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        246.64981923849646,
+        -403.42903940657374,
+        92.39594973555266,
+        254.58768076150355,
+        -346.32947788356665,
+        123.5113112585597
+      ]
+    },
+    {
+      "instance": "orienter_-1_0_bearing_384_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -102.70768076150354,
+        371.45021923849646,
+        377.64981923849643,
+        -71.59231923849647,
+        428.54978076150354,
+        385.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_-1_0_bearing_528_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -102.70768076150354,
+        371.45021923849646,
+        521.6498192384964,
+        -71.59231923849647,
+        428.54978076150354,
+        529.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_-1_1_bearing_384_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -102.70768076150354,
+        511.45021923849646,
+        377.64981923849643,
+        -71.59231923849647,
+        568.5497807615035,
+        385.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_-1_1_bearing_528_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        -102.70768076150354,
+        511.45021923849646,
+        521.6498192384964,
+        -71.59231923849647,
+        568.5497807615035,
+        529.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_1_0_bearing_384_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        71.59231923849647,
+        371.45021923849646,
+        377.64981923849643,
+        102.70768076150354,
+        428.54978076150354,
+        385.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_1_0_bearing_528_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        71.59231923849647,
+        371.45021923849646,
+        521.6498192384964,
+        102.70768076150354,
+        428.54978076150354,
+        529.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_1_1_bearing_384_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        71.59231923849647,
+        511.45021923849646,
+        377.64981923849643,
+        102.70768076150354,
+        568.5497807615035,
+        385.5876807615035
+      ]
+    },
+    {
+      "instance": "orienter_1_1_bearing_528_0",
+      "sourceBodyIndex": 0,
+      "sha256": "cf4820ba57cfc6d71088e2328e0bdddfda2e707a5f4e3460bd527eafcf725f3b",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        29,
+        62,
+        40
+      ],
+      "topologyCountsPlaced": [
+        29,
+        62,
+        40
+      ],
+      "boundsMm": [
+        71.59231923849647,
+        511.45021923849646,
+        521.6498192384964,
+        102.70768076150354,
+        568.5497807615035,
+        529.5876807615035
+      ]
+    },
+    {
+      "instance": "deploy_motor_0",
+      "sourceBodyIndex": 0,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1846,
+        4829,
+        3142
+      ],
+      "topologyCountsPlaced": [
+        1846,
+        4829,
+        3142
+      ],
+      "boundsMm": [
+        -336.66334722012266,
+        73.94352073857885,
+        411.0414815974461,
+        -224.64210277990324,
+        124.17039236512667,
+        461.6713830157727
+      ]
+    },
+    {
+      "instance": "deploy_motor_1",
+      "sourceBodyIndex": 1,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1234,
+        3163,
+        1968
+      ],
+      "topologyCountsPlaced": [
+        1234,
+        3163,
+        1968
+      ],
+      "boundsMm": [
+        -336.6134200742964,
+        90.3681345052388,
+        411.8050785325988,
+        -315.03745492570397,
+        123.89202489455349,
+        453.7376610286429
+      ]
+    },
+    {
+      "instance": "deploy_motor_pinion_0",
+      "sourceBodyIndex": 0,
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        267,
+        726,
+        484
+      ],
+      "topologyCountsPlaced": [
+        267,
+        726,
+        484
+      ],
+      "boundsMm": [
+        -240.52500010000347,
+        88.06494019329885,
+        423.7049401933473,
+        -221.47499989999983,
+        110.65505980664307,
+        446.29505980669154
+      ]
+    },
+    {
+      "instance": "deploy_motor_gear_0",
+      "sourceBodyIndex": 0,
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        124,
+        346,
+        228
+      ],
+      "topologyCountsPlaced": [
+        124,
+        346,
+        228
+      ],
+      "boundsMm": [
+        -237.57225010000002,
+        108.2499999,
+        403.2499999,
+        -224.42774989999998,
+        171.7500001,
+        466.7500001
+      ]
+    },
+    {
+      "instance": "pickup_motor_0",
+      "sourceBodyIndex": 0,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1846,
+        4829,
+        3142
+      ],
+      "topologyCountsPlaced": [
+        1846,
+        4829,
+        3142
+      ],
+      "boundsMm": [
+        178.3366527798773,
+        76.19226726810706,
+        249.4683551619391,
+        290.35789722009673,
+        123.80773273189294,
+        298.8077327318929
+      ]
+    },
+    {
+      "instance": "pickup_motor_1",
+      "sourceBodyIndex": 1,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1234,
+        3163,
+        1968
+      ],
+      "topologyCountsPlaced": [
+        1234,
+        3163,
+        1968
+      ],
+      "boundsMm": [
+        178.38657992570361,
+        76.51246206386038,
+        249.81969877434307,
+        199.962545074296,
+        123.48753793613959,
+        273.7612637020462
+      ]
+    },
+    {
+      "instance": "pickup_motor_pinion_0",
+      "sourceBodyIndex": 0,
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        267,
+        726,
+        484
+      ],
+      "topologyCountsPlaced": [
+        267,
+        726,
+        484
+      ],
+      "boundsMm": [
+        261.4749998999965,
+        88.57300020331883,
+        263.57300020335134,
+        280.52500010000017,
+        111.42699979668575,
+        286.42699979671977
+      ]
+    },
+    {
+      "instance": "pickup_motor_gear_0",
+      "sourceBodyIndex": 0,
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        124,
+        346,
+        228
+      ],
+      "topologyCountsPlaced": [
+        124,
+        346,
+        228
+      ],
+      "boundsMm": [
+        264.4277499,
+        68.26120731473893,
+        283.9012073147389,
+        277.5722501,
+        131.73879268526107,
+        347.3787926852611
+      ]
+    },
+    {
+      "instance": "orienter_left_motor_0",
+      "sourceBodyIndex": 0,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1846,
+        4829,
+        3142
+      ],
+      "topologyCountsPlaced": [
+        1846,
+        4829,
+        3142
+      ],
+      "boundsMm": [
+        -151.59773273189293,
+        624.4683551619391,
+        485.33665277987734,
+        -103.98226726810707,
+        673.8077327318929,
+        597.3578972200967
+      ]
+    },
+    {
+      "instance": "orienter_left_motor_1",
+      "sourceBodyIndex": 1,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1234,
+        3163,
+        1968
+      ],
+      "topologyCountsPlaced": [
+        1234,
+        3163,
+        1968
+      ],
+      "boundsMm": [
+        -151.27753793613962,
+        624.819698774343,
+        485.3865799257036,
+        -104.30246206386042,
+        648.7612637020462,
+        506.96254507429603
+      ]
+    },
+    {
+      "instance": "orienter_left_motor_pinion_0",
+      "sourceBodyIndex": 0,
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        267,
+        726,
+        484
+      ],
+      "topologyCountsPlaced": [
+        267,
+        726,
+        484
+      ],
+      "boundsMm": [
+        -139.21699979668116,
+        638.5730002033514,
+        568.4749998999965,
+        -116.36300020331426,
+        661.4269997967198,
+        587.5250001000002
+      ]
+    },
+    {
+      "instance": "orienter_left_motor_gear_0",
+      "sourceBodyIndex": 0,
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        124,
+        346,
+        228
+      ],
+      "topologyCountsPlaced": [
+        124,
+        346,
+        228
+      ],
+      "boundsMm": [
+        -118.88879268526108,
+        618.261207314739,
+        571.4277499000001,
+        -55.411207314738924,
+        681.738792685261,
+        584.5722500999999
+      ]
+    },
+    {
+      "instance": "orienter_right_motor_0",
+      "sourceBodyIndex": 0,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1846,
+        4829,
+        3142
+      ],
+      "topologyCountsPlaced": [
+        1846,
+        4829,
+        3142
+      ],
+      "boundsMm": [
+        103.98226726810707,
+        624.4683551619391,
+        485.33665277987734,
+        151.59773273189293,
+        673.8077327318929,
+        597.3578972200967
+      ]
+    },
+    {
+      "instance": "orienter_right_motor_1",
+      "sourceBodyIndex": 1,
+      "sha256": "503dff32f3e25502adfa7a0b7f9733b0b7b08e677be5a03c8c82386ba2dfade1",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        1234,
+        3163,
+        1968
+      ],
+      "topologyCountsPlaced": [
+        1234,
+        3163,
+        1968
+      ],
+      "boundsMm": [
+        104.30246206386039,
+        624.819698774343,
+        485.3865799257036,
+        151.2775379361396,
+        648.7612637020462,
+        506.96254507429603
+      ]
+    },
+    {
+      "instance": "orienter_right_motor_pinion_0",
+      "sourceBodyIndex": 0,
+      "sha256": "00ab731705d3c7c79e61a87fdae954f09d4a156d78d56d6a289a1e3f026cd874",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        267,
+        726,
+        484
+      ],
+      "topologyCountsPlaced": [
+        267,
+        726,
+        484
+      ],
+      "boundsMm": [
+        116.36300020331883,
+        638.5730002033514,
+        568.4749998999965,
+        139.21699979668577,
+        661.4269997967198,
+        587.5250001000002
+      ]
+    },
+    {
+      "instance": "orienter_right_motor_gear_0",
+      "sourceBodyIndex": 0,
+      "sha256": "2571edd253fe0eefe667ed4d318b18f6de84088d1d56a5e4aacaa5a554f04d7d",
+      "originalValid": true,
+      "originalClosed": true,
+      "IsPartner": true,
+      "topologyCountsBefore": [
+        124,
+        346,
+        228
+      ],
+      "topologyCountsPlaced": [
+        124,
+        346,
+        228
+      ],
+      "boundsMm": [
+        55.41120731473893,
+        618.261207314739,
+        571.4277499000001,
+        118.88879268526108,
+        681.738792685261,
+        584.5722500999999
+      ]
+    }
+  ],
+  "x60": "QUARANTINED_EXCLUDED",
+  "originalFilesReexported": false,
+  "sourceInterfaceEvidence": "trials/subsystem-ab/cots/attachment-points.json",
+  "nativeDestinationValidation": "UNEXECUTED",
+  "status": "PASS"
+}

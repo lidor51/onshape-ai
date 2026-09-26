@@ -1,0 +1,356 @@
+{
+  "status": "PASS",
+  "parts": {
+    "chassis_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 6330799.999999996,
+      "boundsMm": [
+        -350.0,
+        0.0,
+        70.0,
+        350.0,
+        760.0,
+        232.0
+      ]
+    },
+    "bumper_keepout": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 33252000.0,
+      "boundsMm": [
+        -435.0,
+        -465.0,
+        -60.0,
+        435.0,
+        465.0,
+        60.0
+      ]
+    },
+    "receiver_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 372000.0,
+      "boundsMm": [
+        -110.0,
+        -15.0,
+        0.0,
+        110.0,
+        15.0,
+        220.0
+      ]
+    },
+    "coral_reference": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 649551.4843768263,
+      "boundsMm": [
+        -150.8125,
+        -57.15,
+        -57.15,
+        150.8125,
+        57.15,
+        57.15
+      ]
+    },
+    "stage_deck": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1139178.9133440577,
+      "boundsMm": [
+        -250.0,
+        -190.0,
+        -3.0,
+        250.0,
+        190.0,
+        3.0
+      ]
+    },
+    "cradle": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1959647.95125,
+      "boundsMm": [
+        -165.0,
+        -75.0,
+        -85.0,
+        165.0,
+        75.0,
+        -10.0
+      ]
+    },
+    "hex_bearing_envelope": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 3987.9826301413796,
+      "boundsMm": [
+        -3.9751,
+        -14.2875,
+        -14.2875,
+        3.9751000000000003,
+        14.2875,
+        14.2875
+      ]
+    },
+    "x44_envelope": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 133920.4438827472,
+      "boundsMm": [
+        -22.0,
+        -23.7,
+        -23.7,
+        75.0,
+        23.7,
+        23.7
+      ]
+    },
+    "pinion_16_envelope": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 2871.224676547733,
+      "boundsMm": [
+        -4.0,
+        -11.43,
+        -11.43,
+        4.0,
+        11.43,
+        11.43
+      ]
+    },
+    "gear_48_envelope": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 24217.924055863743,
+      "boundsMm": [
+        -4.0,
+        -31.75,
+        -31.75,
+        4.000000000000001,
+        31.75,
+        31.75
+      ]
+    },
+    "orienter_hex_shaft": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 27098.16005102007,
+      "boundsMm": [
+        -97.0,
+        -6.3500000000000005,
+        -7.332348418708248,
+        97.0,
+        6.3500000000000005,
+        7.332348418708248
+      ]
+    },
+    "orienter_contact_drum": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 534062.8459110394,
+      "boundsMm": [
+        -72.0,
+        -35.0,
+        -35.0,
+        72.00000000000001,
+        35.0,
+        35.0
+      ]
+    },
+    "orienter_housing": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 268589.8427086795,
+      "boundsMm": [
+        -37.0,
+        -35.0,
+        -4.0,
+        37.0,
+        105.0,
+        190.0
+      ]
+    },
+    "pickup_side_plate": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 188509.40789578838,
+      "boundsMm": [
+        -4.0,
+        -381.0,
+        -391.0,
+        4.0,
+        64.64,
+        24.0
+      ]
+    },
+    "pickup_cross_tube": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 72575.99999999997,
+      "boundsMm": [
+        -252.0,
+        -10.0,
+        -10.0,
+        252.0,
+        10.0,
+        10.0
+      ]
+    },
+    "pivot_spine": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 85484.91727435196,
+      "boundsMm": [
+        -306.0,
+        -6.3500000000000005,
+        -7.332348418708248,
+        306.0,
+        6.3500000000000005,
+        7.332348418708248
+      ]
+    },
+    "lower_hex_shaft": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 73751.69333473504,
+      "boundsMm": [
+        -264.0,
+        -6.3500000000000005,
+        -7.332348418708248,
+        264.0,
+        6.3500000000000005,
+        7.332348418708248
+      ]
+    },
+    "upper_pickup_drum": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 772878.8037719068,
+      "boundsMm": [
+        -235.0,
+        -27.0,
+        -27.0,
+        235.0,
+        27.0,
+        27.0
+      ]
+    },
+    "lower_pickup_drum": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1010753.7093325664,
+      "boundsMm": [
+        -235.0,
+        -27.0,
+        -27.0,
+        235.00000000000006,
+        27.0,
+        27.0
+      ]
+    },
+    "pickup_belt": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 1599237.47436532,
+      "boundsMm": [
+        -220.0,
+        -390.0,
+        -400.0,
+        220.0,
+        30.000000000000004,
+        30.000000000000004
+      ]
+    },
+    "pickup_output_gear": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 23755.027186413074,
+      "boundsMm": [
+        -10.0,
+        -31.75,
+        -31.75,
+        4.0,
+        31.75,
+        31.75
+      ]
+    },
+    "pickup_gear_guard": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 7667.615811546766,
+      "boundsMm": [
+        -6.500000000000001,
+        -35.0,
+        -35.0,
+        6.5,
+        75.64,
+        35.0
+      ]
+    },
+    "pivot_tower": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 251422.48178454774,
+      "boundsMm": [
+        -18.0,
+        -45.0,
+        -290.0,
+        18.0,
+        45.0,
+        35.0
+      ]
+    },
+    "deploy_motor_reducer_envelope": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 201871.67533620953,
+      "boundsMm": [
+        -110.0,
+        -25.0,
+        -25.0,
+        16.0,
+        25.0,
+        25.0
+      ]
+    },
+    "deploy_output_gear": {
+      "valid": true,
+      "solids": 1,
+      "closed": true,
+      "volumeMm3": 100884.65546891098,
+      "boundsMm": [
+        -21.0,
+        -62.23,
+        -62.23,
+        4.0,
+        62.23,
+        62.23
+      ]
+    }
+  },
+  "instanceCount": 45
+}

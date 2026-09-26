@@ -1,0 +1,62 @@
+{
+  "status": "PASS_INDEPENDENT_RELATIONSHIP_CHANGE_NOT_HANDOFF",
+  "heightDeltaMm": 20,
+  "measurements": [
+    {
+      "instance": "receiver_bridge",
+      "boundsChangeMm": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "instance": "receiver_finger_-1",
+      "boundsChangeMm": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "instance": "receiver_finger_1",
+      "boundsChangeMm": [
+        0.0,
+        0.0,
+        20.0,
+        0.0,
+        0.0,
+        20.0
+      ]
+    },
+    {
+      "instance": "cradle_floor",
+      "boundsChangeMm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "instance": "cradle_stop",
+      "boundsChangeMm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "acceptance": "Receiver moves 20 mm; cradle does not. Successful handoff at revised height is UNVERIFIED, not inferred."
+}

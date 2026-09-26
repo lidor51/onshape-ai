@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "sourceHash": "950b8434437c90aee894dac8c2e7cdc0d441b4bbb79de94f472740fdaec76d02",
+  "testHash": "6984a711c837f89bb71462dc6e8c3a91bc270320dcefb716d5d1d11f1dc2c549",
+  "node": "v24.15.0",
+  "testFiles": [
+    "cli.test.mjs",
+    "credentials.test.mjs",
+    "live-schema.test.mjs",
+    "model.test.mjs",
+    "patch.test.mjs",
+    "preflight.test.mjs",
+    "recovery.test.mjs",
+    "safety.test.mjs",
+    "transport.test.mjs",
+    "verify.test.mjs",
+    "workflow.test.mjs"
+  ],
+  "passed": 30,
+  "failed": 0,
+  "outputHash": "803e798cd311dc00c905b46325a9cf8e74cf32908cd5438dacaf3baae87613f3",
+  "evidence": "executed Node tests, no real transport"
+}

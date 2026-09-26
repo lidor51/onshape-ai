@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "executable": "C:\\Users\\lidor\\FRC\\onshape-ai\\trials\\local-preflight-browser\\.venv\\Scripts\\python.exe",
+  "arguments": [
+    "-I",
+    "-m",
+    "pip",
+    "--isolated",
+    "--disable-pip-version-check",
+    "check"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "No broken requirements found.\r\n",
+  "stderr": "",
+  "wallTimeMs": 1271.6951,
+  "directOnshapeApiCalls": 0,
+  "browserInvocations": 0
+}

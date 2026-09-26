@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: real baseline response decodes and verifies nine solids and every required through cylinder
+ok 1 - real baseline response decodes and verifies nine solids and every required through cylinder
+  ---
+  duration_ms: 13.982
+  type: 'test'
+  ...
+# Subtest: revision updates only parameters on the same ID and never repeats an already applied update
+ok 2 - revision updates only parameters on the same ID and never repeats an already applied update
+  ---
+  duration_ms: 10.4648
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 260.29

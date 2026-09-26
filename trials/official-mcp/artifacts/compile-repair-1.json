@@ -1,0 +1,61 @@
+{
+  "status": "REPAIRED_LOCALLY_AWAITING_PARENT_TEST_FEATURE",
+  "attribution": "PARENT_REPORTED_NOT_INDEPENDENTLY_RETRIEVED",
+  "parentReportedCall": {
+    "tool": "mcp_featurescript_test_feature",
+    "sourcePath": "trials/official-mcp/artifacts/test-feature.fs",
+    "sourceVersion": 3070,
+    "sourceSha256": "1cc2098bc0fe09711be94b16597ba606d1b59a6f534565747e2ef7b2e85747a2",
+    "response": {
+      "result": "Error: could not find Trojan feature spec: no features found. This may indicate syntax errors in the FeatureScript."
+    }
+  },
+  "serverTestsRan": false,
+  "syntaxDiagnostic": null,
+  "compilerRepairsUsed": 1,
+  "compilerRepairCap": 2,
+  "repairHypothesis": "Unverified declaration/layout sensitivity in tool discovery: the failed source was one line, with exported wrappers preceding their dependencies. Emit private dependencies first and the selected exported feature on its own line with conventional declaration spacing.",
+  "research": [
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/common.fs",
+      "observation": "The public mirror re-exports onshape/std/primitives.fs. A missing primitive import is not supported by this evidence. The mirror uses version placeholders, so this is not an authenticated or pinned 3070 source readback."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/primitives.fs",
+      "observation": "Exports fCuboid and fCylinder with the corner1/corner2 and bottomCenter/topCenter/radius fields used by the independent model."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/javawizard/onshape-std-library-mirror/master/geometry.fs",
+      "observation": "Re-exports common.fs; switching to this broader import is not justified by the mirror evidence."
+    },
+    {
+      "url": "https://cad.onshape.com/FsDoc/top-level.html",
+      "observation": "Top-level constant initializers may reference other constants provided there are no cycles. The documentation does not establish an acyclic forward reference as the compile failure."
+    }
+  ],
+  "changes": [
+    "Keep common.fs and FeatureScript 3070 / library 3070.0 unchanged.",
+    "Place helpers, private production feature and private phase default before exported wrappers.",
+    "Keep selected wrapper as the first export of any kind, with empty precondition and explicit defaults.",
+    "Preserve every geometry operation, fixture value, measurement field, both phase assertions and tolerance.",
+    "Preserve source-controlled same-feature revision through the local binder.",
+    "Use token-preserving line breaks capped at 1200 characters and conventional feature declaration spacing."
+  ],
+  "preferredSourceCharacters": 8000,
+  "preferredSourceSizeMet": false,
+  "sizeLimitation": "The unchanged geometry and full assertions remain above 8000 characters. Reaching that preference would require a broader rewrite; this repair keeps the 14000-character hard cap.",
+  "repairedSourceCompilation": "UNVERIFIED",
+  "repairedPayloadPath": "trials/official-mcp/artifacts/test-feature.payload.json",
+  "repairedSourceCharacters": 12736,
+  "repairedSourceSha256": "85cf69c4b3088aec37a28dce5db60d004dde584648f1b3a3b9f284a37569f402",
+  "localValidation": {
+    "command": "node --test trials/official-mcp/compact.test.mjs trials/official-mcp/generate.test.mjs trials/official-mcp/dispatch.test.mjs",
+    "passed": 16,
+    "failed": 0,
+    "onshapeCompilerExecuted": false
+  },
+  "serverMeasurements": null,
+  "officialToolCallsByRepairAgent": 0,
+  "authenticatedRequestsByRepairAgent": 0,
+  "requiredNextAction": "Parent reissues test_feature with the regenerated test-feature.payload.json. Do not claim compilation or geometry success before the actual response."
+}

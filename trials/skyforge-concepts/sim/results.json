@@ -1,0 +1,335 @@
+{
+ "note": "100 matches per row per tier against your simulator's reference alliance (REF Tower+Launcher+LowRider, all strong). Our robot takes the listed slot; its tier changes, and the partners stay strong. Tiers come from your simulator: average means slower cycles, lower accuracy and more jams and failures than strong.",
+ "caveat": "Concept numbers (cycle, accuracy, complexity) are my estimates entered into your model, shown next to your presets in the same slot. This measures sensitivity inside the simulator, not real robot performance.",
+ "tiers": [
+  "elite",
+  "strong",
+  "average"
+ ],
+ "source": {
+  "simulator": "C:/Users/lidor/FRC/2026/mocked_game/sim",
+  "configSha256": "254adaf5e3e4a1e7b43375c3aea8f4775ca860e6f14e7686728630194d7c203d",
+  "seconds": 419
+ },
+ "rows": [
+  {
+   "label": "SF1 Brass Cannon + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 68,
+     "rp": 4.13,
+     "score": 396.77,
+     "levels": 9,
+     "skyforge": 99,
+     "board": 99
+    },
+    "strong": {
+     "win": 40,
+     "rp": 3.22,
+     "score": 376.09,
+     "levels": 8,
+     "skyforge": 95,
+     "board": 98
+    },
+    "average": {
+     "win": 10,
+     "rp": 1.74,
+     "score": 356.46,
+     "levels": 13,
+     "skyforge": 36,
+     "board": 95
+    }
+   }
+  },
+  {
+   "label": "SF2 Mortar Rider + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 46,
+     "rp": 3.24,
+     "score": 381.1,
+     "levels": 6,
+     "skyforge": 97,
+     "board": 80
+    },
+    "strong": {
+     "win": 18,
+     "rp": 2.32,
+     "score": 370.26,
+     "levels": 10,
+     "skyforge": 86,
+     "board": 80
+    },
+    "average": {
+     "win": 10,
+     "rp": 1.57,
+     "score": 351.12,
+     "levels": 22,
+     "skyforge": 23,
+     "board": 82
+    }
+   }
+  },
+  {
+   "label": "SF3 Gantry Tower + Launcher + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 70,
+     "rp": 4.94,
+     "score": 388.97,
+     "levels": 86,
+     "skyforge": 97,
+     "board": 100
+    },
+    "strong": {
+     "win": 56,
+     "rp": 3.8,
+     "score": 381.98,
+     "levels": 21,
+     "skyforge": 94,
+     "board": 96
+    },
+    "average": {
+     "win": 30,
+     "rp": 2.84,
+     "score": 366.83,
+     "levels": 0,
+     "skyforge": 95,
+     "board": 98
+    }
+   }
+  },
+  {
+   "label": "SF4 Forge Hybrid + Launcher + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 51,
+     "rp": 3.54,
+     "score": 378.06,
+     "levels": 0,
+     "skyforge": 97,
+     "board": 99
+    },
+    "strong": {
+     "win": 18,
+     "rp": 2.5,
+     "score": 361.72,
+     "levels": 0,
+     "skyforge": 97,
+     "board": 96
+    },
+    "average": {
+     "win": 8,
+     "rp": 2.12,
+     "score": 343.78,
+     "levels": 0,
+     "skyforge": 97,
+     "board": 91
+    }
+   }
+  },
+  {
+   "label": "SF5 Column Arm + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 71,
+     "rp": 4.42,
+     "score": 386.81,
+     "levels": 94,
+     "skyforge": 36,
+     "board": 98
+    },
+    "strong": {
+     "win": 52,
+     "rp": 3.55,
+     "score": 376.28,
+     "levels": 95,
+     "skyforge": 4,
+     "board": 97
+    },
+    "average": {
+     "win": 19,
+     "rp": 2.49,
+     "score": 354.2,
+     "levels": 94,
+     "skyforge": 0,
+     "board": 96
+    }
+   }
+  },
+  {
+   "label": "SF6 Ramp Lift + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 83,
+     "rp": 4.53,
+     "score": 402.09,
+     "levels": 96,
+     "skyforge": 8,
+     "board": 98
+    },
+    "strong": {
+     "win": 73,
+     "rp": 4.19,
+     "score": 390.46,
+     "levels": 100,
+     "skyforge": 0,
+     "board": 99
+    },
+    "average": {
+     "win": 27,
+     "rp": 2.75,
+     "score": 365.04,
+     "levels": 96,
+     "skyforge": 0,
+     "board": 96
+    }
+   }
+  },
+  {
+   "label": "SF7 Rocker Tray + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 59,
+     "rp": 3.84,
+     "score": 379.23,
+     "levels": 87,
+     "skyforge": 20,
+     "board": 99
+    },
+    "strong": {
+     "win": 42,
+     "rp": 3.25,
+     "score": 375.64,
+     "levels": 96,
+     "skyforge": 2,
+     "board": 99
+    },
+    "average": {
+     "win": 20,
+     "rp": 2.51,
+     "score": 348.51,
+     "levels": 94,
+     "skyforge": 0,
+     "board": 96
+    }
+   }
+  },
+  {
+   "label": "SF3 control: your Tower task times and accuracies (no fork bonus) + Launcher + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 66,
+     "rp": 4.72,
+     "score": 384.6,
+     "levels": 79,
+     "skyforge": 93,
+     "board": 99
+    },
+    "strong": {
+     "win": 46,
+     "rp": 3.35,
+     "score": 374.67,
+     "levels": 5,
+     "skyforge": 98,
+     "board": 94
+    },
+    "average": {
+     "win": 27,
+     "rp": 2.7,
+     "score": 358.42,
+     "levels": 0,
+     "skyforge": 94,
+     "board": 93
+    }
+   }
+  },
+  {
+   "label": "SF1 control: your short-launcher VG accuracy (0.78) + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 55,
+     "rp": 3.69,
+     "score": 384.29,
+     "levels": 8,
+     "skyforge": 96,
+     "board": 98
+    },
+    "strong": {
+     "win": 37,
+     "rp": 3.06,
+     "score": 374.46,
+     "levels": 12,
+     "skyforge": 86,
+     "board": 94
+    },
+    "average": {
+     "win": 15,
+     "rp": 1.79,
+     "score": 347.19,
+     "levels": 24,
+     "skyforge": 16,
+     "board": 94
+    }
+   }
+  },
+  {
+   "label": "Your Launcher preset + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 70,
+     "rp": 4.14,
+     "score": 392.94,
+     "levels": 8,
+     "skyforge": 98,
+     "board": 97
+    },
+    "strong": {
+     "win": 50,
+     "rp": 3.55,
+     "score": 379.75,
+     "levels": 10,
+     "skyforge": 94,
+     "board": 100
+    },
+    "average": {
+     "win": 20,
+     "rp": 2,
+     "score": 347.98,
+     "levels": 14.000000000000002,
+     "skyforge": 35,
+     "board": 90
+    }
+   }
+  },
+  {
+   "label": "Your Tower preset + Launcher + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 65,
+     "rp": 4.67,
+     "score": 382.68,
+     "levels": 82,
+     "skyforge": 90,
+     "board": 100
+    },
+    "strong": {
+     "win": 48,
+     "rp": 3.45,
+     "score": 376.78,
+     "levels": 9,
+     "skyforge": 92,
+     "board": 98
+    },
+    "average": {
+     "win": 23,
+     "rp": 2.67,
+     "score": 360.97,
+     "levels": 0,
+     "skyforge": 99,
+     "board": 97
+    }
+   }
+  }
+ ]
+}

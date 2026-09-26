@@ -1,0 +1,254 @@
+{
+  "phase": "revision",
+  "status": "PASS_REVISION",
+  "startedAt": "2026-09-11T17:18:02.093Z",
+  "target": {
+    "did": "f92dc90f7c052de045dd2c4f",
+    "wid": "b60d9355149429c9c55f69c8",
+    "eid": "d0a579bf1b84bc1e68e06e90",
+    "fsid": "66e03cc911623af502c718c4",
+    "featureId": "FQxpC8Q8LkpIQvt_0",
+    "namespace": "e66e03cc911623af502c718c4::m5dd5c58ddf7b5c3d6b5988eb"
+  },
+  "provenance": "../parent-retained-baseline.json",
+  "evidenceClass": "AUTHENTICATED_READ_ONLY_REST_SUPPLEMENT",
+  "explicitCurrentKeyAuthorization": true,
+  "keyRotationAttested": false,
+  "modelWrites": 0,
+  "exportJobsStoreInDocument": false,
+  "maxPollRequests": 3,
+  "officialToolInvocationsByThisScript": 0,
+  "before": {
+    "microversion": "4bcde993e8baf4730d3a12db",
+    "featureId": "FQxpC8Q8LkpIQvt_0",
+    "featureType": "officialIntakeFinal",
+    "name": "OfficialIntakeFinal",
+    "namespace": "e66e03cc911623af502c718c4::mf3fe3ec444fb32385ab49edc",
+    "state": {
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "suppressed": false
+  },
+  "source": {
+    "file": "revision-persisted.fs",
+    "bytes": 4640,
+    "sha256": "c2dde13d448cdf311821b18b8ce33a0d8dbe4eb721c0bf99a728a755e11b0a3e",
+    "tokenEquivalentToLocalArtifact": true
+  },
+  "parts": [
+    {
+      "partId": "JHD",
+      "name": "leftPlate",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "JgD",
+      "name": "rightPlate",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "J5D",
+      "name": "frontRoller",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "RCBD",
+      "name": "rearRoller",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "RLBD",
+      "name": "frontShaft",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "RPBD",
+      "name": "rearShaft",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "RTBD",
+      "name": "frontCrossmember",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "RXBD",
+      "name": "rearCrossmember",
+      "bodyType": "solid"
+    },
+    {
+      "partId": "RbBD",
+      "name": "coralReference",
+      "bodyType": "solid"
+    }
+  ],
+  "measurements": {
+    "file": "revision-measured.json",
+    "bytes": 11756,
+    "sha256": "6da3022a74109ddff3ff7ebf568e5a6cc51013ae1e187dbdd9fcf105da6c19fb"
+  },
+  "validation": {
+    "status": "PASS_PERSISTED_READ_ONLY_REST_MEASUREMENTS",
+    "phase": "revision",
+    "partCount": 9,
+    "holesPerPlate": [
+      5,
+      5
+    ],
+    "lengthToleranceMm": 0.00001,
+    "axisTolerance": 1e-8,
+    "volumeToleranceMm3": "max(0.001, expectedVolume * 1e-8)",
+    "inputOriginAuthenticated": true,
+    "persistedGeometryVerified": true,
+    "caveat": "Authenticated read-only REST supplement, not an official MCP modeling/export capability. Numeric parameters are derived from measured geometry, not editable UI parameters."
+  },
+  "bom": [
+    {
+      "name": "leftPlate",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "rightPlate",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "frontRoller",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "rearRoller",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "frontShaft",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "rearShaft",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "frontCrossmember",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "rearCrossmember",
+      "excludeFromBOM": false
+    },
+    {
+      "name": "coralReference",
+      "excludeFromBOM": true
+    }
+  ],
+  "png": {
+    "file": "revision.png",
+    "bytes": 49488,
+    "sha256": "8b06ce3023b94b3b4687479917af77a6340babbe0d0ed8741d1195121e000b90"
+  },
+  "translation": {
+    "id": "6aa437b0a9afc4404b203914",
+    "requestState": "DONE",
+    "resultExternalDataIds": [
+      "6aa437b269825a017abad3d5"
+    ]
+  },
+  "step": {
+    "file": "revision-step-original.zip",
+    "bytes": 23318,
+    "sha256": "858039345b2e7f4131aff4d6f73c94b93ddbb63a2f6ee5aa7079db620e7b4fe8",
+    "format": "ZIP_OF_NINE_STEP_FILES",
+    "originalDownloadBytes": true,
+    "memberBytesUnmodified": true,
+    "members": [
+      {
+        "role": "leftPlate",
+        "originalName": "Part Studio 1 - leftPlate.step",
+        "crc32": "4f5bf033",
+        "file": "revision-leftPlate.step",
+        "bytes": 14089,
+        "sha256": "cafbdd382eb8887ab94e71a29215f6d609f6e1405e313aa6f267a65fa9f1fa62"
+      },
+      {
+        "role": "frontRoller",
+        "originalName": "Part Studio 1 - frontRoller.step",
+        "crc32": "edbb82ee",
+        "file": "revision-frontRoller.step",
+        "bytes": 5553,
+        "sha256": "7079c3a31bf79d979d0717174bfdaa355b9b233ea4527c5f60379d23eeba8181"
+      },
+      {
+        "role": "frontShaft",
+        "originalName": "Part Studio 1 - frontShaft.step",
+        "crc32": "7c1677a9",
+        "file": "revision-frontShaft.step",
+        "bytes": 4360,
+        "sha256": "43eac46e38fd9815ee9ef62086bb27c716b774b28d8667951f0e63ab4b999244"
+      },
+      {
+        "role": "frontCrossmember",
+        "originalName": "Part Studio 1 - frontCrossmember.step",
+        "crc32": "3984b8dd",
+        "file": "revision-frontCrossmember.step",
+        "bytes": 7929,
+        "sha256": "10a140a5eabb18efe1b37702ed3988b44937b2afe04f3fae6aad8f78fdbc381f"
+      },
+      {
+        "role": "rearCrossmember",
+        "originalName": "Part Studio 1 - rearCrossmember.step",
+        "crc32": "d40a198f",
+        "file": "revision-rearCrossmember.step",
+        "bytes": 7914,
+        "sha256": "ff9805d8cd91d3f1608748943b6f8da8b208cbaab9162dbcc6671c30f04a0067"
+      },
+      {
+        "role": "rearRoller",
+        "originalName": "Part Studio 1 - rearRoller.step",
+        "crc32": "e952ad8a",
+        "file": "revision-rearRoller.step",
+        "bytes": 5570,
+        "sha256": "0f520c321b01814597e26253970083db8346a93f0ba4c7897483000ed1e84c5e"
+      },
+      {
+        "role": "rightPlate",
+        "originalName": "Part Studio 1 - rightPlate.step",
+        "crc32": "1ff5f7e9",
+        "file": "revision-rightPlate.step",
+        "bytes": 14055,
+        "sha256": "621030586a3e99672740ca2d1f13885908f08d42cabb2a17638c039af8a8c59f"
+      },
+      {
+        "role": "coralReference",
+        "originalName": "Part Studio 1 - coralReference.step",
+        "crc32": "847e9139",
+        "file": "revision-coralReference.step",
+        "bytes": 5642,
+        "sha256": "e671a1db5e280a120ab967a365255557f11f0176a97367b0dff95530f48f5dd7"
+      },
+      {
+        "role": "rearShaft",
+        "originalName": "Part Studio 1 - rearShaft.step",
+        "crc32": "ff8b1ff4",
+        "file": "revision-rearShaft.step",
+        "bytes": 4367,
+        "sha256": "d41df97913d314c64a8352b1319843f345573893a6c9e502110e3642544e72f5"
+      }
+    ]
+  },
+  "after": {
+    "microversion": "4bcde993e8baf4730d3a12db",
+    "featureId": "FQxpC8Q8LkpIQvt_0",
+    "featureType": "officialIntakeFinal",
+    "name": "OfficialIntakeFinal",
+    "namespace": "e66e03cc911623af502c718c4::mf3fe3ec444fb32385ab49edc",
+    "state": {
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "suppressed": false
+  },
+  "consistency": "Parts, source, evaluation and PNG pinned to microversion; workspace STEP bracketed by equal before/after microversions.",
+  "completedAt": "2026-09-11T17:18:13.539Z",
+  "phaseRequests": 10,
+  "cumulativeRequests": 21
+}

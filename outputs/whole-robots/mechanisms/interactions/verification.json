@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-13",
+  "status": "GEOMETRIC_TASK_AND_RENDERING_CHECKS_ONLY",
+  "coverage": {"robots": 10, "declaredTasks": 118, "acquisitionAndScoringTasks": 98, "legacyStowEndgameTasks": 20, "engagementPoseLimitFailures": 20, "exportedTaskAndExamplePhasePngs": 126, "phases": ["approach","engage","release"]},
+  "rendering": {"engagementExportsFramed": 118, "engagementExportsNonblank": 118, "size": [1200,900], "minimumColoredPixels": 16590, "minimumDarkPixels": 2541},
+  "sameL4Target": {
+    "phase": "engage", "identicalFieldTarget": true,
+    "R03": {"bumperStandOffMm": 56.425, "carriageHeightMm": 2039.6125, "supportReachMm": 480, "coralAxisPitchDeg": 90},
+    "R04": {"bumperStandOffMm": 207.625, "boomLengthMm": 1755.714624, "shoulderPitchDeg": 66.460479, "coralAxisPitchDeg": 90}
+  },
+  "netShotHypothesis": {"robotIds": ["R03","R09"], "bumperStandOffMm": 1820, "fixedHoodDeg": 65, "minimumBallNearRailClearanceMm": 21.959226, "landingCenterMm": [0,-500,2136.775], "landingSurfaceHeightMm": 1930.4, "model": "Gravity only, no drag/spin; hypothesized net aperture, not calibrated performance"},
+  "interaction": {"phaseSelectionChangesImage": true, "comparisonRows": 10, "R03FloorCoralOmitted": true, "R03NetPresent": true, "unsupportedComparisonButtonsDisabled": true},
+  "responsive": {
+    "mobile": {"cssWidth": 312, "taskFramingChecks": 118, "framingFailures": 0, "pageOverflow": false, "coloredPixels": 9076, "darkPixels": 1172, "nonblank": true},
+    "desktop": {"cssWidth": 1280, "pageOverflow": false, "framed": true, "coloredPixels": 61086, "darkPixels": 8294, "nonblank": true}
+  },
+  "numericChecks": ["Chassis Z stays zero", "Same task uses fixed field target across robots", "Coral/branch axes coincide and engagement has positive insertion", "Actual contact-tool and wrist-mount mesh positions match solved coordinates", "Processor contact hardware stays on robot side of aperture", "Floor contact tool stays above ideal carpet", "Reported feasible adjustable poses respect the active forward-tool projection check", "Unreachable and overextended poses are explicit failures"],
+  "notVerified": ["Complete wrist actuator/axis implementation", "Full robot collision and all-hardware extension", "Continuous trajectories between independent phases", "Stow legality", "Retention and compression", "Branch cap and field-profile tolerances", "Net aperture and reef-algae center hypotheses", "Loaded climb", "Ballistic drag/spin and repeatability", "Autonomous or match performance"],
+  "onshapeCalls": 0,
+  "cadKernelRuns": 0
+}

@@ -1,0 +1,164 @@
+{
+  "status": "FAIL",
+  "apiCalls": 0,
+  "samples": [
+    {
+      "drive": "pickup",
+      "inputPhaseDeg": 0,
+      "outputPhaseDeg": 0.0,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.03144372148610844,
+      "status": "PASS"
+    },
+    {
+      "drive": "pickup",
+      "inputPhaseDeg": 11.25,
+      "outputPhaseDeg": -1.875,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0,
+      "shaftPinionOverlapMm3": 7.177513618056744,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.0,
+      "status": "FAIL"
+    },
+    {
+      "drive": "pickup",
+      "inputPhaseDeg": 22.5,
+      "outputPhaseDeg": -3.75,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0,
+      "shaftPinionOverlapMm3": 18.603138722030423,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.0,
+      "status": "FAIL"
+    },
+    {
+      "drive": "orienter_left",
+      "inputPhaseDeg": 0,
+      "outputPhaseDeg": 0.0,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.07357146264152102,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317594806,
+      "status": "PASS"
+    },
+    {
+      "drive": "orienter_left",
+      "inputPhaseDeg": 11.25,
+      "outputPhaseDeg": -3.75,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0735793103594397,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317583933,
+      "status": "PASS"
+    },
+    {
+      "drive": "orienter_left",
+      "inputPhaseDeg": 22.5,
+      "outputPhaseDeg": -7.5,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.07357146263663517,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317583065,
+      "status": "PASS"
+    },
+    {
+      "drive": "orienter_right",
+      "inputPhaseDeg": 0,
+      "outputPhaseDeg": 0.0,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.07357146264152102,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317594806,
+      "status": "PASS"
+    },
+    {
+      "drive": "orienter_right",
+      "inputPhaseDeg": 11.25,
+      "outputPhaseDeg": -3.75,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0735793103594397,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317583933,
+      "status": "PASS"
+    },
+    {
+      "drive": "orienter_right",
+      "inputPhaseDeg": 22.5,
+      "outputPhaseDeg": -7.5,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.07357146263663517,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317583065,
+      "status": "PASS"
+    },
+    {
+      "drive": "deployment_first",
+      "inputPhaseDeg": 0,
+      "outputPhaseDeg": 0.0,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.08070454152830422,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317563754,
+      "status": "PASS"
+    },
+    {
+      "drive": "deployment_first",
+      "inputPhaseDeg": 11.25,
+      "outputPhaseDeg": -1.40625,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.02087594931757335,
+      "status": "PASS"
+    },
+    {
+      "drive": "deployment_first",
+      "inputPhaseDeg": 22.5,
+      "outputPhaseDeg": -2.8125,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.0,
+      "shaftPinionOverlapMm3": 0.0,
+      "shaftHousingOverlapMm3": 0.0,
+      "shaftPinionDistanceMm": 0.020875949317579093,
+      "status": "PASS"
+    },
+    {
+      "drive": "deployment_final",
+      "inputPhaseDeg": 0,
+      "outputPhaseDeg": 0.0,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.05811774967798339,
+      "status": "PASS"
+    },
+    {
+      "drive": "deployment_final",
+      "inputPhaseDeg": 11.25,
+      "outputPhaseDeg": -1.875,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.029847096294512623,
+      "status": "PASS"
+    },
+    {
+      "drive": "deployment_final",
+      "inputPhaseDeg": 22.5,
+      "outputPhaseDeg": -3.75,
+      "meshOverlapMm3": 0.0,
+      "meshDistanceMm": 0.05811774967798339,
+      "status": "PASS"
+    }
+  ],
+  "scope": "One complete 16-tooth input pitch; conjugate output phase, actual COTS and generated custom teeth; no mesh exemptions. Baseline local interfaces also shared by width revision.",
+  "wallSeconds": 304.4830381000065
+}

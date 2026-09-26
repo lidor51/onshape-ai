@@ -1,0 +1,124 @@
+TAP version 13
+# Subtest: baseline contains nine expected solids, five holes per plate and three sleeves
+ok 1 - baseline contains nine expected solids, five holes per plate and three sleeves
+  ---
+  duration_ms: 2.9329
+  type: 'test'
+  ...
+# Subtest: surface gap, plate positions and shaft extensions obey the protocol
+ok 2 - surface gap, plate positions and shaft extensions obey the protocol
+  ---
+  duration_ms: 0.4158
+  type: 'test'
+  ...
+# Subtest: revision changes only normative input values and dependent geometry expectations
+ok 3 - revision changes only normative input values and dependent geometry expectations
+  ---
+  duration_ms: 0.4526
+  type: 'test'
+  ...
+# Subtest: generated source exposes revision parameters and excludes coral from BOM
+ok 4 - generated source exposes revision parameters and excludes coral from BOM
+  ---
+  duration_ms: 0.8241
+  type: 'test'
+  ...
+# Subtest: actual transcript contains a completed SDK initialization and tool discovery
+ok 5 - actual transcript contains a completed SDK initialization and tool discovery
+  ---
+  duration_ms: 4.437
+  type: 'test'
+  ...
+# Subtest: actual outbound transcript contains no live tools, authentication or screenshot calls
+ok 6 - actual outbound transcript contains no live tools, authentication or screenshot calls
+  ---
+  duration_ms: 0.4061
+  type: 'test'
+  ...
+# Subtest: both materialized manifests passed real tool-schema validation and remain unexecuted
+ok 7 - both materialized manifests passed real tool-schema validation and remain unexecuted
+  ---
+  duration_ms: 0.2674
+  type: 'test'
+  ...
+# Subtest: both explicit approvals are required; duplicate and unknown flags fail closed
+ok 8 - both explicit approvals are required; duplicate and unknown flags fail closed
+  ---
+  duration_ms: 3.9626
+  type: 'test'
+  ...
+# Subtest: origin guard rejects lookalikes, credentials, paths, ports and non-HTTPS
+ok 9 - origin guard rejects lookalikes, credentials, paths, ports and non-HTTPS
+  ---
+  duration_ms: 0.6228
+  type: 'test'
+  ...
+# Subtest: neither the unsafe release nor a substitute hash can enable live execution
+ok 10 - neither the unsafe release nor a substitute hash can enable live execution
+  ---
+  duration_ms: 0.4279
+  type: 'test'
+  ...
+# Subtest: rejected arguments are not reflected into observations
+ok 11 - rejected arguments are not reflected into observations
+  ---
+  duration_ms: 3.2672
+  type: 'test'
+  ...
+# Subtest: actual pinned executable is refused even with the edited transport source present
+ok 12 - actual pinned executable is refused even with the edited transport source present
+  ---
+  duration_ms: 111.898
+  type: 'test'
+  ...
+# Subtest: baseline requests only a new private document and exports outside the document
+ok 13 - baseline requests only a new private document and exports outside the document
+  ---
+  duration_ms: 1.4466
+  type: 'test'
+  ...
+# Subtest: revision updates the same feature and document without recreating either
+ok 14 - revision updates the same feature and document without recreating either
+  ---
+  duration_ms: 1.0396
+  type: 'test'
+  ...
+# Subtest: manifest records uncertainty and includes image, export and measurement calls
+ok 15 - manifest records uncertainty and includes image, export and measurement calls
+  ---
+  duration_ms: 0.5009
+  type: 'test'
+  ...
+# Subtest: subprocess environment excludes credentials, proxies, injection and original profiles
+ok 16 - subprocess environment excludes credentials, proxies, injection and original profiles
+  ---
+  duration_ms: 1.6382
+  type: 'test'
+  ...
+# Subtest: only offline metadata tools can be called
+ok 17 - only offline metadata tools can be called
+  ---
+  duration_ms: 0.9947
+  type: 'test'
+  ...
+# Subtest: live access and arbitrary hosts are rejected before execution
+ok 18 - live access and arbitrary hosts are rejected before execution
+  ---
+  duration_ms: 1.4664
+  type: 'test'
+  ...
+# Subtest: reviewed Rust request boundary disables redirects and proxies before authentication
+ok 19 - reviewed Rust request boundary disables redirects and proxies before authentication
+  ---
+  duration_ms: 8.9725
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 379.4366
