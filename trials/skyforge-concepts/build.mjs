@@ -52,13 +52,7 @@ for (const [id, task] of [['SF2', 'vgFender'], ['SF2', 'vgZone'], ['SF4', 'vgZon
   }
 }
 
-// 4. Optional robustness runs from the supplied simulator (see sim/run.mjs).
-const simPath = new URL('sim/results.json', here);
-const sim = existsSync(simPath) ? JSON.parse(await readFile(simPath, 'utf8')) : null;
-const simRow = prefix => sim?.rows.find(row => row.label.startsWith(prefix));
-const at = (prefix, tier) => { const row = simRow(prefix); return row ? `${row.byTier[tier].win.toFixed(0)}% win / ${row.byTier[tier].rp.toFixed(2)} RP` : 'n/a'; };
-
-// 5. Side-view feasibility searches behind SF5/SF6 (node feasibility.mjs writes feasibility.json).
+// 4. Side-view feasibility searches behind SF5/SF6 (node feasibility.mjs writes feasibility.json).
 const feasPath = new URL('feasibility.json', here);
 const feas = existsSync(feasPath) ? JSON.parse(await readFile(feasPath, 'utf8')) : null;
 if (feas) await writeFile(new URL('feasibility.json', output), await readFile(feasPath));
@@ -164,7 +158,7 @@ function dunkSection() {
 <h3>Why shooting into a THROAT does not work</h3>
 <p>An aligned 9 in cube has 1 in of clearance per side in the 11 in THROAT. To go in without touching the walls, its square has to stay inside the THROAT while it falls its own height through the rim plane: it must come down within about 12.5 deg of vertical (2 in of play over 9 in of height), with its centre within 25 mm of the THROAT centre in both directions. The hexagon allows about 266 mm sideways. Best clean-entry shot from each distance, released at 900-1900 mm:</p>
 <table class="wide"><thead><tr><th>Goal</th><th>Distance to THROAT centre</th><th>Practical shooter (20-70 deg)</th><th>Mortar lob (71-88 deg)</th></tr></thead><tbody>${shotRows}</tbody></table>
-<p class="minor">Tolerances are the speed (at the nominal angle) and launch angle (at the nominal speed) that still enter cleanly; the distance window is at most &plusmn;${Math.max(...dist)} mm and the aim window &plusmn;25 mm in every case. SF8's own kicker, with its rear bumper on the goal face (${(own.G2?.distance / 1000).toFixed(1)} m to the THROAT centre), gets ${ownText('G2')} at GOAL 2 and ${ownText('G3')} at GOAL 3. Its VERTICAL GOAL shots keep ${band('SF8', 'vgFender')} at the fender and ${band('SF8', 'vgZone')} at the zone spot. Drag, spin and foam bounce are not modelled. A cube that hits the far wall inside the THROAT can still fall in, but it can also pitch and wedge, which is the jam your simulator charges for a miss. ${esc(ts.entryRule)}</p>
+<p class="minor">Tolerances are the speed (at the nominal angle) and launch angle (at the nominal speed) that still enter cleanly; the distance window is at most &plusmn;${Math.max(...dist)} mm and the aim window &plusmn;25 mm in every case. SF8's own kicker, with its rear bumper on the goal face (${(own.G2?.distance / 1000).toFixed(1)} m to the THROAT centre), gets ${ownText('G2')} at GOAL 2 and ${ownText('G3')} at GOAL 3. Its VERTICAL GOAL shots keep ${band('SF8', 'vgFender')} at the fender and ${band('SF8', 'vgZone')} at the zone spot. Drag, spin and foam bounce are not modelled. A cube that hits the far wall inside the THROAT can still fall in, but it can also pitch, wedge or jam in the opening. ${esc(ts.entryRule)}</p>
 <h3>How the dunk works</h3>
 <ol class="rec">
 <li><b>Slot 1 has no floor.</b> Two rows of omni wheels per side pinch the cube's side faces. Their rollers let the cube slide along the tray while loading and shooting; the wheels themselves drive it across the tray, which is straight down when the tray is level.</li>
@@ -179,22 +173,20 @@ function dunkSection() {
 <ul><li><b>The dunk pushes the tray up.</b> The wheels are ${Math.round(lever)} mm from the tilt axle: ${(lever / 100).toFixed(1)} N m of hold-down per 10 N of dunk force. The tilt drive must hold it; a level stop only resists the other way.</li>
 <li><b>Rules:</b> 4.5 says cubes enter a THROAT by being dropped or LAUNCHED. As the game author, decide whether a driven dunk from above counts; G411 only forbids breaking opponent THROATs.</li>
 <li><b>No GOAL 1:</b> a level tray over the 18 in rim would put its floor at ${Math.round(g1Floor)} mm, inside the stowed intake (up to ${Math.round(intakeTop)} mm).</li>
-<li><b>More on the tray:</b> 11 motors; tilt, belt, 2 dunk and kicker motors move with the mast, and the mast rails cannot be tied across the top.</li>
-<li><b>Simulator</b> (my estimates: 0.35 s and 95% per cube at GOAL 2/3, against SF6's 0.45 s and 93% trapdoor): ${at('SF8 Dunk', 'strong')} strong, ${at('SF8 Dunk', 'average')} average; with SF6's trapdoor numbers instead, ${at('SF8 control', 'strong')} / ${at('SF8 control', 'average')}.</li></ul>
+<li><b>More on the tray:</b> 11 motors; tilt, belt, 2 dunk and kicker motors move with the mast, and the mast rails cannot be tied across the top.</li></ul>
 <div class="sides"><figure><h3>SF8 Dunk Mast, side view</h3>${sideView('SF8')}</figure></div>`;
 }
 function recommendation() {
-  const lev = (prefix, tier) => simRow(prefix)?.byTier[tier].levels.toFixed(0);
-  return `<p class="minor">Capacities are now what each mock physically holds per trip: SF1, SF2, SF5, SF6, SF7 and SF8 carry 4; SF3 carries 3 and SF4 carries 2. The earlier runs gave SF3 and SF4 one cube more than their trays hold, and gave SF1 no reload time between its two pairs.</p>
+  return `<p class="minor">Physical capacities per trip: SF1, SF2, SF5, SF6, SF7 and SF8 carry 4; SF3 carries 3 and SF4 carries 2.</p>
 <ol class="rec">
-<li><b>Highest in your simulator, if the dunk works: SF8 Dunk Mast</b> (${at('SF8 Dunk', 'elite')} elite, ${at('SF8 Dunk', 'strong')} strong, ${at('SF8 Dunk', 'average')} average; LEVELS RP ${lev('SF8 Dunk', 'strong')}% at strong). It adds GOAL 2 to SF6's GOAL 3, dunks both with driven omni wheels, and shoots the VERTICAL GOAL spin-free (${band('SF8', 'vgFender')} fender, ${band('SF8', 'vgZone')} zone), then HANGs. The lead rests on my dunk estimate (0.35 s and 95% per cube): with SF6's trapdoor numbers it gets ${at('SF8 control', 'strong')} strong and ${at('SF8 control', 'average')} average, below SF6 at strong. So the dunk rig is the first prototype. Costs: 11 motors, a mast that cannot be tied across the top, and a dunk reaction the tilt drive must hold.</li>
-<li><b>Highest without the dunk assumption: SF6 Ramp Lift</b> (${at('SF6', 'elite')} elite, ${at('SF6', 'strong')} strong, ${at('SF6', 'average')} average; LEVELS RP ${lev('SF6', 'strong')}% at strong). It puts 4 cubes into the 5-point GOAL 3 from hard stops and also shoots the VERTICAL GOAL (${band('SF6', 'vgFender')} speed tolerance at the fender, ${band('SF6', 'vgZone')} at the zone spot). At average execution it is level with SF3, so its lead depends on executing well. Its task times are my estimates, and the tray sandwich and trapdoor indexing are unproven. Its tray also lets a cube sit ${Math.round(172 - 3 - 114.3)} mm off centre over a 25 mm THROAT margin: it needs side guides.</li>
-<li><b>Most tolerant when execution slips: SF3 Gantry Tower</b>, now with its real 3-cube tray (${at('SF3 Gantry', 'strong')} strong, ${at('SF3 Gantry', 'average')} average; your Tower preset gets ${at('Your Tower', 'average')} at average). The fork mainly protects the LEVELS RP (${lev('SF3 Gantry', 'strong')}% vs ${lev('SF3 control', 'strong')}% without it at strong). Cost: 5 DOF, 7 state changes per cycle and a 70 mm reach margin.</li>
-<li><b>SF5 Column Arm (your arm idea, made legal)</b>: GOAL 2 in drops of 4 plus the VERTICAL GOAL (${band('SF5', 'vgFender')} fender, ${band('SF5', 'vgZone')} zone) and HANG. Simulator: ${at('SF5', 'strong')} strong, ${at('SF5', 'average')} average; LEVELS RP ${lev('SF5', 'strong')}% at strong. Its costs are a 34 x 26 in frame, a long lever at 78 in, and no GOAL 1.</li>
-<li><b>SF7 Rocker Tray (one motor)</b>: GOAL 2 four cubes per trip plus zone-spot VERTICAL GOAL shots (${band('SF7', 'vgZone')}) and HANG, on the standard frame. Simulator: ${at('SF7', 'strong')} strong, ${at('SF7', 'average')} average; LEVELS RP ${lev('SF7', 'strong')}% at strong. Fewest positioning DOF of the placer-shooters, but a flat shot and no fender shot.</li>
-<li><b>SF1 Brass Cannon</b> with honest 4-cube indexing (two pairs, one barrel reset): ${at('SF1 Brass', 'strong')} strong, ${at('SF1 Brass', 'average')} average, against your Launcher preset's ${at('Your Launcher', 'strong')} / ${at('Your Launcher', 'average')}. It stays the best under-board and UNDER option, and its release clears a legal defender (${band('SF1', 'vgFender')} fender, ${band('SF1', 'vgZone')} zone). Your simulator applies the same accuracy penalty to the hexagon as to the THROATs, so it cannot credit the bigger target; shooter-only robots look worst when execution slips.</li>
-<li><b>Budget floor: SF2 Mortar Rider</b> (${at('SF2', 'strong')} strong, ${at('SF2', 'average')} average): fewest positioning DOF, but it is only reliable from the fender and cannot hang.</li>
-<li><b>SF4 Forge Hybrid</b> is the complexity ceiling with only 2 cubes per trip (${at('SF4', 'strong')} strong, ${at('SF4', 'average')} average). Not recommended.</li></ol>
+<li><b>First prototype: SF8 Dunk Mast.</b> It adds GOAL 2 to SF6's GOAL 3, dunks both with driven omni wheels, and shoots the VERTICAL GOAL spin-free (${band('SF8', 'vgFender')} fender, ${band('SF8', 'vgZone')} zone), then HANGs. Its key unverified assumption is whether the driven wheels can push a misaligned foam cube through the THROAT reliably. Costs: 11 motors, a mast that cannot be tied across the top, and a dunk reaction the tilt drive must hold.</li>
+<li><b>Fallback: SF6 Ramp Lift.</b> It puts 4 cubes into the 5-point GOAL 3 from hard stops and also shoots the VERTICAL GOAL (${band('SF6', 'vgFender')} speed tolerance at the fender, ${band('SF6', 'vgZone')} at the zone spot). The tray sandwich and trapdoor indexing are unproven. Its tray also lets a cube sit ${Math.round(172 - 3 - 114.3)} mm off centre over a 25 mm THROAT margin, so it needs side guides.</li>
+<li><b>SF3 Gantry Tower</b> carries 3 cubes and uses a goal fork for passive alignment. Cost: 5 DOF, 7 state changes per cycle and a 70 mm reach margin.</li>
+<li><b>SF5 Column Arm (your arm idea, made legal)</b>: GOAL 2 in drops of 4 plus the VERTICAL GOAL (${band('SF5', 'vgFender')} fender, ${band('SF5', 'vgZone')} zone) and HANG. Its costs are a 34 x 26 in frame, a long lever at 78 in, and no GOAL 1.</li>
+<li><b>SF7 Rocker Tray (one motor)</b>: GOAL 2 four cubes per trip plus zone-spot VERTICAL GOAL shots (${band('SF7', 'vgZone')}) and HANG, on the standard frame. Fewest positioning DOF of the placer-shooters, but a flat shot and no fender shot.</li>
+<li><b>SF1 Brass Cannon</b> uses 4-cube indexing in two pairs with one barrel reset. It stays the best under-board and UNDER option, and its release clears a legal defender (${band('SF1', 'vgFender')} fender, ${band('SF1', 'vgZone')} zone).</li>
+<li><b>Budget floor: SF2 Mortar Rider.</b> Fewest positioning DOF, but it is only reliable from the fender and cannot hang.</li>
+<li><b>SF4 Forge Hybrid</b> is the complexity ceiling with only 2 cubes per trip. Not recommended.</li></ol>
 <p class="minor">Next discriminating tests, cheapest first: (1) a dunk rig: two rows of omni wheels pushing a foam cube into a real 11 in THROAT box at 0, 10 and 20 deg yaw, measuring force, time and jams; (2) a cube shooter test rig at the fender and at 1.6 m (speed band, tumble, whether the cube passes above 48 in at the bumper line); (3) the 2-lane intake wedge with cubes arriving centred; (4) a cardboard goal fork and trapdoor tray on a real 24 in goal box, and the SF6 tray sandwich at 50 deg; (5) the rail hook and 2 in lift, with measured centre-of-mass offset.</p>`;
 }
 
@@ -215,12 +207,6 @@ const scanTable = ['SF2 vgFender', 'SF2 vgZone', 'SF4 vgZone'].map(key => {
   const rows = scanRows.filter(row => `${row.id} ${row.task}` === key);
   return `<tr><th>${key.replace('vgFender', 'fender').replace('vgZone', 'zone 1.6 m')}</th>${rows.map(row => `<td class="${row.feasible ? row.speedBand >= 6 ? 's-pass' : 's-flag' : 's-fail'}">${row.feasible ? `${row.speedBand.toFixed(1)}%${row.unblockable ? '' : '<sup>b</sup>'}` : 'x'}</td>`).join('')}</tr>`;
 }).join('');
-const simSection = sim ? `<h3>Execution-robustness runs in your simulator</h3>
-<p>${esc(sim.note)}</p>
-<table class="sim wide"><thead><tr><th>Alliance (our robot first)</th>${sim.tiers.map(tier => `<th colspan="3">Our robot: ${esc(tier)}</th>`).join('')}<th colspan="2">Strong to average</th></tr><tr><th></th>${sim.tiers.map(() => '<th>Win %</th><th>Avg RP</th><th>Score</th>').join('')}<th>RP lost</th><th>SKYFORGE / LEVELS RP at average</th></tr></thead>
-<tbody>${sim.rows.map(row => `<tr><th>${esc(row.label)}</th>${sim.tiers.map(tier => { const r = row.byTier[tier]; return `<td>${r.win.toFixed(0)}</td><td>${r.rp.toFixed(2)}</td><td>${r.score.toFixed(0)}</td>`; }).join('')}<td>${(row.byTier.strong.rp - row.byTier.average.rp).toFixed(2)}</td><td>${row.byTier.average.skyforge.toFixed(0)}% / ${row.byTier.average.levels.toFixed(0)}%</td></tr>`).join('')}</tbody></table>
-<p class="minor">${esc(sim.caveat)} Your tier model applies the same accuracy penalty to every target, so it cannot credit the hexagon's larger opening; the geometric tolerance bands above are the evidence for that.</p>` : '<p class="minor">Simulator robustness runs not generated.</p>';
-
 const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Steampunk SKYFORGE - crayola robot concepts</title><link rel="icon" href="data:,">
 <style>
@@ -280,7 +266,7 @@ ${dunkSection()}
 <div class="kv">
 <div><strong>Cube supply is finite</strong>Each alliance has about 61 cubes: 32 on its half, 26 in reserve and 3 preloads. Only the 14 centre-line cubes and the 4 beside IP-C are really contested. Elite alliances run out of cubes, so points per cube count, not just cycles.</div>
 <div><strong>Value of a full 4-cube trip</strong>GOAL 1: 8. GOAL 2: 12. VERTICAL GOAL: 16. GOAL 3: 20. The VERTICAL GOAL and GOAL 3 are both at the far end, so the trip is the same length.</div>
-<div><strong>Forgiveness is not equal</strong>The hexagon is 30 in across the flats for a 9 in cube, giving about +/-266 mm of lateral margin. A THROAT is 11 in, giving +/-25 mm and +/-14.8 deg of yaw. There is only one GOAL 3, and a cube that jams in it blocks it (your simulator models a 12% jam chance per miss).</div>
+<div><strong>Forgiveness is not equal</strong>The hexagon is 30 in across the flats for a 9 in cube, giving about +/-266 mm of lateral margin. A THROAT is 11 in, giving +/-25 mm and +/-14.8 deg of yaw. There is only one GOAL 3, and a cube that jams in it blocks it.</div>
 <div><strong>Reach budget at a HORIZONTAL GOAL</strong>Every goal backs onto a wall, so the throat centre is 12 in from the only face you can touch. With the bumper on that face the cube centre is 15.25 in outside the frame. That leaves 2.75 in (70 mm) of mechanism inside the 18 in limit: a placer needs a hard-stopped reach, not a long arm.</div>
 <div><strong>Height ladder</strong>42 in at the start, 32 in under the boards, 48 in inside the opponent LAUNCH ZONE, 78 in maximum. A steep shot whose underside is above 48 in by the time it clears your bumper cannot be touched by a legal defender.</div>
 <div><strong>Endgame is cheap</strong>The rail top is at 33.8 in, so a robot only has to lift about 2 in to get off the carpet. A robot under 30 in can straddle the rail with its centre of mass underneath. HANG is worth 10 points, the same as 2.5 VERTICAL GOAL cubes.</div>
@@ -293,7 +279,6 @@ ${dunkSection()}
 <p class="minor">The fixed mortar is a fender specialist: from contact it keeps ${band('SF2', 'vgFender')} speed tolerance at ${MORTAR_ANGLE} deg, but from the 1.6 m zone spot only ${band('SF2', 'vgZone')}. SF1's pivot keeps ${band('SF1', 'vgFender')} at the fender and ${band('SF1', 'vgZone')} at the zone spot. SF4 raises a ${KICKER_ANGLE} deg kicker on its elevator and gets ${band('SF4', 'vgZone')}.</p>
 <h3>Recommendation (hypothesis, not a result)</h3>
 ${recommendation()}
-${simSection}
 </section>
 
 <section id="viewer"><h2>3D task viewer (red alliance, supplied field mesh)</h2>
@@ -327,7 +312,6 @@ const manifest = {
   sources: {
     fieldHtml: { path: fieldHtmlPath, sha256: sha(fieldHtml), use: 'field mesh (parts, colours) re-used verbatim, vertices rounded to 0.1 mm' },
     manual: existsSync(manualPath) ? { path: manualPath, sha256: sha(await readFile(manualPath)), use: 'all rule and field datums in field.mjs' } : null,
-    simulator: sim ? sim.source : null,
   },
   concepts: CONCEPTS.map(item => ({ id: item.id, name: item.name, tasks: item.tasks, complexity: item.complexity })),
   checkCounts: { pass: counts.filter(s => s === 'pass').length, flag: counts.filter(s => s === 'flag').length, fail: counts.filter(s => s === 'fail').length, info: counts.filter(s => s === 'info').length },

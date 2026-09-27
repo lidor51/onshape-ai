@@ -1,6 +1,6 @@
 ---
 name: frc-cad-references
-description: 'Find public FRC robot CAD and mechanism design studies to use as references: the Spectrum 3847 FRC CAD Collection sheet (team/year/format/link index, 2006-2026, plus Tech Documents and Code tabs) and the "Design Study" Google Drive folder (rolly-grippers, ball storage and serialization, catapults and shooters, tiny robots, grippers and claws, intake assemblies, pick and place games). Use when: CAD reference, public robot CAD, CAD release, find team N CAD for year Y, Onshape reference model, steal from the best, design study, mechanism survey, reference designs before concepts or detailed CAD.'
+description: 'Find public FRC robot CAD, mechanism design studies, and the user''s past-game hindsight to use as references: the Spectrum 3847 FRC CAD Collection sheet (team/year/format/link index, 2006-2026, plus Tech Documents and Code tabs), the "Design Study" Google Drive folder (rolly-grippers, ball storage and serialization, catapults and shooters, tiny robots, grippers and claws, intake assemblies, pick and place games), and authored season notes from 2011 and earlier through 2026. Use when: CAD reference, public robot CAD, CAD release, find team N CAD for year Y, Onshape reference model, steal from the best, design study, mechanism survey, past-game hindsight, cross-season patterns, reference designs before concepts or detailed CAD.'
 argument-hint: 'Team/year or mechanism, e.g. "1690 2025" or "ball serialization"'
 ---
 
@@ -12,6 +12,7 @@ argument-hint: 'Team/year or mechanism, e.g. "1690 2025" or "ball serialization"
 | --- | --- | --- |
 | FRC CAD Collection, Spectrum 3847 | [Google Sheet](https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit?gid=0#gid=0) | Tabs: CAD Collection, Tech Documents, Code Projects, Code Libraries, CAD: Onshape, one per year 2012-2022. Master tab (gid=0) columns: Team #, Year, Description, Format, Link, Team Name. About 1,000 rows, 2006-2026, mostly Onshape; also GrabCAD/STEP, Fusion, SolidWorks, Inventor, Drive. Community-submitted (a "Submit CAD Links" column). Includes a 1577 2026 row. |
 | Design Study folder | [Google Drive](https://drive.google.com/drive/u/0/folders/1KDnN9-venG5a0sZtMT0qe9H2nJCRfTpX) | 7 files: Design Study - "Rolly-Grippers", Ball Storage and Serialization, Catapults and Shooters, FRC Tiny Robots, Grippers and Claws, Intake Assemblies, Pick and Place Games. Owner hidden. Author, file type and contents not yet verified. |
+| Past-game hindsight | [Local references](references/hindsight/) | The user's authored retrospective notes for 2011 and earlier through 2026, plus a cross-season patterns index. These are opinions and recollections, not independently verified facts. |
 
 ## Lookup
 
@@ -22,6 +23,11 @@ argument-hint: 'Team/year or mechanism, e.g. "1690 2025" or "ball serialization"
 - Filter by team and year first, then by Description keywords (turret, elevator, swerve). Description is free text,
   so a keyword search misses robots.
 - Pick the Design Study that matches the mechanism class, read it, and cite page numbers.
+- For a specific season, read the matching file in [references/hindsight/](references/hindsight/). For mechanism
+  archetypes and recurring tradeoffs, start with [patterns.md](references/hindsight/patterns.md), then follow its
+  links to the season notes.
+- Use hindsight to generate search terms, candidate teams and design questions, then corroborate them with the
+  indexed CAD, release posts, official game materials or other direct evidence.
 - Pass the shortlist into [the research workflow](../../../docs/RESEARCH-REQUIREMENTS.md) with evidence labels.
 
 ## Rules
@@ -29,6 +35,9 @@ argument-hint: 'Team/year or mechanism, e.g. "1690 2025" or "ball serialization"
 - The sheet is an index, not evidence: a row only shows that someone submitted a link. Open the specific document
   and record exact URL, version (`/v/`) or workspace (`/w/`, which is mutable), configuration and retrieval date.
   Label it LINK-ONLY until it has been inspected.
+- Treat every hindsight note as the user's opinion. Label claims from these files `USER-HINDSIGHT` or `OPINION`;
+  do not present team rankings, mechanism assessments, remembered dimensions or cross-season patterns as verified
+  facts without checking a primary source.
 - Do not crawl the listed Onshape documents through the API or browser automation (Onshape API terms, see
   "Cost And Access" in RESEARCH-REQUIREMENTS). Open only specific documents for a specific question.
 - Do not mirror the sheet or the Design Study files into this repo. Keep links and authored notes. Being publicly

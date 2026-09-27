@@ -456,5 +456,5 @@ if (process.argv[1]?.endsWith('feasibility.mjs')) {
     throatShots: throatShotScan(),
     sf6Goal2: sf6Goal2Reach(),
   };
-  writeFileSync(new URL(debug ? 'sim/runs/feasibility-debug.json' : 'feasibility.json', import.meta.url), JSON.stringify(result, null, 1));
+  writeFileSync(new URL(debug ? 'feasibility-debug.json' : 'feasibility.json', import.meta.url), JSON.stringify(result, null, 1));
 }

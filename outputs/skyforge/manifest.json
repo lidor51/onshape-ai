@@ -1,6 +1,6 @@
 {
  "status": "CRAYOLA_CONCEPTS_STATIC_POSE_CHECKS",
- "generated": "2026-09-26T21:47:19.308Z",
+ "generated": "2026-09-27T21:52:39.775Z",
  "sources": {
   "fieldHtml": {
    "path": "C:/Users/lidor/FRC/2026/mocked_game/Steampunk_SKYFORGE_Field_3D.html",
@@ -11,11 +11,6 @@
    "path": "C:/Users/lidor/FRC/2026/mocked_game/Steampunk_SKYFORGE_Game_Manual.html",
    "sha256": "587ae48282674ea661527bcf95ccf37b7aec0040bbfb1901e9682e9d49adb837",
    "use": "all rule and field datums in field.mjs"
-  },
-  "simulator": {
-   "simulator": "C:/Users/lidor/FRC/2026/mocked_game/sim",
-   "configSha256": "28a1f3a3f604db53262af34def1b36312a6d6135021144200833b6f6301eab36",
-   "seconds": 478
   }
  },
  "concepts": [
@@ -462,7 +457,7 @@
    "unblockable": false
   }
  ],
- "bundleSha256": "842a26681be30684d8985524df428fc3556f2caf9defb3847f3b1da6ac601e57",
+ "bundleSha256": "01d61421db156a42b2bb6e6fc33fc76c7546f879710656be1dd7dbbf3fe610f9",
  "fieldJsSha256": "ed47d8f656d947ba893db1907134ac5522b6bd0cfce6c3f19f88b3d445d23cd5",
  "engine": "three 0.180.0 + esbuild 0.25.10",
  "notProven": [

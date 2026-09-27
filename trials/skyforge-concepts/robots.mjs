@@ -567,8 +567,8 @@ export const CONCEPTS = [
     why: 'The 30 in hexagon is the most forgiving scoring target in the game, and a steep shot leaves the robot above a legal 48 in defender. A pivot lets the same robot shoot from the fender at blue GOAL 1 or from deep in the LAUNCH ZONE. Indexing: the wedge splits cubes into 2 lanes; each lane holds one cube in the barrel and one in a chassis front lane, and has its own belt and sensor.',
     risks: ['A 4-cube volley is two pairs: after the first pair the barrel returns level so the front lanes can reload it (about 0.5 s).', 'The front lanes sit where the intake stows, so the intake must stay deployed while they hold cubes.', 'Twin lanes put each cube 127.5 mm off the goal centreline, which reduces aim margin; a cube arriving centred on the lane wedge can jam.', 'Cube flight with tumble, spin and foam compression is untested.', 'The rail hang depends on a level COM under the rail and needs a proper load check.'],
     tasks: ['start', 'floor', 'safe', 'underCube', 'vgFender', 'vgZone', 'hang', 'under'],
+    capacity: 4,
     complexity: { motors: 9, positioningDof: 3, handoffs: 2, stateChanges: 6, movingCables: 'barrel (3 motors across the pivot), intake roller motor', service: 'Barrel unit comes out as one module (pivot shaft + chain)' },
-    sim: { base: 'short_launcher', height: 'short', stow_height_in: 30, geometry: 'opposite', capacity: 4, tasks: { VG: [0.8, 0.6, 0.85], G1: null }, endgame: ['hang', 'under'], hang_s: 4.5, complexity: 0.45, defense_sensitivity: 0.9 },
   },
   {
     id: 'SF2', name: 'Mortar Rider', build: mortarRider, frame: STANDARD_FRAME,
@@ -578,8 +578,8 @@ export const CONCEPTS = [
     why: 'It has the fewest state changes: deploy the intake, spin up and feed. A fixed steep hood with variable flywheel speed covers the useful LAUNCH ZONE depth. Indexing: 2 lanes x 2 deep, each lane on its own belt; the front cube refills the flywheel slot, so all 4 fire without moving anything but belts.',
     risks: ['Its release is low: a legal defender pressed against the rear bumper can reach the shot (see check).', 'A fixed angle narrows the usable shot band.', 'The front lanes sit where the intake stows, so the intake must stay deployed while they hold cubes.', 'UNDER is worth only 3 points, so the alliance needs another robot to HANG for the BOARD RP.'],
     tasks: ['start', 'floor', 'safe', 'underCube', 'vgFender', 'vgZone', 'under'],
+    capacity: 4,
     complexity: { motors: 7, positioningDof: 1, handoffs: 1, stateChanges: 2, movingCables: 'intake roller motor only', service: 'Open top; the flywheel shaft is reachable from the rear' },
-    sim: { base: 'short_launcher', height: 'short', stow_height_in: 30, geometry: 'opposite', capacity: 4, tasks: { VG: [0.9, 0.5, 0.78], G1: null }, endgame: ['under'], complexity: 0.25 },
   },
   {
     id: 'SF3', name: 'Gantry Tower', frame: STANDARD_FRAME, hooks: { x: 40, dir: -1 }, build: (pose, alliance) => gantry(pose, alliance, { id: 'SF3', name: 'Gantry Tower', trayRear: -372, trayCubes: 3 }),
@@ -589,8 +589,8 @@ export const CONCEPTS = [
     why: 'The 11 in throat is the precision problem in this game. The bumper stops on the goal face, the fork straddles the 24 in base and the drawer runs to a hard stop, so the cube lands over the throat without fine driving.',
     risks: ['It holds 3 cubes, not 4: a level 4-cube tray (914 mm) does not fit inside a 30 in frame at the start. SF6 solves this by tilting its tray.', 'The 18 in extension limit leaves about 70 mm of tray behind the cube centre: tight.', 'More state changes per cube (lift, fork, reach, drop, advance).', 'A cable chain has to follow a 2-stage elevator and a moving drawer.'],
     tasks: ['start', 'floor', 'safe', 'g1', 'g2', 'g3', 'hang'],
+    capacity: 3,
     complexity: { motors: 9, positioningDof: 5, handoffs: 1, stateChanges: 7, movingCables: 'carriage + drawer + trapdoor through the elevator', service: 'Drawer slides out forward; the elevator needs rigging access' },
-    sim: { base: 'tower', height: 'tall', stow_height_in: 40, geometry: 'same', capacity: 3, tasks: { G1: [0.5, 0.8, 0.95], G2: [0.7, 0.8, 0.95], G3: [1.2, 1.0, 0.93] }, endgame: ['hang'], hang_s: 4.0, complexity: 0.55 },
   },
   {
     id: 'SF4', name: 'Forge Hybrid', frame: STANDARD_FRAME, hooks: { x: 40, dir: -1 }, build: (pose, alliance) => gantry(pose, alliance, { id: 'SF4', name: 'Forge Hybrid', trayRear: -345, trayCubes: 2, shooter: { alpha: KICKER_ANGLE } }),
@@ -600,8 +600,8 @@ export const CONCEPTS = [
     why: 'One tray has two exits, so there is no second intake path. The elevator sets the release height, which a fixed hood cannot.',
     risks: ['It holds only 2 cubes: the kicker takes the third tray slot.', 'Most motors, states and moving cables of the gantry concepts.', 'At GOAL 3 the kicker sits about 60 mm under the 78 in limit.'],
     tasks: ['start', 'floor', 'safe', 'g1', 'g2', 'g3', 'vgZone', 'hang'],
+    capacity: 2,
     complexity: { motors: 11, positioningDof: 5, handoffs: 1, stateChanges: 8, movingCables: 'carriage + drawer + trapdoor + kicker through the elevator', service: 'As SF3, plus kicker on the tray' },
-    sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 41, geometry: 'opposite', capacity: 2, tasks: { G1: [0.5, 0.8, 0.94], G2: [0.8, 0.85, 0.94], G3: [1.3, 1.05, 0.92], VG: [1.0, 0.55, 0.84] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.75 },
   },
   {
     id: 'SF5', name: 'Column Arm', build: columnArm, frame: { L: SF5.L, W: SF5.W }, hooks: SF5_HOOKS, family: 'magazine',
@@ -611,8 +611,8 @@ export const CONCEPTS = [
     why: 'A vertical 4-cube column over the THROAT scores 4 cubes in one move, driven down by its own belts. Loading and the GOAL 2 drop both hold the column vertical, so a cycle is a single 62 deg shoulder swing with the wrist chain held. The wrist only moves to stow and to tilt the column for a shot.',
     risks: ['Needs a 34 x 26 in frame: on 30 x 28 in no start pose of the 950 mm column clears the stowed intake (feasibility.json).', 'Long lever: a 712 mm arm plus a 950 mm column with 4 cubes, 78 in up. Arm deflection and chain backlash eat directly into the 25 mm THROAT margin.', 'Cubes are held only by the side pinch belts, and the mouth needs a curved 40 deg handoff from the tunnel.', 'The kicker wheels touch the top cube, so the stack must back off 25 mm before spin-up.', 'The shot pose is a static solution; the joint path from loading to it is not checked here.'],
     tasks: ['start', 'floor', 'safe', 'g2', 'vgFender', 'vgZone', 'hang'],
+    capacity: 4,
     complexity: { motors: 9, positioningDof: 5, handoffs: 1, stateChanges: 6, movingCables: 'pinch-belt motor and 2 kicker motors on the column (through wrist and shoulder)', service: 'Column unbolts at the wrist; both joint drives sit on the chassis' },
-    sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 42, geometry: 'opposite', capacity: 4, tasks: { G1: null, G2: [0.8, 0.2, 0.93], G3: null, VG: [0.9, 0.45, 0.85] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.65 },
   },
   {
     id: 'SF6', name: 'Ramp Lift', build: rampLift, frame: { L: SF6.L, W: SF6.W }, hooks: SF6_HOOKS, family: 'magazine',
@@ -622,8 +622,8 @@ export const CONCEPTS = [
     why: `In the GOAL 3 pose both joints sit on hard stops (carriage on its top stop, tray level on its stop), the bumper is on the goal face and the fork is on the base. Precision comes from contact, not from servo accuracy. The lift leans ${SF6.beta.toFixed(0)} deg, so one stage gives both the height and the forward reach: no drawer. The tray loads in line with the intake.`,
     risks: ['The inclined lift reaches the THROAT only at GOAL 3 height, so it cannot place at GOAL 1 or GOAL 2.', 'At GOAL 3 cubes go in one at a time over the trapdoor (about 0.4 s each), not as a stack.', 'It uses the whole 18 in budget at GOAL 3 (2 mm spare), and the tray floor clears the rim by 20 mm.', 'The tilt motor, belt motor and kicker ride on the carriage, so their cables move.', 'The top-belt sandwich must hold 4 cubes at 50 deg without slipping; this is untested.'],
     tasks: ['start', 'floor', 'safe', 'g3', 'vgFender', 'vgZone', 'hang'],
+    capacity: 4,
     complexity: { motors: 10, positioningDof: 5, handoffs: 1, stateChanges: 6, movingCables: 'tilt, belt and kicker motors plus the trapdoor servo on the carriage', service: 'Tray lifts off its two stub axles; lift motors at the base' },
-    sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 42, geometry: 'opposite', capacity: 4, tasks: { G1: null, G2: null, G3: [1.0, 0.45, 0.93], VG: [0.9, 0.45, 0.85] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.65 },
   },
   {
     id: 'SF7', name: 'Rocker Tray', build: rockerTray, frame: { L: SF7.L, W: SF7.W }, hooks: SF7_HOOKS, family: 'magazine',
@@ -633,8 +633,8 @@ export const CONCEPTS = [
     why: `One crank angle defines every state: start, load in line with the tunnel, shot and GOAL 2. The linkage was synthesised so the three precision poses are exact and the path between them stays inside 78 in / 18 in (feasibility.json). The shot pose lies on the way from loading to GOAL 2 (crank ${SF7.loadCrank.toFixed(0)} to ${SF7.sweep.toFixed(0)} deg), so shooting needs no extra motion.`,
     risks: ['The shot is flat (about 30-35 deg) and leaves at about 1.2 m. It is only available from the LAUNCH ZONE spot: no pose on its path makes a legal shot from the fender.', 'One DOF means one fixed path: no GOAL 1 or GOAL 3, and the shot angle cannot be tuned separately from its height.', 'Near the start pose the tray turns fast per crank degree (close to a toggle), so the crank needs a hard stop and a slow approach there.', 'At GOAL 2 it uses the whole 18 in budget (2 mm spare).', 'The top-belt sandwich must hold 4 cubes at 50 deg without slipping; this is untested.'],
     tasks: ['start', 'floor', 'safe', 'g2', 'vgZone', 'hang'],
+    capacity: 4,
     complexity: { motors: 8, positioningDof: 4, handoffs: 1, stateChanges: 5, movingCables: 'belt and kicker motors and the trapdoor servo ride on the tray (cables cross one linkage joint)', service: 'Tray lifts off its four stub axles; the crank drive stays on the chassis' },
-    sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 42, geometry: 'opposite', capacity: 4, tasks: { G1: null, G2: [0.7, 0.45, 0.93], G3: null, VG: [0.8, 0.45, 0.8] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.5, defense_sensitivity: 1.0 },
   },
   {
     id: 'SF8', name: 'Dunk Mast', build: dunkMast, frame: { L: SF8.L, W: SF8.W }, hooks: SF8_HOOKS, family: 'magazine',
@@ -651,8 +651,8 @@ export const CONCEPTS = [
       'Tilt, belt, dunk and kicker motors ride the carriage and tray, so their cables move with the mast.',
       'No GOAL 1: a level tray over the 18 in rim would sit in the stowed intake.'],
     tasks: ['start', 'floor', 'safe', 'g2', 'g3', 'vgFender', 'vgZone', 'hang'],
+    capacity: 4,
     complexity: { motors: 11, positioningDof: 5, handoffs: 1, stateChanges: 6, movingCables: 'tilt motor on the carriage; belt, 2 dunk and kicker motors on the tray', service: 'Tray lifts off its two stub axles; mast motors at the base' },
-    sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 42, geometry: 'opposite', capacity: 4, tasks: { G1: null, G2: [0.8, 0.35, 0.95], G3: [1.0, 0.35, 0.95], VG: [0.9, 0.45, 0.85] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.7 },
   },
 ];
 

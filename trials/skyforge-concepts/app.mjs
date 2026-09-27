@@ -141,7 +141,7 @@ function renderGallery() {
       <p class="tagline">${esc(item.tagline)}</p>
       <p>${esc(item.role)}</p>
       <div class="chips">${item.tasks.filter(task => task !== 'start').map(task => `<span class="chip s-${stats.tasks[task]}">${esc(TASKS[task].name)}</span>`).join('')}</div>
-      <dl class="counts"><div><dt>Motors</dt><dd>${item.complexity.motors}</dd></div><div><dt>Positioning DOF</dt><dd>${item.complexity.positioningDof}</dd></div><div><dt>State changes / cycle</dt><dd>${item.complexity.stateChanges}</dd></div><div><dt>Capacity</dt><dd>${item.sim.capacity}</dd></div></dl>
+      <dl class="counts"><div><dt>Motors</dt><dd>${item.complexity.motors}</dd></div><div><dt>Positioning DOF</dt><dd>${item.complexity.positioningDof}</dd></div><div><dt>State changes / cycle</dt><dd>${item.complexity.stateChanges}</dd></div><div><dt>Capacity</dt><dd>${item.capacity}</dd></div></dl>
       <button type="button" class="open" data-id="${item.id}">Open in 3D field</button>
     </article>`;
   }).join('');
