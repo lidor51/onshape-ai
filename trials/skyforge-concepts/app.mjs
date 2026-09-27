@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { CONCEPTS, concept } from './robots.mjs';
 import { TASKS, PHASE_NAMES, scene, isolated } from './tasks.mjs';
-import { SF5, SF6, SF7, sf5Reach, sf5Drop } from './magazine.mjs';
+import { SF5, SF6, SF7, SF8, sf5Reach, sf5Drop } from './magazine.mjs';
 
 const field = window.SKYFORGE_FIELD;
 const summary = window.SKYFORGE_SUMMARY;
@@ -121,6 +121,7 @@ const SIGNATURE = {
   SF5: { intake: 'stowed', shoulder: sf5Reach(sf5Drop(SF5.L), 90).shoulder, axis: 90, column: 4, fork: true },
   SF6: { intake: 'stowed', carriage: SF6.travel, tilt: 180, tray: 4, fork: true },
   SF7: { intake: 'stowed', crank: SF7.sweep, tray: 4, fork: true },
+  SF8: { intake: 'stowed', h: SF8.g3, tilt: 180, tray: 4, fork: true },
 };
 
 function isolatedBuilt(id, pose) {

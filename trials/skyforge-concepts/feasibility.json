@@ -1262,6 +1262,815 @@
    ]
   }
  ],
+ "dunkMast": {
+  "byLoadAxis": [
+   {
+    "loadAxis": 122,
+    "count": 0,
+    "hangCompatible": 0,
+    "byStages": {
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 14,
+     "mast": 0,
+     "height": 0,
+     "cycle": 20,
+     "stow": 19,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 123,
+    "count": 2,
+    "hangCompatible": 0,
+    "byStages": {
+     "1": 2,
+     "2": 0,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 20,
+     "mast": 0,
+     "height": 0,
+     "cycle": 14,
+     "stow": 17,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 124,
+    "count": 14,
+    "hangCompatible": 0,
+    "byStages": {
+     "1": 10,
+     "2": 4,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 26,
+     "mast": 0,
+     "height": 0,
+     "cycle": 7,
+     "stow": 6,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 125,
+    "count": 21,
+    "hangCompatible": 10,
+    "byStages": {
+     "1": 10,
+     "2": 11,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 32,
+     "mast": 0,
+     "height": 0,
+     "cycle": 0,
+     "stow": 0,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 126,
+    "count": 16,
+    "hangCompatible": 16,
+    "byStages": {
+     "1": 4,
+     "2": 12,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 37,
+     "mast": 0,
+     "height": 0,
+     "cycle": 0,
+     "stow": 0,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 127,
+    "count": 16,
+    "hangCompatible": 16,
+    "byStages": {
+     "1": 0,
+     "2": 16,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 37,
+     "mast": 0,
+     "height": 0,
+     "cycle": 0,
+     "stow": 0,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 128,
+    "count": 9,
+    "hangCompatible": 9,
+    "byStages": {
+     "1": 0,
+     "2": 9,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 37,
+     "mast": 0,
+     "height": 0,
+     "cycle": 0,
+     "stow": 7,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 129,
+    "count": 0,
+    "hangCompatible": 0,
+    "byStages": {
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 44,
+     "mast": 0,
+     "height": 0,
+     "cycle": 0,
+     "stow": 9,
+     "shot": 0
+    }
+   },
+   {
+    "loadAxis": 130,
+    "count": 0,
+    "hangCompatible": 0,
+    "byStages": {
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "rejected": {
+     "offPlate": 52,
+     "mast": 0,
+     "height": 0,
+     "cycle": 0,
+     "stow": 1,
+     "shot": 0
+    }
+   }
+  ],
+  "chosen": {
+   "L": 762,
+   "loadAxis": 126,
+   "count": 16,
+   "hangCompatible": 16,
+   "byStages": {
+    "1": 4,
+    "2": 12,
+    "3": 0
+   },
+   "rejected": {
+    "offPlate": 37,
+    "mast": 0,
+    "height": 0,
+    "cycle": 0,
+    "stow": 0,
+    "shot": 0
+   },
+   "best": {
+    "pivotOnTray": {
+     "along": 930,
+     "across": 116.5
+    },
+    "mastX": -47.4,
+    "axle": {
+     "load": 1187,
+     "g2": 1236,
+     "g3": 1795
+    },
+    "carriageTravel": 775,
+    "movingStages": 1,
+    "cycleMargin": 1.2,
+    "stow": {
+     "h": 1020,
+     "axis": 92
+    },
+    "startPoses": 7,
+    "hangStarts": 7,
+    "hangOk": true,
+    "shot": {
+     "h": 1790,
+     "alpha": 65,
+     "release": [
+      -193,
+      1826
+     ]
+    },
+    "g1": {
+     "intakeOverlap": true,
+     "top": 802,
+     "trayBottom": 422
+    }
+   },
+   "next": [
+    {
+     "pivotOnTray": {
+      "along": 935,
+      "across": 114
+     },
+     "mastX": -52.4,
+     "axle": {
+      "load": 1189,
+      "g2": 1234,
+      "g3": 1792
+     },
+     "carriageTravel": 772,
+     "movingStages": 1,
+     "cycleMargin": 1.1,
+     "stow": {
+      "h": 1020,
+      "axis": 92
+     },
+     "startPoses": 7,
+     "hangStarts": 7,
+     "hangOk": true,
+     "shot": {
+      "h": 1790,
+      "alpha": 65,
+      "release": [
+       -193,
+       1823
+      ]
+     },
+     "g1": {
+      "intakeOverlap": true,
+      "top": 802,
+      "trayBottom": 422
+     }
+    },
+    {
+     "pivotOnTray": {
+      "along": 940,
+      "across": 111.5
+     },
+     "mastX": -57.4,
+     "axle": {
+      "load": 1192,
+      "g2": 1231,
+      "g3": 1790
+     },
+     "carriageTravel": 770,
+     "movingStages": 1,
+     "cycleMargin": 1,
+     "stow": {
+      "h": 1020,
+      "axis": 90
+     },
+     "startPoses": 3,
+     "hangStarts": 3,
+     "hangOk": true,
+     "shot": {
+      "h": 1780,
+      "alpha": 65,
+      "release": [
+       -194,
+       1809
+      ]
+     },
+     "g1": {
+      "intakeOverlap": true,
+      "top": 802,
+      "trayBottom": 422
+     }
+    },
+    {
+     "pivotOnTray": {
+      "along": 945,
+      "across": 108.9
+     },
+     "mastX": -62.4,
+     "axle": {
+      "load": 1195,
+      "g2": 1228,
+      "g3": 1787
+     },
+     "carriageTravel": 767,
+     "movingStages": 1,
+     "cycleMargin": 0.9,
+     "stow": {
+      "h": 1020,
+      "axis": 90
+     },
+     "startPoses": 3,
+     "hangStarts": 3,
+     "hangOk": true,
+     "shot": {
+      "h": 1780,
+      "alpha": 65,
+      "release": [
+       -195,
+       1806
+      ]
+     },
+     "g1": {
+      "intakeOverlap": true,
+      "top": 802,
+      "trayBottom": 422
+     }
+    }
+   ]
+  },
+  "longFrameInLine": {
+   "L": 863.6,
+   "loadAxis": 130,
+   "count": 2,
+   "hangCompatible": 2,
+   "byStages": {
+    "1": 0,
+    "2": 2,
+    "3": 0
+   },
+   "rejected": {
+    "offPlate": 51,
+    "mast": 0,
+    "height": 0,
+    "cycle": 0,
+    "stow": 0,
+    "shot": 0
+   },
+   "best": {
+    "pivotOnTray": {
+     "along": 940,
+     "across": 184.9
+    },
+    "mastX": -6.6,
+    "axle": {
+     "load": 1205,
+     "g2": 1304,
+     "g3": 1863
+    },
+    "carriageTravel": 843,
+    "movingStages": 2,
+    "cycleMargin": 1.9,
+    "stow": {
+     "h": 1020,
+     "axis": 90
+    },
+    "startPoses": 5,
+    "hangStarts": 5,
+    "hangOk": true,
+    "shot": {
+     "h": 1860,
+     "alpha": 65,
+     "release": [
+      -210,
+      1858
+     ]
+    },
+    "g1": {
+     "intakeOverlap": true,
+     "top": 812,
+     "trayBottom": 422
+    }
+   },
+   "next": [
+    {
+     "pivotOnTray": {
+      "along": 945,
+      "across": 182.6
+     },
+     "mastX": -11.6,
+     "axle": {
+      "load": 1207,
+      "g2": 1302,
+      "g3": 1861
+     },
+     "carriageTravel": 841,
+     "movingStages": 2,
+     "cycleMargin": 1.9,
+     "stow": {
+      "h": 1020,
+      "axis": 90
+     },
+     "startPoses": 4,
+     "hangStarts": 4,
+     "hangOk": true,
+     "shot": {
+      "h": 1860,
+      "alpha": 65,
+      "release": [
+       -211,
+       1855
+      ]
+     },
+     "g1": {
+      "intakeOverlap": true,
+      "top": 810,
+      "trayBottom": 422
+     }
+    }
+   ]
+  }
+ },
+ "throatShots": {
+  "entryRule": "Clean entry: the non-rotating cube square stays inside the 279.4 mm THROAT while it crosses the rim plane.",
+  "rows": [
+   {
+    "goal": "G2",
+    "distance": 500,
+    "practical": {
+     "release": 1900,
+     "alpha": 70,
+     "speedBandPct": [
+      -1.04,
+      1.12
+     ],
+     "angleBandDeg": [
+      -0.35,
+      0.33
+     ],
+     "distanceBand": [
+      -8,
+      7
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 2104,
+     "crossingDeg": -81,
+     "speedMps": 2.13
+    },
+    "mortar": {
+     "release": 1850,
+     "alpha": 88,
+     "speedBandPct": [
+      -2.32,
+      2.28
+     ],
+     "angleBandDeg": [
+      -0.08,
+      0.08
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 5221,
+     "crossingDeg": -88,
+     "speedMps": 8.14
+    }
+   },
+   {
+    "goal": "G2",
+    "distance": 800,
+    "practical": {
+     "release": 1850,
+     "alpha": 70,
+     "speedBandPct": [
+      -0.14,
+      0.22
+     ],
+     "angleBandDeg": [
+      -0.07,
+      0.05
+     ],
+     "distanceBand": [
+      -2,
+      1
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 2242,
+     "crossingDeg": -79,
+     "speedMps": 2.95
+    },
+    "mortar": {
+     "release": 1900,
+     "alpha": 88,
+     "speedBandPct": [
+      -1.4,
+      1.4
+     ],
+     "angleBandDeg": [
+      -0.05,
+      0.05
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 7403,
+     "crossingDeg": -88,
+     "speedMps": 10.4
+    }
+   },
+   {
+    "goal": "G2",
+    "distance": 1000,
+    "practical": {
+     "release": 1900,
+     "alpha": 70,
+     "speedBandPct": [
+      0,
+      0.06
+     ],
+     "angleBandDeg": [
+      -0.02,
+      0
+     ],
+     "distanceBand": [
+      -1,
+      0
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 2412,
+     "crossingDeg": -78,
+     "speedMps": 3.37
+    },
+    "mortar": {
+     "release": 1800,
+     "alpha": 88,
+     "speedBandPct": [
+      -1.1,
+      1.1
+     ],
+     "angleBandDeg": [
+      -0.04,
+      0.04
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 8756,
+     "crossingDeg": -88,
+     "speedMps": 11.69
+    }
+   },
+   {
+    "goal": "G2",
+    "distance": 1600,
+    "practical": null,
+    "mortar": {
+     "release": 1250,
+     "alpha": 87,
+     "speedBandPct": [
+      -0.6,
+      0.6
+     ],
+     "angleBandDeg": [
+      -0.03,
+      0.03
+     ],
+     "distanceBand": [
+      -19,
+      19
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 8812,
+     "crossingDeg": -87,
+     "speedMps": 12.2
+    }
+   },
+   {
+    "goal": "G2",
+    "distance": 2500,
+    "practical": null,
+    "mortar": {
+     "release": 1500,
+     "alpha": 88,
+     "speedBandPct": [
+      -0.42,
+      0.42
+     ],
+     "angleBandDeg": [
+      -0.01,
+      0.01
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 19265,
+     "crossingDeg": -88,
+     "speedMps": 18.68
+    }
+   },
+   {
+    "goal": "G3",
+    "distance": 500,
+    "practical": null,
+    "mortar": {
+     "release": 1850,
+     "alpha": 88,
+     "speedBandPct": [
+      -2.22,
+      2.18
+     ],
+     "angleBandDeg": [
+      -0.08,
+      0.08
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 5350,
+     "crossingDeg": -88,
+     "speedMps": 8.29
+    }
+   },
+   {
+    "goal": "G3",
+    "distance": 800,
+    "practical": null,
+    "mortar": {
+     "release": 1500,
+     "alpha": 88,
+     "speedBandPct": [
+      -1.34,
+      1.32
+     ],
+     "angleBandDeg": [
+      -0.05,
+      0.05
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 7233,
+     "crossingDeg": -88,
+     "speedMps": 10.61
+    }
+   },
+   {
+    "goal": "G3",
+    "distance": 1000,
+    "practical": null,
+    "mortar": {
+     "release": 1200,
+     "alpha": 88,
+     "speedBandPct": [
+      -1.04,
+      1.04
+     ],
+     "angleBandDeg": [
+      -0.04,
+      0.04
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 8441,
+     "crossingDeg": -88,
+     "speedMps": 11.92
+    }
+   },
+   {
+    "goal": "G3",
+    "distance": 1600,
+    "practical": null,
+    "mortar": {
+     "release": 950,
+     "alpha": 88,
+     "speedBandPct": [
+      -0.64,
+      0.64
+     ],
+     "angleBandDeg": [
+      -0.02,
+      0.02
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 12550,
+     "crossingDeg": -88,
+     "speedMps": 15.09
+    }
+   },
+   {
+    "goal": "G3",
+    "distance": 2500,
+    "practical": null,
+    "mortar": {
+     "release": 1050,
+     "alpha": 88,
+     "speedBandPct": [
+      -0.42,
+      0.42
+     ],
+     "angleBandDeg": [
+      -0.01,
+      0.01
+     ],
+     "distanceBand": [
+      -21,
+      21
+     ],
+     "lateralBand": [
+      -25,
+      25
+     ],
+     "apex": 19067,
+     "crossingDeg": -88,
+     "speedMps": 18.81
+    }
+   }
+  ],
+  "sf8FromGoalFace": {
+   "G2": {
+    "axleHeight": 1700,
+    "alpha": 88,
+    "distance": 601,
+    "release": 1790,
+    "speedBandPct": [
+     -1.9,
+     1.86
+    ],
+    "angleBandDeg": [
+     -0.07,
+     0.07
+    ],
+    "distanceBand": [
+     -21,
+     21
+    ],
+    "apex": 5898
+   },
+   "G3": {
+    "axleHeight": 1710,
+    "alpha": 88,
+    "distance": 601,
+    "release": 1800,
+    "speedBandPct": [
+     -1.82,
+     1.8
+    ],
+    "angleBandDeg": [
+     -0.07,
+     0.07
+    ],
+    "distanceBand": [
+     -21,
+     21
+    ],
+    "apex": 6036
+   }
+  }
+ },
  "sf6Goal2": {
   "neededPivot": [
    83,

@@ -1,7 +1,8 @@
 // 2D (side-view) feasibility studies behind the 4-cube magazine concepts. Robot frame: x forward, z up, mm.
 // Run: node feasibility.mjs  (writes feasibility.json; `debug` skips the slow rigid-arm search).
 import { GOALS, LIMITS, CUBE, BOARD } from './field.mjs';
-import { deg, COLUMN, throatX, tunnelFor, columnAt, trayAt, pointOn, wristOf, columnFromWrist, convexOverlap, circumcircle, SF6, sf6Pose } from './magazine.mjs';
+import { deg, COLUMN, TRAY, throatX, tunnelFor, columnAt, trayAt, pointOn, wristOf, columnFromWrist, convexOverlap, circumcircle, SF6, sf6Pose, SF8, sf8Pose, mastPivot, dunkTrayAt } from './magazine.mjs';
+import { evaluateThroatShot } from './geometry.mjs';
 
 // How many stacked cubes fit above each rim, with 40 mm drop clearance and 25 mm of column structure on top.
 export function heightBudget() {
@@ -327,6 +328,97 @@ export function rampLiftSearch(L = 762) {
   return { L, count: results.length, byStages: Object.fromEntries([1, 2, 3, 4].map(k => [k, results.filter(r => r.movingStages === k).length])), rejected, best: results[0] ?? null, next: results.slice(1, 5) };
 }
 
+// SF8: vertical mast + tray hinged on side-plate ears. For each axle position `along` on the tray, mastPivot fixes
+// `across` (load, GOAL 2 and GOAL 3 axle positions on one vertical line). The axle must lie on the side plate, the
+// mast inside the frame and the carriage at GOAL 3 under 78 in. Paths are linear in axle height and tilt: load ->
+// GOAL 2 -> GOAL 3 and start -> load stay inside 78 in / 18 in / floor. A VERTICAL GOAL shot pose (35-65 deg,
+// release >= 900 mm, hull 60 mm under 78 in, clear of the stowed intake) must exist. Hang-compatible solutions keep
+// the start tray and the mast behind the rail line (x 60).
+export function dunkMastSearch(L = 762, { loadAxis = 130 } = {}) {
+  const keepout = tunnelFor(L).keepout, up = SF8.carriage.up, results = [];
+  const rejected = { offPlate: 0, mast: 0, height: 0, cycle: 0, stow: 0, shot: 0 };
+  const lerp = (a, b, k) => a + (b - a) * k;
+  for (let along = 700; along <= 960; along += 5) {
+    const m = mastPivot(L, along, loadAxis), piv = { along, across: m.across };
+    const topAcross = along >= TRAY.kickerStart ? TRAY.kickerTop : TRAY.top;
+    if (!(m.across >= -TRAY.kickerTop + 5 && m.across <= topAcross - 5 && along <= TRAY.length - 5)) { rejected.offPlate++; continue; }
+    if (Math.abs(m.mastX) > L / 2 - 40) { rejected.mast++; continue; }
+    if (m.g3 + up > LIMITS.maxHeight - 20) { rejected.height++; continue; }
+    const hull = (h, axis) => { const o = pointOn([0, 0], axis, along, m.across); return dunkTrayAt([m.mastX - o[0], h - o[1]], axis, piv); };
+    const path = (a, b, n = 24) => { let worst = -Infinity; for (let k = 0; k <= n; k++) worst = Math.max(worst, inside(hull(lerp(a[0], b[0], k / n), lerp(a[1], b[1], k / n)), L)); return worst; };
+    const load = [m.load, loadAxis], g2 = [m.g2, 180], g3 = [m.g3, 180];
+    const cycle = Math.max(path(load, g2), path(g2, g3));
+    if (cycle > 0) { rejected.cycle++; continue; }
+    const starts = [];
+    for (let h = 300; h + up <= LIMITS.startHeight - 20; h += 10) for (let axis = 60; axis <= 300; axis += 2) {
+      if (!startOk(hull(h, axis), L) || path([h, axis], load) > 0) continue;
+      starts.push({ h, axis, hangOk: Math.max(...hull(h, axis).map(p => p[0])) <= 60 && m.mastX + 30 <= 60 });
+    }
+    if (!starts.length) { rejected.stow++; continue; }
+    // Least motion to the load pose, preferring a start that also works as the hang pose.
+    const effort = s => Math.abs(s.axis - loadAxis) * 5 + Math.abs(m.load - s.h);
+    const stow = starts.slice().sort((a, b) => (b.hangOk - a.hangOk) || effort(a) - effort(b))[0];
+    let shot = null;
+    for (let h = stow.h; h <= m.g3; h += 10) for (let alpha = 35; alpha <= 65; alpha += 1) {
+      const axis = 180 - alpha, pts = hull(h, axis), o = pointOn([0, 0], axis, along, m.across);
+      const release = pointOn([m.mastX - o[0], h - o[1]], axis, 910 + CUBE / 2, 0);
+      if (release[1] < 900 || Math.max(...pts.map(p => p[1])) > LIMITS.maxHeight - 60 || Math.min(...pts.map(p => p[1])) < 150) continue;
+      if (Math.max(...pts.map(p => Math.abs(p[0]))) > L / 2 + LIMITS.extension - 20 || convexOverlap(pts, keepout)) continue;
+      if (!shot || release[1] > shot.release[1]) shot = { h, alpha, release: release.map(Math.round) };
+    }
+    if (!shot) { rejected.shot++; continue; }
+    // GOAL 1 (18 in): the level tray would sit in the stowed intake, and G416 limits the robot to 48 in there.
+    const g1 = hull(m.g1, 180);
+    results.push({
+      pivotOnTray: { along, across: Math.round(m.across * 10) / 10 }, mastX: Math.round(m.mastX * 10) / 10,
+      axle: { load: Math.round(m.load), g2: Math.round(m.g2), g3: Math.round(m.g3) }, carriageTravel: Math.round(m.g3 - stow.h),
+      movingStages: Math.ceil((m.g3 + up - 1040) / (980 - 200)), cycleMargin: Math.round(-cycle * 10) / 10,
+      stow: { h: stow.h, axis: stow.axis }, startPoses: starts.length, hangStarts: starts.filter(s => s.hangOk).length, hangOk: stow.hangOk, shot,
+      g1: { intakeOverlap: convexOverlap(g1, keepout), top: Math.round(Math.max(...g1.map(p => p[1])) + 0), trayBottom: Math.round(Math.min(...g1.map(p => p[1]))) },
+    });
+  }
+  results.sort((a, b) => (b.hangOk - a.hangOk) || a.movingStages - b.movingStages || b.cycleMargin - a.cycleMargin);
+  return { L, loadAxis, count: results.length, hangCompatible: results.filter(r => r.hangOk).length, byStages: Object.fromEntries([1, 2, 3].map(k => [k, results.filter(r => r.movingStages === k).length])), rejected, best: results[0] ?? null, next: results.slice(1, 4) };
+}
+
+// Shooting into a HORIZONTAL GOAL: for each goal and horizontal distance to the THROAT centre, the release height
+// (900-1900 mm) and launch angle with the widest speed tolerance for a clean entry, in two regimes: practical
+// shooters (20-70 deg) and mortar lobs (71-88 deg). Also the best lob SF8's rear kicker can make from the goal face.
+export function throatShotScan() {
+  const pick = (goal, D, a0, a1) => {
+    let best = null;
+    for (let h = 900; h <= 1900; h += 50) for (let a = a0; a <= a1; a++) {
+      const r = evaluateThroatShot({ position: [goal.center[0] + D, goal.center[1], h], horizontal: [-1, 0], alpha: a * deg, goal, quick: true });
+      const w = r.feasible ? r.speedBandPct[1] - r.speedBandPct[0] : -1;
+      if (w >= 0 && (!best || w > best.w)) best = { h, a, w };
+    }
+    if (!best) return null;
+    const r = evaluateThroatShot({ position: [goal.center[0] + D, goal.center[1], best.h], horizontal: [-1, 0], alpha: best.a * deg, goal });
+    const r2 = v => Math.round(v * 100) / 100;
+    return { release: best.h, alpha: best.a, speedBandPct: r.speedBandPct.map(r2), angleBandDeg: r.angleBandDeg.map(r2), distanceBand: r.distanceBand, lateralBand: r.lateralBand, apex: Math.round(r.apex), crossingDeg: Math.round(r.crossingDeg), speedMps: r2(r.speedMps) };
+  };
+  const goals = { G2: GOALS.G2near, G3: GOALS.G3 };
+  const rows = [];
+  for (const [key, goal] of Object.entries(goals)) for (const D of [500, 800, 1000, 1600, 2500]) rows.push({ goal: key, distance: D, practical: pick(goal, D, 20, 70), mortar: pick(goal, D, 71, 88) });
+  const sf8 = {};
+  for (const [key, goal] of Object.entries(goals)) {
+    const cx = goal.face[0] + SF8.L / 2 + 82.55, keepout = tunnelFor(SF8.L).keepout;
+    let best = null;
+    for (let h = SF8.start.h; h <= SF8.g3; h += 10) for (let a = 30; a <= 88; a++) {
+      const axis = 180 - a, p = sf8Pose(h, axis), pts = dunkTrayAt(p.front, axis);
+      if (Math.max(...pts.map(q => q[1])) > LIMITS.maxHeight - 60 || Math.min(...pts.map(q => q[1])) < 150 || Math.max(...pts.map(q => Math.abs(q[0]))) > SF8.L / 2 + LIMITS.extension - 20 || convexOverlap(pts, keepout)) continue;
+      const release = pointOn(p.front, axis, 910 + CUBE / 2, 0);
+      const r = evaluateThroatShot({ position: [cx + release[0], goal.center[1], release[1]], horizontal: [-1, 0], alpha: a * deg, goal, quick: true });
+      const w = r.feasible ? r.speedBandPct[1] - r.speedBandPct[0] : -1;
+      if (w >= 0 && (!best || w > best.w)) best = { h, a, w, position: [cx + release[0], goal.center[1], release[1]] };
+    }
+    if (!best) { sf8[key] = null; continue; }
+    const r = evaluateThroatShot({ position: best.position, horizontal: [-1, 0], alpha: best.a * deg, goal });
+    sf8[key] = { axleHeight: best.h, alpha: best.a, distance: Math.round(r.distance), release: Math.round(best.position[2]), speedBandPct: r.speedBandPct.map(v => Math.round(v * 100) / 100), angleBandDeg: r.angleBandDeg.map(v => Math.round(v * 100) / 100), distanceBand: r.distanceBand, apex: Math.round(r.apex) };
+  }
+  return { entryRule: 'Clean entry: the non-rotating cube square stays inside the 279.4 mm THROAT while it crosses the rim plane.', rows, sf8FromGoalFace: sf8 };
+}
+
 // Can SF6 (inclined lift + tilt) reach the GOAL 2 THROAT? Search every carriage position and tilt for the front
 // cube closest to the throat centre with its bottom 10-150 mm above the rim (a controlled drop, not a lob).
 export function sf6Goal2Reach() {
@@ -357,6 +449,11 @@ if (process.argv[1]?.endsWith('feasibility.mjs')) {
     rampLift: frames.map(L => rampLiftSearch(L)),
     singlePivot: frames.map(L => singlePivotPoles(L)),
     fourBarTray: frames.map(L => fourBarTraySearch(L)),
+    dunkMast: {
+      byLoadAxis: [122, 123, 124, 125, 126, 127, 128, 129, 130].map(loadAxis => { const r = dunkMastSearch(762, { loadAxis }); return { loadAxis, count: r.count, hangCompatible: r.hangCompatible, byStages: r.byStages, rejected: r.rejected }; }),
+      chosen: dunkMastSearch(762, { loadAxis: SF8.loadAxis }), longFrameInLine: dunkMastSearch(863.6),
+    },
+    throatShots: throatShotScan(),
     sf6Goal2: sf6Goal2Reach(),
   };
   writeFileSync(new URL(debug ? 'sim/runs/feasibility-debug.json' : 'feasibility.json', import.meta.url), JSON.stringify(result, null, 1));

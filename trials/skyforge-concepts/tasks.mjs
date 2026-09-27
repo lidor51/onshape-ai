@@ -3,7 +3,7 @@ import { CONCEPTS, concept } from './robots.mjs';
 import { IN, CUBE, LIMITS, GOALS, VG, LAUNCH_ZONE, OPPONENT_LAUNCH_ZONE, STARTING_ZONE, BOARD, railFrame, pointInTriangle, inRect } from './field.mjs';
 import { collect, extensionBeyondPerimeter, heightOf, lowestOf, evaluateShot } from './geometry.mjs';
 import { C, cube as cubeMesh, material } from './parts.mjs';
-import { SF5, SF6, SF7, tunnelFor, sf5Pose, sf5Reach, sf5Drop, sf6Pose, sf7Pose, columnAt, trayAt, pointOn, convexOverlap } from './magazine.mjs';
+import { SF5, SF6, SF7, SF8, DUNK, tunnelFor, sf5Pose, sf5Reach, sf5Drop, sf6Pose, sf7Pose, sf8Pose, columnAt, trayAt, dunkTrayAt, pointOn, convexOverlap } from './magazine.mjs';
 
 const deg = Math.PI / 180;
 const HALF = CUBE / 2;
@@ -61,9 +61,9 @@ const fullCubes = n => Array.from({ length: n }, () => ({ slot: 'tray' }));
 const sf5Load = () => sf5Reach(tunnelFor(SF5.L).loadBottom, SF5.loadAxis).shoulder;
 const sf5DropShoulder = () => sf5Reach(sf5Drop(SF5.L), 90).shoulder;
 function magazineRecipe(id, task, phase) {
-  const sf5 = id === 'SF5', sf7 = id === 'SF7', slot = sf5 ? 'column' : 'tray';
-  const load = sf5 ? { shoulder: sf5Load(), axis: SF5.loadAxis } : sf7 ? { crank: SF7.loadCrank } : { carriage: 0, tilt: 130 };
-  const stow = sf5 ? { shoulder: SF5.start.shoulder, axis: SF5.start.axis } : sf7 ? { crank: 0 } : { carriage: SF6.start.s, tilt: SF6.start.axis };
+  const sf5 = id === 'SF5', sf7 = id === 'SF7', sf8 = id === 'SF8', slot = sf5 ? 'column' : 'tray';
+  const load = sf5 ? { shoulder: sf5Load(), axis: SF5.loadAxis } : sf7 ? { crank: SF7.loadCrank } : sf8 ? { h: SF8.load, tilt: SF8.loadAxis } : { carriage: 0, tilt: 130 };
+  const stow = sf5 ? { shoulder: SF5.start.shoulder, axis: SF5.start.axis } : sf7 ? { crank: 0 } : sf8 ? { h: SF8.start.h, tilt: SF8.start.axis } : { carriage: SF6.start.s, tilt: SF6.start.axis };
   if (task === 'start') return { ...stow, intake: 'stowed', [slot]: 1 };
   if (['floor', 'safe'].includes(task)) return { ...load, intake: 'deployed', [slot]: 2, cubes: phase === 'intake' ? [{ slot: 'mouth', lane: 0 }] : [] };
   if (task === 'vgFender' || task === 'vgZone') {
@@ -77,6 +77,13 @@ function magazineRecipe(id, task, phase) {
     // Release: the belts drive the stack down through the THROAT; the second cube is half through the mouth.
     return { ...drop, fork: true, column: phase === 'release' ? 3 : 4, shift: phase === 'release' ? -CUBE / 2 : 0 };
   }
+  if (sf8 && (task === 'g2' || task === 'g3')) {
+    // Engage: level on the mast stop with the fork on the base. Release: slot 1 at the moment its top leaves the
+    // lower dunk wheels (driven from 40 mm above the rim to DUNK.driveDepth below it).
+    const at = { h: task === 'g2' ? SF8.g2 : SF8.g3, tilt: 180, intake: 'stowed', tray: 4 };
+    if (phase === 'approach') return at;
+    return { ...at, fork: true, dunk: phase === 'release' ? DUNK.goalGap + DUNK.driveDepth : 0 };
+  }
   if (task === 'g2' && sf7) {
     const g2 = { crank: SF7.sweep, intake: 'stowed' };
     if (phase === 'approach') return { ...g2, tray: 4 };
@@ -89,7 +96,7 @@ function magazineRecipe(id, task, phase) {
   }
   if (task === 'hang') {
     // SF5 parks the column behind the robot; SF6/SF7 stand the tray upright. Both keep the half over the board low.
-    const base = sf5 ? { shoulder: -150, axis: 90 } : sf7 ? { crank: 0 } : { carriage: SF6.start.s, tilt: 90 };
+    const base = sf5 ? { shoulder: -150, axis: 90 } : sf7 ? { crank: 0 } : sf8 ? stow : { carriage: SF6.start.s, tilt: 90 };
     return { ...base, intake: 'stowed', hooks: phase === 'approach' ? 'stowed' : phase === 'reach' ? 'raised' : 'seated', lift: phase === 'hang' ? 50 : 0 };
   }
   throw new Error(`No recipe for ${id}/${task}`);
@@ -168,6 +175,7 @@ function bestMagazineShot(id, key, placement) {
   for (let alpha = 36; alpha <= 80; alpha += 2) {
     if (id === 'SF5') for (let shoulder = -120; shoulder <= 40; shoulder += 2) candidates.push({ shoulder, axis: 180 - alpha });
     else if (id === 'SF6') for (let carriage = 0; carriage <= SF6.travel; carriage += 25) candidates.push({ carriage, tilt: 180 - alpha });
+    else if (id === 'SF8') for (let h = SF8.start.h; h <= SF8.g3; h += 25) candidates.push({ h, tilt: 180 - alpha });
   }
   // SF7 has one DOF: the tray angle and position both follow the crank.
   if (id === 'SF7') for (let crank = 0; crank <= SF7.sweep; crank += 0.5) candidates.push({ crank });
@@ -176,6 +184,7 @@ function bestMagazineShot(id, key, placement) {
     let profile, release, axis = c.axis ?? c.tilt;
     if (id === 'SF5') { const p = sf5Pose(c.shoulder, axis); profile = columnAt(p.bottom, axis); release = pointOn(p.bottom, axis, 895 + HALF, 0); }
     else if (id === 'SF6') { const p = sf6Pose(c.carriage, axis); profile = trayAt(p.front, axis); release = pointOn(p.front, axis, 910 + HALF, 0); }
+    else if (id === 'SF8') { const p = sf8Pose(c.h, axis); profile = dunkTrayAt(p.front, axis); release = pointOn(p.front, axis, 910 + HALF, 0); }
     else { const p = sf7Pose(c.crank); axis = p.axis; if (180 - axis < 30 || 180 - axis > 80) continue; profile = trayAt(p.front, axis); release = pointOn(p.front, axis, 910 + HALF, 0); }
     const xs = profile.map(v => v[0]), zs = profile.map(v => v[1]);
     if (Math.max(...zs) > LIMITS.maxHeight - 60 || Math.min(...zs) < 150 || Math.max(...xs.map(Math.abs)) > L / 2 + LIMITS.extension - 20) continue;
@@ -313,6 +322,7 @@ function taskChecks(id, task, phase, root, placement, extras, context) {
     if (id === 'SF5') out.push(check('Shot pose is a static solution', 'info', `Shoulder ${joints.shoulder.toFixed(0)} deg, column tilted ${(180 - joints.axis).toFixed(0)} deg up toward the rear. The joint path from the load pose to this pose is not checked.`));
     if (id === 'SF6') out.push(check('Shot pose is a static solution', 'info', `Carriage ${joints.carriage.toFixed(0)} mm up the ${SF6.travel.toFixed(0)} mm lift, tray tilted ${(180 - joints.tilt).toFixed(0)} deg up toward the rear. The path from the load pose is not checked.`));
     if (id === 'SF7') out.push(check('Shot pose lies on the one-DOF path', 'info', `Crank ${joints.crank.toFixed(1)} deg of ${SF7.sweep.toFixed(0)}, tray ${(180 - joints.tilt).toFixed(0)} deg up toward the rear. The linkage passes this pose on every load-to-GOAL 2 swing, and that path is checked in feasibility.json.`));
+    if (id === 'SF8') out.push(check('Shot pose is a static solution', 'info', `Tilt axle ${joints.h.toFixed(0)} mm up the mast, tray ${(180 - joints.tilt).toFixed(0)} deg up toward the rear. The top and bottom flywheels are geared together, so the cube leaves without spin (drag-free sketch).`));
     for (const shot of context.shots) {
       const lane = shot.lane === 0 ? 'single lane' : `lane ${shot.lane > 0 ? 'L' : 'R'}`;
       const frontY = shot.release[1] + HALF * Math.SQRT2;
@@ -347,9 +357,23 @@ function taskChecks(id, task, phase, root, placement, extras, context) {
       SF5: 'Depth is set by bumper contact and the fork arms straddle the base (lateral and yaw). The shoulder holds its GOAL 2 angle on an absolute encoder, not a hard stop, so arm deflection and chain backlash add to the THROAT error.',
       SF6: 'Depth is set by bumper contact and the fork arms straddle the base. The carriage sits on its top hard stop and the tray on its level stop, so the front slot position is fixed by stops, not by servo accuracy.',
       SF7: 'Depth is set by bumper contact and the fork arms straddle the base. The crank sits on its end-of-travel hard stop, which fixes the whole linkage, so the front slot is set by one stop.',
+      SF8: `Depth is set by bumper contact and the fork arms straddle the base. The tray sits on its level stop; the mast holds ${task === 'g3' ? 'its top hard stop' : 'the GOAL 2 height on its encoder'}. Laterally the omni-wheel pinch centres the cube, instead of the ${Math.round(172 - 3 - HALF)} mm side play between the tray plates.`,
     }[id] ?? 'Depth is set by bumper contact with the goal face; the fork arms straddle the base (lateral and yaw); the drawer runs to a hard stop.';
     out.push(check('Registration: bumper stop + fork', 'info', registration));
-    if (phase === 'release') out.push(check('Cube passes the sensor plane (RIM - 3 in)', 'pass', 'Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals).'));
+    if (id === 'SF8') {
+      // Closest approach of the lower dunk wheels (mesh vertices) to the THROAT's rim edges.
+      let gap = Infinity;
+      for (const part of context.parts.filter(item => /dunk omni wheel .* lower/.test(item.name))) for (const [x, y, z] of part.vertices) {
+        const dx = Math.abs(x - goal.center[0]) - goal.throatHalf, dy = Math.abs(y - goal.center[1]) - goal.throatHalf;
+        if (dx <= 0) gap = Math.min(gap, Math.hypot(Math.max(0, dy), z - goal.rim));
+        if (dy <= 0) gap = Math.min(gap, Math.hypot(Math.max(0, dx), z - goal.rim));
+      }
+      out.push(check('Dunk wheels clear the rim edge', gap >= 8 ? 'pass' : gap >= 0 ? 'flag' : 'fail', `Lower omni wheels come within ${mm(gap)} of the rim edge (designed for ${DUNK.clearance} mm with ${DUNK.squish} mm squish into the cube).`));
+      out.push(check('Dunk reaction on the tilt axle', 'info', `The wheels push the cube down and the tray up, ${mm(SF8.pivotAlong - HALF)} from the tilt axle: ${((SF8.pivotAlong - HALF) / 100).toFixed(1)} N m per 10 N of dunk force, held by the tilt drive (a level stop only resists the other way).`));
+    }
+    if (phase === 'release') out.push(id === 'SF8'
+      ? check('Cube driven through the THROAT', 'pass', `The omni wheels drive the cube until its top leaves the lower row, ${mm(DUNK.lineAboveRim)} above the rim: its bottom is then ${mm(DUNK.driveDepth)} below the rim, past the 152 mm straight section, and it is moving down. The last ${mm(DUNK.lineAboveRim + 76.2)} to the sensor plane (RIM - 3 in) is free fall inside the THROAT.`)
+      : check('Cube passes the sensor plane (RIM - 3 in)', 'pass', 'Dropped cube drawn below the sensor plane; the trapdoor swings into our own THROAT projection (allowed for our goal, G411 covers opponent goals).'));
   }
   if (task === 'hang') {
     const railTop = BOARD.rail.z + BOARD.rail.radius;
@@ -428,7 +452,7 @@ export function scene(id, task, phase, overrides = {}) {
       new THREE.LineBasicMaterial({ color: C.ok }));
     rimLoop.userData.kind = 'aid';
     extras.add(rimLoop);
-    if (phase === 'release') {
+    if (phase === 'release' && !pose.dunk) {
       const dropped = cubeMesh(extras, 'dropped cube (scored)', [goal.center[0], goal.center[1], goal.rim - HALF - 90]);
       dropped.rotation.z = placement.yaw;
     }

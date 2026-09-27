@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { CONCEPTS, MORTAR_ANGLE, KICKER_ANGLE } from './robots.mjs';
 import { TASKS, PHASE_NAMES, matrix, scene } from './tasks.mjs';
 import { GOALS, LIMITS } from './field.mjs';
-import { SF5, SF6, SF7, columnAt, trayAt, sf5Pose, sf6Pose, sf7Pose, tunnelFor } from './magazine.mjs';
+import { SF5, SF6, SF7, SF8, DUNK, TRAY, columnAt, trayAt, dunkTrayAt, sf5Pose, sf6Pose, sf7Pose, sf8Pose, tunnelFor } from './magazine.mjs';
 
 const here = new URL('./', import.meta.url);
 const output = new URL('../../outputs/skyforge/', here);
@@ -65,8 +65,8 @@ if (feas) await writeFile(new URL('feasibility.json', output), await readFile(fe
 
 // 2D side view (robot frame, mm) of one concept in several poses, drawn from the same kinematics as the 3D model.
 function sideView(id) {
-  const { L } = { SF5, SF6, SF7 }[id];
-  const goal = id === 'SF6' ? GOALS.G3 : GOALS.G2near;
+  const { L } = { SF5, SF6, SF7, SF8 }[id];
+  const goals = id === 'SF8' ? [GOALS.G3, GOALS.G2near] : [id === 'SF6' ? GOALS.G3 : GOALS.G2near];
   const face = L / 2 + 82.55, ext = L / 2 + LIMITS.extension;
   const poly = (pts, cls) => `<polygon class="${cls}" points="${pts.map(([x, z]) => `${x.toFixed(0)},${(-z).toFixed(0)}`).join(' ')}"/>`;
   const line = ([x1, z1], [x2, z2], cls) => `<line class="${cls}" x1="${x1.toFixed(0)}" y1="${(-z1).toFixed(0)}" x2="${x2.toFixed(0)}" y2="${(-z2).toFixed(0)}"/>`;
@@ -84,20 +84,28 @@ function sideView(id) {
       const p = sf6Pose(j.carriage, j.tilt);
       poses.push({ name, cls, body: poly(trayAt(p.front, j.tilt), cls) + `<circle class="${cls}" cx="${p.pivot[0].toFixed(0)}" cy="${(-p.pivot[1]).toFixed(0)}" r="14"/>` });
     }
-  } else {
+  } else if (id === 'SF7') {
     for (const [task, phase, name, cls] of [['start', 'start', 'start, crank 0', 'p0'], ['floor', 'intake', `load, crank ${SF7.loadCrank.toFixed(0)} deg`, 'p1'], ['g2', 'engage', `GOAL 2, crank ${SF7.sweep.toFixed(0)} deg (end stop)`, 'p2'], ['vgZone', 'aim', 'VERTICAL GOAL shot (zone spot)', 'p3']]) {
       const p = sf7Pose(scene(id, task, phase).root.userData.joints.crank);
       poses.push({ name, cls, body: poly(trayAt(p.front, p.axis), cls) + SF7.links.map((link, index) => line(link.ground, p.joints[index], `${cls} arm`)).join('') });
+    }
+  } else {
+    for (const [task, phase, name, cls] of [['start', 'start', 'start (42 in)', 'p0'], ['floor', 'intake', `load (tray ${180 - SF8.loadAxis} deg up, ${130 - SF8.loadAxis} deg kink at the tunnel)`, 'p1'], ['g2', 'engage', 'GOAL 2 dunk (level)', 'p2'], ['g3', 'engage', 'GOAL 3 dunk (level, mast top stop)', 'p4'], ['vgZone', 'aim', 'VERTICAL GOAL shot (zone spot)', 'p3']]) {
+      const j = scene(id, task, phase).root.userData.joints;
+      const p = sf8Pose(j.h, j.tilt);
+      poses.push({ name, cls, body: poly(dunkTrayAt(p.front, j.tilt), cls) + `<circle class="${cls}" cx="${p.pivot[0].toFixed(0)}" cy="${(-p.pivot[1]).toFixed(0)}" r="14"/>` });
     }
   }
   const P = t => [SF6.pivotLoad[0] + SF6.u[0] * t, SF6.pivotLoad[1] + SF6.u[1] * t];
   const structure = id === 'SF5'
     ? `<circle class="joint" cx="${SF5.pivot[0]}" cy="${-SF5.pivot[1]}" r="18"/>${label([SF5.pivot[0] + 40, SF5.pivot[1] + 55], 'shoulder (42 in ceiling)')}`
     : id === 'SF6' ? `${line(P(SF6.rail.baseS), P(SF6.travel + 60 / SF6.u[1]), 'rail')}${label([P(SF6.rail.baseS)[0] - 60, 40], `lift line, ${SF6.beta.toFixed(0)} deg from vertical`)}`
+    : id === 'SF8' ? `${line([SF8.mastX, 60], [SF8.mastX, SF8.g3 + SF8.carriage.up], 'rail')}${label([SF8.mastX - 380, 1420], 'vertical mast')}`
     : SF7.links.map((link, index) => `<circle class="joint" cx="${link.ground[0].toFixed(0)}" cy="${(-link.ground[1]).toFixed(0)}" r="18"/>${label([link.ground[0] + 25, link.ground[1] - 60], index === 0 ? 'crank (motor)' : 'rocker')}`).join('');
-  const rim = goal.rim, throat = [face + 304.8 - 139.7, face + 304.8 + 139.7];
+  const throat = [face + 304.8 - 139.7, face + 304.8 + 139.7];
+  const goalSvg = goals.map((goal, index) => `<rect class="goal" x="${face}" y="${-goal.rim}" width="609.6" height="${goal.rim}"/>${line([throat[0], goal.rim], [throat[1], goal.rim], 'throat')}${label([face + 330, goal.rim - 90 + (index ? 0 : 0)], `${goal.id === 'G3' ? 'GOAL 3' : 'GOAL 2'} rim ${Math.round(goal.rim)} mm`)}`).join('');
   return `<svg class="side" viewBox="-1000 -2150 2450 2260" role="img" aria-label="${id} side view">
-<rect class="goal" x="${face}" y="${-rim}" width="609.6" height="${rim}"/>${line([throat[0], rim], [throat[1], rim], 'throat')}${label([face + 330, rim - 90], `${goal.id === 'G3' ? 'GOAL 3' : 'GOAL 2'} rim ${Math.round(rim)} mm`)}
+${goalSvg}
 ${line([-1000, LIMITS.maxHeight], [1450, LIMITS.maxHeight], 'limit')}${label([-990, LIMITS.maxHeight + 25], '78 in')}
 ${line([-L / 2, LIMITS.startHeight], [L / 2, LIMITS.startHeight], 'limit')}${label([-L / 2, LIMITS.startHeight + 25], '42 in start')}
 ${line([ext, 0], [ext, 2100], 'limit')}${line([-ext, 0], [-ext, 2100], 'limit')}${label([ext + 10, 2060], '18 in')}
@@ -140,18 +148,54 @@ ${singleDof}
 <p class="minor">Method: 2D side-view envelopes of the magazine only (column 950 x 218 mm, tray hull 904 x 324 mm), checked against 42 in and inside the frame at the start, clear of the drivebase (120 mm) and the stowed intake, and against 78 in, 18 in and the floor in motion. SF5 motion is searched on a joint grid (shoulder 2 deg, column 5 deg, wrist rate limited) with 30 mm vertical spare. SF6 paths are linear in carriage position and tilt. SF7 linkages are synthesised from three exact poses and driven in 90 steps on one assembly branch. Links, arm tubes, drives, wiring, dynamics and structure are not checked. Source: <a href="feasibility.json">feasibility.json</a>.</p>
 <div class="sides"><figure><h3>SF5 Column Arm, side view</h3>${sideView('SF5')}</figure><figure><h3>SF6 Ramp Lift, side view</h3>${sideView('SF6')}</figure><figure><h3>SF7 Rocker Tray, side view</h3>${sideView('SF7')}</figure></div>`;
 }
+function dunkSection() {
+  if (!feas?.dunkMast || !feas.throatShots) return '<p class="minor">feasibility.json has no dunk study: run <code>node feasibility.mjs</code>.</p>';
+  const best = feas.dunkMast.chosen.best, ts = feas.throatShots;
+  const pm = (b, digits = 1) => `&plusmn;${Math.min(-b[0], b[1]).toFixed(digits)}`;
+  const width = s => s.speedBandPct[1] - s.speedBandPct[0];
+  const shotCell = s => s ? `<td class="${width(s) >= 6 ? 's-pass' : width(s) >= 3 ? 's-flag' : 's-fail'}">${pm(s.speedBandPct)}% speed, ${pm(s.angleBandDeg, 2)} deg angle; ${s.alpha} deg from ${s.release} mm, apex ${(s.apex / 1000).toFixed(1)} m</td>` : '<td class="s-fail">no clean entry</td>';
+  const shotRows = ts.rows.map(row => `<tr><th>${row.goal === 'G2' ? 'GOAL 2 (38 in)' : 'GOAL 3 (60 in)'}</th><td>${(row.distance / 1000).toFixed(1)} m</td>${shotCell(row.practical)}${shotCell(row.mortar)}</tr>`).join('');
+  const dist = ts.rows.flatMap(row => [row.practical, row.mortar]).filter(Boolean).map(s => Math.min(-s.distanceBand[0], s.distanceBand[1]));
+  const own = ts.sf8FromGoalFace;
+  const ownText = key => own[key] ? `${pm(own[key].speedBandPct)}% speed and ${pm(own[key].angleBandDeg, 2)} deg (a ${own[key].alpha} deg lob, apex ${(own[key].apex / 1000).toFixed(1)} m)` : 'no clean entry';
+  const axisRows = feas.dunkMast.byLoadAxis.map(r => `<tr${r.loadAxis === SF8.loadAxis ? ' class="chosen"' : ''}><th>${180 - r.loadAxis} deg up${r.loadAxis === 130 ? ' (in line with the tunnel)' : ` (${130 - r.loadAxis} deg kink)`}</th><td class="${r.count ? 's-pass' : 's-fail'}">${r.count}</td><td>${r.byStages[1]}</td><td>${r.hangCompatible}</td></tr>`).join('');
+  const lever = SF8.pivotAlong - 114.3, g1Floor = GOALS.G1.rim + DUNK.goalGap + 114.3 - TRAY.floor, intakeTop = tunnelFor(SF8.L).keepout[2][1];
+  return `<p><b>Short answer: dunk both GOAL 2 and GOAL 3 with one mechanism (SF8 Dunk Mast) and shoot only at the VERTICAL GOAL. A THROAT is too tight to shoot into: from under 78 in no practical shot (20-70 deg) enters GOAL 3 cleanly, and GOAL 2 only from close range with about &plusmn;1% speed.</b></p>
+<h3>Why shooting into a THROAT does not work</h3>
+<p>An aligned 9 in cube has 1 in of clearance per side in the 11 in THROAT. To go in without touching the walls, its square has to stay inside the THROAT while it falls its own height through the rim plane: it must come down within about 12.5 deg of vertical (2 in of play over 9 in of height), with its centre within 25 mm of the THROAT centre in both directions. The hexagon allows about 266 mm sideways. Best clean-entry shot from each distance, released at 900-1900 mm:</p>
+<table class="wide"><thead><tr><th>Goal</th><th>Distance to THROAT centre</th><th>Practical shooter (20-70 deg)</th><th>Mortar lob (71-88 deg)</th></tr></thead><tbody>${shotRows}</tbody></table>
+<p class="minor">Tolerances are the speed (at the nominal angle) and launch angle (at the nominal speed) that still enter cleanly; the distance window is at most &plusmn;${Math.max(...dist)} mm and the aim window &plusmn;25 mm in every case. SF8's own kicker, with its rear bumper on the goal face (${(own.G2?.distance / 1000).toFixed(1)} m to the THROAT centre), gets ${ownText('G2')} at GOAL 2 and ${ownText('G3')} at GOAL 3. Its VERTICAL GOAL shots keep ${band('SF8', 'vgFender')} at the fender and ${band('SF8', 'vgZone')} at the zone spot. Drag, spin and foam bounce are not modelled. A cube that hits the far wall inside the THROAT can still fall in, but it can also pitch and wedge, which is the jam your simulator charges for a miss. ${esc(ts.entryRule)}</p>
+<h3>How the dunk works</h3>
+<ol class="rec">
+<li><b>Slot 1 has no floor.</b> Two rows of omni wheels per side pinch the cube's side faces. Their rollers let the cube slide along the tray while loading and shooting; the wheels themselves drive it across the tray, which is straight down when the tray is level.</li>
+<li><b>Downward drive through the THROAT mouth.</b> The lower row is as low as the rim allows: axle ${Math.round(DUNK.lineAboveRim)} mm above the rim, wheel ${DUNK.clearance} mm clear of the rim edge. The cube is driven until its top leaves that row, when its bottom is ${Math.round(DUNK.driveDepth)} mm below the rim, past the 152 mm straight section. Only the cube enters the THROAT.</li>
+<li><b>The pinch centres the cube sideways.</b> Between SF6's and SF7's tray plates a cube has ${Math.round(172 - 3 - 114.3)} mm of side play against 25 mm of THROAT clearance, so those trays also need side guides or this pinch.</li>
+<li><b>Force, not just a drop:</b> driven wheels can push a slightly yawed or tilted foam cube through the mouth, and they index the next cube without waiting for a trapdoor. How much force the foam needs is untested.</li></ol>
+<h3>Why a vertical mast, and where the tilt axle sits</h3>
+<p>The level poses over GOAL 2 and GOAL 3 differ only in height, so the tilt axle must travel on a vertical line. SF6's inclined lift reaches only GOAL 3. The loading pose must put the axle on the same line, and that fixes the axle's position on the tray: near the rear corner, ${SF8.pivotAlong} mm along and ${SF8.across.toFixed(0)} mm across, with the mast at x ${SF8.mastX.toFixed(0)} mm. With the tray in line with the tunnel no axle position on the side plate gives a legal start; loading it a few degrees steeper does:</p>
+<table class="wide"><thead><tr><th>Tray angle at loading</th><th>Legal layouts</th><th>With one moving stage</th><th>Also hang-compatible</th></tr></thead><tbody>${axisRows}</tbody></table>
+<p>SF8's axle rides from ${SF8.start.h} mm (start) to ${Math.round(SF8.load)} mm (load), ${Math.round(SF8.g2)} mm (GOAL 2) and ${Math.round(SF8.g3)} mm (GOAL 3): ${best.carriageTravel} mm on a mast with one moving stage. Loading to GOAL 2 is a ${Math.round(SF8.g2 - SF8.load)} mm lift plus a ${180 - SF8.loadAxis} deg tilt; the path margin inside 18 in is ${best.cycleMargin} mm, because the goal poses use the whole reach budget.</p>
+<h3>Costs</h3>
+<ul><li><b>The dunk pushes the tray up.</b> The wheels are ${Math.round(lever)} mm from the tilt axle: ${(lever / 100).toFixed(1)} N m of hold-down per 10 N of dunk force. The tilt drive must hold it; a level stop only resists the other way.</li>
+<li><b>Rules:</b> 4.5 says cubes enter a THROAT by being dropped or LAUNCHED. As the game author, decide whether a driven dunk from above counts; G411 only forbids breaking opponent THROATs.</li>
+<li><b>No GOAL 1:</b> a level tray over the 18 in rim would put its floor at ${Math.round(g1Floor)} mm, inside the stowed intake (up to ${Math.round(intakeTop)} mm).</li>
+<li><b>More on the tray:</b> 11 motors; tilt, belt, 2 dunk and kicker motors move with the mast, and the mast rails cannot be tied across the top.</li>
+<li><b>Simulator</b> (my estimates: 0.35 s and 95% per cube at GOAL 2/3, against SF6's 0.45 s and 93% trapdoor): ${at('SF8 Dunk', 'strong')} strong, ${at('SF8 Dunk', 'average')} average; with SF6's trapdoor numbers instead, ${at('SF8 control', 'strong')} / ${at('SF8 control', 'average')}.</li></ul>
+<div class="sides"><figure><h3>SF8 Dunk Mast, side view</h3>${sideView('SF8')}</figure></div>`;
+}
 function recommendation() {
   const lev = (prefix, tier) => simRow(prefix)?.byTier[tier].levels.toFixed(0);
-  return `<p class="minor">Capacities are now what each mock physically holds per trip: SF1, SF2, SF5, SF6 and SF7 carry 4; SF3 carries 3 and SF4 carries 2. The earlier runs gave SF3 and SF4 one cube more than their trays hold, and gave SF1 no reload time between its two pairs.</p>
+  return `<p class="minor">Capacities are now what each mock physically holds per trip: SF1, SF2, SF5, SF6, SF7 and SF8 carry 4; SF3 carries 3 and SF4 carries 2. The earlier runs gave SF3 and SF4 one cube more than their trays hold, and gave SF1 no reload time between its two pairs.</p>
 <ol class="rec">
-<li><b>Highest ceiling in your simulator: SF6 Ramp Lift</b> (${at('SF6', 'elite')} elite, ${at('SF6', 'strong')} strong, ${at('SF6', 'average')} average; LEVELS RP ${lev('SF6', 'strong')}% at strong). It puts 4 cubes into the 5-point GOAL 3 from hard stops and also shoots the VERTICAL GOAL (${band('SF6', 'vgFender')} speed tolerance at the fender, ${band('SF6', 'vgZone')} at the zone spot). At average execution it is level with SF3, so its lead depends on executing well. Its task times are my estimates, and the tray sandwich and trapdoor indexing are unproven: they are the first things to prototype.</li>
+<li><b>Highest in your simulator, if the dunk works: SF8 Dunk Mast</b> (${at('SF8 Dunk', 'elite')} elite, ${at('SF8 Dunk', 'strong')} strong, ${at('SF8 Dunk', 'average')} average; LEVELS RP ${lev('SF8 Dunk', 'strong')}% at strong). It adds GOAL 2 to SF6's GOAL 3, dunks both with driven omni wheels, and shoots the VERTICAL GOAL spin-free (${band('SF8', 'vgFender')} fender, ${band('SF8', 'vgZone')} zone), then HANGs. The lead rests on my dunk estimate (0.35 s and 95% per cube): with SF6's trapdoor numbers it gets ${at('SF8 control', 'strong')} strong and ${at('SF8 control', 'average')} average, below SF6 at strong. So the dunk rig is the first prototype. Costs: 11 motors, a mast that cannot be tied across the top, and a dunk reaction the tilt drive must hold.</li>
+<li><b>Highest without the dunk assumption: SF6 Ramp Lift</b> (${at('SF6', 'elite')} elite, ${at('SF6', 'strong')} strong, ${at('SF6', 'average')} average; LEVELS RP ${lev('SF6', 'strong')}% at strong). It puts 4 cubes into the 5-point GOAL 3 from hard stops and also shoots the VERTICAL GOAL (${band('SF6', 'vgFender')} speed tolerance at the fender, ${band('SF6', 'vgZone')} at the zone spot). At average execution it is level with SF3, so its lead depends on executing well. Its task times are my estimates, and the tray sandwich and trapdoor indexing are unproven. Its tray also lets a cube sit ${Math.round(172 - 3 - 114.3)} mm off centre over a 25 mm THROAT margin: it needs side guides.</li>
 <li><b>Most tolerant when execution slips: SF3 Gantry Tower</b>, now with its real 3-cube tray (${at('SF3 Gantry', 'strong')} strong, ${at('SF3 Gantry', 'average')} average; your Tower preset gets ${at('Your Tower', 'average')} at average). The fork mainly protects the LEVELS RP (${lev('SF3 Gantry', 'strong')}% vs ${lev('SF3 control', 'strong')}% without it at strong). Cost: 5 DOF, 7 state changes per cycle and a 70 mm reach margin.</li>
 <li><b>SF5 Column Arm (your arm idea, made legal)</b>: GOAL 2 in drops of 4 plus the VERTICAL GOAL (${band('SF5', 'vgFender')} fender, ${band('SF5', 'vgZone')} zone) and HANG. Simulator: ${at('SF5', 'strong')} strong, ${at('SF5', 'average')} average; LEVELS RP ${lev('SF5', 'strong')}% at strong. Its costs are a 34 x 26 in frame, a long lever at 78 in, and no GOAL 1.</li>
 <li><b>SF7 Rocker Tray (one motor)</b>: GOAL 2 four cubes per trip plus zone-spot VERTICAL GOAL shots (${band('SF7', 'vgZone')}) and HANG, on the standard frame. Simulator: ${at('SF7', 'strong')} strong, ${at('SF7', 'average')} average; LEVELS RP ${lev('SF7', 'strong')}% at strong. Fewest positioning DOF of the placer-shooters, but a flat shot and no fender shot.</li>
 <li><b>SF1 Brass Cannon</b> with honest 4-cube indexing (two pairs, one barrel reset): ${at('SF1 Brass', 'strong')} strong, ${at('SF1 Brass', 'average')} average, against your Launcher preset's ${at('Your Launcher', 'strong')} / ${at('Your Launcher', 'average')}. It stays the best under-board and UNDER option, and its release clears a legal defender (${band('SF1', 'vgFender')} fender, ${band('SF1', 'vgZone')} zone). Your simulator applies the same accuracy penalty to the hexagon as to the THROATs, so it cannot credit the bigger target; shooter-only robots look worst when execution slips.</li>
 <li><b>Budget floor: SF2 Mortar Rider</b> (${at('SF2', 'strong')} strong, ${at('SF2', 'average')} average): fewest positioning DOF, but it is only reliable from the fender and cannot hang.</li>
 <li><b>SF4 Forge Hybrid</b> is the complexity ceiling with only 2 cubes per trip (${at('SF4', 'strong')} strong, ${at('SF4', 'average')} average). Not recommended.</li></ol>
-<p class="minor">Next discriminating tests, cheapest first: (1) a cube shooter test rig at the fender and at 1.6 m (speed band, tumble, whether the cube passes above 48 in at the bumper line); (2) the 2-lane intake wedge with cubes arriving centred; (3) a cardboard goal fork and trapdoor tray on a real 24 in goal box, and the SF6 tray sandwich at 50 deg; (4) the rail hook and 2 in lift, with measured centre-of-mass offset.</p>`;
+<p class="minor">Next discriminating tests, cheapest first: (1) a dunk rig: two rows of omni wheels pushing a foam cube into a real 11 in THROAT box at 0, 10 and 20 deg yaw, measuring force, time and jams; (2) a cube shooter test rig at the fender and at 1.6 m (speed band, tumble, whether the cube passes above 48 in at the bumper line); (3) the 2-lane intake wedge with cubes arriving centred; (4) a cardboard goal fork and trapdoor tray on a real 24 in goal box, and the SF6 tray sandwich at 50 deg; (5) the rail hook and 2 in lift, with measured centre-of-mass offset.</p>`;
 }
 
 const bundle = await build({ entryPoints: [fileURLToPath(new URL('app.mjs', here))], bundle: true, format: 'iife', write: false, minify: true, legalComments: 'none', platform: 'browser' });
@@ -212,19 +256,24 @@ svg.side{width:100%;height:auto;display:block;background:#fbf8f0}svg.side text{f
 svg.side .goal{fill:#d9cdb4;stroke:#7a6443;stroke-width:4}svg.side .throat{stroke:#18a058;stroke-width:14}svg.side .limit{stroke:#c0392b;stroke-width:4;stroke-dasharray:22 14}svg.side .ground{stroke:#3b2a18;stroke-width:6}
 svg.side .keep{fill:#cdd3d8;fill-opacity:.6;stroke:#8a949c;stroke-width:3;stroke-dasharray:10 8}svg.side .frame{fill:#9aa7b0}svg.side .bumper{fill:#d62828;fill-opacity:.85}svg.side .rail{stroke:#5f7fa3;stroke-width:22;stroke-linecap:round;opacity:.7}svg.side .joint{fill:#3a3f46}
 svg.side polygon,svg.side circle{stroke-width:5;fill-opacity:.22}svg.side line.arm{stroke-width:14;stroke-linecap:round}
-.p0{fill:#8a949c;stroke:#6b7780}.p1{fill:#3fae5a;stroke:#2f8a45}.p2{fill:#e07b1f;stroke:#b85d10}.p3{fill:#1d4ed8;stroke:#1d3faa}.legend i.p0{background:#8a949c}.legend i.p1{background:#3fae5a}.legend i.p2{background:#e07b1f}.legend i.p3{background:#1d4ed8}
+.p0{fill:#8a949c;stroke:#6b7780}.p1{fill:#3fae5a;stroke:#2f8a45}.p2{fill:#e07b1f;stroke:#b85d10}.p3{fill:#1d4ed8;stroke:#1d3faa}.p4{fill:#9b3fb5;stroke:#7a2f90}.legend i.p0{background:#8a949c}.legend i.p1{background:#3fae5a}.legend i.p2{background:#e07b1f}.legend i.p3{background:#1d4ed8}.legend i.p4{background:#9b3fb5}
+tr.chosen th,tr.chosen td{font-weight:700}
 @media (max-width:980px){.workspace{grid-template-columns:1fr}#scene{height:480px}.panel{max-height:none}}
 </style></head><body>
-<header><h1>Steampunk SKYFORGE / Crayola robot concepts</h1><p>Seven archetypes built from the v0.1 manual and the supplied 3D field. They are static pose studies plus 2D side-view searches: no CAD kernel, no Onshape API calls, no physical test.</p>
-<nav><a href="#concepts">Concepts</a><a href="#arm">Arm verdict</a><a href="#analysis">Game analysis</a><a href="#viewer">3D task viewer</a><a href="#compare">Same-target comparison</a><a href="#matrix">Capability matrix</a></nav></header>
+<header><h1>Steampunk SKYFORGE / Crayola robot concepts</h1><p>Eight archetypes built from the v0.1 manual and the supplied 3D field. They are static pose studies plus 2D side-view searches: no CAD kernel, no Onshape API calls, no physical test.</p>
+<nav><a href="#concepts">Concepts</a><a href="#arm">Arm verdict</a><a href="#dunk">Dunk verdict</a><a href="#analysis">Game analysis</a><a href="#viewer">3D task viewer</a><a href="#compare">Same-target comparison</a><a href="#matrix">Capability matrix</a></nav></header>
 <main>
-<section id="concepts"><h2>Seven concepts, collapsed and working</h2>
+<section id="concepts"><h2>Eight concepts, collapsed and working</h2>
 <p>Each card shows one start configuration and one working configuration of the same robot. Task chips are coloured by the worst static check across that task's phases: green passes, amber passes with a warning, red fails.</p>
 <div class="legend"><span><i style="background:#3fae5a"></i>compliant rollers</span><span><i style="background:#d9a441"></i>flywheels / barrel</span><span><i style="background:#9b6bd1"></i>rail hooks</span><span><i style="background:#2a9d8f"></i>goal fork</span><span><i style="background:#5f7fa3"></i>elevator rails</span><span><i style="background:#c26a3d"></i>carriage / trapdoor</span><span><i style="background:#cdd3d8"></i>reserved volume (not a mechanism)</span></div>
 <div class="grid" id="concept-grid"></div></section>
 
 <section id="arm"><h2>Arm verdict: levels 1-2 + VERTICAL GOAL with a high-pivot arm dropping 4 cubes</h2>
 ${armSection()}
+</section>
+
+<section id="dunk"><h2>Dunk verdict: shoot and dunk at GOAL 2 / GOAL 3 with downward force</h2>
+${dunkSection()}
 </section>
 
 <section id="analysis"><h2>Game analysis: what makes a robot dominant when it is not executed perfectly</h2>

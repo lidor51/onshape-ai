@@ -11,8 +11,8 @@ const gameDir = process.env.SKYFORGE_GAME_DIR ?? 'C:/Users/lidor/FRC/2026/mocked
 const simDir = `${gameDir}/sim`;
 const sims = Number(process.env.SKYFORGE_SIMS ?? 120);
 const tiers = ['elite', 'strong', 'average'];
-const endgame = { SF1: 'hang', SF2: 'under', SF3: 'hang', SF4: 'hang', SF5: 'hang', SF6: 'hang', SF7: 'hang' };
-const slot = { SF1: ['Tower', 'LowRider'], SF2: ['Tower', 'LowRider'], SF3: ['Launcher', 'LowRider'], SF4: ['Launcher', 'LowRider'], SF5: ['Tower', 'LowRider'], SF6: ['Tower', 'LowRider'], SF7: ['Tower', 'LowRider'] };
+const endgame = { SF1: 'hang', SF2: 'under', SF3: 'hang', SF4: 'hang', SF5: 'hang', SF6: 'hang', SF7: 'hang', SF8: 'hang' };
+const slot = { SF1: ['Tower', 'LowRider'], SF2: ['Tower', 'LowRider'], SF3: ['Launcher', 'LowRider'], SF4: ['Launcher', 'LowRider'], SF5: ['Tower', 'LowRider'], SF6: ['Tower', 'LowRider'], SF7: ['Tower', 'LowRider'], SF8: ['Tower', 'LowRider'] };
 
 const archetypes = Object.fromEntries(CONCEPTS.map(item => [item.id, { ...item.sim, description: `${item.id} ${item.name} (concept estimate)` }]));
 const robots = {}, alliances = {}, rows = [];
@@ -30,6 +30,7 @@ for (const item of CONCEPTS) {
 const controls = [
   { id: 'SF3', key: 'SF3_noFork', label: 'SF3 control: your Tower task times and accuracies (no fork bonus)', patch: { tasks: { G1: [0.6, 0.8, 0.92], G2: [0.9, 0.85, 0.93], G3: [1.5, 1.05, 0.9] } } },
   { id: 'SF1', key: 'SF1_lowShot', label: 'SF1 control: your short-launcher VG accuracy (0.78)', patch: { tasks: { VG: [0.8, 0.6, 0.78], G1: null }, defense_sensitivity: 1.0 } },
+  { id: 'SF8', key: 'SF8_noDunk', label: 'SF8 control: SF6 trapdoor time and accuracy (no dunk bonus)', patch: { tasks: { G1: null, G2: [0.8, 0.45, 0.93], G3: [1.0, 0.45, 0.93], VG: [0.9, 0.45, 0.85] } } },
 ];
 for (const control of controls) {
   archetypes[control.key] = { ...archetypes[control.id], ...control.patch, description: control.label };

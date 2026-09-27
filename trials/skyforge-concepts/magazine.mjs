@@ -105,6 +105,52 @@ export function sf6Pose(s, axisDeg) {
   return { pivot, front: [pivot[0] - offset[0], pivot[1] - offset[1]], axis: axisDeg, s };
 }
 
+// SF8 dunk tray: the SF6 tray with no trapdoor. Slot 1 has two rows of omni wheels on the cube's side faces (drive
+// across the tray, free along it), so at a goal the cube is driven straight down into the THROAT. The lower row is
+// as low as the rim edge allows (wheel 10 mm clear of the edge, 5 mm squish into the foam). The kicker is two-sided
+// (top and bottom flywheels), so the cube leaves without spin.
+export const DUNK = { radius: 41, squish: 5.3, clearance: 10, along: [62, 170], upperAcross: 40, goalGap: 40 };
+DUNK.y = CUBE / 2 + DUNK.radius - DUNK.squish;
+DUNK.lineAboveRim = Math.sqrt((DUNK.radius + DUNK.clearance) ** 2 - (DUNK.y - 5.5 * 25.4) ** 2);
+DUNK.lowerAcross = DUNK.lineAboveRim - DUNK.goalGap - CUBE / 2;
+// Cube bottom below the rim when its top leaves the lower wheels (the THROAT is straight for 152 mm).
+DUNK.driveDepth = CUBE - DUNK.lineAboveRim;
+// Side-view hull of the dunk tray (body, lower dunk wheels, two-sided kicker) plus a 16 mm boss around the tilt
+// axle, which sits on side-plate ears at the rear corner.
+export function dunkTrayAt(front, axisDeg, pivot = SF8.pivotOnTray) {
+  const { front: f, length, top, kickerStart, kickerTop } = TRAY, wheelLow = -DUNK.lowerAcross + DUNK.radius, boss = 16;
+  const local = [[-wheelLow, f], [top, f], [kickerTop, kickerStart], [kickerTop, length], [-kickerTop, length], [-kickerTop, kickerStart]];
+  for (const [da, dc] of [[-boss, -boss], [boss, -boss], [boss, boss], [-boss, boss]]) local.push([pivot.across + dc, pivot.along + da]);
+  return convexHull(local.map(([across, along]) => pointOn(front, axisDeg, along, across)));
+}
+export function convexHull(points) {
+  const p = points.slice().sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+  const half = list => { const out = []; for (const q of list) { while (out.length >= 2 && cross(out.at(-2), out.at(-1), q) <= 0) out.pop(); out.push(q); } out.pop(); return out; };
+  return [...half(p), ...half(p.slice().reverse())];
+}
+
+// SF8: vertical mast, tray hinged on stub axles on its side plates at (along a, across c). Level poses over the
+// GOAL 2 and GOAL 3 THROATs differ only in height, so the mast is vertical; the load pose (in line with the tunnel)
+// must put the axle on the same vertical line, which fixes c for each a.
+export function mastPivot(L, along, loadAxis = 130) {
+  const x = throatX(L) + CUBE / 2, th = loadAxis * deg, load = tunnelFor(L).loadBottom;
+  const across = (x - load[0] - along * (1 + Math.cos(th))) / Math.sin(th);
+  const height = rim => rim + DUNK.goalGap + CUBE / 2 + across;
+  return { along, across, mastX: x - along, load: pointOn(load, loadAxis, along, across)[1], g1: height(GOALS.G1.rim), g2: height(GOALS.G2near.rim), g3: height(GOALS.G3.rim) };
+}
+// Chosen from feasibility.json dunkMast: the load pose sits 4 deg steeper than the 50 deg tunnel (a 4 deg kink at the
+// handoff); in line (130) no axle position on the side plate gives a legal start on the 30 in frame.
+export const SF8 = { ...STANDARD_FRAME, pivotAlong: 930, loadAxis: 126, start: { h: 1020, axis: 92 }, carriage: { up: 25, down: 70 } };
+{
+  Object.assign(SF8, mastPivot(SF8.L, SF8.pivotAlong, SF8.loadAxis));
+  SF8.pivotOnTray = { along: SF8.along, across: SF8.across };
+}
+export function sf8Pose(h, axisDeg) {
+  const offset = pointOn([0, 0], axisDeg, SF8.pivotOnTray.along, SF8.pivotOnTray.across);
+  return { pivot: [SF8.mastX, h], front: [SF8.mastX - offset[0], h - offset[1]], axis: axisDeg, h };
+}
+
 export function circumcircle(a, b, c) {
   const d = 2 * (a[0] * (b[1] - c[1]) + b[0] * (c[1] - a[1]) + c[0] * (a[1] - b[1]));
   if (Math.abs(d) < 1e-6) return null;

@@ -8,8 +8,8 @@
  ],
  "source": {
   "simulator": "C:/Users/lidor/FRC/2026/mocked_game/sim",
-  "configSha256": "254adaf5e3e4a1e7b43375c3aea8f4775ca860e6f14e7686728630194d7c203d",
-  "seconds": 419
+  "configSha256": "28a1f3a3f604db53262af34def1b36312a6d6135021144200833b6f6301eab36",
+  "seconds": 478
  },
  "rows": [
   {
@@ -216,31 +216,60 @@
    }
   },
   {
+   "label": "SF8 Dunk Mast + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 90,
+     "rp": 4.73,
+     "score": 411.23,
+     "levels": 100,
+     "skyforge": 5,
+     "board": 98
+    },
+    "strong": {
+     "win": 74,
+     "rp": 4.17,
+     "score": 389.53,
+     "levels": 97,
+     "skyforge": 0,
+     "board": 97
+    },
+    "average": {
+     "win": 42,
+     "rp": 3.22,
+     "score": 370.16,
+     "levels": 99,
+     "skyforge": 0,
+     "board": 95
+    }
+   }
+  },
+  {
    "label": "SF3 control: your Tower task times and accuracies (no fork bonus) + Launcher + LowRider",
    "byTier": {
     "elite": {
-     "win": 66,
-     "rp": 4.72,
-     "score": 384.6,
-     "levels": 79,
+     "win": 70,
+     "rp": 4.76,
+     "score": 382.71,
+     "levels": 76,
      "skyforge": 93,
-     "board": 99
+     "board": 96
     },
     "strong": {
-     "win": 46,
-     "rp": 3.35,
-     "score": 374.67,
-     "levels": 5,
-     "skyforge": 98,
-     "board": 94
+     "win": 55,
+     "rp": 3.61,
+     "score": 377.5,
+     "levels": 7.000000000000001,
+     "skyforge": 95,
+     "board": 93
     },
     "average": {
-     "win": 27,
-     "rp": 2.7,
-     "score": 358.42,
+     "win": 25,
+     "rp": 2.56,
+     "score": 356.06,
      "levels": 0,
-     "skyforge": 94,
-     "board": 93
+     "skyforge": 92,
+     "board": 89
     }
    }
   },
@@ -249,27 +278,56 @@
    "byTier": {
     "elite": {
      "win": 55,
-     "rp": 3.69,
-     "score": 384.29,
-     "levels": 8,
-     "skyforge": 96,
+     "rp": 3.68,
+     "score": 386.04,
+     "levels": 7.000000000000001,
+     "skyforge": 98,
      "board": 98
     },
     "strong": {
-     "win": 37,
-     "rp": 3.06,
-     "score": 374.46,
-     "levels": 12,
-     "skyforge": 86,
-     "board": 94
+     "win": 30,
+     "rp": 2.88,
+     "score": 376.99,
+     "levels": 15,
+     "skyforge": 83,
+     "board": 98
     },
     "average": {
-     "win": 15,
-     "rp": 1.79,
-     "score": 347.19,
-     "levels": 24,
-     "skyforge": 16,
+     "win": 10,
+     "rp": 1.59,
+     "score": 343.52,
+     "levels": 17,
+     "skyforge": 17,
      "board": 94
+    }
+   }
+  },
+  {
+   "label": "SF8 control: SF6 trapdoor time and accuracy (no dunk bonus) + Tower + LowRider",
+   "byTier": {
+    "elite": {
+     "win": 87,
+     "rp": 4.67,
+     "score": 402.61,
+     "levels": 100,
+     "skyforge": 6,
+     "board": 99
+    },
+    "strong": {
+     "win": 56,
+     "rp": 3.69,
+     "score": 385.56,
+     "levels": 100,
+     "skyforge": 0,
+     "board": 98
+    },
+    "average": {
+     "win": 32,
+     "rp": 2.92,
+     "score": 363.88,
+     "levels": 99,
+     "skyforge": 0,
+     "board": 97
     }
    }
   },
@@ -277,28 +335,28 @@
    "label": "Your Launcher preset + Tower + LowRider",
    "byTier": {
     "elite": {
-     "win": 70,
-     "rp": 4.14,
-     "score": 392.94,
-     "levels": 8,
-     "skyforge": 98,
-     "board": 97
-    },
-    "strong": {
-     "win": 50,
-     "rp": 3.55,
-     "score": 379.75,
-     "levels": 10,
-     "skyforge": 94,
+     "win": 71,
+     "rp": 4.2,
+     "score": 392.9,
+     "levels": 6,
+     "skyforge": 99,
      "board": 100
     },
-    "average": {
-     "win": 20,
-     "rp": 2,
-     "score": 347.98,
+    "strong": {
+     "win": 43,
+     "rp": 3.4,
+     "score": 377.27,
      "levels": 14.000000000000002,
-     "skyforge": 35,
-     "board": 90
+     "skyforge": 97,
+     "board": 98
+    },
+    "average": {
+     "win": 14,
+     "rp": 1.84,
+     "score": 354.35,
+     "levels": 16,
+     "skyforge": 34,
+     "board": 92
     }
    }
   },
@@ -306,28 +364,28 @@
    "label": "Your Tower preset + Launcher + LowRider",
    "byTier": {
     "elite": {
-     "win": 65,
-     "rp": 4.67,
-     "score": 382.68,
-     "levels": 82,
+     "win": 64,
+     "rp": 4.56,
+     "score": 381.8,
+     "levels": 76,
      "skyforge": 90,
-     "board": 100
-    },
-    "strong": {
-     "win": 48,
-     "rp": 3.45,
-     "score": 376.78,
-     "levels": 9,
-     "skyforge": 92,
      "board": 98
     },
+    "strong": {
+     "win": 39,
+     "rp": 3.18,
+     "score": 373.86,
+     "levels": 9,
+     "skyforge": 90,
+     "board": 99
+    },
     "average": {
-     "win": 23,
-     "rp": 2.67,
-     "score": 360.97,
+     "win": 17,
+     "rp": 2.3,
+     "score": 349.2,
      "levels": 0,
-     "skyforge": 99,
-     "board": 97
+     "skyforge": 93,
+     "board": 86
     }
    }
   }

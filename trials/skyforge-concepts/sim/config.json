@@ -198,6 +198,37 @@
    "defense_sensitivity": 1,
    "description": "SF7 Rocker Tray (concept estimate)"
   },
+  "SF8": {
+   "base": "tower_launcher",
+   "height": "tall",
+   "stow_height_in": 42,
+   "geometry": "opposite",
+   "capacity": 4,
+   "tasks": {
+    "G1": null,
+    "G2": [
+     0.8,
+     0.35,
+     0.95
+    ],
+    "G3": [
+     1,
+     0.35,
+     0.95
+    ],
+    "VG": [
+     0.9,
+     0.45,
+     0.85
+    ]
+   },
+   "endgame": [
+    "hang"
+   ],
+   "hang_s": 4.5,
+   "complexity": 0.7,
+   "description": "SF8 Dunk Mast (concept estimate)"
+  },
   "SF3_noFork": {
    "base": "tower",
    "height": "tall",
@@ -250,6 +281,37 @@
    "complexity": 0.45,
    "defense_sensitivity": 1,
    "description": "SF1 control: your short-launcher VG accuracy (0.78)"
+  },
+  "SF8_noDunk": {
+   "base": "tower_launcher",
+   "height": "tall",
+   "stow_height_in": 42,
+   "geometry": "opposite",
+   "capacity": 4,
+   "tasks": {
+    "G1": null,
+    "G2": [
+     0.8,
+     0.45,
+     0.93
+    ],
+    "G3": [
+     1,
+     0.45,
+     0.93
+    ],
+    "VG": [
+     0.9,
+     0.45,
+     0.85
+    ]
+   },
+   "endgame": [
+    "hang"
+   ],
+   "hang_s": 4.5,
+   "complexity": 0.7,
+   "description": "SF8 control: SF6 trapdoor time and accuracy (no dunk bonus)"
   }
  },
  "robots": {
@@ -358,6 +420,21 @@
    "tier": "average",
    "endgame": "hang"
   },
+  "SF8_elite": {
+   "archetype": "SF8",
+   "tier": "elite",
+   "endgame": "hang"
+  },
+  "SF8_strong": {
+   "archetype": "SF8",
+   "tier": "strong",
+   "endgame": "hang"
+  },
+  "SF8_average": {
+   "archetype": "SF8",
+   "tier": "average",
+   "endgame": "hang"
+  },
   "SF3_noFork_elite": {
    "archetype": "SF3_noFork",
    "tier": "elite",
@@ -385,6 +462,21 @@
   },
   "SF1_lowShot_average": {
    "archetype": "SF1_lowShot",
+   "tier": "average",
+   "endgame": "hang"
+  },
+  "SF8_noDunk_elite": {
+   "archetype": "SF8_noDunk",
+   "tier": "elite",
+   "endgame": "hang"
+  },
+  "SF8_noDunk_strong": {
+   "archetype": "SF8_noDunk",
+   "tier": "strong",
+   "endgame": "hang"
+  },
+  "SF8_noDunk_average": {
+   "archetype": "SF8_noDunk",
    "tier": "average",
    "endgame": "hang"
   },
@@ -525,6 +617,21 @@
    "Tower",
    "LowRider"
   ],
+  "SF8 elite": [
+   "SF8_elite",
+   "Tower",
+   "LowRider"
+  ],
+  "SF8 strong": [
+   "SF8_strong",
+   "Tower",
+   "LowRider"
+  ],
+  "SF8 average": [
+   "SF8_average",
+   "Tower",
+   "LowRider"
+  ],
   "SF3_noFork elite": [
    "SF3_noFork_elite",
    "Launcher",
@@ -552,6 +659,21 @@
   ],
   "SF1_lowShot average": [
    "SF1_lowShot_average",
+   "Tower",
+   "LowRider"
+  ],
+  "SF8_noDunk elite": [
+   "SF8_noDunk_elite",
+   "Tower",
+   "LowRider"
+  ],
+  "SF8_noDunk strong": [
+   "SF8_noDunk_strong",
+   "Tower",
+   "LowRider"
+  ],
+  "SF8_noDunk average": [
+   "SF8_noDunk_average",
    "Tower",
    "LowRider"
   ],
@@ -677,6 +799,18 @@
    "REF Tower+Launcher+LowRider"
   ],
   [
+   "SF8 elite",
+   "REF Tower+Launcher+LowRider"
+  ],
+  [
+   "SF8 strong",
+   "REF Tower+Launcher+LowRider"
+  ],
+  [
+   "SF8 average",
+   "REF Tower+Launcher+LowRider"
+  ],
+  [
    "SF3_noFork elite",
    "REF Tower+Launcher+LowRider"
   ],
@@ -698,6 +832,18 @@
   ],
   [
    "SF1_lowShot average",
+   "REF Tower+Launcher+LowRider"
+  ],
+  [
+   "SF8_noDunk elite",
+   "REF Tower+Launcher+LowRider"
+  ],
+  [
+   "SF8_noDunk strong",
+   "REF Tower+Launcher+LowRider"
+  ],
+  [
+   "SF8_noDunk average",
    "REF Tower+Launcher+LowRider"
   ],
   [

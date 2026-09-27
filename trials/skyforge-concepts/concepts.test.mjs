@@ -4,8 +4,8 @@ import { existsSync, readFileSync } from 'node:fs';
 import { CONCEPTS } from './robots.mjs';
 import { TASKS, scene, matrix } from './tasks.mjs';
 import { GOALS, VG, BOARD, LIMITS, IN, insideHexagon } from './field.mjs';
-import { flight, solveSpeed, collect, heightOf, extensionBeyondPerimeter } from './geometry.mjs';
-import { SF5, SF6, SF7, tunnelFor, sf7Pose } from './magazine.mjs';
+import { flight, solveSpeed, collect, heightOf, extensionBeyondPerimeter, passesThroat, evaluateThroatShot } from './geometry.mjs';
+import { SF5, SF6, SF7, SF8, DUNK, tunnelFor, sf7Pose, sf8Pose } from './magazine.mjs';
 
 const gameDir = process.env.SKYFORGE_GAME_DIR ?? 'C:/Users/lidor/FRC/2026/mocked_game';
 const fieldHtml = `${gameDir}/Steampunk_SKYFORGE_Field_3D.html`;
@@ -39,12 +39,12 @@ test('unsupported capabilities are omitted rather than faked', () => {
   assert.throws(() => scene('SF3', 'vgZone', 'aim'), /does not support/);
   assert.throws(() => scene('SF2', 'hang', 'hang'), /does not support/);
   assert.throws(() => scene('SF1', 'g3', 'engage'), /does not support/);
-  for (const [id, task] of [['SF5', 'g1'], ['SF5', 'g3'], ['SF6', 'g1'], ['SF6', 'g2'], ['SF7', 'g1'], ['SF7', 'g3'], ['SF7', 'vgFender']]) assert.throws(() => scene(id, task, 'engage'), /does not support/);
+  for (const [id, task] of [['SF5', 'g1'], ['SF5', 'g3'], ['SF6', 'g1'], ['SF6', 'g2'], ['SF7', 'g1'], ['SF7', 'g3'], ['SF7', 'vgFender'], ['SF8', 'g1']]) assert.throws(() => scene(id, task, 'engage'), /does not support/);
   for (const item of CONCEPTS) for (const task of item.tasks) assert.ok(TASKS[task], `${item.id} declares unknown task ${task}`);
 });
 
 test('placing concepts put the cube over the throat centre above the rim', () => {
-  const cases = [['SF3', 'g1'], ['SF3', 'g2'], ['SF3', 'g3'], ['SF4', 'g1'], ['SF4', 'g2'], ['SF4', 'g3'], ['SF5', 'g2'], ['SF6', 'g3'], ['SF7', 'g2']];
+  const cases = [['SF3', 'g1'], ['SF3', 'g2'], ['SF3', 'g3'], ['SF4', 'g1'], ['SF4', 'g2'], ['SF4', 'g3'], ['SF5', 'g2'], ['SF6', 'g3'], ['SF7', 'g2'], ['SF8', 'g2'], ['SF8', 'g3']];
   for (const [id, task] of cases) {
     const built = scene(id, task, 'engage');
     for (const label of ['Cube over THROAT', 'Cube bottom above RIM', 'No robot part inside the goal body']) {
@@ -76,10 +76,38 @@ test('SF5/SF6 geometry is the one the feasibility search found', { skip: !exists
     assert.ok(Math.hypot(pose.front[0] - target.front[0], pose.front[1] - target.front[1]) < 1 && Math.abs(pose.axis - target.axis) < 0.1, `SF7 at crank ${crank}`);
   }
   assert.equal(feas.singlePivot.every(frame => frame.trayLevel.every(row => !row.legalStartAngles) && frame.columnDrop.every(row => !row.legalStartAngles)), true, 'no single pin joint has a legal start');
+  // SF8 is the best dunk-mast layout at its load angle; loading in line with the tunnel has no legal layout.
+  const mast = feas.dunkMast.chosen.best;
+  assert.deepEqual([mast.pivotOnTray.along, mast.stow, mast.movingStages, mast.hangOk], [SF8.pivotAlong, SF8.start, 1, true]);
+  assert.ok(Math.abs(mast.pivotOnTray.across - SF8.across) < 0.1 && Math.abs(mast.mastX - SF8.mastX) < 0.1, 'SF8 axle and mast line');
+  assert.equal(feas.dunkMast.byLoadAxis.find(row => row.loadAxis === 130).count, 0, 'no in-line dunk mast on the 30 in frame');
+  for (const [h, rim] of [[SF8.g2, GOALS.G2near.rim], [SF8.g3, GOALS.G3.rim]]) {
+    const { front } = sf8Pose(h, 180);
+    assert.ok(Math.abs(front[0] - (SF8.L / 2 + 82.55 + 12 * IN + 4.5 * IN)) < 0.01 && Math.abs(front[1] - (rim + DUNK.goalGap + 4.5 * IN)) < 0.01, `SF8 level pose at rim ${rim}`);
+  }
+  // No practical shot (20-70 deg) enters the GOAL 3 THROAT cleanly from any tabulated distance.
+  assert.ok(feas.throatShots.rows.filter(row => row.goal === 'G3').every(row => row.practical === null), 'GOAL 3 practical shots');
   // The SF5 load pose puts the column mouth on the tunnel's cube line; the 15 mm grid tolerance only shortens the gap.
   const bottom = scene('SF5', 'floor', 'intake').root.userData.joints.bottom, target = tunnelFor(SF5.L).loadBottom;
   const d = [bottom[0] - target[0], bottom[1] - target[1]], u = [Math.cos(130 * Math.PI / 180), Math.sin(130 * Math.PI / 180)];
   assert.ok(Math.abs(d[0] * u[1] - d[1] * u[0]) <= 3 && Math.abs(d[0] * u[0] + d[1] * u[1]) <= 16, `SF5 mouth ${bottom} vs ${target}`);
+});
+
+test('SF8 dunk: wheels clear the rim and drive the cube past the straight THROAT section', () => {
+  assert.ok(DUNK.driveDepth > 6 * IN, `drive depth ${DUNK.driveDepth}`);
+  for (const task of ['g2', 'g3']) for (const phase of ['engage', 'release']) {
+    const check = scene('SF8', task, phase).checks.find(entry => entry.label === 'Dunk wheels clear the rim edge');
+    assert.equal(check.status, 'pass', `${task}/${phase}: ${check.detail}`);
+  }
+});
+
+test('THROAT entry test: a centred drop passes, 30 mm off does not, and the nominal lob is centred', () => {
+  const goal = GOALS.G2near, above = [goal.center[0], goal.center[1], goal.rim + 400];
+  assert.ok(passesThroat(above, [-1, 0], -Math.PI / 2 + 1e-6, 100, goal));
+  assert.ok(!passesThroat(above, [-1, 0], -Math.PI / 2 + 1e-6, 100, goal, 30));
+  const shot = evaluateThroatShot({ position: [goal.center[0] + 500, goal.center[1], 1900], horizontal: [-1, 0], alpha: 70 * Math.PI / 180, goal });
+  assert.ok(shot.feasible && shot.speedBandPct[0] < 0 && shot.speedBandPct[1] > 0);
+  assert.ok(Math.abs(shot.lateralBand[1] - 25) <= 1, `lateral window ${shot.lateralBand}`);
 });
 
 test('SF1 barrel release anchor matches the analytic pivot geometry', () => {

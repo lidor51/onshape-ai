@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { C, group, box, beam, cylinder, rollerY, plateXZ, beltXZ, cube, chassis, reserve, motor } from './parts.mjs';
 import { BOARD, CUBE } from './field.mjs';
-import { SF5, SF6, SF7, STANDARD_FRAME, TRAY, tunnelFor, sf5Pose, sf5Reach, sf6Pose, sf7Pose, pointOn } from './magazine.mjs';
+import { SF5, SF6, SF7, SF8, DUNK, STANDARD_FRAME, TRAY, tunnelFor, sf5Pose, sf5Reach, sf6Pose, sf7Pose, sf8Pose, pointOn } from './magazine.mjs';
 
 const deg = Math.PI / 180;
 const HALF = 114.3;
@@ -475,6 +475,89 @@ function rockerTray(pose, alliance) {
   return root;
 }
 
+// ---------------------------------------------------------------- SF8 DUNK MAST
+// Vertical 2-stage mast; the tray hangs on two stub axles near its rear corner. Level over the THROAT, slot 1's
+// omni wheels (driven across the tray, free along it) push the cube straight down; nothing enters the THROAT.
+// The mast rails cannot be tied across the top because the tray swings between them; they are tied at the base
+// and by side gussets.
+export const SF8_HOOKS = { x: 40, dir: 1 };
+function dunkMast(pose, alliance) {
+  const { L, W } = SF8;
+  const root = new THREE.Group();
+  root.name = 'SF8 Dunk Mast';
+  chassis(root, { L, W, alliance });
+  reserve(root, 'electronics bay (reserved volume)', [185, -265, 140], [210, 90, 100]);
+  reserve(root, 'battery (reserved volume)', [165, 265, 130], [180, 76, 168], C.battery);
+  magazineIntake(root, L, pose, 'tray');
+  goalFork(root, { x: L / 2 - 29, deployed: pose.fork });
+  const h = pose.h ?? SF8.load, axis = pose.tilt ?? SF8.loadAxis;
+  const { front } = sf8Pose(h, axis), x = SF8.mastX;
+  const e = Math.min(780, Math.max(0, h + SF8.carriage.up - 1040));
+  for (const side of [1, -1]) {
+    const tag = side > 0 ? 'L' : 'R';
+    box(root, `mast fixed rail ${tag}`, [x, side * 215, 550], [50.8, 25.4, 980], C.rail);
+    box(root, `mast moving stage ${tag}`, [x, side * 192, 550 + e], [38, 20, 980], C.frame);
+    plateXZ(root, `mast side gusset ${tag}`, side * 232, [[x - 200, 70], [x + 200, 70], [x + 25, 700], [x - 25, 700]], 6, C.plate);
+    box(root, `carriage block ${tag}`, [x, side * 186, h + (SF8.carriage.up - SF8.carriage.down) / 2], [70, 26, SF8.carriage.up + SF8.carriage.down], C.copper);
+    motor(root, `mast motor ${tag}`, [x + 110, side * 180, 100], [x + 110, side * 180, 200], 30);
+  }
+  box(root, 'mast base crossbar', [x, 0, 60], [50.8, 455, 25.4], C.rail);
+  box(root, 'moving stage base crossbar', [x, 0, 85 + e], [38, 404, 20], C.frame);
+  cylinder(root, 'mast cable spool', [x + 110, -150, 230], [x + 110, 150, 230], 20, C.brass);
+  // Tilt drive on the carriage, in front of the moving stage and outboard of the tray plates; chain to the stub axle.
+  box(root, 'tray tilt gearbox (on carriage)', [x + 60, 200, h - 110], [60, 26, 60], C.gearbox);
+  motor(root, 'tray tilt motor (on carriage)', [x + 60, 200, h - 140], [x + 60, 200, h - 220], 26);
+  beltXZ(root, 'tray tilt chain', 200, [x + 60, h - 110], [x, h], 10, 10, C.belt);
+  const tray = dunkTray(root, 'hinged dunk tray', front, axis, pose);
+  const seats = railHooks(root, { x: SF8_HOOKS.x, dir: SF8_HOOKS.dir, ys: [318, -318], state: pose.hooks ?? 'stowed', lift: pose.lift ?? 0 });
+  root.userData = {
+    L, W, joints: { h, tilt: axis, front, pivot: [x, h] },
+    anchors: { ...tray.anchors, hookSeats: seats, railLocalX: SF8_HOOKS.x + SF8_HOOKS.dir * 48, forkInner: 316 - 6 },
+  };
+  return root;
+}
+
+// SF6 tray without a trapdoor: slot 1 has two rows of omni wheels per side (drive across the tray, free along it), and
+// the kicker is a top + bottom flywheel pair geared together so the cube leaves without spin.
+function dunkTray(root, name, front, axis, pose) {
+  const tray = magazineFrame(root, name, front, axis);
+  const { along: pa, across: pc } = SF8.pivotOnTray, rows = [DUNK.lowerAcross, DUNK.upperAcross];
+  for (const side of [1, -1]) {
+    const tag = side > 0 ? 'L' : 'R';
+    plateXZ(tray, `tray side plate ${tag}`, side * 172, [[-134, TRAY.front], [150, TRAY.front], [150, 870], [-134, 870]], 6, C.polycarb, { opacity: 0.45 });
+    plateXZ(tray, `kicker side plate ${tag}`, side * 172, [[-190, 870], [190, 870], [190, 950], [-190, 950]], 6, C.plate);
+    cylinder(tray, `tilt stub axle ${tag}`, [pc, side * 175, pa], [pc, side * 199, pa], 14, C.shaft);
+    for (const across of rows) {
+      cylinder(tray, `dunk wheel shaft ${tag} ${across > 0 ? 'upper' : 'lower'}`, [across, side * DUNK.y, TRAY.front + 4], [across, side * DUNK.y, 196], 6, C.shaft);
+      for (const along of DUNK.along) cylinder(tray, `dunk omni wheel ${tag} ${across > 0 ? 'upper' : 'lower'} ${along}`, [across, side * DUNK.y, along - 12], [across, side * DUNK.y, along + 12], DUNK.radius, C.rollerAlt);
+    }
+    box(tray, `dunk row link belt ${tag}`, [(rows[0] + rows[1]) / 2, side * DUNK.y, 205], [rows[1] - rows[0] + 30, 26, 8], C.belt);
+    box(tray, `dunk right-angle gearbox ${tag}`, [rows[0], side * 185, 205], [40, 20, 40], C.gearbox);
+    motor(tray, `dunk wheel motor ${tag}`, [rows[0], side * 195, 205], [rows[0], side * 250, 205], 22);
+  }
+  box(tray, 'tray floor plate (slots 2-4)', [-130, 0, (CUBE + 870) / 2], [8, 250, 870 - CUBE], C.polycarb);
+  beltXZ(tray, 'floor belt (slots 2-4)', 0, [-121, 250], [-121, 860], 6, 200);
+  beltXZ(tray, 'compliant top belt (all slots)', 0, [130, 70], [130, 860], 14, 200);
+  motor(tray, 'belt motor (floor + top belt)', [130, 120, 480], [130, 168, 480], 24);
+  rollerY(tray, 'kicker top flywheel', 150, 910, 110, 36, C.brass, { segments: 2 });
+  rollerY(tray, 'kicker bottom flywheel', -150, 910, 110, 36, C.brass, { segments: 2 });
+  box(tray, 'kicker gear train (counter-rotating pair)', [0, 150, 910], [340, 12, 50], C.gearbox);
+  motor(tray, 'kicker motor', [0, 178, 910], [0, 238, 910], 26);
+  const shift = pose.shift ?? 0;
+  for (let index = 0; index < (pose.tray ?? 0); index++) {
+    const drop = index === 0 ? pose.dunk ?? 0 : 0;
+    cube(tray, index === 0 && drop ? 'cube being dunked (slot 1)' : `cube in tray slot ${index + 1}`, [-drop, 0, CUBE / 2 + index * CUBE + shift]);
+  }
+  const release = pointOn(front, axis, 910 + CUBE / 2, 0);
+  return {
+    group: tray,
+    anchors: {
+      release: [{ lane: 0, position: xz(release), direction: [Math.cos(axis * deg), 0, Math.sin(axis * deg)], angle: 180 - axis }],
+      frontCube: xz(pointOn(front, axis, CUBE / 2, 0)),
+    },
+  };
+}
+
 export const CONCEPTS = [
   {
     id: 'SF1', name: 'Brass Cannon', build: brassCannon, frame: STANDARD_FRAME, hooks: { x: -40, dir: 1 },
@@ -552,6 +635,24 @@ export const CONCEPTS = [
     tasks: ['start', 'floor', 'safe', 'g2', 'vgZone', 'hang'],
     complexity: { motors: 8, positioningDof: 4, handoffs: 1, stateChanges: 5, movingCables: 'belt and kicker motors and the trapdoor servo ride on the tray (cables cross one linkage joint)', service: 'Tray lifts off its four stub axles; the crank drive stays on the chassis' },
     sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 42, geometry: 'opposite', capacity: 4, tasks: { G1: null, G2: [0.7, 0.45, 0.93], G3: null, VG: [0.8, 0.45, 0.8] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.5, defense_sensitivity: 1.0 },
+  },
+  {
+    id: 'SF8', name: 'Dunk Mast', build: dunkMast, frame: { L: SF8.L, W: SF8.W }, hooks: SF8_HOOKS, family: 'magazine',
+    tagline: 'Vertical mast + hinged 4-cube tray: driven omni wheels dunk GOAL 2 and GOAL 3, a two-sided kicker shoots the VERTICAL GOAL',
+    role: 'Your shoot + dunk idea. Pushes each cube down into the GOAL 2 or GOAL 3 THROAT (4 per trip), shoots 4 into the VERTICAL GOAL from the rear, then HANGs. It shoots only at the hexagon: the THROATs are too small to shoot into (see the dunk verdict).',
+    heights: `Starts under 42 in on the standard 30 x 28 in frame, the tray standing behind the mast. The tilt axle rides the mast from ${SF8.start.h} mm at the start to ${Math.round(SF8.g3)} mm at GOAL 3, where the robot is about ${((SF8.g3 - SF8.across + TRAY.kickerTop) / 25.4).toFixed(1)} in tall.`,
+    why: `Level poses over GOAL 2 and GOAL 3 differ only in height, so a vertical mast reaches both with the same tray, fork and depth stop. The tray hangs on stub axles near its rear corner, placed so the loading pose is on the same vertical line. Two rows of omni wheels in slot 1 pinch the cube's side faces and drive it ${Math.round(DUNK.driveDepth)} mm below the rim, past the THROAT's 152 mm straight section, before it leaves them. The pinch also centres the cube: between the tray side plates it would have ${Math.round(172 - 3 - CUBE / 2)} mm of side play against 25 mm of THROAT clearance.`,
+    risks: [
+      `A dunk pushes the tray up. The wheels are ${Math.round(SF8.pivotAlong - CUBE / 2)} mm from the tilt axle, so each 10 N of dunk force needs ${((SF8.pivotAlong - CUBE / 2) / 100).toFixed(1)} N m of hold-down from the tilt drive; it cannot just rest on a level stop.`,
+      'The slot-1 cube is held only by the omni-wheel pinch (no floor), in every tray angle. Pinch force against sliding friction is untested.',
+      'Rule question for the manual: 4.5 says cubes enter a THROAT by being dropped or LAUNCHED. A driven dunk from above should be confirmed (G411 only forbids opponent THROATs).',
+      `The load pose is 4 deg steeper than the 50 deg tunnel (a kink at the handoff); in line, no axle position on the side plate gives a legal start.`,
+      'The mast rails cannot be tied across the top (the tray swings between them); they are tied at the base and by side gussets.',
+      'Tilt, belt, dunk and kicker motors ride the carriage and tray, so their cables move with the mast.',
+      'No GOAL 1: a level tray over the 18 in rim would sit in the stowed intake.'],
+    tasks: ['start', 'floor', 'safe', 'g2', 'g3', 'vgFender', 'vgZone', 'hang'],
+    complexity: { motors: 11, positioningDof: 5, handoffs: 1, stateChanges: 6, movingCables: 'tilt motor on the carriage; belt, 2 dunk and kicker motors on the tray', service: 'Tray lifts off its two stub axles; mast motors at the base' },
+    sim: { base: 'tower_launcher', height: 'tall', stow_height_in: 42, geometry: 'opposite', capacity: 4, tasks: { G1: null, G2: [0.8, 0.35, 0.95], G3: [1.0, 0.35, 0.95], VG: [0.9, 0.45, 0.85] }, endgame: ['hang'], hang_s: 4.5, complexity: 0.7 },
   },
 ];
 
