@@ -25,6 +25,8 @@ models remain failed or incomplete studies, not the architecture to finish by de
 
 - [Team capabilities and COTS preferences](TEAM-PROFILE.md): aluminum/polycarbonate,
   router CNC, manual machining, printing, no accurate sheet-metal bending.
+- [NASA RAP Robotics Design Guide digest](../research/nasa-rap-design-guide/README.md):
+  general 2020 rules of thumb filtered for swerve, Kraken, no pneumatics and our router shop.
 - [2025 research index](../research/2025-coral/README.md) and
   [rules audit](../research/2025-coral/rules.md): preserve required bumper protection;
   distinguish a chassis recess from a bumper gap; measure extension from ROBOT PERIMETER.

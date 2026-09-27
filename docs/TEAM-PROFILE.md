@@ -50,6 +50,8 @@ confirmation only when a selected part or operation depends on an unknown.
 - **Motors:** Kraken X60 and X44 are the preferred choices, not a mandate to use
   both. Choose motor/reduction from speed, torque, current, duty cycle and packaging.
   Check applicable 2025 rules/availability or clearly label a modernized retrospective.
+- **Pneumatics:** not used (user, 2026-09-27). Replace two-position actuators with
+  motor-driven mechanisms and count them in the complexity register.
 - **Gearboxes:** prefer in-house designs. Alternatives: REV MAXPlanetary for
   planetary arrangements, or ThriftyBot for cycloidal arrangements. Exact products,
   motor interfaces, ratios and allowed loads must be verified; do not assume

@@ -108,6 +108,9 @@ reports, CAD/binder releases, observed research gaps and two candidate architect
 [The provisional concept decision](research/2025-coral/CONCEPT-DECISION.md) now combines
 the bounded 2025 rule audit, inspected 2056 binder pages, COTS candidates, a functional
 layout and tested local sizing. It is a research result, not a new completed CAD subsystem.
+[The NASA RAP Robotics Design Guide digest](research/nasa-rap-design-guide/README.md)
+filters that 2020 general guide for 1577: timeless rules kept, deprecated motors,
+controllers, pneumatics and non-swerve drives flagged, shop-incompatible methods translated.
 
 ## Open The Outputs
 
